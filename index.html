@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en-NZ">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Stop 8274">
+<meta name="theme-color" content="#0e1317">
+<title>Stop 8274</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<style>
+:root{color-scheme:dark;--bg:#0e1317;--panel:#161d23;--line:#25303a;--text:#e8edf0;--muted:#8a98a3;--accent:#5eead4;--ok:#5eead4;--mid:#fbbf24;--bad:#f87171}
+*{box-sizing:border-box}
+html,body{margin:0;height:100%;background:var(--bg);color:var(--text);font:16px/1.4 -apple-system,BlinkMacSystemFont,"SF Pro Text",system-ui,sans-serif}
+body{display:grid;grid-template-columns:minmax(340px,42%) 1fr;height:100%;padding:env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left)}
+@media(max-width:760px){body{grid-template-columns:1fr;grid-template-rows:auto 38vh;height:auto;min-height:100%}}
+aside{padding:20px;overflow:auto;border-right:1px solid var(--line)}
+header{display:flex;justify-content:space-between;align-items:baseline;gap:12px;margin-bottom:4px}
+h1{font-size:28px;margin:0;font-weight:700;letter-spacing:-.02em}
+.sub{color:var(--muted);font-size:14px;margin:0 0 16px}
+button{font:inherit;color:var(--text);background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:8px 14px;min-height:44px}
+button:focus-visible,input:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.bus{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:16px;margin-bottom:12px;display:grid;grid-template-columns:auto 1fr auto;gap:4px 14px;align-items:center}
+.route{font-size:30px;font-weight:800;letter-spacing:-.02em;grid-row:span 2}
+.eta{font-size:34px;font-weight:700;text-align:right;font-variant-numeric:tabular-nums;grid-row:span 2}
+.eta small{font-size:15px;color:var(--muted);font-weight:500;margin-left:3px}
+.dist{color:var(--muted);font-size:14px}
+.crowd{grid-column:1/-1;margin-top:10px;display:flex;align-items:center;gap:12px}
+.meter{display:flex;gap:4px;flex:1}
+.meter i{flex:1;height:10px;border-radius:5px;background:var(--line)}
+.crowd span{font-size:14px;min-width:130px;text-align:right}
+.note{color:var(--muted);font-size:14px;padding:16px;border:1px dashed var(--line);border-radius:14px}
+.err{color:var(--bad);font-size:14px;padding:12px 14px;border:1px solid #5b2a2a;border-radius:12px;margin-bottom:12px;white-space:pre-wrap}
+details{margin-top:14px;color:var(--muted);font-size:13px}summary{min-height:44px;display:flex;align-items:center}pre{white-space:pre-wrap;word-break:break-all;background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:10px;margin:0}
+#status{color:var(--muted);font-size:13px;margin-top:8px}
+dialog{background:var(--panel);color:var(--text);border:1px solid var(--line);border-radius:16px;padding:20px;width:min(440px,92vw)}
+dialog::backdrop{background:rgba(0,0,0,.6)}
+label{display:block;font-size:14px;color:var(--muted);margin:12px 0 4px}
+input{width:100%;font:inherit;color:var(--text);background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:10px 12px;min-height:44px}
+.row{display:flex;gap:8px;justify-content:flex-end;margin-top:16px}
+#map{height:100%;background:#0b0f13}
+.leaflet-container{background:#0b0f13;font:inherit}
+.pin{width:18px;height:18px;border-radius:50%;background:var(--accent);border:3px solid #0e1317;box-shadow:0 0 0 2px var(--accent)}
+.bpin{background:#e8edf0;color:#0e1317;font-weight:800;font-size:12px;border-radius:8px;padding:3px 7px;border:2px solid #0e1317;white-space:nowrap;width:auto!important;height:auto!important}
+</style>
+</head>
+<body>
+<aside>
+  <header><h1 id="title">Stop 8274</h1><button id="open">Settings</button></header>
+  <p class="sub" id="stopname">Looking up stop…</p>
+  <div id="err"></div>
+  <div id="list"></div>
+  <div id="status"></div>
+  <details id="diag"><summary>Diagnostics</summary></details>
+</aside>
+<div id="map" role="img" aria-label="Map of the bus stop and approaching buses"></div>
+
+<dialog id="dlg">
+  <h2 style="margin:0 0 4px;font-size:20px">Settings</h2>
+  <p class="sub" style="margin:0">Saved only on this iPad.</p>
+  <label for="key">AT API key (from dev-portal.at.govt.nz)</label>
+  <input id="key" type="password" autocomplete="off" autocapitalize="off" spellcheck="false">
+  <label for="stop">Stop code</label>
+  <input id="stop" inputmode="numeric" value="8274">
+  <label for="routes">Services to show (comma separated, blank for all)</label>
+  <input id="routes" value="24R,24B" autocapitalize="characters">
+  <label for="mapkey">CARTO map key (from carto.com/basemaps/apikey)</label>
+  <input id="mapkey" type="password" autocomplete="off" autocapitalize="off" spellcheck="false">
+  <label for="base">API address</label>
+  <input id="base" value="https://api.at.govt.nz" autocapitalize="off" spellcheck="false">
+  <div class="row"><button id="cancel" type="button">Cancel</button><button id="save" type="button" style="border-color:var(--accent);color:var(--accent)">Save</button></div>
+</dialog>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script>
+const $=id=>document.getElementById(id);
+const store={get(k,d){try{return localStorage.getItem(k)??d}catch(e){return d}},set(k,v){try{localStorage.setItem(k,v)}catch(e){}}};
+const cfg=()=>({key:store.get('key',''),mapkey:store.get('mapkey',''),stop:store.get('stop','8274'),routes:store.get('routes','24R,24B'),base:store.get('base','https://api.at.govt.nz').replace(/\/$/,'')});
+const OCC=[['Empty',1],['Plenty of seats',1],['Few seats',2],['Standing room only',3],['Very crowded',4],['Full',4],['Not taking passengers',4]];
+const COL=['#5eead4','#5eead4','#fbbf24','#fb923c','#f87171'];
+let stopPos=null,map,stopMarker,busLayer,timer,tiles;
+
+function initMap(){
+  map=L.map('map',{zoomControl:true}).setView([-36.8485,174.7633],13);
+  busLayer=L.layerGroup().addTo(map);
+  setTiles();
+}
+function setTiles(){
+  if(tiles)tiles.remove();
+  const k=cfg().mapkey;
+  tiles=L.tileLayer('https://basemaps.cartocdn.com/rastertiles/dark_all/{z}/{x}/{y}.png'+(k?'?key='+encodeURIComponent(k):''),{attribution:'&copy; OpenStreetMap, &copy; CARTO',maxZoom:19}).addTo(map);
+  tiles.bringToBack();
+}
+function km(a,b,c,d){const r=Math.PI/180,x=(c-a)*r,y=(d-b)*r,h=Math.sin(x/2)**2+Math.cos(a*r)*Math.cos(c*r)*Math.sin(y/2)**2;return 12742*Math.asin(Math.sqrt(h))}
+const fmtDist=k=>k<1?Math.round(k*10)*100+' m away':k.toFixed(1)+' km away';
+const arr=x=>x==null?[]:Array.isArray(x)?x:[x];
+const D={};let feedPath=null,stopTimes=null,stTry=0;
+const FEEDS=['/v2/public/realtime','/realtime/legacy','/public/realtime'];
+async function api(path){
+  const c=cfg();
+  const r=await fetch(c.base+path,{headers:{'Ocp-Apim-Subscription-Key':c.key}});
+  if(!r.ok)throw new Error('AT returned '+r.status+' for '+path);
+  return r.json();
+}
+const entities=j=>(j&&j.response&&(j.response.entity||j.response.entities))||(j&&(j.entity||j.entities))||[];
+async function first(paths,ok){
+  let last;
+  for(const p of paths){
+    try{const j=await api(p);if(!ok||ok(j)){D['worked: '+p]='yes';return [p,j]}D['empty: '+p]='no data'}
+    catch(e){last=e;D['failed: '+p]=e.message}
+  }
+  throw last||new Error('No data came back from AT. See Diagnostics.');
+}
+const rows=j=>arr(j.data||j.response);
+const secs=t=>{const m=/^(\d+):(\d+):(\d+)/.exec(t||'');return m?+m[1]*3600+ +m[2]*60+ +m[3]:null};
+function aklNow(){
+  const f=new Intl.DateTimeFormat('en-NZ',{timeZone:'Pacific/Auckland',hourCycle:'h23',year:'numeric',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',second:'2-digit'});
+  const p=Object.fromEntries(f.formatToParts(new Date()).map(x=>[x.type,x.value]));
+  return {utc:Date.UTC(+p.year,+p.month-1,+p.day),sec:+p.hour*3600+ +p.minute*60+ +p.second};
+}
+
+async function findStop(){
+  const c=cfg(),code=encodeURIComponent(c.stop);
+  const [p,j]=await first(['/v2/gtfs/stops/stopCode/'+code,'/gtfs/v3/stops?filter[stop_code]='+code],j=>rows(j).length);
+  const d=rows(j)[0],a=d.attributes||d;
+  stopPos={id:a.stop_id||d.id,lat:+a.stop_lat,lon:+a.stop_lon,name:a.stop_name};
+  D.stop=stopPos.id+' ('+stopPos.name+')';
+  $('stopname').textContent=(stopPos.name||'')+' · stop '+c.stop;
+  if(stopMarker)stopMarker.remove();
+  stopMarker=L.marker([stopPos.lat,stopPos.lon],{icon:L.divIcon({className:'',html:'<div class="pin"></div>',iconSize:[18,18]})}).addTo(map).bindTooltip('Stop '+c.stop);
+  map.setView([stopPos.lat,stopPos.lon],15);
+}
+async function loadStopTimes(){
+  const [p,j]=await first(['/v2/gtfs/stopTimes/stopId/'+encodeURIComponent(stopPos.id)],j=>rows(j).length);
+  stopTimes={};
+  rows(j).forEach(r=>{const a=r.attributes||r;if(a.trip_id)stopTimes[String(a.trip_id).split('-')[0]]=a});
+  D['scheduled stops at this stop']=Object.keys(stopTimes).length;
+}
+function showDiag(){$('diag').innerHTML='<summary>Diagnostics</summary><pre>'+Object.entries(D).map(([k,v])=>k+': '+v).join('\n').replace(/</g,'&lt;')+'</pre>'}
+
+async function refresh(){
+  const c=cfg(),err=$('err');
+  err.innerHTML='';
+  if(!c.key){$('list').innerHTML='<div class="note">Add your free Auckland Transport API key in Settings to see live buses.</div>';return}
+  try{
+    if(!stopPos||stopPos.code!==c.stop){await findStop();stopPos.code=c.stop;stopTimes=null;stTry=0}
+    const [fp,fj]=await first(feedPath?[feedPath]:FEEDS,j=>entities(j).length);
+    feedPath=fp;
+    const ents=entities(fj),trips={};
+    ents.forEach(e=>{
+      const t=e.trip_update,v=e.vehicle,td=(t&&t.trip)||(v&&v.trip),id=td&&td.trip_id;
+      if(!id)return;
+      const o=trips[id.split('-')[0]]||(trips[id.split('-')[0]]={});
+      if(t)o.tu=t;if(v)o.v=v;if(!o.td||td.route_id)o.td=td;
+    });
+    if(!stopTimes&&Date.now()-stTry>300000){
+      stTry=Date.now();
+      try{await loadStopTimes()}catch(e){D['stop times']='unavailable: '+e.message}
+    }
+    const want=c.routes.split(',').map(s=>s.trim().toUpperCase()).filter(Boolean);
+    const A=aklNow(),now=Date.now()/1000,mid=now-A.sec,out=[];
+    let onRoute=0;
+    Object.entries(trips).forEach(([k,o])=>{
+      const route=String((o.td&&o.td.route_id)||'').split('-')[0].toUpperCase();
+      if(want.length&&!want.includes(route))return;
+      if(o.td&&o.td.schedule_relationship===3)return;
+      onRoute++;
+      const pos=o.v&&o.v.position,dist=pos?km(stopPos.lat,stopPos.lon,+pos.latitude,+pos.longitude):null;
+      if(!stopTimes){if(dist!=null&&dist<8)out.push({route,mins:null,v:o.v,dist});return}
+      const st=stopTimes[k];if(!st)return;
+      const sd=o.td.start_date,off=/^\d{8}$/.test(sd||'')?(Date.UTC(+sd.slice(0,4),+sd.slice(4,6)-1,+sd.slice(6,8))-A.utc)/1000:0;
+      const s0=secs(st.arrival_time||st.departure_time);if(s0==null)return;
+      const tu=o.tu||{},su=arr(tu.stop_time_update)[0]||{};
+      if(su.stop_sequence!=null&&st.stop_sequence!=null&&+su.stop_sequence>+st.stop_sequence)return;
+      const delay=tu.delay??(su.arrival&&su.arrival.delay)??(su.departure&&su.departure.delay)??0;
+      const eta=mid+off+s0+delay;
+      if(eta<now-60||eta>now+3600)return;
+      out.push({route,mins:Math.max(0,Math.round((eta-now)/60)),v:o.v,dist});
+    });
+    out.sort((a,b)=>a.mins!=null&&b.mins!=null?a.mins-b.mins:(a.dist??99)-(b.dist??99));
+    Object.assign(D,{'live feed':feedPath,'live items':ents.length,'live trips':Object.keys(trips).length,['trips on '+(want.join('/')||'all routes')]:onRoute,'shown':out.length,'mode':stopTimes?'scheduled time + live delay':'live positions only (no timetable)'});
+    showDiag();
+    busLayer.clearLayers();
+    $('list').innerHTML=out.length?out.slice(0,6).map(b=>{
+      let dist='Location not reported',occ='No crowding data',lvl=0;
+      if(b.v&&b.v.position){
+        const p=b.v.position;
+        dist=fmtDist(b.dist);
+        L.marker([+p.latitude,+p.longitude],{icon:L.divIcon({className:'',html:'<div class="bpin">'+b.route+'</div>'})}).addTo(busLayer);
+      }
+      if(b.v&&b.v.occupancy_status!=null){
+        const o=b.v.occupancy_status,i=typeof o==='number'?o:['EMPTY','MANY_SEATS_AVAILABLE','FEW_SEATS_AVAILABLE','STANDING_ROOM_ONLY','CRUSHED_STANDING_ROOM_ONLY','FULL','NOT_ACCEPTING_PASSENGERS'].indexOf(o);
+        if(OCC[i]){occ=OCC[i][0];lvl=OCC[i][1]}
+      }
+      const segs=[1,2,3,4].map(n=>'<i style="background:'+(n<=lvl?COL[lvl]:'')+'"></i>').join('');
+      const eta=b.mins==null?'—':(b.mins<1?'Due':b.mins+'<small>min</small>');
+      return '<div class="bus"><div class="route">'+b.route+'</div><div class="eta">'+eta+'</div><div class="dist">'+dist+'</div><div class="crowd"><div class="meter" aria-hidden="true">'+segs+'</div><span>'+occ+'</span></div></div>';
+    }).join('')+(stopTimes?'':'<div class="note">No timetable for this stop was available, so these are nearby buses, not confirmed arrivals. Direction is not checked.</div>'):'<div class="note">No '+(want.join(' or ')||'')+' buses are due at this stop in the next hour. Open Diagnostics below if you expected one.</div>';
+    $('status').textContent='Updated '+new Date().toLocaleTimeString('en-NZ',{hour:'numeric',minute:'2-digit',second:'2-digit'})+' · refreshes every 20 seconds';
+  }catch(e){
+    const cors=e instanceof TypeError?'\n\nThe request was blocked before AT replied. This usually means AT does not allow calls straight from a browser (CORS), or the API address or key is wrong. A small relay is the fix; ask Claude to add one.':'';
+    err.innerHTML='<div class="err">'+String(e.message).replace(/</g,'&lt;')+cors.replace(/</g,'&lt;')+'</div>';
+    showDiag();
+  }
+}
+
+function start(){clearInterval(timer);stopPos=null;stopTimes=null;stTry=0;feedPath=null;$('title').textContent='Stop '+cfg().stop;refresh();timer=setInterval(()=>{if(!document.hidden)refresh()},20000)}
+$('open').onclick=()=>{const c=cfg();$('key').value=c.key;$('mapkey').value=c.mapkey;$('stop').value=c.stop;$('routes').value=c.routes;$('base').value=c.base;$('dlg').showModal()};
+$('cancel').onclick=()=>$('dlg').close();
+$('save').onclick=()=>{store.set('key',$('key').value.trim());store.set('mapkey',$('mapkey').value.trim());store.set('stop',$('stop').value.trim()||'8274');store.set('routes',$('routes').value);store.set('base',$('base').value.trim()||'https://api.at.govt.nz');$('dlg').close();setTiles();start()};
+document.addEventListener('visibilitychange',()=>{if(!document.hidden)refresh()});
+initMap();start();
+</script>
+</body>
+</html>
