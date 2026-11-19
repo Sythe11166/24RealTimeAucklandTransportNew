@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en-NZ">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Today">
+<meta name="theme-color" content="#071122">
+<title>Today · Auckland</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<style>
+:root{color-scheme:dark;--t:#eaf1fb;--m:#8fa3c0;--ac:#7dd3fc;--up:#6ee7b7;--dn:#fca5a5}
+*{box-sizing:border-box}
+html,body{margin:0;min-height:100%;background:#071122;color:var(--t);font:16px/1.4 -apple-system,BlinkMacSystemFont,"SF Pro Display",system-ui,sans-serif}
+body{background:radial-gradient(120% 80% at 20% 0%,#10284f 0%,#0a1a38 45%,#061020 100%) fixed;overflow-x:hidden}
+.o{position:fixed;border-radius:50%;filter:blur(90px);opacity:.5;z-index:0;animation:dr 28s ease-in-out infinite alternate}
+.o:nth-child(1){width:46vw;height:46vw;left:-8vw;top:-10vw;background:#1d4ed8}
+.o:nth-child(2){width:38vw;height:38vw;right:-6vw;top:30vh;background:#0e7490;animation-delay:-9s}
+.o:nth-child(3){width:34vw;height:34vw;left:30vw;bottom:-14vw;background:#4338ca;animation-delay:-18s}
+@keyframes dr{to{transform:translate(6vw,5vh) scale(1.15)}}
+main{position:relative;z-index:1;display:grid;grid-template-columns:repeat(12,1fr);gap:18px;max-width:1280px;margin:0 auto;padding:max(22px,env(safe-area-inset-top)) max(22px,env(safe-area-inset-right)) max(22px,env(safe-area-inset-bottom)) max(22px,env(safe-area-inset-left))}
+#time{grid-column:span 4}#wx{grid-column:span 8}#bus{grid-column:span 8}#st{grid-column:span 4}#q{grid-column:1/-1}
+@media(max-width:900px){main>*{grid-column:1/-1!important}}
+.g{position:relative;isolation:isolate;overflow:hidden;border-radius:30px;padding:24px;background:linear-gradient(140deg,rgba(255,255,255,.13),rgba(255,255,255,.04));backdrop-filter:blur(30px) saturate(1.7);-webkit-backdrop-filter:blur(30px) saturate(1.7);border:1px solid rgba(255,255,255,.13);box-shadow:inset 0 1px 0 rgba(255,255,255,.4),inset 0 -1px 0 rgba(255,255,255,.06),0 24px 60px rgba(0,6,24,.5);transition:transform .35s cubic-bezier(.2,.8,.2,1)}
+.g:hover{transform:translateY(-3px)}
+.g::before{content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;opacity:.45;transition:opacity .3s;background:radial-gradient(280px circle at var(--mx,50%) var(--my,-30%),rgba(255,255,255,.22),transparent 65%),radial-gradient(60% 80% at 100% 100%,var(--tint,transparent),transparent)}
+.g.lit::before{opacity:1}
+.g::after{content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;background:linear-gradient(115deg,transparent 42%,rgba(255,255,255,.07) 50%,transparent 58%) 0 0/300% 100%;animation:sh 16s linear infinite}
+@keyframes sh{to{background-position:-300% 0}}
+h2{margin:0 0 14px;font-size:13px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--m)}
+button{font:inherit;color:var(--t);background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.16);border-radius:999px;padding:8px 16px;min-height:44px}
+button:focus-visible,input:focus-visible,summary:focus-visible{outline:2px solid var(--ac);outline-offset:2px}
+/* time */
+#time{display:flex;flex-direction:column;justify-content:center}
+.clk{font-size:clamp(68px,8.5vw,112px);font-weight:200;letter-spacing:-.045em;line-height:1;font-variant-numeric:tabular-nums}
+.clk small{font-size:.26em;letter-spacing:0;color:var(--m);margin-left:.15em;font-weight:300}
+#dt{color:var(--m);margin-top:10px}
+/* weather */
+.now{display:flex;align-items:center;gap:18px;margin-bottom:18px}
+.now svg{width:64px;height:64px;color:var(--ac);flex:none}
+.big{font-size:60px;font-weight:200;letter-spacing:-.04em;line-height:1}
+.sub{color:var(--m);font-size:14px}
+.hrs{position:relative;display:grid;grid-template-columns:repeat(6,1fr);text-align:center}
+.hrs div{display:flex;flex-direction:column;align-items:center;gap:6px;padding:6px 0}
+.hrs svg{width:26px;height:26px;color:var(--t)}
+.hrs .r{color:var(--ac);font-size:12px;min-height:16px}
+#cv{width:100%;height:44px;display:block;margin:2px 0}
+/* stocks */
+.s{padding:14px 0;border-top:1px solid rgba(255,255,255,.08)}.s:first-of-type{border:0;padding-top:0}
+.s .top{display:flex;justify-content:space-between;align-items:baseline}
+.s b{font-size:22px;font-weight:600}.s .p{font-size:26px;font-weight:300;font-variant-numeric:tabular-nums}
+.s .ch{font-size:14px;font-variant-numeric:tabular-nums}
+.rg{position:relative;height:4px;border-radius:2px;background:rgba(255,255,255,.12);margin:12px 0 4px}
+.rg i{position:absolute;top:-4px;width:12px;height:12px;border-radius:50%;background:var(--t);box-shadow:0 0 14px var(--ac);transition:left .8s}
+/* bus */
+#bus .in{display:grid;grid-template-columns:minmax(250px,42%) 1fr;gap:18px}
+@media(max-width:700px){#bus .in{grid-template-columns:1fr}}
+.b{display:grid;grid-template-columns:auto 1fr auto;gap:2px 14px;align-items:center;padding:14px;border-radius:20px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.08);margin-bottom:10px}
+.b b{font-size:28px;font-weight:700;grid-row:span 2}.b .e{font-size:30px;font-weight:300;grid-row:span 2;text-align:right}.b .e small{font-size:13px;color:var(--m);margin-left:3px}
+.b i{font-style:normal;color:var(--m);font-size:13px}
+.m{grid-column:1/-1;display:flex;align-items:center;gap:10px;margin-top:8px;font-size:13px}
+.m div{display:flex;gap:3px;flex:1}.m u{flex:1;height:7px;border-radius:4px;background:rgba(255,255,255,.12)}
+#map{min-height:300px;height:100%;border-radius:20px;background:#08101f}
+.leaflet-container{font:inherit;background:#08101f}
+.pin{width:16px;height:16px;border-radius:50%;background:var(--ac);border:3px solid #071122;box-shadow:0 0 0 2px var(--ac),0 0 18px var(--ac)}
+.bp{background:#eaf1fb;color:#071122;font-weight:800;font-size:12px;border-radius:8px;padding:3px 7px;border:2px solid #071122;white-space:nowrap;width:auto!important;height:auto!important}
+.note{color:var(--m);font-size:13px;padding:4px 2px}.err{color:var(--dn);font-size:13px;white-space:pre-wrap;margin-bottom:8px}
+details{margin-top:8px;color:var(--m);font-size:12px}summary{min-height:36px;display:flex;align-items:center}
+pre{white-space:pre-wrap;word-break:break-all;margin:0}
+/* quote */
+#q{text-align:center;padding:34px 28px}
+#qt{font:italic 300 clamp(22px,3vw,34px)/1.35 ui-serif,"New York",Georgia,serif;max-width:30em;margin:0 auto;animation:fi 1.4s both}
+#qa{margin-top:14px;color:var(--m);letter-spacing:.14em;text-transform:uppercase;font-size:12px}
+@keyframes fi{from{opacity:0;transform:translateY(8px)}}
+#gear{position:fixed;z-index:5;right:max(16px,env(safe-area-inset-right));bottom:max(16px,env(safe-area-inset-bottom));backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px)}
+dialog{background:#0c1c3a;color:var(--t);border:1px solid rgba(255,255,255,.15);border-radius:24px;padding:22px;width:min(460px,92vw)}
+dialog::backdrop{background:rgba(2,8,20,.7)}
+label{display:block;font-size:13px;color:var(--m);margin:12px 0 4px}
+input{width:100%;font:inherit;color:var(--t);background:#071122;border:1px solid rgba(255,255,255,.14);border-radius:12px;padding:10px 12px;min-height:44px}
+.row{display:flex;gap:8px;justify-content:flex-end;margin-top:16px}
+@media(prefers-reduced-motion:reduce){.o,.g::after,#qt{animation:none}.g{transition:none}}
+</style>
+</head>
+<body>
+<div class="o"></div><div class="o"></div><div class="o"></div>
+<main>
+  <section class="g" id="time"><h2>Auckland</h2><div class="clk"><span id="hm">--:--</span><small id="sc"></small><small id="ap"></small></div><div id="dt"></div></section>
+  <section class="g" id="wx"><h2>Weather</h2><div class="now"><div id="wi"></div><div><div class="big" id="wt">--</div><div class="sub" id="wd">Loading…</div></div></div><svg id="cv" viewBox="0 0 600 44" preserveAspectRatio="none"></svg><div class="hrs" id="hrs"></div></section>
+  <section class="g" id="bus"><h2>Stop <span id="sn">8274</span> · <span id="sname">Roseville Street</span></h2><div class="in"><div><div id="err"></div><div id="bl"></div><div class="sub" id="bs"></div><details id="diag"><summary>Diagnostics</summary></details></div><div id="map" role="img" aria-label="Map of the bus stop and approaching buses"></div></div></section>
+  <section class="g" id="st"><h2>Markets</h2><div id="sl"></div></section>
+  <section class="g" id="q"><h2>Tonight&rsquo;s thought</h2><div id="qt"></div><div id="qa"></div></section>
+</main>
+<button id="gear" aria-label="Settings">Settings</button>
+<dialog id="dlg">
+  <h3 style="margin:0">Settings</h3><div class="sub">Saved only on this device.</div>
+  <label for="k1">AT API key (dev-portal.at.govt.nz)</label><input id="k1" type="password" autocomplete="off" autocapitalize="off" spellcheck="false">
+  <label for="k2">CARTO map key (carto.com/basemaps/apikey)</label><input id="k2" type="password" autocomplete="off" autocapitalize="off" spellcheck="false">
+  <label for="k3">Finnhub key for VOO and VEU (finnhub.io, free)</label><input id="k3" type="password" autocomplete="off" autocapitalize="off" spellcheck="false">
+  <label for="k4">Bus stop code</label><input id="k4" inputmode="numeric">
+  <label for="k5">Services to show (comma separated)</label><input id="k5" autocapitalize="characters">
+  <div class="row"><button id="cx" type="button">Cancel</button><button id="sv" type="button" style="border-color:var(--ac);color:var(--ac)">Save</button></div>
+</dialog>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script>
+const $=id=>document.getElementById(id),TZ='Pacific/Auckland',arr=x=>x==null?[]:Array.isArray(x)?x:[x];
+const LS={g(k,d=''){try{return localStorage.getItem(k)??d}catch(e){return d}},s(k,v){try{localStorage.setItem(k,v)}catch(e){}}};
+const cfg=()=>({at:LS.g('at'),map:LS.g('map'),fh:LS.g('fh'),stop:LS.g('stop','8274'),routes:LS.g('routes','24R,24B')});
+const esc=s=>String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;');
+
+/* ---------- quotes: one per Auckland day, changes at midnight ---------- */
+const Q=[["We suffer more often in imagination than in reality.","Seneca"],["The unexamined life is not worth living.","Socrates"],["What stands in the way becomes the way.","Marcus Aurelius"],["It is not that we have a short time to live, but that we waste much of it.","Seneca"],["Nothing endures but change.","Heraclitus"],["He who has a why to live can bear almost any how.","Friedrich Nietzsche"],["Man is condemned to be free.","Jean-Paul Sartre"],["The only thing I know is that I know nothing.","Socrates"],["Happiness depends upon ourselves.","Aristotle"],["We are what we repeatedly do. Excellence, then, is not an act, but a habit.","Will Durant, on Aristotle"],["Man is the measure of all things.","Protagoras"],["Wonder is the feeling of a philosopher, and philosophy begins in wonder.","Plato"],["Life must be understood backwards, but it must be lived forwards.","Søren Kierkegaard"],["People are disturbed not by things, but by the views they take of them.","Epictetus"],["The soul becomes dyed with the colour of its thoughts.","Marcus Aurelius"],["When we are no longer able to change a situation, we are challenged to change ourselves.","Viktor Frankl"],["I think, therefore I am.","René Descartes"],["Whereof one cannot speak, thereof one must be silent.","Ludwig Wittgenstein"],["The limits of my language mean the limits of my world.","Ludwig Wittgenstein"],["He who fights with monsters should be careful lest he thereby become a monster.","Friedrich Nietzsche"],["It is not the man who has too little, but the man who craves more, that is poor.","Seneca"],["Waste no more time arguing about what a good man should be. Be one.","Marcus Aurelius"],["Freedom is secured not by the fulfilling of one’s desires, but by the removal of desire.","Epictetus"],["Hope is a good breakfast, but it is a bad supper.","Francis Bacon"],["Attention is the rarest and purest form of generosity.","Simone Weil"],["One must imagine Sisyphus happy.","Albert Camus"],["The journey of a thousand miles begins with a single step.","Laozi"],["Knowing others is intelligence; knowing yourself is true wisdom.","Laozi"],["Real knowledge is to know the extent of one’s ignorance.","Confucius"],["Do not weep; do not wax indignant. Understand.","Baruch Spinoza"],["All of humanity’s problems stem from man’s inability to sit quietly in a room alone.","Blaise Pascal"],["You could leave life right now. Let that determine what you do and say and think.","Marcus Aurelius"],["Do not spoil what you have by desiring what you have not.","Epicurus"],["Dare to know! Have the courage to use your own understanding.","Immanuel Kant"]];
+let qDay=null;
+function aklParts(){const p=Object.fromEntries(new Intl.DateTimeFormat('en-NZ',{timeZone:TZ,hourCycle:'h12',year:'numeric',month:'2-digit',day:'2-digit',hour:'numeric',minute:'2-digit',second:'2-digit'}).formatToParts(new Date()).map(x=>[x.type,x.value]));return p}
+function tick(){
+  const p=aklParts();
+  $('hm').textContent=p.hour+':'+p.minute;$('sc').textContent=':'+p.second;$('ap').textContent=(p.dayPeriod||'').toLowerCase();
+  const day=Math.floor(Date.UTC(+p.year,+p.month-1,+p.day)/864e5);
+  if(day!==qDay){
+    qDay=day;$('dt').textContent=new Date().toLocaleDateString('en-NZ',{timeZone:TZ,weekday:'long',day:'numeric',month:'long'});
+    const q=Q[day%Q.length],el=$('qt');el.style.animation='none';el.offsetWidth;el.style.animation='';
+    el.textContent='“'+q[0]+'”';$('qa').textContent=q[1];
+  }
+}
+
+/* ---------- weather ---------- */
+const P='stroke-linecap="round" stroke-linejoin="round"',CL='<path d="M7 17h10a4 4 0 0 0 .6-8A6 6 0 0 0 6 10.5 3.3 3.3 0 0 0 7 17z"/>';
+const IC={sun:'<circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/>',moon:'<path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z"/>',cloud:CL,part:'<circle cx="8" cy="8" r="3"/><path d="M8 2v1M2 8h1M3.8 3.8l.7.7M12.2 3.8l-.7.7"/><path d="M9 20h8a3.5 3.5 0 0 0 .5-7A5 5 0 0 0 8 14a3 3 0 0 0 1 6z"/>',rain:CL+'<path d="M8 20l1-2M12 21l1-2M16 20l1-2"/>',snow:CL+'<path d="M8 20h.01M12 21h.01M16 20h.01"/>',storm:CL+'<path d="M12 13l-2 4h3l-1 4"/>',fog:'<path d="M4 8h16M6 12h12M8 16h8"/>'};
+const icon=(k,day)=>'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" '+P+'>'+IC[k==='sun'&&!day?'moon':k==='part'&&!day?'cloud':k]+'</svg>';
+const kind=c=>c===0?'sun':c<3?'part':c===3?'cloud':c<50?'fog':c<70?'rain':c<80?'snow':c<83?'rain':c<90?'snow':'storm';
+const LAB={sun:'Clear',part:'Partly cloudy',cloud:'Overcast',fog:'Fog',rain:'Rain',snow:'Snow',storm:'Thunderstorms'};
+const TINT={sun:'rgba(251,191,36,.18)',part:'rgba(125,211,252,.16)',cloud:'rgba(148,163,184,.16)',fog:'rgba(148,163,184,.16)',rain:'rgba(56,189,248,.2)',snow:'rgba(224,242,254,.18)',storm:'rgba(167,139,250,.22)'};
+async function weather(){
+  try{
+    const r=await fetch('https://api.open-meteo.com/v1/forecast?latitude=-36.85&longitude=174.76&current=temperature_2m,apparent_temperature,weather_code,wind_speed_10m,is_day&hourly=temperature_2m,precipitation_probability,weather_code,is_day&timezone=Pacific%2FAuckland&forecast_hours=8&wind_speed_unit=kmh');
+    if(!r.ok)throw new Error(r.status);
+    const j=await r.json(),c=j.current,k=kind(c.weather_code);
+    $('wi').innerHTML=icon(k,c.is_day);$('wt').textContent=Math.round(c.temperature_2m)+'°';
+    $('wd').textContent=(k==='sun'&&!c.is_day?'Clear night':LAB[k])+' · feels '+Math.round(c.apparent_temperature)+'° · wind '+Math.round(c.wind_speed_10m)+' km/h';
+    $('wx').style.setProperty('--tint',TINT[k]);
+    const h=j.hourly;let i=h.time.findIndex(t=>t>c.time);if(i<0)i=1;
+    const idx=[0,1,2,3,4,5].map(n=>i+n).filter(n=>n<h.time.length);
+    $('hrs').innerHTML=idx.map(n=>{const hr=+h.time[n].slice(11,13),lab=(hr%12||12)+(hr<12?'am':'pm'),pp=h.precipitation_probability[n];
+      return '<div><span class="sub">'+lab+'</span>'+icon(kind(h.weather_code[n]),h.is_day[n])+'<span>'+Math.round(h.temperature_2m[n])+'°</span><span class="r">'+(pp>=10?pp+'%':'')+'</span></div>'}).join('');
+    const t=idx.map(n=>h.temperature_2m[n]),lo=Math.min(...t),hi=Math.max(...t),sp=Math.max(hi-lo,1);
+    const pts=t.map((v,n)=>[(n+.5)/t.length*600,38-(v-lo)/sp*32]);
+    $('cv').innerHTML='<path d="M'+pts.map(p=>p[0].toFixed(1)+' '+p[1].toFixed(1)).join(' L')+'" fill="none" stroke="#7dd3fc" stroke-width="2" vector-effect="non-scaling-stroke" stroke-linecap="round" stroke-linejoin="round" opacity=".8"/>';
+  }catch(e){$('wd').textContent='Weather unavailable ('+e.message+')'}
+}
+
+/* ---------- markets (Finnhub quote) ---------- */
+const ETF=[['VOO','Vanguard S&P 500'],['VEU','Vanguard FTSE All-World ex-US']],prev={};
+function tween(el,to,key){const from=prev[key]??to;prev[key]=to;const t0=performance.now();(function f(t){const x=Math.min(1,(t-t0)/700),v=from+(to-from)*(1-Math.pow(1-x,3));el.textContent='$'+v.toFixed(2);if(x<1)requestAnimationFrame(f)})(t0)}
+async function stocks(){
+  const k=cfg().fh,box=$('sl');
+  if(!k){box.innerHTML='<div class="note">Add a free Finnhub key in Settings to see VOO and VEU.</div>';return}
+  try{
+    const qs=await Promise.all(ETF.map(([s])=>fetch('https://finnhub.io/api/v1/quote?symbol='+s+'&token='+encodeURIComponent(k)).then(r=>{if(!r.ok)throw new Error('Finnhub returned '+r.status);return r.json()})));
+    if(!box.querySelector('.s'))box.innerHTML=ETF.map(([s,n],i)=>'<div class="s"><div class="top"><b>'+s+'</b><span class="p" id="p'+i+'"></span></div><div class="top"><span class="sub">'+esc(n)+'</span><span class="ch" id="c'+i+'"></span></div><div class="rg"><i id="r'+i+'"></i></div><div class="top sub"><span id="lo'+i+'"></span><span id="hi'+i+'"></span></div></div>').join('')+'<div class="sub" id="asof"></div>';
+    qs.forEach((q,i)=>{
+      if(!q||!q.c){$('c'+i).textContent='No data';return}
+      tween($('p'+i),q.c,'p'+i);
+      const up=q.d>=0,el=$('c'+i);el.style.color=up?'var(--up)':'var(--dn)';
+      el.textContent=(up?'▲ +':'▼ ')+q.d.toFixed(2)+' ('+(up?'+':'')+q.dp.toFixed(2)+'%)';
+      $('lo'+i).textContent='$'+q.l.toFixed(2);$('hi'+i).textContent='$'+q.h.toFixed(2);
+      $('r'+i).style.left='calc('+(q.h>q.l?Math.min(100,Math.max(0,(q.c-q.l)/(q.h-q.l)*100)):50)+'% - 6px)';
+    });
+    const t=qs[0].t;$('asof').textContent=t?'Day range · as of '+new Date(t*1000).toLocaleString('en-NZ',{timeZone:TZ,weekday:'short',hour:'numeric',minute:'2-digit'})+' NZ time':'';
+  }catch(e){box.innerHTML='<div class="err">'+esc(e.message)+(e instanceof TypeError?'\n\nThe request was blocked before Finnhub replied. Check the key, or ask Claude to add a small relay.':'')+'</div>'}
+}
+
+/* ---------- bus ---------- */
+const OCC=[['Empty',1],['Plenty of seats',1],['Few seats',2],['Standing room only',3],['Very crowded',4],['Full',4],['Not taking passengers',4]],COL=['#6ee7b7','#6ee7b7','#fbbf24','#fb923c','#f87171'];
+const D={},hist={};let stopPos=null,map,tiles,busLayer,stopMk;
+function initMap(){map=L.map('map',{zoomControl:false}).setView([-36.8485,174.7633],13);busLayer=L.layerGroup().addTo(map);setTiles()}
+function setTiles(){if(tiles)tiles.remove();const k=cfg().map;tiles=L.tileLayer('https://basemaps.cartocdn.com/rastertiles/dark_all/{z}/{x}/{y}.png'+(k?'?key='+encodeURIComponent(k):''),{attribution:'&copy; OpenStreetMap, &copy; CARTO',maxZoom:19}).addTo(map);tiles.bringToBack()}
+const km=(a,b,c,d)=>{const r=Math.PI/180,x=(c-a)*r,y=(d-b)*r,h=Math.sin(x/2)**2+Math.cos(a*r)*Math.cos(c*r)*Math.sin(y/2)**2;return 12742*Math.asin(Math.sqrt(h))};
+const brg=(a,b,c,d)=>{const r=Math.PI/180,y=Math.sin((d-b)*r)*Math.cos(c*r),x=Math.cos(a*r)*Math.sin(c*r)-Math.sin(a*r)*Math.cos(c*r)*Math.cos((d-b)*r);return(Math.atan2(y,x)/r+360)%360};
+const fd=k=>k<1?Math.round(k*10)*100+' m':k.toFixed(1)+' km';
+async function at(p){const r=await fetch('https://api.at.govt.nz'+p,{headers:{'Ocp-Apim-Subscription-Key':cfg().at}});if(!r.ok)throw new Error('AT returned '+r.status+' for '+p);return r.json()}
+const ents=j=>(j&&j.response&&(j.response.entity||j.response.entities))||(j&&(j.entity||j.entities))||[];
+function diag(){$('diag').innerHTML='<summary>Diagnostics</summary><pre>'+esc(Object.entries(D).map(([k,v])=>k+': '+v).join('\n'))+'</pre>'}
+async function findStop(){
+  const c=cfg(),j=await at('/gtfs/v3/stops?filter[stop_code]='+encodeURIComponent(c.stop)),d=arr(j.data||j.response)[0];
+  if(!d)throw new Error('Stop '+c.stop+' was not found. Check the stop code in Settings.');
+  const a=d.attributes||d;stopPos={id:a.stop_id||d.id,lat:+a.stop_lat,lon:+a.stop_lon,code:c.stop};
+  $('sn').textContent=c.stop;$('sname').textContent=a.stop_name||'';D.stop=stopPos.id;
+  if(stopMk)stopMk.remove();
+  stopMk=L.marker([stopPos.lat,stopPos.lon],{icon:L.divIcon({className:'',html:'<div class="pin"></div>',iconSize:[16,16]})}).addTo(map);
+  map.setView([stopPos.lat,stopPos.lon],15);
+}
+async function buses(){
+  const c=cfg(),err=$('err');err.innerHTML='';
+  if(!c.at){$('bl').innerHTML='<div class="note">Add your free Auckland Transport key in Settings to see live buses.</div>';return}
+  try{
+    if(!stopPos||stopPos.code!==c.stop)await findStop();
+    const j=await at('/realtime/legacy'),E=ents(j),trips={};
+    E.forEach(e=>{const t=e.trip_update,v=e.vehicle,td=(t&&t.trip)||(v&&v.trip),id=td&&td.trip_id;if(!id)return;const k=id.split('-')[0],o=trips[k]||(trips[k]={});if(t)o.tu=t;if(v)o.v=v;if(!o.td||td.route_id)o.td=td});
+    const want=c.routes.split(',').map(s=>s.trim().toUpperCase()).filter(Boolean),out=[];let on=0,away=0;
+    Object.values(trips).forEach(o=>{
+      const route=String((o.td&&o.td.route_id)||'').split('-')[0].toUpperCase();
+      if(want.length&&!want.includes(route)||(o.td&&o.td.schedule_relationship===3))return;
+      on++;const pos=o.v&&o.v.position;if(!pos)return;
+      const la=+pos.latitude,lo=+pos.longitude,d=km(stopPos.lat,stopPos.lon,la,lo)*1000;if(d>6000)return;
+      const vid=(o.v.vehicle&&o.v.vehicle.id)||route+la,ts=+o.v.timestamp||Date.now()/1000,h=hist[vid];let c0=h?h.c:null;
+      if(!h)hist[vid]={d,t:ts,c:null};else if(ts>h.t){c0=(h.d-d)/(ts-h.t);hist[vid]={d,t:ts,c:c0}}
+      let st='unk';
+      if(c0!=null&&Math.abs(c0)>.8)st=c0>0?'in':'out';
+      else if(pos.bearing!=null&&pos.bearing!==''&&!isNaN(+pos.bearing))st=Math.abs(((+pos.bearing-brg(la,lo,stopPos.lat,stopPos.lon))+540)%360-180)<90?'in':'out';
+      if(st==='out'){away++;return}
+      const sp=c0!=null&&c0>.8?Math.min(12,Math.max(3,c0)):6;
+      out.push({route,mins:st==='in'?Math.round(d/sp/60):null,v:o.v,dist:d/1000,st});
+    });
+    out.sort((a,b)=>a.mins!=null&&b.mins!=null?a.mins-b.mins:a.mins!=null?-1:b.mins!=null?1:a.dist-b.dist);
+    Object.assign(D,{'live items':E.length,['trips on '+(want.join('/')||'all')]:on,'moving away (hidden)':away,shown:out.length});diag();
+    busLayer.clearLayers();
+    $('bl').innerHTML=out.length?out.slice(0,4).map(b=>{
+      const p=b.v.position;L.marker([+p.latitude,+p.longitude],{icon:L.divIcon({className:'',html:'<div class="bp">'+b.route+'</div>'})}).addTo(busLayer);
+      let occ='No crowding data',lvl=0;
+      if(b.v.occupancy_status!=null){const o=b.v.occupancy_status,i=typeof o==='number'?o:['EMPTY','MANY_SEATS_AVAILABLE','FEW_SEATS_AVAILABLE','STANDING_ROOM_ONLY','CRUSHED_STANDING_ROOM_ONLY','FULL','NOT_ACCEPTING_PASSENGERS'].indexOf(o);if(OCC[i]){occ=OCC[i][0];lvl=OCC[i][1]}}
+      const seg=[1,2,3,4].map(n=>'<u style="background:'+(n<=lvl?COL[lvl]:'')+'"></u>').join('');
+      return '<div class="b"><b>'+b.route+'</b><span class="e">'+(b.mins==null?'—':b.mins<1?'Due':'~'+b.mins+'<small>min</small>')+'</span><i>'+fd(b.dist)+' · '+(b.st==='in'?'approaching':'direction not known yet')+'</i><div class="m"><div>'+seg+'</div><span>'+occ+'</span></div></div>';
+    }).join('')+'<div class="note">Estimates use live position and speed, not the timetable.'+(away?' '+away+' moving away not shown.':'')+'</div>':'<div class="note">No '+(want.join(' or ')||'')+' buses heading to this stop right now'+(away?' ('+away+' moving away)':'')+'.</div>';
+    $('bs').textContent='Updated '+new Date().toLocaleTimeString('en-NZ',{timeZone:TZ,hour:'numeric',minute:'2-digit',second:'2-digit'});
+  }catch(e){err.innerHTML='<div class="err">'+esc(e.message)+(e instanceof TypeError?'\n\nThe request was blocked before AT replied (often CORS, or a wrong key). Ask Claude to add a small relay.':'')+'</div>';diag()}
+}
+
+/* ---------- glue ---------- */
+document.querySelectorAll('.g').forEach(g=>{
+  g.addEventListener('pointermove',e=>{const r=g.getBoundingClientRect();g.style.setProperty('--mx',(e.clientX-r.left)+'px');g.style.setProperty('--my',(e.clientY-r.top)+'px');g.classList.add('lit')});
+  g.addEventListener('pointerleave',()=>g.classList.remove('lit'));
+});
+$('gear').onclick=()=>{const c=cfg();$('k1').value=c.at;$('k2').value=c.map;$('k3').value=c.fh;$('k4').value=c.stop;$('k5').value=c.routes;$('dlg').showModal()};
+$('cx').onclick=()=>$('dlg').close();
+$('sv').onclick=()=>{LS.s('at',$('k1').value.trim());LS.s('map',$('k2').value.trim());LS.s('fh',$('k3').value.trim());LS.s('stop',$('k4').value.trim()||'8274');LS.s('routes',$('k5').value);$('dlg').close();setTiles();stopPos=null;buses();stocks()};
+initMap();tick();weather();stocks();buses();
+setInterval(tick,1000);setInterval(()=>{if(!document.hidden)buses()},20000);setInterval(()=>{if(!document.hidden)stocks()},60000);setInterval(weather,600000);
+document.addEventListener('visibilitychange',()=>{if(!document.hidden){buses();stocks();weather()}});
+</script>
+</body>
+</html>
