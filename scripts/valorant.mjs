@@ -76,6 +76,8 @@ const num = s => { const n = parseInt(String(s).replace(/[^\d]/g, ''), 10); retu
 const mapDone = m => m.a != null && m.b != null && Math.max(m.a, m.b) >= 13 && Math.abs(m.a - m.b) >= 2;
 async function fetchMatch(path, live, sa, sb) {
   const $ = cheerio.load(await get(path));
+  const evl = (() => { const x = $('.match-header-event img').first().attr('src') || ''; return x ? (x.startsWith('//') ? 'https:' + x : x.startsWith('/') ? BASE + x : x) : ''; })();
+  const bo = (/\bbo\s?(\d)\b/i.exec(txt($('.match-header-vs-note'))) || [])[1] || '';
   const games = [];
   $('.vm-stats-gamesnav-item').each((_, e) => {
     const id = $(e).attr('data-game-id');
@@ -88,7 +90,7 @@ async function fetchMatch(path, live, sa, sb) {
     games.push({ g, n, a: sc.length > 1 ? sc[0] : null, b: sc.length > 1 ? sc[1] : null });
   });
   const started = m => m.a != null && m.b != null && m.a + m.b > 0;
-  if (!live) return { mp: games.filter(m => m.n && started(m)).map(m => ({ n: m.n, a: m.a, b: m.b })) };
+  if (!live) return { mp: games.filter(m => m.n && started(m)).map(m => ({ n: m.n, a: m.a, b: m.b })), evl };
 
   // live: every map of the series. d = played, l = being played (or about to start), n = still to come
   const need = Math.ceil(games.length / 2);
@@ -99,7 +101,7 @@ async function fetchMatch(path, live, sa, sb) {
     return st === 'n' ? { n: m.n || 'TBD', st } : { n: m.n || 'TBD', a: m.a ?? 0, b: m.b ?? 0, st };
   });
 
-  // player K/D. vlr only fills a map's stat table once it has finished, so use the latest map that has data
+  // player K/D: only for the map being played right now, and only when vlr is actually publishing live stats for it
   const rowsOf = g => {
     const rows = [];
     g.find('table.wf-table-inset tbody tr').each((_, tr) => {
@@ -117,43 +119,42 @@ async function fetchMatch(path, live, sa, sb) {
     });
     return rows;
   };
+  const rows = li >= 0 ? rowsOf(games[li].g) : [];
   const top = r => r.slice().sort((x, y) => y.k - x.k || x.d - y.d);
-  let pl, plm, found = [];
-  for (let i = Math.min(li === -1 ? games.length - 1 : li, games.length - 1); i >= 0; i--) {
-    const r = rowsOf(games[i].g);
-    found.push(games[i].n + ':' + r.length);
-    if (r.length >= 10) { pl = { a: top(r.slice(0, 5)), b: top(r.slice(5, 10)) }; plm = games[i].n; break; }
-  }
-  console.log('live detail', path.split('/')[1], 'maps', games.length, 'live#', li, 'stat rows', found.join(' ') || 'none', pl ? '-> players from ' + plm : '-> no player stats yet');
-  const out = { mp };
-  if (pl) { out.pl = pl; out.plm = plm; }
+  console.log('live detail', path.split('/')[1], 'bo' + bo, 'maps', games.length, 'live#', li, 'stat rows on live map:', rows.length, rows.length >= 10 ? '-> live K/D shown' : '-> no live stats from vlr (compact row)');
+  const out = { mp, evl };
+  if (bo) out.bo = bo;
+  if (rows.length >= 10) { out.pl = { a: top(rows.slice(0, 5)), b: top(rows.slice(5, 10)) }; out.plm = games[li].n; }
   return out;
 }
+const evlogos = { ...(old.evlogos || {}) };
 const oldRes = Object.fromEntries((old.results || []).map(m => [m.id, m]));
 const oldLive = Object.fromEntries((old.live || []).map(m => [m.id, m]));
 for (const m of live) {
-  try { Object.assign(m, await fetchMatch(m.url.replace(BASE, ''), true, m.sa, m.sb)); }
-  catch (e) { console.log('live detail skipped:', m.url, e.message); const o = oldLive[m.id]; if (o) { m.mp = o.mp; m.pl = o.pl; m.plm = o.plm; } }
+  try { const { evl, ...r } = await fetchMatch(m.url.replace(BASE, ''), true, m.sa, m.sb); if (evl) evlogos[m.ev] = evl; Object.assign(m, r); }
+  catch (e) { console.log('live detail skipped:', m.url, e.message); const o = oldLive[m.id]; if (o) { m.mp = o.mp; m.pl = o.pl; m.plm = o.plm; m.bo = o.bo; } }
   await sleep(600);
 }
 for (const m of results) {
   const o = oldRes[m.id];
   if (o && o.mp && o.mp.length) { m.mp = o.mp; continue; }
-  try { const x = await fetchMatch(m.url.replace(BASE, ''), false); if (x.mp.length) m.mp = x.mp; }
+  try { const x = await fetchMatch(m.url.replace(BASE, ''), false); if (x.mp.length) m.mp = x.mp; if (x.evl) evlogos[m.ev] = x.evl; }
   catch (e) { console.log('map detail skipped:', m.url, e.message); }
   await sleep(1200);
 }
 
 // team logos: one match page per match with a missing logo, cached in the JSON so it rarely repeats
 const logos = { ...(old.logos || {}) };
-const show = [...live, ...upcoming.slice(0, 8), ...results.slice(0, 6)];
-const need = show.filter(m => !(logos[m.a] && logos[m.b])).slice(0, 6);
+const show = [...live, ...upcoming.slice(0, 8), ...results.slice(0, 9)];
+const need = show.filter(m => !((m.a in logos) && (m.b in logos))).slice(0, 8);
 for (const m of need) {
   try {
     const $m = cheerio.load(await get(m.url.replace(BASE, '')));
-    const imgs = $m('.match-header-link').map((_, l) => $m(l).find('img').first().attr('src')).get().filter(Boolean)
-      .map(s => s.startsWith('//') ? 'https:' + s : s);
+    const real = x => (!x || /\/tmp\/|vlr\.png|placeholder/i.test(x)) ? '' : (x.startsWith('//') ? 'https:' + x : x.startsWith('/') ? BASE + x : x);
+    const imgs = $m('.match-header-link').map((_, l) => $m(l).find('img').first().attr('src') || '').get().map(real);
     if (imgs.length >= 2) { logos[m.a] = imgs[0]; logos[m.b] = imgs[1]; }
+    const evx = $m('.match-header-event img').first().attr('src') || '';
+    if (evx) evlogos[m.ev] = evx.startsWith('//') ? 'https:' + evx : evx.startsWith('/') ? BASE + evx : evx;
   } catch (e) { console.log('logo skipped:', m.url, e.message); }
   await sleep(1200);
 }
@@ -188,6 +189,9 @@ if (sharp) {
 const keep = new Set(show.flatMap(m => [m.a, m.b]));
 for (const k of Object.keys(colors)) if (!keep.has(k)) delete colors[k];
 for (const k of Object.keys(logos)) if (!keep.has(k)) delete logos[k];
+const evKeep = new Set(show.map(m => m.ev));
+for (const k of Object.keys(evlogos)) if (!evKeep.has(k)) delete evlogos[k];
+const vct = Object.entries(evlogos).find(([k]) => /vct/i.test(k))?.[1] || Object.values(evlogos)[0] || old.vct || '';
 
 // Valorant news (vlr.gg/news): title, one-line summary, date, link
 const DATE_RE = /(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*\.? \d{1,2}, \d{4}/;
@@ -218,8 +222,8 @@ if (needAg.length) {
     for (const a of j.data || []) agents[a.displayName.toLowerCase().replace(/[^a-z0-9]/g, '')] = { i: a.displayIcon, p: a.bustPortrait || a.fullPortraitV2 || a.displayIcon };
   } catch (e) { console.log('agent art skipped:', e.message); }
 }
-const out = { live, upcoming, results: results.slice(0, 6), news, logos, colors, agents };
-const before = JSON.stringify({ live: old.live || [], upcoming: old.upcoming || [], results: old.results || [], news: old.news || [], logos: old.logos || {}, colors: old.colors || {}, agents: old.agents || {} });
+const out = { live, upcoming, results: results.slice(0, 9), news, logos, colors, agents, evlogos, vct };
+const before = JSON.stringify({ live: old.live || [], upcoming: old.upcoming || [], results: old.results || [], news: old.news || [], logos: old.logos || {}, colors: old.colors || {}, agents: old.agents || {}, evlogos: old.evlogos || {}, vct: old.vct || '' });
 if (before === JSON.stringify(out)) { console.log('No change'); process.exit(0); }
 fs.mkdirSync('data', { recursive: true });
 fs.writeFileSync(FILE, JSON.stringify({ updated: new Date().toISOString(), ...out }, null, 1));
