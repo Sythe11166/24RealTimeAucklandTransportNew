@@ -64,11 +64,11 @@ let pastList = [];
 try { await sleep(1200); pastList = parse(await get('/matches/results'), true); }
 catch (e) { console.log('results skipped:', e.message); pastList = (old.results || []).map(m => ({ ...m })); }
 
-const live = list.filter(m => m.live).slice(0, 4).map(({ live, ...m }) => ({ ...m, ts: m.ts || oldTs[m.id] || null }));
+const live = list.filter(m => m.live).slice(0, 6).map(({ live, ...m }) => ({ ...m, ts: m.ts || oldTs[m.id] || null }));
 const upcoming = list.filter(m => !m.live && m.ts && m.ts > Date.now() - 36e5 && !isTbd(m.a) && !isTbd(m.b))
   .sort((x, y) => x.ts - y.ts).slice(0, 12).map(({ live, ...m }) => m);
 
-const results = pastList.filter(m => !isTbd(m.a) && !isTbd(m.b) && m.sa !== '' && m.sb !== '').slice(0, 4).map(({ live, ...m }) => m);
+const results = pastList.filter(m => !isTbd(m.a) && !isTbd(m.b) && m.sa !== '' && m.sb !== '').slice(0, 6).map(({ live, ...m }) => m);
 
 
 // ---- per-map scores + live player K/D from a match page (all defensive: any miss just means "no detail") ----
@@ -100,10 +100,11 @@ async function fetchMatch(path, live) {
       const t = $(tr), nm = txt(t.find('.mod-player .text-of').first()) || txt(t.find('.mod-player').first()).split(' ')[0];
       const k = num(txt(t.find('td.mod-vlr-kills .mod-both').first()) || txt(t.find('td.mod-vlr-kills').first()));
       const d = num(txt(t.find('td.mod-vlr-deaths .mod-both').first()) || txt(t.find('td.mod-vlr-deaths').first()));
-      if (nm && k != null && d != null) rows.push({ n: nm, k, d });
+      const ag = (/agents\/([a-z0-9]+)\.png/i.exec(t.find('td.mod-agents img, img[src*="/agents/"]').first().attr('src') || '') || [])[1];
+      if (nm && k != null && d != null) rows.push({ n: nm, k, d, ag: ag || '' });
     });
     if (rows.length >= 10) {
-      const top = r => r.slice().sort((x, y) => y.k - x.k || x.d - y.d).slice(0, 2);
+      const top = r => r.slice().sort((x, y) => y.k - x.k || x.d - y.d).slice(0, 5);
       out.pl = { a: top(rows.slice(0, 5)), b: top(rows.slice(5, 10)) };
     }
   }
@@ -126,7 +127,7 @@ for (const m of results) {
 
 // team logos: one match page per match with a missing logo, cached in the JSON so it rarely repeats
 const logos = { ...(old.logos || {}) };
-const show = [...live, ...upcoming.slice(0, 8), ...results.slice(0, 4)];
+const show = [...live, ...upcoming.slice(0, 8), ...results.slice(0, 6)];
 const need = show.filter(m => !(logos[m.a] && logos[m.b])).slice(0, 6);
 for (const m of need) {
   try {
@@ -137,7 +138,36 @@ for (const m of need) {
   } catch (e) { console.log('logo skipped:', m.url, e.message); }
   await sleep(1200);
 }
+// team colours: dominant saturated colour of each logo (needs the optional "sharp" package; without it the page derives a colour from the team name)
+let sharp = null; try { sharp = (await import('sharp')).default; } catch {}
+async function logoColor(url) {
+  const r = await fetch(url, { headers: { 'user-agent': UA } });
+  if (!r.ok) return '';
+  const { data } = await sharp(Buffer.from(await r.arrayBuffer())).resize(48, 48, { fit: 'inside' }).ensureAlpha().raw().toBuffer({ resolveWithObject: true });
+  const B = Array.from({ length: 12 }, () => ({ w: 0, r: 0, g: 0, b: 0 }));
+  for (let i = 0; i < data.length; i += 4) {
+    const [r, g, b, a] = [data[i], data[i + 1], data[i + 2], data[i + 3]];
+    const mx = Math.max(r, g, b), mn = Math.min(r, g, b), v = mx / 255, sat = mx ? (mx - mn) / mx : 0;
+    if (a < 128 || v < 0.25 || sat < 0.3) continue;
+    let h = mx === mn ? 0 : mx === r ? ((g - b) / (mx - mn) + 6) % 6 : mx === g ? (b - r) / (mx - mn) + 2 : (r - g) / (mx - mn) + 4;
+    const k = B[Math.floor(h * 2) % 12], w = sat * v;
+    k.w += w; k.r += r * w; k.g += g * w; k.b += b * w;
+  }
+  const t = B.sort((x, y) => y.w - x.w)[0];
+  if (!t || t.w < 3) return '';
+  return '#' + [t.r, t.g, t.b].map(x => Math.round(x / t.w).toString(16).padStart(2, '0')).join('');
+}
+const colors = { ...(old.colors || {}) };
+if (sharp) {
+  let n = 0;
+  for (const m of show) for (const t of [m.a, m.b]) {
+    if (colors[t] !== undefined || !logos[t] || n >= 8) continue;
+    n++;
+    try { colors[t] = await logoColor(logos[t]); } catch (e) { console.log('colour skipped:', t, e.message); }
+  }
+}
 const keep = new Set(show.flatMap(m => [m.a, m.b]));
+for (const k of Object.keys(colors)) if (!keep.has(k)) delete colors[k];
 for (const k of Object.keys(logos)) if (!keep.has(k)) delete logos[k];
 
 // Valorant news (vlr.gg/news): title, one-line summary, date, link
@@ -160,8 +190,17 @@ let news = old.news || [];
 try { await sleep(1200); const n = await fetchNews(); if (n.length) news = n; else console.log('news: no articles found'); }
 catch (e) { console.log('news skipped:', e.message); }
 
-const out = { live, upcoming, results: results.slice(0, 4), news, logos };
-const before = JSON.stringify({ live: old.live || [], upcoming: old.upcoming || [], results: old.results || [], news: old.news || [], logos: old.logos || {} });
+// agent artwork (valorant-api.com): looked up once, cached in the JSON, so the page never calls a third-party API
+const agents = { ...(old.agents || {}) };
+const needAg = [...new Set(live.flatMap(m => [...((m.pl || {}).a || []), ...((m.pl || {}).b || [])].map(x => x.ag).filter(Boolean)))].filter(a => !agents[a]);
+if (needAg.length) {
+  try {
+    const j = await (await fetch('https://valorant-api.com/v1/agents?isPlayableCharacter=true')).json();
+    for (const a of j.data || []) agents[a.displayName.toLowerCase().replace(/[^a-z0-9]/g, '')] = { i: a.displayIcon, p: a.bustPortrait || a.fullPortraitV2 || a.displayIcon };
+  } catch (e) { console.log('agent art skipped:', e.message); }
+}
+const out = { live, upcoming, results: results.slice(0, 6), news, logos, colors, agents };
+const before = JSON.stringify({ live: old.live || [], upcoming: old.upcoming || [], results: old.results || [], news: old.news || [], logos: old.logos || {}, colors: old.colors || {}, agents: old.agents || {} });
 if (before === JSON.stringify(out)) { console.log('No change'); process.exit(0); }
 fs.mkdirSync('data', { recursive: true });
 fs.writeFileSync(FILE, JSON.stringify({ updated: new Date().toISOString(), ...out }, null, 1));
