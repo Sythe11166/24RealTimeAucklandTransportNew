@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T23:54:02.797Z",
+ "updated": "2026-11-21T23:55:52.422Z",
  "live": [
   {
    "id": "792903",
@@ -21,7 +21,7 @@
     {
      "n": "Bind",
      "a": 6,
-     "b": 4,
+     "b": 5,
      "st": "l"
     },
     {
@@ -80,7 +80,7 @@
     },
     {
      "n": "Sunset",
-     "a": 3,
+     "a": 4,
      "b": 7,
      "st": "l"
     },
@@ -116,7 +116,7 @@
     },
     {
      "n": "Summit",
-     "a": 2,
+     "a": 3,
      "b": 0,
      "st": "l"
     }
@@ -631,7 +631,8 @@
   "Oafs": "",
   "Shopify Rebellion Black": "",
   "Cloud9": "#27afe5",
-  "Maryville University": "#a9171c"
+  "Maryville University": "#a9171c",
+  "Masterclass": ""
  },
  "agents": {},
  "evlogos": {
