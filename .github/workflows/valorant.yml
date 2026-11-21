@@ -16,7 +16,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-      - run: npm install --no-save --no-package-lock cheerio@1
+      - run: npm install --no-save --no-package-lock cheerio@1 sharp
       - run: node scripts/valorant.mjs
       - name: Commit if the data changed
         run: |
