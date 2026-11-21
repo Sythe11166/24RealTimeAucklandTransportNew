@@ -1,26 +1,32 @@
 name: Update Valorant data
 on:
   schedule:
-    - cron: '*/10 * * * *'
+    - cron: '*/5 * * * *'
   workflow_dispatch:
 permissions:
   contents: write
 concurrency:
   group: valorant-data
-  cancel-in-progress: true
+  cancel-in-progress: false
 jobs:
   update:
     runs-on: ubuntu-latest
+    timeout-minutes: 12
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: 20
       - run: npm install --no-save --no-package-lock cheerio@1 sharp
-      - run: node scripts/valorant.mjs
-      - name: Commit if the data changed
+      - name: Scrape (repeats every ~100s while a match is live)
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/valorant.json
-          git diff --cached --quiet || (git commit -m "Update Valorant data" && git pull --rebase && git push)
+          for i in 1 2 3; do
+            node scripts/valorant.mjs
+            git add data/valorant.json
+            git diff --cached --quiet || (git commit -m "Update Valorant data" && git pull --rebase -q && git push -q)
+            LIVE=$(node -e "try{console.log(require('./data/valorant.json').live.length)}catch{console.log(0)}")
+            [ "$LIVE" -gt 0 ] || break
+            if [ "$i" -lt 3 ]; then sleep 100; fi
+          done
