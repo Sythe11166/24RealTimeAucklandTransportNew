@@ -1,5 +1,5 @@
 // Fetches VCT live + upcoming matches from vlr.gg and writes data/valorant.json.
-// Runs inside a GitHub Action every ~10 minutes. No keys, no proxies.
+// Runs inside a GitHub Action every 5 minutes (and repeats every ~100s while a match is live). No keys, no proxies.
 import fs from 'node:fs';
 import * as cheerio from 'cheerio';
 
@@ -64,17 +64,17 @@ let pastList = [];
 try { await sleep(1200); pastList = parse(await get('/matches/results'), true); }
 catch (e) { console.log('results skipped:', e.message); pastList = (old.results || []).map(m => ({ ...m })); }
 
-const live = list.filter(m => m.live).slice(0, 6).map(({ live, ...m }) => ({ ...m, ts: m.ts || oldTs[m.id] || null }));
+const live = list.filter(m => m.live).slice(0, 8).map(({ live, ...m }) => ({ ...m, ts: m.ts || oldTs[m.id] || null }));
 const upcoming = list.filter(m => !m.live && m.ts && m.ts > Date.now() - 36e5 && !isTbd(m.a) && !isTbd(m.b))
   .sort((x, y) => x.ts - y.ts).slice(0, 12).map(({ live, ...m }) => m);
 
-const results = pastList.filter(m => !isTbd(m.a) && !isTbd(m.b) && m.sa !== '' && m.sb !== '').slice(0, 6).map(({ live, ...m }) => m);
+const results = pastList.filter(m => !isTbd(m.a) && !isTbd(m.b) && m.sa !== '' && m.sb !== '').slice(0, 9).map(({ live, ...m }) => m);
 
 
 // ---- per-map scores + live player K/D from a match page (all defensive: any miss just means "no detail") ----
 const num = s => { const n = parseInt(String(s).replace(/[^\d]/g, ''), 10); return isNaN(n) ? null : n; };
 const mapDone = m => m.a != null && m.b != null && Math.max(m.a, m.b) >= 13 && Math.abs(m.a - m.b) >= 2;
-async function fetchMatch(path, live) {
+async function fetchMatch(path, live, sa, sb) {
   const $ = cheerio.load(await get(path));
   const games = [];
   $('.vm-stats-gamesnav-item').each((_, e) => {
@@ -87,35 +87,54 @@ async function fetchMatch(path, live) {
     if (!n) n = (/[A-Za-z][A-Za-z ]*[A-Za-z]/.exec(txt(g.find('.vm-stats-game-header .map span').first())) || [''])[0].trim();
     games.push({ g, n, a: sc.length > 1 ? sc[0] : null, b: sc.length > 1 ? sc[1] : null });
   });
-  const started = games.filter(m => m.n && m.a != null && m.b != null && m.a + m.b > 0);
-  const mp = started.map(m => {
-    const o = { n: m.n, a: m.a, b: m.b };
-    if (live && !mapDone(m)) o.lv = true;
-    return o;
+  const started = m => m.a != null && m.b != null && m.a + m.b > 0;
+  if (!live) return { mp: games.filter(m => m.n && started(m)).map(m => ({ n: m.n, a: m.a, b: m.b })) };
+
+  // live: every map of the series. d = played, l = being played (or about to start), n = still to come
+  const need = Math.ceil(games.length / 2);
+  let li = games.findIndex(m => !mapDone(m));
+  if (+sa >= need || +sb >= need) li = -1;
+  const mp = games.map((m, i) => {
+    const st = li === -1 || i < li ? 'd' : i === li ? 'l' : 'n';
+    return st === 'n' ? { n: m.n || 'TBD', st } : { n: m.n || 'TBD', a: m.a ?? 0, b: m.b ?? 0, st };
   });
-  const out = { mp };
-  if (live && started.length) {
-    const cur = started[started.length - 1], rows = [];
-    cur.g.find('table.wf-table-inset tbody tr').each((_, tr) => {
-      const t = $(tr), nm = txt(t.find('.mod-player .text-of').first()) || txt(t.find('.mod-player').first()).split(' ')[0];
-      const k = num(txt(t.find('td.mod-vlr-kills .mod-both').first()) || txt(t.find('td.mod-vlr-kills').first()));
-      const d = num(txt(t.find('td.mod-vlr-deaths .mod-both').first()) || txt(t.find('td.mod-vlr-deaths').first()));
+
+  // player K/D. vlr only fills a map's stat table once it has finished, so use the latest map that has data
+  const rowsOf = g => {
+    const rows = [];
+    g.find('table.wf-table-inset tbody tr').each((_, tr) => {
+      const t = $(tr), tds = t.find('td');
+      const nm = txt(t.find('.mod-player .text-of').first()) || txt(t.find('.mod-player').first()).split(' ')[0];
+      const val = (cls, idx) => {
+        let c = t.find('td.' + cls).first();
+        if (!c.length) c = tds.eq(idx);
+        const b = c.find('.mod-both').first(), sp = c.find('span').first();
+        return num((/-?\d+/.exec(txt(b.length ? b : sp.length ? sp : c)) || [])[0]);
+      };
+      const k = val('mod-vlr-kills', 4), d = val('mod-vlr-deaths', 5);
       const ag = (/agents\/([a-z0-9]+)\.png/i.exec(t.find('td.mod-agents img, img[src*="/agents/"]').first().attr('src') || '') || [])[1];
       if (nm && k != null && d != null) rows.push({ n: nm, k, d, ag: ag || '' });
     });
-    if (rows.length >= 10) {
-      const top = r => r.slice().sort((x, y) => y.k - x.k || x.d - y.d).slice(0, 5);
-      out.pl = { a: top(rows.slice(0, 5)), b: top(rows.slice(5, 10)) };
-    }
+    return rows;
+  };
+  const top = r => r.slice().sort((x, y) => y.k - x.k || x.d - y.d);
+  let pl, plm, found = [];
+  for (let i = Math.min(li === -1 ? games.length - 1 : li, games.length - 1); i >= 0; i--) {
+    const r = rowsOf(games[i].g);
+    found.push(games[i].n + ':' + r.length);
+    if (r.length >= 10) { pl = { a: top(r.slice(0, 5)), b: top(r.slice(5, 10)) }; plm = games[i].n; break; }
   }
+  console.log('live detail', path.split('/')[1], 'maps', games.length, 'live#', li, 'stat rows', found.join(' ') || 'none', pl ? '-> players from ' + plm : '-> no player stats yet');
+  const out = { mp };
+  if (pl) { out.pl = pl; out.plm = plm; }
   return out;
 }
 const oldRes = Object.fromEntries((old.results || []).map(m => [m.id, m]));
 const oldLive = Object.fromEntries((old.live || []).map(m => [m.id, m]));
 for (const m of live) {
-  try { Object.assign(m, await fetchMatch(m.url.replace(BASE, ''), true)); }
-  catch (e) { console.log('live detail skipped:', m.url, e.message); const o = oldLive[m.id]; if (o) { m.mp = o.mp; m.pl = o.pl; } }
-  await sleep(1200);
+  try { Object.assign(m, await fetchMatch(m.url.replace(BASE, ''), true, m.sa, m.sb)); }
+  catch (e) { console.log('live detail skipped:', m.url, e.message); const o = oldLive[m.id]; if (o) { m.mp = o.mp; m.pl = o.pl; m.plm = o.plm; } }
+  await sleep(600);
 }
 for (const m of results) {
   const o = oldRes[m.id];
