@@ -1,0 +1,108 @@
+{
+ "updated": "2026-11-21T06:45:45.677Z",
+ "live": [],
+ "upcoming": [
+  {
+   "id": "792903",
+   "a": "Winthrop University",
+   "b": "YFP",
+   "sa": "–",
+   "sb": "–",
+   "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
+   "ph": "Swiss Stage–Round 2 (1-0)",
+   "ts": 1795298400000,
+   "url": "https://www.vlr.gg/792903/winthrop-university-vs-yfp-vct-2027-america-kickoff-north-america-qualifier-playoffs-r2-1-0"
+  },
+  {
+   "id": "792904",
+   "a": "FlyQuest",
+   "b": "ENVY",
+   "sa": "–",
+   "sb": "–",
+   "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
+   "ph": "Swiss Stage–Round 2 (1-0)",
+   "ts": 1795298400000,
+   "url": "https://www.vlr.gg/792904/flyquest-vs-envy-vct-2027-america-kickoff-north-america-qualifier-playoffs-r2-1-0"
+  },
+  {
+   "id": "792905",
+   "a": "Yellow Dragon Gaming",
+   "b": "Wildcard",
+   "sa": "–",
+   "sb": "–",
+   "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
+   "ph": "Swiss Stage–Round 2 (0-1)",
+   "ts": 1795298400000,
+   "url": "https://www.vlr.gg/792905/yellow-dragon-gaming-vs-wildcard-vct-2027-america-kickoff-north-america-qualifier-playoffs-r2-0-1"
+  },
+  {
+   "id": "792906",
+   "a": "QoR",
+   "b": "Shopify Rebellion Gold",
+   "sa": "–",
+   "sb": "–",
+   "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
+   "ph": "Swiss Stage–Round 2 (0-1)",
+   "ts": 1795298400000,
+   "url": "https://www.vlr.gg/792906/qor-vs-shopify-rebellion-gold-vct-2027-america-kickoff-north-america-qualifier-playoffs-r2-0-1"
+  },
+  {
+   "id": "792907",
+   "a": "Oafs",
+   "b": "Shopify Rebellion Black",
+   "sa": "–",
+   "sb": "–",
+   "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
+   "ph": "Swiss Stage–Round 2 (1-0)",
+   "ts": 1795307400000,
+   "url": "https://www.vlr.gg/792907/oafs-vs-shopify-rebellion-black-vct-2027-america-kickoff-north-america-qualifier-playoffs-r2-1-0"
+  },
+  {
+   "id": "792908",
+   "a": "Cloud9",
+   "b": "Maryville University",
+   "sa": "–",
+   "sb": "–",
+   "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
+   "ph": "Swiss Stage–Round 2 (1-0)",
+   "ts": 1795307400000,
+   "url": "https://www.vlr.gg/792908/cloud9-vs-maryville-university-vct-2027-america-kickoff-north-america-qualifier-playoffs-r2-1-0"
+  },
+  {
+   "id": "792909",
+   "a": "Masterclass",
+   "b": "counterfeit",
+   "sa": "–",
+   "sb": "–",
+   "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
+   "ph": "Swiss Stage–Round 2 (0-1)",
+   "ts": 1795307400000,
+   "url": "https://www.vlr.gg/792909/masterclass-vs-counterfeit-vct-2027-america-kickoff-north-america-qualifier-playoffs-r2-0-1"
+  },
+  {
+   "id": "792910",
+   "a": "Xora Esports",
+   "b": "SaD Esports",
+   "sa": "–",
+   "sb": "–",
+   "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
+   "ph": "Swiss Stage–Round 2 (0-1)",
+   "ts": 1795307400000,
+   "url": "https://www.vlr.gg/792910/xora-esports-vs-sad-esports-vct-2027-america-kickoff-north-america-qualifier-playoffs-r2-0-1"
+  }
+ ],
+ "logos": {
+  "Winthrop University": "https://owcdn.net/img/636c2f2592313.png",
+  "YFP": "https://owcdn.net/img/677826ad11d3b.png",
+  "FlyQuest": "https://owcdn.net/img/69cac541ed59b.png",
+  "ENVY": "https://owcdn.net/img/5f3ca822464a3.png",
+  "Yellow Dragon Gaming": "https://owcdn.net/img/6afd0bad47358.png",
+  "Wildcard": "https://owcdn.net/img/6afb9b586bdab.png",
+  "QoR": "https://owcdn.net/img/63e9a11797f41.png",
+  "Shopify Rebellion Gold": "https://owcdn.net/img/679314e3d25f4.png",
+  "Oafs": "https://owcdn.net/img/6aefe353142fe.png",
+  "Shopify Rebellion Black": "https://owcdn.net/img/679314c8ac387.png",
+  "Cloud9": "https://owcdn.net/img/628addcbd509e.png",
+  "Maryville University": "https://owcdn.net/img/6457181dc433a.png"
+ }
+}
