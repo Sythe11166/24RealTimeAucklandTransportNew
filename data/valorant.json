@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T23:25:15.527Z",
+ "updated": "2026-11-21T23:27:09.750Z",
  "live": [
   {
    "id": "792903",
@@ -50,7 +50,7 @@
     {
      "n": "Sunset",
      "a": 1,
-     "b": 0,
+     "b": 1,
      "st": "l"
     },
     {
@@ -108,7 +108,7 @@
     {
      "n": "Bind",
      "a": 6,
-     "b": 9,
+     "b": 10,
      "st": "l"
     },
     {
@@ -544,7 +544,8 @@
   "QoR": "#25befa",
   "ARRANCA DREAMS": "#750dc5",
   "Arashi": "#de6523",
-  "Oafs": ""
+  "Oafs": "",
+  "Shopify Rebellion Black": ""
  },
  "agents": {}
 }
