@@ -1,0 +1,4 @@
+# Same-origin relay so the page can read vlr.gg without a public CORS proxy.
+# Netlify fetches these on its servers and hands the result to the dashboard.
+/vlr/matches  https://www.vlr.gg/matches  200
+/vlr/rss      https://www.vlr.gg/rss      200
