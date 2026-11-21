@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T06:45:45.677Z",
+ "updated": "2026-11-21T07:01:03.855Z",
  "live": [],
  "upcoming": [
   {
@@ -91,6 +91,52 @@
    "url": "https://www.vlr.gg/792910/xora-esports-vs-sad-esports-vct-2027-america-kickoff-north-america-qualifier-playoffs-r2-0-1"
   }
  ],
+ "results": [
+  {
+   "id": "791685",
+   "a": "SaD Esports",
+   "b": "Winthrop University",
+   "sa": "0",
+   "sb": "2",
+   "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
+   "ph": "Swiss Stage–Round 1 (0-0)",
+   "ts": 1795224600000,
+   "url": "https://www.vlr.gg/791685/sad-esports-vs-winthrop-university-vct-2027-america-kickoff-north-america-qualifier-playoffs-r1-0-0"
+  },
+  {
+   "id": "791683",
+   "a": "FlyQuest",
+   "b": "Masterclass",
+   "sa": "2",
+   "sb": "1",
+   "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
+   "ph": "Swiss Stage–Round 1 (0-0)",
+   "ts": 1795221000000,
+   "url": "https://www.vlr.gg/791683/flyquest-vs-masterclass-vct-2027-america-kickoff-north-america-qualifier-playoffs-r1-0-0"
+  },
+  {
+   "id": "791684",
+   "a": "Shopify Rebellion Black",
+   "b": "Xora Esports",
+   "sa": "2",
+   "sb": "0",
+   "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
+   "ph": "Swiss Stage–Round 1 (0-0)",
+   "ts": 1795219200000,
+   "url": "https://www.vlr.gg/791684/shopify-rebellion-black-vs-xora-esports-vct-2027-america-kickoff-north-america-qualifier-playoffs-r1-0-0"
+  },
+  {
+   "id": "791686",
+   "a": "Shopify Rebellion Gold",
+   "b": "Maryville University",
+   "sa": "0",
+   "sb": "2",
+   "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
+   "ph": "Swiss Stage–Round 1 (0-0)",
+   "ts": 1795219200000,
+   "url": "https://www.vlr.gg/791686/shopify-rebellion-gold-vs-maryville-university-vct-2027-america-kickoff-north-america-qualifier-playoffs-r1-0-0"
+  }
+ ],
  "logos": {
   "Winthrop University": "https://owcdn.net/img/636c2f2592313.png",
   "YFP": "https://owcdn.net/img/677826ad11d3b.png",
@@ -103,6 +149,10 @@
   "Oafs": "https://owcdn.net/img/6aefe353142fe.png",
   "Shopify Rebellion Black": "https://owcdn.net/img/679314c8ac387.png",
   "Cloud9": "https://owcdn.net/img/628addcbd509e.png",
-  "Maryville University": "https://owcdn.net/img/6457181dc433a.png"
+  "Maryville University": "https://owcdn.net/img/6457181dc433a.png",
+  "Masterclass": "https://owcdn.net/img/6af13eb45e344.png",
+  "counterfeit": "https://owcdn.net/img/6aff29b4d9f7b.png",
+  "Xora Esports": "https://owcdn.net/img/6afb14884bf9c.png",
+  "SaD Esports": "https://owcdn.net/img/6528e9505cb61.png"
  }
 }
