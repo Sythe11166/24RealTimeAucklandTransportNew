@@ -86,8 +86,28 @@ for (const m of need) {
 const keep = new Set(show.flatMap(m => [m.a, m.b]));
 for (const k of Object.keys(logos)) if (!keep.has(k)) delete logos[k];
 
-const out = { live, upcoming, results: results.slice(0, 4), logos };
-const before = JSON.stringify({ live: old.live || [], upcoming: old.upcoming || [], results: old.results || [], logos: old.logos || {} });
+// Valorant news (vlr.gg/news): title, one-line summary, date, link
+const DATE_RE = /(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*\.? \d{1,2}, \d{4}/;
+async function fetchNews() {
+  const $ = cheerio.load(await get('/news'));
+  const out = [];
+  $('a.wf-module-item').each((_, a) => {
+    const el = $(a), href = el.attr('href') || '';
+    if (!/^\/\d+\//.test(href)) return;
+    const leaf = el.find('div').filter((_, d) => $(d).children('div').length === 0).map((_, d) => txt($(d))).get().filter(Boolean);
+    const dm = DATE_RE.exec(txt(el)), t = leaf[0] || '';
+    const d = leaf.find((x, i) => i > 0 && x.length > 20 && !DATE_RE.test(x) && !/^by\b/i.test(x)) || '';
+    if (!t) return;
+    out.push({ t: t.slice(0, 160), d: d.slice(0, 220), ts: dm ? Date.parse(dm[0].replace('.', '') + ' 12:00:00 UTC') : null, url: BASE + href });
+  });
+  return out.slice(0, 6);
+}
+let news = old.news || [];
+try { await sleep(1200); const n = await fetchNews(); if (n.length) news = n; else console.log('news: no articles found'); }
+catch (e) { console.log('news skipped:', e.message); }
+
+const out = { live, upcoming, results: results.slice(0, 4), news, logos };
+const before = JSON.stringify({ live: old.live || [], upcoming: old.upcoming || [], results: old.results || [], news: old.news || [], logos: old.logos || {} });
 if (before === JSON.stringify(out)) { console.log('No change'); process.exit(0); }
 fs.mkdirSync('data', { recursive: true });
 fs.writeFileSync(FILE, JSON.stringify({ updated: new Date().toISOString(), ...out }, null, 1));
