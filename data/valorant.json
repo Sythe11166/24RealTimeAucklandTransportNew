@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T08:30:21.276Z",
+ "updated": "2026-11-21T09:05:40.632Z",
  "live": [],
  "upcoming": [
   {
@@ -101,7 +101,19 @@
    "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
    "ph": "Swiss Stage–Round 1 (0-0)",
    "ts": 1795224600000,
-   "url": "https://www.vlr.gg/791685/sad-esports-vs-winthrop-university-vct-2027-america-kickoff-north-america-qualifier-playoffs-r1-0-0"
+   "url": "https://www.vlr.gg/791685/sad-esports-vs-winthrop-university-vct-2027-america-kickoff-north-america-qualifier-playoffs-r1-0-0",
+   "mp": [
+    {
+     "n": "Bind",
+     "a": 10,
+     "b": 13
+    },
+    {
+     "n": "Lotus",
+     "a": 9,
+     "b": 13
+    }
+   ]
   },
   {
    "id": "791683",
@@ -112,7 +124,24 @@
    "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
    "ph": "Swiss Stage–Round 1 (0-0)",
    "ts": 1795221000000,
-   "url": "https://www.vlr.gg/791683/flyquest-vs-masterclass-vct-2027-america-kickoff-north-america-qualifier-playoffs-r1-0-0"
+   "url": "https://www.vlr.gg/791683/flyquest-vs-masterclass-vct-2027-america-kickoff-north-america-qualifier-playoffs-r1-0-0",
+   "mp": [
+    {
+     "n": "Haven",
+     "a": 10,
+     "b": 13
+    },
+    {
+     "n": "Corrode",
+     "a": 13,
+     "b": 9
+    },
+    {
+     "n": "Bind",
+     "a": 13,
+     "b": 9
+    }
+   ]
   },
   {
    "id": "791684",
@@ -123,7 +152,19 @@
    "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
    "ph": "Swiss Stage–Round 1 (0-0)",
    "ts": 1795219200000,
-   "url": "https://www.vlr.gg/791684/shopify-rebellion-black-vs-xora-esports-vct-2027-america-kickoff-north-america-qualifier-playoffs-r1-0-0"
+   "url": "https://www.vlr.gg/791684/shopify-rebellion-black-vs-xora-esports-vct-2027-america-kickoff-north-america-qualifier-playoffs-r1-0-0",
+   "mp": [
+    {
+     "n": "Bind",
+     "a": 13,
+     "b": 8
+    },
+    {
+     "n": "Abyss",
+     "a": 13,
+     "b": 5
+    }
+   ]
   },
   {
    "id": "791686",
@@ -134,7 +175,19 @@
    "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
    "ph": "Swiss Stage–Round 1 (0-0)",
    "ts": 1795219200000,
-   "url": "https://www.vlr.gg/791686/shopify-rebellion-gold-vs-maryville-university-vct-2027-america-kickoff-north-america-qualifier-playoffs-r1-0-0"
+   "url": "https://www.vlr.gg/791686/shopify-rebellion-gold-vs-maryville-university-vct-2027-america-kickoff-north-america-qualifier-playoffs-r1-0-0",
+   "mp": [
+    {
+     "n": "Haven",
+     "a": 9,
+     "b": 13
+    },
+    {
+     "n": "Lotus",
+     "a": 15,
+     "b": 17
+    }
+   ]
   }
  ],
  "news": [
