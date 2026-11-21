@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T23:52:13.417Z",
+ "updated": "2026-11-21T23:54:02.797Z",
  "live": [
   {
    "id": "792903",
@@ -21,7 +21,7 @@
     {
      "n": "Bind",
      "a": 6,
-     "b": 3,
+     "b": 4,
      "st": "l"
     },
     {
@@ -51,7 +51,7 @@
     {
      "n": "Sunset",
      "a": 7,
-     "b": 9,
+     "b": 10,
      "st": "l"
     },
     {
@@ -116,7 +116,7 @@
     },
     {
      "n": "Summit",
-     "a": 1,
+     "a": 2,
      "b": 0,
      "st": "l"
     }
@@ -247,7 +247,7 @@
    "sb": "–",
    "ev": "VCT 2027: EMEA Kickoff - MENA Qualifier",
    "ph": "Playoffs–Grand Final",
-   "ts": 1795305000000,
+   "ts": 1795305300000,
    "url": "https://www.vlr.gg/792551/mix-my-miks-vs-no-org-no-problem-vct-2027-emea-kickoff-mena-qualifier-playoffs-gf"
   },
   {
@@ -630,7 +630,8 @@
   "Arashi": "#de6523",
   "Oafs": "",
   "Shopify Rebellion Black": "",
-  "Cloud9": "#27afe5"
+  "Cloud9": "#27afe5",
+  "Maryville University": "#a9171c"
  },
  "agents": {},
  "evlogos": {
