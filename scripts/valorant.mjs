@@ -68,7 +68,61 @@ const live = list.filter(m => m.live).slice(0, 4).map(({ live, ...m }) => ({ ...
 const upcoming = list.filter(m => !m.live && m.ts && m.ts > Date.now() - 36e5 && !isTbd(m.a) && !isTbd(m.b))
   .sort((x, y) => x.ts - y.ts).slice(0, 12).map(({ live, ...m }) => m);
 
-const results = pastList.filter(m => !isTbd(m.a) && !isTbd(m.b) && m.sa !== '' && m.sb !== '').slice(0, 6).map(({ live, ...m }) => m);
+const results = pastList.filter(m => !isTbd(m.a) && !isTbd(m.b) && m.sa !== '' && m.sb !== '').slice(0, 4).map(({ live, ...m }) => m);
+
+
+// ---- per-map scores + live player K/D from a match page (all defensive: any miss just means "no detail") ----
+const num = s => { const n = parseInt(String(s).replace(/[^\d]/g, ''), 10); return isNaN(n) ? null : n; };
+const mapDone = m => m.a != null && m.b != null && Math.max(m.a, m.b) >= 13 && Math.abs(m.a - m.b) >= 2;
+async function fetchMatch(path, live) {
+  const $ = cheerio.load(await get(path));
+  const games = [];
+  $('.vm-stats-gamesnav-item').each((_, e) => {
+    const id = $(e).attr('data-game-id');
+    if (!id || id === 'all') return;
+    const g = $('.vm-stats-game[data-game-id="' + id + '"]').first();
+    const sc = g.find('.vm-stats-game-header .score').map((_, x) => num(txt($(x)))).get();
+    let n = txt($(e)).replace(/^\d+\s*/, '');
+    n = (/[A-Za-z][A-Za-z ]*[A-Za-z]/.exec(n) || [''])[0].trim();
+    if (!n) n = (/[A-Za-z][A-Za-z ]*[A-Za-z]/.exec(txt(g.find('.vm-stats-game-header .map span').first())) || [''])[0].trim();
+    games.push({ g, n, a: sc.length > 1 ? sc[0] : null, b: sc.length > 1 ? sc[1] : null });
+  });
+  const started = games.filter(m => m.n && m.a != null && m.b != null && m.a + m.b > 0);
+  const mp = started.map(m => {
+    const o = { n: m.n, a: m.a, b: m.b };
+    if (live && !mapDone(m)) o.lv = true;
+    return o;
+  });
+  const out = { mp };
+  if (live && started.length) {
+    const cur = started[started.length - 1], rows = [];
+    cur.g.find('table.wf-table-inset tbody tr').each((_, tr) => {
+      const t = $(tr), nm = txt(t.find('.mod-player .text-of').first()) || txt(t.find('.mod-player').first()).split(' ')[0];
+      const k = num(txt(t.find('td.mod-vlr-kills .mod-both').first()) || txt(t.find('td.mod-vlr-kills').first()));
+      const d = num(txt(t.find('td.mod-vlr-deaths .mod-both').first()) || txt(t.find('td.mod-vlr-deaths').first()));
+      if (nm && k != null && d != null) rows.push({ n: nm, k, d });
+    });
+    if (rows.length >= 10) {
+      const top = r => r.slice().sort((x, y) => y.k - x.k || x.d - y.d).slice(0, 2);
+      out.pl = { a: top(rows.slice(0, 5)), b: top(rows.slice(5, 10)) };
+    }
+  }
+  return out;
+}
+const oldRes = Object.fromEntries((old.results || []).map(m => [m.id, m]));
+const oldLive = Object.fromEntries((old.live || []).map(m => [m.id, m]));
+for (const m of live) {
+  try { Object.assign(m, await fetchMatch(m.url.replace(BASE, ''), true)); }
+  catch (e) { console.log('live detail skipped:', m.url, e.message); const o = oldLive[m.id]; if (o) { m.mp = o.mp; m.pl = o.pl; } }
+  await sleep(1200);
+}
+for (const m of results) {
+  const o = oldRes[m.id];
+  if (o && o.mp && o.mp.length) { m.mp = o.mp; continue; }
+  try { const x = await fetchMatch(m.url.replace(BASE, ''), false); if (x.mp.length) m.mp = x.mp; }
+  catch (e) { console.log('map detail skipped:', m.url, e.message); }
+  await sleep(1200);
+}
 
 // team logos: one match page per match with a missing logo, cached in the JSON so it rarely repeats
 const logos = { ...(old.logos || {}) };
