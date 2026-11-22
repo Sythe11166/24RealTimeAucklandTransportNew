@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T01:59:25.479Z",
+ "updated": "2026-11-22T02:01:06.858Z",
  "live": [
   {
    "id": "792034",
@@ -181,7 +181,7 @@
     {
      "n": "Haven",
      "a": 5,
-     "b": 6,
+     "b": 7,
      "st": "l"
     },
     {
@@ -318,6 +318,10 @@
     ],
     [
      "a",
+     "e"
+    ],
+    [
+     "b",
      "e"
     ]
    ],
@@ -997,7 +1001,7 @@
  "br": {
   "u": "/event/3183/vct-2027-america-kickoff-brazil-qualifier-playoffs/swiss-stage",
   "ev": "VCT 2027: America Kickoff - Brazil Qualifier Playoffs",
-  "at": 1795312563293,
+  "at": 1795312865512,
   "r": [
    {
     "r": "Round 1 (0-0)",
