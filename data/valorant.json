@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T01:16:16.479Z",
+ "updated": "2026-11-22T01:17:57.894Z",
  "live": [
   {
    "id": "792905",
@@ -26,7 +26,7 @@
     },
     {
      "n": "Summit",
-     "a": 6,
+     "a": 7,
      "b": 11,
      "st": "l"
     }
@@ -137,6 +137,10 @@
     ],
     [
      "b",
+     "e"
+    ],
+    [
+     "a",
      "e"
     ]
    ],
@@ -252,7 +256,7 @@
    "mp": [
     {
      "n": "Abyss",
-     "a": 10,
+     "a": 11,
      "b": 9,
      "st": "l"
     },
@@ -375,11 +379,15 @@
     ],
     [
      "b",
-     "e"
+     "d"
     ],
     [
      "b",
      "d"
+    ],
+    [
+     "a",
+     "e"
     ]
    ],
    "rdm": "Abyss"
@@ -397,7 +405,7 @@
    "mp": [
     {
      "n": "Lotus",
-     "a": 4,
+     "a": 5,
      "b": 1,
      "st": "l"
     },
@@ -469,6 +477,10 @@
     [
      "b",
      "e"
+    ],
+    [
+     "a",
+     "e"
     ]
    ],
    "rdm": "Lotus"
@@ -487,7 +499,7 @@
     {
      "n": "Sunset",
      "a": 6,
-     "b": 1,
+     "b": 2,
      "st": "l"
     },
     {
@@ -566,6 +578,10 @@
     [
      "b",
      "e"
+    ],
+    [
+     "b",
+     "d"
     ]
    ],
    "rdm": "Sunset"
@@ -580,7 +596,7 @@
    "sb": "–",
    "ev": "VCT 2027: EMEA Kickoff - MENA Qualifier",
    "ph": "Playoffs–Grand Final",
-   "ts": 1795310100000,
+   "ts": 1795310400000,
    "url": "https://www.vlr.gg/792551/mix-my-miks-vs-no-org-no-problem-vct-2027-emea-kickoff-mena-qualifier-playoffs-gf",
    "bo": "3",
    "evu": "/event/3167/vct-2027-emea-kickoff-mena-qualifier/playoffs",
