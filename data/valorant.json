@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T10:27:52.630Z",
+ "updated": "2026-11-22T10:29:28.278Z",
  "live": [],
  "upcoming": [
   {
@@ -5287,7 +5287,7 @@
    "sa": "0",
    "sb": "2",
    "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ts": 1795228200000
+   "ts": 1795224600000
   },
   {
    "id": "791683",
@@ -5296,7 +5296,7 @@
    "sa": "2",
    "sb": "1",
    "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ts": 1795224600000
+   "ts": 1795221000000
   },
   {
    "id": "791684",
@@ -5413,7 +5413,7 @@
    "sa": "0",
    "sb": "2",
    "ev": "VCT 2027: EMEA Kickoff - Europe Open Qualifier",
-   "ts": 1794771000000
+   "ts": 1794767400000
   },
   {
    "id": "790755",
