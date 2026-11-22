@@ -401,8 +401,11 @@ if (needAg.length) {
     for (const a of j.data || []) agents[a.displayName.toLowerCase().replace(/[^a-z0-9]/g, '')] = { i: a.displayIcon, p: a.bustPortrait || a.fullPortraitV2 || a.displayIcon };
   } catch (e) { console.log('agent art skipped:', e.message); }
 }
-const out = { live, upcoming, results: results.slice(0, 9), news, logos, colors, agents, evlogos, vct, br };
-const before = JSON.stringify({ live: old.live || [], upcoming: old.upcoming || [], results: old.results || [], news: old.news || [], logos: old.logos || {}, colors: old.colors || {}, agents: old.agents || {}, evlogos: old.evlogos || {}, vct: old.vct || '', br: old.br || null });
+// wider, lightweight lists for the home page (favourite teams' next/last matches within a month)
+const fu = list.filter(m => !m.live && m.ts && m.ts > Date.now() - 36e5 && !isTbd(m.a) && !isTbd(m.b)).sort((x, y) => x.ts - y.ts).slice(0, 60).map(m => ({ id: m.id, a: m.a, b: m.b, ev: m.ev, ts: m.ts }));
+const fr = pastList.filter(m => !isTbd(m.a) && !isTbd(m.b) && m.sa !== '' && m.sb !== '' && m.ts).slice(0, 50).map(m => ({ id: m.id, a: m.a, b: m.b, sa: m.sa, sb: m.sb, ev: m.ev, ts: m.ts }));
+const out = { live, upcoming, results: results.slice(0, 9), news, logos, colors, agents, evlogos, vct, br, fu, fr };
+const before = JSON.stringify({ live: old.live || [], upcoming: old.upcoming || [], results: old.results || [], news: old.news || [], logos: old.logos || {}, colors: old.colors || {}, agents: old.agents || {}, evlogos: old.evlogos || {}, vct: old.vct || '', br: old.br || null, fu: old.fu || [], fr: old.fr || [] });
 const flat = o => JSON.stringify({ ...o, br: o.br && { ...o.br, at: 0 } });
 const fresh = old.updated && Date.now() - Date.parse(old.updated) < (live.length ? 3 : 20) * 60000;
 if (fresh && flat(JSON.parse(before)) === flat(out)) { console.log('No change'); process.exit(0); }
