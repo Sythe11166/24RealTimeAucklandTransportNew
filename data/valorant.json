@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T01:17:57.894Z",
+ "updated": "2026-11-22T01:19:40.260Z",
  "live": [
   {
    "id": "792905",
@@ -26,7 +26,7 @@
     },
     {
      "n": "Summit",
-     "a": 7,
+     "a": 8,
      "b": 11,
      "st": "l"
     }
@@ -141,7 +141,11 @@
     ],
     [
      "a",
-     "e"
+     "d"
+    ],
+    [
+     "a",
+     "d"
     ]
    ],
    "rdm": "Summit"
@@ -257,7 +261,7 @@
     {
      "n": "Abyss",
      "a": 11,
-     "b": 9,
+     "b": 10,
      "st": "l"
     },
     {
@@ -388,6 +392,10 @@
     [
      "a",
      "e"
+    ],
+    [
+     "b",
+     "d"
     ]
    ],
    "rdm": "Abyss"
@@ -405,7 +413,7 @@
    "mp": [
     {
      "n": "Lotus",
-     "a": 5,
+     "a": 6,
      "b": 1,
      "st": "l"
     },
@@ -481,6 +489,10 @@
     [
      "a",
      "e"
+    ],
+    [
+     "a",
+     "e"
     ]
    ],
    "rdm": "Lotus"
@@ -499,7 +511,7 @@
     {
      "n": "Sunset",
      "a": 6,
-     "b": 2,
+     "b": 3,
      "st": "l"
     },
     {
@@ -582,6 +594,10 @@
     [
      "b",
      "d"
+    ],
+    [
+     "b",
+     "e"
     ]
    ],
    "rdm": "Sunset"
@@ -971,7 +987,7 @@
  "br": {
   "u": "/event/3179/vct-2027-america-kickoff-north-america-qualifier-playoffs/swiss-stage",
   "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-  "at": 1795310073632,
+  "at": 1795310378968,
   "r": [
    {
     "r": "Round 1 (0-0)",
