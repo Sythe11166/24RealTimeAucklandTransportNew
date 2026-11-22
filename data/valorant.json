@@ -1,21 +1,7 @@
 {
- "updated": "2026-11-22T13:07:39.440Z",
+ "updated": "2026-11-22T13:12:24.178Z",
  "live": [],
  "upcoming": [
-  {
-   "id": "792551",
-   "a": "Mix My Miks",
-   "b": "No Org No Problem",
-   "sa": "–",
-   "sb": "–",
-   "ev": "VCT 2027: EMEA Kickoff - MENA Qualifier",
-   "ph": "Playoffs–Grand Final",
-   "ts": 1795353000000,
-   "url": "https://www.vlr.gg/792551/mix-my-miks-vs-no-org-no-problem-vct-2027-emea-kickoff-mena-qualifier-playoffs-gf",
-   "bo": "3",
-   "evu": "/event/3167/vct-2027-emea-kickoff-mena-qualifier/playoffs",
-   "fz": 1
-  },
   {
    "id": "792038",
    "a": "Manticore",
@@ -57,7 +43,10 @@
    "ev": "VCT 2027: America Kickoff - LATAM North Qualifier Playoffs",
    "ph": "Swiss Stage–Round 2 (1-0)",
    "ts": 1795384800000,
-   "url": "https://www.vlr.gg/793236/leons-vs-contra-vct-2027-america-kickoff-latam-north-qualifier-playoffs-swiss-stage-r2-1-0"
+   "url": "https://www.vlr.gg/793236/leons-vs-contra-vct-2027-america-kickoff-latam-north-qualifier-playoffs-swiss-stage-r2-1-0",
+   "bo": "3",
+   "evu": "/event/3184/vct-2027-america-kickoff-latam-north-qualifier-playoffs/swiss-stage",
+   "fz": 1
   },
   {
    "id": "793237",
@@ -146,6 +135,17 @@
    "ph": "Swiss Stage–Round 3 (1-1)",
    "ts": 1795393800000,
    "url": "https://www.vlr.gg/793335/maryville-university-vs-qor-vct-2027-america-kickoff-north-america-qualifier-playoffs-r3-1-1"
+  },
+  {
+   "id": "793336",
+   "a": "Oafs",
+   "b": "SaD Esports",
+   "sa": "–",
+   "sb": "–",
+   "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
+   "ph": "Swiss Stage–Round 3 (1-1)",
+   "ts": 1795393800000,
+   "url": "https://www.vlr.gg/793336/oafs-vs-sad-esports-vct-2027-america-kickoff-north-america-qualifier-playoffs-r3-1-1"
   }
  ],
  "results": [
@@ -4901,8 +4901,8 @@
   "LEONS": "",
   "Contra": "https://owcdn.net/img/66572b1da4d79.png",
   "FUEGO": "https://owcdn.net/img/678f90b7b65e5.png",
-  "Mix My Miks": "https://owcdn.net/img/6aad435f0d90b.png",
-  "No Org No Problem": ""
+  "Mafiosos": "",
+  "Master Bank": ""
  },
  "colors": {
   "Winthrop University": "#fbb310",
@@ -4925,8 +4925,7 @@
   "Arashi": "#de6523",
   "ARRANCA DREAMS": "#750dc5",
   "Contra": "#f0b104",
-  "FUEGO": "#d95028",
-  "Mix My Miks": "#911318"
+  "FUEGO": "#d95028"
  },
  "agents": {
   "gekko": {
@@ -5053,8 +5052,7 @@
  "evlogos": {
   "VCT 2027: America Kickoff - North America Qualifier Playoffs": "https://owcdn.net/img/640f5ab71dfbb.png",
   "VCT 2027: America Kickoff - Brazil Qualifier Playoffs": "https://owcdn.net/img/640f5ab71dfbb.png",
-  "VCT 2027: America Kickoff - LATAM North Qualifier Playoffs": "https://owcdn.net/img/640f5ab71dfbb.png",
-  "VCT 2027: EMEA Kickoff - MENA Qualifier": "https://owcdn.net/img/65ab59620a233.png"
+  "VCT 2027: America Kickoff - LATAM North Qualifier Playoffs": "https://owcdn.net/img/640f5ab71dfbb.png"
  },
  "vct": "https://owcdn.net/img/640f5ab71dfbb.png",
  "br": {
