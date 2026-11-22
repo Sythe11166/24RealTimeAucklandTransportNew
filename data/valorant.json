@@ -1,88 +1,6 @@
 {
- "updated": "2026-11-22T23:35:19.586Z",
+ "updated": "2026-11-22T23:37:01.974Z",
  "live": [
-  {
-   "id": "793236",
-   "a": "LEONS",
-   "b": "Contra",
-   "sa": "1",
-   "sb": "0",
-   "ev": "VCT 2027: America Kickoff - LATAM North Qualifier Playoffs",
-   "ph": "Swiss Stage–Round 2 (1-0)",
-   "ts": 1795384800000,
-   "url": "https://www.vlr.gg/793236/leons-vs-contra-vct-2027-america-kickoff-latam-north-qualifier-playoffs-swiss-stage-r2-1-0",
-   "mp": [
-    {
-     "n": "Summit",
-     "a": 13,
-     "b": 7,
-     "st": "d"
-    },
-    {
-     "n": "TBD",
-     "a": 0,
-     "b": 0,
-     "st": "l"
-    },
-    {
-     "n": "TBD",
-     "st": "n"
-    }
-   ],
-   "evu": "/event/3184/vct-2027-america-kickoff-latam-north-qualifier-playoffs/swiss-stage",
-   "bo": "3",
-   "pl": {
-    "a": [
-     {
-      "n": "Weegle",
-      "ag": ""
-     },
-     {
-      "n": "Dragon",
-      "ag": ""
-     },
-     {
-      "n": "Virtyy",
-      "ag": ""
-     },
-     {
-      "n": "Mephisto",
-      "ag": ""
-     },
-     {
-      "n": "Jow",
-      "ag": ""
-     }
-    ],
-    "b": [
-     {
-      "n": "theory",
-      "ag": ""
-     },
-     {
-      "n": "Mited",
-      "ag": ""
-     },
-     {
-      "n": "CRUNCH",
-      "ag": ""
-     },
-     {
-      "n": "Tastyy",
-      "ag": ""
-     },
-     {
-      "n": "Fresht",
-      "ag": ""
-     }
-    ]
-   },
-   "tg": [
-    "LEON",
-    "BBB"
-   ],
-   "nk": 1
-  },
   {
    "id": "793237",
    "a": "FUEGO",
@@ -184,7 +102,7 @@
     },
     {
      "n": "Corrode",
-     "a": 6,
+     "a": 7,
      "b": 4,
      "st": "l"
     },
@@ -323,6 +241,10 @@
     [
      "a",
      "e"
+    ],
+    [
+     "a",
+     "d"
     ]
    ],
    "rdm": "Corrode"
@@ -799,6 +721,356 @@
   }
  ],
  "results": [
+  {
+   "id": "793236",
+   "a": "LEONS",
+   "b": "Contra",
+   "sa": "2",
+   "sb": "0",
+   "ev": "VCT 2027: America Kickoff - LATAM North Qualifier Playoffs",
+   "ph": "Swiss Stage–Round 2 (1-0)",
+   "ts": 1795384800000,
+   "url": "https://www.vlr.gg/793236/leons-vs-contra-vct-2027-america-kickoff-latam-north-qualifier-playoffs-swiss-stage-r2-1-0",
+   "mp": [
+    {
+     "n": "Summit",
+     "a": 13,
+     "b": 7
+    },
+    {
+     "n": "Abyss",
+     "a": 13,
+     "b": 6
+    }
+   ],
+   "sm": [
+    {
+     "n": "Summit",
+     "a": 13,
+     "b": 7,
+     "pa": [
+      {
+       "n": "Mephisto",
+       "k": 21,
+       "d": 10,
+       "a": 4,
+       "ag": "sage"
+      },
+      {
+       "n": "Jow",
+       "k": 17,
+       "d": 12,
+       "a": 10,
+       "ag": "fade"
+      },
+      {
+       "n": "Weegle",
+       "k": 16,
+       "d": 14,
+       "a": 15,
+       "ag": "harbor"
+      },
+      {
+       "n": "Virtyy",
+       "k": 14,
+       "d": 15,
+       "a": 5,
+       "ag": "neon"
+      },
+      {
+       "n": "Dragon",
+       "k": 13,
+       "d": 14,
+       "a": 2,
+       "ag": "chamber"
+      }
+     ],
+     "pb": [
+      {
+       "n": "theory",
+       "k": 16,
+       "d": 16,
+       "a": 7,
+       "ag": "fade"
+      },
+      {
+       "n": "CRUNCH",
+       "k": 14,
+       "d": 17,
+       "a": 5,
+       "ag": "chamber"
+      },
+      {
+       "n": "Tastyy",
+       "k": 13,
+       "d": 17,
+       "a": 3,
+       "ag": "neon"
+      },
+      {
+       "n": "Fresht",
+       "k": 12,
+       "d": 16,
+       "a": 7,
+       "ag": "sage"
+      },
+      {
+       "n": "Mited",
+       "k": 10,
+       "d": 15,
+       "a": 9,
+       "ag": "omen"
+      }
+     ],
+     "rd": [
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "b"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "b",
+       "d"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "b",
+       "t"
+      ],
+      [
+       "b",
+       "d"
+      ],
+      [
+       "b",
+       "d"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "d"
+      ],
+      [
+       "b",
+       "d"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "d"
+      ],
+      [
+       "a",
+       "d"
+      ],
+      [
+       "a",
+       "d"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ]
+     ]
+    },
+    {
+     "n": "Abyss",
+     "a": 13,
+     "b": 6,
+     "pa": [
+      {
+       "n": "Virtyy",
+       "k": 24,
+       "d": 9,
+       "a": 3,
+       "ag": "waylay"
+      },
+      {
+       "n": "Weegle",
+       "k": 19,
+       "d": 12,
+       "a": 3,
+       "ag": "omen"
+      },
+      {
+       "n": "Mephisto",
+       "k": 18,
+       "d": 10,
+       "a": 8,
+       "ag": "astra"
+      },
+      {
+       "n": "Jow",
+       "k": 11,
+       "d": 6,
+       "a": 2,
+       "ag": "sova"
+      },
+      {
+       "n": "Dragon",
+       "k": 10,
+       "d": 16,
+       "a": 6,
+       "ag": "yoru"
+      }
+     ],
+     "pb": [
+      {
+       "n": "Tastyy",
+       "k": 13,
+       "d": 15,
+       "a": 5,
+       "ag": "waylay"
+      },
+      {
+       "n": "CRUNCH",
+       "k": 13,
+       "d": 17,
+       "a": 3,
+       "ag": "yoru"
+      },
+      {
+       "n": "Fresht",
+       "k": 11,
+       "d": 16,
+       "a": 10,
+       "ag": "harbor"
+      },
+      {
+       "n": "Mited",
+       "k": 9,
+       "d": 18,
+       "a": 4,
+       "ag": "sova"
+      },
+      {
+       "n": "theory",
+       "k": 7,
+       "d": 16,
+       "a": 7,
+       "ag": "astra"
+      }
+     ],
+     "rd": [
+      [
+       "a",
+       "d"
+      ],
+      [
+       "a",
+       "d"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "d"
+      ],
+      [
+       "a",
+       "d"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "b",
+       "d"
+      ],
+      [
+       "b",
+       "d"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ]
+     ]
+    }
+   ],
+   "tg": [
+    "LEON",
+    "BBB"
+   ],
+   "bo": "3",
+   "smt": 1795390616430,
+   "et": 1795390617630
+  },
   {
    "id": "792038",
    "a": "Manticore",
@@ -4811,586 +5083,6 @@
     "WU",
     "YFP"
    ]
-  },
-  {
-   "id": "792904",
-   "a": "FlyQuest",
-   "b": "ENVY",
-   "sa": "1",
-   "sb": "2",
-   "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ph": "Swiss Stage–Round 2 (1-0)",
-   "ts": 1795300500000,
-   "url": "https://www.vlr.gg/792904/flyquest-vs-envy-vct-2027-america-kickoff-north-america-qualifier-playoffs-r2-1-0",
-   "mp": [
-    {
-     "n": "Corrode",
-     "a": 13,
-     "b": 15
-    },
-    {
-     "n": "Sunset",
-     "a": 13,
-     "b": 11
-    },
-    {
-     "n": "Bind",
-     "a": 1,
-     "b": 13
-    }
-   ],
-   "sm": [
-    {
-     "n": "Corrode",
-     "a": 13,
-     "b": 15,
-     "pa": [
-      {
-       "n": "solada",
-       "k": 27,
-       "d": 20,
-       "a": 8,
-       "ag": "hush"
-      },
-      {
-       "n": "tonza",
-       "k": 26,
-       "d": 17,
-       "a": 3,
-       "ag": "waylay"
-      },
-      {
-       "n": "sacred",
-       "k": 17,
-       "d": 22,
-       "a": 12,
-       "ag": "omen"
-      },
-      {
-       "n": "sorex",
-       "k": 13,
-       "d": 19,
-       "a": 3,
-       "ag": "viper"
-      },
-      {
-       "n": "Kess",
-       "k": 6,
-       "d": 22,
-       "a": 13,
-       "ag": "fade"
-      }
-     ],
-     "pb": [
-      {
-       "n": "Xeppaa",
-       "k": 28,
-       "d": 17,
-       "a": 7,
-       "ag": "vyse"
-      },
-      {
-       "n": "ion",
-       "k": 22,
-       "d": 18,
-       "a": 3,
-       "ag": "hush"
-      },
-      {
-       "n": "exa",
-       "k": 21,
-       "d": 19,
-       "a": 6,
-       "ag": "omen"
-      },
-      {
-       "n": "v1c",
-       "k": 15,
-       "d": 17,
-       "a": 15,
-       "ag": "harbor"
-      },
-      {
-       "n": "Paincakes",
-       "k": 14,
-       "d": 18,
-       "a": 14,
-       "ag": "fade"
-      }
-     ],
-     "rd": [
-      [
-       "a",
-       "d"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "d"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "b",
-       "b"
-      ],
-      [
-       "a",
-       "d"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "d"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "d"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "d"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "b",
-       "d"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "d"
-      ]
-     ]
-    },
-    {
-     "n": "Sunset",
-     "a": 13,
-     "b": 11,
-     "pa": [
-      {
-       "n": "tonza",
-       "k": 23,
-       "d": 17,
-       "a": 5,
-       "ag": "neon"
-      },
-      {
-       "n": "sorex",
-       "k": 21,
-       "d": 15,
-       "a": 4,
-       "ag": "cypher"
-      },
-      {
-       "n": "sacred",
-       "k": 16,
-       "d": 19,
-       "a": 13,
-       "ag": "omen"
-      },
-      {
-       "n": "Kess",
-       "k": 15,
-       "d": 18,
-       "a": 9,
-       "ag": "sova"
-      },
-      {
-       "n": "solada",
-       "k": 13,
-       "d": 19,
-       "a": 7,
-       "ag": "hush"
-      }
-     ],
-     "pb": [
-      {
-       "n": "Xeppaa",
-       "k": 24,
-       "d": 15,
-       "a": 11,
-       "ag": "phoenix"
-      },
-      {
-       "n": "v1c",
-       "k": 22,
-       "d": 15,
-       "a": 11,
-       "ag": "omen"
-      },
-      {
-       "n": "ion",
-       "k": 19,
-       "d": 20,
-       "a": 7,
-       "ag": "neon"
-      },
-      {
-       "n": "exa",
-       "k": 14,
-       "d": 17,
-       "a": 3,
-       "ag": "cypher"
-      },
-      {
-       "n": "Paincakes",
-       "k": 9,
-       "d": 21,
-       "a": 16,
-       "ag": "fade"
-      }
-     ],
-     "rd": [
-      [
-       "a",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "a",
-       "d"
-      ],
-      [
-       "a",
-       "d"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "a",
-       "d"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "d"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "d"
-      ],
-      [
-       "a",
-       "b"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ]
-     ]
-    },
-    {
-     "n": "Bind",
-     "a": 1,
-     "b": 13,
-     "pa": [
-      {
-       "n": "sorex",
-       "k": 10,
-       "d": 13,
-       "a": 0,
-       "ag": "viper"
-      },
-      {
-       "n": "sacred",
-       "k": 8,
-       "d": 14,
-       "a": 6,
-       "ag": "brimstone"
-      },
-      {
-       "n": "tonza",
-       "k": 7,
-       "d": 13,
-       "a": 2,
-       "ag": "neon"
-      },
-      {
-       "n": "solada",
-       "k": 7,
-       "d": 13,
-       "a": 1,
-       "ag": "hush"
-      },
-      {
-       "n": "Kess",
-       "k": 6,
-       "d": 14,
-       "a": 2,
-       "ag": "fade"
-      }
-     ],
-     "pb": [
-      {
-       "n": "ion",
-       "k": 18,
-       "d": 10,
-       "a": 6,
-       "ag": "hush"
-      },
-      {
-       "n": "Xeppaa",
-       "k": 16,
-       "d": 5,
-       "a": 9,
-       "ag": "brimstone"
-      },
-      {
-       "n": "v1c",
-       "k": 14,
-       "d": 6,
-       "a": 3,
-       "ag": "viper"
-      },
-      {
-       "n": "exa",
-       "k": 14,
-       "d": 9,
-       "a": 4,
-       "ag": "chamber"
-      },
-      {
-       "n": "Paincakes",
-       "k": 5,
-       "d": 8,
-       "a": 5,
-       "ag": "skye"
-      }
-     ],
-     "rd": [
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "b"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "a",
-       "d"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "d"
-      ]
-     ]
-    }
-   ],
-   "vt": [
-    [
-     "x",
-     "FLY",
-     "Lotus"
-    ],
-    [
-     "x",
-     "ENVY",
-     "Summit"
-    ],
-    [
-     "p",
-     "FLY",
-     "Corrode"
-    ],
-    [
-     "p",
-     "ENVY",
-     "Sunset"
-    ],
-    [
-     "x",
-     "FLY",
-     "Abyss"
-    ],
-    [
-     "x",
-     "ENVY",
-     "Haven"
-    ],
-    [
-     "d",
-     "",
-     "Bind"
-    ]
-   ],
-   "bo": "3",
-   "smt": 1795343238291,
-   "tg": [
-    "FLY",
-    "ENVY"
-   ]
   }
  ],
  "news": [
@@ -5448,7 +5140,6 @@
   "FlyQuest": "https://owcdn.net/img/69cac541ed59b.png",
   "Wildcard": "https://owcdn.net/img/6afb9b586bdab.png",
   "QoR": "https://owcdn.net/img/63e9a11797f41.png",
-  "ENVY": "https://owcdn.net/img/5f3ca822464a3.png",
   "Manticore": "",
   "ELEVATE": "https://owcdn.net/img/65990c8ab7c2b.png",
   "Arashi": "https://owcdn.net/img/6a14f3716a980.png\t",
@@ -5486,7 +5177,6 @@
   "FlyQuest": "#02814b",
   "Wildcard": "#21a9f4",
   "QoR": "#25befa",
-  "ENVY": "",
   "ELEVATE": "#d82027",
   "Arashi": "#de6523",
   "ARRANCA DREAMS": "#750dc5",
@@ -5788,6 +5478,15 @@
   }
  ],
  "fr": [
+  {
+   "id": "793236",
+   "a": "LEONS",
+   "b": "Contra",
+   "sa": "2",
+   "sb": "0",
+   "ev": "VCT 2027: America Kickoff - LATAM North Qualifier Playoffs",
+   "ts": 1795384800000
+  },
   {
    "id": "792038",
    "a": "Manticore",
@@ -6145,15 +5844,6 @@
    "b": "UNIWAY",
    "sa": "2",
    "sb": "1",
-   "ev": "VCT 2027: EMEA Kickoff - Europe Open Qualifier",
-   "ts": 1795304100000
-  },
-  {
-   "id": "789173",
-   "a": "TEAM GEORGE",
-   "b": "CGN Esports",
-   "sa": "1",
-   "sb": "2",
    "ev": "VCT 2027: EMEA Kickoff - Europe Open Qualifier",
    "ts": 1795304100000
   }
