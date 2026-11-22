@@ -202,18 +202,23 @@ body.eco .vl>*,body.eco .lv1>*{animation:none}
 /* news + quote */
 .ah{font-size:1em;font-weight:750;line-height:1.2}
 #nw.pin{--tx:#f4f6fb;--mu:rgba(244,246,251,.6);background:radial-gradient(75% 85% at 0% 100%,color-mix(in srgb,var(--ca) 42%,transparent),transparent 72%),radial-gradient(75% 85% at 100% 100%,color-mix(in srgb,var(--cb) 42%,transparent),transparent 72%),#090b11}
-.pnw{height:100%;display:flex;flex-direction:column;font-size:min(7.6cqh,4.1cqw)}
-.pnh{display:flex;align-items:center;gap:.55em;font-size:.62em;font-weight:700;letter-spacing:.1em;color:var(--mu);text-transform:uppercase;white-space:nowrap;overflow:hidden;flex:none}.pnh b{color:#ff7a86}.pnh span:last-child{overflow:hidden;text-overflow:ellipsis}
-.pnb{flex:1;min-height:0;display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);align-items:center;gap:.6em}
-.pnm{display:flex;flex-direction:column;align-items:center;gap:.4em;min-width:0;font-weight:750;font-size:.95em;text-align:center}.pnm span{max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-#nw.pin .tb.big{width:2.6em;height:2.6em}
-.pnc{display:flex;flex-direction:column;align-items:center;gap:.25em;text-align:center}
-.pns{display:flex;align-items:center;line-height:1;font-size:2.2em;font-weight:800;letter-spacing:-.03em;font-variant-numeric:tabular-nums}.pns i{font-style:normal;opacity:.3;margin:0 .14em;font-size:.8em}
-.pnc>small,.pnr small{display:block;font-size:.55em;font-weight:700;letter-spacing:.12em;color:var(--mu);text-transform:uppercase}
-.pnr{padding:.4em 1em .45em;border-radius:1em;background:rgba(255,255,255,.09);margin-top:.15em}.pnr small{margin-bottom:.1em;white-space:nowrap}
-.pnq{display:flex;justify-content:center;align-items:center;font-size:1.8em;font-weight:800;font-variant-numeric:tabular-nums;line-height:1.05}.pnq i{font-style:normal;opacity:.3;margin:0 .14em}
-.pnk{font-size:.78em;font-weight:700;color:#ff9aa3}
-@container (min-aspect-ratio:2.3/1){.pnw{font-size:min(10.5cqh,3.1cqw)}.pnc{flex-direction:row;gap:1.1em}.pnc>small{display:none}.pnr{margin:0}}
+.pnw{height:100%;display:flex;flex-direction:column;font-size:min(6cqh,5cqw)}
+.pnh{display:flex;align-items:center;gap:.55em;font-size:.6em;font-weight:700;letter-spacing:.1em;color:var(--mu);text-transform:uppercase;white-space:nowrap;overflow:hidden;flex:none}.pnh b{color:#ff7a86}.pnh span:last-child{overflow:hidden;text-overflow:ellipsis}
+.pnb{flex:1;min-height:0;display:grid;grid-template-columns:1fr 1fr;grid-template-areas:"a b" "m m";align-content:center;align-items:center;row-gap:.9em}
+.pnt:first-child{grid-area:a;justify-self:start}.pnt.r{grid-area:b;justify-self:end;flex-direction:row-reverse}.pnmp{grid-area:m}
+.pnt{display:flex;align-items:center;gap:.5em;min-width:0}
+.pnl{display:flex;flex-direction:column;align-items:center;gap:.3em;min-width:0;max-width:6.2em;font-weight:750;font-size:.82em;text-align:center}.pnl span{max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+#nw.pin .tb.big{width:3.5em;height:3.5em}
+.pnn{font-size:3em;font-weight:800;letter-spacing:-.03em;line-height:1;font-variant-numeric:tabular-nums;opacity:.62}.pnn.ld{opacity:1}
+.pnmp{display:grid;grid-template-columns:repeat(var(--n),minmax(0,1fr));gap:.4em;min-width:0}
+.pnx{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:.1em;padding:.45em .3em;border-radius:1em;background:rgba(255,255,255,.06);text-align:center;min-width:0;opacity:.55}
+.pnx small{display:flex;align-items:center;gap:.4em;font-size:.55em;font-weight:700;letter-spacing:.1em;color:var(--mu);text-transform:uppercase;white-space:nowrap}
+.pnx b{max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:.8em;font-weight:700}
+.pnx i{font-style:normal;font-size:1.1em;font-weight:800;font-variant-numeric:tabular-nums;white-space:nowrap}
+.pnx em{font-style:normal;font-size:.72em;font-weight:700;color:#ff9aa3}
+.pnx.d{opacity:.7}.pnx.l{opacity:1;background:rgba(255,255,255,.13);box-shadow:inset 0 0 0 1.5px rgba(255,90,104,.55)}.pnx.l small{color:#ff9aa3}.pnx.l i{font-size:1.9em}.pnx.l b{font-size:.9em}
+#nw.pin .ldot{width:.5em;height:.5em}
+@container (min-aspect-ratio:2.3/1){.pnw{font-size:min(10.5cqh,3.1cqw)}.pnb{grid-template-columns:auto minmax(0,1fr) auto;grid-template-areas:"a m b";column-gap:.9em;row-gap:0}.pnt:first-child{justify-self:stretch}.pnt.r{justify-self:stretch}}
 .tag{font-size:.5em;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#e0301e;display:block;margin-bottom:.4em}
 #nb h3{font-size:1em;font-weight:750;line-height:1.2;letter-spacing:-.01em}
 #nb p{font-size:.64em;color:var(--mu);margin-top:.5em;line-height:1.35}
@@ -573,10 +578,10 @@ async function feed(u){
 }
 /* RNZ stories with a Valorant story slipped in after every third one */
 const PIN={on:false};
-const pinHtml=m=>{const mp=m.mp||[],li=mp.findIndex(x=>x.st==='l'),ci=li>=0?li:Math.max(0,mp.map(x=>x.st).lastIndexOf('d')),c=mp[ci],live=li>=0&&c&&c.a!=null;
-  const tm=(n,r)=>'<div class="pnm">'+badge(n,VAL.logos[n],'',m.ev,1)+'<span>'+esc(sn(n))+(isFav(n)?' <em class="fv">★</em>':'')+'</span></div>';
-  return '<div class="pnw"><div class="pnh"><span class="ldot"></span><b>Live</b><span>'+esc(evNo(m.ev))+(m.bo?' · BO'+m.bo:'')+'</span></div><div class="pnb">'+tm(m.a)+'<div class="pnc"><div class="pns"><b>'+esc(m.sa)+'</b><i>–</i><b>'+esc(m.sb)+'</b></div><small>Series</small>'
-    +(c&&c.a!=null?'<div class="pnr"><small>'+(live?'Map '+(ci+1):'Last map')+' · '+esc(c.n)+'</small><div class="pnq"><b>'+c.a+'</b><i>–</i><b>'+c.b+'</b></div><div class="pnk">'+(live?'Round '+(c.a+c.b+1):'Final')+'</div></div>':'')+'</div>'+tm(m.b)+'</div></div>'};
+const pinHtml=m=>{const mp=m.mp||[],n=mp.length,li=mp.findIndex(x=>x.st==='l'),ci=li>=0?li:Math.max(0,mp.map(x=>x.st).lastIndexOf('d')),s=Math.max(0,Math.min(ci-1,n-3)),W=mp.slice(s,s+3),A=+m.sa,B=+m.sb;
+  const tm=(t,r)=>'<div class="pnt'+(r?' r':'')+'"><div class="pnl">'+badge(t,VAL.logos[t],'',m.ev,1)+'<span>'+esc(sn(t))+(isFav(t)?' <em class="fv">★</em>':'')+'</span></div><b class="pnn'+((r?B>A:A>B)?' ld':'')+'">'+esc(r?m.sb:m.sa)+'</b></div>';
+  const box=(x,i)=>{const k=s+i,l=k===li,lab=k===n-1&&n>1?'Decider':'Map '+(k+1);return '<div class="pnx'+(l?' l':x.st==='d'?' d':'')+'"><small>'+(l?'<span class="ldot"></span>':'')+lab+(l?' · Live':'')+'</small><b>'+esc(x.n)+'</b><i>'+(x.a==null?'—':x.a+' – '+x.b)+'</i>'+(l&&x.a!=null?'<em>Round '+(x.a+x.b+1)+'</em>':'')+'</div>'};
+  return '<div class="pnw"><div class="pnh"><span class="ldot"></span><b>Live</b><span>'+esc(evNo(m.ev))+(m.bo?' · BO'+m.bo:'')+'</span></div><div class="pnb">'+tm(m.a,0)+'<div class="pnmp" style="--n:'+Math.max(1,W.length)+'">'+W.map(box).join('')+'</div>'+tm(m.b,1)+'</div></div>'};
 /* a favourite team is live: the news card becomes a pinned live view of that match until it ends */
 function pinUpdate(){const w=$('nw'),m=favs().length?VAL.liveAll.find(x=>(isFav(x.a)||isFav(x.b))&&x.mp&&x.mp.some(y=>y.st)):null;
   if(m){PIN.on=true;w.classList.add('pin');w.style.setProperty('--ca',tcol(m.a));w.style.setProperty('--cb',tcol(m.b));setItems('nw',[{t:'pin',pin:m}],true)}
