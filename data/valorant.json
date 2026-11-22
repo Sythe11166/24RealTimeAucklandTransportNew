@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T04:38:35.136Z",
+ "updated": "2026-11-22T04:41:24.522Z",
  "live": [],
  "upcoming": [
   {
@@ -104,30 +104,35 @@
        "n": "florescent",
        "k": 22,
        "d": 17,
+       "a": 9,
        "ag": "neon"
       },
       {
        "n": "Marved",
        "k": 19,
        "d": 17,
+       "a": 14,
        "ag": "omen"
       },
       {
        "n": "yay",
        "k": 18,
        "d": 17,
+       "a": 2,
        "ag": "chamber"
       },
       {
        "n": "s0m",
        "k": 17,
        "d": 20,
+       "a": 4,
        "ag": "yoru"
       },
       {
        "n": "Subroza",
        "k": 16,
        "d": 20,
+       "a": 7,
        "ag": "fade"
       }
      ],
@@ -136,30 +141,35 @@
        "n": "om3y",
        "k": 24,
        "d": 16,
+       "a": 6,
        "ag": "chamber"
       },
       {
        "n": "Zamal",
        "k": 21,
        "d": 22,
+       "a": 7,
        "ag": "neon"
       },
       {
        "n": "Dark3st",
        "k": 20,
        "d": 16,
+       "a": 8,
        "ag": "fade"
       },
       {
        "n": "cuz",
        "k": 15,
        "d": 21,
+       "a": 8,
        "ag": "sage"
       },
       {
        "n": "Zoestol",
        "k": 11,
        "d": 17,
+       "a": 19,
        "ag": "omen"
       }
      ],
@@ -279,30 +289,35 @@
        "n": "florescent",
        "k": 12,
        "d": 13,
+       "a": 4,
        "ag": "neon"
       },
       {
        "n": "yay",
        "k": 11,
        "d": 14,
+       "a": 2,
        "ag": "chamber"
       },
       {
        "n": "s0m",
        "k": 9,
        "d": 13,
+       "a": 4,
        "ag": "sova"
       },
       {
        "n": "Marved",
        "k": 8,
        "d": 13,
+       "a": 8,
        "ag": "omen"
       },
       {
        "n": "Subroza",
        "k": 8,
        "d": 14,
+       "a": 2,
        "ag": "phoenix"
       }
      ],
@@ -311,30 +326,35 @@
        "n": "Zoestol",
        "k": 21,
        "d": 7,
+       "a": 10,
        "ag": "omen"
       },
       {
        "n": "om3y",
        "k": 14,
        "d": 8,
+       "a": 6,
        "ag": "cypher"
       },
       {
        "n": "Dark3st",
        "k": 11,
        "d": 11,
+       "a": 9,
        "ag": "sova"
       },
       {
        "n": "Zamal",
        "k": 11,
        "d": 11,
+       "a": 2,
        "ag": "neon"
       },
       {
        "n": "cuz",
        "k": 10,
        "d": 11,
+       "a": 11,
        "ag": "phoenix"
       }
      ],
@@ -452,7 +472,11 @@
     "b": 0
    },
    "bo": "3",
-   "smt": 1795320910487
+   "smt": 1795322472479,
+   "tg": [
+    "MC",
+    "FAKE"
+   ]
   },
   {
    "id": "792908",
@@ -486,30 +510,35 @@
        "n": "alym",
        "k": 25,
        "d": 18,
+       "a": 9,
        "ag": "neon"
       },
       {
        "n": "nightz",
        "k": 22,
        "d": 15,
+       "a": 9,
        "ag": "omen"
       },
       {
        "n": "FireBallOps",
        "k": 20,
        "d": 17,
+       "a": 0,
        "ag": "chamber"
       },
       {
        "n": "GLYPH",
        "k": 15,
        "d": 19,
+       "a": 12,
        "ag": "sage"
       },
       {
        "n": "Derrek",
        "k": 13,
        "d": 19,
+       "a": 6,
        "ag": "fade"
       }
      ],
@@ -518,30 +547,35 @@
        "n": "Boomy",
        "k": 26,
        "d": 21,
+       "a": 6,
        "ag": "neon"
       },
       {
        "n": "Shondex",
        "k": 18,
        "d": 20,
+       "a": 1,
        "ag": "chamber"
       },
       {
        "n": "geeza",
        "k": 15,
        "d": 17,
+       "a": 2,
        "ag": "sova"
       },
       {
        "n": "renz",
        "k": 15,
        "d": 18,
+       "a": 12,
        "ag": "sage"
       },
       {
        "n": "Ange",
        "k": 14,
        "d": 19,
+       "a": 13,
        "ag": "omen"
       }
      ],
@@ -661,30 +695,35 @@
        "n": "nightz",
        "k": 19,
        "d": 10,
+       "a": 11,
        "ag": "phoenix"
       },
       {
        "n": "GLYPH",
        "k": 15,
        "d": 8,
+       "a": 9,
        "ag": "omen"
       },
       {
        "n": "FireBallOps",
        "k": 15,
        "d": 9,
+       "a": 6,
        "ag": "cypher"
       },
       {
        "n": "Derrek",
        "k": 10,
        "d": 11,
+       "a": 11,
        "ag": "sova"
       },
       {
        "n": "alym",
        "k": 7,
        "d": 12,
+       "a": 7,
        "ag": "neon"
       }
      ],
@@ -693,30 +732,35 @@
        "n": "Shondex",
        "k": 14,
        "d": 12,
+       "a": 2,
        "ag": "cypher"
       },
       {
        "n": "Ange",
        "k": 10,
        "d": 11,
+       "a": 8,
        "ag": "omen"
       },
       {
        "n": "renz",
        "k": 10,
        "d": 15,
+       "a": 7,
        "ag": "phoenix"
       },
       {
        "n": "Boomy",
        "k": 10,
        "d": 15,
+       "a": 2,
        "ag": "neon"
       },
       {
        "n": "geeza",
        "k": 6,
        "d": 13,
+       "a": 9,
        "ag": "sova"
       }
      ],
@@ -834,7 +878,11 @@
     ]
    ],
    "bo": "3",
-   "smt": 1795320911464
+   "smt": 1795322473476,
+   "tg": [
+    "C9",
+    "MU"
+   ]
   },
   {
    "id": "792907",
@@ -873,30 +921,35 @@
        "n": "jakee",
        "k": 20,
        "d": 14,
+       "a": 11,
        "ag": "omen"
       },
       {
        "n": "heartless",
        "k": 18,
        "d": 13,
+       "a": 12,
        "ag": "fade"
       },
       {
        "n": "bdog",
        "k": 17,
        "d": 12,
+       "a": 8,
        "ag": "viper"
       },
       {
        "n": "stellar",
        "k": 13,
        "d": 12,
+       "a": 4,
        "ag": "vyse"
       },
       {
        "n": "stunna",
        "k": 13,
        "d": 17,
+       "a": 5,
        "ag": "raze"
       }
      ],
@@ -905,30 +958,35 @@
        "n": "Smoke",
        "k": 17,
        "d": 14,
+       "a": 7,
        "ag": "vyse"
       },
       {
        "n": "zander",
        "k": 16,
        "d": 15,
+       "a": 6,
        "ag": "viper"
       },
       {
        "n": "Boni",
        "k": 14,
        "d": 18,
+       "a": 7,
        "ag": "raze"
       },
       {
        "n": "Kyu",
        "k": 11,
        "d": 18,
+       "a": 13,
        "ag": "fade"
       },
       {
        "n": "NiSMO",
        "k": 10,
        "d": 16,
+       "a": 13,
        "ag": "omen"
       }
      ],
@@ -1028,30 +1086,35 @@
        "n": "jakee",
        "k": 18,
        "d": 16,
+       "a": 9,
        "ag": "omen"
       },
       {
        "n": "bdog",
        "k": 16,
        "d": 16,
+       "a": 3,
        "ag": "chamber"
       },
       {
        "n": "stellar",
        "k": 15,
        "d": 16,
+       "a": 7,
        "ag": "viper"
       },
       {
        "n": "heartless",
        "k": 13,
        "d": 17,
+       "a": 6,
        "ag": "fade"
       },
       {
        "n": "stunna",
        "k": 13,
        "d": 18,
+       "a": 7,
        "ag": "hush"
       }
      ],
@@ -1060,30 +1123,35 @@
        "n": "Smoke",
        "k": 24,
        "d": 15,
+       "a": 4,
        "ag": "viper"
       },
       {
        "n": "Boni",
        "k": 21,
        "d": 17,
+       "a": 10,
        "ag": "neon"
       },
       {
        "n": "zander",
        "k": 17,
        "d": 16,
+       "a": 14,
        "ag": "omen"
       },
       {
        "n": "Kyu",
        "k": 12,
        "d": 13,
+       "a": 11,
        "ag": "fade"
       },
       {
        "n": "NiSMO",
        "k": 9,
        "d": 14,
+       "a": 21,
        "ag": "kayo"
       }
      ],
@@ -1191,30 +1259,35 @@
        "n": "heartless",
        "k": 12,
        "d": 13,
+       "a": 6,
        "ag": "fade"
       },
       {
        "n": "jakee",
        "k": 7,
        "d": 15,
+       "a": 4,
        "ag": "omen"
       },
       {
        "n": "stellar",
        "k": 6,
        "d": 13,
+       "a": 2,
        "ag": "sage"
       },
       {
        "n": "stunna",
        "k": 5,
        "d": 13,
+       "a": 2,
        "ag": "hush"
       },
       {
        "n": "bdog",
        "k": 5,
        "d": 13,
+       "a": 2,
        "ag": "chamber"
       }
      ],
@@ -1223,30 +1296,35 @@
        "n": "Kyu",
        "k": 17,
        "d": 7,
+       "a": 4,
        "ag": "fade"
       },
       {
        "n": "NiSMO",
        "k": 15,
        "d": 5,
+       "a": 4,
        "ag": "vyse"
       },
       {
        "n": "Smoke",
        "k": 15,
        "d": 8,
+       "a": 3,
        "ag": "chamber"
       },
       {
        "n": "Boni",
        "k": 11,
        "d": 6,
+       "a": 2,
        "ag": "neon"
       },
       {
        "n": "zander",
        "k": 9,
        "d": 9,
+       "a": 11,
        "ag": "harbor"
       }
      ],
@@ -1352,7 +1430,11 @@
     ]
    ],
    "bo": "3",
-   "smt": 1795320912427
+   "smt": 1795322474461,
+   "tg": [
+    "OAF",
+    "SRB"
+   ]
   },
   {
    "id": "792910",
@@ -1391,30 +1473,35 @@
        "n": "Dillon",
        "k": 22,
        "d": 16,
+       "a": 13,
        "ag": "astra"
       },
       {
        "n": "wertlle",
        "k": 21,
        "d": 16,
+       "a": 4,
        "ag": "chamber"
       },
       {
        "n": "Hasagi",
        "k": 19,
        "d": 17,
+       "a": 4,
        "ag": "yoru"
       },
       {
        "n": "flux",
        "k": 16,
        "d": 14,
+       "a": 8,
        "ag": "sova"
       },
       {
        "n": "Freshie",
        "k": 15,
        "d": 15,
+       "a": 5,
        "ag": "waylay"
       }
      ],
@@ -1423,30 +1510,35 @@
        "n": "Pa1nt",
        "k": 19,
        "d": 18,
+       "a": 2,
        "ag": "hush"
       },
       {
        "n": "vita",
        "k": 19,
        "d": 20,
+       "a": 4,
        "ag": "jett"
       },
       {
        "n": "zaj",
        "k": 16,
        "d": 19,
+       "a": 9,
        "ag": "omen"
       },
       {
        "n": "payne",
        "k": 13,
        "d": 18,
+       "a": 9,
        "ag": "harbor"
       },
       {
        "n": "welyy",
        "k": 11,
        "d": 18,
+       "a": 5,
        "ag": "sova"
       }
      ],
@@ -1558,30 +1650,35 @@
        "n": "Freshie",
        "k": 20,
        "d": 13,
+       "a": 3,
        "ag": "waylay"
       },
       {
        "n": "flux",
        "k": 17,
        "d": 18,
+       "a": 7,
        "ag": "sova"
       },
       {
        "n": "wertlle",
        "k": 10,
        "d": 20,
+       "a": 4,
        "ag": "cypher"
       },
       {
        "n": "Dillon",
        "k": 9,
        "d": 19,
+       "a": 4,
        "ag": "omen"
       },
       {
        "n": "Hasagi",
        "k": 6,
        "d": 17,
+       "a": 8,
        "ag": "phoenix"
       }
      ],
@@ -1590,30 +1687,35 @@
        "n": "payne",
        "k": 22,
        "d": 8,
+       "a": 3,
        "ag": "omen"
       },
       {
        "n": "zaj",
        "k": 19,
        "d": 12,
+       "a": 5,
        "ag": "cypher"
       },
       {
        "n": "vita",
        "k": 18,
        "d": 14,
+       "a": 6,
        "ag": "neon"
       },
       {
        "n": "Pa1nt",
        "k": 18,
        "d": 14,
+       "a": 7,
        "ag": "phoenix"
       },
       {
        "n": "welyy",
        "k": 10,
        "d": 14,
+       "a": 16,
        "ag": "fade"
       }
      ],
@@ -1709,30 +1811,35 @@
        "n": "Freshie",
        "k": 17,
        "d": 15,
+       "a": 5,
        "ag": "raze"
       },
       {
        "n": "Dillon",
        "k": 16,
        "d": 16,
+       "a": 5,
        "ag": "viper"
       },
       {
        "n": "wertlle",
        "k": 15,
        "d": 16,
+       "a": 2,
        "ag": "chamber"
       },
       {
        "n": "Hasagi",
        "k": 15,
        "d": 21,
+       "a": 9,
        "ag": "clove"
       },
       {
        "n": "flux",
        "k": 14,
        "d": 15,
+       "a": 11,
        "ag": "skye"
       }
      ],
@@ -1741,30 +1848,35 @@
        "n": "zaj",
        "k": 21,
        "d": 16,
+       "a": 9,
        "ag": "viper"
       },
       {
        "n": "vita",
        "k": 21,
        "d": 17,
+       "a": 5,
        "ag": "neon"
       },
       {
        "n": "payne",
        "k": 16,
        "d": 15,
+       "a": 10,
        "ag": "brimstone"
       },
       {
        "n": "Pa1nt",
        "k": 16,
        "d": 16,
+       "a": 4,
        "ag": "hush"
       },
       {
        "n": "welyy",
        "k": 9,
        "d": 13,
+       "a": 7,
        "ag": "skye"
       }
      ],
@@ -1902,7 +2014,11 @@
     ]
    ],
    "bo": "3",
-   "smt": 1795320913392
+   "smt": 1795322475435,
+   "tg": [
+    "XORA",
+    "SAD"
+   ]
   },
   {
    "id": "792035",
@@ -1941,30 +2057,35 @@
        "n": "forbanz",
        "k": 14,
        "d": 18,
+       "a": 4,
        "ag": "neon"
       },
       {
        "n": "RgLMeister",
        "k": 13,
        "d": 15,
+       "a": 2,
        "ag": "harbor"
       },
       {
        "n": "Stwz1",
        "k": 10,
        "d": 14,
+       "a": 2,
        "ag": "fade"
       },
       {
        "n": "skz",
        "k": 10,
        "d": 16,
+       "a": 4,
        "ag": "sage"
       },
       {
        "n": "taka",
        "k": 9,
        "d": 15,
+       "a": 1,
        "ag": "chamber"
       }
      ],
@@ -1973,30 +2094,35 @@
        "n": "znajder",
        "k": 29,
        "d": 10,
+       "a": 5,
        "ag": "neon"
       },
       {
        "n": "netin",
        "k": 16,
        "d": 10,
+       "a": 9,
        "ag": "omen"
       },
       {
        "n": "GuhRVN",
        "k": 11,
        "d": 8,
+       "a": 4,
        "ag": "sage"
       },
       {
        "n": "nevoy",
        "k": 11,
        "d": 12,
+       "a": 3,
        "ag": "chamber"
       },
       {
        "n": "gbz",
        "k": 11,
        "d": 16,
+       "a": 8,
        "ag": "fade"
       }
      ],
@@ -2092,30 +2218,35 @@
        "n": "skz",
        "k": 21,
        "d": 18,
+       "a": 8,
        "ag": "sage"
       },
       {
        "n": "RgLMeister",
        "k": 19,
        "d": 16,
+       "a": 10,
        "ag": "omen"
       },
       {
        "n": "taka",
        "k": 18,
        "d": 19,
+       "a": 6,
        "ag": "chamber"
       },
       {
        "n": "forbanz",
        "k": 16,
        "d": 22,
+       "a": 6,
        "ag": "neon"
       },
       {
        "n": "Stwz1",
        "k": 15,
        "d": 17,
+       "a": 9,
        "ag": "sova"
       }
      ],
@@ -2124,30 +2255,35 @@
        "n": "gbz",
        "k": 24,
        "d": 17,
+       "a": 4,
        "ag": "fade"
       },
       {
        "n": "nevoy",
        "k": 19,
        "d": 16,
+       "a": 1,
        "ag": "chamber"
       },
       {
        "n": "znajder",
        "k": 17,
        "d": 19,
+       "a": 7,
        "ag": "neon"
       },
       {
        "n": "netin",
        "k": 16,
        "d": 17,
+       "a": 9,
        "ag": "phoenix"
       },
       {
        "n": "GuhRVN",
        "k": 16,
        "d": 20,
+       "a": 13,
        "ag": "omen"
       }
      ],
@@ -2259,30 +2395,35 @@
        "n": "RgLMeister",
        "k": 20,
        "d": 12,
+       "a": 7,
        "ag": "omen"
       },
       {
        "n": "forbanz",
        "k": 20,
        "d": 21,
+       "a": 4,
        "ag": "neon"
       },
       {
        "n": "taka",
        "k": 16,
        "d": 16,
+       "a": 0,
        "ag": "chamber"
       },
       {
        "n": "skz",
        "k": 15,
        "d": 17,
+       "a": 14,
        "ag": "phoenix"
       },
       {
        "n": "Stwz1",
        "k": 14,
        "d": 18,
+       "a": 9,
        "ag": "sova"
       }
      ],
@@ -2291,30 +2432,35 @@
        "n": "netin",
        "k": 23,
        "d": 15,
+       "a": 6,
        "ag": "phoenix"
       },
       {
        "n": "nevoy",
        "k": 23,
        "d": 17,
+       "a": 1,
        "ag": "chamber"
       },
       {
        "n": "gbz",
        "k": 15,
        "d": 16,
+       "a": 3,
        "ag": "sova"
       },
       {
        "n": "GuhRVN",
        "k": 12,
        "d": 18,
+       "a": 12,
        "ag": "omen"
       },
       {
        "n": "znajder",
        "k": 11,
        "d": 19,
+       "a": 11,
        "ag": "neon"
       }
      ],
@@ -2419,7 +2565,11 @@
     }
    ],
    "bo": "3",
-   "smt": 1795320914347
+   "smt": 1795322476426,
+   "tg": [
+    "NXT",
+    "GANG"
+   ]
   },
   {
    "id": "792033",
@@ -2453,30 +2603,35 @@
        "n": "rich",
        "k": 19,
        "d": 19,
+       "a": 0,
        "ag": "phoenix"
       },
       {
        "n": "murizzz",
        "k": 13,
        "d": 14,
+       "a": 5,
        "ag": "sova"
       },
       {
        "n": "heat",
        "k": 13,
        "d": 14,
+       "a": 1,
        "ag": "chamber"
       },
       {
        "n": "ghoul33",
        "k": 11,
        "d": 17,
+       "a": 6,
        "ag": "neon"
       },
       {
        "n": "pANcada",
        "k": 9,
        "d": 17,
+       "a": 5,
        "ag": "omen"
       }
      ],
@@ -2485,30 +2640,35 @@
        "n": "khaikky",
        "k": 22,
        "d": 13,
+       "a": 12,
        "ag": "phoenix"
       },
       {
        "n": "Renna",
        "k": 19,
        "d": 12,
+       "a": 8,
        "ag": "omen"
       },
       {
        "n": "fx",
        "k": 14,
        "d": 13,
+       "a": 4,
        "ag": "sova"
       },
       {
        "n": "Carmine",
        "k": 13,
        "d": 13,
+       "a": 2,
        "ag": "chamber"
       },
       {
        "n": "jzn",
        "k": 13,
        "d": 14,
+       "a": 3,
        "ag": "neon"
       }
      ],
@@ -2608,30 +2768,35 @@
        "n": "ghoul33",
        "k": 11,
        "d": 14,
+       "a": 2,
        "ag": "raze"
       },
       {
        "n": "rich",
        "k": 10,
        "d": 14,
+       "a": 3,
        "ag": "viper"
       },
       {
        "n": "heat",
        "k": 8,
        "d": 13,
+       "a": 0,
        "ag": "chamber"
       },
       {
        "n": "pANcada",
        "k": 8,
        "d": 14,
+       "a": 3,
        "ag": "omen"
       },
       {
        "n": "murizzz",
        "k": 7,
        "d": 13,
+       "a": 1,
        "ag": "fade"
       }
      ],
@@ -2640,30 +2805,35 @@
        "n": "Renna",
        "k": 22,
        "d": 6,
+       "a": 2,
        "ag": "omen"
       },
       {
        "n": "Carmine",
        "k": 16,
        "d": 9,
+       "a": 2,
        "ag": "chamber"
       },
       {
        "n": "fx",
        "k": 11,
        "d": 10,
+       "a": 6,
        "ag": "fade"
       },
       {
        "n": "khaikky",
        "k": 10,
        "d": 7,
+       "a": 2,
        "ag": "viper"
       },
       {
        "n": "jzn",
        "k": 9,
        "d": 12,
+       "a": 7,
        "ag": "neon"
       }
      ],
@@ -2740,7 +2910,11 @@
     }
    ],
    "bo": "3",
-   "smt": 1795320915300
+   "smt": 1795322477391,
+   "tg": [
+    "TB3",
+    "171"
+   ]
   },
   {
    "id": "792034",
@@ -2779,30 +2953,35 @@
        "n": "duhT",
        "k": 22,
        "d": 18,
+       "a": 7,
        "ag": "raze"
       },
       {
        "n": "Loweed",
        "k": 17,
        "d": 16,
+       "a": 6,
        "ag": "yoru"
       },
       {
        "n": "mixyce",
        "k": 16,
        "d": 17,
+       "a": 16,
        "ag": "brimstone"
       },
       {
        "n": "kwn",
        "k": 12,
        "d": 16,
+       "a": 8,
        "ag": "fade"
       },
       {
        "n": "lucks",
        "k": 9,
        "d": 17,
+       "a": 9,
        "ag": "viper"
       }
      ],
@@ -2811,30 +2990,35 @@
        "n": "saske",
        "k": 22,
        "d": 16,
+       "a": 3,
        "ag": "hush"
       },
       {
        "n": "LoveX",
        "k": 19,
        "d": 16,
+       "a": 7,
        "ag": "cypher"
       },
       {
        "n": "PDC Mattpia",
        "k": 16,
        "d": 14,
+       "a": 8,
        "ag": "viper"
       },
       {
        "n": "Antunes",
        "k": 15,
        "d": 13,
+       "a": 9,
        "ag": "brimstone"
       },
       {
        "n": "Jezam Luska",
        "k": 12,
        "d": 17,
+       "a": 3,
        "ag": "skye"
       }
      ],
@@ -2938,30 +3122,35 @@
        "n": "Loweed",
        "k": 23,
        "d": 16,
+       "a": 10,
        "ag": "hush"
       },
       {
        "n": "mixyce",
        "k": 19,
        "d": 17,
+       "a": 18,
        "ag": "omen"
       },
       {
        "n": "duhT",
        "k": 17,
        "d": 15,
+       "a": 6,
        "ag": "raze"
       },
       {
        "n": "lucks",
        "k": 17,
        "d": 16,
+       "a": 2,
        "ag": "viper"
       },
       {
        "n": "kwn",
        "k": 12,
        "d": 18,
+       "a": 6,
        "ag": "fade"
       }
      ],
@@ -2970,30 +3159,35 @@
        "n": "LoveX",
        "k": 19,
        "d": 19,
+       "a": 5,
        "ag": "vyse"
       },
       {
        "n": "PDC Mattpia",
        "k": 18,
        "d": 14,
+       "a": 8,
        "ag": "viper"
       },
       {
        "n": "Jezam Luska",
        "k": 18,
        "d": 17,
+       "a": 4,
        "ag": "skye"
       },
       {
        "n": "saske",
        "k": 17,
        "d": 21,
+       "a": 8,
        "ag": "hush"
       },
       {
        "n": "Antunes",
        "k": 10,
        "d": 17,
+       "a": 9,
        "ag": "omen"
       }
      ],
@@ -3105,30 +3299,35 @@
        "n": "lucks",
        "k": 25,
        "d": 18,
+       "a": 10,
        "ag": "viper"
       },
       {
        "n": "Loweed",
        "k": 20,
        "d": 18,
+       "a": 5,
        "ag": "hush"
       },
       {
        "n": "kwn",
        "k": 13,
        "d": 12,
+       "a": 15,
        "ag": "fade"
       },
       {
        "n": "mixyce",
        "k": 13,
        "d": 15,
+       "a": 11,
        "ag": "omen"
       },
       {
        "n": "duhT",
        "k": 13,
        "d": 15,
+       "a": 17,
        "ag": "kayo"
       }
      ],
@@ -3137,30 +3336,35 @@
        "n": "saske",
        "k": 26,
        "d": 15,
+       "a": 6,
        "ag": "hush"
       },
       {
        "n": "LoveX",
        "k": 22,
        "d": 17,
+       "a": 3,
        "ag": "fade"
       },
       {
        "n": "PDC Mattpia",
        "k": 15,
        "d": 17,
+       "a": 4,
        "ag": "sage"
       },
       {
        "n": "Jezam Luska",
        "k": 9,
        "d": 17,
+       "a": 4,
        "ag": "iso"
       },
       {
        "n": "Antunes",
        "k": 6,
        "d": 18,
+       "a": 9,
        "ag": "omen"
       }
      ],
@@ -3265,7 +3469,11 @@
     }
    ],
    "bo": "3",
-   "smt": 1795320916260
+   "smt": 1795322478367,
+   "tg": [
+    "ARRA",
+    "PDC"
+   ]
   },
   {
    "id": "792036",
@@ -3299,30 +3507,35 @@
        "n": "Loss",
        "k": 22,
        "d": 9,
+       "a": 5,
        "ag": "neon"
       },
       {
        "n": "NagZ",
        "k": 14,
        "d": 5,
+       "a": 2,
        "ag": "vyse"
       },
       {
        "n": "above",
        "k": 13,
        "d": 6,
+       "a": 10,
        "ag": "omen"
       },
       {
        "n": "peixeh",
        "k": 11,
        "d": 7,
+       "a": 6,
        "ag": "viper"
       },
       {
        "n": "swag",
        "k": 7,
        "d": 5,
+       "a": 8,
        "ag": "fade"
       }
      ],
@@ -3331,30 +3544,35 @@
        "n": "Beco",
        "k": 8,
        "d": 14,
+       "a": 1,
        "ag": "chamber"
       },
       {
        "n": "tayrone",
        "k": 7,
        "d": 13,
+       "a": 1,
        "ag": "neon"
       },
       {
        "n": "matheusapeca",
        "k": 7,
        "d": 15,
+       "a": 4,
        "ag": "omen"
       },
       {
        "n": "im not studd",
        "k": 6,
        "d": 13,
+       "a": 1,
        "ag": "viper"
       },
       {
        "n": "INT Shimockyy",
        "k": 4,
        "d": 12,
+       "a": 2,
        "ag": "fade"
       }
      ],
@@ -3430,30 +3648,35 @@
        "n": "Loss",
        "k": 28,
        "d": 15,
+       "a": 1,
        "ag": "waylay"
       },
       {
        "n": "above",
        "k": 19,
        "d": 12,
+       "a": 6,
        "ag": "astra"
       },
       {
        "n": "peixeh",
        "k": 17,
        "d": 14,
+       "a": 10,
        "ag": "viper"
       },
       {
        "n": "NagZ",
        "k": 14,
        "d": 13,
+       "a": 2,
        "ag": "chamber"
       },
       {
        "n": "swag",
        "k": 11,
        "d": 14,
+       "a": 12,
        "ag": "skye"
       }
      ],
@@ -3462,30 +3685,35 @@
        "n": "INT Shimockyy",
        "k": 16,
        "d": 16,
+       "a": 10,
        "ag": "fade"
       },
       {
        "n": "im not studd",
        "k": 14,
        "d": 17,
+       "a": 2,
        "ag": "waylay"
       },
       {
        "n": "Beco",
        "k": 13,
        "d": 17,
+       "a": 3,
        "ag": "chamber"
       },
       {
        "n": "tayrone",
        "k": 13,
        "d": 20,
+       "a": 2,
        "ag": "neon"
       },
       {
        "n": "matheusapeca",
        "k": 12,
        "d": 19,
+       "a": 11,
        "ag": "omen"
       }
      ],
@@ -3586,7 +3814,11 @@
     }
    ],
    "bo": "3",
-   "smt": 1795320917208
+   "smt": 1795322479317,
+   "tg": [
+    "Aras",
+    "100%mira"
+   ]
   },
   {
    "id": "792903",
@@ -3620,30 +3852,35 @@
        "n": "Fair",
        "k": 23,
        "d": 23,
+       "a": 11,
        "ag": "hush"
       },
       {
        "n": "1Karma",
        "k": 22,
        "d": 18,
+       "a": 13,
        "ag": "omen"
       },
       {
        "n": "infiltrator",
        "k": 22,
        "d": 22,
+       "a": 9,
        "ag": "neon"
       },
       {
        "n": "Governor",
        "k": 17,
        "d": 19,
+       "a": 12,
        "ag": "sova"
       },
       {
        "n": "Veyron",
        "k": 14,
        "d": 21,
+       "a": 5,
        "ag": "cypher"
       }
      ],
@@ -3652,30 +3889,35 @@
        "n": "Jerrwin",
        "k": 32,
        "d": 20,
+       "a": 10,
        "ag": "neon"
       },
       {
        "n": "moose",
        "k": 25,
        "d": 18,
+       "a": 8,
        "ag": "viper"
       },
       {
        "n": "flyuh",
        "k": 19,
        "d": 20,
+       "a": 11,
        "ag": "fade"
       },
       {
        "n": "Notexxd",
        "k": 16,
        "d": 22,
+       "a": 16,
        "ag": "omen"
       },
       {
        "n": "toozy",
        "k": 11,
        "d": 18,
+       "a": 12,
        "ag": "vyse"
       }
      ],
@@ -3803,30 +4045,35 @@
        "n": "Veyron",
        "k": 25,
        "d": 18,
+       "a": 13,
        "ag": "brimstone"
       },
       {
        "n": "infiltrator",
        "k": 22,
        "d": 23,
+       "a": 5,
        "ag": "raze"
       },
       {
        "n": "Fair",
        "k": 21,
        "d": 18,
+       "a": 4,
        "ag": "chamber"
       },
       {
        "n": "1Karma",
        "k": 21,
        "d": 18,
+       "a": 10,
        "ag": "viper"
       },
       {
        "n": "Governor",
        "k": 19,
        "d": 21,
+       "a": 12,
        "ag": "skye"
       }
      ],
@@ -3835,30 +4082,35 @@
        "n": "toozy",
        "k": 25,
        "d": 16,
+       "a": 7,
        "ag": "deadlock"
       },
       {
        "n": "Notexxd",
        "k": 25,
        "d": 20,
+       "a": 13,
        "ag": "brimstone"
       },
       {
        "n": "Jerrwin",
        "k": 24,
        "d": 25,
+       "a": 5,
        "ag": "raze"
       },
       {
        "n": "moose",
        "k": 13,
        "d": 24,
+       "a": 6,
        "ag": "viper"
       },
       {
        "n": "flyuh",
        "k": 11,
        "d": 23,
+       "a": 13,
        "ag": "skye"
       }
      ],
@@ -4028,7 +4280,11 @@
     "b": 1
    },
    "bo": "3",
-   "smt": 1795320918173
+   "smt": 1795322480296,
+   "tg": [
+    "WU",
+    "YFP"
+   ]
   }
  ],
  "news": [
@@ -4065,7 +4321,7 @@
   {
    "t": "Shopify Rebellion Gold signs melya from FlyQuest RED",
    "d": "A completed SRG roster ahead of the 2027 season.",
-   "ts": 1795089600000,
+   "ts": 1795176000000,
    "url": "https://www.vlr.gg/792536/shopify-rebellion-gold-signs-melya-from-flyquest-red"
   }
  ],
@@ -4243,7 +4499,7 @@
  "br": {
   "u": "/event/3167/vct-2027-emea-kickoff-mena-qualifier/playoffs",
   "ev": "VCT 2027: EMEA Kickoff - MENA Qualifier",
-  "at": 1795320533657,
+  "at": 1795322483211,
   "r": [
    {
     "r": "Round of 64",
