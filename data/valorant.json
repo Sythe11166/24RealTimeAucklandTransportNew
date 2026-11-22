@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T02:58:38.822Z",
+ "updated": "2026-11-22T03:01:54.994Z",
  "live": [
   {
    "id": "792910",
@@ -26,7 +26,7 @@
     },
     {
      "n": "Bind",
-     "a": 8,
+     "a": 9,
      "b": 8,
      "st": "l"
     }
@@ -180,6 +180,10 @@
     ],
     [
      "b",
+     "e"
+    ],
+    [
+     "a",
      "e"
     ]
    ],
@@ -732,7 +736,7 @@
  "br": {
   "u": "/event/3179/vct-2027-america-kickoff-north-america-qualifier-playoffs/swiss-stage",
   "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-  "at": 1795316219159,
+  "at": 1795316513640,
   "r": [
    {
     "r": "Round 1 (0-0)",
