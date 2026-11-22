@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T03:47:54.992Z",
+ "updated": "2026-11-22T03:52:46.021Z",
  "live": [],
  "upcoming": [
   {
@@ -10,11 +10,65 @@
    "sb": "–",
    "ev": "VCT 2027: EMEA Kickoff - MENA Qualifier",
    "ph": "Playoffs–Grand Final",
-   "ts": 1795319400000,
+   "ts": 1795319700000,
    "url": "https://www.vlr.gg/792551/mix-my-miks-vs-no-org-no-problem-vct-2027-emea-kickoff-mena-qualifier-playoffs-gf",
    "bo": "3",
    "evu": "/event/3167/vct-2027-emea-kickoff-mena-qualifier/playoffs",
    "fz": 1
+  },
+  {
+   "id": "793333",
+   "a": "counterfeit",
+   "b": "FlyQuest",
+   "sa": "–",
+   "sb": "–",
+   "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
+   "ph": "Swiss Stage–Round 3 (1-1)",
+   "ts": 1795384800000,
+   "url": "https://www.vlr.gg/793333/counterfeit-vs-flyquest-vct-2027-america-kickoff-north-america-qualifier-playoffs-r3-1-1",
+   "bo": "3",
+   "evu": "/event/3179/vct-2027-america-kickoff-north-america-qualifier-playoffs/swiss-stage",
+   "fz": 1
+  },
+  {
+   "id": "793334",
+   "a": "Wildcard",
+   "b": "Winthrop University",
+   "sa": "–",
+   "sb": "–",
+   "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
+   "ph": "Swiss Stage–Round 3 (1-1)",
+   "ts": 1795384800000,
+   "url": "https://www.vlr.gg/793334/wildcard-vs-winthrop-university-vct-2027-america-kickoff-north-america-qualifier-playoffs-r3-1-1",
+   "h2h": {
+    "a": 0,
+    "b": 1
+   },
+   "bo": "3",
+   "evu": "/event/3179/vct-2027-america-kickoff-north-america-qualifier-playoffs/swiss-stage",
+   "fz": 1
+  },
+  {
+   "id": "793335",
+   "a": "Maryville University",
+   "b": "QoR",
+   "sa": "–",
+   "sb": "–",
+   "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
+   "ph": "Swiss Stage–Round 3 (1-1)",
+   "ts": 1795393800000,
+   "url": "https://www.vlr.gg/793335/maryville-university-vs-qor-vct-2027-america-kickoff-north-america-qualifier-playoffs-r3-1-1"
+  },
+  {
+   "id": "793336",
+   "a": "Oafs",
+   "b": "SaD Esports",
+   "sa": "–",
+   "sb": "–",
+   "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
+   "ph": "Swiss Stage–Round 3 (1-1)",
+   "ts": 1795393800000,
+   "url": "https://www.vlr.gg/793336/oafs-vs-sad-esports-vct-2027-america-kickoff-north-america-qualifier-playoffs-r3-1-1"
   }
  ],
  "results": [
@@ -304,7 +358,10 @@
   "0 intelecto": "/img/vlr/tmp/vlr.png",
   "Oafs": "https://owcdn.net/img/6aefe353142fe.png",
   "Cloud9": "https://owcdn.net/img/628addcbd509e.png",
-  "counterfeit": "https://owcdn.net/img/6aff29b4d9f7b.png"
+  "counterfeit": "https://owcdn.net/img/6aff29b4d9f7b.png",
+  "FlyQuest": "https://owcdn.net/img/69cac541ed59b.png",
+  "Wildcard": "https://owcdn.net/img/6afb9b586bdab.png",
+  "QoR": "https://owcdn.net/img/63e9a11797f41.png"
  },
  "colors": {
   "Winthrop University": "#fbb310",
@@ -319,7 +376,10 @@
   "Masterclass": "",
   "counterfeit": "#957226",
   "Xora Esports": "#ff0000",
-  "SaD Esports": "#137dbd"
+  "SaD Esports": "#137dbd",
+  "FlyQuest": "#02814b",
+  "Wildcard": "#21a9f4",
+  "QoR": "#25befa"
  },
  "agents": {},
  "evlogos": {
