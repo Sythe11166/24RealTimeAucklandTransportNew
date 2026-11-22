@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T01:28:35.482Z",
+ "updated": "2026-11-22T01:30:17.630Z",
  "live": [
   {
    "id": "792033",
@@ -399,27 +399,42 @@
     ]
    ],
    "rdm": "Sunset"
-  }
- ],
- "upcoming": [
+  },
   {
    "id": "792909",
    "a": "Masterclass",
    "b": "counterfeit",
-   "sa": "–",
-   "sb": "–",
+   "sa": "0",
+   "sb": "0",
    "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
    "ph": "Swiss Stage–Round 2 (0-1)",
    "ts": 1795311000000,
    "url": "https://www.vlr.gg/792909/masterclass-vs-counterfeit-vct-2027-america-kickoff-north-america-qualifier-playoffs-r2-0-1",
+   "mp": [
+    {
+     "n": "TBD",
+     "a": 0,
+     "b": 0,
+     "st": "l"
+    },
+    {
+     "n": "TBD",
+     "st": "n"
+    },
+    {
+     "n": "TBD",
+     "st": "n"
+    }
+   ],
+   "evu": "/event/3179/vct-2027-america-kickoff-north-america-qualifier-playoffs/swiss-stage",
+   "bo": "3",
    "h2h": {
     "a": 1,
     "b": 0
-   },
-   "bo": "3",
-   "evu": "/event/3179/vct-2027-america-kickoff-north-america-qualifier-playoffs/swiss-stage",
-   "fz": 1
-  },
+   }
+  }
+ ],
+ "upcoming": [
   {
    "id": "792551",
    "a": "Mix My Miks",
@@ -783,7 +798,7 @@
  "br": {
   "u": "/event/3183/vct-2027-america-kickoff-brazil-qualifier-playoffs/swiss-stage",
   "ev": "VCT 2027: America Kickoff - Brazil Qualifier Playoffs",
-  "at": 1795310684763,
+  "at": 1795311016283,
   "r": [
    {
     "r": "Round 1 (0-0)",
