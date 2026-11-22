@@ -1,86 +1,6 @@
 {
- "updated": "2026-11-22T02:40:09.741Z",
+ "updated": "2026-11-22T02:41:50.327Z",
  "live": [
-  {
-   "id": "792035",
-   "a": "Next",
-   "b": "GANGUE",
-   "sa": "1",
-   "sb": "1",
-   "ev": "VCT 2027: America Kickoff - Brazil Qualifier Playoffs",
-   "ph": "Swiss Stage–Round 2 (0-1)",
-   "ts": 1795302000000,
-   "url": "https://www.vlr.gg/792035/next-vs-gangue-vct-2027-america-kickoff-brazil-qualifier-playoffs-swiss-stage-r2-0-1",
-   "mp": [
-    {
-     "n": "Summit",
-     "a": 7,
-     "b": 13,
-     "st": "d"
-    },
-    {
-     "n": "Sunset",
-     "a": 13,
-     "b": 11,
-     "st": "d"
-    },
-    {
-     "n": "TBD",
-     "a": 0,
-     "b": 0,
-     "st": "l"
-    }
-   ],
-   "evu": "/event/3183/vct-2027-america-kickoff-brazil-qualifier-playoffs/swiss-stage",
-   "bo": "3",
-   "pl": {
-    "a": [
-     {
-      "n": "taka",
-      "ag": ""
-     },
-     {
-      "n": "forbanz",
-      "ag": ""
-     },
-     {
-      "n": "Stwz1",
-      "ag": ""
-     },
-     {
-      "n": "skz",
-      "ag": ""
-     },
-     {
-      "n": "RgLMeister",
-      "ag": ""
-     }
-    ],
-    "b": [
-     {
-      "n": "netin",
-      "ag": ""
-     },
-     {
-      "n": "nevoy",
-      "ag": ""
-     },
-     {
-      "n": "gbz",
-      "ag": ""
-     },
-     {
-      "n": "znajder",
-      "ag": ""
-     },
-     {
-      "n": "GuhRVN",
-      "ag": ""
-     }
-    ]
-   },
-   "nk": 1
-  },
   {
    "id": "792910",
    "a": "Xora Esports",
@@ -628,6 +548,34 @@
    ]
   },
   {
+   "id": "792035",
+   "a": "Next",
+   "b": "GANGUE",
+   "sa": "2",
+   "sb": "1",
+   "ev": "VCT 2027: America Kickoff - Brazil Qualifier Playoffs",
+   "ph": "Swiss Stage–Round 2 (0-1)",
+   "ts": 1795302900000,
+   "url": "https://www.vlr.gg/792035/next-vs-gangue-vct-2027-america-kickoff-brazil-qualifier-playoffs-swiss-stage-r2-0-1",
+   "mp": [
+    {
+     "n": "Summit",
+     "a": 7,
+     "b": 13
+    },
+    {
+     "n": "Sunset",
+     "a": 13,
+     "b": 11
+    },
+    {
+     "n": "Haven",
+     "a": 13,
+     "b": 11
+    }
+   ]
+  },
+  {
    "id": "792033",
    "a": "TIME DO B3M",
    "b": "Master Bank",
@@ -807,34 +755,6 @@
      "b": 4
     }
    ]
-  },
-  {
-   "id": "792029",
-   "a": "2Game Esports",
-   "b": "BRASIL2002",
-   "sa": "2",
-   "sb": "1",
-   "ev": "VCT 2027: America Kickoff - Brazil Qualifier Playoffs",
-   "ph": "Swiss Stage–Round 2 (1-0)",
-   "ts": 1795291200000,
-   "url": "https://www.vlr.gg/792029/2game-esports-vs-brasil2002-vct-2027-america-kickoff-brazil-qualifier-playoffs-swiss-stage-r2-1-0",
-   "mp": [
-    {
-     "n": "Summit",
-     "a": 13,
-     "b": 11
-    },
-    {
-     "n": "Abyss",
-     "a": 11,
-     "b": 13
-    },
-    {
-     "n": "Sunset",
-     "a": 13,
-     "b": 11
-    }
-   ]
   }
  ],
  "news": [
@@ -886,11 +806,9 @@
   "Masterclass": "https://owcdn.net/img/6af13eb45e344.png",
   "Xora Esports": "https://owcdn.net/img/6afb14884bf9c.png",
   "SaD Esports": "https://owcdn.net/img/6528e9505cb61.png",
-  "BRASIL2002": "/img/vlr/tmp/vlr.png",
   "TIME DO B3M": "/img/vlr/tmp/vlr.png",
   "No Org No Problem": "/img/vlr/tmp/vlr.png",
   "Mix My Miks": "https://owcdn.net/img/6aad435f0d90b.png",
-  "2Game Esports": "https://owcdn.net/img/67725c368d524.png",
   "Yellow Dragon Gaming": "https://owcdn.net/img/6afd0bad47358.png",
   "Wildcard": "https://owcdn.net/img/6afb9b586bdab.png",
   "QoR": "https://owcdn.net/img/63e9a11797f41.png",
@@ -912,7 +830,6 @@
   "ENVY": "",
   "Shopify Rebellion Gold": "#e1c486",
   "Mix My Miks": "#911318",
-  "2Game Esports": "#7a4bfb",
   "Yellow Dragon Gaming": "#fbd500",
   "Wildcard": "#21a9f4",
   "QoR": "#25befa",
@@ -935,65 +852,65 @@
  },
  "vct": "https://owcdn.net/img/640f5ab71dfbb.png",
  "br": {
-  "u": "/event/3183/vct-2027-america-kickoff-brazil-qualifier-playoffs/swiss-stage",
-  "ev": "VCT 2027: America Kickoff - Brazil Qualifier Playoffs",
-  "at": 1795315010658,
+  "u": "/event/3179/vct-2027-america-kickoff-north-america-qualifier-playoffs/swiss-stage",
+  "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
+  "at": 1795315308971,
   "r": [
    {
     "r": "Round 1 (0-0)",
     "m": [
      [
-      "Fluxo W7M",
-      "0 intelecto",
+      "Cloud9",
+      "counterfeit",
       2,
       0,
       "d"
      ],
      [
-      "2Game Esports",
-      "Master Bank",
+      "ENVY",
+      "Yellow Dragon Gaming",
       2,
       0,
       "d"
      ],
      [
-      "Team Solid",
-      "ARRANCA DREAMS",
+      "YFP",
+      "Wildcard",
       2,
       1,
       "d"
      ],
      [
-      "Next",
-      "SÓ TEM VELHO",
+      "QoR",
+      "Oafs",
       0,
       2,
       "d"
      ],
      [
-      "ELEVATE",
-      "Piranhas do Caribe",
+      "Shopify Rebellion Black",
+      "Xora Esports",
       2,
       0,
       "d"
      ],
      [
-      "Manticore",
-      "Arashi",
-      2,
+      "Shopify Rebellion Gold",
+      "Maryville University",
       0,
+      2,
       "d"
      ],
      [
-      "BRASIL2002",
-      "TIME DO B3M",
+      "FlyQuest",
+      "Masterclass",
       2,
       1,
       "d"
      ],
      [
-      "GANGUE",
-      "Mafiosos",
+      "SaD Esports",
+      "Winthrop University",
       0,
       2,
       "d"
@@ -1004,31 +921,31 @@
     "r": "Round 2 (1-0)",
     "m": [
      [
-      "2Game Esports",
-      "BRASIL2002",
-      2,
-      1,
-      "d"
-     ],
-     [
-      "ELEVATE",
-      "Team Solid",
-      1,
-      2,
-      "d"
-     ],
-     [
-      "Mafiosos",
-      "SÓ TEM VELHO",
+      "Winthrop University",
+      "YFP",
       0,
       2,
       "d"
      ],
      [
-      "Fluxo W7M",
-      "Manticore",
-      2,
+      "FlyQuest",
+      "ENVY",
       1,
+      2,
+      "d"
+     ],
+     [
+      "Oafs",
+      "Shopify Rebellion Black",
+      1,
+      0,
+      "l"
+     ],
+     [
+      "Cloud9",
+      "Maryville University",
+      2,
+      0,
       "d"
      ]
     ]
@@ -1037,203 +954,32 @@
     "r": "Round 2 (0-1)",
     "m": [
      [
-      "TIME DO B3M",
-      "Master Bank",
-      0,
+      "Yellow Dragon Gaming",
+      "Wildcard",
+      1,
       2,
       "d"
      ],
      [
-      "ARRANCA DREAMS",
-      "Piranhas do Caribe",
+      "QoR",
+      "Shopify Rebellion Gold",
       2,
       1,
       "d"
      ],
      [
-      "Arashi",
-      "0 intelecto",
-      2,
-      0,
-      "d"
-     ],
-     [
-      "Next",
-      "GANGUE",
+      "Xora Esports",
+      "SaD Esports",
       1,
       1,
       "l"
-     ]
-    ]
-   },
-   {
-    "r": "Round 3 (1-1)",
-    "m": [
-     [
-      "TBD",
-      "TBD",
-      0,
-      0,
-      "u"
      ],
      [
-      "TBD",
-      "TBD",
+      "Masterclass",
+      "counterfeit",
       0,
       0,
-      "u"
-     ],
-     [
-      "TBD",
-      "TBD",
-      0,
-      0,
-      "u"
-     ],
-     [
-      "TBD",
-      "TBD",
-      0,
-      0,
-      "u"
-     ]
-    ]
-   },
-   {
-    "r": "Upper Quarterfinals",
-    "m": [
-     [
-      "TBD",
-      "TBD",
-      0,
-      0,
-      "u"
-     ],
-     [
-      "TBD",
-      "TBD",
-      0,
-      0,
-      "u"
-     ],
-     [
-      "TBD",
-      "TBD",
-      0,
-      0,
-      "u"
-     ],
-     [
-      "TBD",
-      "TBD",
-      0,
-      0,
-      "u"
-     ]
-    ]
-   },
-   {
-    "r": "Lower Round 1",
-    "m": [
-     [
-      "TBD",
-      "TBD",
-      0,
-      0,
-      "u"
-     ],
-     [
-      "TBD",
-      "TBD",
-      0,
-      0,
-      "u"
-     ]
-    ]
-   },
-   {
-    "r": "Upper Semifinals",
-    "m": [
-     [
-      "TBD",
-      "TBD",
-      0,
-      0,
-      "u"
-     ],
-     [
-      "TBD",
-      "TBD",
-      0,
-      0,
-      "u"
-     ]
-    ]
-   },
-   {
-    "r": "Lower Round 2",
-    "m": [
-     [
-      "TBD",
-      "TBD",
-      0,
-      0,
-      "u"
-     ],
-     [
-      "TBD",
-      "TBD",
-      0,
-      0,
-      "u"
-     ]
-    ]
-   },
-   {
-    "r": "Upper Final",
-    "m": [
-     [
-      "TBD",
-      "TBD",
-      0,
-      0,
-      "u"
-     ]
-    ]
-   },
-   {
-    "r": "Lower Round 3",
-    "m": [
-     [
-      "TBD",
-      "TBD",
-      0,
-      0,
-      "u"
-     ]
-    ]
-   },
-   {
-    "r": "Lower Final",
-    "m": [
-     [
-      "TBD",
-      "TBD",
-      0,
-      0,
-      "u"
-     ]
-    ]
-   },
-   {
-    "r": "Grand Final",
-    "m": [
-     [
-      "TBD",
-      "TBD",
-      0,
-      0,
-      "u"
+      "l"
      ]
     ]
    }
