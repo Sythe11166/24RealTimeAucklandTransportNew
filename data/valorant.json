@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T01:04:23.779Z",
+ "updated": "2026-11-22T01:06:05.481Z",
  "live": [
   {
    "id": "792905",
@@ -26,7 +26,7 @@
     },
     {
      "n": "Summit",
-     "a": 4,
+     "a": 5,
      "b": 7,
      "st": "l"
     }
@@ -114,6 +114,10 @@
     [
      "a",
      "e"
+    ],
+    [
+     "a",
+     "b"
     ]
    ],
    "rdm": "Summit"
@@ -153,7 +157,7 @@
    "id": "792034",
    "a": "ARRANCA DREAMS",
    "b": "Piranhas do Caribe",
-   "sa": "0",
+   "sa": "1",
    "sb": "1",
    "ev": "VCT 2027: America Kickoff - Brazil Qualifier Playoffs",
    "ph": "Swiss Stage–Round 2 (0-1)",
@@ -167,14 +171,16 @@
      "st": "d"
     },
     {
+     "n": "Lotus",
+     "a": 13,
+     "b": 11,
+     "st": "d"
+    },
+    {
      "n": "TBD",
      "a": 0,
      "b": 0,
      "st": "l"
-    },
-    {
-     "n": "TBD",
-     "st": "n"
     }
    ],
    "evu": "/event/3183/vct-2027-america-kickoff-brazil-qualifier-playoffs/swiss-stage",
@@ -224,7 +230,7 @@
    "mp": [
     {
      "n": "Abyss",
-     "a": 6,
+     "a": 9,
      "b": 7,
      "st": "l"
     },
@@ -328,6 +334,18 @@
     [
      "a",
      "e"
+    ],
+    [
+     "a",
+     "e"
+    ],
+    [
+     "a",
+     "e"
+    ],
+    [
+     "a",
+     "e"
     ]
    ],
    "rdm": "Abyss"
@@ -345,7 +363,7 @@
    "mp": [
     {
      "n": "Lotus",
-     "a": 0,
+     "a": 1,
      "b": 0,
      "st": "l"
     },
@@ -396,7 +414,14 @@
      "",
      "Summit"
     ]
-   ]
+   ],
+   "rd": [
+    [
+     "a",
+     "e"
+    ]
+   ],
+   "rdm": "Lotus"
   },
   {
    "id": "792908",
@@ -411,7 +436,7 @@
    "mp": [
     {
      "n": "Sunset",
-     "a": 0,
+     "a": 2,
      "b": 0,
      "st": "l"
     },
@@ -462,7 +487,18 @@
      "",
      "Summit"
     ]
-   ]
+   ],
+   "rd": [
+    [
+     "a",
+     "e"
+    ],
+    [
+     "a",
+     "b"
+    ]
+   ],
+   "rdm": "Sunset"
   }
  ],
  "upcoming": [
