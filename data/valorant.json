@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T00:16:39.339Z",
+ "updated": "2026-11-22T00:18:32.780Z",
  "live": [
   {
    "id": "792903",
@@ -20,7 +20,7 @@
     },
     {
      "n": "Bind",
-     "a": 10,
+     "a": 11,
      "b": 11,
      "st": "l"
     },
@@ -156,6 +156,10 @@
     [
      "a",
      "d"
+    ],
+    [
+     "a",
+     "e"
     ]
    ],
    "rdm": "Bind"
@@ -249,7 +253,7 @@
     },
     {
      "n": "Sunset",
-     "a": 10,
+     "a": 11,
      "b": 12,
      "st": "l"
     },
@@ -385,6 +389,10 @@
     [
      "a",
      "e"
+    ],
+    [
+     "a",
+     "e"
     ]
    ],
    "rdm": "Sunset"
@@ -415,7 +423,7 @@
     {
      "n": "Summit",
      "a": 10,
-     "b": 3,
+     "b": 4,
      "st": "l"
     }
    ],
@@ -509,6 +517,10 @@
     ],
     [
      "a",
+     "e"
+    ],
+    [
+     "b",
      "e"
     ],
     [
@@ -619,7 +631,7 @@
    "sb": "–",
    "ev": "VCT 2027: EMEA Kickoff - MENA Qualifier",
    "ph": "Playoffs–Grand Final",
-   "ts": 1795306500000,
+   "ts": 1795306800000,
    "url": "https://www.vlr.gg/792551/mix-my-miks-vs-no-org-no-problem-vct-2027-emea-kickoff-mena-qualifier-playoffs-gf",
    "bo": "3",
    "evu": "/event/3167/vct-2027-emea-kickoff-mena-qualifier/playoffs",
@@ -1015,7 +1027,8 @@
   "Maryville University": "#a9171c",
   "Masterclass": "",
   "counterfeit": "#957226",
-  "Xora Esports": "#ff0000"
+  "Xora Esports": "#ff0000",
+  "SaD Esports": "#137dbd"
  },
  "agents": {},
  "evlogos": {
