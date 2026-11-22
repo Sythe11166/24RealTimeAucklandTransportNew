@@ -748,9 +748,10 @@ function valRender(){
   const ch=(a,n)=>{const o=[];for(let i=0;i<a.length;i+=n)o.push(a.slice(i,i+n));return o},P=[];
   const LV=VAL.live,D=LV.filter(m=>m.pl||(m.mp&&m.mp.some(x=>x.st))).slice(0,3),Rst=LV.filter(m=>!D.includes(m));
   ch(Rst,4).forEach(g=>P.push({t:'ll',d:g}));D.forEach(m=>P.push({t:'l',d:m}));
-  const soon=VAL.up.slice().sort((x,y)=>x.ts-y.ts).find((m,i)=>i===0&&m.ts-Date.now()<=45*6e4);
+  const gone=new Set([...VAL.liveAll,...VAL.res].map(m=>m.id)),UP=VAL.up.filter(m=>!gone.has(m.id)&&m.ts>Date.now()-10*6e4);
+  const soon=UP.slice().sort((x,y)=>x.ts-y.ts).find((m,i)=>i===0&&m.ts-Date.now()<=45*6e4);
   if(soon)P.push({t:'s',d:soon});
-  ch((soon?VAL.up.filter(m=>m!==soon):VAL.up).slice(0,8),4).forEach(g=>P.push({t:'u',d:g}));
+  ch((soon?UP.filter(m=>m!==soon):UP).slice(0,8),4).forEach(g=>P.push({t:'u',d:g}));
   if(VAL.br&&VAL.br.r&&VAL.br.r.some(r=>r.m.some(x=>x[4]!=='u')))P.push({t:'b',d:VAL.br});
   const cost=m=>m.mp&&m.mp.length?4.7+(m.mp.length>3?1.9:0)+.5:3.8;let cur=[],used=0;
   VAL.res.forEach(m=>{const c=cost(m);if(cur.length&&used+c>17.9){P.push({t:'r',d:cur});cur=[];used=0}cur.push(m);used+=c});if(cur.length)P.push({t:'r',d:cur});
