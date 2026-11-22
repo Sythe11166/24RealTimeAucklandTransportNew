@@ -1,32 +1,44 @@
 name: Update Valorant data
+# GitHub's cron is unreliable on quiet repos (it can skip hours), so each run keeps itself going:
+# it scrapes in a loop for ~23 minutes, then starts the next run while a match is live or soon.
+# The cron below is only a safety net that restarts the chain if it ever breaks.
 on:
   schedule:
-    - cron: '*/5 * * * *'
+    - cron: '*/10 * * * *'
   workflow_dispatch:
 permissions:
   contents: write
+  actions: write
 concurrency:
   group: valorant-data
   cancel-in-progress: false
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 12
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: 20
       - run: npm install --no-save --no-package-lock cheerio@1 sharp
-      - name: Scrape (repeats every ~100s while a match is live)
+      - name: Scrape in a loop (every ~90s while live or starting soon, else every 5 min)
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          for i in 1 2 3; do
-            node scripts/valorant.mjs
+          END=$((SECONDS+1380))
+          while true; do
+            node scripts/valorant.mjs || echo 'scrape failed, will retry'
             git add data/valorant.json
-            git diff --cached --quiet || (git commit -m "Update Valorant data" && git pull --rebase -q && git push -q)
-            LIVE=$(node -e "try{console.log(require('./data/valorant.json').live.length)}catch{console.log(0)}")
-            [ "$LIVE" -gt 0 ] || break
-            if [ "$i" -lt 3 ]; then sleep 100; fi
+            git diff --cached --quiet || (git commit -m "Update Valorant data" && git pull --rebase -q && git push -q) || echo 'push failed, will retry next loop'
+            WAIT=$(node -e "try{const j=require('./data/valorant.json'),n=Date.now();console.log(j.live.length||j.upcoming.some(m=>m.ts-n<30*60000&&m.ts-n>-36e5)?90:300)}catch{console.log(300)}")
+            [ $((SECONDS+WAIT+60)) -lt $END ] || break
+            sleep $WAIT
           done
+      - name: Start the next run while there is something to follow
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          KEEP=$(node -e "try{const j=require('./data/valorant.json'),n=Date.now();console.log(j.live.length||j.upcoming.some(m=>m.ts-n<24*36e5&&m.ts-n>-36e5)?1:0)}catch{console.log(1)}")
+          if [ "$KEEP" = 1 ]; then gh workflow run valorant.yml || echo 'could not queue the next run'; else echo 'nothing live or due in 24h, the cron will wake it later'; fi
