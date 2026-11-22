@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T21:13:52.043Z",
+ "updated": "2026-11-22T21:15:31.004Z",
  "live": [
   {
    "id": "792038",
@@ -88,21 +88,23 @@
    "a": "ELEVATE",
    "b": "Arashi",
    "sa": "0",
-   "sb": "0",
+   "sb": "1",
    "ev": "VCT 2027: America Kickoff - Brazil Qualifier Playoffs",
    "ph": "Swiss Stage–Round 3 (1-1)",
    "ts": 1795377600000,
    "url": "https://www.vlr.gg/792039/elevate-vs-arashi-vct-2027-america-kickoff-brazil-qualifier-playoffs-swiss-stage-r3-1-1",
    "mp": [
     {
+     "n": "Lotus",
+     "a": 10,
+     "b": 13,
+     "st": "d"
+    },
+    {
      "n": "TBD",
      "a": 0,
      "b": 0,
      "st": "l"
-    },
-    {
-     "n": "TBD",
-     "st": "n"
     },
     {
      "n": "TBD",
