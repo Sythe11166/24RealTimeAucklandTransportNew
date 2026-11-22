@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T20:28:34.872Z",
+ "updated": "2026-11-22T20:30:14.531Z",
  "live": [
   {
    "id": "792038",
@@ -5620,14 +5620,14 @@
    "a": "9z Globant",
    "b": "MALAJUNTA",
    "ev": "VCT 2027: America Kickoff - LATAM South Qualifier Playoffs",
-   "ts": 1795469400000
+   "ts": 1795465800000
   },
   {
    "id": "793566",
    "a": "KRÜ BLAZE",
    "b": "fracasados ny",
    "ev": "VCT 2027: America Kickoff - LATAM South Qualifier Playoffs",
-   "ts": 1795469400000
+   "ts": 1795465800000
   },
   {
    "id": "790432",
@@ -5749,7 +5749,7 @@
    "sa": "2",
    "sb": "1",
    "ev": "VCT 2027: EMEA Kickoff - MENA Qualifier",
-   "ts": 1795289400000
+   "ts": 1795285800000
   },
   {
    "id": "792550",
@@ -5767,7 +5767,7 @@
    "sa": "0",
    "sb": "2",
    "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ts": 1795228200000
+   "ts": 1795224600000
   },
   {
    "id": "791683",
@@ -5776,7 +5776,7 @@
    "sa": "2",
    "sb": "1",
    "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ts": 1795224600000
+   "ts": 1795221000000
   },
   {
    "id": "791684",
