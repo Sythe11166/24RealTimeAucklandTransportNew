@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T05:22:48.771Z",
+ "updated": "2026-11-22T05:27:19.419Z",
  "live": [],
  "upcoming": [
   {
@@ -4321,7 +4321,7 @@
   {
    "t": "Shopify Rebellion Gold signs melya from FlyQuest RED",
    "d": "A completed SRG roster ahead of the 2027 season.",
-   "ts": 1795089600000,
+   "ts": 1795176000000,
    "url": "https://www.vlr.gg/792536/shopify-rebellion-gold-signs-melya-from-flyquest-red"
   }
  ],
@@ -4497,268 +4497,66 @@
  },
  "vct": "https://owcdn.net/img/640f5ab71dfbb.png",
  "br": {
-  "u": "/event/3167/vct-2027-emea-kickoff-mena-qualifier/playoffs",
-  "ev": "VCT 2027: EMEA Kickoff - MENA Qualifier",
-  "at": 1795324399495,
+  "u": "/event/3179/vct-2027-america-kickoff-north-america-qualifier-playoffs/swiss-stage",
+  "rg": "Americas",
+  "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
+  "at": 1795325238088,
   "r": [
    {
-    "r": "Round of 64",
+    "r": "Round 1 (0-0)",
     "m": [
      [
-      "Howlers",
-      "LogIQ",
+      "Cloud9",
+      "counterfeit",
       2,
       0,
       "d"
      ],
      [
-      "MAYHEM",
-      "ALC",
+      "ENVY",
+      "Yellow Dragon Gaming",
       2,
       0,
       "d"
      ],
      [
-      "Lion Kings",
-      "Black bulls",
-      2,
-      0,
-      "d"
-     ],
-     [
-      "Six Seven",
-      "Se7en Sins",
-      2,
-      0,
-      "d"
-     ],
-     [
-      "Onliners",
-      "Xenon Esports",
-      2,
-      0,
-      "d"
-     ],
-     [
-      "Fatality",
-      "EGY Ghoul E-Sports",
-      0,
-      0,
-      "d"
-     ],
-     [
-      "Team Ruthless",
-      "Last hope",
-      2,
-      0,
-      "d"
-     ],
-     [
-      "Calamity",
-      "Team Fifty Fifty",
-      0,
-      0,
-      "d"
-     ],
-     [
-      "NYXORA",
-      "Team Kryptic",
-      2,
-      0,
-      "d"
-     ],
-     [
-      "MG",
-      "EBT",
-      2,
-      0,
-      "d"
-     ],
-     [
-      "Team Reds",
-      "VEIL",
-      1,
-      2,
-      "d"
-     ],
-     [
-      "Eternals",
-      "Dynamao",
-      2,
-      0,
-      "d"
-     ],
-     [
-      "winnable",
-      "Jaguar",
-      2,
-      0,
-      "d"
-     ],
-     [
-      "Paradox",
-      "no name (game over)",
-      0,
-      0,
-      "d"
-     ],
-     [
-      "Arcanine",
-      "Retakers Gaming",
-      0,
-      2,
-      "d"
-     ],
-     [
-      "invictus",
-      "Illusion Gatekeepers",
-      0,
-      0,
-      "d"
-     ],
-     [
-      "WEST ESPORTS",
-      "Green flag",
-      2,
-      0,
-      "d"
-     ],
-     [
-      "krd marines",
-      "Team ONYX",
-      0,
-      0,
-      "d"
-     ],
-     [
-      "NEMESIS",
-      "Invaders",
-      0,
-      0,
-      "d"
-     ],
-     [
-      "Trust the process",
-      "EGO",
-      0,
-      0,
-      "d"
-     ],
-     [
-      "formidable",
-      "Nikotine#60mg",
-      0,
-      2,
-      "d"
-     ],
-     [
-      "Authority",
-      "Zeropoint",
-      2,
-      0,
-      "d"
-     ],
-     [
-      "Team Atomic",
-      "RECKLEES FAMILY",
-      2,
-      0,
-      "d"
-     ],
-     [
-      "Fatality",
-      "Last hope",
-      2,
-      0,
-      "d"
-     ],
-     [
-      "krd marines",
-      "Green flag",
-      2,
-      0,
-      "d"
-     ],
-     [
-      "BoomX",
-      "Nikotine#60mg",
-      2,
-      0,
-      "d"
-     ],
-     [
-      "VEIL",
-      "Nexus Esports",
+      "YFP",
+      "Wildcard",
       2,
       1,
       "d"
      ],
      [
-      "Se7en Sins",
-      "Jaguar",
+      "QoR",
+      "Oafs",
+      0,
+      2,
+      "d"
+     ],
+     [
+      "Shopify Rebellion Black",
+      "Xora Esports",
+      2,
+      0,
+      "d"
+     ],
+     [
+      "Shopify Rebellion Gold",
+      "Maryville University",
+      0,
+      2,
+      "d"
+     ],
+     [
+      "FlyQuest",
+      "Masterclass",
+      2,
       1,
-      2,
       "d"
      ],
      [
-      "ARIGATO SWISHEMAS",
-      "Anarchists",
-      2,
-      1,
-      "d"
-     ],
-     [
-      "ethanol",
-      "More Energy",
-      2,
-      0,
-      "d"
-     ],
-     [
-      "MG",
-      "NoWitnesses",
-      0,
-      0,
-      "d"
-     ],
-     [
-      "Washed",
-      "Illusion Gatekeepers",
-      2,
-      0,
-      "d"
-     ],
-     [
-      "Calamity",
-      "Phantom Logic",
-      2,
-      0,
-      "d"
-     ],
-     [
-      "Skel's Knights",
-      "despair",
-      2,
-      0,
-      "d"
-     ],
-     [
-      "ASTRO ESPORT ACADEMY",
-      "Dynamao",
-      2,
-      0,
-      "d"
-     ],
-     [
-      "Arena",
-      "rankers",
-      2,
-      0,
-      "d"
-     ],
-     [
-      "Xenon Esports",
-      "Team Versa",
+      "SaD Esports",
+      "Winthrop University",
       0,
       2,
       "d"
@@ -4766,452 +4564,32 @@
     ]
    },
    {
-    "r": "Round of 32",
+    "r": "Round 2 (1-0)",
     "m": [
      [
-      "Argea",
-      "LPZ",
-      2,
+      "Winthrop University",
+      "YFP",
       0,
+      2,
       "d"
      ],
      [
-      "Life Gamers",
-      "Payphone",
-      2,
-      0,
-      "d"
-     ],
-     [
-      "PapaSmurfs",
-      "USMH ESPORTS",
-      2,
-      0,
-      "d"
-     ],
-     [
-      "BAAM Esports",
-      "Lunaris Esports",
-      2,
-      0,
-      "d"
-     ],
-     [
-      "Atlas Legacy",
-      "Hextech Esports",
+      "FlyQuest",
+      "ENVY",
       1,
       2,
       "d"
      ],
      [
-      "Rogue",
-      "Arena Academy",
-      2,
-      0,
-      "d"
-     ],
-     [
-      "lfr9a MRC",
-      "Chronoclast",
-      2,
-      0,
-      "d"
-     ],
-     [
-      "L9OL",
-      "Super Games Esports",
+      "Oafs",
+      "Shopify Rebellion Black",
       1,
       2,
       "d"
      ],
      [
-      "Homixculus",
-      "Fruits Gang",
-      2,
-      0,
-      "d"
-     ],
-     [
-      "Negative",
-      "Equation Academy",
-      2,
-      1,
-      "d"
-     ],
-     [
-      "Exclamationmarks",
-      "100Throwers",
-      2,
-      0,
-      "d"
-     ],
-     [
-      "Mix My Miks",
-      "Olympique kasserine eSports",
-      2,
-      0,
-      "d"
-     ],
-     [
-      "R8 Esports",
-      "KASBAH eSPORTS",
-      2,
-      0,
-      "d"
-     ],
-     [
-      "Gamax Esports",
-      "ZYVRA",
-      2,
-      0,
-      "d"
-     ],
-     [
-      "GUGUGAGA",
-      "Syrian Recon OPS",
-      2,
-      0,
-      "d"
-     ],
-     [
-      "Neya esports",
-      "METAGAMING",
-      2,
-      1,
-      "d"
-     ],
-     [
-      "100K",
-      "Howlers",
-      0,
-      2,
-      "d"
-     ],
-     [
-      "MAYHEM",
-      "Lion Kings",
-      2,
-      1,
-      "d"
-     ],
-     [
-      "valyrian",
-      "Six Seven",
-      0,
-      2,
-      "d"
-     ],
-     [
-      "Nova Esports",
-      "Onliners",
-      2,
-      0,
-      "d"
-     ],
-     [
-      "LEVELERS",
-      "Fatality",
-      0,
-      2,
-      "d"
-     ],
-     [
-      "Team Ruthless",
-      "Calamity",
-      0,
-      2,
-      "d"
-     ],
-     [
-      "The Spiders",
-      "NYXORA",
-      2,
-      0,
-      "d"
-     ],
-     [
-      "MG",
-      "VEIL",
-      2,
-      0,
-      "d"
-     ],
-     [
-      "Stallions Esports",
-      "Eternals",
-      2,
-      0,
-      "d"
-     ],
-     [
-      "winnable",
-      "Paradox",
-      2,
-      0,
-      "d"
-     ],
-     [
-      "No Org No Problem",
-      "Retakers Gaming",
-      2,
-      0,
-      "d"
-     ],
-     [
-      "invictus",
-      "WEST ESPORTS",
-      2,
-      0,
-      "d"
-     ],
-     [
-      "PDF",
-      "Team ONYX",
-      2,
-      0,
-      "d"
-     ],
-     [
-      "NEMESIS",
-      "Trust the process",
-      0,
-      2,
-      "d"
-     ],
-     [
-      "Lifeless Apes",
-      "Nikotine#60mg",
-      2,
-      0,
-      "d"
-     ],
-     [
-      "Authority",
-      "Team Atomic",
-      2,
-      0,
-      "d"
-     ],
-     [
-      "LEVELERS",
-      "Fatality",
-      2,
-      0,
-      "d"
-     ],
-     [
-      "MAYHEM",
-      "for fun",
-      2,
-      0,
-      "d"
-     ],
-     [
-      "Lifeless Apes",
-      "krd marines",
-      2,
-      0,
-      "d"
-     ],
-     [
-      "Authority",
-      "BoomX",
-      2,
-      0,
-      "d"
-     ],
-     [
-      "Pookie shoots",
-      "VEIL",
-      2,
-      0,
-      "d"
-     ],
-     [
-      "winnable",
-      "Jaguar",
-      2,
-      0,
-      "d"
-     ],
-     [
-      "formidable",
-      "ARIGATO SWISHEMAS",
-      2,
-      0,
-      "d"
-     ],
-     [
-      "100K",
-      "ethanol",
-      2,
-      0,
-      "d"
-     ],
-     [
-      "Stallions Esports",
-      "MG",
-      2,
-      0,
-      "d"
-     ],
-     [
-      "yolo",
-      "WEST ESPORTS",
-      2,
-      1,
-      "d"
-     ],
-     [
-      "invictus",
-      "Washed",
-      2,
-      0,
-      "d"
-     ],
-     [
-      "Nova Esports",
-      "Calamity",
-      0,
-      2,
-      "d"
-     ],
-     [
-      "Team Ruthless",
-      "Skel's Knights",
-      0,
-      2,
-      "d"
-     ],
-     [
-      "algasab",
-      "ASTRO ESPORT ACADEMY",
-      2,
-      0,
-      "d"
-     ],
-     [
-      "The Spiders",
-      "Arena",
-      2,
-      0,
-      "d"
-     ],
-     [
-      "Six Seven",
-      "Team Versa",
-      2,
-      1,
-      "d"
-     ],
-     [
-      "R8 Esports",
-      "Retakers Gaming",
-      2,
-      0,
-      "d"
-     ],
-     [
-      "Homixculus",
-      "Super Games Esports",
-      2,
-      0,
-      "d"
-     ],
-     [
-      "BWBB",
-      "Fruits Gang",
-      0,
-      0,
-      "d"
-     ],
-     [
-      "Rogue",
-      "Revenant",
-      2,
-      0,
-      "d"
-     ],
-     [
-      "3MK",
-      "METAGAMING",
-      0,
-      0,
-      "d"
-     ],
-     [
-      "NEMESIS",
-      "poly esports",
-      0,
-      0,
-      "d"
-     ],
-     [
-      "Atlas Legacy",
-      "VIPER eSports",
-      2,
-      1,
-      "d"
-     ],
-     [
-      "GUGUGAGA",
-      "Assassins",
-      2,
-      0,
-      "d"
-     ],
-     [
-      "BAAM Esports",
-      "PUNIX Legacy",
-      2,
-      0,
-      "d"
-     ],
-     [
-      "cubs esport",
-      "NGT",
-      2,
-      0,
-      "d"
-     ],
-     [
-      "Gamax Esports",
-      "Kinguza",
-      2,
-      0,
-      "d"
-     ],
-     [
-      "Exclamationmarks",
-      "Hextech Esports",
-      2,
-      0,
-      "d"
-     ],
-     [
-      "Neya esports",
-      "Supernova",
-      2,
-      0,
-      "d"
-     ],
-     [
-      "BANDO",
-      "Blue Hope",
-      2,
-      0,
-      "d"
-     ],
-     [
-      "FC Capybara",
-      "VortexEsportsMA",
-      2,
-      0,
-      "d"
-     ],
-     [
-      "Negative",
-      "WENA ESPORTS",
+      "Cloud9",
+      "Maryville University",
       2,
       0,
       "d"
@@ -5219,503 +4597,72 @@
     ]
    },
    {
-    "r": "Round of 16",
+    "r": "Round 2 (0-1)",
     "m": [
      [
-      "Argea",
-      "Life Gamers",
-      2,
-      0,
-      "d"
-     ],
-     [
-      "PapaSmurfs",
-      "BAAM Esports",
+      "Yellow Dragon Gaming",
+      "Wildcard",
       1,
       2,
       "d"
      ],
      [
-      "Hextech Esports",
-      "Rogue",
-      1,
-      2,
-      "d"
-     ],
-     [
-      "lfr9a MRC",
-      "Super Games Esports",
+      "QoR",
+      "Shopify Rebellion Gold",
       2,
       1,
       "d"
      ],
      [
-      "Homixculus",
-      "Negative",
-      2,
-      0,
-      "d"
-     ],
-     [
-      "Exclamationmarks",
-      "Mix My Miks",
-      0,
-      2,
-      "d"
-     ],
-     [
-      "R8 Esports",
-      "Gamax Esports",
-      2,
-      0,
-      "d"
-     ],
-     [
-      "GUGUGAGA",
-      "Neya esports",
-      2,
-      0,
-      "d"
-     ],
-     [
-      "Howlers",
-      "MAYHEM",
-      0,
-      2,
-      "d"
-     ],
-     [
-      "Six Seven",
-      "Nova Esports",
-      2,
-      0,
-      "d"
-     ],
-     [
-      "Fatality",
-      "Calamity",
+      "Xora Esports",
+      "SaD Esports",
       1,
       2,
       "d"
      ],
      [
-      "The Spiders",
-      "MG",
-      2,
-      0,
-      "d"
-     ],
-     [
-      "Stallions Esports",
-      "winnable",
+      "Masterclass",
+      "counterfeit",
       0,
       2,
-      "d"
-     ],
-     [
-      "No Org No Problem",
-      "invictus",
-      2,
-      0,
-      "d"
-     ],
-     [
-      "PDF",
-      "Trust the process",
-      2,
-      0,
-      "d"
-     ],
-     [
-      "Lifeless Apes",
-      "Authority",
-      0,
-      2,
-      "d"
-     ],
-     [
-      "LEVELERS",
-      "MAYHEM",
-      1,
-      2,
-      "d"
-     ],
-     [
-      "Lifeless Apes",
-      "Authority",
-      2,
-      1,
-      "d"
-     ],
-     [
-      "Pookie shoots",
-      "winnable",
-      0,
-      2,
-      "d"
-     ],
-     [
-      "formidable",
-      "100K",
-      0,
-      2,
-      "d"
-     ],
-     [
-      "Stallions Esports",
-      "yolo",
-      2,
-      0,
-      "d"
-     ],
-     [
-      "invictus",
-      "Calamity",
-      2,
-      0,
-      "d"
-     ],
-     [
-      "Skel's Knights",
-      "algasab",
-      0,
-      2,
-      "d"
-     ],
-     [
-      "The Spiders",
-      "Six Seven",
-      2,
-      0,
-      "d"
-     ],
-     [
-      "R8 Esports",
-      "Homixculus",
-      2,
-      0,
-      "d"
-     ],
-     [
-      "Fruits Gang",
-      "Rogue",
-      0,
-      2,
-      "d"
-     ],
-     [
-      "3MK",
-      "poly esports",
-      2,
-      0,
-      "d"
-     ],
-     [
-      "Atlas Legacy",
-      "GUGUGAGA",
-      0,
-      0,
-      "d"
-     ],
-     [
-      "BAAM Esports",
-      "cubs esport",
-      2,
-      0,
-      "d"
-     ],
-     [
-      "Gamax Esports",
-      "Exclamationmarks",
-      2,
-      0,
-      "d"
-     ],
-     [
-      "Neya esports",
-      "BANDO",
-      1,
-      2,
-      "d"
-     ],
-     [
-      "FC Capybara",
-      "Negative",
-      2,
-      0,
       "d"
      ]
     ]
    },
    {
-    "r": "Quarterfinals",
+    "r": "Round 3 (1-1)",
     "m": [
      [
-      "Argea",
-      "BAAM Esports",
+      "counterfeit",
+      "FlyQuest",
       0,
-      2,
-      "d"
-     ],
-     [
-      "Rogue",
-      "lfr9a MRC",
-      2,
-      1,
-      "d"
-     ],
-     [
-      "Homixculus",
-      "Mix My Miks",
       0,
-      2,
-      "d"
+      "u"
      ],
      [
-      "R8 Esports",
-      "GUGUGAGA",
-      2,
+      "Wildcard",
+      "Winthrop University",
       0,
-      "d"
-     ],
-     [
-      "PDF",
-      "Authority",
       0,
-      2,
-      "d"
+      "u"
      ],
      [
-      "winnable",
-      "No Org No Problem",
+      "Maryville University",
+      "QoR",
       0,
-      2,
-      "d"
-     ],
-     [
-      "MAYHEM",
-      "Six Seven",
-      2,
       0,
-      "d"
+      "u"
      ],
      [
-      "Calamity",
-      "The Spiders",
-      0,
-      2,
-      "d"
-     ],
-     [
-      "winnable",
-      "100K",
-      2,
-      0,
-      "d"
-     ],
-     [
-      "R8 Esports",
-      "Rogue",
-      2,
-      0,
-      "d"
-     ],
-     [
-      "3MK",
-      "GUGUGAGA",
-      0,
-      2,
-      "d"
-     ],
-     [
-      "BAAM Esports",
-      "Gamax Esports",
-      0,
-      2,
-      "d"
-     ],
-     [
-      "Neya esports",
-      "FC Capybara",
-      0,
-      2,
-      "d"
-     ],
-     [
-      "Stallions Esports",
-      "invictus",
-      2,
-      0,
-      "d"
-     ],
-     [
-      "algasab",
-      "The Spiders",
-      0,
-      2,
-      "d"
-     ],
-     [
-      "MAYHEM",
-      "Lifeless Apes",
-      2,
-      0,
-      "d"
-     ]
-    ]
-   },
-   {
-    "r": "Semifinals",
-    "m": [
-     [
-      "BAAM Esports",
-      "Rogue",
-      2,
-      0,
-      "d"
-     ],
-     [
-      "Mix My Miks",
-      "R8 Esports",
-      2,
-      1,
-      "d"
-     ],
-     [
-      "MAYHEM",
-      "The Spiders",
-      0,
-      2,
-      "d"
-     ],
-     [
-      "No Org No Problem",
-      "Authority",
-      2,
-      0,
-      "d"
-     ],
-     [
-      "R8 Esports",
-      "GUGUGAGA",
-      2,
-      0,
-      "d"
-     ],
-     [
-      "Gamax Esports",
-      "FC Capybara",
-      2,
-      0,
-      "d"
-     ],
-     [
-      "MAYHEM",
-      "winnable",
-      2,
-      1,
-      "d"
-     ],
-     [
-      "Stallions Esports",
-      "The Spiders",
-      2,
-      0,
-      "d"
-     ],
-     [
-      "No Org No Problem",
-      "Stallions Esports",
-      2,
-      1,
-      "d"
-     ],
-     [
-      "Mix My Miks",
-      "Gamax Esports",
-      2,
-      1,
-      "d"
-     ]
-    ]
-   },
-   {
-    "r": "Grand Final",
-    "m": [
-     [
-      "BAAM Esports",
-      "Mix My Miks",
-      1,
-      2,
-      "d"
-     ],
-     [
-      "The Spiders",
-      "No Org No Problem",
-      1,
-      2,
-      "d"
-     ],
-     [
-      "MAYHEM",
-      "Stallions Esports",
-      1,
-      2,
-      "d"
-     ],
-     [
-      "R8 Esports",
-      "Gamax Esports",
-      1,
-      2,
-      "d"
-     ],
-     [
-      "Mix My Miks",
-      "No Org No Problem",
+      "Oafs",
+      "SaD Esports",
       0,
       0,
       "u"
      ]
     ]
-   },
-   {
-    "r": "Consolation Finals",
-    "m": [
-     [
-      "winnable",
-      "The Spiders",
-      0,
-      0,
-      "d"
-     ]
-    ]
    }
   ],
-  "x": [
-   "Argea",
-   "lfr9a MRC",
-   "Homixculus",
-   "GUGUGAGA",
-   "PDF",
-   "winnable",
-   "Six Seven",
-   "Calamity",
-   "Rogue",
-   "R8 Esports",
-   "MAYHEM",
-   "Authority",
-   "BAAM Esports",
-   "The Spiders",
-   "100K",
-   "3MK",
-   "Neya esports",
-   "invictus",
-   "algasab",
-   "Lifeless Apes",
-   "FC Capybara",
-   "Stallions Esports",
-   "Gamax Esports"
-  ]
+  "x": []
  }
 }
