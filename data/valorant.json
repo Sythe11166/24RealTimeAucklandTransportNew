@@ -1,26 +1,28 @@
 {
- "updated": "2026-11-22T20:48:51.737Z",
+ "updated": "2026-11-22T20:52:07.362Z",
  "live": [
   {
    "id": "792038",
    "a": "Manticore",
    "b": "Next",
    "sa": "0",
-   "sb": "0",
+   "sb": "1",
    "ev": "VCT 2027: America Kickoff - Brazil Qualifier Playoffs",
    "ph": "Swiss Stage–Round 3 (1-1)",
    "ts": 1795377600000,
    "url": "https://www.vlr.gg/792038/manticore-vs-next-vct-2027-america-kickoff-brazil-qualifier-playoffs-swiss-stage-r3-1-1",
    "mp": [
     {
+     "n": "Abyss",
+     "a": 4,
+     "b": 13,
+     "st": "d"
+    },
+    {
      "n": "TBD",
      "a": 0,
      "b": 0,
      "st": "l"
-    },
-    {
-     "n": "TBD",
-     "st": "n"
     },
     {
      "n": "TBD",
