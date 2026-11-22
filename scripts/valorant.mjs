@@ -95,7 +95,8 @@ async function fetchMatch(path, live, sa, sb) {
     const rf = num(txt($(a).find('.rf').first())), ra = num(txt($(a).find('.ra').first()));
     if (rf != null && ra != null && rf !== ra) rf > ra ? hw++ : hl++;
   });
-  const common = { evl, evu, bo, ...(vt.length ? { vt } : {}), ...(hw + hl ? { h2h: { a: hw, b: hl } } : {}) };
+  const fsm = /(\d+)\s*:\s*(\d+)/.exec(txt($('.match-header-vs-score').first()));
+  const common = { evl, evu, bo, ...(fsm ? { fsc: [fsm[1], fsm[2]] } : {}), ...(vt.length ? { vt } : {}), ...(hw + hl ? { h2h: { a: hw, b: hl } } : {}) };
   const games = [];
   $('.vm-stats-gamesnav-item').each((_, e) => {
     const id = $(e).attr('data-game-id');
@@ -169,8 +170,8 @@ const evlogos = { ...(old.evlogos || {}) };
 const oldRes = Object.fromEntries((old.results || []).map(m => [m.id, m]));
 const oldLive = Object.fromEntries((old.live || []).map(m => [m.id, m]));
 for (const m of live) {
-  try { const { evl, ...r } = await fetchMatch(m.url.replace(BASE, ''), true, m.sa, m.sb); if (evl) evlogos[m.ev] = evl; Object.assign(m, r); if (m.vt && !m.vt.length) delete m.vt; }
-  catch (e) { console.log('live detail skipped:', m.url, e.message); const o = oldLive[m.id]; if (o) { for (const k of ['mp', 'pl', 'plm', 'nk', 'rd', 'rdm', 'bo', 'vt', 'h2h', 'evu']) if (o[k] !== undefined) m[k] = o[k]; } }
+  try { let x; try { x = await fetchMatch(m.url.replace(BASE, ''), true, m.sa, m.sb); } catch (e1) { await sleep(2500); x = await fetchMatch(m.url.replace(BASE, ''), true, m.sa, m.sb); } const { evl, fsc, ...r } = x; if (evl) evlogos[m.ev] = evl; Object.assign(m, r); if (m.vt && !m.vt.length) delete m.vt; }
+  catch (e) { console.log('LIVE DETAIL FAILED, showing older map data for', m.a, 'v', m.b, '-', e.message); const o = oldLive[m.id]; if (o) { for (const k of ['mp', 'pl', 'plm', 'nk', 'rd', 'rdm', 'bo', 'vt', 'h2h', 'evu']) if (o[k] !== undefined) m[k] = o[k]; } }
   await sleep(600);
 }
 for (const m of results) {
@@ -179,6 +180,22 @@ for (const m of results) {
   try { const x = await fetchMatch(m.url.replace(BASE, ''), false); if (x.mp.length) m.mp = x.mp; if (x.evl) evlogos[m.ev] = x.evl; }
   catch (e) { console.log('map detail skipped:', m.url, e.message); }
   await sleep(1200);
+}
+
+// a match that just finished disappears from /matches before vlr lists it under results: keep it (with its final score) so it never just vanishes or sits "live"
+const resIds = new Set(results.map(m => m.id));
+for (const o of old.results || []) if (o.g && !resIds.has(o.id) && !live.some(m => m.id === o.id) && Date.now() - (o.ts || 0) < 3 * 36e5) results.unshift(o);
+for (const o of old.live || []) {
+  if (live.some(m => m.id === o.id) || resIds.has(o.id)) continue;
+  const g = { id: o.id, a: o.a, b: o.b, sa: o.sa, sb: o.sb, ev: o.ev, ph: o.ph, ts: o.ts, url: o.url, g: 1, mp: (o.mp || []).filter(x => x.a != null).map(x => ({ n: x.n, a: x.a, b: x.b })) };
+  try {
+    const x = await fetchMatch(o.url.replace(BASE, ''), false);
+    if (x.fsc) { g.sa = x.fsc[0]; g.sb = x.fsc[1]; }
+    if (x.mp.length) g.mp = x.mp;
+    console.log('finished:', o.a, g.sa + '-' + g.sb, o.b, '(kept until vlr lists it)');
+  } catch (e) { console.log('finished match detail skipped:', e.message); }
+  results.unshift(g);
+  await sleep(900);
 }
 
 // upcoming: veto + head-to-head for the next few matches (veto is re-checked every run once a match is within 90 min)
@@ -322,7 +339,8 @@ if (needAg.length) {
 const out = { live, upcoming, results: results.slice(0, 9), news, logos, colors, agents, evlogos, vct, br };
 const before = JSON.stringify({ live: old.live || [], upcoming: old.upcoming || [], results: old.results || [], news: old.news || [], logos: old.logos || {}, colors: old.colors || {}, agents: old.agents || {}, evlogos: old.evlogos || {}, vct: old.vct || '', br: old.br || null });
 const flat = o => JSON.stringify({ ...o, br: o.br && { ...o.br, at: 0 } });
-if (flat(JSON.parse(before)) === flat(out)) { console.log('No change'); process.exit(0); }
+const fresh = old.updated && Date.now() - Date.parse(old.updated) < (live.length ? 3 : 20) * 60000;
+if (fresh && flat(JSON.parse(before)) === flat(out)) { console.log('No change'); process.exit(0); }
 fs.mkdirSync('data', { recursive: true });
 fs.writeFileSync(FILE, JSON.stringify({ updated: new Date().toISOString(), ...out }, null, 1));
 console.log(`Wrote ${live.length} live, ${upcoming.length} upcoming, ${out.results.length} results`);
