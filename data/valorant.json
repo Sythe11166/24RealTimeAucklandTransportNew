@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T11:22:43.025Z",
+ "updated": "2026-11-22T11:24:18.384Z",
  "live": [],
  "upcoming": [
   {
@@ -113,6 +113,39 @@
    "ph": "Swiss Stage–Round 3 (1-1)",
    "ts": 1795393800000,
    "url": "https://www.vlr.gg/793336/oafs-vs-sad-esports-vct-2027-america-kickoff-north-america-qualifier-playoffs-r3-1-1"
+  },
+  {
+   "id": "793563",
+   "a": "University War",
+   "b": "ARG.MIX",
+   "sa": "–",
+   "sb": "–",
+   "ev": "VCT 2027: America Kickoff - LATAM South Qualifier Playoffs",
+   "ph": "Swiss Stage–Round 2 (1-0)",
+   "ts": 1795458300000,
+   "url": "https://www.vlr.gg/793563/university-war-vs-arg-mix-vct-2027-america-kickoff-latam-south-qualifier-playoffs-r2-1-0"
+  },
+  {
+   "id": "793564",
+   "a": "TRAMITE",
+   "b": "EL LEGADO",
+   "sa": "–",
+   "sb": "–",
+   "ev": "VCT 2027: America Kickoff - LATAM South Qualifier Playoffs",
+   "ph": "Swiss Stage–Round 2 (1-0)",
+   "ts": 1795458300000,
+   "url": "https://www.vlr.gg/793564/tramite-vs-el-legado-vct-2027-america-kickoff-latam-south-qualifier-playoffs-r2-1-0"
+  },
+  {
+   "id": "793565",
+   "a": "9z Globant",
+   "b": "MALAJUNTA",
+   "sa": "–",
+   "sb": "–",
+   "ev": "VCT 2027: America Kickoff - LATAM South Qualifier Playoffs",
+   "ph": "Swiss Stage–Round 2 (1-0)",
+   "ts": 1795469100000,
+   "url": "https://www.vlr.gg/793565/9z-globant-vs-malajunta-vct-2027-america-kickoff-latam-south-qualifier-playoffs-r2-1-0"
   }
  ],
  "results": [
@@ -5389,6 +5422,34 @@
    "b": "SaD Esports",
    "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
    "ts": 1795393800000
+  },
+  {
+   "id": "793563",
+   "a": "University War",
+   "b": "ARG.MIX",
+   "ev": "VCT 2027: America Kickoff - LATAM South Qualifier Playoffs",
+   "ts": 1795458300000
+  },
+  {
+   "id": "793564",
+   "a": "TRAMITE",
+   "b": "EL LEGADO",
+   "ev": "VCT 2027: America Kickoff - LATAM South Qualifier Playoffs",
+   "ts": 1795458300000
+  },
+  {
+   "id": "793565",
+   "a": "9z Globant",
+   "b": "MALAJUNTA",
+   "ev": "VCT 2027: America Kickoff - LATAM South Qualifier Playoffs",
+   "ts": 1795469100000
+  },
+  {
+   "id": "793566",
+   "a": "KRÜ BLAZE",
+   "b": "fracasados ny",
+   "ev": "VCT 2027: America Kickoff - LATAM South Qualifier Playoffs",
+   "ts": 1795469100000
   }
  ],
  "fr": [
