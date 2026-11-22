@@ -283,6 +283,8 @@ main.tkx #nw,main.tkx #q{display:none}}
 .l2.cl{white-space:normal;font-size:12.5px;line-height:1.16;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}
 .gv{position:absolute;inset:0;display:grid;place-items:center;padding-bottom:6px;z-index:1;font:700 15px/1 ui-rounded,"SF Pro Rounded",-apple-system,system-ui,sans-serif;font-variant-numeric:tabular-nums;color:#fff;letter-spacing:-.01em}.gv.n3,.gv.n4{font-size:12.5px}
 .gm{position:absolute;left:50%;bottom:2px;width:12px;height:12px;margin-left:-6px;z-index:1;display:grid;place-items:center}.gm svg{width:12px;height:12px;overflow:visible}
+.gl.bare::before,.gl.bare::after{display:none}.gl.bare svg{width:27px;height:27px;filter:none}
+.gl.bare [stroke="#fff"]{stroke:var(--ac)}.gl.bare [fill="#fff"]{fill:var(--ac)}.gl.bare [stroke^="rgba(255"]{stroke:var(--ac);stroke-opacity:.5}.gl.bare [fill^="rgba(255"]{fill:var(--ac);fill-opacity:.4}
 .gm [stroke="#fff"]{stroke:var(--ac)}.gm [fill="#fff"]{fill:var(--ac)}.gm [stroke^="rgba"]{stroke:var(--ac);stroke-opacity:.45}.gm [fill^="rgba"]{fill:var(--ac);fill-opacity:.4}
 .ga{transition:stroke-dasharray 1.1s cubic-bezier(.2,.8,.2,1)}
 .ip.tin .tx>*{animation:tin .6s cubic-bezier(.2,.8,.2,1) .32s both}
@@ -953,6 +955,7 @@ const PILL={
   q:{fx:1,ok:()=>TK.on&&!TK.out,c:()=>[null,K.violet,G.quote()],x:()=>{const q=qCur();return['Quote · '+esc(q[1]),esc(q[0]),'',null,1]}},
   n:{fx:1,ok:()=>TK.on&&!TK.out&&NW.rnz.length>0,c:()=>[null,K.blue,G.news()],x:()=>{const L=NW.rnz,t=L[IL.ni%L.length];return['RNZ News',esc(t.t),'',null,1]}},
 };
+PILL.s.bare=PILL.a.bare=1;
 const ROWS=[{id:'ra',ids:['h','w','s','v','n']},{id:'rb',ids:['k','l','a','q']}];
 ROWS.forEach(r=>{r.cur=null;r.t=0;r.busy=false;r.ids.forEach(i=>PILL[i].row=r)});
 function ilFill(id,text){
@@ -960,7 +963,7 @@ function ilFill(id,text){
   if(c[3]!=null){const pf=p.pf,ch=pf!=null&&Math.abs(pf-c[0])>.004&&!document.body.classList.contains('eco');
     p.ic.innerHTML=gauge(c[0],c[1],id,c[3],c[2],ch?pf:null);p.ic.classList.add('gz');p.pf=c[0];
     if(ch)requestAnimationFrame(()=>requestAnimationFrame(()=>{const e=p.ic.querySelector('.ga');if(e)e.setAttribute('stroke-dasharray',(Math.max(.03,Math.min(1,c[0]))*2/3).toFixed(3)+' 1')}))}
-  else{p.ic.classList.remove('gz');p.ic.innerHTML=(c[0]==null?'':ring(c[0],c[1]))+'<span class="gl'+(c[0]==null?' big':'')+'">'+c[2]+'</span>'}
+  else{p.ic.classList.remove('gz');p.ic.innerHTML=(c[0]==null?'':ring(c[0],c[1]))+'<span class="gl'+(p.bare?' bare':c[0]==null?' big':'')+'">'+c[2]+'</span>'}
   if(text){const t=p.x();p.it.innerHTML='<div class="tx">'+(t[0]?'<div class="l1">'+t[0]+'</div>':'')+'<div class="l2'+(t[4]?' cl':'')+'">'+t[1]+(t[2]?'<span class="l3">'+t[2]+'</span>':'')+'</div></div>'}
 }
 function ilRefresh(id){const p=PILL[id];if(!p||!p.el)return;const ok=p.ok();
