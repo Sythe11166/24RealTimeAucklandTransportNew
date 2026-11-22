@@ -1,252 +1,12 @@
 {
- "updated": "2026-11-22T00:20:25.989Z",
+ "updated": "2026-11-22T01:04:23.779Z",
  "live": [
-  {
-   "id": "792903",
-   "a": "Winthrop University",
-   "b": "YFP",
-   "sa": "0",
-   "sb": "1",
-   "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ph": "Swiss Stage–Round 2 (1-0)",
-   "ts": 1795298400000,
-   "url": "https://www.vlr.gg/792903/winthrop-university-vs-yfp-vct-2027-america-kickoff-north-america-qualifier-playoffs-r2-1-0",
-   "mp": [
-    {
-     "n": "Haven",
-     "a": 13,
-     "b": 15,
-     "st": "d"
-    },
-    {
-     "n": "Bind",
-     "a": 11,
-     "b": 11,
-     "st": "l"
-    },
-    {
-     "n": "Lotus",
-     "st": "n"
-    }
-   ],
-   "evu": "/event/3179/vct-2027-america-kickoff-north-america-qualifier-playoffs/swiss-stage",
-   "bo": "3",
-   "vt": [
-    [
-     "x",
-     "YFP",
-     "Summit"
-    ],
-    [
-     "x",
-     "WU",
-     "Abyss"
-    ],
-    [
-     "p",
-     "YFP",
-     "Haven"
-    ],
-    [
-     "p",
-     "WU",
-     "Bind"
-    ],
-    [
-     "x",
-     "YFP",
-     "Sunset"
-    ],
-    [
-     "x",
-     "WU",
-     "Corrode"
-    ],
-    [
-     "d",
-     "",
-     "Lotus"
-    ]
-   ],
-   "h2h": {
-    "a": 2,
-    "b": 1
-   },
-   "rd": [
-    [
-     "a",
-     "e"
-    ],
-    [
-     "a",
-     "e"
-    ],
-    [
-     "a",
-     "b"
-    ],
-    [
-     "a",
-     "e"
-    ],
-    [
-     "b",
-     "t"
-    ],
-    [
-     "b",
-     "t"
-    ],
-    [
-     "a",
-     "e"
-    ],
-    [
-     "b",
-     "e"
-    ],
-    [
-     "a",
-     "e"
-    ],
-    [
-     "b",
-     "e"
-    ],
-    [
-     "b",
-     "d"
-    ],
-    [
-     "b",
-     "e"
-    ],
-    [
-     "a",
-     "d"
-    ],
-    [
-     "a",
-     "d"
-    ],
-    [
-     "b",
-     "e"
-    ],
-    [
-     "b",
-     "e"
-    ],
-    [
-     "b",
-     "e"
-    ],
-    [
-     "a",
-     "d"
-    ],
-    [
-     "b",
-     "e"
-    ],
-    [
-     "b",
-     "b"
-    ],
-    [
-     "a",
-     "d"
-    ],
-    [
-     "a",
-     "e"
-    ]
-   ],
-   "rdm": "Bind"
-  },
-  {
-   "id": "792904",
-   "a": "FlyQuest",
-   "b": "ENVY",
-   "sa": "1",
-   "sb": "1",
-   "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ph": "Swiss Stage–Round 2 (1-0)",
-   "ts": 1795298400000,
-   "url": "https://www.vlr.gg/792904/flyquest-vs-envy-vct-2027-america-kickoff-north-america-qualifier-playoffs-r2-1-0",
-   "mp": [
-    {
-     "n": "Corrode",
-     "a": 13,
-     "b": 15,
-     "st": "d"
-    },
-    {
-     "n": "Sunset",
-     "a": 13,
-     "b": 11,
-     "st": "d"
-    },
-    {
-     "n": "Bind",
-     "a": 0,
-     "b": 1,
-     "st": "l"
-    }
-   ],
-   "evu": "/event/3179/vct-2027-america-kickoff-north-america-qualifier-playoffs/swiss-stage",
-   "bo": "3",
-   "vt": [
-    [
-     "x",
-     "FLY",
-     "Lotus"
-    ],
-    [
-     "x",
-     "ENVY",
-     "Summit"
-    ],
-    [
-     "p",
-     "FLY",
-     "Corrode"
-    ],
-    [
-     "p",
-     "ENVY",
-     "Sunset"
-    ],
-    [
-     "x",
-     "FLY",
-     "Abyss"
-    ],
-    [
-     "x",
-     "ENVY",
-     "Haven"
-    ],
-    [
-     "d",
-     "",
-     "Bind"
-    ]
-   ],
-   "rd": [
-    [
-     "b",
-     "e"
-    ]
-   ],
-   "rdm": "Bind"
-  },
   {
    "id": "792905",
    "a": "Yellow Dragon Gaming",
    "b": "Wildcard",
    "sa": "1",
-   "sb": "0",
+   "sb": "1",
    "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
    "ph": "Swiss Stage–Round 2 (0-1)",
    "ts": 1795298400000,
@@ -260,181 +20,14 @@
     },
     {
      "n": "Sunset",
-     "a": 12,
-     "b": 12,
-     "st": "l"
-    },
-    {
-     "n": "Summit",
-     "st": "n"
-    }
-   ],
-   "evu": "/event/3179/vct-2027-america-kickoff-north-america-qualifier-playoffs/swiss-stage",
-   "bo": "3",
-   "vt": [
-    [
-     "x",
-     "WC",
-     "Lotus"
-    ],
-    [
-     "x",
-     "YDG",
-     "Abyss"
-    ],
-    [
-     "p",
-     "WC",
-     "Bind"
-    ],
-    [
-     "p",
-     "YDG",
-     "Sunset"
-    ],
-    [
-     "x",
-     "WC",
-     "Haven"
-    ],
-    [
-     "x",
-     "YDG",
-     "Corrode"
-    ],
-    [
-     "d",
-     "",
-     "Summit"
-    ]
-   ],
-   "rd": [
-    [
-     "b",
-     "d"
-    ],
-    [
-     "b",
-     "e"
-    ],
-    [
-     "b",
-     "d"
-    ],
-    [
-     "b",
-     "e"
-    ],
-    [
-     "a",
-     "b"
-    ],
-    [
-     "b",
-     "e"
-    ],
-    [
-     "b",
-     "e"
-    ],
-    [
-     "a",
-     "e"
-    ],
-    [
-     "a",
-     "e"
-    ],
-    [
-     "b",
-     "e"
-    ],
-    [
-     "a",
-     "e"
-    ],
-    [
-     "b",
-     "e"
-    ],
-    [
-     "b",
-     "e"
-    ],
-    [
-     "b",
-     "e"
-    ],
-    [
-     "a",
-     "e"
-    ],
-    [
-     "a",
-     "t"
-    ],
-    [
-     "a",
-     "e"
-    ],
-    [
-     "b",
-     "e"
-    ],
-    [
-     "a",
-     "e"
-    ],
-    [
-     "a",
-     "d"
-    ],
-    [
-     "b",
-     "e"
-    ],
-    [
-     "a",
-     "e"
-    ],
-    [
-     "a",
-     "e"
-    ],
-    [
-     "a",
-     "e"
-    ]
-   ],
-   "rdm": "Sunset"
-  },
-  {
-   "id": "792906",
-   "a": "QoR",
-   "b": "Shopify Rebellion Gold",
-   "sa": "1",
-   "sb": "1",
-   "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ph": "Swiss Stage–Round 2 (0-1)",
-   "ts": 1795298400000,
-   "url": "https://www.vlr.gg/792906/qor-vs-shopify-rebellion-gold-vct-2027-america-kickoff-north-america-qualifier-playoffs-r2-0-1",
-   "mp": [
-    {
-     "n": "Sunset",
      "a": 13,
-     "b": 3,
-     "st": "d"
-    },
-    {
-     "n": "Bind",
-     "a": 9,
-     "b": 13,
+     "b": 15,
      "st": "d"
     },
     {
      "n": "Summit",
-     "a": 11,
-     "b": 4,
+     "a": 4,
+     "b": 7,
      "st": "l"
     }
    ],
@@ -443,33 +36,33 @@
    "vt": [
     [
      "x",
-     "SRG",
-     "Abyss"
-    ],
-    [
-     "x",
-     "QOR",
+     "WC",
      "Lotus"
     ],
     [
-     "p",
-     "SRG",
-     "Sunset"
+     "x",
+     "YDG",
+     "Abyss"
     ],
     [
      "p",
-     "QOR",
+     "WC",
      "Bind"
     ],
     [
-     "x",
-     "SRG",
-     "Corrode"
+     "p",
+     "YDG",
+     "Sunset"
     ],
     [
      "x",
-     "QOR",
+     "WC",
      "Haven"
+    ],
+    [
+     "x",
+     "YDG",
+     "Corrode"
     ],
     [
      "d",
@@ -477,47 +70,7 @@
      "Summit"
     ]
    ],
-   "h2h": {
-    "a": 2,
-    "b": 0
-   },
    "rd": [
-    [
-     "a",
-     "e"
-    ],
-    [
-     "a",
-     "b"
-    ],
-    [
-     "a",
-     "b"
-    ],
-    [
-     "a",
-     "e"
-    ],
-    [
-     "a",
-     "e"
-    ],
-    [
-     "a",
-     "e"
-    ],
-    [
-     "a",
-     "e"
-    ],
-    [
-     "a",
-     "b"
-    ],
-    [
-     "a",
-     "e"
-    ],
     [
      "b",
      "e"
@@ -527,6 +80,14 @@
      "d"
     ],
     [
+     "b",
+     "e"
+    ],
+    [
+     "b",
+     "e"
+    ],
+    [
      "a",
      "e"
     ],
@@ -536,6 +97,18 @@
     ],
     [
      "b",
+     "e"
+    ],
+    [
+     "b",
+     "e"
+    ],
+    [
+     "a",
+     "e"
+    ],
+    [
+     "a",
      "e"
     ],
     [
@@ -550,21 +123,23 @@
    "a": "TIME DO B3M",
    "b": "Master Bank",
    "sa": "0",
-   "sb": "0",
+   "sb": "1",
    "ev": "VCT 2027: America Kickoff - Brazil Qualifier Playoffs",
    "ph": "Swiss Stage–Round 2 (0-1)",
    "ts": 1795302000000,
    "url": "https://www.vlr.gg/792033/time-do-b3m-vs-master-bank-vct-2027-america-kickoff-brazil-qualifier-playoffs-swiss-stage-r2-0-1",
    "mp": [
     {
+     "n": "Haven",
+     "a": 8,
+     "b": 13,
+     "st": "d"
+    },
+    {
      "n": "TBD",
      "a": 0,
      "b": 0,
      "st": "l"
-    },
-    {
-     "n": "TBD",
-     "st": "n"
     },
     {
      "n": "TBD",
@@ -635,6 +210,259 @@
    ],
    "evu": "/event/3183/vct-2027-america-kickoff-brazil-qualifier-playoffs/swiss-stage",
    "bo": "3"
+  },
+  {
+   "id": "792910",
+   "a": "Xora Esports",
+   "b": "SaD Esports",
+   "sa": "0",
+   "sb": "0",
+   "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
+   "ph": "Swiss Stage–Round 2 (0-1)",
+   "ts": 1795307400000,
+   "url": "https://www.vlr.gg/792910/xora-esports-vs-sad-esports-vct-2027-america-kickoff-north-america-qualifier-playoffs-r2-0-1",
+   "mp": [
+    {
+     "n": "Abyss",
+     "a": 6,
+     "b": 7,
+     "st": "l"
+    },
+    {
+     "n": "Haven",
+     "st": "n"
+    },
+    {
+     "n": "Bind",
+     "st": "n"
+    }
+   ],
+   "evu": "/event/3179/vct-2027-america-kickoff-north-america-qualifier-playoffs/swiss-stage",
+   "bo": "3",
+   "vt": [
+    [
+     "x",
+     "SAD",
+     "Lotus"
+    ],
+    [
+     "x",
+     "XORA",
+     "Sunset"
+    ],
+    [
+     "p",
+     "SAD",
+     "Abyss"
+    ],
+    [
+     "p",
+     "XORA",
+     "Haven"
+    ],
+    [
+     "x",
+     "SAD",
+     "Summit"
+    ],
+    [
+     "x",
+     "XORA",
+     "Corrode"
+    ],
+    [
+     "d",
+     "",
+     "Bind"
+    ]
+   ],
+   "rd": [
+    [
+     "a",
+     "e"
+    ],
+    [
+     "a",
+     "e"
+    ],
+    [
+     "b",
+     "e"
+    ],
+    [
+     "b",
+     "b"
+    ],
+    [
+     "b",
+     "e"
+    ],
+    [
+     "a",
+     "e"
+    ],
+    [
+     "a",
+     "e"
+    ],
+    [
+     "b",
+     "e"
+    ],
+    [
+     "a",
+     "e"
+    ],
+    [
+     "b",
+     "e"
+    ],
+    [
+     "b",
+     "e"
+    ],
+    [
+     "b",
+     "e"
+    ],
+    [
+     "a",
+     "e"
+    ]
+   ],
+   "rdm": "Abyss"
+  },
+  {
+   "id": "792907",
+   "a": "Oafs",
+   "b": "Shopify Rebellion Black",
+   "sa": "0",
+   "sb": "0",
+   "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
+   "ph": "Swiss Stage–Round 2 (1-0)",
+   "ts": 1795307400000,
+   "url": "https://www.vlr.gg/792907/oafs-vs-shopify-rebellion-black-vct-2027-america-kickoff-north-america-qualifier-playoffs-r2-1-0",
+   "mp": [
+    {
+     "n": "Lotus",
+     "a": 0,
+     "b": 0,
+     "st": "l"
+    },
+    {
+     "n": "Corrode",
+     "st": "n"
+    },
+    {
+     "n": "Summit",
+     "st": "n"
+    }
+   ],
+   "evu": "/event/3179/vct-2027-america-kickoff-north-america-qualifier-playoffs/swiss-stage",
+   "bo": "3",
+   "vt": [
+    [
+     "x",
+     "SRB",
+     "Haven"
+    ],
+    [
+     "x",
+     "OAF",
+     "Bind"
+    ],
+    [
+     "p",
+     "SRB",
+     "Lotus"
+    ],
+    [
+     "p",
+     "OAF",
+     "Corrode"
+    ],
+    [
+     "x",
+     "SRB",
+     "Abyss"
+    ],
+    [
+     "x",
+     "OAF",
+     "Sunset"
+    ],
+    [
+     "d",
+     "",
+     "Summit"
+    ]
+   ]
+  },
+  {
+   "id": "792908",
+   "a": "Cloud9",
+   "b": "Maryville University",
+   "sa": "0",
+   "sb": "0",
+   "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
+   "ph": "Swiss Stage–Round 2 (1-0)",
+   "ts": 1795307400000,
+   "url": "https://www.vlr.gg/792908/cloud9-vs-maryville-university-vct-2027-america-kickoff-north-america-qualifier-playoffs-r2-1-0",
+   "mp": [
+    {
+     "n": "Sunset",
+     "a": 0,
+     "b": 0,
+     "st": "l"
+    },
+    {
+     "n": "Haven",
+     "st": "n"
+    },
+    {
+     "n": "Summit",
+     "st": "n"
+    }
+   ],
+   "evu": "/event/3179/vct-2027-america-kickoff-north-america-qualifier-playoffs/swiss-stage",
+   "bo": "3",
+   "vt": [
+    [
+     "x",
+     "C9",
+     "Bind"
+    ],
+    [
+     "x",
+     "MU",
+     "Abyss"
+    ],
+    [
+     "p",
+     "C9",
+     "Sunset"
+    ],
+    [
+     "p",
+     "MU",
+     "Haven"
+    ],
+    [
+     "x",
+     "C9",
+     "Corrode"
+    ],
+    [
+     "x",
+     "MU",
+     "Lotus"
+    ],
+    [
+     "d",
+     "",
+     "Summit"
+    ]
+   ]
   }
  ],
  "upcoming": [
@@ -646,38 +474,10 @@
    "sb": "–",
    "ev": "VCT 2027: EMEA Kickoff - MENA Qualifier",
    "ph": "Playoffs–Grand Final",
-   "ts": 1795306800000,
+   "ts": 1795309500000,
    "url": "https://www.vlr.gg/792551/mix-my-miks-vs-no-org-no-problem-vct-2027-emea-kickoff-mena-qualifier-playoffs-gf",
    "bo": "3",
    "evu": "/event/3167/vct-2027-emea-kickoff-mena-qualifier/playoffs",
-   "fz": 1
-  },
-  {
-   "id": "792907",
-   "a": "Oafs",
-   "b": "Shopify Rebellion Black",
-   "sa": "–",
-   "sb": "–",
-   "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ph": "Swiss Stage–Round 2 (1-0)",
-   "ts": 1795307400000,
-   "url": "https://www.vlr.gg/792907/oafs-vs-shopify-rebellion-black-vct-2027-america-kickoff-north-america-qualifier-playoffs-r2-1-0",
-   "bo": "3",
-   "evu": "/event/3179/vct-2027-america-kickoff-north-america-qualifier-playoffs/swiss-stage",
-   "fz": 1
-  },
-  {
-   "id": "792908",
-   "a": "Cloud9",
-   "b": "Maryville University",
-   "sa": "–",
-   "sb": "–",
-   "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ph": "Swiss Stage–Round 2 (1-0)",
-   "ts": 1795307400000,
-   "url": "https://www.vlr.gg/792908/cloud9-vs-maryville-university-vct-2027-america-kickoff-north-america-qualifier-playoffs-r2-1-0",
-   "bo": "3",
-   "evu": "/event/3179/vct-2027-america-kickoff-north-america-qualifier-playoffs/swiss-stage",
    "fz": 1
   },
   {
@@ -688,19 +488,15 @@
    "sb": "–",
    "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
    "ph": "Swiss Stage–Round 2 (0-1)",
-   "ts": 1795307400000,
-   "url": "https://www.vlr.gg/792909/masterclass-vs-counterfeit-vct-2027-america-kickoff-north-america-qualifier-playoffs-r2-0-1"
-  },
-  {
-   "id": "792910",
-   "a": "Xora Esports",
-   "b": "SaD Esports",
-   "sa": "–",
-   "sb": "–",
-   "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ph": "Swiss Stage–Round 2 (0-1)",
-   "ts": 1795307400000,
-   "url": "https://www.vlr.gg/792910/xora-esports-vs-sad-esports-vct-2027-america-kickoff-north-america-qualifier-playoffs-r2-0-1"
+   "ts": 1795311000000,
+   "url": "https://www.vlr.gg/792909/masterclass-vs-counterfeit-vct-2027-america-kickoff-north-america-qualifier-playoffs-r2-0-1",
+   "h2h": {
+    "a": 1,
+    "b": 0
+   },
+   "bo": "3",
+   "evu": "/event/3179/vct-2027-america-kickoff-north-america-qualifier-playoffs/swiss-stage",
+   "fz": 1
   }
  ],
  "results": [
@@ -724,6 +520,85 @@
      "n": "Corrode",
      "a": 13,
      "b": 10
+    }
+   ]
+  },
+  {
+   "id": "792903",
+   "a": "Winthrop University",
+   "b": "YFP",
+   "sa": "0",
+   "sb": "2",
+   "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
+   "ph": "Swiss Stage–Round 2 (1-0)",
+   "ts": 1795298400000,
+   "url": "https://www.vlr.gg/792903/winthrop-university-vs-yfp-vct-2027-america-kickoff-north-america-qualifier-playoffs-r2-1-0",
+   "mp": [
+    {
+     "n": "Haven",
+     "a": 13,
+     "b": 15
+    },
+    {
+     "n": "Bind",
+     "a": 14,
+     "b": 16
+    }
+   ]
+  },
+  {
+   "id": "792904",
+   "a": "FlyQuest",
+   "b": "ENVY",
+   "sa": "1",
+   "sb": "2",
+   "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
+   "ph": "Swiss Stage–Round 2 (1-0)",
+   "ts": 1795298400000,
+   "url": "https://www.vlr.gg/792904/flyquest-vs-envy-vct-2027-america-kickoff-north-america-qualifier-playoffs-r2-1-0",
+   "mp": [
+    {
+     "n": "Corrode",
+     "a": 13,
+     "b": 15
+    },
+    {
+     "n": "Sunset",
+     "a": 13,
+     "b": 11
+    },
+    {
+     "n": "Bind",
+     "a": 1,
+     "b": 13
+    }
+   ]
+  },
+  {
+   "id": "792906",
+   "a": "QoR",
+   "b": "Shopify Rebellion Gold",
+   "sa": "2",
+   "sb": "1",
+   "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
+   "ph": "Swiss Stage–Round 2 (0-1)",
+   "ts": 1795298400000,
+   "url": "https://www.vlr.gg/792906/qor-vs-shopify-rebellion-gold-vct-2027-america-kickoff-north-america-qualifier-playoffs-r2-0-1",
+   "mp": [
+    {
+     "n": "Sunset",
+     "a": 13,
+     "b": 3
+    },
+    {
+     "n": "Bind",
+     "a": 9,
+     "b": 13
+    },
+    {
+     "n": "Summit",
+     "a": 13,
+     "b": 4
     }
    ]
   },
@@ -861,85 +736,6 @@
      "b": 11
     }
    ]
-  },
-  {
-   "id": "792550",
-   "a": "No Org No Problem",
-   "b": "Stallions Esports",
-   "sa": "2",
-   "sb": "1",
-   "ev": "VCT 2027: EMEA Kickoff - MENA Qualifier",
-   "ph": "Playoffs–Semifinals",
-   "ts": 1795276800000,
-   "url": "https://www.vlr.gg/792550/no-org-no-problem-vs-stallions-esports-vct-2027-emea-kickoff-mena-qualifier-playoffs-sf",
-   "mp": [
-    {
-     "n": "Haven",
-     "a": 13,
-     "b": 9
-    },
-    {
-     "n": "Sunset",
-     "a": 9,
-     "b": 13
-    },
-    {
-     "n": "Bind",
-     "a": 13,
-     "b": 6
-    }
-   ]
-  },
-  {
-   "id": "791685",
-   "a": "SaD Esports",
-   "b": "Winthrop University",
-   "sa": "0",
-   "sb": "2",
-   "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ph": "Swiss Stage–Round 1 (0-0)",
-   "ts": 1795224600000,
-   "url": "https://www.vlr.gg/791685/sad-esports-vs-winthrop-university-vct-2027-america-kickoff-north-america-qualifier-playoffs-r1-0-0",
-   "mp": [
-    {
-     "n": "Bind",
-     "a": 10,
-     "b": 13
-    },
-    {
-     "n": "Lotus",
-     "a": 9,
-     "b": 13
-    }
-   ]
-  },
-  {
-   "id": "791683",
-   "a": "FlyQuest",
-   "b": "Masterclass",
-   "sa": "2",
-   "sb": "1",
-   "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ph": "Swiss Stage–Round 1 (0-0)",
-   "ts": 1795221000000,
-   "url": "https://www.vlr.gg/791683/flyquest-vs-masterclass-vct-2027-america-kickoff-north-america-qualifier-playoffs-r1-0-0",
-   "mp": [
-    {
-     "n": "Haven",
-     "a": 10,
-     "b": 13
-    },
-    {
-     "n": "Corrode",
-     "a": 13,
-     "b": 9
-    },
-    {
-     "n": "Bind",
-     "a": 13,
-     "b": 9
-    }
-   ]
   }
  ],
  "news": [
@@ -976,7 +772,7 @@
   {
    "t": "Shopify Rebellion Gold signs melya from FlyQuest RED",
    "d": "A completed SRG roster ahead of the 2027 season.",
-   "ts": 1795089600000,
+   "ts": 1795176000000,
    "url": "https://www.vlr.gg/792536/shopify-rebellion-gold-signs-melya-from-flyquest-red"
   }
  ],
@@ -994,7 +790,6 @@
   "BRASIL2002": "/img/vlr/tmp/vlr.png",
   "TIME DO B3M": "/img/vlr/tmp/vlr.png",
   "No Org No Problem": "/img/vlr/tmp/vlr.png",
-  "Stallions Esports": "https://owcdn.net/img/68366aa3c10fd.png",
   "Mix My Miks": "https://owcdn.net/img/6aad435f0d90b.png",
   "Gamax Esports": "https://owcdn.net/img/64c0df3369bcd.png",
   "2Game Esports": "https://owcdn.net/img/67725c368d524.png",
@@ -1024,7 +819,6 @@
   "FlyQuest": "#02814b",
   "ENVY": "",
   "Shopify Rebellion Gold": "#e1c486",
-  "Stallions Esports": "#fe954e",
   "Mix My Miks": "#911318",
   "Gamax Esports": "",
   "2Game Esports": "#7a4bfb",
@@ -1055,7 +849,7 @@
  "br": {
   "u": "/event/3179/vct-2027-america-kickoff-north-america-qualifier-playoffs/swiss-stage",
   "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-  "at": 1795306597841,
+  "at": 1795309462464,
   "r": [
    {
     "r": "Round 1 (0-0)",
@@ -1125,29 +919,29 @@
       "Winthrop University",
       "YFP",
       0,
-      1,
-      "l"
+      2,
+      "d"
      ],
      [
       "FlyQuest",
       "ENVY",
       1,
-      1,
-      "l"
+      2,
+      "d"
      ],
      [
       "Oafs",
       "Shopify Rebellion Black",
       0,
       0,
-      "u"
+      "l"
      ],
      [
       "Cloud9",
       "Maryville University",
       0,
       0,
-      "u"
+      "l"
      ]
     ]
    },
@@ -1158,26 +952,26 @@
       "Yellow Dragon Gaming",
       "Wildcard",
       1,
-      0,
+      1,
       "l"
      ],
      [
       "QoR",
       "Shopify Rebellion Gold",
+      2,
       1,
-      1,
+      "d"
+     ],
+     [
+      "Xora Esports",
+      "SaD Esports",
+      0,
+      0,
       "l"
      ],
      [
       "Masterclass",
       "counterfeit",
-      0,
-      0,
-      "u"
-     ],
-     [
-      "Xora Esports",
-      "SaD Esports",
       0,
       0,
       "u"
