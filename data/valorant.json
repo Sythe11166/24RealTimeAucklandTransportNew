@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T22:27:56.034Z",
+ "updated": "2026-11-22T22:29:37.570Z",
  "live": [
   {
    "id": "792038",
@@ -347,7 +347,7 @@
     {
      "n": "Sunset",
      "a": 4,
-     "b": 4,
+     "b": 5,
      "st": "l"
     },
     {
@@ -481,6 +481,10 @@
     [
      "a",
      "e"
+    ],
+    [
+     "b",
+     "e"
     ]
    ],
    "rdm": "Sunset"
@@ -498,7 +502,7 @@
    "mp": [
     {
      "n": "Abyss",
-     "a": 4,
+     "a": 5,
      "b": 5,
      "st": "l"
     },
@@ -637,6 +641,10 @@
     [
      "b",
      "e"
+    ],
+    [
+     "a",
+     "d"
     ],
     [
      "a",
@@ -5713,7 +5721,7 @@
   "u": "/event/3183/vct-2027-america-kickoff-brazil-qualifier-playoffs/swiss-stage",
   "rg": "Americas",
   "ev": "VCT 2027: America Kickoff - Brazil Qualifier Playoffs",
-  "at": 1795386273414,
+  "at": 1795386576250,
   "r": [
    {
     "r": "Round 1 (0-0)",
@@ -6207,7 +6215,7 @@
    "sa": "2",
    "sb": "1",
    "ev": "VCT 2027: EMEA Kickoff - MENA Qualifier",
-   "ts": 1795289400000
+   "ts": 1795285800000
   },
   {
    "id": "792550",
@@ -6225,7 +6233,7 @@
    "sa": "0",
    "sb": "2",
    "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ts": 1795228200000
+   "ts": 1795224600000
   },
   {
    "id": "791683",
@@ -6234,7 +6242,7 @@
    "sa": "2",
    "sb": "1",
    "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ts": 1795224600000
+   "ts": 1795221000000
   },
   {
    "id": "791684",
