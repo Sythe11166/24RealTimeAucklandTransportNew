@@ -108,27 +108,17 @@ async function fetchMatch(path, live, sa, sb) {
     if (!n) n = (/[A-Za-z][A-Za-z ]*[A-Za-z]/.exec(txt(g.find('.vm-stats-game-header .map span').first())) || [''])[0].trim();
     games.push({ g, n, a: sc.length > 1 ? sc[0] : null, b: sc.length > 1 ? sc[1] : null });
   });
-  const started = m => m.a != null && m.b != null && m.a + m.b > 0;
-  if (!live) return { mp: games.filter(m => m.n && started(m)).map(m => ({ n: m.n, a: m.a, b: m.b })), ...common };
-
-  // live: every map of the series. d = played, l = being played (or about to start), n = still to come
-  const need = Math.ceil(games.length / 2);
-  let li = games.findIndex(m => !mapDone(m));
-  if (+sa >= need || +sb >= need) li = -1;
-  const mp = games.map((m, i) => {
-    const st = li === -1 || i < li ? 'd' : i === li ? 'l' : 'n';
-    return st === 'n' ? { n: m.n || 'TBD', st } : { n: m.n || 'TBD', a: m.a ?? 0, b: m.b ?? 0, st };
-  });
-
   // players: names always (from any stat table), K/D only when vlr is publishing numbers for the map being played right now
   // vlr's current markup: .ovw-table blocks (one per team) of .ovw-row players; stat cells stay blank until a map finishes
   const rowsNew = g => {
-    const rows = [], val = c => { const n = parseInt(txt(c.find('.mod-both').first()).replace(/[^\d]/g, ''), 10); return isNaN(n) ? null : n; };
+    const rows = [], val = c => { let n = parseInt(txt(c.find('.mod-both').first()).replace(/[^\d]/g, ''), 10); if (isNaN(n)) n = parseInt((/\d+/.exec(txt(c)) || [''])[0], 10); return isNaN(n) ? null : n; };
     g.find('.ovw-table').each((_, tb) => {
       $(tb).find('.ovw-row').not('.mod-head').each((_, tr) => {
         const t = $(tr), nm = txt(t.find('.ovw-player-name').first());
         const ag = (/agents\/([a-z0-9]+)\.(?:png|webp)/i.exec(t.find('.ovw-agents img').first().attr('src') || '') || [])[1];
-        if (nm) rows.push({ n: nm, k: val(t.find('.ovw-kda-stat[data-col="kills"]').first()), d: val(t.find('.ovw-kda-stat[data-col="deaths"]').first()), ag: ag || '' });
+        let k = val(t.find('.ovw-kda-stat[data-col="kills"]').first()), d = val(t.find('.ovw-kda-stat[data-col="deaths"]').first());
+        if (k == null || d == null) { const m3 = /(\d+)\s*\/\s*(\d+)\s*\/\s*(\d+)/.exec(txt(t.find('.mod-kda').first())); if (m3) { k = +m3[1]; d = +m3[2]; } }
+        if (nm) rows.push({ n: nm, k, d, ag: ag || '' });
       });
     });
     return rows;
@@ -163,6 +153,30 @@ async function fetchMatch(path, live, sa, sb) {
     });
     return rd;
   };
+  const started = m => m.a != null && m.b != null && m.a + m.b > 0;
+  if (!live) {
+    const pm = games.filter(m => m.n && started(m));
+    // post-match summary: every played map with both rosters (agent, K/D) and the round-by-round result (overtime included)
+    const sm = pm.map(m => {
+      const o = { n: m.n, a: m.a, b: m.b }, r = rowsOf(m.g);
+      if (r.length >= 10) { const top = x => x.slice().sort((p, q) => (q.k ?? -1) - (p.k ?? -1) || (p.d ?? 0) - (q.d ?? 0)); o.pa = top(r.slice(0, 5)); o.pb = top(r.slice(5, 10)); }
+      const rd = rdOf(m.g); if (rd.length) o.rd = rd;
+      return o;
+    });
+    const withKd = sm.filter(x => x.pa && x.pa.some(p => p.k != null)).length;
+    console.log('summary', path.split('/')[1], 'maps', sm.length, '| with K/D:', withKd, '| with rounds:', sm.filter(x => x.rd).length, '| sample:', sm[0] && sm[0].pa ? JSON.stringify(sm[0].pa[0]) : 'none');
+    return { mp: pm.map(m => ({ n: m.n, a: m.a, b: m.b })), sm, ...common };
+  }
+
+  // live: every map of the series. d = played, l = being played (or about to start), n = still to come
+  const need = Math.ceil(games.length / 2);
+  let li = games.findIndex(m => !mapDone(m));
+  if (+sa >= need || +sb >= need) li = -1;
+  const mp = games.map((m, i) => {
+    const st = li === -1 || i < li ? 'd' : i === li ? 'l' : 'n';
+    return st === 'n' ? { n: m.n || 'TBD', st } : { n: m.n || 'TBD', a: m.a ?? 0, b: m.b ?? 0, st };
+  });
+
   let rows = li >= 0 ? rowsOf(games[li].g) : [];
   const liveRows = rows.length >= 10;
   const kd = liveRows && rows.every(r => r.k != null && r.d != null) && rows.some(r => r.k || r.d);
@@ -190,8 +204,8 @@ for (const m of live) {
 }
 for (const m of results) {
   const o = oldRes[m.id];
-  if (o && o.mp && o.mp.length) { m.mp = o.mp; continue; }
-  try { const x = await fetchMatch(m.url.replace(BASE, ''), false); if (x.mp.length) m.mp = x.mp; if (x.evl) evlogos[m.ev] = x.evl; }
+  if (o && o.mp && o.mp.length) { m.mp = o.mp; for (const k of ['sm', 'vt', 'h2h', 'bo', 'smt']) if (o[k] !== undefined) m[k] = o[k]; continue; }
+  try { const x = await fetchMatch(m.url.replace(BASE, ''), false); if (x.mp.length) m.mp = x.mp; if (x.sm) m.sm = x.sm; if (x.evl) evlogos[m.ev] = x.evl; for (const k of ['vt', 'h2h', 'bo']) if (x[k]) m[k] = x[k]; m.smt = Date.now(); }
   catch (e) { console.log('map detail skipped:', m.url, e.message); }
   await sleep(1200);
 }
@@ -209,6 +223,22 @@ for (const o of old.live || []) {
     console.log('finished:', o.a, g.sa + '-' + g.sb, o.b, '(kept until vlr lists it)');
   } catch (e) { console.log('finished match detail skipped:', e.message); }
   results.unshift(g);
+  await sleep(900);
+}
+
+// post-match summaries: (re)fetch until every map shows K/D, retrying at most every 8 minutes, and only for matches from the last 30 hours
+for (const m of results) {
+  const o = oldRes[m.id];
+  if (o) for (const k of ['sm', 'vt', 'h2h', 'bo', 'smt']) if (m[k] === undefined && o[k] !== undefined) m[k] = o[k];
+  const full = m.sm && m.sm.length && m.sm.every(x => x.pa && x.pa.some(p => p.k != null));
+  if (full || (m.smt && Date.now() - m.smt < 8 * 60000) || Date.now() - (m.ts || 0) > 30 * 36e5) continue;
+  try {
+    const x = await fetchMatch(m.url.replace(BASE, ''), false);
+    if (x.sm && x.sm.length) m.sm = x.sm;
+    if (x.mp.length) m.mp = x.mp;
+    for (const k of ['vt', 'h2h', 'bo']) if (x[k]) m[k] = x[k];
+  } catch (e) { console.log('summary skipped:', m.url, e.message); }
+  m.smt = Date.now();
   await sleep(900);
 }
 
