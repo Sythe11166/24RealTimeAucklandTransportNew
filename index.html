@@ -154,7 +154,7 @@ img.tb{background:#fff;padding:.2em}
 .w-val::after{content:'';position:absolute;inset:0;z-index:-1;pointer-events:none;opacity:0;transition:opacity .7s;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 .07 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E"),linear-gradient(rgba(6,7,12,.3),rgba(6,7,12,.3)),radial-gradient(95% 140% at 0% 50%,var(--ca,#333) 0%,transparent 64%),radial-gradient(95% 140% at 100% 50%,var(--cb,#333) 0%,transparent 64%),#07080d}.w-val.lvg::after{opacity:1}.w-val.lvg .lpl{background:rgba(5,6,10,.5)}.w-val.lvg .vk,.w-val.lvg .vch,.w-val.lvg .ve{text-shadow:0 1px 10px rgba(0,0,0,.4)}.w-val.lvg .vmx:not(.lv){background:rgba(8,10,20,.3)}
 .vrg{display:inline-flex;align-items:center;font-size:.8em;font-weight:800;letter-spacing:.08em;text-transform:uppercase;padding:.26em .8em;border-radius:999px;white-space:nowrap;background:rgba(6,7,12,.55)}
 .vrg.em{color:#d4f53c;box-shadow:inset 0 0 0 1px rgba(212,245,60,.5)}.vrg.am{color:#ff6a2f;box-shadow:inset 0 0 0 1px rgba(255,106,47,.55)}.vrg.pa{color:#2fd6d6;box-shadow:inset 0 0 0 1px rgba(47,214,214,.5)}.vrg.cn{color:#ff4d7a;box-shadow:inset 0 0 0 1px rgba(255,77,122,.55)}.vrg.ma{color:#b48cff;box-shadow:inset 0 0 0 1px rgba(180,140,255,.5)}.vrg.ch{color:#ffd24a;box-shadow:inset 0 0 0 1px rgba(255,210,74,.5)}
-.vh{flex-wrap:nowrap}.vh .vrg{flex:none}
+.vh{flex-wrap:nowrap}.vh.vh2{flex-wrap:wrap;row-gap:.3em;margin-bottom:.95em}.vh2 .ve{flex:0 0 100%;order:3;font-size:.9em}.vh .vrg{flex:none}
 .mrail{padding:.1em 0 .1em}
 .mcols{display:grid;grid-template-columns:repeat(var(--n),minmax(0,1fr));gap:.3em}
 .mc{display:flex;flex-direction:column;align-items:center;gap:.14em;text-align:center;min-width:0;opacity:.42;transition:opacity .8s}
@@ -573,7 +573,8 @@ async function weather(){
 /* ---------- NZ news: all of today's general stories ---------- */
 const NW={rnz:[],val:[],err:''};
 rotor('nw','nb','nd',n=>n.err?'<div class="fit" style="font-size:16px"><p>News unavailable ('+esc(n.err)+').</p></div>':'<div class="fit" style="font-size:21px"><span class="tag">'+esc(n.src)+(n.ago?' · '+esc(n.ago):'')+'</span><h3>'+esc(n.t)+'</h3><p>'+esc(n.b)+'</p><a href="'+esc(n.l)+'" target="_blank" rel="noopener">'+esc(n.cta||'Read on RNZ ↗')+'</a></div>',14000,{fit:21,tr:'tr-flip'});
-$('vg').addEventListener('click',e=>{const c=e.target.closest('.tkclose');if(c){TK.dis[c.dataset.id]=1;if(TK.man===c.dataset.id)TK.man=null;valRender();return}
+$('vg').addEventListener('click',e=>{const c=e.target.closest('.tkclose');if(c){if(TK.lv===c.dataset.id)TK.lv=null;else{TK.dis[c.dataset.id]=1;if(TK.man===c.dataset.id)TK.man=null}valRender();return}
+  const lv=e.target.closest('[data-lid]');if(lv&&!lv.closest('.tkp')){TK.lv=lv.dataset.lid;valRender();return}
   const h=e.target.closest('.mhit button');if(h){TK.pm[h.dataset.mid]=+h.dataset.pm;valRender();return}
   const r=e.target.closest('[data-rid]');if(r){TK.man=r.dataset.rid;delete TK.dis[TK.man];valRender();return}
   if(!TK.busy)step('vg',1)});
@@ -590,7 +591,7 @@ async function feed(u){
   return j.items.map(i=>({t:i.title,d:i.description||i.content,l:i.link,p:i.pubDate}));
 }
 /* RNZ stories with a Valorant story slipped in after every third one */
-const TK={on:false,out:0,busy:0,seen:0,man:null,dis:{},exp:0,pm:{}};
+const TK={lv:null,on:false,out:0,busy:0,seen:0,man:null,dis:{},exp:0,pm:{}};
 function newsRender(){
   if(TK.on)return;
   const R=NW.rnz,V=NW.val,L=[];let v=0;
@@ -640,6 +641,7 @@ const mapPills=(mp,sw,big,rg)=>(!mp||!mp.length)&&!rg?'':'<div class="vmp'+(big?
 const kda=x=>'<b class="kda'+(x.a!=null?'':' nA')+(x.k<x.d?' dn':'')+'"><i>'+x.k+'</i><s>/</s><i>'+x.d+'</i>'+(x.a!=null?'<s>/</s><i>'+x.a+'</i>':'')+'</b>';
 const plCol=(p,any,nk,r)=>{const hA=p.some(x=>x.a!=null);return '<div class="lpc'+(any?'':' na')+(nk?' nk':'')+(r?' r':'')+'">'+(nk?'':'<div class="lph">'+(any?'<i></i>':'')+'<span></span><b class="kda'+(hA?'':' nA')+'"><i>K</i><s></s><i>D</i>'+(hA?'<s></s><i>A</i>':'')+'</b></div>')+p.map(x=>'<div>'+(any?(x.ag?'<span class="agw"><img src="'+esc(agUrl(x.ag))+'" alt="" loading="lazy" decoding="async"></span>':'<i class="ag"></i>'):'')+'<span>'+esc(x.n)+'</span>'+(nk?'':kda(x))+'</div>').join('')+'</div>'};
 const vhead=(c,lbl,ev,r)=>'<div class="vh"><span class="vch'+(c?' '+c:'')+'">'+(c==='lv'?'<span class="ldot"></span>':'')+lbl+'</span>'+(r||'')+'<span class="ve">'+esc(ev)+'</span></div>';
+const vhead2=(c,l,e,r)=>vhead(c,l,e,r).replace('class="vh"','class="vh vh2"');
 const when=ts=>F6.format(new Date(ts)).replace(',','');
 const mapRail=m=>{const mp=m.mp,n=mp.length;let f=mp.findIndex(x=>x.st==='l');if(f<0)f=Math.max(0,mp.map(x=>x.st).lastIndexOf('d'));
   const pf=VAL.pf[m.id];VAL.pf[m.id]=f;
@@ -682,11 +684,12 @@ const rdStrip=(m,sw)=>{const rd=m.rd||[];if(!rd.length)return '';const N=Math.ma
 const h2hLine=m=>m.h2h&&m.h2h.a+m.h2h.b?'<div class="h2h">Head to head · '+esc(sn(m.a))+' <b>'+m.h2h.a+' – '+m.h2h.b+'</b> '+esc(sn(m.b))+'</div>':'';
 const ageTag=()=>VAL.upd&&VAL.age>(VAL.liveAll.length?8:45)?'<span class="vrg bo" style="color:#ffb340;box-shadow:inset 0 0 1px 1px rgba(255,179,64,.55)">data '+VAL.age+'m old</span>':'';
 const boTag=m=>m.bo?'<span class="vrg bo">BO'+m.bo+'</span>':'';
-const liveHtml=m=>{const mp=m.mp||[],cur=mp.find(x=>x.st==='l'||x.lv),has=mp.some(x=>x.st);return '<div class="vgp">'+vhead('lv','Live',evNo(m.ev)+(m.ph?' · '+m.ph:''),regP(m.ev)+boTag(m)+ageTag())+'<div class="lv1"><div class="lsr">'+side(m.a,0,0,'',m.ev)+'<div class="lsc"><b>'+esc(m.sa)+'</b><i>–</i><b>'+esc(m.sb)+'</b></div>'+side(m.b,1,0,'',m.ev)+'</div>'+(has?mapRail(m):mapPills(mp,null,1))+rdStrip(m)+(m.pl?(()=>{const any=[...m.pl.a,...m.pl.b].some(x=>x.ag);const nm=m.plm||(cur&&cur.n);return '<div class="lpl">'+plCol(m.pl.a,any,m.nk)+'<div class="lcap">Players'+(nm&&!m.nk?' · '+esc(nm):'')+'</div>'+plCol(m.pl.b,any,m.nk,1)+'</div>'})():'')+h2hLine(m)+'</div></div>'};
+const liveHtml=m=>{const mp=m.mp||[],cur=mp.find(x=>x.st==='l'||x.lv),has=mp.some(x=>x.st);return '<div class="vgp vtap" data-lid="'+esc(m.id)+'">'+vhead('lv','Live',evNo(m.ev)+(m.ph?' · '+m.ph:''),regP(m.ev)+boTag(m)+ageTag())+'<div class="lv1"><div class="lsr">'+side(m.a,0,0,'',m.ev)+'<div class="lsc"><b>'+esc(m.sa)+'</b><i>–</i><b>'+esc(m.sb)+'</b></div>'+side(m.b,1,0,'',m.ev)+'</div>'+(has?mapRail(m):mapPills(mp,null,1))+rdStrip(m)+(m.pl?(()=>{const any=[...m.pl.a,...m.pl.b].some(x=>x.ag);const nm=m.plm||(cur&&cur.n);return '<div class="lpl">'+plCol(m.pl.a,any,m.nk)+'<div class="lcap">Players'+(nm&&!m.nk?' · '+esc(nm):'')+'</div>'+plCol(m.pl.b,any,m.nk,1)+'</div>'})():'')+h2hLine(m)+'</div></div>'};
 const tkHtml=m=>{const mp=m.mp||[],has=mp.some(x=>x.st),li=mp.findIndex(x=>x.st==='l'||x.lv),cur=mp[li],A=+m.sa,B=+m.sb,vt=m.vt||[],any=m.pl?[...m.pl.a,...m.pl.b].some(x=>x.ag):false,nm=m.plm||(cur&&cur.n);
   const team=(t,r)=>'<div class="tkt'+(r?' r':'')+'"><div class="tkh">'+badge(t,VAL.logos[t],'',m.ev,1)+'<div class="tkn">'+esc(sn(t))+(isFav(t)?' <em class="fv">★</em>':'')+'</div></div>'+(m.pl?'<div class="tkb"><div class="lcap">'+esc(tagOf(m,r))+' · Players</div>'+plCol(r?m.pl.b:m.pl.a,any,m.nk,r)+'</div>':'')+'</div>';
   const vl=vt.length?'<div class="tkv"><span>'+vt.map(v=>v[0]==='d'?'Decider '+esc(v[2]):esc(abbr(v[1]))+(v[0]==='x'?' ban ':' pick ')+esc(v[2])).join(' · ')+'</span></div>':'';
-  return '<div class="vgp tkp">'+vhead('lv','Live',evNo(m.ev)+(m.ph?' · '+m.ph:''),regP(m.ev)+boTag(m)+ageTag())+team(m.a,0)+'<div class="tkc"><div class="tks"><b'+(B>A?' class="lo"':'')+'>'+esc(m.sa)+'</b><i>–</i><b'+(A>B?' class="lo"':'')+'>'+esc(m.sb)+'</b></div>'+(cur&&cur.a!=null?'<div class="tkl"><span class="ldot"></span>'+esc(cur.n)+' <b>'+cur.a+' – '+cur.b+'</b> · Round '+(cur.a+cur.b+1)+'</div>':'')+(has?mapRail(m):mapPills(mp,null,1))+rdStrip(m)+vl+h2hLine(m)+'</div>'+team(m.b,1)+'</div>'};
+  return '<div class="vgp tkp">'+vhead('lv','Live',evNo(m.ev)+(m.ph?' · '+m.ph:''),regP(m.ev)+boTag(m)+ageTag()).replace(/<\/div>$/,TK.lv===m.id?closeBtn(m.id)+'</div>':'</div>')+team(m.a,0)+'<div class="tkc"><div class="tks"><b'+(B>A?' class="lo"':'')+'>'+esc(m.sa)+'</b><i>–</i><b'+(A>B?' class="lo"':'')+'>'+esc(m.sb)+'</b></div>'+(cur&&cur.a!=null?'<div class="tkl"><span class="ldot"></span>'+esc(cur.n)+' <b>'+cur.a+' – '+cur.b+'</b> · Round '+(cur.a+cur.b+1)+'</div>':'')+(has?mapRail(m):mapPills(mp,null,1))+rdStrip(m)+vl+h2hLine(m)+'</div>'+team(m.b,1)+'</div>'};
+const closeBtn=id=>'<button class="tkclose" data-id="'+esc(id)+'" aria-label="Close"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"><path d="M7 7l10 10M17 7L7 17"/></svg></button>';
 const tkPost=(m,i)=>{const s=m.sm[i],A=+m.sa,B=+m.sb,n=m.sm.length,any=[...(s.pa||[]),...(s.pb||[])].some(x=>x.ag),vt=m.vt||[],ot=s.a!=null&&s.a+s.b>24;
   const team=(t,r,pl)=>{const kd=pl&&pl.some(x=>x.k!=null);return '<div class="tkt'+(r?' r':'')+'"><div class="tkh">'+badge(t,VAL.logos[t],'',m.ev,1)+'<div class="tkn">'+esc(sn(t))+(isFav(t)?' <em class="fv">★</em>':'')+'</div></div>'+(pl?'<div class="tkb" data-sw="1"><div class="lcap">'+esc(tagOf(m,r))+' · Players</div>'+plCol(pl,any,!kd,r)+'</div>':'')+'</div>'};
   const pf=VAL.pf['p'+m.id];VAL.pf['p'+m.id]=i;
@@ -700,9 +703,9 @@ const brHtml=b=>{const X=new Set(b.x||[]),rs=b.r;let idx=-1;rs.forEach((r,i)=>{i
   const st=rs.length<2?0:idx+1<rs.length?idx:idx-1,cols=rs.slice(st,st+2);
   const tm=(n,s,lo,u)=>{const tbd=/^tbd$/i.test(n);return '<div class="bt'+(X.has(n)?' el':'')+(lo?' lo':'')+(tbd?' tbd':'')+'" style="--tc:'+(tbd?'#555':tcol(n))+'"><span>'+esc(sn(n))+'</span><b>'+(u?'':s)+'</b></div>'};
   return '<div class="vgp">'+vhead('','Bracket',evNo(b.ev),regP(b.ev)+(X.size?'<span class="vrg bo">'+X.size+' out</span>':''))+'<div class="bcs" style="--c:'+cols.length+'">'+cols.map(r=>{const o=r.m.slice().sort((x,y)=>(y[4]==='l')-(x[4]==='l')),sh=o.slice(0,4);return '<div class="bc"><h5>'+esc(r.r)+'</h5>'+sh.map(x=>{const u=x[4]==='u',d=x[4]==='d';return '<div class="bm'+(x[4]==='l'?' lv':'')+'">'+tm(x[0],x[2],d&&x[3]>x[2],u)+tm(x[1],x[3],d&&x[2]>x[3],u)+'</div>'}).join('')+(o.length>4?'<div class="bmore">+'+(o.length-4)+' more</div>':'')+'</div>'}).join('')+'</div></div>'};
-const liveList=L=>'<div class="vgp">'+vhead('lv','Live',evOf(L),regH(L)+ageTag())+'<div class="vl">'+L.map(m=>{const mp=m.mp||[],i=mp.findIndex(x=>x.st==='l'||x.lv),c=mp[i],A=+m.sa,B=+m.sb;return '<div class="vp nx">'+side(m.a,0,0,'',m.ev)+'<div class="vtc"><div class="sc2"><b class="'+(A>B?'w':'')+'">'+esc(m.sa)+'</b><b class="'+(B>A?'w':'')+'">'+esc(m.sb)+'</b></div>'+(c&&c.a!=null?'<div class="ml"><span class="ldot"></span>Map '+(i+1)+' · '+c.a+' – '+c.b+'</div>':'')+'</div>'+side(m.b,1,0,'',m.ev)+'</div>'}).join('')+'</div></div>';
-const upHtml=L=>'<div class="vgp">'+vhead('','Next',evOf(L),regH(L))+'<div class="vl">'+L.map(m=>'<div class="vp nx">'+side(m.a,0,0,'',m.ev)+'<div class="vtc"><div class="vt">'+(m.ts<Date.now()?'starting':esc(tmS(m.ts)))+'</div><div class="vd cdn" data-ts="'+m.ts+'">'+(m.ts<Date.now()?'starting':'in '+cdTxt(m.ts))+'</div></div>'+side(m.b,1,0,'',m.ev)+'</div>').join('')+'</div></div>';
-const resHtml=L=>'<div class="vgp">'+vhead('','Results',evOf(L),regH(L))+'<div class="vl">'+L.map(m=>{const A=+m.sa,B=+m.sb;return '<div class="vb'+(m.sm&&m.sm.length?' vtap':'')+'"'+(m.sm&&m.sm.length?' data-rid="'+esc(m.id)+'"':'')+'><div class="vp">'+side(m.a,0,B>A,'',m.ev)+scoreC(m,0)+side(m.b,1,A>B,'',m.ev)+'</div>'+mapPills(m.mp,A>B?'a':B>A?'b':null)+'</div>'}).join('')+'</div></div>';
+const liveList=L=>'<div class="vgp">'+vhead('lv','Live',evOf(L),regH(L)+ageTag())+'<div class="vl">'+L.map(m=>{const mp=m.mp||[],i=mp.findIndex(x=>x.st==='l'||x.lv),c=mp[i],A=+m.sa,B=+m.sb;return '<div class="vp nx vtap" data-lid="'+esc(m.id)+'">'+side(m.a,0,0,'',m.ev)+'<div class="vtc"><div class="sc2"><b class="'+(A>B?'w':'')+'">'+esc(m.sa)+'</b><b class="'+(B>A?'w':'')+'">'+esc(m.sb)+'</b></div>'+(c&&c.a!=null?'<div class="ml"><span class="ldot"></span>Map '+(i+1)+' · '+c.a+' – '+c.b+'</div>':'')+'</div>'+side(m.b,1,0,'',m.ev)+'</div>'}).join('')+'</div></div>';
+const upHtml=L=>'<div class="vgp">'+vhead2('','Upcoming',evOf(L),regH(L))+'<div class="vl">'+L.map(m=>'<div class="vp nx">'+side(m.a,0,0,'',m.ev)+'<div class="vtc"><div class="vt">'+(m.ts<Date.now()?'starting':esc(tmS(m.ts)))+'</div><div class="vd cdn" data-ts="'+m.ts+'">'+(m.ts<Date.now()?'starting':'in '+cdTxt(m.ts))+'</div></div>'+side(m.b,1,0,'',m.ev)+'</div>').join('')+'</div></div>';
+const resHtml=L=>'<div class="vgp">'+vhead2('','Results',evOf(L),regH(L))+'<div class="vl">'+L.map(m=>{const A=+m.sa,B=+m.sb;return '<div class="vb'+(m.sm&&m.sm.length?' vtap':'')+'"'+(m.sm&&m.sm.length?' data-rid="'+esc(m.id)+'"':'')+'><div class="vp">'+side(m.a,0,B>A,'',m.ev)+scoreC(m,0)+side(m.b,1,A>B,'',m.ev)+'</div>'+mapPills(m.mp,A>B?'a':B>A?'b':null)+'</div>'}).join('')+'</div></div>';
 const emptyHtml=p=>'<div class="vgp vgempty">'+vhead('','Valorant','VCT')+'<b>'+esc(p.h)+'</b><span>'+esc(p.msg)+'</span></div>';
 rotor('vg','vgb','vgd',p=>(vgGlow(p),p.t==='k'?(p.pm!=null?tkPost(p.d,p.pm):tkHtml(p.d)):p.t==='l'?liveHtml(p.d):p.t==='ll'?liveList(p.d):p.t==='s'?soonHtml(p.d):p.t==='b'?brHtml(p.d):p.t==='u'?upHtml(p.d):p.t==='r'?resHtml(p.d):emptyHtml(p)),11000,{morph:vgMorph});
 function vgGlow(p){requestAnimationFrame(vgPost);const e=$('vg');e.classList.toggle('lvg',p.t==='l'||p.t==='k');if(p.t==='l'||p.t==='k'){e.style.setProperty('--ca',tcol(p.d.a));e.style.setProperty('--cb',tcol(p.d.b))}}
@@ -730,7 +733,8 @@ function tkOut(cb){const m=$('app'),v=$('vg'),n=$('nw'),q=$('q'),b=$('bus'),pt=t
   setTimeout(()=>{m.classList.remove('tk');an.forEach(x=>x.cancel());cb()},760)}
 function valRender(){
   const dk=t=>new Date(t).toLocaleDateString('en-CA',{timeZone:TZ}),fa=favs().length>0;
-  const T=fa?VAL.liveAll.filter(m=>(isFav(m.a)||isFav(m.b))&&m.mp&&m.mp.some(x=>x.st)):[];
+  const pin=TK.lv?VAL.liveAll.find(m=>m.id===TK.lv):null;if(TK.lv&&!pin)TK.lv=null;
+  const T=pin?[pin]:fa?VAL.liveAll.filter(m=>(isFav(m.a)||isFav(m.b))&&m.mp&&m.mp.some(x=>x.st)):[];
   /* after a favourite's match the big card keeps a map-by-map summary for an hour; tapping a result opens one on demand */
   const nowT=Date.now(),hs=m=>m.sm&&m.sm.length;
   const auto=fa&&!T.length?VAL.res.filter(m=>(isFav(m.a)||isFav(m.b))&&hs(m)&&m.et&&nowT-m.et<36e5&&!TK.dis[m.id]).sort((a,b)=>b.et-a.et):[];
@@ -749,9 +753,7 @@ function valRender(){
   const LV=VAL.live,D=LV.filter(m=>m.pl||(m.mp&&m.mp.some(x=>x.st))).slice(0,3),Rst=LV.filter(m=>!D.includes(m));
   ch(Rst,4).forEach(g=>P.push({t:'ll',d:g}));D.forEach(m=>P.push({t:'l',d:m}));
   const gone=new Set([...VAL.liveAll,...VAL.res].map(m=>m.id)),UP=VAL.up.filter(m=>!gone.has(m.id)&&m.ts>Date.now()-10*6e4);
-  const soon=UP.slice().sort((x,y)=>x.ts-y.ts).find((m,i)=>i===0&&m.ts-Date.now()<=45*6e4);
-  if(soon)P.push({t:'s',d:soon});
-  ch((soon?UP.filter(m=>m!==soon):UP).slice(0,8),4).forEach(g=>P.push({t:'u',d:g}));
+  ch(UP.slice(0,8),4).forEach(g=>P.push({t:'u',d:g}));
   if(VAL.br&&VAL.br.r&&VAL.br.r.some(r=>r.m.some(x=>x[4]!=='u')))P.push({t:'b',d:VAL.br});
   const cost=m=>m.mp&&m.mp.length?4.7+(m.mp.length>3?1.9:0)+.5:3.8;let cur=[],used=0;
   VAL.res.forEach(m=>{const c=cost(m);if(cur.length&&used+c>17.9){P.push({t:'r',d:cur});cur=[];used=0}cur.push(m);used+=c});if(cur.length)P.push({t:'r',d:cur});
