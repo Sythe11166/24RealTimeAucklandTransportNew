@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T05:28:55.272Z",
+ "updated": "2026-11-22T05:33:49.768Z",
  "live": [],
  "upcoming": [
   {
@@ -10,7 +10,7 @@
    "sb": "–",
    "ev": "VCT 2027: EMEA Kickoff - MENA Qualifier",
    "ph": "Playoffs–Grand Final",
-   "ts": 1795325400000,
+   "ts": 1795325700000,
    "url": "https://www.vlr.gg/792551/mix-my-miks-vs-no-org-no-problem-vct-2027-emea-kickoff-mena-qualifier-playoffs-gf",
    "bo": "3",
    "evu": "/event/3167/vct-2027-emea-kickoff-mena-qualifier/playoffs",
@@ -4664,5 +4664,440 @@
    }
   ],
   "x": []
- }
+ },
+ "fu": [
+  {
+   "id": "792551",
+   "a": "Mix My Miks",
+   "b": "No Org No Problem",
+   "ev": "VCT 2027: EMEA Kickoff - MENA Qualifier",
+   "ts": 1795325700000
+  },
+  {
+   "id": "793333",
+   "a": "counterfeit",
+   "b": "FlyQuest",
+   "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
+   "ts": 1795384800000
+  },
+  {
+   "id": "793334",
+   "a": "Wildcard",
+   "b": "Winthrop University",
+   "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
+   "ts": 1795384800000
+  },
+  {
+   "id": "793335",
+   "a": "Maryville University",
+   "b": "QoR",
+   "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
+   "ts": 1795393800000
+  },
+  {
+   "id": "793336",
+   "a": "Oafs",
+   "b": "SaD Esports",
+   "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
+   "ts": 1795393800000
+  }
+ ],
+ "fr": [
+  {
+   "id": "792909",
+   "a": "Masterclass",
+   "b": "counterfeit",
+   "sa": "0",
+   "sb": "2",
+   "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
+   "ts": 1795311000000
+  },
+  {
+   "id": "792908",
+   "a": "Cloud9",
+   "b": "Maryville University",
+   "sa": "2",
+   "sb": "0",
+   "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
+   "ts": 1795309200000
+  },
+  {
+   "id": "792907",
+   "a": "Oafs",
+   "b": "Shopify Rebellion Black",
+   "sa": "1",
+   "sb": "2",
+   "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
+   "ts": 1795308300000
+  },
+  {
+   "id": "792910",
+   "a": "Xora Esports",
+   "b": "SaD Esports",
+   "sa": "1",
+   "sb": "2",
+   "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
+   "ts": 1795308000000
+  },
+  {
+   "id": "792035",
+   "a": "Next",
+   "b": "GANGUE",
+   "sa": "2",
+   "sb": "1",
+   "ev": "VCT 2027: America Kickoff - Brazil Qualifier Playoffs",
+   "ts": 1795302900000
+  },
+  {
+   "id": "792033",
+   "a": "TIME DO B3M",
+   "b": "Master Bank",
+   "sa": "0",
+   "sb": "2",
+   "ev": "VCT 2027: America Kickoff - Brazil Qualifier Playoffs",
+   "ts": 1795302000000
+  },
+  {
+   "id": "792034",
+   "a": "ARRANCA DREAMS",
+   "b": "Piranhas do Caribe",
+   "sa": "2",
+   "sb": "1",
+   "ev": "VCT 2027: America Kickoff - Brazil Qualifier Playoffs",
+   "ts": 1795302000000
+  },
+  {
+   "id": "792036",
+   "a": "Arashi",
+   "b": "0 intelecto",
+   "sa": "2",
+   "sb": "0",
+   "ev": "VCT 2027: America Kickoff - Brazil Qualifier Playoffs",
+   "ts": 1795302000000
+  },
+  {
+   "id": "792903",
+   "a": "Winthrop University",
+   "b": "YFP",
+   "sa": "0",
+   "sb": "2",
+   "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
+   "ts": 1795298400000
+  },
+  {
+   "id": "792904",
+   "a": "FlyQuest",
+   "b": "ENVY",
+   "sa": "1",
+   "sb": "2",
+   "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
+   "ts": 1795298400000
+  },
+  {
+   "id": "792905",
+   "a": "Yellow Dragon Gaming",
+   "b": "Wildcard",
+   "sa": "1",
+   "sb": "2",
+   "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
+   "ts": 1795298400000
+  },
+  {
+   "id": "792906",
+   "a": "QoR",
+   "b": "Shopify Rebellion Gold",
+   "sa": "2",
+   "sb": "1",
+   "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
+   "ts": 1795298400000
+  },
+  {
+   "id": "792029",
+   "a": "2Game Esports",
+   "b": "BRASIL2002",
+   "sa": "2",
+   "sb": "1",
+   "ev": "VCT 2027: America Kickoff - Brazil Qualifier Playoffs",
+   "ts": 1795291200000
+  },
+  {
+   "id": "792030",
+   "a": "ELEVATE",
+   "b": "Team Solid",
+   "sa": "1",
+   "sb": "2",
+   "ev": "VCT 2027: America Kickoff - Brazil Qualifier Playoffs",
+   "ts": 1795291200000
+  },
+  {
+   "id": "792031",
+   "a": "Mafiosos",
+   "b": "SÓ TEM VELHO",
+   "sa": "0",
+   "sb": "2",
+   "ev": "VCT 2027: America Kickoff - Brazil Qualifier Playoffs",
+   "ts": 1795291200000
+  },
+  {
+   "id": "792032",
+   "a": "Fluxo W7M",
+   "b": "Manticore",
+   "sa": "2",
+   "sb": "1",
+   "ev": "VCT 2027: America Kickoff - Brazil Qualifier Playoffs",
+   "ts": 1795291200000
+  },
+  {
+   "id": "792549",
+   "a": "Mix My Miks",
+   "b": "Gamax Esports",
+   "sa": "2",
+   "sb": "1",
+   "ev": "VCT 2027: EMEA Kickoff - MENA Qualifier",
+   "ts": 1795285800000
+  },
+  {
+   "id": "792550",
+   "a": "No Org No Problem",
+   "b": "Stallions Esports",
+   "sa": "2",
+   "sb": "1",
+   "ev": "VCT 2027: EMEA Kickoff - MENA Qualifier",
+   "ts": 1795276800000
+  },
+  {
+   "id": "791685",
+   "a": "SaD Esports",
+   "b": "Winthrop University",
+   "sa": "0",
+   "sb": "2",
+   "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
+   "ts": 1795224900000
+  },
+  {
+   "id": "791683",
+   "a": "FlyQuest",
+   "b": "Masterclass",
+   "sa": "2",
+   "sb": "1",
+   "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
+   "ts": 1795221300000
+  },
+  {
+   "id": "791684",
+   "a": "Shopify Rebellion Black",
+   "b": "Xora Esports",
+   "sa": "2",
+   "sb": "0",
+   "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
+   "ts": 1795221300000
+  },
+  {
+   "id": "791686",
+   "a": "Shopify Rebellion Gold",
+   "b": "Maryville University",
+   "sa": "0",
+   "sb": "2",
+   "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
+   "ts": 1795221300000
+  },
+  {
+   "id": "791707",
+   "a": "BRASIL2002",
+   "b": "TIME DO B3M",
+   "sa": "2",
+   "sb": "1",
+   "ev": "VCT 2027: America Kickoff - Brazil Qualifier Playoffs",
+   "ts": 1795217700000
+  },
+  {
+   "id": "791679",
+   "a": "Cloud9",
+   "b": "counterfeit",
+   "sa": "2",
+   "sb": "0",
+   "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
+   "ts": 1795214100000
+  },
+  {
+   "id": "791680",
+   "a": "ENVY",
+   "b": "Yellow Dragon Gaming",
+   "sa": "2",
+   "sb": "0",
+   "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
+   "ts": 1795214100000
+  },
+  {
+   "id": "791681",
+   "a": "YFP",
+   "b": "Wildcard",
+   "sa": "2",
+   "sb": "1",
+   "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
+   "ts": 1795214100000
+  },
+  {
+   "id": "791682",
+   "a": "QoR",
+   "b": "Oafs",
+   "sa": "0",
+   "sb": "2",
+   "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
+   "ts": 1795214100000
+  },
+  {
+   "id": "791703",
+   "a": "Team Solid",
+   "b": "ARRANCA DREAMS",
+   "sa": "2",
+   "sb": "1",
+   "ev": "VCT 2027: America Kickoff - Brazil Qualifier Playoffs",
+   "ts": 1795206900000
+  },
+  {
+   "id": "790841",
+   "a": "Wildcard",
+   "b": "counterfeit",
+   "sa": "2",
+   "sb": "0",
+   "ev": "VCT 2027: America Kickoff - North America Open Qualifier",
+   "ts": 1794789300000
+  },
+  {
+   "id": "789941",
+   "a": "Yellow Dragon Gaming",
+   "b": "UNTAMABLE BEASTS",
+   "sa": "2",
+   "sb": "0",
+   "ev": "VCT 2027: America Kickoff - North America Open Qualifier",
+   "ts": 1794782100000
+  },
+  {
+   "id": "789943",
+   "a": "Wildcard",
+   "b": "yoshi industries",
+   "sa": "2",
+   "sb": "0",
+   "ev": "VCT 2027: America Kickoff - North America Open Qualifier",
+   "ts": 1794782100000
+  },
+  {
+   "id": "789944",
+   "a": "counterfeit",
+   "b": "Bittersweet Gaming",
+   "sa": "2",
+   "sb": "0",
+   "ev": "VCT 2027: America Kickoff - North America Open Qualifier",
+   "ts": 1794782100000
+  },
+  {
+   "id": "790757",
+   "a": "Barça eSports",
+   "b": "CGN Esports",
+   "sa": "0",
+   "sb": "2",
+   "ev": "VCT 2027: EMEA Kickoff - Europe Open Qualifier",
+   "ts": 1794767700000
+  },
+  {
+   "id": "790755",
+   "a": "Barça eSports",
+   "b": "WIP Esports",
+   "sa": "2",
+   "sb": "1",
+   "ev": "VCT 2027: EMEA Kickoff - Europe Open Qualifier",
+   "ts": 1794760500000
+  },
+  {
+   "id": "790756",
+   "a": "La Masia",
+   "b": "CGN Esports",
+   "sa": "1",
+   "sb": "2",
+   "ev": "VCT 2027: EMEA Kickoff - Europe Open Qualifier",
+   "ts": 1794760500000
+  },
+  {
+   "id": "789937",
+   "a": "Wildcard",
+   "b": "Ninja Turtles",
+   "sa": "2",
+   "sb": "0",
+   "ev": "VCT 2027: America Kickoff - North America Open Qualifier",
+   "ts": 1795325700000
+  },
+  {
+   "id": "789934",
+   "a": "Jackpot",
+   "b": "UNTAMABLE BEASTS",
+   "sa": "1",
+   "sb": "2",
+   "ev": "VCT 2027: America Kickoff - North America Open Qualifier",
+   "ts": 1795325700000
+  },
+  {
+   "id": "789939",
+   "a": "counterfeit",
+   "b": "NXG",
+   "sa": "2",
+   "sb": "0",
+   "ev": "VCT 2027: America Kickoff - North America Open Qualifier",
+   "ts": 1795325700000
+  },
+  {
+   "id": "789917",
+   "a": "Yellow Dragon Gaming",
+   "b": "Eternal Focus",
+   "sa": "2",
+   "sb": "1",
+   "ev": "VCT 2027: America Kickoff - North America Open Qualifier",
+   "ts": 1795325700000
+  },
+  {
+   "id": "789929",
+   "a": "counterfeit",
+   "b": "BarbieQ",
+   "sa": "2",
+   "sb": "0",
+   "ev": "VCT 2027: America Kickoff - North America Open Qualifier",
+   "ts": 1795325700000
+  },
+  {
+   "id": "789174",
+   "a": "Barça eSports",
+   "b": "HONK",
+   "sa": "2",
+   "sb": "0",
+   "ev": "VCT 2027: EMEA Kickoff - Europe Open Qualifier",
+   "ts": 1795325700000
+  },
+  {
+   "id": "789177",
+   "a": "Project 100K",
+   "b": "CGN Esports",
+   "sa": "1",
+   "sb": "2",
+   "ev": "VCT 2027: EMEA Kickoff - Europe Open Qualifier",
+   "ts": 1795325700000
+  },
+  {
+   "id": "789166",
+   "a": "Barça eSports",
+   "b": "bacon and eggs",
+   "sa": "2",
+   "sb": "0",
+   "ev": "VCT 2027: EMEA Kickoff - Europe Open Qualifier",
+   "ts": 1795325700000
+  },
+  {
+   "id": "789168",
+   "a": "Gesichtenhausen",
+   "b": "UNIWAY",
+   "sa": "2",
+   "sb": "1",
+   "ev": "VCT 2027: EMEA Kickoff - Europe Open Qualifier",
+   "ts": 1795325700000
+  }
+ ]
 }
