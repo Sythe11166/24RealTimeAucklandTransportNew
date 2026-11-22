@@ -1,155 +1,6 @@
 {
- "updated": "2026-11-22T01:23:03.232Z",
+ "updated": "2026-11-22T01:24:46.063Z",
  "live": [
-  {
-   "id": "792905",
-   "a": "Yellow Dragon Gaming",
-   "b": "Wildcard",
-   "sa": "1",
-   "sb": "1",
-   "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ph": "Swiss Stage–Round 2 (0-1)",
-   "ts": 1795298400000,
-   "url": "https://www.vlr.gg/792905/yellow-dragon-gaming-vs-wildcard-vct-2027-america-kickoff-north-america-qualifier-playoffs-r2-0-1",
-   "mp": [
-    {
-     "n": "Bind",
-     "a": 13,
-     "b": 9,
-     "st": "d"
-    },
-    {
-     "n": "Sunset",
-     "a": 13,
-     "b": 15,
-     "st": "d"
-    },
-    {
-     "n": "Summit",
-     "a": 8,
-     "b": 11,
-     "st": "l"
-    }
-   ],
-   "evu": "/event/3179/vct-2027-america-kickoff-north-america-qualifier-playoffs/swiss-stage",
-   "bo": "3",
-   "vt": [
-    [
-     "x",
-     "WC",
-     "Lotus"
-    ],
-    [
-     "x",
-     "YDG",
-     "Abyss"
-    ],
-    [
-     "p",
-     "WC",
-     "Bind"
-    ],
-    [
-     "p",
-     "YDG",
-     "Sunset"
-    ],
-    [
-     "x",
-     "WC",
-     "Haven"
-    ],
-    [
-     "x",
-     "YDG",
-     "Corrode"
-    ],
-    [
-     "d",
-     "",
-     "Summit"
-    ]
-   ],
-   "rd": [
-    [
-     "b",
-     "e"
-    ],
-    [
-     "b",
-     "d"
-    ],
-    [
-     "b",
-     "e"
-    ],
-    [
-     "b",
-     "e"
-    ],
-    [
-     "a",
-     "e"
-    ],
-    [
-     "b",
-     "e"
-    ],
-    [
-     "b",
-     "e"
-    ],
-    [
-     "b",
-     "e"
-    ],
-    [
-     "a",
-     "e"
-    ],
-    [
-     "a",
-     "e"
-    ],
-    [
-     "a",
-     "e"
-    ],
-    [
-     "a",
-     "b"
-    ],
-    [
-     "b",
-     "e"
-    ],
-    [
-     "b",
-     "b"
-    ],
-    [
-     "a",
-     "d"
-    ],
-    [
-     "b",
-     "b"
-    ],
-    [
-     "b",
-     "e"
-    ],
-    [
-     "a",
-     "d"
-    ],
-    [
-     "a",
-     "d"
-    ]
-   ],
-   "rdm": "Summit"
-  },
   {
    "id": "792033",
    "a": "TIME DO B3M",
@@ -260,7 +111,7 @@
    "mp": [
     {
      "n": "Abyss",
-     "a": 11,
+     "a": 12,
      "b": 11,
      "st": "l"
     },
@@ -400,6 +251,10 @@
     [
      "b",
      "e"
+    ],
+    [
+     "a",
+     "e"
     ]
    ],
    "rdm": "Abyss"
@@ -417,7 +272,7 @@
    "mp": [
     {
      "n": "Lotus",
-     "a": 7,
+     "a": 8,
      "b": 2,
      "st": "l"
     },
@@ -505,6 +360,10 @@
     [
      "a",
      "e"
+    ],
+    [
+     "a",
+     "d"
     ]
    ],
    "rdm": "Lotus"
@@ -523,7 +382,7 @@
     {
      "n": "Sunset",
      "a": 7,
-     "b": 3,
+     "b": 4,
      "st": "l"
     },
     {
@@ -614,6 +473,10 @@
     [
      "a",
      "b"
+    ],
+    [
+     "b",
+     "e"
     ]
    ],
    "rdm": "Sunset"
@@ -724,6 +587,34 @@
     {
      "n": "Bind",
      "a": 1,
+     "b": 13
+    }
+   ]
+  },
+  {
+   "id": "792905",
+   "a": "Yellow Dragon Gaming",
+   "b": "Wildcard",
+   "sa": "1",
+   "sb": "2",
+   "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
+   "ph": "Swiss Stage–Round 2 (0-1)",
+   "ts": 1795298400000,
+   "url": "https://www.vlr.gg/792905/yellow-dragon-gaming-vs-wildcard-vct-2027-america-kickoff-north-america-qualifier-playoffs-r2-0-1",
+   "mp": [
+    {
+     "n": "Bind",
+     "a": 13,
+     "b": 9
+    },
+    {
+     "n": "Sunset",
+     "a": 13,
+     "b": 15
+    },
+    {
+     "n": "Summit",
+     "a": 8,
      "b": 13
     }
    ]
@@ -862,34 +753,6 @@
      "b": 7
     }
    ]
-  },
-  {
-   "id": "792549",
-   "a": "Mix My Miks",
-   "b": "Gamax Esports",
-   "sa": "2",
-   "sb": "1",
-   "ev": "VCT 2027: EMEA Kickoff - MENA Qualifier",
-   "ph": "Playoffs–Semifinals",
-   "ts": 1795285800000,
-   "url": "https://www.vlr.gg/792549/mix-my-miks-vs-gamax-esports-vct-2027-emea-kickoff-mena-qualifier-playoffs-sf",
-   "mp": [
-    {
-     "n": "Haven",
-     "a": 10,
-     "b": 13
-    },
-    {
-     "n": "Sunset",
-     "a": 14,
-     "b": 12
-    },
-    {
-     "n": "Corrode",
-     "a": 13,
-     "b": 11
-    }
-   ]
   }
  ],
  "news": [
@@ -945,7 +808,6 @@
   "TIME DO B3M": "/img/vlr/tmp/vlr.png",
   "No Org No Problem": "/img/vlr/tmp/vlr.png",
   "Mix My Miks": "https://owcdn.net/img/6aad435f0d90b.png",
-  "Gamax Esports": "https://owcdn.net/img/64c0df3369bcd.png",
   "2Game Esports": "https://owcdn.net/img/67725c368d524.png",
   "ELEVATE": "https://owcdn.net/img/65990c8ab7c2b.png",
   "Team Solid": "https://owcdn.net/img/689d0fc04ad22.png",
@@ -974,7 +836,6 @@
   "ENVY": "",
   "Shopify Rebellion Gold": "#e1c486",
   "Mix My Miks": "#911318",
-  "Gamax Esports": "",
   "2Game Esports": "#7a4bfb",
   "ELEVATE": "#d82027",
   "Team Solid": "",
@@ -1001,65 +862,65 @@
  },
  "vct": "https://owcdn.net/img/640f5ab71dfbb.png",
  "br": {
-  "u": "/event/3179/vct-2027-america-kickoff-north-america-qualifier-playoffs/swiss-stage",
-  "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-  "at": 1795310378968,
+  "u": "/event/3183/vct-2027-america-kickoff-brazil-qualifier-playoffs/swiss-stage",
+  "ev": "VCT 2027: America Kickoff - Brazil Qualifier Playoffs",
+  "at": 1795310684763,
   "r": [
    {
     "r": "Round 1 (0-0)",
     "m": [
      [
-      "Cloud9",
-      "counterfeit",
+      "Fluxo W7M",
+      "0 intelecto",
       2,
       0,
       "d"
      ],
      [
-      "ENVY",
-      "Yellow Dragon Gaming",
+      "2Game Esports",
+      "Master Bank",
       2,
       0,
       "d"
      ],
      [
-      "YFP",
-      "Wildcard",
+      "Team Solid",
+      "ARRANCA DREAMS",
       2,
       1,
       "d"
      ],
      [
-      "QoR",
-      "Oafs",
+      "Next",
+      "SÓ TEM VELHO",
       0,
       2,
       "d"
      ],
      [
-      "Shopify Rebellion Black",
-      "Xora Esports",
+      "ELEVATE",
+      "Piranhas do Caribe",
       2,
       0,
       "d"
      ],
      [
-      "Shopify Rebellion Gold",
-      "Maryville University",
-      0,
+      "Manticore",
+      "Arashi",
       2,
+      0,
       "d"
      ],
      [
-      "FlyQuest",
-      "Masterclass",
+      "BRASIL2002",
+      "TIME DO B3M",
       2,
       1,
       "d"
      ],
      [
-      "SaD Esports",
-      "Winthrop University",
+      "GANGUE",
+      "Mafiosos",
       0,
       2,
       "d"
@@ -1070,32 +931,32 @@
     "r": "Round 2 (1-0)",
     "m": [
      [
-      "Winthrop University",
-      "YFP",
-      0,
+      "2Game Esports",
+      "BRASIL2002",
       2,
+      1,
       "d"
      ],
      [
-      "FlyQuest",
-      "ENVY",
+      "ELEVATE",
+      "Team Solid",
       1,
       2,
       "d"
      ],
      [
-      "Oafs",
-      "Shopify Rebellion Black",
+      "Mafiosos",
+      "SÓ TEM VELHO",
       0,
-      0,
-      "l"
+      2,
+      "d"
      ],
      [
-      "Cloud9",
-      "Maryville University",
-      0,
-      0,
-      "l"
+      "Fluxo W7M",
+      "Manticore",
+      2,
+      1,
+      "d"
      ]
     ]
    },
@@ -1103,29 +964,200 @@
     "r": "Round 2 (0-1)",
     "m": [
      [
-      "Yellow Dragon Gaming",
-      "Wildcard",
+      "TIME DO B3M",
+      "Master Bank",
+      0,
+      1,
+      "l"
+     ],
+     [
+      "ARRANCA DREAMS",
+      "Piranhas do Caribe",
       1,
       1,
       "l"
      ],
      [
-      "QoR",
-      "Shopify Rebellion Gold",
+      "Arashi",
+      "0 intelecto",
       2,
-      1,
+      0,
       "d"
      ],
      [
-      "Xora Esports",
-      "SaD Esports",
-      0,
-      0,
+      "Next",
+      "GANGUE",
+      1,
+      1,
       "l"
+     ]
+    ]
+   },
+   {
+    "r": "Round 3 (1-1)",
+    "m": [
+     [
+      "TBD",
+      "TBD",
+      0,
+      0,
+      "u"
      ],
      [
-      "Masterclass",
-      "counterfeit",
+      "TBD",
+      "TBD",
+      0,
+      0,
+      "u"
+     ],
+     [
+      "TBD",
+      "TBD",
+      0,
+      0,
+      "u"
+     ],
+     [
+      "TBD",
+      "TBD",
+      0,
+      0,
+      "u"
+     ]
+    ]
+   },
+   {
+    "r": "Upper Quarterfinals",
+    "m": [
+     [
+      "TBD",
+      "TBD",
+      0,
+      0,
+      "u"
+     ],
+     [
+      "TBD",
+      "TBD",
+      0,
+      0,
+      "u"
+     ],
+     [
+      "TBD",
+      "TBD",
+      0,
+      0,
+      "u"
+     ],
+     [
+      "TBD",
+      "TBD",
+      0,
+      0,
+      "u"
+     ]
+    ]
+   },
+   {
+    "r": "Lower Round 1",
+    "m": [
+     [
+      "TBD",
+      "TBD",
+      0,
+      0,
+      "u"
+     ],
+     [
+      "TBD",
+      "TBD",
+      0,
+      0,
+      "u"
+     ]
+    ]
+   },
+   {
+    "r": "Upper Semifinals",
+    "m": [
+     [
+      "TBD",
+      "TBD",
+      0,
+      0,
+      "u"
+     ],
+     [
+      "TBD",
+      "TBD",
+      0,
+      0,
+      "u"
+     ]
+    ]
+   },
+   {
+    "r": "Lower Round 2",
+    "m": [
+     [
+      "TBD",
+      "TBD",
+      0,
+      0,
+      "u"
+     ],
+     [
+      "TBD",
+      "TBD",
+      0,
+      0,
+      "u"
+     ]
+    ]
+   },
+   {
+    "r": "Upper Final",
+    "m": [
+     [
+      "TBD",
+      "TBD",
+      0,
+      0,
+      "u"
+     ]
+    ]
+   },
+   {
+    "r": "Lower Round 3",
+    "m": [
+     [
+      "TBD",
+      "TBD",
+      0,
+      0,
+      "u"
+     ]
+    ]
+   },
+   {
+    "r": "Lower Final",
+    "m": [
+     [
+      "TBD",
+      "TBD",
+      0,
+      0,
+      "u"
+     ]
+    ]
+   },
+   {
+    "r": "Grand Final",
+    "m": [
+     [
+      "TBD",
+      "TBD",
       0,
       0,
       "u"
