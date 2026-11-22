@@ -1,123 +1,6 @@
 {
- "updated": "2026-11-22T03:11:48.314Z",
+ "updated": "2026-11-22T03:13:25.797Z",
  "live": [
-  {
-   "id": "792910",
-   "a": "Xora Esports",
-   "b": "SaD Esports",
-   "sa": "1",
-   "sb": "2",
-   "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ph": "Swiss Stage–Round 2 (0-1)",
-   "ts": 1795307400000,
-   "url": "https://www.vlr.gg/792910/xora-esports-vs-sad-esports-vct-2027-america-kickoff-north-america-qualifier-playoffs-r2-0-1",
-   "mp": [
-    {
-     "n": "Abyss",
-     "a": 13,
-     "b": 11,
-     "st": "d"
-    },
-    {
-     "n": "Haven",
-     "a": 7,
-     "b": 13,
-     "st": "d"
-    },
-    {
-     "n": "Bind",
-     "a": 10,
-     "b": 13,
-     "st": "d"
-    }
-   ],
-   "evu": "/event/3179/vct-2027-america-kickoff-north-america-qualifier-playoffs/swiss-stage",
-   "bo": "3",
-   "vt": [
-    [
-     "x",
-     "SAD",
-     "Lotus"
-    ],
-    [
-     "x",
-     "XORA",
-     "Sunset"
-    ],
-    [
-     "p",
-     "SAD",
-     "Abyss"
-    ],
-    [
-     "p",
-     "XORA",
-     "Haven"
-    ],
-    [
-     "x",
-     "SAD",
-     "Summit"
-    ],
-    [
-     "x",
-     "XORA",
-     "Corrode"
-    ],
-    [
-     "d",
-     "",
-     "Bind"
-    ]
-   ],
-   "pl": {
-    "a": [
-     {
-      "n": "Freshie",
-      "ag": ""
-     },
-     {
-      "n": "flux",
-      "ag": ""
-     },
-     {
-      "n": "Dillon",
-      "ag": ""
-     },
-     {
-      "n": "wertlle",
-      "ag": ""
-     },
-     {
-      "n": "Hasagi",
-      "ag": ""
-     }
-    ],
-    "b": [
-     {
-      "n": "zaj",
-      "ag": ""
-     },
-     {
-      "n": "payne",
-      "ag": ""
-     },
-     {
-      "n": "vita",
-      "ag": ""
-     },
-     {
-      "n": "Pa1nt",
-      "ag": ""
-     },
-     {
-      "n": "welyy",
-      "ag": ""
-     }
-    ]
-   },
-   "nk": 1
-  },
   {
    "id": "792907",
    "a": "Oafs",
@@ -144,7 +27,7 @@
     {
      "n": "Summit",
      "a": 1,
-     "b": 2,
+     "b": 3,
      "st": "l"
     }
    ],
@@ -246,6 +129,10 @@
     [
      "a",
      "e"
+    ],
+    [
+     "b",
+     "e"
     ]
    ],
    "rdm": "Summit"
@@ -269,8 +156,8 @@
     },
     {
      "n": "Haven",
-     "a": 1,
-     "b": 3,
+     "a": 2,
+     "b": 4,
      "st": "l"
     },
     {
@@ -384,6 +271,14 @@
     [
      "b",
      "e"
+    ],
+    [
+     "b",
+     "e"
+    ],
+    [
+     "a",
+     "e"
     ]
    ],
    "rdm": "Haven"
@@ -398,7 +293,7 @@
    "sb": "–",
    "ev": "VCT 2027: EMEA Kickoff - MENA Qualifier",
    "ph": "Playoffs–Grand Final",
-   "ts": 1795317000000,
+   "ts": 1795317300000,
    "url": "https://www.vlr.gg/792551/mix-my-miks-vs-no-org-no-problem-vct-2027-emea-kickoff-mena-qualifier-playoffs-gf",
    "bo": "3",
    "evu": "/event/3167/vct-2027-emea-kickoff-mena-qualifier/playoffs",
