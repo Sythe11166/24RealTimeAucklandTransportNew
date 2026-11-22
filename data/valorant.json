@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T22:04:02.888Z",
+ "updated": "2026-11-22T22:05:43.187Z",
  "live": [
   {
    "id": "792038",
@@ -345,22 +345,59 @@
    "url": "https://www.vlr.gg/793333/counterfeit-vs-flyquest-vct-2027-america-kickoff-north-america-qualifier-playoffs-r3-1-1",
    "mp": [
     {
-     "n": "TBD",
+     "n": "Sunset",
      "a": 0,
      "b": 0,
      "st": "l"
     },
     {
-     "n": "TBD",
+     "n": "Corrode",
      "st": "n"
     },
     {
-     "n": "TBD",
+     "n": "Summit",
      "st": "n"
     }
    ],
    "evu": "/event/3179/vct-2027-america-kickoff-north-america-qualifier-playoffs/swiss-stage",
    "bo": "3",
+   "vt": [
+    [
+     "x",
+     "FAKE",
+     "Abyss"
+    ],
+    [
+     "x",
+     "FLY",
+     "Bind"
+    ],
+    [
+     "p",
+     "FAKE",
+     "Sunset"
+    ],
+    [
+     "p",
+     "FLY",
+     "Corrode"
+    ],
+    [
+     "x",
+     "FAKE",
+     "Lotus"
+    ],
+    [
+     "x",
+     "FLY",
+     "Haven"
+    ],
+    [
+     "d",
+     "",
+     "Summit"
+    ]
+   ],
    "pl": {
     "a": [
      {
@@ -425,22 +462,59 @@
    "url": "https://www.vlr.gg/793334/wildcard-vs-winthrop-university-vct-2027-america-kickoff-north-america-qualifier-playoffs-r3-1-1",
    "mp": [
     {
-     "n": "TBD",
+     "n": "Abyss",
      "a": 0,
      "b": 0,
      "st": "l"
     },
     {
-     "n": "TBD",
+     "n": "Corrode",
      "st": "n"
     },
     {
-     "n": "TBD",
+     "n": "Bind",
      "st": "n"
     }
    ],
    "evu": "/event/3179/vct-2027-america-kickoff-north-america-qualifier-playoffs/swiss-stage",
    "bo": "3",
+   "vt": [
+    [
+     "x",
+     "WC",
+     "Lotus"
+    ],
+    [
+     "x",
+     "WU",
+     "Sunset"
+    ],
+    [
+     "p",
+     "WC",
+     "Abyss"
+    ],
+    [
+     "p",
+     "WU",
+     "Corrode"
+    ],
+    [
+     "x",
+     "WC",
+     "Haven"
+    ],
+    [
+     "x",
+     "WU",
+     "Summit"
+    ],
+    [
+     "d",
+     "",
+     "Bind"
+    ]
+   ],
    "h2h": {
     "a": 0,
     "b": 1
