@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T02:41:50.327Z",
+ "updated": "2026-11-22T02:43:28.452Z",
  "live": [
   {
    "id": "792910",
@@ -26,8 +26,8 @@
     },
     {
      "n": "Bind",
-     "a": 3,
-     "b": 4,
+     "a": 4,
+     "b": 5,
      "st": "l"
     }
    ],
@@ -145,6 +145,14 @@
     [
      "a",
      "d"
+    ],
+    [
+     "b",
+     "e"
+    ],
+    [
+     "a",
+     "e"
     ]
    ],
    "rdm": "Bind"
@@ -168,7 +176,7 @@
     },
     {
      "n": "Corrode",
-     "a": 7,
+     "a": 8,
      "b": 11,
      "st": "l"
     },
@@ -335,6 +343,10 @@
     [
      "b",
      "d"
+    ],
+    [
+     "a",
+     "e"
     ]
    ],
    "rdm": "Corrode"
@@ -353,7 +365,7 @@
     {
      "n": "TBD",
      "a": 12,
-     "b": 9,
+     "b": 10,
      "st": "l"
     },
     {
@@ -502,6 +514,10 @@
     [
      "b",
      "d"
+    ],
+    [
+     "b",
+     "e"
     ]
    ],
    "rdm": "TBD"
@@ -516,7 +532,7 @@
    "sb": "–",
    "ev": "VCT 2027: EMEA Kickoff - MENA Qualifier",
    "ph": "Playoffs–Grand Final",
-   "ts": 1795315200000,
+   "ts": 1795315500000,
    "url": "https://www.vlr.gg/792551/mix-my-miks-vs-no-org-no-problem-vct-2027-emea-kickoff-mena-qualifier-playoffs-gf",
    "bo": "3",
    "evu": "/event/3167/vct-2027-emea-kickoff-mena-qualifier/playoffs",
