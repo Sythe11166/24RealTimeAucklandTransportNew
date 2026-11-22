@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T23:37:01.974Z",
+ "updated": "2026-11-22T23:37:30.510Z",
  "live": [
   {
    "id": "793237",
@@ -268,7 +268,7 @@
     },
     {
      "n": "Corrode",
-     "a": 9,
+     "a": 10,
      "b": 3,
      "st": "l"
     },
@@ -418,6 +418,10 @@
     ],
     [
      "b",
+     "e"
+    ],
+    [
+     "a",
      "e"
     ]
    ],
@@ -1063,13 +1067,13 @@
      ]
     }
    ],
+   "bo": "3",
+   "smt": 1795390616430,
+   "et": 1795390617630,
    "tg": [
     "LEON",
     "BBB"
-   ],
-   "bo": "3",
-   "smt": 1795390616430,
-   "et": 1795390617630
+   ]
   },
   {
    "id": "792038",
@@ -5119,7 +5123,7 @@
   {
    "t": "Shopify Rebellion Gold signs melya from FlyQuest RED",
    "d": "A completed SRG roster ahead of the 2027 season.",
-   "ts": 1795176000000,
+   "ts": 1795089600000,
    "url": "https://www.vlr.gg/792536/shopify-rebellion-gold-signs-melya-from-flyquest-red"
   }
  ],
