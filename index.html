@@ -110,7 +110,7 @@ svg.wi{display:block;overflow:visible}
 .pls{display:flex;flex-wrap:wrap;gap:.4em}
 .pil{display:inline-flex;align-items:center;gap:.45em;padding:.3em .85em;border-radius:999px;font-size:.86em;font-weight:650;white-space:nowrap;background:rgba(255,255,255,.12);color:#e5e5ea}
 .p-ok{background:rgba(52,199,89,.18);color:#34c759}.p-late{background:rgba(255,159,10,.2);color:#ff9f0a}.p-early{background:rgba(10,132,255,.22);color:#64b5ff}
-.p-seat{background:rgba(52,199,89,.17);color:#34c759}.p-seat.s3{background:rgba(255,159,10,.2);color:#ff9f0a}.p-seat.s4{background:rgba(255,69,58,.22);color:#ff6961}
+.p-seat{background:rgba(52,199,89,.17);color:#34c759}.p-seat.sa{background:rgba(154,216,78,.17);color:#a3dc55}.p-seat.sb{background:rgba(255,214,10,.17);color:#ffd60a}.p-seat.sc{background:rgba(255,159,10,.2);color:#ff9f0a}.p-seat.sd,.p-seat.sf{background:rgba(255,69,58,.22);color:#ff6961}
 .ppl{display:inline-flex;gap:.12em}.pil svg{height:1em;width:.7em;fill:currentColor}.pil svg.off{opacity:.3}
 .sv.none{justify-content:center;color:#8e8e93;font-size:.9em}
 /* Valorant: live games + upcoming games */
@@ -227,12 +227,13 @@ main.tkx #nw,main.tkx #q{display:none}}
 .qm{font-size:.54em;line-height:1.4}.qm b{font-size:.8em;letter-spacing:.1em;text-transform:uppercase;color:#b4531a;margin-right:.5em}
 /* dynamic island: liquid glass, clock on the left, ten pills of which exactly one is open (no backdrop blur: cheaper, same look) */
 #ft{--ig:#2a2a2e;position:relative;min-height:0}
-#isl{container-type:size;position:absolute;inset:0;z-index:6;display:flex;flex-direction:column;overflow:hidden;color:#fff;border-radius:34px;background:#000;box-shadow:inset 0 0 0 1px rgba(255,255,255,.07),0 18px 38px rgba(0,0,0,.34)}
+#isl{container-type:size;position:absolute;inset:0;z-index:6;display:flex;flex-direction:column;overflow:hidden;color:#fff;border-radius:34px;background:linear-gradient(140deg,rgba(255,255,255,.3),rgba(255,255,255,.07) 50%,rgba(255,255,255,.18)),rgba(10,16,30,.64);box-shadow:inset 0 1.5px 0 rgba(255,255,255,.8),inset 0 -1px 0 rgba(255,255,255,.2),inset 0 0 0 1px rgba(255,255,255,.22),0 18px 38px rgba(0,0,0,.3)}
+#isl::after{content:"";position:absolute;left:7%;right:7%;top:0;height:1px;pointer-events:none;background:linear-gradient(90deg,transparent,rgba(255,255,255,.95),transparent)}
 #ix{flex:1;min-height:0;container-type:size;overflow:hidden;padding:0 14px;display:flex;align-items:center;font-size:15px;font-weight:600;opacity:0;transition:opacity .45s ease .1s}
 #app.ex #ix{opacity:1;padding:8px 14px 4px}
-.ibody{height:min(116px,100cqh);flex:none;margin-top:auto;display:flex;align-items:center;gap:12px;padding:10px}
-.itime{flex:none;align-self:stretch;display:flex;flex-direction:column;justify-content:center;padding:4px 22px;border-radius:28px;background:var(--ig);box-shadow:inset 0 0 0 1px rgba(255,255,255,.06)}
-#tm{display:grid;font-size:min(54px,calc(min(116px,100cqh)*.46));font-weight:300;letter-spacing:-.04em;line-height:.95;font-variant-numeric:tabular-nums;white-space:nowrap}
+.ibody{height:min(116px,100cqh);flex:none;margin-top:auto;display:flex;align-items:center;gap:20px;padding:10px 14px 10px 26px}
+.itime{flex:none;min-width:200px}
+#tm{display:grid;font-size:min(58px,calc(min(116px,100cqh)*.5));font-weight:300;letter-spacing:-.04em;line-height:.95;font-variant-numeric:tabular-nums;white-space:nowrap}
 #tm.pop{animation:pop .6s}
 #tm>span{grid-area:1/1;display:flex;align-items:baseline;justify-content:center}#tm .tg{visibility:hidden}
 .cn{margin:0 .03em;animation:bl 1s steps(1) infinite}@keyframes bl{50%{opacity:.3}}
@@ -244,7 +245,7 @@ main.tkx #nw,main.tkx #q{display:none}}
 .ipills{flex:1;min-width:0;display:flex;flex-direction:column;justify-content:center;gap:8px}
 .ipills{--pz:min(44px,calc((min(116px,100cqh) - 28px)/2))}
 .ir{display:flex;gap:8px;height:var(--pz)}
-.ip{--ac:#fff;position:relative;flex:0 0 var(--pz);min-width:var(--pz);height:var(--pz);border-radius:999px;display:flex;align-items:center;overflow:hidden;cursor:pointer;background:var(--ig);box-shadow:inset 0 0 0 1px rgba(255,255,255,.08);transition:flex-grow .6s cubic-bezier(.4,0,.2,1)}
+.ip{--ac:#fff;position:relative;flex:0 0 var(--pz);min-width:var(--pz);height:var(--pz);border-radius:999px;display:flex;align-items:center;overflow:hidden;cursor:pointer;background:#000;box-shadow:inset 0 0 0 1px rgba(255,255,255,.08);transition:flex-grow .6s cubic-bezier(.4,0,.2,1)}
 .ip.open{flex-grow:1}
 .ip.en{animation:ipE .65s cubic-bezier(.22,.9,.3,1) both}.ip.lv{animation:ipL .45s cubic-bezier(.4,0,.2,1) both;pointer-events:none}
 @keyframes ipE{from{opacity:0;flex-basis:0;min-width:0;margin-right:-8px;transform:scale(.5)}to{opacity:1;transform:none}}
@@ -260,7 +261,7 @@ main.tkx #nw,main.tkx #q{display:none}}
 .l2{font-size:15px;font-weight:700;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .l2.cl{white-space:normal;font-size:12.5px;line-height:1.16;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}
 .l3{font-size:12px;font-weight:500;color:rgba(255,255,255,.55);margin-left:.4em}
-.nt{font-size:min(15px,calc((100cqh - 2px)/4.8));max-height:100%;overflow:hidden;width:100%;display:flex;align-items:center;gap:.9em;padding:.72em 1.05em .72em .8em;border-radius:1.6em;background:var(--ig);box-shadow:inset 0 0 0 1px rgba(255,255,255,.12),0 8px 22px rgba(0,0,0,.25);animation:ntIn .75s cubic-bezier(.2,.9,.25,1) both;cursor:pointer}
+.nt{font-size:min(15px,calc((100cqh - 2px)/4.8));max-height:100%;overflow:hidden;width:100%;display:flex;align-items:center;gap:.9em;padding:.72em 1.05em .72em .8em;border-radius:1.6em;background:rgba(0,0,0,.5);box-shadow:inset 0 0 0 1px rgba(255,255,255,.12),0 8px 22px rgba(0,0,0,.25);animation:ntIn .75s cubic-bezier(.2,.9,.25,1) both;cursor:pointer}
 @keyframes ntIn{from{opacity:0;transform:translateY(22px) scale(.95)}}
 .nti{flex:none;width:3.3em;height:3.3em;border-radius:.86em;display:grid;place-items:center;box-shadow:inset 0 1px 0 rgba(255,255,255,.35)}.nti span{font-size:1.85em;line-height:1}
 .ntt{flex:1;min-width:0}.ntt b{display:block;font-size:1.06em;font-weight:700;letter-spacing:-.01em}.ntt span{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;font-size:.9em;font-weight:500;line-height:1.28;color:rgba(255,255,255,.72);margin-top:.15em}
@@ -270,7 +271,7 @@ main.tkx #nw,main.tkx #q{display:none}}
 .spk{stroke-dasharray:1 1;animation:spk 3.6s ease-in-out -2.2s infinite}@keyframes spk{0%{stroke-dashoffset:1;opacity:1}42%,80%{stroke-dashoffset:0;opacity:1}100%{stroke-dashoffset:0;opacity:0}}
 .spd{animation:spd 3.6s ease-in-out -2.2s infinite}@keyframes spd{0%,38%{opacity:0;transform:scale(.4)}48%{opacity:1;transform:scale(1.25)}58%,80%{opacity:1;transform:scale(1)}100%{opacity:0}}.spd{transform-box:fill-box;transform-origin:center}
 .gw{animation:glw 3s ease-in-out -1.5s infinite alternate}@keyframes glw{from{opacity:.78}to{opacity:1}}
-#cap{flex:none;align-self:stretch;width:134px;display:flex;flex-direction:column;border-radius:28px;background:var(--ig);box-shadow:inset 0 0 0 1px rgba(255,255,255,.06);padding:0 16px}
+#cap{flex:none;align-self:stretch;width:134px;display:flex;flex-direction:column;border-radius:28px;background:#000;box-shadow:inset 0 0 0 1px rgba(255,255,255,.08);padding:0 16px}
 #cap button{flex:1;display:flex;align-items:center;gap:10px;color:#fff;text-align:left;min-height:44px;cursor:pointer;width:100%}
 #cap .sep{height:1px;background:rgba(255,255,255,.12);flex:none}
 #upd .ui{flex:none;width:30px;height:30px;border-radius:50%;display:grid;place-items:center;color:#34c759;background:rgba(52,199,89,.16)}#upd .ui svg{grid-area:1/1;width:16px;height:16px}#upd .uwn,#upd .ubz{display:none}
@@ -279,7 +280,7 @@ main.tkx #nw,main.tkx #q{display:none}}
 #upd .t{line-height:1.1}#upd small{display:block;font-size:9.5px;font-weight:600;letter-spacing:.09em;text-transform:uppercase;color:rgba(255,255,255,.5)}#updt{font-size:16px;font-weight:700;font-variant-numeric:tabular-nums;white-space:nowrap}
 #gear svg{width:18px;height:18px;flex:none;opacity:.85}#gear .t{font-size:14px;font-weight:600;opacity:.8}
 @media(max-width:1000px){#ip-v{display:none!important}}
-@media(orientation:portrait){#ip-v{display:none!important}.itime{padding:4px 14px}#tm{font-size:44px}.ibody{gap:14px}#cap .t{display:none}#cap{width:58px;padding:0}#cap button{justify-content:center}}
+@media(orientation:portrait){#ip-v{display:none!important}.itime{min-width:150px}#tm{font-size:44px}.ibody{gap:14px}#cap .t{display:none}#cap{width:58px;padding:0}#cap button{justify-content:center}}
 /* icon motion (only the open pill animates) */
 @keyframes fall{0%{transform:translateY(-4px);opacity:0}25%{opacity:1}100%{transform:translateY(7px);opacity:0}}
 .sr2{animation:rise 4s ease-in-out -2s infinite alternate}@keyframes rise{from{transform:translateY(3px)}to{transform:translateY(-1px)}}
@@ -927,13 +928,13 @@ async function timetable(){
   ST.t=Date.now();return ST.rows;
 }
 const PERSON='<svg viewBox="0 0 12 16"><circle cx="6" cy="4" r="3"/><path d="M0 16v-3a6 6 0 0 1 12 0v3z"/></svg>';
-const SEAT=[['Empty',0,0],['Seats free',1,0],['Few seats',2,0],['Standing room',3,3],['Very full',4,4],['Full',4,4],['Full',4,4]];
+const SEAT=[['Empty',1,'e'],['Seats free',2,'a'],['Few seats',3,'b'],['Standing room',4,'c'],['Very full',4,'d'],['Full',4,'f'],['Full',4,'f']];
 const LIVEIC='<svg class="lvi" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-label="Live"><path class="a1" d="M3 8.5a4.5 4.5 0 0 1 4.5 4.5"/><path class="a2" d="M3 3.5a9.5 9.5 0 0 1 9.5 9.5"/><circle cx="3.6" cy="12.4" r="1.4" fill="currentColor" stroke="none"/></svg>';
 function row(b){
   const pl=[];
   if(b.late!=null)pl.push(Math.abs(b.late)<60?'<span class="pil p-ok">On time</span>':b.late>0?'<span class="pil p-late">'+Math.round(b.late/60)+' min late</span>':'<span class="pil p-early">'+Math.round(-b.late/60)+' min early</span>');
   if(b.v&&b.v.occupancy_status!=null){const o=b.v.occupancy_status,i=typeof o==='number'?o:['EMPTY','MANY_SEATS_AVAILABLE','FEW_SEATS_AVAILABLE','STANDING_ROOM_ONLY','CRUSHED_STANDING_ROOM_ONLY','FULL','NOT_ACCEPTING_PASSENGERS'].indexOf(o),S=SEAT[i];
-    if(S)pl.push('<span class="pil p-seat'+(S[2]?' s'+S[2]:'')+'"><span class="ppl">'+[1,2,3,4].map(k=>PERSON.replace('<svg','<svg'+(k<=S[1]?'':' class="off"'))).join('')+'</span>'+S[0]+'</span>')}
+    if(S)pl.push('<span class="pil p-seat'+' s'+S[2]+'"><span class="ppl">'+[1,2,3,4].map(k=>PERSON.replace('<svg','<svg'+(k<=S[1]?'':' class="off"'))).join('')+'</span>'+S[0]+'</span>')}
   if(b.sched)pl.push('<span class="pil">Due '+hmt(b.sched)+'</span>');
   const dest=b.head||RN[b.route]||'';
   return '<div class="sv"><div class="sv1"><b class="rt">'+esc(b.route)+'</b><div class="mn2">'+(b.live?LIVEIC:'')+(b.mins<1?'Now':(b.approx?'~':'')+b.mins+'<small>min</small>')+'</div></div>'+(dest?'<div class="hs">'+esc(dest)+'</div>':'')+(pl.length?'<div class="pls">'+pl.join('')+'</div>':'')+'</div>';
