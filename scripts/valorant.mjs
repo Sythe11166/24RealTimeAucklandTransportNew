@@ -373,7 +373,8 @@ catch (e) { console.log('news skipped:', e.message); }
 
 // agent artwork (valorant-api.com): looked up once, cached in the JSON, so the page never calls a third-party API
 const agents = { ...(old.agents || {}) };
-const needAg = [...new Set(live.flatMap(m => [...((m.pl || {}).a || []), ...((m.pl || {}).b || [])].map(x => x.ag).filter(Boolean)))].filter(a => !agents[a]);
+const agOf = m => [...((m.pl || {}).a || []), ...((m.pl || {}).b || []), ...(m.sm || []).flatMap(x => [...(x.pa || []), ...(x.pb || [])])].map(x => x.ag);
+const needAg = [...new Set([...live, ...results].flatMap(agOf).filter(Boolean))].filter(a => !agents[a]);
 if (needAg.length) {
   try {
     const j = await (await fetch('https://valorant-api.com/v1/agents?isPlayableCharacter=true')).json();
