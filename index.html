@@ -350,25 +350,68 @@ body.eco .fi{filter:none!important}
 #nto{display:flex;align-items:center;gap:min(1.6vw,16px);margin-top:min(1.6vh,14px);padding:min(1vh,9px) min(2.4vw,24px);border-radius:999px;background:rgba(255,255,255,.055);color:rgba(255,255,255,.6);font-size:min(2.2vw,20px);font-weight:500}.ntl{text-transform:uppercase;letter-spacing:.1em;font-size:.7em;color:rgba(255,255,255,.4)}#nto svg{width:1.9em;height:1.9em;opacity:.85}#nto b{color:rgba(255,255,255,.82);font-weight:600}
 #ngear{position:absolute;right:max(22px,env(safe-area-inset-right));bottom:max(22px,env(safe-area-inset-bottom));width:48px;height:48px;border-radius:50%;display:grid;place-items:center;color:rgba(255,255,255,.4)}#ngear svg{width:22px;height:22px}
 #nhint{position:absolute;left:0;right:0;bottom:max(26px,env(safe-area-inset-bottom));text-align:center;font-size:13px;letter-spacing:.06em;color:rgba(255,255,255,.22)}
-dialog{background:linear-gradient(160deg,#1a2544,#0e1630);color:#eaf1fb;border:1px solid rgba(255,255,255,.16);border-radius:32px;padding:22px;width:min(480px,92vw);box-shadow:0 30px 80px rgba(0,0,0,.5)}
-#dlg{padding:0;width:min(580px,92vw)}
-.sh{display:flex;flex-direction:column;max-height:min(88vh,860px)}
-.sh-h{padding:24px 26px 6px}.sh-h h3{margin:0;font-size:26px;font-weight:700;letter-spacing:-.02em}.sh-h p{margin:4px 0 0;font-size:14px;color:#8fa3c7}
-.sh-b{outline:none;overflow:auto;padding:0 22px 8px;-webkit-overflow-scrolling:touch}
-.sh-b h4{margin:22px 6px 8px;font-size:12px;font-weight:600;letter-spacing:.09em;text-transform:uppercase;color:#8fa3c7}
-.grp{background:rgba(255,255,255,.065);border-radius:20px;overflow:hidden}
-.fr{display:flex;align-items:center;justify-content:space-between;gap:16px;margin:0;padding:0 18px;min-height:54px;font-size:17px;color:#eaf1fb;border-top:1px solid rgba(255,255,255,.08)}.fr:first-child{border-top:0}
-.fr span{flex:none}
-.fr input,.fr select{width:auto;flex:1;min-width:0;min-height:52px;padding:0;border:0;border-radius:0;background:none;text-align:right;color:#7db8ff;font:inherit;font-size:17px;appearance:none;-webkit-appearance:none}
-.fr input::placeholder{color:#5f7096}
-.fr input.sw2{flex:none;width:51px;min-height:0;height:31px;border-radius:16px;background:rgba(255,255,255,.2);position:relative;transition:background .25s;cursor:pointer}
-.sw2::after{content:"";position:absolute;top:2px;left:2px;width:27px;height:27px;border-radius:50%;background:#fff;box-shadow:0 2px 4px rgba(0,0,0,.3);transition:left .25s cubic-bezier(.3,.9,.3,1)}
-.sw2:checked{background:#34c759}.sw2:checked::after{left:22px}
-.hint{margin:8px 8px 0;font-size:13px;line-height:1.4;color:#7f93b8}
-.sh-f{display:flex;gap:10px;justify-content:flex-end;padding:14px 22px 20px;border-top:1px solid rgba(255,255,255,.08);margin-top:10px}
-.sh-f button{min-height:48px;padding:0 26px;border-radius:999px;font-size:16px;font-weight:600;background:rgba(255,255,255,.1)}.sh-f .pr{background:#0a84ff;color:#fff}
-dialog::backdrop{background:rgba(2,8,20,.7)}
-dialog pre{white-space:pre-wrap;word-break:break-all;font-size:11px;max-height:50vh;overflow:auto;color:#a9bbd6;margin:10px 0 0}
+/* ---------- Settings: iPad Settings app look (split view, inset grouped lists, system controls) ---------- */
+#dlg{padding:0;border:0;background:transparent;color:#fff;width:min(900px,94vw);height:min(760px,86vh);max-width:none;max-height:none;overflow:visible;font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text","SF Pro Display",system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+#dlg::backdrop{background:rgba(0,0,0,.52);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px)}
+#dlg[open]{animation:stOpen .5s cubic-bezier(.22,1,.36,1)}#dlg[open]::backdrop{animation:stBd .4s ease}
+#dlg.closing{animation:stClose .26s cubic-bezier(.4,0,1,1) forwards}#dlg.closing::backdrop{animation:stBd .26s ease reverse forwards}
+@keyframes stOpen{from{opacity:0;transform:translateY(26px) scale(.965)}}@keyframes stClose{to{opacity:0;transform:translateY(14px) scale(.975)}}@keyframes stBd{from{opacity:0}}
+.st-r{position:relative;display:flex;width:100%;height:100%;border-radius:30px;overflow:hidden;background:#000;box-shadow:0 0 0 1px rgba(255,255,255,.1),0 40px 90px rgba(0,0,0,.6)}
+.st-side{flex:none;width:292px;display:flex;flex-direction:column;padding:26px 14px 16px;background:#0b0b0d;border-right:1px solid rgba(255,255,255,.08);overflow-y:auto;-webkit-overflow-scrolling:touch}
+.st-h{margin:0 8px 16px;font-size:32px;font-weight:700;letter-spacing:-.025em}
+.st-prof{display:flex;align-items:center;gap:12px;padding:12px;margin-bottom:22px;border-radius:14px;background:#1c1c1e}
+.st-av{flex:none;width:46px;height:46px;border-radius:50%;display:grid;place-items:center;background:linear-gradient(160deg,#5aa9ff,#0a5fd6);color:#fff}.st-av svg{width:24px;height:24px}
+.st-pt{display:flex;flex-direction:column;min-width:0}.st-pt b{font-size:17px;font-weight:600}.st-pt small{font-size:13px;color:#8e8e93;margin-top:1px}
+.st-list{display:flex;flex-direction:column;gap:3px}
+.st-it{position:relative;display:flex;align-items:center;gap:12px;width:100%;min-height:48px;padding:0 10px;border-radius:12px;font-size:17px;font-weight:500;text-align:left;color:#fff;background:transparent;transition:background .22s ease,transform .18s ease;-webkit-tap-highlight-color:transparent;touch-action:manipulation}
+.st-it span{flex:1;min-width:0;white-space:nowrap}
+.st-it:active{background:rgba(255,255,255,.08);transform:scale(.985)}
+.st-it.on{background:#0a84ff}.st-it.on:active{background:#0a78e8}
+.st-ic{flex:none;width:30px;height:30px;border-radius:8px;display:grid;place-items:center;color:#fff;background:linear-gradient(340deg,var(--c))}
+.st-ic svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round}
+.st-dot{flex:none;width:9px;height:9px;border-radius:50%;background:#ff9f0a;opacity:0;transform:scale(.4);transition:opacity .3s,transform .3s}.st-dot.on{opacity:1;transform:none}
+.st-main{position:relative;flex:1;min-width:0;display:flex;flex-direction:column;background:#000}
+.st-bar{position:absolute;z-index:3;left:0;right:0;top:0;height:60px;display:flex;align-items:center;justify-content:space-between;padding:0 18px;background:rgba(0,0,0,0);border-bottom:1px solid transparent;-webkit-backdrop-filter:blur(0);backdrop-filter:blur(0);transition:background .3s,border-color .3s,backdrop-filter .3s}
+.st-bar.sc{background:rgba(20,20,22,.78);border-color:rgba(255,255,255,.1);-webkit-backdrop-filter:blur(24px) saturate(1.6);backdrop-filter:blur(24px) saturate(1.6)}
+.st-nt{position:absolute;left:50%;transform:translateX(-50%) translateY(4px);font-size:17px;font-weight:600;opacity:0;transition:opacity .25s,transform .25s;pointer-events:none;white-space:nowrap}.st-bar.sc .st-nt{opacity:1;transform:translateX(-50%)}
+.st-done{margin-left:auto;min-height:44px;padding:0 10px;font-size:17px;font-weight:600;color:#0a84ff;border-radius:12px;transition:opacity .15s,background .2s;-webkit-tap-highlight-color:transparent}.st-done:active{opacity:.45}
+.st-back{display:none;align-items:center;gap:2px;min-height:44px;padding:0 6px 0 0;font-size:17px;color:#0a84ff}.st-back svg{width:22px;height:22px}.st-back:active{opacity:.45}
+.st-sc{flex:1;min-height:0;overflow-y:auto;overflow-x:hidden;-webkit-overflow-scrolling:touch;overscroll-behavior:contain;padding:64px 26px 30px;scroll-behavior:auto}
+.st-pane{display:none}.st-pane.on{display:block;animation:stPane .42s cubic-bezier(.22,1,.36,1)}.st-pane.out{display:block;animation:stPaneOut .14s ease-in forwards;pointer-events:none}
+@keyframes stPane{from{opacity:0;transform:translateY(12px)}}@keyframes stPaneOut{to{opacity:0}}
+.st-lt{margin:0 4px 18px;font-size:34px;font-weight:700;letter-spacing:-.03em;line-height:1.1}
+.st-g{background:#1c1c1e;border-radius:14px;overflow:hidden}.st-gs{background:transparent;overflow:visible;margin-top:14px}
+.st-row{position:relative;display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:52px;padding:0 16px;font-size:17px;margin:0;-webkit-tap-highlight-color:transparent;transition:background .15s}
+.st-row+.st-row::before,.st-cx .st-row::before{content:"";position:absolute;left:16px;right:0;top:0;height:1px;background:rgba(84,84,88,.6)}
+label.st-row:active{background:#2c2c2e}
+.st-l{flex:none;max-width:60%}
+.st-row input:not([type=checkbox]):not([type=hidden]){flex:1;min-width:0;height:50px;padding:0;border:0;border-radius:0;background:none;color:#8e8e93;font:inherit;font-size:17px;text-align:right;outline:none;-webkit-appearance:none;appearance:none;transition:color .2s}
+.st-row input:focus{color:#0a84ff}.st-row input::placeholder{color:#58585d}
+.st-row input.st-tm.st-tm{flex:none;width:auto;height:36px;padding:0 12px;border-radius:9px;background:#2c2c2e;color:#fff;text-align:center;min-width:104px}.st-row input.st-tm.st-tm:focus{color:#0a84ff}
+.st-f{margin:9px 18px 0;font-size:13px;line-height:1.38;color:#8e8e93}.st-g+.st-f{margin-bottom:26px}.st-gs+.st-f{margin-bottom:26px}
+.st-sw{position:relative;flex:none;width:51px;height:31px}
+.st-sw input{position:absolute;inset:0;width:100%;height:100%;margin:0;opacity:0;cursor:pointer;z-index:1}
+.st-sw i{position:absolute;inset:0;border-radius:16px;background:rgba(120,120,128,.36);transition:background .32s ease}
+.st-sw i::after{content:"";position:absolute;left:2px;top:2px;width:27px;height:27px;border-radius:14px;background:#fff;box-shadow:0 3px 8px rgba(0,0,0,.28),0 1px 1px rgba(0,0,0,.16);transition:transform .34s cubic-bezier(.3,1.35,.5,1),width .22s ease}
+.st-sw input:checked+i{background:#30d158}.st-sw input:checked+i::after{transform:translateX(20px)}
+.st-sw input:active+i::after{width:34px}.st-sw input:checked:active+i::after{transform:translateX(13px)}
+.st-sw input:focus-visible+i{outline:2px solid #0a84ff;outline-offset:2px}
+.st-seg{position:relative;display:grid;grid-template-columns:repeat(var(--n),1fr);padding:2px;border-radius:9px;background:#1c1c1e;isolation:isolate}
+.st-th{position:absolute;z-index:-1;top:2px;bottom:2px;left:2px;width:calc((100% - 4px)/var(--n));border-radius:7px;background:#636366;box-shadow:0 3px 8px rgba(0,0,0,.35),0 0 0 .5px rgba(0,0,0,.08);transform:translateX(calc(var(--i,0)*100%));transition:transform .36s cubic-bezier(.3,1.15,.4,1)}
+.st-seg.i .st-th{transition:none}
+.st-seg button{min-height:40px;font-size:14.5px;font-weight:500;color:#fff;border-radius:7px;transition:opacity .15s;-webkit-tap-highlight-color:transparent;touch-action:manipulation}.st-seg button.on{font-weight:600}.st-seg button:active{opacity:.55}
+.st-stp{display:inline-flex;align-items:center;gap:4px;flex:none}.st-stp b{min-width:58px;text-align:center;font-size:17px;font-weight:500;color:#8e8e93;font-variant-numeric:tabular-nums}
+.st-stp button{width:46px;height:34px;border-radius:9px;background:#2c2c2e;font-size:22px;line-height:1;color:#fff;transition:background .15s,opacity .15s,transform .15s;-webkit-tap-highlight-color:transparent;touch-action:manipulation}.st-stp button:active{background:#3a3a3c;transform:scale(.94)}.st-stp button:disabled{opacity:.35}
+.st-cx{display:grid;grid-template-rows:1fr;transition:grid-template-rows .4s cubic-bezier(.22,1,.36,1),opacity .3s;opacity:1}.st-cx>div{overflow:hidden;min-height:0}.st-cx.off{grid-template-rows:0fr;opacity:0}
+.st-v{display:flex;align-items:center;gap:8px;font-size:15px;color:#8e8e93;font-variant-numeric:tabular-nums}
+.st-v::before{content:"";width:9px;height:9px;border-radius:50%;background:#58585d;flex:none}.st-v.ok::before{background:#30d158}.st-v.bad::before{background:#ff9f0a}.st-v.err::before{background:#ff453a}
+.st-v.st-mono::before{display:none}.st-row{color:#fff}
+.st-act{justify-content:center;color:#0a84ff;font-weight:500;width:100%;min-height:52px;background:transparent;transition:background .15s,opacity .15s}.st-act:active{background:#2c2c2e}.st-act.dn{color:#ff453a}.st-act+.st-act{border-top:1px solid rgba(84,84,88,.6)}
+.st-er{display:block;padding:12px 16px;font-size:13px;line-height:1.4;color:#c7c7cc;border-top:1px solid rgba(84,84,88,.6);word-break:break-word}.st-er:first-child{border-top:0}.st-er b{color:#ff9f0a;font-weight:600}.st-er small{display:block;color:#8e8e93;margin-top:2px;font-size:12px}
+.st-mono{font:12px/1.5 ui-monospace,SFMono-Regular,Menlo,monospace;color:#a1a1a6}
+@media (max-width:719px){#dlg{width:100vw;height:100vh;height:100dvh}.st-r{border-radius:0}.st-side{width:100%;border-right:0}.st-main{position:absolute;inset:0;transform:translateX(100%);transition:transform .45s cubic-bezier(.22,1,.36,1)}.st-r.push .st-main{transform:none}.st-back{display:inline-flex}.st-it.on{background:transparent}.st-it::after{content:"";width:8px;height:8px;border-top:2px solid #58585d;border-right:2px solid #58585d;transform:rotate(45deg);margin-right:4px}}
+@media (prefers-reduced-motion:reduce){#dlg[open],#dlg.closing,.st-pane.on,.st-th,.st-sw i::after,.st-cx{animation:none!important;transition:none!important}}
+.wdn{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;text-align:center;color:rgba(255,255,255,.62);animation:fin .6s ease both}.wdn::before{content:"";width:8px;height:8px;border-radius:50%;background:#ff9f0a;opacity:.85;margin-bottom:6px}.wdn b{font-size:.95em;font-weight:600}.wdn small{font-size:.7em;opacity:.7}
 label{display:block;font-size:13px;color:#a9bbd6;margin:12px 0 4px}
 input{width:100%;font:inherit;color:#eaf1fb;background:#08101f;border:1px solid rgba(255,255,255,.14);border-radius:12px;padding:10px 12px;min-height:44px}
 .row{display:flex;gap:8px;justify-content:flex-end;margin-top:16px}.row button{padding:10px 18px;min-height:44px;border-radius:999px;border:1px solid rgba(255,255,255,.2)}
@@ -400,40 +443,73 @@ input{width:100%;font:inherit;color:#eaf1fb;background:#08101f;border:1px solid 
     <div class="ipills" id="ip"><div class="ir" id="ra"></div><div class="ir" id="rb"></div></div><div id="cap"><button id="upd" aria-label="Data diagnostics"><span class="ui"><svg class="uok" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M6.5 12.5l3.8 3.8 7.2-8"/></svg><svg class="uwn" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"><path d="M12 6.5v7M12 17.5v.1"/></svg><svg class="ubz" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"><path d="M12 4a8 8 0 0 1 8 8"/></svg></span><span class="t"><small id="upl">Updated</small><span id="updt">—</span></span></button><i class="sep"></i><button id="gear" aria-label="Settings"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.5-1.1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z"/></svg><span class="t">Settings</span></button></div>
   </div></div></div>
 </main>
-<dialog id="dlg"><div class="sh">
-  <div class="sh-h"><h3>Settings</h3><p>Saved only on this device.</p></div>
-  <div class="sh-b">
-    <h4>Connections</h4>
-    <div class="grp"><label class="fr"><span>AT API key</span><input id="k1" type="password" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="dev-portal.at.govt.nz"></label>
-    <label class="fr"><span>Finnhub key</span><input id="k3" type="password" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="finnhub.io (free)"></label></div>
-    <p class="hint">The Finnhub key powers the VOO and VEU stock pill.</p>
-    <h4>Bus</h4>
-    <div class="grp"><label class="fr"><span>Stop code</span><input id="k4" inputmode="numeric"></label>
-    <label class="fr"><span>Services</span><input id="k5" autocapitalize="characters" placeholder="24R,24B"></label>
-    <label class="fr"><span>Walk to the stop (min)</span><input id="k7" inputmode="numeric"></label></div>
-    <h4>Valorant</h4>
-    <div class="grp"><label class="fr"><span>Favourite teams</span><input id="k10" autocapitalize="none" spellcheck="false" placeholder="Paper Rex, Fnatic"></label>
-    <label class="fr"><span>Live matches</span><select id="k11"><option value="">All regions</option><option value="am">Americas</option><option value="em">EMEA</option><option value="pa">Pacific</option><option value="cn">China</option></select></label></div>
-    <p class="hint">Favourites show first with a ★ and are the only ones that notify (leave empty for just the next match). Pick a region to limit Live to it plus your favourites; Upcoming and Results always show every region. Masters and Champions are always included.</p>
-    <h4>Night screen</h4>
-    <div class="grp"><label class="fr"><span>From</span><input id="k8" type="time"></label><label class="fr"><span>Back to widgets at</span><input id="k9" type="time"></label></div>
-    <p class="hint">Clear “From” to turn the night screen off. Tap the screen to open the widgets for 45 seconds.</p>
-    <h4>Notifications</h4>
-    <div class="grp"><label class="fr"><span>Weather</span><input class="sw2" type="checkbox" id="c_w"></label><label class="fr"><span>Stocks</span><input class="sw2" type="checkbox" id="c_s"></label><label class="fr"><span>Valorant</span><input class="sw2" type="checkbox" id="c_v"></label><label class="fr"><span>Buses and service alerts</span><input class="sw2" type="checkbox" id="c_t"></label>
-    <label class="fr"><span>Minimum time between</span><select id="c_gap"><option value="15">15 min</option><option value="30">30 min</option><option value="60">1 hour</option><option value="120">2 hours</option></select></label>
-    <label class="fr"><span>Quiet from</span><input id="c_qf" type="time"></label><label class="fr"><span>Quiet until</span><input id="c_qt" type="time"></label></div>
-    <h4>Power</h4>
-    <div class="grp"><label class="fr"><span>Eco mode</span><input class="sw2" type="checkbox" id="c_eco"></label>
-    <label class="fr"><span>Rain and snow effects</span><input class="sw2" type="checkbox" id="c_fx"></label></div>
-    <p class="hint">Eco mode freezes the looping animations and turns the particle effects off, which keeps the iPad cool and saves battery. Switch Eco off for the full animated look.</p>
-    <p class="hint">Eco mode stops the moving background glow and the blur in page transitions, and eases the rain and snow effect. It looks almost the same and runs cooler.</p>
-  </div>
-  <div class="sh-f"><button id="cx" type="button">Cancel</button><button id="sv" type="button" class="pr">Save</button></div>
+<dialog id="dlg" aria-label="Settings"><div class="st-r" id="str">
+  <nav class="st-side" aria-label="Settings sections">
+    <h2 class="st-h">Settings</h2>
+    <div class="st-prof"><span class="st-av"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="3.5" y="4" width="17" height="12" rx="2.2"/><path d="M8 20h8M12 16v4"/></svg></span><span class="st-pt"><b>Dashboard</b><small>Saved only on this iPad</small></span></div>
+    <div class="st-list">
+      <button class="st-it" data-p="conn" type="button"><i class="st-ic" style="--c:#0a84ff,#3b9bff"><svg viewBox="0 0 24 24"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3-3a4.5 4.5 0 0 0-6.4-6.4l-1 1"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3 3a4.5 4.5 0 0 0 6.4 6.4l1-1"/></svg></i><span>Connections</span></button>
+      <button class="st-it" data-p="bus" type="button"><i class="st-ic" style="--c:#30c25a,#52dc7b"><svg viewBox="0 0 24 24"><rect x="4.5" y="3.5" width="15" height="14" rx="3"/><path d="M4.5 11.5h15M8 20.5v-3M16 20.5v-3"/><circle cx="8.6" cy="14.6" r=".6"/><circle cx="15.4" cy="14.6" r=".6"/></svg></i><span>Bus</span></button>
+      <button class="st-it" data-p="val" type="button"><i class="st-ic" style="--c:#ff375f,#ff6482"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="7.5"/><path d="M12 2.5v4M12 17.5v4M2.5 12h4M17.5 12h4"/></svg></i><span>Valorant</span></button>
+      <button class="st-it" data-p="nite" type="button"><i class="st-ic" style="--c:#5e5ce6,#8280ff"><svg viewBox="0 0 24 24"><path d="M20 14.2A8 8 0 1 1 9.8 4a6.4 6.4 0 0 0 10.2 10.2z"/></svg></i><span>Night screen</span></button>
+      <button class="st-it" data-p="noti" type="button"><i class="st-ic" style="--c:#ff9500,#ffb340"><svg viewBox="0 0 24 24"><path d="M6 16.5V11a6 6 0 0 1 12 0v5.5l1.5 1.5h-15z"/><path d="M10 20.5a2.2 2.2 0 0 0 4 0"/></svg></i><span>Notifications</span></button>
+      <button class="st-it" data-p="pow" type="button"><i class="st-ic" style="--c:#2fb8a8,#4fd6c6"><svg viewBox="0 0 24 24"><rect x="3.5" y="8" width="15" height="8.5" rx="2.4"/><path d="M21 11v2.5M7 11.2v2.6"/></svg></i><span>Power</span></button>
+      <button class="st-it" data-p="diag" type="button"><i class="st-ic" style="--c:#7d7d85,#a0a0a8"><svg viewBox="0 0 24 24"><path d="M3 12h4l2.2-6 4 12 2.3-6H21"/></svg></i><span>Diagnostics</span><em class="st-dot" id="stdot"></em></button>
+    </div>
+  </nav>
+  <section class="st-main">
+    <header class="st-bar"><button class="st-back" id="stback" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M14.5 5.5L8 12l6.5 6.5"/></svg>Settings</button><b class="st-nt" id="stnt">Connections</b><button class="st-done" id="sdone" type="button">Done</button></header>
+    <div class="st-sc" id="stsc">
+      <div class="st-pane" data-p="conn" data-t="Connections">
+        <h1 class="st-lt">Connections</h1>
+        <div class="st-g"><label class="st-row"><span class="st-l">AT API key</span><input id="k1" type="password" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="Required"></label>
+        <label class="st-row"><span class="st-l">Finnhub key</span><input id="k3" type="password" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="Optional"></label></div>
+        <p class="st-f">The AT key (free from dev-portal.at.govt.nz) powers bus times. The Finnhub key (free from finnhub.io) powers the VOO and VEU stock pill. Keys stay on this iPad.</p>
+      </div>
+      <div class="st-pane" data-p="bus" data-t="Bus">
+        <h1 class="st-lt">Bus</h1>
+        <div class="st-g"><label class="st-row"><span class="st-l">Stop code</span><input id="k4" inputmode="numeric" placeholder="8274"></label>
+        <label class="st-row"><span class="st-l">Services</span><input id="k5" autocapitalize="characters" autocomplete="off" spellcheck="false" placeholder="24R, 24B"></label>
+        <div class="st-row"><span class="st-l">Walk to the stop</span><span class="st-stp" data-t="k7" data-min="0" data-max="30" data-u=" min"><button type="button" data-d="-1" aria-label="Less">−</button><b></b><button type="button" data-d="1" aria-label="More">+</button></span><input id="k7" type="hidden"></div></div>
+        <p class="st-f">The walking time is taken off each bus so the island shows when to leave.</p>
+      </div>
+      <div class="st-pane" data-p="val" data-t="Valorant">
+        <h1 class="st-lt">Valorant</h1>
+        <div class="st-g"><label class="st-row"><span class="st-l">Favourite teams</span><input id="k10" autocapitalize="none" autocomplete="off" spellcheck="false" placeholder="Paper Rex, Fnatic"></label></div>
+        <p class="st-f">Favourites show first with a star, take over the widget when they play, and are the only teams that send notifications. Leave empty to be told about just the next match.</p>
+        <div class="st-g st-gs"><div class="st-seg" data-t="k11" style="--n:5"><i class="st-th"></i><button type="button" data-v="">All</button><button type="button" data-v="am">Americas</button><button type="button" data-v="em">EMEA</button><button type="button" data-v="pa">Pacific</button><button type="button" data-v="cn">China</button></div></div>
+        <p class="st-f">Live matches. A region limits Live to it plus your favourites. Upcoming and Results always show every region, and Masters and Champions are always included.</p><input id="k11" type="hidden">
+      </div>
+      <div class="st-pane" data-p="nite" data-t="Night screen">
+        <h1 class="st-lt">Night screen</h1>
+        <div class="st-g"><label class="st-row"><span class="st-l">Night screen</span><span class="st-sw"><input type="checkbox" id="c_n"><i></i></span></label>
+        <div class="st-cx" id="stncx"><div><label class="st-row"><span class="st-l">From</span><input class="st-tm" id="k8" type="time"></label><label class="st-row"><span class="st-l">Back to widgets at</span><input class="st-tm" id="k9" type="time"></label></div></div></div>
+        <p class="st-f">The clock goes full screen and dim between these times. Tap the screen to bring the widgets back for 45 seconds.</p>
+      </div>
+      <div class="st-pane" data-p="noti" data-t="Notifications">
+        <h1 class="st-lt">Notifications</h1>
+        <div class="st-g"><label class="st-row"><span class="st-l">Weather</span><span class="st-sw"><input type="checkbox" id="c_w"><i></i></span></label><label class="st-row"><span class="st-l">Stocks</span><span class="st-sw"><input type="checkbox" id="c_s"><i></i></span></label><label class="st-row"><span class="st-l">Valorant</span><span class="st-sw"><input type="checkbox" id="c_v"><i></i></span></label><label class="st-row"><span class="st-l">Buses and service alerts</span><span class="st-sw"><input type="checkbox" id="c_t"><i></i></span></label></div>
+        <p class="st-f">Alerts appear as a banner in the island.</p>
+        <div class="st-g st-gs"><div class="st-seg" data-t="c_gap" style="--n:4"><i class="st-th"></i><button type="button" data-v="15">15 min</button><button type="button" data-v="30">30 min</button><button type="button" data-v="60">1 hour</button><button type="button" data-v="120">2 hours</button></div></div>
+        <p class="st-f">Minimum time between alerts.</p><input id="c_gap" type="hidden">
+        <div class="st-g"><label class="st-row"><span class="st-l">Quiet from</span><input class="st-tm" id="c_qf" type="time"></label><label class="st-row"><span class="st-l">Quiet until</span><input class="st-tm" id="c_qt" type="time"></label></div>
+        <p class="st-f">No alerts during quiet hours.</p>
+      </div>
+      <div class="st-pane" data-p="pow" data-t="Power">
+        <h1 class="st-lt">Power</h1>
+        <div class="st-g"><label class="st-row"><span class="st-l">Eco mode</span><span class="st-sw"><input type="checkbox" id="c_eco"><i></i></span></label><label class="st-row"><span class="st-l">Rain and snow effects</span><span class="st-sw"><input type="checkbox" id="c_fx"><i></i></span></label></div>
+        <p class="st-f">Eco mode freezes the looping animations, stops the moving background glow and eases the particle effects. It looks almost the same and keeps the iPad cool. Switch it off for the full animated look.</p>
+      </div>
+      <div class="st-pane" data-p="diag" data-t="Diagnostics">
+        <h1 class="st-lt">Diagnostics</h1>
+        <div id="stdg"></div>
+      </div>
+    </div>
+  </section>
 </div></dialog>
 <div id="nite" aria-hidden="true"><div class="nsky" id="nsky"></div><div id="nfx"></div><div id="nmoon"></div>
   <div id="nic"><div id="nit"><span id="nth">--</span><span class="ncn">:</span><span id="ntn">--</span><span id="nap"></span></div><div id="nid"></div><div id="niw"></div><div id="nih"></div><div id="nto"></div></div>
   <button id="ngear" aria-label="Settings"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.5-1.1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z"/></svg></button><div id="nhint">Tap to open widgets</div></div>
-<dialog id="dg2"><h3 style="margin:0">Diagnostics</h3><pre id="dgp"></pre><div class="row"><button id="dgc" type="button">Close</button></div></dialog>
 <script>
 /* ---------- core helpers (formatters are created once: Intl construction is expensive) ---------- */
 const TZ='Pacific/Auckland',$=id=>document.getElementById(id),arr=x=>x==null?[]:Array.isArray(x)?x:[x],REDUCE=matchMedia('(prefers-reduced-motion:reduce)').matches;
@@ -450,6 +526,13 @@ const SRC={weather:{n:'Weather'},bus:{n:'Bus times'},stocks:{n:'Stocks'},news:{n
 const srcOk=k=>{const x=SRC[k];x.ok=Date.now();x.bad=0;x.msg=''},srcBad=(k,m)=>{const x=SRC[k];if(!x.bad)x.bad=Date.now();x.msg=m};
 const staleSrc=()=>Object.values(SRC).filter(x=>x.bad&&Date.now()-x.bad>=9e5);   /* failing for 15+ minutes */
 const IS={W:null,svc:[],next:null,qs:[],qerr:'',mk:{open:false,txt:'US market'},alerts:[],news:[]},D={};
+/* ---------- error boundary: a failing widget is logged to Diagnostics and never takes the rest of the page with it ---------- */
+const ERRS=[];
+function logErr(w,e){try{const m=String((e&&e.message)||e||'Unknown error').slice(0,160),loc=String((e&&e.stack)||'').split('\n').find(l=>/:\d+:\d+/.test(l))||'';ERRS.unshift({t:Date.now(),w,m,loc:loc.trim().replace(/^.*\//,'').slice(-40)});ERRS.length=Math.min(ERRS.length,30);D['error · '+w]=m;isoon()}catch(_){}}
+const safe=(w,f)=>{try{return f()}catch(e){logErr(w,e)}};
+const down=(box,w)=>{const b=box&&$(box);if(b&&!b.children.length)b.innerHTML='<div class="wdn"><b>'+w+' unavailable</b><small>Details in Diagnostics</small></div>'};
+const guard=(w,f,box)=>function(){try{const r=f.apply(this,arguments);return r&&typeof r.then==='function'?r.catch(e=>{logErr(w,e);down(box,w)}):r}catch(e){logErr(w,e);down(box,w)}};
+addEventListener('error',e=>logErr('Page',e.error||e.message));addEventListener('unhandledrejection',e=>logErr('Background task',e.reason));
 let BUSY=0,LR=0,isoQ=0;const _fetch=window.fetch.bind(window);
 const isoon=()=>{if(!isoQ)isoQ=requestAnimationFrame(()=>{isoQ=0;updRefresh()})};
 window.fetch=(...a)=>{BUSY++;isoon();return _fetch(...a).then(r=>{if(r.ok)LR=Date.now();return r}).finally(()=>{BUSY--;isoon()})};
@@ -459,7 +542,7 @@ function fitBox(id,max,min=10){max*=SK;min*=SK;const b=$(id),l=b.lastElementChil
 const SK=1,setK=()=>{};
 const RT={};
 const refitAll=()=>{['nw'].forEach(k=>{const r=RT[k];if(r&&r.o.fit)fitBox(r.box,r.o.fit)});fitBox('qb',26)};
-function rotor(key,box,dots,render,ms,o){RT[key]={i:0,items:[],box,dots,render,o:o||{}};if(o&&o.tr)$(box).classList.add(o.tr);setInterval(()=>{if(document.hidden||DM.on||(key==='nw'&&TK.on))return;const r=RT[key],c=r.items[r.i];step(key,1)},ms)}
+function rotor(key,box,dots,render,ms,o){RT[key]={i:0,items:[],box,dots,render,o:o||{}};if(o&&o.tr)$(box).classList.add(o.tr);setInterval(()=>{if(document.hidden||DM.on||(key==='nw'&&TK.on))return;safe(key==='vg'?'Valorant':key==='nw'?'News':'Page',()=>step(key,1))},ms)}
 function setItems(key,items,quiet){const r=RT[key],s=JSON.stringify(items);if(r.s===s)return;const same=r.items.length===items.length;
   if(quiet&&same&&r.items[r.i]&&items[r.i]&&r.items[r.i].t===items[r.i].t){const f=[...$(r.box).children].filter(o=>o.classList.contains('fi')&&!o.classList.contains('out')).pop();if(f){r.s=s;r.items=items;f.classList.add('q');const h=r.render(items[r.i],r.i,items.length);if(r.o.morph)r.o.morph(f,h);else f.innerHTML=h;return}}
   r.s=s;r.items=items;r.i=same?Math.min(r.i,items.length-1):0;paint(key)}
@@ -498,13 +581,15 @@ function sunCalc(){
 function secBar(s){const b=$('tsb');b.style.transition='none';b.style.transform='scaleX('+(s/60)+')';void b.offsetWidth;b.style.transition='transform '+(60-s)+'s '+(ECO?'steps('+Math.max(1,Math.round((60-s)/10))+',end)':'linear')+'';b.style.transform='scaleX(1)'}
 function tick(){
   const p=aklParts();
-  if($('tn').textContent!==p.minute){const t=$('tm');t.classList.remove('pop');void t.offsetWidth;t.classList.add('pop')}
-  $('th').textContent=p.hour;$('tn').textContent=p.minute;$('ap').textContent=p.dayPeriod||'';
-  const day=Math.floor(Date.UTC(+p.year,+p.month-1,+p.day)/864e5);
-  if(day!==qDay){qDay=day;$('dt').textContent=new Date().toLocaleDateString('en-NZ',{timeZone:TZ,weekday:'long',day:'numeric',month:'long'});[SR,SS]=sunCalc()}
-  if(TK.exp&&Date.now()>TK.exp)valRender();secBar(+p.second);mkt();quote();skyBg();tickCountdowns();ilRefresh('s');ilRefresh('l');
+  safe('Clock',()=>{if($('tn').textContent!==p.minute){const t=$('tm');t.classList.remove('pop');void t.offsetWidth;t.classList.add('pop')}
+    $('th').textContent=p.hour;$('tn').textContent=p.minute;$('ap').textContent=p.dayPeriod||''});
+  safe('Date',()=>{const day=Math.floor(Date.UTC(+p.year,+p.month-1,+p.day)/864e5);
+    if(day!==qDay){qDay=day;$('dt').textContent=new Date().toLocaleDateString('en-NZ',{timeZone:TZ,weekday:'long',day:'numeric',month:'long'});[SR,SS]=sunCalc()}});
+  safe('Valorant',()=>{if(TK.exp&&Date.now()>TK.exp)valRender()});
+  safe('Clock',()=>secBar(+p.second));safe('Stocks',mkt);safe('Quote',quote);safe('Sky',skyBg);safe('Countdowns',tickCountdowns);
+  safe('Island',()=>{ilRefresh('s');ilRefresh('l')});
 }
-function schedTick(){const d=new Date();setTimeout(()=>{tick();minuteChecks();schedTick()},60000-(d.getSeconds()*1000+d.getMilliseconds())+40)}
+function schedTick(){const d=new Date();setTimeout(()=>{safe('Clock',tick);safe('Alerts',minuteChecks);schedTick()},60000-(d.getSeconds()*1000+d.getMilliseconds())+40)}
 const DAY={sun:['#79c4f4','#ffe28f','#ff9d5c','#ffd24a','#ff8a3d','#6ec1ff','#fff1a6'],part:['#8cc6ee','#f6e2a8','#f5b27a','#ffd76a','#ffa64d','#9bd3ff','#ffeab4'],cloud:['#aebccd','#d3d9e1','#9aa8ba','#c7d0dc','#95a5b9','#e3e8ee','#eef3fa'],fog:['#bfc5ce','#dcdfe4','#aab1bc','#e7e9ec','#b6bcc6','#cfd4db','#eceff3'],rain:['#6f879d','#8fa3b6','#566b81','#7aa0c0','#5b7c99','#9db4c8','#b5d8f2'],storm:['#3a4256','#4e586d','#232938','#5b4b8a','#3b4f7a','#6b7aa8','#a9a4e8'],snow:['#dbe8f4','#f0f5fa','#bdd0e2','#ffffff','#cfe2f5','#e6eef7','#ffffff']};
 const NIGHT={sun:['#02040a','#070f24','#0c1b40','#1c2f7a','#0f3b6b','#35246b','#3f63f0'],part:['#03050c','#0a1228','#101d3c','#1c2f7a','#12406b','#35246b','#3a5ad0'],cloud:['#06080d','#101520','#1a2230','#2a3a55','#233044','#3a4660','#506080'],fog:['#090b10','#151a22','#202733','#2e3a4d','#27313f','#3b4757','#586578'],rain:['#04070c','#0b1420','#142234','#1d3a5c','#16314d','#2a4a6e','#3d6a96'],storm:['#030409','#0a0d17','#141a2a','#3a2f6b','#1f3560','#4a3d80','#6a4fc0'],snow:['#0a0f18','#18202d','#243042','#3b4f6b','#33455f','#566f8f','#7d9cc4']};
 const TW={dawn:['#ffb9a0','#ffdca8','#b58cf0','#ff8fa3','#ffb36b','#a58bff','#ffb98e'],dusk:['#ff8b5a','#ff5f7f','#5a3f8e','#ff9a4a','#ff4f6d','#7a56c8','#ff8f5e']};
@@ -530,7 +615,8 @@ const fxc=$('fx'),fx=fxc.getContext('2d');let FW=0,FH=0,FP=[],FM='none',FN=0,FL=
 function fxSet(m,n){FM=m;FN=n;const k=innerWidth*innerHeight/800000*.6;FP=Array.from({length:Math.round(n*k*(ECO?.6:1))},()=>({x:Math.random()*FW,y:Math.random()*FH,v:.6+Math.random()*.8,r:Math.random()}))}
 function fxSize(){FW=fxc.width=innerWidth;FH=fxc.height=innerHeight;fxSet(FM,FN)}
 let fxTm=0;const fxStop=()=>{cancelAnimationFrame(raf);clearTimeout(fxTm)},fxOk=()=>!ECO||LS.g('fx','0')==='1';
-function fxLoop(t){
+function fxLoop(t){try{fxFrame(t)}catch(e){logErr('Weather effects',e);FM='none';fxStop()}}
+function fxFrame(t){
   if(ECO)fxTm=setTimeout(()=>fxLoop(performance.now()),90);else raf=requestAnimationFrame(fxLoop);if(t-FT<(ECO?66:33))return;const dt=Math.min(.1,(t-FT)/1000);FT=t;fx.clearRect(0,0,FW,FH);
   if(FM==='rain'||FM==='storm'){fx.strokeStyle='rgba(255,255,255,.4)';fx.lineWidth=1.2;fx.beginPath();
     FP.forEach(p=>{const L=14+p.r*16,sp=900+p.v*700;fx.moveTo(p.x,p.y);fx.lineTo(p.x-L*.18,p.y+L);p.y+=sp*dt;p.x-=sp*dt*.18;if(p.y>FH||p.x<-40){p.y=-L;p.x=Math.random()*FW*1.15}});fx.stroke()}
@@ -724,7 +810,7 @@ const brTgt=(cols,k,i)=>{const m=cols[k].m[i],nx=cols[k+1].m,w=m[4]==='d'?(m[2]>
 const brWin=cols=>{let f=cols.findIndex(c=>c.m.some(x=>x[4]!=='d'));f=f<0?cols.length-1:f;let st=Math.max(0,f-1);
   while(st<cols.length-1&&(cols.length-st>4||Math.max(...cols.slice(st).map(c=>c.m.length))>4))st++;return cols.slice(st,st+4)};
 function brPages(b){
-  const R=b.r.map(r=>({n:r.r,k:brKind(r.r),m:r.m})),P=[],started=c=>c.some(r=>r.m.some(x=>x[4]!=='u'));
+  const R=AR(b.r).filter(r=>r&&Array.isArray(r.m)).map(r=>({n:String(r.r||''),k:brKind(String(r.r||'')),m:r.m.filter(x=>Array.isArray(x)&&x.length>=5)})).filter(r=>r.m.length),P=[],started=c=>c.some(r=>r.m.some(x=>x[4]!=='u'));
   const sw=R.filter(r=>r.k==='s'),up=R.filter(r=>r.k==='u'||r.k==='m'),lo=R.filter(r=>r.k==='l'),gf=R.filter(r=>r.k==='g');
   if(sw.length){const rec={},g=n=>rec[n]||(rec[n]={n,w:0,l:0,lv:0});
     sw.forEach(r=>r.m.forEach(x=>{if(/^tbd$/i.test(x[0])||/^tbd$/i.test(x[1]))return;const a=g(x[0]),c=g(x[1]);if(x[4]==='d'){if(x[2]>x[3]){a.w++;c.l++}else if(x[3]>x[2]){c.w++;a.l++}}else if(x[4]==='l'){a.lv=1;c.lv=1}}));
@@ -787,7 +873,7 @@ function valRender(){
   const ch=(a,n)=>{const o=[];for(let i=0;i<a.length;i+=n)o.push(a.slice(i,i+n));return o},P=[];
   const LV=VAL.live,D=LV.filter(m=>m.pl||(m.mp&&m.mp.some(x=>x.st))).slice(0,3),Rst=LV.filter(m=>!D.includes(m));
   ch(Rst,4).forEach(g=>P.push({t:'ll',d:g}));D.forEach(m=>P.push({t:'l',d:m}));
-  const gone=new Set([...VAL.liveAll,...VAL.res].map(m=>m.id)),UPS=[...VAL.up,...VAL.fu.filter(f=>!VAL.up.some(u=>u.id===f.id))].sort((x,y)=>x.ts-y.ts),UP=UPS.filter(m=>!gone.has(m.id)&&m.ts>Date.now()-10*6e4);
+  const gone=new Set([...VAL.liveAll,...VAL.res].map(m=>m.id)),UPS=[...VAL.up,...VAL.fu.filter(f=>!VAL.up.some(u=>u.id===f.id))].sort((x,y)=>x.ts-y.ts),UP=UPS.filter(m=>!gone.has(m.id)&&m.ts>Date.now()-3*6e4);
   ch(UP.slice(0,UP.length>=4?Math.min(12,UP.length-UP.length%4):UP.length),4).forEach(g=>P.push({t:'u',d:g}));
   if(VAL.br&&VAL.br.r)brPages(VAL.br).forEach(p=>P.push(p));
   const cost=m=>m.mp&&m.mp.length?4.7+(m.mp.length>3?1.9:0)+.5:3.8;let cur=[],used=0;
@@ -795,12 +881,13 @@ function valRender(){
   if(!P.length)P.push({t:'e',h:VAL.err?'Valorant data unavailable':'No VCT matches scheduled',msg:VAL.err||'Probably between events. This updates automatically.'});
   setItems('vg',P,true);
 }
+const AR=x=>Array.isArray(x)?x:[],OB=x=>x&&typeof x==='object'&&!Array.isArray(x)?x:{},MT=m=>!!m&&typeof m==='object'&&typeof m.a==='string'&&typeof m.b==='string'&&!!m.a&&!!m.b;
 async function valData(){
   try{
     const r=await fetch('data/valorant.json?t='+Date.now(),{cache:'no-store'});
     if(r.status===404)throw new Error('data/valorant.json not found yet. In your GitHub repo open Actions, choose “Update Valorant data” and press Run workflow once.');
     if(!r.ok)throw new Error('HTTP '+r.status);
-    const j=await r.json();const fv=m=>isFav(m.a)||isFav(m.b)?0:1,fs=a=>a.slice().sort((x,y)=>fv(x)-fv(y));VAL.liveAll=fs(j.live||[]);valFilter();goldCheck();VAL.br=j.br||null;VAL.up=fs((j.upcoming||[]).filter(m=>m.ts>Date.now()-36e5));VAL.res=fs(j.results||[]);VAL.fu=j.fu||[];VAL.fr=j.fr||[];VAL.logos=j.logos||{};VAL.colors=j.colors||{};VAL.agents=j.agents||{};VAL.evl=j.evlogos||{};VAL.vct=j.vct||'';NW.val=(j.news||[]).filter(x=>x.t&&(!x.ts||Date.now()-x.ts<10*864e5)).slice(0,4).map(x=>({t:x.t,b:x.d||'',l:x.url,src:'Valorant · VLR.gg',ago:x.ts?ago(x.ts):'',cta:'Read on VLR.gg ↗'}));newsRender();VAL.err='';VAL.upd=Date.parse(j.updated)||0;const ageM=VAL.upd?Math.round((Date.now()-VAL.upd)/6e4):0;VAL.age=ageM;if(VAL.upd&&ageM>(VAL.liveAll.length?10:45))srcBad('valorant','data is '+ageM+' min old, the GitHub Action is running late');else srcOk('valorant');D['valorant data']=(j.updated||'')+' · '+VAL.live.length+' live, '+VAL.up.length+' upcoming, '+VAL.res.length+' results';
+    const j=OB(await r.json());const fv=m=>isFav(m.a)||isFav(m.b)?0:1,fs=a=>a.slice().sort((x,y)=>fv(x)-fv(y));VAL.liveAll=fs(AR(j.live).filter(MT));valFilter();goldCheck();VAL.br=j.br&&Array.isArray(j.br.r)?j.br:null;VAL.up=fs(AR(j.upcoming).filter(MT).filter(m=>m.ts>Date.now()-36e5));VAL.res=fs(AR(j.results).filter(MT));VAL.fu=AR(j.fu).filter(MT);VAL.fr=AR(j.fr).filter(MT);VAL.logos=OB(j.logos);VAL.colors=OB(j.colors);VAL.agents=OB(j.agents);VAL.evl=OB(j.evlogos);VAL.vct=typeof j.vct==='string'?j.vct:'';NW.val=AR(j.news).filter(x=>x.t&&(!x.ts||Date.now()-x.ts<10*864e5)).slice(0,4).map(x=>({t:x.t,b:x.d||'',l:x.url,src:'Valorant · VLR.gg',ago:x.ts?ago(x.ts):'',cta:'Read on VLR.gg ↗'}));newsRender();VAL.err='';VAL.upd=Date.parse(j.updated)||0;const ageM=VAL.upd?Math.round((Date.now()-VAL.upd)/6e4):0;VAL.age=ageM;if(VAL.upd&&ageM>(VAL.liveAll.length?10:45))srcBad('valorant','data is '+ageM+' min old, the GitHub Action is running late');else srcOk('valorant');D['valorant data']=(j.updated||'')+' · '+VAL.live.length+' live, '+VAL.up.length+' upcoming, '+VAL.res.length+' results';
   }catch(e){srcBad('valorant',e.message);if(!VAL.live.length&&!VAL.up.length)VAL.err=e.message;D['valorant error']=e.message}
   valRender();
   const nw=Date.now();
@@ -858,7 +945,7 @@ function ilRefresh(id){const p=PILL[id];if(!p||!p.el)return;const ok=p.ok();
     return}
 p.el.style.display=ok?'':'none';if(ok)ilFill(id,p.row.cur===id)}
 const ilRefreshAll=()=>Object.keys(PILL).forEach(ilRefresh);
-function updRefresh(){const u=$('upd');if(!u)return;const w=staleSrc().length>0;$('updt').textContent=LR?hmt(LR/1000):'—';u.classList.toggle('busy',BUSY>0);u.classList.toggle('warn',w);$('upl').textContent=w?'Check data':'Updated'}
+function updRefresh(){const u=$('upd');if(!u)return;const w=staleSrc().length>0||ERRS.some(x=>Date.now()-x.t<9e5);if(typeof stDot==='function')stDot();$('updt').textContent=LR?hmt(LR/1000):'—';u.classList.toggle('busy',BUSY>0);u.classList.toggle('warn',w);$('upl').textContent=w?'Check data':'Updated'}
 function ilSwap(r,id){
   if(r.busy||id===r.cur)return;
   const pv=r.cur&&PILL[r.cur],nx=PILL[id];r.busy=true;
@@ -1081,21 +1168,76 @@ async function buses(){
 }
 
 /* ---------- glue ---------- */
-$('upd').onclick=()=>diag();
-const openSet=()=>{const c=cfg();$('k1').value=c.at;$('k3').value=c.fh;$('k4').value=c.stop;$('k5').value=c.routes;$('k7').value=c.walk;$('k8').value=LS.g('dimOn','22:00');$('k9').value=LS.g('dimOff','05:30');$('k10').value=LS.g('vfav','');$('k11').value=LS.g('vreg','');
-  $('c_w').checked=LS.g('n_weather','1')!=='0';$('c_s').checked=LS.g('n_stocks','1')!=='0';$('c_v').checked=LS.g('n_valorant','1')!=='0';$('c_t').checked=LS.g('n_transport','1')!=='0';
-  $('c_gap').value=LS.g('ngap','30');$('c_qf').value=LS.g('qFrom','22:00');$('c_qt').value=LS.g('qTo','07:00');$('c_eco').checked=LS.g('eco','1')==='1';$('c_fx').checked=LS.g('fx','0')==='1';$('dlg').showModal()};
-$('gear').onclick=openSet;$('ngear').onclick=openSet;
-$('cx').onclick=()=>$('dlg').close();
-$('sv').onclick=()=>{LS.s('at',$('k1').value.trim());LS.s('fh',$('k3').value.trim());LS.s('stop',$('k4').value.trim()||'8274');LS.s('routes',$('k5').value);LS.s('walk',$('k7').value.trim()||'4');LS.s('dimOn',$('k8').value);LS.s('dimOff',$('k9').value);LS.s('vfav',$('k10').value.trim());LS.s('vreg',$('k11').value);valFilter();valRender();
-  LS.s('n_weather',$('c_w').checked?'1':'0');LS.s('n_stocks',$('c_s').checked?'1':'0');LS.s('n_valorant',$('c_v').checked?'1':'0');LS.s('n_transport',$('c_t').checked?'1':'0');
-  LS.s('ngap',$('c_gap').value);LS.s('qFrom',$('c_qf').value);LS.s('qTo',$('c_qt').value);LS.s('eco',$('c_eco').checked?'1':'0');LS.s('fx',$('c_fx').checked?'1':'0');
-  applyEco();fxSet(FM,FN);fxStart();$('dlg').close();dimCalc();stopPos=null;buses();stocks(true)};
+/* ---------- Settings (iPad Settings app style): changes apply as you make them, Done closes ---------- */
+const stR=$('str'),stSc=$('stsc'),stBar=document.querySelector('.st-bar'),stIt=[...document.querySelectorAll('.st-it')],stPn=[...document.querySelectorAll('.st-pane')];
+let stPane=LS.g('stp','conn'),stTok=0,stSnap='',stT=0,stDgH='',stDgT=0;
+const stBarUp=()=>stBar.classList.toggle('sc',stSc.scrollTop>34);
+stSc.addEventListener('scroll',()=>{if(!stSc.q)stSc.q=requestAnimationFrame(()=>{stSc.q=0;stBarUp()})},{passive:true});
+function stShow(id,instant){
+  if(!stPn.some(p=>p.dataset.p===id))id='conn';
+  const cur=stPn.find(p=>p.classList.contains('on')),nx=stPn.find(p=>p.dataset.p===id);
+  stIt.forEach(b=>{const on=b.dataset.p===id;b.classList.toggle('on',on);b.setAttribute('aria-current',on?'page':'false')});
+  stPane=id;LS.s('stp',id);$('stnt').textContent=nx.dataset.t;
+  if(cur===nx)return;
+  const tk=++stTok,go=()=>{if(tk!==stTok)return;stPn.forEach(p=>p.classList.remove('on','out'));nx.classList.add('on');stSc.scrollTop=0;stBarUp();if(id==='diag')stDiag()};
+  if(cur&&!instant&&!REDUCE){cur.classList.add('out');setTimeout(go,130)}else go();
+}
+stIt.forEach(b=>b.addEventListener('click',()=>{stShow(b.dataset.p);stR.classList.add('push')}));
+$('stback').onclick=()=>stR.classList.remove('push');
+function segSync(s,instant){const t=$(s.dataset.t),bs=[...s.querySelectorAll('button')];let i=bs.findIndex(b=>b.dataset.v===t.value);if(i<0)i=0;
+  if(instant)s.classList.add('i');s.style.setProperty('--i',i);bs.forEach((b,k)=>{b.classList.toggle('on',k===i);b.setAttribute('aria-pressed',k===i)});if(instant){void s.offsetWidth;s.classList.remove('i')}}
+document.querySelectorAll('.st-seg').forEach(s=>s.addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;const t=$(s.dataset.t);if(t.value===b.dataset.v)return;t.value=b.dataset.v;segSync(s);t.dispatchEvent(new Event('change',{bubbles:true}))}));
+function stpSync(s){const t=$(s.dataset.t),v=Math.min(+s.dataset.max,Math.max(+s.dataset.min,+t.value||0));t.value=v;s.querySelector('b').textContent=v+s.dataset.u;const [m,p]=s.querySelectorAll('button');m.disabled=v<=+s.dataset.min;p.disabled=v>=+s.dataset.max}
+document.querySelectorAll('.st-stp').forEach(s=>s.addEventListener('click',e=>{const b=e.target.closest('button');if(!b||b.disabled)return;const t=$(s.dataset.t);t.value=(+t.value||0)+ +b.dataset.d;stpSync(s);t.dispatchEvent(new Event('change',{bubbles:true}))}));
+const stConn=()=>[LS.g('at'),LS.g('fh'),LS.g('stop','8274'),LS.g('routes','24R,24B'),LS.g('walk','4')].join('|');
+function loadSet(){const c=cfg(),set=(id,v)=>{$(id).value=v},chk=(id,v)=>{$(id).checked=v};
+  set('k1',c.at);set('k3',c.fh);set('k4',c.stop);set('k5',c.routes);set('k7',c.walk);set('k8',LS.g('dimOn','22:00')||LS.g('dimOn0','22:00'));set('k9',LS.g('dimOff','05:30'));set('k10',LS.g('vfav',''));set('k11',LS.g('vreg',''));
+  chk('c_n',!!LS.g('dimOn','22:00'));$('stncx').classList.toggle('off',!$('c_n').checked);
+  chk('c_w',LS.g('n_weather','1')!=='0');chk('c_s',LS.g('n_stocks','1')!=='0');chk('c_v',LS.g('n_valorant','1')!=='0');chk('c_t',LS.g('n_transport','1')!=='0');
+  set('c_gap',LS.g('ngap','30'));set('c_qf',LS.g('qFrom','22:00'));set('c_qt',LS.g('qTo','07:00'));chk('c_eco',LS.g('eco','1')==='1');chk('c_fx',LS.g('fx','0')==='1');
+  document.querySelectorAll('.st-seg').forEach(s=>segSync(s,true));document.querySelectorAll('.st-stp').forEach(stpSync);stSnap=stConn();stDot()}
+function commit(){clearTimeout(stT);const g=id=>$(id).value,on=id=>$(id).checked?'1':'0';
+  LS.s('at',g('k1').trim());LS.s('fh',g('k3').trim());LS.s('stop',g('k4').trim()||'8274');LS.s('routes',g('k5'));LS.s('walk',g('k7').trim()||'4');
+  const f=g('k8')||'22:00';LS.s('dimOn',$('c_n').checked?f:'');LS.s('dimOn0',f);LS.s('dimOff',g('k9'));LS.s('vfav',g('k10').trim());LS.s('vreg',g('k11'));
+  LS.s('n_weather',on('c_w'));LS.s('n_stocks',on('c_s'));LS.s('n_valorant',on('c_v'));LS.s('n_transport',on('c_t'));
+  LS.s('ngap',g('c_gap'));LS.s('qFrom',g('c_qf'));LS.s('qTo',g('c_qt'));LS.s('eco',on('c_eco'));LS.s('fx',on('c_fx'));
+  valFilter();valRender();applyEco();fxSet(FM,FN);fxStart();dimCalc();
+  const cs=stConn();if(cs!==stSnap){stSnap=cs;stopPos=null;buses();stocks(true)}}
+const qSave=ms=>{clearTimeout(stT);stT=setTimeout(commit,ms)};
+$('dlg').addEventListener('change',e=>{if(e.target.id==='c_n')$('stncx').classList.toggle('off',!e.target.checked);qSave(e.target.type==='checkbox'||e.target.type==='hidden'?40:0)});
+$('dlg').addEventListener('input',e=>{if(e.target.id==='k10')qSave(600)});
+function stDot(){const d=$('stdot');if(d)d.classList.toggle('on',staleSrc().length>0||ERRS.some(x=>Date.now()-x.t<9e5))}
+const stAgo=t=>{const m=Math.round((Date.now()-t)/6e4);return m<1?'just now':m<60?m+' min ago':Math.round(m/60)+' h ago'};
+function stReport(){return srcReport()+'\n\n'+(ERRS.length?'Errors\n'+ERRS.map(e=>stAgo(e.t)+' · '+e.w+': '+e.m).join('\n')+'\n\n':'')+Object.entries(D).filter(([k])=>!/^error/.test(k)).map(([k,v])=>k+': '+v).join('\n')}
+function stDiag(){const el=$('stdg');if(!el)return;
+  const src=Object.values(SRC).map(x=>{const s=x.bad?['bad','Failing since '+hmt(x.bad/1000)]:x.ok?['ok','OK · '+hmt(x.ok/1000)]:['','Not loaded yet'];return '<div class="st-row"><span class="st-l">'+esc(x.n)+'</span><span class="st-v '+s[0]+'">'+esc(s[1])+'</span></div>'}).join('');
+  const msgs=Object.values(SRC).filter(x=>x.bad&&x.msg).map(x=>esc(x.n)+': '+esc(x.msg)).join('<br>');
+  const er=ERRS.length?'<div class="st-g">'+ERRS.slice(0,8).map(e=>'<span class="st-er"><b>'+esc(e.w)+'</b> '+esc(e.m)+'<small>'+stAgo(e.t)+(e.loc?' · '+esc(e.loc):'')+'</small></span>').join('')+'</div><p class="st-f">Errors are caught so one widget never takes down the rest of the page.</p>':'';
+  const det=Object.entries(D).filter(([k])=>!/^error/.test(k));
+  const h='<div class="st-g">'+src+'</div>'+(msgs?'<p class="st-f">'+msgs+'</p>':'<p class="st-f">Each source is checked every few minutes. A warning appears on the island after 15 minutes of failures.</p>')+
+    (er?'<p class="st-f" style="margin:0 18px 8px;text-transform:uppercase;letter-spacing:.06em">Caught errors</p>'+er:'')+
+    (det.length?'<p class="st-f" style="margin:0 18px 8px;text-transform:uppercase;letter-spacing:.06em">Details</p><div class="st-g">'+det.map(([k,v])=>'<div class="st-row"><span class="st-l st-mono">'+esc(k)+'</span><span class="st-v st-mono" style="word-break:break-all;text-align:right">'+esc(String(v).slice(0,90))+'</span></div>').join('')+'</div><p class="st-f"></p>':'')+
+    '<div class="st-g"><button class="st-act" id="stcp" type="button">Copy report</button>'+(ERRS.length?'<button class="st-act" id="stcl" type="button">Clear error log</button>':'')+'<button class="st-act dn" id="strl" type="button">Reload dashboard</button></div>';
+  if(h!==stDgH){stDgH=h;el.innerHTML=h}stDot()}
+$('stdg').addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;
+  if(b.id==='strl')location.reload();
+  else if(b.id==='stcl'){ERRS.length=0;Object.keys(D).forEach(k=>{if(/^error/.test(k))delete D[k]});stDgH='';stDiag();updRefresh()}
+  else if(b.id==='stcp'){const t=stReport(),ok=()=>{b.textContent='Copied';setTimeout(()=>{b.textContent='Copy report'},1600)};try{navigator.clipboard.writeText(t).then(ok,()=>{b.textContent='Copy not allowed here'})}catch(_){b.textContent='Copy not allowed here'}}});
+function openSet(p){const d=$('dlg');if(d.open){if(p)stShow(p);return}
+  loadSet();stR.classList.toggle('push',!!p&&matchMedia('(max-width:719px)').matches);d.showModal();stShow(p||stPane,true);clearInterval(stDgT);stDgT=setInterval(()=>{if(!d.open){clearInterval(stDgT);return}if(stPane==='diag')stDiag();else stDot()},3000)}
+function closeSet(){const d=$('dlg');if(!d.open||d.classList.contains('closing'))return;commit();d.classList.add('closing');setTimeout(()=>{d.classList.remove('closing');if(d.open)d.close()},REDUCE?0:270)}
+$('sdone').onclick=closeSet;
+$('dlg').addEventListener('cancel',e=>{e.preventDefault();closeSet()});
+let stDown=null;$('dlg').addEventListener('pointerdown',e=>{stDown=e.target});$('dlg').addEventListener('click',e=>{if(e.target===$('dlg')&&stDown===$('dlg'))closeSet()});
+$('upd').onclick=()=>openSet('diag');
+$('gear').onclick=()=>openSet();$('ngear').onclick=()=>openSet();
 function srcReport(){return Object.values(SRC).map(x=>x.bad?'⚠ '+x.n+': failing since '+hmt(x.bad/1000)+(x.msg?' ('+x.msg+')':''):x.ok?'✓ '+x.n+': OK, last '+hmt(x.ok/1000):'· '+x.n+': not loaded yet').join('\n')}
-function diag(){$('dgp').textContent=srcReport()+'\n\n'+Object.entries(D).map(([k,v])=>k+': '+v).join('\n')||'No diagnostics yet.';$('dg2').showModal()}
-$('dgc').onclick=()=>$('dg2').close();
 let rz=0;addEventListener('resize',()=>{clearTimeout(rz);rz=setTimeout(()=>{setK();fxSize();fxStart();refitAll();ilRefreshAll()},200)});
 fxSize();tick();schedTick();ilInit();minuteChecks();
+weather=guard('Weather',weather,'wb');stocks=guard('Stocks',stocks);buses=guard('Bus times',buses,'bl');news=guard('News',news,'nb');valData=guard('Valorant',valData,'vgb');valRender=guard('Valorant',valRender,'vgb');quote=guard('Quote',quote,'qb');newsRender=guard('News',newsRender,'nb');wxNotify=guard('Alerts',wxNotify);ilRefresh=guard('Island',ilRefresh);dimCalc=guard('Night screen',dimCalc);niteRender=guard('Night screen',niteRender);
+/* a widget that never produced anything shows a calm "unavailable" card instead of an empty hole */
+const WD=[['wb','Weather'],['bl','Bus times'],['vgb','Valorant'],['nb','News'],['qb','Quote']];
+setTimeout(()=>{const chk=()=>WD.forEach(([b,n])=>{const x=$(b);if(x&&!x.children.length){down(b,n);if(!ERRS.some(e=>e.w===n&&Date.now()-e.t<6e5))logErr(n,'Nothing was drawn after 15 s')}});chk();setInterval(chk,6e4)},15000);
 const later=(f,ms)=>setTimeout(f,ms);   /* every data source starts at a different moment, so work never piles up */
 later(()=>{weather();setInterval(weather,6e5)},300);
 later(()=>{stocks(true);setInterval(()=>{if(!document.hidden&&!DM.on)stocks()},6e4)},1700);
