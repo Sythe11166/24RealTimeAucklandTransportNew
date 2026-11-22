@@ -207,7 +207,8 @@ body.eco .vl>*,body.eco .lv1>*{animation:none}
 @media(min-width:701px){main.tk #vg{grid-area:v-start/v-start/q-end/n-end;z-index:3}
 @media(orientation:portrait){main.tk #vg{grid-area:q-start/q-start/n-end/n-end}main.tk #bus{grid-area:b-start/b-start/v-end/v-end;z-index:2}}
 main.tkx #nw,main.tkx #q{display:none}}
-.vb.vtap{cursor:pointer}.tkclose{position:absolute;top:0;right:0;z-index:4;width:2.3em;height:2.3em;border-radius:50%;display:grid;place-items:center;color:#fff;background:rgba(255,255,255,.16);box-shadow:inset 0 0 0 1px rgba(255,255,255,.12)}.tkclose svg{width:1.05em;height:1.05em}.tkclose:active{background:rgba(255,255,255,.3)}
+.vb.vtap{cursor:pointer}.tkclose{flex:none;width:1.9em;height:1.9em;border-radius:50%;display:grid;place-items:center;color:#fff;background:rgba(255,255,255,.16);box-shadow:inset 0 0 0 1px rgba(255,255,255,.12)}.tkclose svg{width:.95em;height:.95em}.tkclose:active{background:rgba(255,255,255,.3)}
+.tkp .mrail{position:relative}.mhit{position:absolute;inset:-.25em 0;display:grid;grid-template-columns:repeat(var(--n),minmax(0,1fr));z-index:2}.mhit button{background:none;border:0;padding:0;margin:0;cursor:pointer;outline:none;-webkit-tap-highlight-color:transparent}
 .vgp.tkp{position:relative;font-size:calc(min(4.7cqh,1.6cqw)*var(--vf,1));display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.6fr) minmax(0,1fr);grid-template-rows:auto minmax(0,1fr);column-gap:1.6em}
 .tkp .vh{grid-column:1/-1}
 .tkt{display:flex;flex-direction:column;justify-content:center;gap:.75em;min-width:0}
@@ -573,7 +574,10 @@ async function weather(){
 /* ---------- NZ news: all of today's general stories ---------- */
 const NW={rnz:[],val:[],err:''};
 rotor('nw','nb','nd',n=>n.err?'<div class="fit" style="font-size:16px"><p>News unavailable ('+esc(n.err)+').</p></div>':'<div class="fit" style="font-size:21px"><span class="tag">'+esc(n.src)+(n.ago?' · '+esc(n.ago):'')+'</span><h3>'+esc(n.t)+'</h3><p>'+esc(n.b)+'</p><a href="'+esc(n.l)+'" target="_blank" rel="noopener">'+esc(n.cta||'Read on RNZ ↗')+'</a></div>',14000,{fit:21,tr:'tr-flip'});
-$('vg').addEventListener('click',e=>{const c=e.target.closest('.tkclose');if(c){TK.dis[c.dataset.id]=1;if(TK.man===c.dataset.id)TK.man=null;valRender();return}const r=e.target.closest('[data-rid]');if(r){TK.man=r.dataset.rid;delete TK.dis[TK.man];valRender()}});
+$('vg').addEventListener('click',e=>{const c=e.target.closest('.tkclose');if(c){TK.dis[c.dataset.id]=1;if(TK.man===c.dataset.id)TK.man=null;valRender();return}
+  const h=e.target.closest('.mhit button');if(h){TK.pm[h.dataset.mid]=+h.dataset.pm;valRender();requestAnimationFrame(vgPost);return}
+  const r=e.target.closest('[data-rid]');if(r){TK.man=r.dataset.rid;delete TK.dis[TK.man];valRender();return}
+  if(!TK.busy)step('vg',1)});
 $('nw').onclick=e=>{if(!e.target.closest('a'))step('nw',1)};$('q').onclick=()=>{qOff++;quote(true)};
 const FEEDS=['https://www.rnz.co.nz/rss/national.xml','https://www.rnz.co.nz/rss/world.xml','https://www.rnz.co.nz/rss/business.xml','https://www.rnz.co.nz/rss/political.xml','https://www.rnz.co.nz/rss/ldr.xml'];
 const clean=h=>{const t=document.createElement('textarea');t.innerHTML=String(h||'').replace(/<[^>]*>/g,' ');return t.value.replace(/\s+/g,' ').trim()};
@@ -587,7 +591,7 @@ async function feed(u){
   return j.items.map(i=>({t:i.title,d:i.description||i.content,l:i.link,p:i.pubDate}));
 }
 /* RNZ stories with a Valorant story slipped in after every third one */
-const TK={on:false,out:0,busy:0,seen:0,man:null,dis:{},exp:0};
+const TK={on:false,out:0,busy:0,seen:0,man:null,dis:{},exp:0,pm:{}};
 function newsRender(){
   if(TK.on)return;
   const R=NW.rnz,V=NW.val,L=[];let v=0;
@@ -647,7 +651,7 @@ function vgRail(){document.querySelectorAll('#vgb .mrs').forEach(s=>{const f=+s.
   s.classList.add('nt');set(p);void s.offsetWidth;requestAnimationFrame(()=>{s.classList.remove('nt');set(f);s.dataset.p=f})})}
 /* shrink the whole page a touch if anything would overflow (other iPad sizes, long names) */
 function vgFit(){const g=document.querySelector('#vgb .fi:not(.out) .vgp');if(!g)return;g.style.setProperty('--vf',1);let v=1;
-  const bad=()=>[...g.querySelectorAll('.vl,.lv1,.bcs')].some(e=>{const k=e.children;if(!k.length)return false;const f=k[0],l=k[k.length-1];return l.offsetTop+l.offsetHeight-f.offsetTop>e.clientHeight-parseFloat(getComputedStyle(e).paddingBottom)-1})||g.scrollHeight>g.clientHeight+1;
+  const bad=()=>[...g.querySelectorAll('.vl,.lv1,.bcs')].some(e=>{const k=e.children;if(!k.length)return false;const f=k[0],l=k[k.length-1];return l.offsetTop+l.offsetHeight-f.offsetTop>e.clientHeight-parseFloat(getComputedStyle(e).paddingBottom)-1})||g.scrollHeight>g.clientHeight+1||g.scrollWidth>g.clientWidth+1;
   for(let i=0;i<10&&bad();i++){v-=.04;g.style.setProperty('--vf',v.toFixed(2))}}
 function vgMq(){document.querySelectorAll('#vgb .tkv').forEach(e=>{const s=e.firstElementChild;if(!s)return;e.classList.remove('mq');const o=s.offsetWidth-e.clientWidth;if(o>2){e.style.setProperty('--o',-o+'px');e.style.setProperty('--d',Math.max(5,o/22+3.5).toFixed(1)+'s');e.classList.add('mq')}})}
 const vgPost=()=>{vgFit();vgRail();vgMq()};
@@ -665,9 +669,9 @@ const tkPost=(m,i)=>{const s=m.sm[i],A=+m.sa,B=+m.sb,n=m.sm.length,any=[...(s.pa
   const team=(t,r,pl)=>{const kd=pl&&pl.some(x=>x.k!=null);return '<div class="tkt'+(r?' r':'')+'"><div class="tkh">'+badge(t,VAL.logos[t],'',m.ev,1)+'<div class="tkn">'+esc(sn(t))+(isFav(t)?' <em class="fv">★</em>':'')+'</div></div>'+(pl?'<div class="tkb"><div class="lcap">'+esc(tagOf(m,r))+' · Players</div>'+plCol(pl,any,!kd,r)+'</div>':'')+'</div>'};
   const pf=VAL.pf['p'+m.id];VAL.pf['p'+m.id]=i;
   const cell=(x,k)=>'<div class="mc '+(k===i?'f':'nx')+'"><small>'+(k===n-1&&n>1&&+m.bo===n?'Decider':'Map '+(k+1))+'</small><b>'+esc(x.n)+'</b><i>'+x.a+' – '+x.b+'</i></div>';
-  const rail='<div class="mrail mrs" style="--n:'+n+';--f:'+i+'" data-f="'+i+'" data-p="'+(pf==null?i:pf)+'"><div class="mcols">'+m.sm.map(cell).join('')+'</div><div class="mbar">'+m.sm.map((x,k)=>'<s class="'+(k<i?'dn':'')+'"></s>').join('')+'<u class="mth"></u></div></div>';
+  const rail='<div class="mrail mrs" style="--n:'+n+';--f:'+i+'" data-f="'+i+'" data-p="'+(pf==null?i:pf)+'"><div class="mcols">'+m.sm.map(cell).join('')+'</div><div class="mbar">'+m.sm.map((x,k)=>'<s class="'+(k<i?'dn':'')+'"></s>').join('')+'<u class="mth"></u></div><div class="mhit">'+m.sm.map((x,k)=>'<button data-mid="'+esc(m.id)+'" data-pm="'+k+'" aria-label="Map '+(k+1)+'"></button>').join('')+'</div></div>';
   const vl=vt.length?'<div class="tkv"><span>'+vt.map(v=>v[0]==='d'?'Decider '+esc(v[2]):esc(abbr(v[1]))+(v[0]==='x'?' ban ':' pick ')+esc(v[2])).join(' · ')+'</span></div>':'';
-  return '<div class="vgp tkp"><button class="tkclose" data-id="'+esc(m.id)+'" aria-label="Close summary"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M6.5 6.5l11 11M17.5 6.5l-11 11"/></svg></button>'+vhead('','Final',evNo(m.ev)+(m.ph?' · '+m.ph:''),regP(m.ev)+boTag(m))+team(m.a,0,s.pa)+'<div class="tkc"><div class="tks"><b'+(B>A?' class="lo"':'')+'>'+esc(m.sa)+'</b><i>–</i><b'+(A>B?' class="lo"':'')+'>'+esc(m.sb)+'</b></div>'+(s.a!=null?'<div class="tkl fin">'+esc(s.n)+' <b>'+s.a+' – '+s.b+'</b>'+(ot?' · Overtime':'')+'</div>':'')+rail+rdStrip({a:m.a,b:m.b,rd:s.rd||[]})+vl+h2hLine(m)+'</div>'+team(m.b,1,s.pb)+'</div>'};
+  return '<div class="vgp tkp">'+vhead('','Final',evNo(m.ev)+(m.ph?' · '+m.ph:''),regP(m.ev)+boTag(m)).replace(/<\/div>$/,'<button class="tkclose" data-id="'+esc(m.id)+'" aria-label="Close summary"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"><path d="M7 7l10 10M17 7L7 17"/></svg></button></div>')+team(m.a,0,s.pa)+'<div class="tkc"><div class="tks"><b'+(B>A?' class="lo"':'')+'>'+esc(m.sa)+'</b><i>–</i><b'+(A>B?' class="lo"':'')+'>'+esc(m.sb)+'</b></div>'+(s.a!=null?'<div class="tkl fin">'+esc(s.n)+' <b>'+s.a+' – '+s.b+'</b>'+(ot?' · Overtime':'')+'</div>':'')+rail+rdStrip({a:m.a,b:m.b,rd:s.rd||[]})+vl+h2hLine(m)+'</div>'+team(m.b,1,s.pb)+'</div>'};
 const bigSide=(n,ev)=>'<div class="bs">'+badge(n,VAL.logos[n],'',ev,1)+'<span>'+esc(sn(n))+(isFav(n)?' <em class="fv">★</em>':'')+'</span></div>';
 const soonHtml=m=>{const vt=m.vt||[];return '<div class="vgp">'+vhead('','Starting soon',evNo(m.ev)+(m.ph?' · '+m.ph:''),regP(m.ev)+boTag(m))+'<div class="lv1"><div class="lsr so">'+bigSide(m.a,m.ev)+'<div class="vtc"><div class="vt">'+esc(tmS(m.ts))+'</div><div class="vd cdn" data-ts="'+m.ts+'">'+(m.ts<Date.now()?'starting':'in '+cdTxt(m.ts))+'</div></div>'+bigSide(m.b,m.ev)+'</div>'+(vt.length?'<div class="vet" style="--n:'+vt.length+'">'+vt.map(v=>'<div class="vx '+v[0]+'" style="--tc:'+(v[1]?tcol(v[1]):'#fff')+'"><small>'+(v[0]==='d'?'Decider':esc(abbr(v[1]))+(v[0]==='x'?' ban':' pick'))+'</small><b>'+esc(v[2])+'</b></div>').join('')+'</div>':'<div class="lnote">Map veto not published yet</div>')+h2hLine(m)+'</div></div>'};
 const brHtml=b=>{const X=new Set(b.x||[]),rs=b.r;let idx=-1;rs.forEach((r,i)=>{if(r.m.some(x=>x[4]!=='u'))idx=i});if(idx<0)idx=0;
@@ -711,7 +715,7 @@ function valRender(){
   if(T.length)TK.man=null;
   const man=TK.man?VAL.res.filter(m=>m.id===TK.man&&hs(m)):[];if(TK.man&&!man.length)TK.man=null;
   const F=man.length?man:auto;TK.exp=man.length||!auto.length?0:Math.min(...auto.map(m=>m.et+36e5));
-  const TP=T.length?T.map(m=>({t:'k',d:m})):F.flatMap(m=>m.sm.map((_,i)=>({t:'k',d:m,pm:i}))),on=TP.length>0;
+  const TP=T.length?T.map(m=>({t:'k',d:m})):F.map(m=>({t:'k',d:m,pm:Math.min(TK.pm[m.id]||0,m.sm.length-1)})),on=TP.length>0;
   if(TK.busy)return;
   if(on!==TK.on){
     if(on){tkIn(!TK.seen);TK.on=true;TK.out=0;TK.seen=1;if(typeof ilRefreshAll==='function')ilRefreshAll()}
