@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T23:52:48.620Z",
+ "updated": "2026-11-22T23:54:29.887Z",
  "live": [
   {
    "id": "793333",
@@ -21,7 +21,7 @@
     {
      "n": "Corrode",
      "a": 11,
-     "b": 7,
+     "b": 9,
      "st": "l"
     },
     {
@@ -187,6 +187,14 @@
     [
      "b",
      "d"
+    ],
+    [
+     "b",
+     "e"
+    ],
+    [
+     "b",
+     "e"
     ],
     [
      "b",
@@ -1579,10 +1587,6 @@
      ]
     }
    ],
-   "tg": [
-    "WC",
-    "WU"
-   ],
    "vt": [
     [
      "x",
@@ -1626,7 +1630,11 @@
    },
    "bo": "3",
    "smt": 1795391562902,
-   "et": 1795391564102
+   "et": 1795391564102,
+   "tg": [
+    "WC",
+    "WU"
+   ]
   },
   {
    "id": "792038",
@@ -4859,7 +4867,7 @@
   "u": "/event/3179/vct-2027-america-kickoff-north-america-qualifier-playoffs/swiss-stage",
   "rg": "Americas",
   "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-  "at": 1795391364383,
+  "at": 1795391668534,
   "r": [
    {
     "r": "Round 1 (0-0)",
@@ -5001,9 +5009,9 @@
      [
       "Wildcard",
       "Winthrop University",
-      1,
+      2,
       0,
-      "l"
+      "d"
      ],
      [
       "Maryville University",
