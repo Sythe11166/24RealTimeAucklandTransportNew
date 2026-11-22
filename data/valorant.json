@@ -1,7 +1,21 @@
 {
- "updated": "2026-11-22T13:52:32.073Z",
+ "updated": "2026-11-22T13:52:57.984Z",
  "live": [],
  "upcoming": [
+  {
+   "id": "792551",
+   "a": "Mix My Miks",
+   "b": "No Org No Problem",
+   "sa": "–",
+   "sb": "–",
+   "ev": "VCT 2027: EMEA Kickoff - MENA Qualifier",
+   "ph": "Playoffs–Grand Final",
+   "ts": 1795355700000,
+   "url": "https://www.vlr.gg/792551/mix-my-miks-vs-no-org-no-problem-vct-2027-emea-kickoff-mena-qualifier-playoffs-gf",
+   "bo": "3",
+   "evu": "/event/3167/vct-2027-emea-kickoff-mena-qualifier/playoffs",
+   "fz": 1
+  },
   {
    "id": "792038",
    "a": "Manticore",
@@ -43,10 +57,7 @@
    "ev": "VCT 2027: America Kickoff - LATAM North Qualifier Playoffs",
    "ph": "Swiss Stage–Round 2 (1-0)",
    "ts": 1795384800000,
-   "url": "https://www.vlr.gg/793236/leons-vs-contra-vct-2027-america-kickoff-latam-north-qualifier-playoffs-swiss-stage-r2-1-0",
-   "bo": "3",
-   "evu": "/event/3184/vct-2027-america-kickoff-latam-north-qualifier-playoffs/swiss-stage",
-   "fz": 1
+   "url": "https://www.vlr.gg/793236/leons-vs-contra-vct-2027-america-kickoff-latam-north-qualifier-playoffs-swiss-stage-r2-1-0"
   },
   {
    "id": "793237",
@@ -135,17 +146,6 @@
    "ph": "Swiss Stage–Round 3 (1-1)",
    "ts": 1795393800000,
    "url": "https://www.vlr.gg/793335/maryville-university-vs-qor-vct-2027-america-kickoff-north-america-qualifier-playoffs-r3-1-1"
-  },
-  {
-   "id": "793336",
-   "a": "Oafs",
-   "b": "SaD Esports",
-   "sa": "–",
-   "sb": "–",
-   "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ph": "Swiss Stage–Round 3 (1-1)",
-   "ts": 1795393800000,
-   "url": "https://www.vlr.gg/793336/oafs-vs-sad-esports-vct-2027-america-kickoff-north-america-qualifier-playoffs-r3-1-1"
   }
  ],
  "results": [
@@ -4869,7 +4869,7 @@
   {
    "t": "Shopify Rebellion Gold signs melya from FlyQuest RED",
    "d": "A completed SRG roster ahead of the 2027 season.",
-   "ts": 1795089600000,
+   "ts": 1795176000000,
    "url": "https://www.vlr.gg/792536/shopify-rebellion-gold-signs-melya-from-flyquest-red"
   }
  ],
@@ -4901,8 +4901,8 @@
   "LEONS": "",
   "Contra": "https://owcdn.net/img/66572b1da4d79.png",
   "FUEGO": "https://owcdn.net/img/678f90b7b65e5.png",
-  "Mafiosos": "",
-  "Master Bank": ""
+  "Mix My Miks": "https://owcdn.net/img/6aad435f0d90b.png",
+  "No Org No Problem": ""
  },
  "colors": {
   "Winthrop University": "#fbb310",
@@ -4925,7 +4925,8 @@
   "Arashi": "#de6523",
   "ARRANCA DREAMS": "#750dc5",
   "Contra": "#f0b104",
-  "FUEGO": "#d95028"
+  "FUEGO": "#d95028",
+  "Mix My Miks": "#911318"
  },
  "agents": {
   "gekko": {
@@ -5052,7 +5053,8 @@
  "evlogos": {
   "VCT 2027: America Kickoff - North America Qualifier Playoffs": "https://owcdn.net/img/640f5ab71dfbb.png",
   "VCT 2027: America Kickoff - Brazil Qualifier Playoffs": "https://owcdn.net/img/640f5ab71dfbb.png",
-  "VCT 2027: America Kickoff - LATAM North Qualifier Playoffs": "https://owcdn.net/img/640f5ab71dfbb.png"
+  "VCT 2027: America Kickoff - LATAM North Qualifier Playoffs": "https://owcdn.net/img/640f5ab71dfbb.png",
+  "VCT 2027: EMEA Kickoff - MENA Qualifier": "https://owcdn.net/img/65ab59620a233.png"
  },
  "vct": "https://owcdn.net/img/640f5ab71dfbb.png",
  "br": {
@@ -5368,7 +5370,7 @@
    "a": "Mix My Miks",
    "b": "No Org No Problem",
    "ev": "VCT 2027: EMEA Kickoff - MENA Qualifier",
-   "ts": 1795355400000
+   "ts": 1795355700000
   },
   {
    "id": "792038",
@@ -5459,42 +5461,42 @@
    "a": "University War",
    "b": "ARG.MIX",
    "ev": "VCT 2027: America Kickoff - LATAM South Qualifier Playoffs",
-   "ts": 1795459800000
+   "ts": 1795460100000
   },
   {
    "id": "793564",
    "a": "TRAMITE",
    "b": "EL LEGADO",
    "ev": "VCT 2027: America Kickoff - LATAM South Qualifier Playoffs",
-   "ts": 1795459800000
+   "ts": 1795460100000
   },
   {
    "id": "793565",
    "a": "9z Globant",
    "b": "MALAJUNTA",
    "ev": "VCT 2027: America Kickoff - LATAM South Qualifier Playoffs",
-   "ts": 1795467000000
+   "ts": 1795467300000
   },
   {
    "id": "793566",
    "a": "KRÜ BLAZE",
    "b": "fracasados ny",
    "ev": "VCT 2027: America Kickoff - LATAM South Qualifier Playoffs",
-   "ts": 1795467000000
+   "ts": 1795467300000
   },
   {
    "id": "790432",
    "a": "TROOPERS",
    "b": "Bonkers",
    "ev": "VCT 2027: Pacific Kickoff - Oceania Qualifier",
-   "ts": 1795593000000
+   "ts": 1795593300000
   },
   {
    "id": "790433",
    "a": "Finishers",
    "b": "MeatZn",
    "ev": "VCT 2027: Pacific Kickoff - Oceania Qualifier",
-   "ts": 1795593000000
+   "ts": 1795593300000
   }
  ],
  "fr": [
