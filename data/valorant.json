@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T02:14:53.292Z",
+ "updated": "2026-11-22T02:16:33.102Z",
  "live": [
   {
    "id": "792035",
@@ -100,7 +100,7 @@
     },
     {
      "n": "Haven",
-     "a": 6,
+     "a": 7,
      "b": 12,
      "st": "l"
     },
@@ -267,6 +267,10 @@
     [
      "b",
      "e"
+    ],
+    [
+     "a",
+     "e"
     ]
    ],
    "rdm": "Haven"
@@ -291,7 +295,7 @@
     {
      "n": "Corrode",
      "a": 1,
-     "b": 5,
+     "b": 6,
      "st": "l"
     },
     {
@@ -409,6 +413,10 @@
     [
      "b",
      "e"
+    ],
+    [
+     "b",
+     "e"
     ]
    ],
    "rdm": "Corrode"
@@ -432,7 +440,7 @@
     },
     {
      "n": "Haven",
-     "a": 5,
+     "a": 6,
      "b": 0,
      "st": "l"
     },
@@ -547,6 +555,10 @@
     [
      "a",
      "e"
+    ],
+    [
+     "a",
+     "b"
     ]
    ],
    "rdm": "Haven"
@@ -1026,7 +1038,7 @@
  "br": {
   "u": "/event/3183/vct-2027-america-kickoff-brazil-qualifier-playoffs/swiss-stage",
   "ev": "VCT 2027: America Kickoff - Brazil Qualifier Playoffs",
-  "at": 1795313492937,
+  "at": 1795313791799,
   "r": [
    {
     "r": "Round 1 (0-0)",
@@ -1135,9 +1147,9 @@
      [
       "ARRANCA DREAMS",
       "Piranhas do Caribe",
+      2,
       1,
-      1,
-      "l"
+      "d"
      ],
      [
       "Arashi",
