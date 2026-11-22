@@ -201,24 +201,22 @@ body.eco .vl>*,body.eco .lv1>*{animation:none}
 .vgempty{justify-content:center;gap:.5em}.vgempty .vh{justify-content:flex-start}.vgempty b{font-size:1.2em}.vgempty span{font-size:.8em;color:var(--mu);overflow-wrap:anywhere}
 /* news + quote */
 .ah{font-size:1em;font-weight:750;line-height:1.2}
-#nw.pin{--tx:#f4f6fb;--mu:rgba(244,246,251,.6);background:radial-gradient(75% 85% at 0% 100%,color-mix(in srgb,var(--ca) 42%,transparent),transparent 72%),radial-gradient(75% 85% at 100% 100%,color-mix(in srgb,var(--cb) 42%,transparent),transparent 72%),#090b11}
-.pnw{height:100%;display:flex;flex-direction:column;font-size:min(6cqh,5cqw)}
-.pnh{display:flex;align-items:center;gap:.55em;font-size:.6em;font-weight:700;letter-spacing:.1em;color:var(--mu);text-transform:uppercase;white-space:nowrap;overflow:hidden;flex:none}.pnh b{color:#ff7a86}.pnh span:last-child{overflow:hidden;text-overflow:ellipsis}
-.pnb{flex:1;min-height:0;display:grid;grid-template-columns:1fr 1fr;grid-template-areas:"a b" "m m";align-content:center;align-items:center;row-gap:.9em}
-.pnt:first-child{grid-area:a;justify-self:start}.pnt.r{grid-area:b;justify-self:end;flex-direction:row-reverse}.pnmp{grid-area:m}
-.pnt{display:flex;align-items:center;gap:.5em;min-width:0}
-.pnl{display:flex;flex-direction:column;align-items:center;gap:.3em;min-width:0;max-width:6.2em;font-weight:750;font-size:.82em;text-align:center}.pnl span{max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-#nw.pin .tb.big{width:3.5em;height:3.5em}
-.pnn{display:grid;place-items:center;min-width:1.05em;height:1.3em;padding:0 .12em;border-radius:.4em;background:rgba(255,255,255,.09);color:rgba(255,255,255,.62);font-size:2.4em;font-weight:800;letter-spacing:-.02em;line-height:1;font-variant-numeric:tabular-nums;flex:none}.pnn.ld{background:rgba(255,255,255,.22);color:#fff}
-.pnmp{display:grid;grid-template-columns:repeat(var(--n),minmax(0,1fr));gap:.4em;min-width:0}
-.pnx{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:.1em;padding:.45em .3em;border-radius:1em;background:rgba(255,255,255,.06);text-align:center;min-width:0;opacity:.55}
-.pnx small{display:flex;align-items:center;gap:.4em;font-size:.55em;font-weight:700;letter-spacing:.1em;color:var(--mu);text-transform:uppercase;white-space:nowrap}
-.pnx b{max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:.8em;font-weight:700}
-.pnx i{font-style:normal;font-size:1.1em;font-weight:800;font-variant-numeric:tabular-nums;white-space:nowrap}
-.pnx em{font-style:normal;font-size:.72em;font-weight:700;color:#ff9aa3}
-.pnx.d{opacity:.7}.pnx.l{opacity:1;background:rgba(255,255,255,.13);box-shadow:inset 0 0 0 1.5px rgba(255,90,104,.55)}.pnx.l small{color:#ff9aa3}.pnx.l i{font-size:1.9em}.pnx.l b{font-size:.9em}
-#nw.pin .ldot{width:.5em;height:.5em}
-@container (min-aspect-ratio:2.3/1){.pnw{font-size:min(10.5cqh,3.1cqw)}.pnb{grid-template-columns:auto minmax(0,1fr) auto;grid-template-areas:"a m b";column-gap:.9em;row-gap:0}.pnt:first-child{justify-self:stretch}.pnt.r{justify-self:stretch}}
+/* favourite takeover: the Valorant card spans the old Valorant + news + quote area and shows everything about the live match */
+@media(min-width:701px){main.tk{grid-template-areas:"w w w w w w w b b b b b" "w w w w w w w b b b b b" "v v v v v v v v v v v v" "v v v v v v v v v v v v" "i i i i i i i i i i i i"}
+@media(orientation:portrait){main.tk{grid-template-areas:"w w w w w w w w w w w w" "w w w w w w w w w w w w" "b b b b b b b b b b b b" "b b b b b b b b b b b b" "v v v v v v v v v v v v" "v v v v v v v v v v v v" "i i i i i i i i i i i i"}}
+main.tk #nw,main.tk #q{display:none}}
+.vgp.tkp{font-size:calc(min(4.7cqh,1.6cqw)*var(--vf,1));display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.6fr) minmax(0,1fr);grid-template-rows:auto minmax(0,1fr);column-gap:1.6em}
+.tkp .vh{grid-column:1/-1}
+.tkt{display:flex;flex-direction:column;justify-content:center;gap:.75em;min-width:0}
+.tkh{display:flex;align-items:center;gap:.75em;min-width:0}.tkt.r .tkh{flex-direction:row-reverse;text-align:right}
+.tkh .tb.big{width:3.4em;height:3.4em}
+.tkn{font-size:1.2em;font-weight:780;line-height:1.1;min-width:0;overflow:hidden;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}
+.tkb{display:flex;flex-direction:column;gap:.4em;padding:.55em .85em;border-radius:1.1em;background:rgba(5,6,10,.5)}.tkb .lcap{text-align:center}
+.tkt .lpc,.tkt .lpc.nk{font-size:.95em;gap:.2em}
+.tkc{display:flex;flex-direction:column;justify-content:center;gap:.75em;min-width:0}
+.tks{display:flex;align-items:center;justify-content:center;gap:.4em;font-size:3.3em;font-weight:800;line-height:1;font-variant-numeric:tabular-nums;letter-spacing:-.02em}.tks i{font-style:normal;opacity:.4}.tks b.lo{opacity:.5}
+.tkl{display:flex;align-items:center;justify-content:center;gap:.5em;font-size:.95em;font-weight:700;color:#ff9aa3;white-space:nowrap;font-variant-numeric:tabular-nums}.tkl b{color:#fff;font-size:1.15em}.tkl .ldot{width:7px;height:7px}
+.tkv{text-align:center;font-size:.62em;font-weight:650;letter-spacing:.03em;color:var(--mu);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .tag{font-size:.5em;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#e0301e;display:block;margin-bottom:.4em}
 #nb h3{font-size:1em;font-weight:750;line-height:1.2;letter-spacing:-.01em}
 #nb p{font-size:.64em;color:var(--mu);margin-top:.5em;line-height:1.35}
@@ -437,7 +435,7 @@ function fitBox(id,max,min=10){max*=SK;min*=SK;const b=$(id),l=b.lastElementChil
 const SK=1,setK=()=>{};
 const RT={};
 const refitAll=()=>{['nw'].forEach(k=>{const r=RT[k];if(r&&r.o.fit)fitBox(r.box,r.o.fit)});fitBox('qb',26)};
-function rotor(key,box,dots,render,ms,o){RT[key]={i:0,items:[],box,dots,render,o:o||{}};if(o&&o.tr)$(box).classList.add(o.tr);setInterval(()=>{if(!document.hidden&&!DM.on&&!(key==='nw'&&PIN.on))step(key,1)},ms)}
+function rotor(key,box,dots,render,ms,o){RT[key]={i:0,items:[],box,dots,render,o:o||{}};if(o&&o.tr)$(box).classList.add(o.tr);setInterval(()=>{if(!document.hidden&&!DM.on&&!(key==='nw'&&TK.on))step(key,1)},ms)}
 function setItems(key,items,quiet){const r=RT[key],s=JSON.stringify(items);if(r.s===s)return;const same=r.items.length===items.length;
   if(quiet&&same&&r.items[r.i]&&items[r.i]&&r.items[r.i].t===items[r.i].t){const f=[...$(r.box).children].filter(o=>o.classList.contains('fi')&&!o.classList.contains('out')).pop();if(f){r.s=s;r.items=items;f.classList.add('q');f.innerHTML=r.render(items[r.i],r.i,items.length);return}}
   r.s=s;r.items=items;r.i=same?Math.min(r.i,items.length-1):0;paint(key)}
@@ -563,7 +561,7 @@ async function weather(){
 
 /* ---------- NZ news: all of today's general stories ---------- */
 const NW={rnz:[],val:[],err:''};
-rotor('nw','nb','nd',n=>n.pin?pinHtml(n.pin):n.err?'<div class="fit" style="font-size:16px"><p>News unavailable ('+esc(n.err)+').</p></div>':'<div class="fit" style="font-size:21px"><span class="tag">'+esc(n.src)+(n.ago?' · '+esc(n.ago):'')+'</span><h3>'+esc(n.t)+'</h3><p>'+esc(n.b)+'</p><a href="'+esc(n.l)+'" target="_blank" rel="noopener">'+esc(n.cta||'Read on RNZ ↗')+'</a></div>',14000,{fit:21,tr:'tr-flip'});
+rotor('nw','nb','nd',n=>n.err?'<div class="fit" style="font-size:16px"><p>News unavailable ('+esc(n.err)+').</p></div>':'<div class="fit" style="font-size:21px"><span class="tag">'+esc(n.src)+(n.ago?' · '+esc(n.ago):'')+'</span><h3>'+esc(n.t)+'</h3><p>'+esc(n.b)+'</p><a href="'+esc(n.l)+'" target="_blank" rel="noopener">'+esc(n.cta||'Read on RNZ ↗')+'</a></div>',14000,{fit:21,tr:'tr-flip'});
 $('nw').onclick=e=>{if(!e.target.closest('a'))step('nw',1)};$('q').onclick=()=>{qOff++;quote(true)};
 const FEEDS=['https://www.rnz.co.nz/rss/national.xml','https://www.rnz.co.nz/rss/world.xml','https://www.rnz.co.nz/rss/business.xml','https://www.rnz.co.nz/rss/political.xml','https://www.rnz.co.nz/rss/ldr.xml'];
 const clean=h=>{const t=document.createElement('textarea');t.innerHTML=String(h||'').replace(/<[^>]*>/g,' ');return t.value.replace(/\s+/g,' ').trim()};
@@ -577,17 +575,9 @@ async function feed(u){
   return j.items.map(i=>({t:i.title,d:i.description||i.content,l:i.link,p:i.pubDate}));
 }
 /* RNZ stories with a Valorant story slipped in after every third one */
-const PIN={on:false};
-const pinHtml=m=>{const mp=m.mp||[],n=mp.length,li=mp.findIndex(x=>x.st==='l'),ci=li>=0?li:Math.max(0,mp.map(x=>x.st).lastIndexOf('d')),s=Math.max(0,Math.min(ci-1,n-3)),W=mp.slice(s,s+3),A=+m.sa,B=+m.sb;
-  const tm=(t,r)=>'<div class="pnt'+(r?' r':'')+'"><div class="pnl">'+badge(t,VAL.logos[t],'',m.ev,1)+'<span>'+esc(sn(t))+(isFav(t)?' <em class="fv">★</em>':'')+'</span></div><b class="pnn'+((r?B>A:A>B)?' ld':'')+'">'+esc(r?m.sb:m.sa)+'</b></div>';
-  const box=(x,i)=>{const k=s+i,l=k===li,lab=k===n-1&&n>1?'Decider':'Map '+(k+1);return '<div class="pnx'+(l?' l':x.st==='d'?' d':'')+'"><small>'+(l?'<span class="ldot"></span>':'')+lab+(l?' · Live':'')+'</small><b>'+esc(x.n)+'</b><i>'+(x.a==null?'—':x.a+' – '+x.b)+'</i>'+(l&&x.a!=null?'<em>Round '+(x.a+x.b+1)+'</em>':'')+'</div>'};
-  return '<div class="pnw"><div class="pnh"><span class="ldot"></span><b>Live</b><span>'+esc(evNo(m.ev))+(m.bo?' · BO'+m.bo:'')+'</span></div><div class="pnb">'+tm(m.a,0)+'<div class="pnmp" style="--n:'+Math.max(1,W.length)+'">'+W.map(box).join('')+'</div>'+tm(m.b,1)+'</div></div>'};
-/* a favourite team is live: the news card becomes a pinned live view of that match until it ends */
-function pinUpdate(){const w=$('nw'),m=favs().length?VAL.liveAll.find(x=>(isFav(x.a)||isFav(x.b))&&x.mp&&x.mp.some(y=>y.st)):null;
-  if(m){PIN.on=true;w.classList.add('pin');w.style.setProperty('--ca',tcol(m.a));w.style.setProperty('--cb',tcol(m.b));setItems('nw',[{t:'pin',pin:m}],true)}
-  else if(PIN.on){PIN.on=false;w.classList.remove('pin');RT.nw.items=[];RT.nw.s='';newsRender()}}
+const TK={on:false};
 function newsRender(){
-  if(PIN.on)return;
+  if(TK.on)return;
   const R=NW.rnz,V=NW.val,L=[];let v=0;
   R.forEach((x,i)=>{L.push(x);if((i+1)%3===0&&v<V.length)L.push(V[v++])});
   while(v<V.length&&L.length<14)L.push(V[v++]);
@@ -652,6 +642,10 @@ const h2hLine=m=>m.h2h&&m.h2h.a+m.h2h.b?'<div class="h2h">Head to head · '+esc(
 const ageTag=()=>VAL.upd&&VAL.age>(VAL.liveAll.length?8:45)?'<span class="vrg bo" style="color:#ffb340;box-shadow:inset 0 0 1px 1px rgba(255,179,64,.55)">data '+VAL.age+'m old</span>':'';
 const boTag=m=>m.bo?'<span class="vrg bo">BO'+m.bo+'</span>':'';
 const liveHtml=m=>{const mp=m.mp||[],cur=mp.find(x=>x.st==='l'||x.lv),has=mp.some(x=>x.st);return '<div class="vgp">'+vhead('lv','Live',evNo(m.ev)+(m.ph?' · '+m.ph:''),regP(m.ev)+boTag(m)+ageTag())+'<div class="lv1"><div class="lsr">'+side(m.a,0,0,'',m.ev)+'<div class="lsc"><b>'+esc(m.sa)+'</b><i>–</i><b>'+esc(m.sb)+'</b></div>'+side(m.b,1,0,'',m.ev)+'</div>'+(has?mapRail(m):mapPills(mp,null,1))+rdStrip(m)+(m.pl?(()=>{const any=[...m.pl.a,...m.pl.b].some(x=>x.ag);const nm=m.plm||(cur&&cur.n);return '<div class="lpl">'+plCol(m.pl.a,any,m.nk)+'<div class="lcap">'+(m.nk?'Players':'K / D'+(nm?' · '+esc(nm):''))+'</div>'+plCol(m.pl.b,any,m.nk,1)+'</div>'})():'')+h2hLine(m)+'</div></div>'};
+const tkHtml=m=>{const mp=m.mp||[],has=mp.some(x=>x.st),li=mp.findIndex(x=>x.st==='l'||x.lv),cur=mp[li],A=+m.sa,B=+m.sb,vt=m.vt||[],any=m.pl?[...m.pl.a,...m.pl.b].some(x=>x.ag):false,nm=m.plm||(cur&&cur.n);
+  const team=(t,r)=>'<div class="tkt'+(r?' r':'')+'"><div class="tkh">'+badge(t,VAL.logos[t],'',m.ev,1)+'<div class="tkn">'+esc(sn(t))+(isFav(t)?' <em class="fv">★</em>':'')+'</div></div>'+(m.pl?'<div class="tkb"><div class="lcap">'+(m.nk?'Players':'K / D'+(nm?' · '+esc(nm):''))+'</div>'+plCol(r?m.pl.b:m.pl.a,any,m.nk,r)+'</div>':'')+'</div>';
+  const vl=vt.length?'<div class="tkv">'+vt.map(v=>v[0]==='d'?'Decider '+esc(v[2]):esc(abbr(v[1]))+(v[0]==='x'?' ban ':' pick ')+esc(v[2])).join(' · ')+'</div>':'';
+  return '<div class="vgp tkp">'+vhead('lv','Live',evNo(m.ev)+(m.ph?' · '+m.ph:''),regP(m.ev)+boTag(m)+ageTag())+team(m.a,0)+'<div class="tkc"><div class="tks"><b'+(B>A?' class="lo"':'')+'>'+esc(m.sa)+'</b><i>–</i><b'+(A>B?' class="lo"':'')+'>'+esc(m.sb)+'</b></div>'+(cur&&cur.a!=null?'<div class="tkl"><span class="ldot"></span>'+esc(cur.n)+' <b>'+cur.a+' – '+cur.b+'</b> · Round '+(cur.a+cur.b+1)+'</div>':'')+(has?mapRail(m):mapPills(mp,null,1))+rdStrip(m)+vl+h2hLine(m)+'</div>'+team(m.b,1)+'</div>'};
 const bigSide=(n,ev)=>'<div class="bs">'+badge(n,VAL.logos[n],'',ev,1)+'<span>'+esc(sn(n))+(isFav(n)?' <em class="fv">★</em>':'')+'</span></div>';
 const soonHtml=m=>{const vt=m.vt||[];return '<div class="vgp">'+vhead('','Starting soon',evNo(m.ev)+(m.ph?' · '+m.ph:''),regP(m.ev)+boTag(m))+'<div class="lv1"><div class="lsr so">'+bigSide(m.a,m.ev)+'<div class="vtc"><div class="vt">'+esc(tmS(m.ts))+'</div><div class="vd cdn" data-ts="'+m.ts+'">'+(m.ts<Date.now()?'starting':'in '+cdTxt(m.ts))+'</div></div>'+bigSide(m.b,m.ev)+'</div>'+(vt.length?'<div class="vet" style="--n:'+vt.length+'">'+vt.map(v=>'<div class="vx '+v[0]+'" style="--tc:'+(v[1]?tcol(v[1]):'#fff')+'"><small>'+(v[0]==='d'?'Decider':esc(abbr(v[1]))+(v[0]==='x'?' ban':' pick'))+'</small><b>'+esc(v[2])+'</b></div>').join('')+'</div>':'<div class="lnote">Map veto not published yet</div>')+h2hLine(m)+'</div></div>'};
 const brHtml=b=>{const X=new Set(b.x||[]),rs=b.r;let idx=-1;rs.forEach((r,i)=>{if(r.m.some(x=>x[4]!=='u'))idx=i});if(idx<0)idx=0;
@@ -662,14 +656,17 @@ const liveList=L=>'<div class="vgp">'+vhead('lv','Live',evOf(L),regH(L)+ageTag()
 const upHtml=L=>'<div class="vgp">'+vhead('','Next',evOf(L),regH(L))+'<div class="vl">'+L.map(m=>'<div class="vp nx">'+side(m.a,0,0,'',m.ev)+'<div class="vtc"><div class="vt">'+(m.ts<Date.now()?'starting':esc(tmS(m.ts)))+'</div><div class="vd cdn" data-ts="'+m.ts+'">'+(m.ts<Date.now()?'starting':'in '+cdTxt(m.ts))+'</div></div>'+side(m.b,1,0,'',m.ev)+'</div>').join('')+'</div></div>';
 const resHtml=L=>'<div class="vgp">'+vhead('','Results',evOf(L),regH(L))+'<div class="vl">'+L.map(m=>{const A=+m.sa,B=+m.sb;return '<div class="vb"><div class="vp">'+side(m.a,0,B>A,'',m.ev)+scoreC(m,0)+side(m.b,1,A>B,'',m.ev)+'</div>'+mapPills(m.mp,A>B?'a':B>A?'b':null)+'</div>'}).join('')+'</div></div>';
 const emptyHtml=p=>'<div class="vgp vgempty">'+vhead('','Valorant','VCT')+'<b>'+esc(p.h)+'</b><span>'+esc(p.msg)+'</span></div>';
-rotor('vg','vgb','vgd',p=>(vgGlow(p),p.t==='l'?liveHtml(p.d):p.t==='ll'?liveList(p.d):p.t==='s'?soonHtml(p.d):p.t==='b'?brHtml(p.d):p.t==='u'?upHtml(p.d):p.t==='r'?resHtml(p.d):emptyHtml(p)),11000);
-function vgGlow(p){requestAnimationFrame(vgPost);const e=$('vg');e.classList.toggle('lvg',p.t==='l');if(p.t==='l'){e.style.setProperty('--ca',tcol(p.d.a));e.style.setProperty('--cb',tcol(p.d.b))}}
+rotor('vg','vgb','vgd',p=>(vgGlow(p),p.t==='k'?tkHtml(p.d):p.t==='l'?liveHtml(p.d):p.t==='ll'?liveList(p.d):p.t==='s'?soonHtml(p.d):p.t==='b'?brHtml(p.d):p.t==='u'?upHtml(p.d):p.t==='r'?resHtml(p.d):emptyHtml(p)),11000);
+function vgGlow(p){requestAnimationFrame(vgPost);const e=$('vg');e.classList.toggle('lvg',p.t==='l'||p.t==='k');if(p.t==='l'||p.t==='k'){e.style.setProperty('--ca',tcol(p.d.a));e.style.setProperty('--cb',tcol(p.d.b))}}
 function tickCountdowns(){document.querySelectorAll('.cdn').forEach(e=>{const t=+e.dataset.ts;e.textContent=t<Date.now()?'starting':'in '+cdTxt(t)})}
 const focusReg=()=>LS.g('vreg','');
 function valFilter(){const g=focusReg();VAL.live=!g?VAL.liveAll:VAL.liveAll.filter(m=>{const k=regK(m.ev);return isFav(m.a)||isFav(m.b)||!k||k[1]===g||k[1]==='ma'||k[1]==='ch'})}
 let goldT=0;function vgGold(){const e=$('vg');e.classList.remove('gold');void e.offsetWidth;e.classList.add('gold');clearTimeout(goldT);goldT=setTimeout(()=>e.classList.remove('gold'),3400)}
 function goldCheck(){if(!favs().length)return;VAL.liveAll.forEach(m=>{const dn=(m.mp||[]).filter(x=>x.st==='d'),was=VAL.dn[m.id];VAL.dn[m.id]=dn.length;if(was==null||dn.length<=was)return;const w=dn[dn.length-1];if(isFav(w.a>w.b?m.a:m.b))vgGold()})}
 function valRender(){
+  const T=favs().length?VAL.liveAll.filter(m=>(isFav(m.a)||isFav(m.b))&&m.mp&&m.mp.some(x=>x.st)):[],on=T.length>0;
+  if(on!==TK.on){TK.on=on;$('app').classList.toggle('tk',on);if(!on){RT.nw.s='';RT.nw.items=[];newsRender()}}
+  if(on){setItems('vg',T.map(m=>({t:'k',d:m})),true);return}
   const ch=(a,n)=>{const o=[];for(let i=0;i<a.length;i+=n)o.push(a.slice(i,i+n));return o},P=[];
   const LV=VAL.live,D=LV.filter(m=>m.pl||(m.mp&&m.mp.some(x=>x.st))).slice(0,3),Rst=LV.filter(m=>!D.includes(m));
   ch(Rst,4).forEach(g=>P.push({t:'ll',d:g}));D.forEach(m=>P.push({t:'l',d:m}));
@@ -689,7 +686,7 @@ async function valData(){
     if(!r.ok)throw new Error('HTTP '+r.status);
     const j=await r.json();const fv=m=>isFav(m.a)||isFav(m.b)?0:1,fs=a=>a.slice().sort((x,y)=>fv(x)-fv(y));VAL.liveAll=fs(j.live||[]);valFilter();goldCheck();VAL.br=j.br||null;VAL.up=fs((j.upcoming||[]).filter(m=>m.ts>Date.now()-36e5));VAL.res=fs(j.results||[]);VAL.logos=j.logos||{};VAL.colors=j.colors||{};VAL.agents=j.agents||{};VAL.evl=j.evlogos||{};VAL.vct=j.vct||'';NW.val=(j.news||[]).filter(x=>x.t&&(!x.ts||Date.now()-x.ts<10*864e5)).slice(0,4).map(x=>({t:x.t,b:x.d||'',l:x.url,src:'Valorant · VLR.gg',ago:x.ts?ago(x.ts):'',cta:'Read on VLR.gg ↗'}));newsRender();VAL.err='';VAL.upd=Date.parse(j.updated)||0;const ageM=VAL.upd?Math.round((Date.now()-VAL.upd)/6e4):0;VAL.age=ageM;if(VAL.upd&&ageM>(VAL.liveAll.length?10:45))srcBad('valorant','data is '+ageM+' min old, the GitHub Action is running late');else srcOk('valorant');D['valorant data']=(j.updated||'')+' · '+VAL.live.length+' live, '+VAL.up.length+' upcoming, '+VAL.res.length+' results';
   }catch(e){srcBad('valorant',e.message);if(!VAL.live.length&&!VAL.up.length)VAL.err=e.message;D['valorant error']=e.message}
-  valRender();pinUpdate();
+  valRender();
   const nw=Date.now();
   (favs().length?VAL.live.filter(m=>isFav(m.a)||isFav(m.b)):VAL.live.slice(0,1)).forEach(m=>notify('vl-'+m.id,{ic:'🎮',g:GR.game,t:m.a+' vs '+m.b+' is live',b:m.sa+' – '+m.sb+' · '+m.ev},{cool:48*HR}));
   (favs().length?VAL.up.filter(m=>isFav(m.a)||isFav(m.b)):VAL.up.slice(0,1)).forEach(m=>{const mins=Math.round((m.ts-nw)/6e4);if(mins>0&&mins<=16)notify('vs-'+m.id,{ic:'🎮',g:GR.game,t:m.a+' vs '+m.b,b:'Starts in '+mins+' min · '+m.ev},{cool:48*HR})});
@@ -967,7 +964,7 @@ const openSet=()=>{const c=cfg();$('k1').value=c.at;$('k3').value=c.fh;$('k4').v
   $('c_gap').value=LS.g('ngap','30');$('c_qf').value=LS.g('qFrom','22:00');$('c_qt').value=LS.g('qTo','07:00');$('c_eco').checked=LS.g('eco','1')==='1';$('c_fx').checked=LS.g('fx','0')==='1';$('dlg').showModal()};
 $('gear').onclick=openSet;$('ngear').onclick=openSet;
 $('cx').onclick=()=>$('dlg').close();
-$('sv').onclick=()=>{LS.s('at',$('k1').value.trim());LS.s('fh',$('k3').value.trim());LS.s('stop',$('k4').value.trim()||'8274');LS.s('routes',$('k5').value);LS.s('walk',$('k7').value.trim()||'4');LS.s('dimOn',$('k8').value);LS.s('dimOff',$('k9').value);LS.s('vfav',$('k10').value.trim());LS.s('vreg',$('k11').value);valFilter();valRender();pinUpdate();
+$('sv').onclick=()=>{LS.s('at',$('k1').value.trim());LS.s('fh',$('k3').value.trim());LS.s('stop',$('k4').value.trim()||'8274');LS.s('routes',$('k5').value);LS.s('walk',$('k7').value.trim()||'4');LS.s('dimOn',$('k8').value);LS.s('dimOff',$('k9').value);LS.s('vfav',$('k10').value.trim());LS.s('vreg',$('k11').value);valFilter();valRender();
   LS.s('n_weather',$('c_w').checked?'1':'0');LS.s('n_stocks',$('c_s').checked?'1':'0');LS.s('n_valorant',$('c_v').checked?'1':'0');LS.s('n_transport',$('c_t').checked?'1':'0');
   LS.s('ngap',$('c_gap').value);LS.s('qFrom',$('c_qf').value);LS.s('qTo',$('c_qt').value);LS.s('eco',$('c_eco').checked?'1':'0');LS.s('fx',$('c_fx').checked?'1':'0');
   applyEco();fxSet(FM,FN);fxStart();$('dlg').close();dimCalc();stopPos=null;buses();stocks(true)};
