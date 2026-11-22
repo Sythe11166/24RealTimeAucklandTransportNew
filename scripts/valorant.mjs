@@ -74,10 +74,28 @@ const results = pastList.filter(m => !isTbd(m.a) && !isTbd(m.b) && m.sa !== '' &
 // ---- per-map scores + live player K/D from a match page (all defensive: any miss just means "no detail") ----
 const num = s => { const n = parseInt(String(s).replace(/[^\d]/g, ''), 10); return isNaN(n) ? null : n; };
 const mapDone = m => m.a != null && m.b != null && Math.max(m.a, m.b) >= 13 && Math.abs(m.a - m.b) >= 2;
+const abs = x => !x ? '' : x.startsWith('//') ? 'https:' + x : x.startsWith('/') ? BASE + x : x;
 async function fetchMatch(path, live, sa, sb) {
   const $ = cheerio.load(await get(path));
-  const evl = (() => { const x = $('.match-header-event img').first().attr('src') || ''; return x ? (x.startsWith('//') ? 'https:' + x : x.startsWith('/') ? BASE + x : x) : ''; })();
+  const evl = abs($('.match-header-event img').first().attr('src') || '');
+  const evu = $('.match-header-event').first().attr('href') || $('a.match-header-event').first().attr('href') || '';
   const bo = (/\bbo\s?(\d)\b/i.exec(txt($('.match-header-vs-note'))) || [])[1] || '';
+  // map veto, e.g. "Fnatic ban Lotus; NAVI ban Haven; Fnatic pick Ascent; ...; Bind remains"  ->  [['x','Fnatic','Lotus'],['p',..],['d','','Bind']]
+  const notes = $('.match-header-note').map((_, e) => txt($(e))).get().join('; ');
+  const vt = [];
+  for (const part of notes.split(/;|\|/).map(x => x.trim()).filter(Boolean)) {
+    let r = /^(.+?)\s+(ban|pick)\s+(.+)$/i.exec(part);
+    if (r) { vt.push([r[2].toLowerCase() === 'ban' ? 'x' : 'p', r[1], r[3]]); continue; }
+    r = /^(.+?)\s+remains?$/i.exec(part);
+    if (r) vt.push(['d', '', r[1]]);
+  }
+  // head to head, from the first team's point of view
+  let hw = 0, hl = 0;
+  $('.match-h2h-matches a').each((_, a) => {
+    const rf = num(txt($(a).find('.rf').first())), ra = num(txt($(a).find('.ra').first()));
+    if (rf != null && ra != null && rf !== ra) rf > ra ? hw++ : hl++;
+  });
+  const common = { evl, evu, bo, ...(vt.length ? { vt } : {}), ...(hw + hl ? { h2h: { a: hw, b: hl } } : {}) };
   const games = [];
   $('.vm-stats-gamesnav-item').each((_, e) => {
     const id = $(e).attr('data-game-id');
@@ -90,7 +108,7 @@ async function fetchMatch(path, live, sa, sb) {
     games.push({ g, n, a: sc.length > 1 ? sc[0] : null, b: sc.length > 1 ? sc[1] : null });
   });
   const started = m => m.a != null && m.b != null && m.a + m.b > 0;
-  if (!live) return { mp: games.filter(m => m.n && started(m)).map(m => ({ n: m.n, a: m.a, b: m.b })), evl };
+  if (!live) return { mp: games.filter(m => m.n && started(m)).map(m => ({ n: m.n, a: m.a, b: m.b })), ...common };
 
   // live: every map of the series. d = played, l = being played (or about to start), n = still to come
   const need = Math.ceil(games.length / 2);
@@ -101,7 +119,7 @@ async function fetchMatch(path, live, sa, sb) {
     return st === 'n' ? { n: m.n || 'TBD', st } : { n: m.n || 'TBD', a: m.a ?? 0, b: m.b ?? 0, st };
   });
 
-  // player K/D: only for the map being played right now, and only when vlr is actually publishing live stats for it
+  // players: names always (from any stat table), K/D only when vlr is publishing numbers for the map being played right now
   const rowsOf = g => {
     const rows = [];
     g.find('table.wf-table-inset tbody tr').each((_, tr) => {
@@ -113,26 +131,46 @@ async function fetchMatch(path, live, sa, sb) {
         const b = c.find('.mod-both').first(), sp = c.find('span').first();
         return num((/-?\d+/.exec(txt(b.length ? b : sp.length ? sp : c)) || [])[0]);
       };
-      const k = val('mod-vlr-kills', 4), d = val('mod-vlr-deaths', 5);
       const ag = (/agents\/([a-z0-9]+)\.png/i.exec(t.find('td.mod-agents img, img[src*="/agents/"]').first().attr('src') || '') || [])[1];
-      if (nm && k != null && d != null) rows.push({ n: nm, k, d, ag: ag || '' });
+      if (nm) rows.push({ n: nm, k: val('mod-vlr-kills', 4), d: val('mod-vlr-deaths', 5), ag: ag || '' });
     });
     return rows;
   };
-  const rows = li >= 0 ? rowsOf(games[li].g) : [];
-  const top = r => r.slice().sort((x, y) => y.k - x.k || x.d - y.d);
-  console.log('live detail', path.split('/')[1], 'bo' + bo, 'maps', games.length, 'live#', li, 'stat rows on live map:', rows.length, rows.length >= 10 ? '-> live K/D shown' : '-> no live stats from vlr (compact row)');
-  const out = { mp, evl };
-  if (bo) out.bo = bo;
-  if (rows.length >= 10) { out.pl = { a: top(rows.slice(0, 5)), b: top(rows.slice(5, 10)) }; out.plm = games[li].n; }
+  const rdOf = g => {   // round by round: who won it and how (e elimination, b spike detonated, d defused, t time)
+    const rd = [];
+    g.find('.vlr-rounds-row-col').each((_, c) => {
+      const sq = $(c).find('.rnd-sq').toArray();
+      if (sq.length < 2) return;
+      const w = sq.findIndex(x => $(x).hasClass('mod-win') || $(x).find('img').length);
+      if (w < 0) return;
+      const src = $(sq[w]).find('img').attr('src') || '';
+      rd.push([w ? 'b' : 'a', /defuse/i.test(src) ? 'd' : /boom|spike|detonat/i.test(src) ? 'b' : /time/i.test(src) ? 't' : 'e']);
+    });
+    return rd;
+  };
+  let rows = li >= 0 ? rowsOf(games[li].g) : [];
+  const liveRows = rows.length >= 10;
+  const kd = liveRows && rows.every(r => r.k != null && r.d != null) && rows.some(r => r.k || r.d);
+  for (let i = games.length - 1; i >= 0 && rows.length < 10; i--) rows = rowsOf(games[i].g);
+  if (rows.length < 10) rows = rowsOf($('.vm-stats-game[data-game-id="all"]').first());
+  const rd = li >= 0 ? rdOf(games[li].g) : [];
+  console.log('live detail', path.split('/')[1], 'bo' + bo, 'maps', games.length, 'live#', li, 'player rows:', rows.length, kd ? '-> live K/D' : rows.length >= 10 ? '-> names only (no live K/D on vlr)' : '-> no players', '| rounds:', rd.length, '| veto:', vt.length, '| h2h:', hw + '-' + hl);
+  const out = { mp, ...common };
+  if (rows.length >= 10) {
+    const top = r => r.slice().sort((x, y) => y.k - x.k || x.d - y.d);
+    const cut = r => r.map(({ n, ag }) => ({ n, ag: liveRows ? ag : '' }));
+    out.pl = kd ? { a: top(rows.slice(0, 5)), b: top(rows.slice(5, 10)) } : { a: cut(rows.slice(0, 5)), b: cut(rows.slice(5, 10)) };
+    if (kd) out.plm = games[li].n; else out.nk = 1;
+  }
+  if (rd.length) { out.rd = rd; out.rdm = games[li].n; }
   return out;
 }
 const evlogos = { ...(old.evlogos || {}) };
 const oldRes = Object.fromEntries((old.results || []).map(m => [m.id, m]));
 const oldLive = Object.fromEntries((old.live || []).map(m => [m.id, m]));
 for (const m of live) {
-  try { const { evl, ...r } = await fetchMatch(m.url.replace(BASE, ''), true, m.sa, m.sb); if (evl) evlogos[m.ev] = evl; Object.assign(m, r); }
-  catch (e) { console.log('live detail skipped:', m.url, e.message); const o = oldLive[m.id]; if (o) { m.mp = o.mp; m.pl = o.pl; m.plm = o.plm; m.bo = o.bo; } }
+  try { const { evl, ...r } = await fetchMatch(m.url.replace(BASE, ''), true, m.sa, m.sb); if (evl) evlogos[m.ev] = evl; Object.assign(m, r); if (m.vt && !m.vt.length) delete m.vt; }
+  catch (e) { console.log('live detail skipped:', m.url, e.message); const o = oldLive[m.id]; if (o) { for (const k of ['mp', 'pl', 'plm', 'nk', 'rd', 'rdm', 'bo', 'vt', 'h2h', 'evu']) if (o[k] !== undefined) m[k] = o[k]; } }
   await sleep(600);
 }
 for (const m of results) {
@@ -143,10 +181,69 @@ for (const m of results) {
   await sleep(1200);
 }
 
+// upcoming: veto + head-to-head for the next few matches (veto is re-checked every run once a match is within 90 min)
+const oldUp = Object.fromEntries((old.upcoming || []).map(m => [m.id, m]));
+for (const m of upcoming.slice(0, 3)) {
+  const o = oldUp[m.id], soon = m.ts && m.ts - Date.now() < 90 * 60000;
+  if (o && o.fz && !soon) { for (const k of ['vt', 'h2h', 'bo', 'evu']) if (o[k] !== undefined) m[k] = o[k]; m.fz = 1; continue; }
+  try {
+    const x = await fetchMatch(m.url.replace(BASE, ''), false);
+    for (const k of ['vt', 'h2h', 'bo', 'evu']) if (x[k]) m[k] = x[k];
+    if (x.evl) evlogos[m.ev] = x.evl;
+    m.fz = 1;
+    console.log('upcoming detail', m.a, 'v', m.b, '| veto:', (x.vt || []).length, '| h2h:', x.h2h ? x.h2h.a + '-' + x.h2h.b : 'none');
+  } catch (e) { console.log('upcoming detail skipped:', m.url, e.message); }
+  await sleep(900);
+}
+
+// event bracket: every match of the event of the live (else next) match, grouped by round
+function parseBracket(html) {
+  const $ = cheerio.load(html), rounds = new Map(), done = [];
+  let order = 0;
+  $('a.match-item').each((_, a) => {
+    const el = $(a);
+    const names = el.find('.match-item-vs-team-name').map((_, n) => txt($(n))).get();
+    const scores = el.find('.match-item-vs-team-score').map((_, n) => num(txt($(n)))).get();
+    if (names.length < 2) return;
+    const series = txt(el.find('.match-item-event-series').first()) || 'Matches';
+    const status = txt(el.find('.ml-status').first()) + ' ' + txt(el.find('.match-item-eta').first());
+    const isLive = /live/i.test(status);
+    const fin = !isLive && scores.length > 1 && scores[0] != null && scores[1] != null && (/complete|ago/i.test(status) || scores[0] + scores[1] > 0 && !/upcoming|in \d/i.test(status));
+    const utc = el.find('[data-utc-ts]').first().attr('data-utc-ts'), t = utc ? Date.parse(utc.replace(' ', 'T') + 'Z') : NaN;
+    const r = rounds.get(series) || { r: series, t: isNaN(t) ? Infinity : t, i: order++, m: [] };
+    if (!isNaN(t)) r.t = Math.min(r.t, t);
+    r.m.push([names[0], names[1], scores[0] ?? 0, scores[1] ?? 0, isLive ? 'l' : fin ? 'd' : 'u']);
+    rounds.set(series, r);
+    if (fin) done.push({ series, w: scores[0] > scores[1] ? names[0] : names[1], l: scores[0] > scores[1] ? names[1] : names[0] });
+  });
+  const arr = [...rounds.values()].sort((x, y) => (x.t === y.t ? x.i - y.i : x.t - y.t));
+  // knocked out: lost a lower-bracket / elimination / final match, or lost twice in a double-elim bracket, or 3 swiss losses
+  const lc = {}, out = new Set();
+  for (const d of done) {
+    lc[d.l] = (lc[d.l] || 0) + 1;
+    const sw = /swiss/i.test(d.series);
+    if ((/lower|elimination|decider|consolation|last chance|semi|quarter|final/i.test(d.series) && !/upper/i.test(d.series)) || (!sw && /upper|lower|bracket|playoff/i.test(d.series) && lc[d.l] >= 2) || (sw && lc[d.l] >= 3)) out.add(d.l);
+  }
+  return { r: arr.map(r => ({ r: r.r, m: r.m })), x: [...out] };
+}
+let br = old.br || null;
+try {
+  const evu = (live.find(m => m.evu) || upcoming.find(m => m.evu) || {}).evu || (br && br.u) || '';
+  const mm = /^\/event\/(\d+)\/?(.*)$/.exec(evu);
+  const evName = (live[0] || upcoming[0] || {}).ev || '';
+  if (mm && !(br && br.u === evu && Date.now() - br.at < (live.length ? 4 : 30) * 60000)) {
+    await sleep(900);
+    const b = parseBracket(await get('/event/matches/' + mm[1] + '/' + mm[2].replace(/\/$/, '') + '/?series_id=all&group=all'));
+    const n = b.r.reduce((k, r) => k + r.m.length, 0);
+    console.log('bracket', evu, 'rounds', b.r.length, 'matches', n, 'knocked out', b.x.length);
+    if (n) br = { u: evu, ev: evName, at: Date.now(), r: b.r, x: b.x };
+  }
+} catch (e) { console.log('bracket skipped:', e.message); }
+
 // team logos: one match page per match with a missing logo, cached in the JSON so it rarely repeats
 const logos = { ...(old.logos || {}) };
 const show = [...live, ...upcoming.slice(0, 8), ...results.slice(0, 9)];
-const need = show.filter(m => !((m.a in logos) && (m.b in logos))).slice(0, 8);
+const need = show.filter(m => !((m.a in logos) && (m.b in logos)) || !(m.ev in evlogos)).slice(0, 8);
 for (const m of need) {
   try {
     const $m = cheerio.load(await get(m.url.replace(BASE, '')));
@@ -222,9 +319,10 @@ if (needAg.length) {
     for (const a of j.data || []) agents[a.displayName.toLowerCase().replace(/[^a-z0-9]/g, '')] = { i: a.displayIcon, p: a.bustPortrait || a.fullPortraitV2 || a.displayIcon };
   } catch (e) { console.log('agent art skipped:', e.message); }
 }
-const out = { live, upcoming, results: results.slice(0, 9), news, logos, colors, agents, evlogos, vct };
-const before = JSON.stringify({ live: old.live || [], upcoming: old.upcoming || [], results: old.results || [], news: old.news || [], logos: old.logos || {}, colors: old.colors || {}, agents: old.agents || {}, evlogos: old.evlogos || {}, vct: old.vct || '' });
-if (before === JSON.stringify(out)) { console.log('No change'); process.exit(0); }
+const out = { live, upcoming, results: results.slice(0, 9), news, logos, colors, agents, evlogos, vct, br };
+const before = JSON.stringify({ live: old.live || [], upcoming: old.upcoming || [], results: old.results || [], news: old.news || [], logos: old.logos || {}, colors: old.colors || {}, agents: old.agents || {}, evlogos: old.evlogos || {}, vct: old.vct || '', br: old.br || null });
+const flat = o => JSON.stringify({ ...o, br: o.br && { ...o.br, at: 0 } });
+if (flat(JSON.parse(before)) === flat(out)) { console.log('No change'); process.exit(0); }
 fs.mkdirSync('data', { recursive: true });
 fs.writeFileSync(FILE, JSON.stringify({ updated: new Date().toISOString(), ...out }, null, 1));
 console.log(`Wrote ${live.length} live, ${upcoming.length} upcoming, ${out.results.length} results`);
