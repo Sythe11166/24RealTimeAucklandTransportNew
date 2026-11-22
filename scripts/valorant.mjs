@@ -293,16 +293,31 @@ function parseBracket(html) {
   return { r: arr.map(r => ({ r: r.r, m: r.m })), x: [...out] };
 }
 let br = old.br || null;
+// the bracket shown is the one for the region that appears most in the last 5 results (a tie goes to the most recent)
+const RG = [['America|LATAM|Brazil', 'Americas'], ['EMEA', 'EMEA'], ['Pacific|APAC', 'Pacific'], ['China', 'China'], ['Masters', 'Masters'], ['Champions', 'Champions']];
+const rgOf = e => { const r = RG.find(x => new RegExp(x[0], 'i').test(e || '')); return r ? r[1] : ''; };
 try {
-  const evu = (live.find(m => m.evu) || upcoming.find(m => m.evu) || {}).evu || (br && br.u) || '';
-  const mm = /^\/event\/(\d+)\/?(.*)$/.exec(evu);
-  const evName = (live[0] || upcoming[0] || {}).ev || '';
+  const cnt = {}, first = {};
+  results.slice(0, 5).forEach((m, i) => { const g = rgOf(m.ev); if (g) { cnt[g] = (cnt[g] || 0) + 1; if (first[g] == null) first[g] = i; } });
+  const R = Object.keys(cnt).sort((x, y) => cnt[y] - cnt[x] || first[x] - first[y])[0] || '';
+  console.log('bracket region (last 5 results):', R || 'none', JSON.stringify(cnt));
+  const pick = [...live, ...upcoming, ...results].filter(m => !R || rgOf(m.ev) === R);
+  let src = pick.find(m => m.evu), evu = src && src.evu;
+  if (!evu && R && !(br && br.rg === R && br.u)) {
+    const rm = results.find(m => rgOf(m.ev) === R && m.url);
+    if (rm) { await sleep(900); const x = await fetchMatch(rm.url.replace(BASE, ''), false); if (x.evu) { evu = x.evu; src = rm; } }
+  }
+  if (!evu && br && br.u && (!R || br.rg === R)) evu = br.u;
+  if (!evu && !R) { src = live.find(m => m.evu) || upcoming.find(m => m.evu); evu = (src && src.evu) || (br && br.u) || ''; }
+  const mm = /^\/event\/(\d+)\/?(.*)$/.exec(evu || '');
+  const evName = (src && src.ev) || (br && br.u === evu && br.ev) || '';
   if (mm && !(br && br.u === evu && Date.now() - br.at < (live.length ? 4 : 30) * 60000)) {
     await sleep(900);
     const b = parseBracket(await get('/event/matches/' + mm[1] + '/' + mm[2].replace(/\/$/, '') + '/?series_id=all&group=all'));
-    const n = b.r.reduce((k, r) => k + r.m.length, 0);
+    let n = b.r.reduce((k, r) => k + r.m.length, 0);
+    while (n > 240 && b.r.length > 1) n -= b.r.shift().m.length;
     console.log('bracket', evu, 'rounds', b.r.length, 'matches', n, 'knocked out', b.x.length);
-    if (n) br = { u: evu, ev: evName, at: Date.now(), r: b.r, x: b.x };
+    if (n) br = { u: evu, rg: R, ev: evName, at: Date.now(), r: b.r, x: b.x };
   }
 } catch (e) { console.log('bracket skipped:', e.message); }
 
