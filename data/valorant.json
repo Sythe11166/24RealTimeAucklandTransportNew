@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T01:12:52.398Z",
+ "updated": "2026-11-22T01:14:34.945Z",
  "live": [
   {
    "id": "792905",
@@ -27,7 +27,7 @@
     {
      "n": "Summit",
      "a": 6,
-     "b": 10,
+     "b": 11,
      "st": "l"
     }
    ],
@@ -130,6 +130,10 @@
     [
      "a",
      "d"
+    ],
+    [
+     "b",
+     "b"
     ],
     [
      "b",
@@ -247,7 +251,7 @@
     {
      "n": "Abyss",
      "a": 10,
-     "b": 8,
+     "b": 9,
      "st": "l"
     },
     {
@@ -370,6 +374,10 @@
     [
      "b",
      "e"
+    ],
+    [
+     "b",
+     "d"
     ]
    ],
    "rdm": "Abyss"
@@ -388,7 +396,7 @@
     {
      "n": "Lotus",
      "a": 4,
-     "b": 0,
+     "b": 1,
      "st": "l"
     },
     {
@@ -454,6 +462,10 @@
     ],
     [
      "a",
+     "e"
+    ],
+    [
+     "b",
      "e"
     ]
    ],
@@ -937,7 +949,7 @@
  "br": {
   "u": "/event/3179/vct-2027-america-kickoff-north-america-qualifier-playoffs/swiss-stage",
   "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-  "at": 1795309768054,
+  "at": 1795310073632,
   "r": [
    {
     "r": "Round 1 (0-0)",
