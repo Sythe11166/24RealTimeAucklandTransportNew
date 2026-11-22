@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T03:03:33.332Z",
+ "updated": "2026-11-22T03:05:11.679Z",
  "live": [
   {
    "id": "792910",
@@ -332,18 +332,55 @@
      "st": "d"
     },
     {
-     "n": "TBD",
+     "n": "Haven",
      "a": 0,
-     "b": 1,
+     "b": 2,
      "st": "l"
     },
     {
-     "n": "TBD",
+     "n": "Bind",
      "st": "n"
     }
    ],
    "evu": "/event/3179/vct-2027-america-kickoff-north-america-qualifier-playoffs/swiss-stage",
    "bo": "3",
+   "vt": [
+    [
+     "x",
+     "FAKE",
+     "Abyss"
+    ],
+    [
+     "x",
+     "MC",
+     "Summit"
+    ],
+    [
+     "p",
+     "FAKE",
+     "Sunset"
+    ],
+    [
+     "p",
+     "MC",
+     "Haven"
+    ],
+    [
+     "x",
+     "FAKE",
+     "Lotus"
+    ],
+    [
+     "x",
+     "MC",
+     "Corrode"
+    ],
+    [
+     "d",
+     "",
+     "Bind"
+    ]
+   ],
    "h2h": {
     "a": 1,
     "b": 0
@@ -399,9 +436,13 @@
     [
      "b",
      "e"
+    ],
+    [
+     "b",
+     "e"
     ]
    ],
-   "rdm": "TBD"
+   "rdm": "Haven"
   }
  ],
  "upcoming": [
