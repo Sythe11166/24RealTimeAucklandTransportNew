@@ -401,11 +401,24 @@ if (needAg.length) {
     for (const a of j.data || []) agents[a.displayName.toLowerCase().replace(/[^a-z0-9]/g, '')] = { i: a.displayIcon, p: a.bustPortrait || a.fullPortraitV2 || a.displayIcon };
   } catch (e) { console.log('agent art skipped:', e.message); }
 }
+// artwork for the widget's first page (valorant-api.com): map splashes + agent key art, cached so it is fetched once
+let art = old.art || [];
+if (!art.some(x => x.k === 'map') || !art.some(x => x.k === 'agent')) {
+  try {
+    const mj = await (await fetch('https://valorant-api.com/v1/maps')).json();
+    const aj = await (await fetch('https://valorant-api.com/v1/agents?isPlayableCharacter=true')).json();
+    const A = [];
+    for (const m of mj.data || []) if (m.splash && m.tacticalDescription) A.push({ k: 'map', n: m.displayName, u: m.splash });
+    for (const g of aj.data || []) if (g.fullPortrait) A.push({ k: 'agent', n: g.displayName, u: g.fullPortrait, c: g.backgroundGradientColors || [] });
+    if (A.length) art = A;
+    console.log('art', A.length);
+  } catch (e) { console.log('art skipped:', e.message); }
+}
 // wider, lightweight lists for the home page (favourite teams' next/last matches within a month)
 const fu = list.filter(m => !m.live && m.ts && m.ts > Date.now() - 36e5 && !isTbd(m.a) && !isTbd(m.b)).sort((x, y) => x.ts - y.ts).slice(0, 60).map(m => ({ id: m.id, a: m.a, b: m.b, ev: m.ev, ts: m.ts }));
 const fr = pastList.filter(m => !isTbd(m.a) && !isTbd(m.b) && m.sa !== '' && m.sb !== '' && m.ts).slice(0, 50).map(m => ({ id: m.id, a: m.a, b: m.b, sa: m.sa, sb: m.sb, ev: m.ev, ts: m.ts }));
-const out = { live, upcoming, results: results.slice(0, 9), news, logos, colors, agents, evlogos, vct, br, fu, fr };
-const before = JSON.stringify({ live: old.live || [], upcoming: old.upcoming || [], results: old.results || [], news: old.news || [], logos: old.logos || {}, colors: old.colors || {}, agents: old.agents || {}, evlogos: old.evlogos || {}, vct: old.vct || '', br: old.br || null, fu: old.fu || [], fr: old.fr || [] });
+const out = { live, upcoming, results: results.slice(0, 9), news, logos, colors, agents, evlogos, vct, br, fu, fr, art };
+const before = JSON.stringify({ live: old.live || [], upcoming: old.upcoming || [], results: old.results || [], news: old.news || [], logos: old.logos || {}, colors: old.colors || {}, agents: old.agents || {}, evlogos: old.evlogos || {}, vct: old.vct || '', br: old.br || null, fu: old.fu || [], fr: old.fr || [], art: old.art || [] });
 const flat = o => JSON.stringify({ ...o, br: o.br && { ...o.br, at: 0 } });
 const fresh = old.updated && Date.now() - Date.parse(old.updated) < (live.length ? 3 : 20) * 60000;
 if (fresh && flat(JSON.parse(before)) === flat(out)) { console.log('No change'); process.exit(0); }
