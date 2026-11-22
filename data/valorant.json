@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T01:14:34.945Z",
+ "updated": "2026-11-22T01:16:16.479Z",
  "live": [
   {
    "id": "792905",
@@ -210,7 +210,7 @@
    "id": "792035",
    "a": "Next",
    "b": "GANGUE",
-   "sa": "0",
+   "sa": "1",
    "sb": "1",
    "ev": "VCT 2027: America Kickoff - Brazil Qualifier Playoffs",
    "ph": "Swiss Stage–Round 2 (0-1)",
@@ -224,14 +224,16 @@
      "st": "d"
     },
     {
+     "n": "Sunset",
+     "a": 13,
+     "b": 11,
+     "st": "d"
+    },
+    {
      "n": "TBD",
      "a": 0,
      "b": 0,
      "st": "l"
-    },
-    {
-     "n": "TBD",
-     "st": "n"
     }
    ],
    "evu": "/event/3183/vct-2027-america-kickoff-brazil-qualifier-playoffs/swiss-stage",
@@ -485,7 +487,7 @@
     {
      "n": "Sunset",
      "a": 6,
-     "b": 0,
+     "b": 1,
      "st": "l"
     },
     {
@@ -555,10 +557,14 @@
     ],
     [
      "a",
-     "e"
+     "b"
     ],
     [
      "a",
+     "e"
+    ],
+    [
+     "b",
      "e"
     ]
    ],
