@@ -65,7 +65,7 @@ try { await sleep(1200); pastList = parse(await get('/matches/results'), true); 
 catch (e) { console.log('results skipped:', e.message); pastList = (old.results || []).map(m => ({ ...m })); }
 
 const live = list.filter(m => m.live).slice(0, 8).map(({ live, ...m }) => ({ ...m, ts: m.ts || oldTs[m.id] || null }));
-const upcoming = list.filter(m => !m.live && m.ts && m.ts > Date.now() - 36e5 && !isTbd(m.a) && !isTbd(m.b))
+const upcoming = list.filter(m => !m.live && m.ts && m.ts > Date.now() - 2 * 6e4 && !isTbd(m.a) && !isTbd(m.b))
   .sort((x, y) => x.ts - y.ts).slice(0, 12).map(({ live, ...m }) => m);
 
 const results = pastList.filter(m => !isTbd(m.a) && !isTbd(m.b) && m.sa !== '' && m.sb !== '').slice(0, 9).map(({ live, ...m }) => m);
