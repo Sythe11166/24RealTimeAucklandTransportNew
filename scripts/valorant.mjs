@@ -121,7 +121,21 @@ async function fetchMatch(path, live, sa, sb) {
   });
 
   // players: names always (from any stat table), K/D only when vlr is publishing numbers for the map being played right now
+  // vlr's current markup: .ovw-table blocks (one per team) of .ovw-row players; stat cells stay blank until a map finishes
+  const rowsNew = g => {
+    const rows = [], val = c => { const n = parseInt(txt(c.find('.mod-both').first()).replace(/[^\d]/g, ''), 10); return isNaN(n) ? null : n; };
+    g.find('.ovw-table').each((_, tb) => {
+      $(tb).find('.ovw-row').not('.mod-head').each((_, tr) => {
+        const t = $(tr), nm = txt(t.find('.ovw-player-name').first());
+        const ag = (/agents\/([a-z0-9]+)\.(?:png|webp)/i.exec(t.find('.ovw-agents img').first().attr('src') || '') || [])[1];
+        if (nm) rows.push({ n: nm, k: val(t.find('.ovw-kda-stat[data-col="kills"]').first()), d: val(t.find('.ovw-kda-stat[data-col="deaths"]').first()), ag: ag || '' });
+      });
+    });
+    return rows;
+  };
   const rowsOf = g => {
+    const nr = rowsNew(g);
+    if (nr.length) return nr;
     const rows = [];
     g.find('table.wf-table-inset tbody tr').each((_, tr) => {
       const t = $(tr), tds = t.find('td');
