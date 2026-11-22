@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T23:33:37.106Z",
+ "updated": "2026-11-22T23:35:19.586Z",
  "live": [
   {
    "id": "793236",
@@ -184,7 +184,7 @@
     },
     {
      "n": "Corrode",
-     "a": 4,
+     "a": 6,
      "b": 4,
      "st": "l"
     },
@@ -315,6 +315,14 @@
     [
      "b",
      "e"
+    ],
+    [
+     "a",
+     "e"
+    ],
+    [
+     "a",
+     "e"
     ]
    ],
    "rdm": "Corrode"
@@ -338,8 +346,8 @@
     },
     {
      "n": "Corrode",
-     "a": 8,
-     "b": 2,
+     "a": 9,
+     "b": 3,
      "st": "l"
     },
     {
@@ -480,6 +488,14 @@
     ],
     [
      "a",
+     "e"
+    ],
+    [
+     "a",
+     "e"
+    ],
+    [
+     "b",
      "e"
     ]
    ],
@@ -5616,7 +5632,7 @@
   "u": "/event/3184/vct-2027-america-kickoff-latam-north-qualifier-playoffs/swiss-stage",
   "rg": "Americas",
   "ev": "VCT 2027: America Kickoff - LATAM North Qualifier Playoffs",
-  "at": 1795390212715,
+  "at": 1795390518277,
   "r": [
    {
     "r": "Round 1 (0-0)",
