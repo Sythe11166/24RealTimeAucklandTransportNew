@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-22T21:38:54.306Z",
+ "updated": "2026-11-22T21:42:10.370Z",
  "live": [
   {
    "id": "792038",
    "a": "Manticore",
    "b": "Next",
-   "sa": "0",
+   "sa": "1",
    "sb": "1",
    "ev": "VCT 2027: America Kickoff - Brazil Qualifier Playoffs",
    "ph": "Swiss Stage–Round 3 (1-1)",
@@ -19,14 +19,16 @@
      "st": "d"
     },
     {
+     "n": "Sunset",
+     "a": 13,
+     "b": 5,
+     "st": "d"
+    },
+    {
      "n": "TBD",
      "a": 0,
      "b": 0,
      "st": "l"
-    },
-    {
-     "n": "TBD",
-     "st": "n"
     }
    ],
    "evu": "/event/3183/vct-2027-america-kickoff-brazil-qualifier-playoffs/swiss-stage",
