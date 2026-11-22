@@ -263,10 +263,10 @@ main.tkx #nw,main.tkx #q{display:none}}
 .ipills{flex:1;min-width:0;display:flex;flex-direction:column;justify-content:center;gap:8px}
 .ipills{--pz:min(44px,calc((min(116px,100cqh) - 28px)/2))}
 .ir{display:flex;gap:8px;height:var(--pz)}
-.ip{--ac:#fff;position:relative;flex:0 0 var(--pz);min-width:var(--pz);height:var(--pz);border-radius:999px;display:flex;align-items:center;overflow:hidden;cursor:pointer;background:#000;box-shadow:inset 0 0 0 1px rgba(255,255,255,.08);transition:flex-grow .6s cubic-bezier(.4,0,.2,1)}
+.ip{--ac:#fff;position:relative;flex:0 0 var(--pz);min-width:var(--pz);height:var(--pz);border-radius:999px;display:flex;align-items:center;overflow:hidden;cursor:pointer;background:#000;box-shadow:inset 0 0 0 1px rgba(255,255,255,.08);transition:flex-grow .62s cubic-bezier(.3,1.08,.4,1),box-shadow .6s}
 .ip.open{flex-grow:1}
 .ip.en{animation:ipE .65s cubic-bezier(.22,.9,.3,1) both}.ip.lv{animation:ipL .45s cubic-bezier(.4,0,.2,1) both;pointer-events:none}
-@keyframes ipE{from{opacity:0;flex-basis:0;min-width:0;margin-right:-8px;transform:scale(.5)}to{opacity:1;transform:none}}
+@keyframes ipE{from{opacity:0;flex-basis:0;min-width:0;margin-right:-8px;transform:scale(.5)}60%{opacity:1;transform:scale(1.06)}to{opacity:1;transform:none}}
 @keyframes ipL{to{opacity:0;flex-basis:0;min-width:0;flex-grow:0;margin-right:-8px;transform:scale(.5)}}
 .ic{position:relative;flex:none;width:var(--pz);height:var(--pz)}
 .rg{position:absolute;inset:0;width:100%;height:100%}
@@ -281,6 +281,14 @@ main.tkx #nw,main.tkx #q{display:none}}
 .l1{font-size:9.5px;font-weight:600;letter-spacing:.09em;text-transform:uppercase;color:rgba(255,255,255,.5);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .l2{font-size:15px;font-weight:700;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .l2.cl{white-space:normal;font-size:12.5px;line-height:1.16;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}
+.ip{box-shadow:inset 0 0 0 1px color-mix(in srgb,var(--ac) 26%,rgba(255,255,255,.05))}.ip.open{box-shadow:inset 0 0 0 1px color-mix(in srgb,var(--ac) 58%,rgba(255,255,255,.05))}
+.gv{position:absolute;inset:0;display:grid;place-items:center;padding-bottom:6px;z-index:1;font:700 15px/1 ui-rounded,"SF Pro Rounded",-apple-system,system-ui,sans-serif;font-variant-numeric:tabular-nums;color:#fff;letter-spacing:-.01em}.gv.n3,.gv.n4{font-size:12.5px}
+.gm{position:absolute;left:50%;bottom:3px;width:11px;height:11px;margin-left:-5.5px;z-index:1;display:grid;place-items:center}.gm svg{width:11px;height:11px;overflow:visible}
+.gm [stroke="#fff"]{stroke:var(--ac)}.gm [fill="#fff"]{fill:var(--ac)}
+.ga{transition:stroke-dasharray 1.1s cubic-bezier(.2,.8,.2,1)}
+.ip.tin .tx>*{animation:tin .6s cubic-bezier(.2,.8,.2,1) .32s both}
+@keyframes tin{from{opacity:0;filter:blur(6px);transform:translateY(5px) scale(.96)}to{opacity:1;filter:none;transform:none}}
+body.eco .tx>*{animation:none!important}body.eco .ga{transition:none}
 .l3{font-size:12px;font-weight:500;color:rgba(255,255,255,.55);margin-left:.4em}
 .nt{font-size:min(15px,calc((100cqh - 2px)/4.8));max-height:100%;overflow:hidden;width:100%;display:flex;align-items:center;gap:.9em;padding:.72em 1.05em .72em .8em;border-radius:1.6em;background:rgba(0,0,0,.5);box-shadow:inset 0 0 0 1px rgba(255,255,255,.12),0 8px 22px rgba(0,0,0,.25);animation:ntIn .75s cubic-bezier(.2,.9,.25,1) both;cursor:pointer}
 @keyframes ntIn{from{opacity:0;transform:translateY(22px) scale(.95)}}
@@ -900,6 +908,12 @@ async function valData(){
 
 /* ---------- dynamic island: ten pills, exactly one open at a time, staggered hand-off ---------- */
 const ring=(f,c)=>'<svg class="rg" viewBox="0 0 48 48"><circle cx="24" cy="24" r="20.5" fill="none" stroke="rgba(255,255,255,.12)" stroke-width="3"/><circle cx="24" cy="24" r="20.5" fill="none" stroke="'+c+'" stroke-width="3" stroke-linecap="round" pathLength="1" stroke-dasharray="'+Math.max(.05,Math.min(1,f)).toFixed(3)+' 1" transform="rotate(-90 24 24)"/></svg>';
+const lt=(h,m)=>{const n=parseInt(h.slice(1),16),f=v=>Math.round(v+(255-v)*m);return'#'+[n>>16&255,n>>8&255,n&255].map(v=>f(v).toString(16).padStart(2,'0')).join('')};
+/* watch-style open gauge: a 240deg arc from 8 to 4 o'clock, value centred, tiny glyph in the gap */
+const gauge=(f,c,id,v,g,pf)=>{const A=2/3,cl=x=>Math.max(.03,Math.min(1,x));
+  const a=(x)=>'<circle class="ga" cx="24" cy="24" r="20.5" fill="none" stroke="url(#gg'+id+')" stroke-width="3.4" stroke-linecap="round" pathLength="1" stroke-dasharray="'+(cl(x)*A).toFixed(3)+' 1" transform="rotate(150 24 24)"/>';
+  const n=String(v).length;
+  return '<svg class="rg" viewBox="0 0 48 48"><defs><linearGradient id="gg'+id+'" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="'+c+'"/><stop offset="1" stop-color="'+lt(c,.45)+'"/></linearGradient></defs><circle cx="24" cy="24" r="20.5" fill="none" stroke="rgba(255,255,255,.13)" stroke-width="3.4" stroke-linecap="round" pathLength="1" stroke-dasharray="'+A.toFixed(3)+' 1" transform="rotate(150 24 24)"/>'+a(pf==null?f:pf)+'</svg><span class="gv n'+n+'">'+v+'</span><span class="gm">'+g+'</span>'};
 const dsvg=b=>'<svg viewBox="0 0 24 24">'+b+'</svg>';
 /* a restrained, slightly desaturated palette in the spirit of Apple's system colours */
 const K={blue:'#4fb0ff',teal:'#3fd9c3',amber:'#ffc24a',green:'#44d977',rose:'#ff7a7a',violet:'#a58fff',cream:'#fff1b8',grey:'#b9c2d2',sand:'#ffa357'};
@@ -927,12 +941,12 @@ const IL={ai:0,ni:0,dwell:6000};
 /* Two rows; each keeps exactly one pill open and they run on offset timers.
    c() = [ring fraction or null for a bare icon, accent, glyph]. Nothing repeats what the main widgets show. */
 const PILL={
-  h:{ok:()=>!!IS.W,c:()=>[IS.W.hum/100,K.blue,G.hum(IS.W.hum)],x:()=>{const h=IS.W.hum;return['Humidity',h+'%',h<30?'Dry air':h<60?'Comfortable':h<75?'Humid':'Very humid']}},
-  w:{ok:()=>!!IS.W,c:()=>[null,K.teal,G.wind()],x:()=>{const w=IS.W,s=w.wind;return['Wind from '+w.dir,s+' km/h',s<6?'Calm':s<20?'Light':s<40?'Fresh':s<60?'Strong':'Gale']}},
+  h:{ok:()=>!!IS.W,c:()=>[IS.W.hum/100,K.blue,G.hum(IS.W.hum),Math.round(IS.W.hum)],x:()=>{const h=IS.W.hum;return['Humidity',h+'%',h<30?'Dry air':h<60?'Comfortable':h<75?'Humid':'Very humid']}},
+  w:{ok:()=>!!IS.W,c:()=>[Math.min(1,IS.W.wind/60),K.teal,G.wind(),Math.round(IS.W.wind)],x:()=>{const w=IS.W,s=w.wind;return['Wind from '+w.dir,s+' km/h',s<6?'Calm':s<20?'Light':s<40?'Fresh':s<60?'Strong':'Gale']}},
   s:{ok:()=>true,c:()=>{const m=nowMin(),rise=m<SR||m>=SS;return[null,rise?K.sand:K.amber,G.sun(rise?1:0)]},x:()=>{const m=nowMin(),rise=m<SR||m>=SS,nx=m<SR?SR:m<SS?SS:SR,un=m<SR?SR-m:m<SS?SS-m:1440-m+SR;return[rise?'Sunrise':'Sunset',fmtM(nx),'in '+dur(un)]}},
-  v:{ok:()=>!!IS.W&&IS.W.uv!=null,c:()=>{const u=IS.W.uv,l=uvLv(u);return[u/11,l[1],G.uv(l[1])]},x:()=>{const w=IS.W,l=uvLv(w.uv);return['UV index',w.uv+' · '+l[0],'Peak '+w.uvMax]}},
-  k:{ok:()=>!!cfg().fh&&IS.qs.some(x=>x.q&&x.q.c),c:()=>{const q=IS.qs.find(x=>x.q&&x.q.c);return[null,q.q.d>=0?K.green:K.rose,G.spark(q.q.d>=0)]},x:()=>{const L=IS.qs.filter(x=>x.q&&x.q.c);return['US market '+(IS.mk.open?'open':'closed'),qLine(L[0]),L[1]?qLine(L[1]).replace(/<\/?b>/g,''):'']}},
-  l:{ok:()=>IS.svc.some(x=>x-walkMin()>=0)||!!IS.next,c:()=>{const s=IS.svc.find(x=>x-walkMin()>=0);if(s==null)return[.1,K.grey,G.walk(K.grey)];const lv=s-walkMin(),c=lv<=1?K.sand:K.green;return[lv/10,c,G.walk(c)]},x:()=>{const n=IS.next,s=IS.svc.find(x=>x-walkMin()>=0);if(s==null)return['Next bus',n?esc(n.route)+' · '+n.mins+' min':'—',''];const lv=s-walkMin();return['Leave for the bus',lv<=0?'Leave now':'in '+lv+' min',n?esc(n.route):'']}},
+  v:{ok:()=>!!IS.W&&IS.W.uv!=null,c:()=>{const u=IS.W.uv,l=uvLv(u);return[u/11,l[1],G.uv(l[1]),Math.round(u)]},x:()=>{const w=IS.W,l=uvLv(w.uv);return['UV index',w.uv+' · '+l[0],'Peak '+w.uvMax]}},
+  k:{ok:()=>!!cfg().fh&&IS.qs.some(x=>x.q&&x.q.c),c:()=>{const q=IS.qs.find(x=>x.q&&x.q.c);return[Math.min(1,Math.abs(q.q.dp)/3),q.q.d>=0?K.green:K.rose,G.spark(q.q.d>=0),Math.abs(q.q.dp).toFixed(1)]},x:()=>{const L=IS.qs.filter(x=>x.q&&x.q.c);return['US market '+(IS.mk.open?'open':'closed'),qLine(L[0]),L[1]?qLine(L[1]).replace(/<\/?b>/g,''):'']}},
+  l:{ok:()=>IS.svc.some(x=>x-walkMin()>=0)||!!IS.next,c:()=>{const s=IS.svc.find(x=>x-walkMin()>=0);if(s==null)return[.1,K.grey,G.walk(K.grey),'–'];const lv=s-walkMin(),c=lv<=1?K.sand:K.green;return[lv/10,c,G.walk(c),lv<=0?'Go':lv]},x:()=>{const n=IS.next,s=IS.svc.find(x=>x-walkMin()>=0);if(s==null)return['Next bus',n?esc(n.route)+' · '+n.mins+' min':'—',''];const lv=s-walkMin();return['Leave for the bus',lv<=0?'Leave now':'in '+lv+' min',n?esc(n.route):'']}},
   a:{ok:()=>true,c:()=>{const ok=IS.alerts[0]&&IS.alerts[0].ok,c=ok?K.green:K.amber;return[null,c,G.bell(c)]},x:()=>{const A=IS.alerts,i=IL.ai%Math.max(1,A.length),a=A[i];if(!a)return['Service alerts','Checking…'];return a.ok?['Service alerts','All clear',esc(a.routes)]:['',esc(a.h),'',null,1]}},
   q:{fx:1,ok:()=>TK.on&&!TK.out,c:()=>[null,K.violet,G.quote()],x:()=>{const q=qCur();return['Quote · '+esc(q[1]),esc(q[0]),'',null,1]}},
   n:{fx:1,ok:()=>TK.on&&!TK.out&&NW.rnz.length>0,c:()=>[null,K.blue,G.news()],x:()=>{const L=NW.rnz,t=L[IL.ni%L.length];return['RNZ News',esc(t.t),'',null,1]}},
@@ -941,7 +955,10 @@ const ROWS=[{id:'ra',ids:['h','w','s','v','n']},{id:'rb',ids:['k','l','a','q']}]
 ROWS.forEach(r=>{r.cur=null;r.t=0;r.busy=false;r.ids.forEach(i=>PILL[i].row=r)});
 function ilFill(id,text){
   const p=PILL[id],c=p.c();p.el.style.setProperty('--ac',c[1]);
-  p.ic.innerHTML=(c[0]==null?'':ring(c[0],c[1]))+'<span class="gl'+(c[0]==null?' big':'')+'">'+c[2]+'</span>';
+  if(c[3]!=null){const pf=p.pf,ch=pf!=null&&Math.abs(pf-c[0])>.004&&!document.body.classList.contains('eco');
+    p.ic.innerHTML=gauge(c[0],c[1],id,c[3],c[2],ch?pf:null);p.ic.classList.add('gz');p.pf=c[0];
+    if(ch)requestAnimationFrame(()=>requestAnimationFrame(()=>{const e=p.ic.querySelector('.ga');if(e)e.setAttribute('stroke-dasharray',(Math.max(.03,Math.min(1,c[0]))*2/3).toFixed(3)+' 1')}))}
+  else{p.ic.classList.remove('gz');p.ic.innerHTML=(c[0]==null?'':ring(c[0],c[1]))+'<span class="gl'+(c[0]==null?' big':'')+'">'+c[2]+'</span>'}
   if(text){const t=p.x();p.it.innerHTML='<div class="tx">'+(t[0]?'<div class="l1">'+t[0]+'</div>':'')+'<div class="l2'+(t[4]?' cl':'')+'">'+t[1]+(t[2]?'<span class="l3">'+t[2]+'</span>':'')+'</div></div>'}
 }
 function ilRefresh(id){const p=PILL[id];if(!p||!p.el)return;const ok=p.ok();
@@ -959,7 +976,7 @@ function ilSwap(r,id){
   setTimeout(()=>{
     if(pv)pv.el.classList.remove('open','hush');            /* ...and only then does the pill close and the next one open */
     if(id==='a')IL.ai++;if(id==='n')IL.ni++;
-    ilFill(id,true);nx.el.classList.add('open');r.cur=id;
+    ilFill(id,true);nx.el.classList.add('open','tin');r.cur=id;setTimeout(()=>nx.el.classList.remove('tin'),1100);
     setTimeout(()=>{r.busy=false},760);
   },pv?340:0);
 }
