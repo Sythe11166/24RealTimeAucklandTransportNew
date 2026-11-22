@@ -959,8 +959,8 @@ const G={
   spark:up=>{const d=up?'M3.6 17.4l5.2-5.4 3.6 3.2 6.6-7.4':'M3.6 6.6l5.2 5.4 3.6-3.2 6.6 7.4',h=up?'M14.4 7.8h5.4v5.4':'M14.4 16.2h5.4v-5.4';return dsvg('<path d="'+d+'" stroke="'+W3+'" '+HV+'/><path pathLength="1" class="spk" d="'+d+'" stroke="'+W1+'" '+HV+'/><path class="spd" d="'+h+'" stroke="'+W1+'" '+HV+'/>')},
   bell:c=>dsvg('<g class="bl"><path d="M12 3.2c-3.3 0-5.6 2.5-5.6 5.8v3.3c0 1.2-.5 2.3-1.4 3.2-.5.5-.2 1.4.5 1.4h13c.7 0 1-.9.5-1.4-.9-.9-1.4-2-1.4-3.2V9c0-3.3-2.3-5.8-5.6-5.8z" fill="'+W1+'"/><path d="M9.4 18.9h5.2a2.6 2.6 0 0 1-5.2 0z" fill="'+W1+'"/></g>'),
   walk:c=>dsvg('<g class="wk"><circle cx="15.6" cy="3.8" r="2.3" fill="'+W1+'"/><path d="M13 8 10.8 13.4" stroke="'+W1+'" stroke-width="3.1" stroke-linecap="round" fill="none"/><path d="M12.4 8.6 8.2 9.4 6.2 12.8M13.6 8.8l3.4 2 3-2.6M10.8 13.4 4.8 20M10.8 13.4l4.8 1.2-1.6 5.8" stroke="'+W1+'" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" fill="none"/></g>'),
-  quote:()=>dsvg('<path d="M6.8 18c-1.9 0-3.3-1.4-3.3-3.3 0-3 1.8-5.7 4.8-7l1 1.7c-1.6.8-2.4 1.8-2.5 3.1h1.1c1.2 0 2.2.9 2.2 2.1v.3c0 1.3-1.2 2.1-3.3 2.1zm9.6 0c-1.9 0-3.3-1.4-3.3-3.3 0-3 1.8-5.7 4.8-7l1 1.7c-1.6.8-2.4 1.8-2.5 3.1h1.1c1.2 0 2.2.9 2.2 2.1v.3c0 1.3-1.2 2.1-3.3 2.1z" fill="'+W1+'"/>'),
-  news:()=>dsvg('<rect x="3.8" y="4" width="16.4" height="16" rx="3.4" fill="'+W1+'"/><path d="M7.6 8.6h4.2" stroke="'+KB+'" '+HV+'/><path d="M7.6 12.2h8.8M7.6 15.8h6" stroke="'+KB+'" stroke-width="1.9" stroke-linecap="round" fill="none"/>'),
+  quote:()=>dsvg('<g transform="translate(12 12.4) scale(1.22) translate(-12 -12.4)"><path d="M6.6 18.4c-2 0-3.5-1.5-3.5-3.5 0-3.2 1.9-6 5.1-7.4l1.1 1.8c-1.7.8-2.6 1.9-2.7 3.2h1.1c1.3 0 2.3 1 2.3 2.2v.1c0 1.4-1.2 2.2-3.4 2.2zm10 0c-2 0-3.5-1.5-3.5-3.5 0-3.2 1.9-6 5.1-7.4l1.1 1.8c-1.7.8-2.6 1.9-2.7 3.2h1.1c1.3 0 2.3 1 2.3 2.2v.1c0 1.4-1.2 2.2-3.4 2.2z" fill="'+W1+'"/></g>'),
+  news:()=>dsvg('<g transform="translate(12 12) scale(1.1) translate(-12 -12)"><path d="M4 6.2A1.7 1.7 0 0 1 5.7 4.5h9.6A1.7 1.7 0 0 1 17 6.2v12.3H6a2 2 0 0 1-2-2z" fill="'+W1+'"/><path d="M17 8.6h1.6A1.4 1.4 0 0 1 20 10v6.5a2 2 0 0 1-2 2h-1z" fill="'+W2+'"/><path d="M7 8.4h7M7 11.6h7M7 14.8h4" stroke="'+KB+'" stroke-width="1.8" stroke-linecap="round" fill="none"/></g>'),
 };
 const MOON_REF=Date.UTC(2000,0,6,18,14),SYN=29.530588853;
 function moonInfo(){const age=((Date.now()-MOON_REF)/864e5%SYN+SYN)%SYN,f=age/SYN,ill=(1-Math.cos(2*Math.PI*f))/2,n=age<1.85?'New moon':age<5.53?'Waxing crescent':age<9.22?'First quarter':age<12.91?'Waxing gibbous':age<16.61?'Full moon':age<20.3?'Waning gibbous':age<23.99?'Last quarter':age<27.68?'Waning crescent':'New moon';
@@ -984,7 +984,7 @@ const PILL={
   q:{fx:1,ok:()=>TK.on&&!TK.out,c:()=>[null,K.violet,G.quote()],x:()=>{const q=qCur();return['Quote · '+esc(q[1]),esc(q[0]),'',null,1]}},
   n:{fx:1,ok:()=>TK.on&&!TK.out&&NW.rnz.length>0,c:()=>[null,K.blue,G.news()],x:()=>{const L=NW.rnz,t=L[IL.ni%L.length];return['RNZ News',esc(t.t),'',null,1]}},
 };
-PILL.s.bare=PILL.a.bare=1;
+PILL.s.bare=PILL.a.bare=PILL.q.bare=PILL.n.bare=1;
 const dpIs=k=>DPR.k===k;
 PILL.l.pri=()=>{const s=IS.svc.find(x=>x-walkMin()>=0);return s!=null&&s-walkMin()<=3?3:dpIs('am')?2:0};
 PILL.a.pri=()=>{const a=IS.alerts[0];return a&&!a.ok?3:0};
