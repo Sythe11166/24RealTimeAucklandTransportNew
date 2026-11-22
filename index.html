@@ -202,9 +202,9 @@ body.eco .vl>*,body.eco .lv1>*{animation:none}
 /* news + quote */
 .ah{font-size:1em;font-weight:750;line-height:1.2}
 /* favourite takeover: the Valorant card spans the old Valorant + news + quote area and shows everything about the live match */
-@media(min-width:701px){main.tk{grid-template-areas:"w w w w w w w b b b b b" "w w w w w w w b b b b b" "v v v v v v v v v v v v" "v v v v v v v v v v v v" "i i i i i i i i i i i i"}
-@media(orientation:portrait){main.tk{grid-template-areas:"w w w w w w w w w w w w" "w w w w w w w w w w w w" "b b b b b b b b b b b b" "b b b b b b b b b b b b" "v v v v v v v v v v v v" "v v v v v v v v v v v v" "i i i i i i i i i i i i"}}
-main.tk #nw,main.tk #q{display:none}}
+@media(min-width:701px){main.tk #vg{grid-area:v-start/v-start/q-end/n-end;z-index:3}
+@media(orientation:portrait){main.tk #vg{grid-area:q-start/q-start/n-end/n-end}main.tk #bus{grid-area:b-start/b-start/v-end/v-end;z-index:2}}
+main.tkx #nw,main.tkx #q{display:none}}
 .vgp.tkp{font-size:calc(min(4.7cqh,1.6cqw)*var(--vf,1));display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.6fr) minmax(0,1fr);grid-template-rows:auto minmax(0,1fr);column-gap:1.6em}
 .tkp .vh{grid-column:1/-1}
 .tkt{display:flex;flex-direction:column;justify-content:center;gap:.75em;min-width:0}
@@ -246,6 +246,9 @@ main.tk #nw,main.tk #q{display:none}}
 .ir{display:flex;gap:8px;height:var(--pz)}
 .ip{--ac:#fff;position:relative;flex:0 0 var(--pz);min-width:var(--pz);height:var(--pz);border-radius:999px;display:flex;align-items:center;overflow:hidden;cursor:pointer;background:#000;box-shadow:inset 0 0 0 1px rgba(255,255,255,.08);transition:flex-grow .6s cubic-bezier(.4,0,.2,1)}
 .ip.open{flex-grow:1}
+.ip.en{animation:ipE .65s cubic-bezier(.22,.9,.3,1) both}.ip.lv{animation:ipL .45s cubic-bezier(.4,0,.2,1) both;pointer-events:none}
+@keyframes ipE{from{opacity:0;flex-basis:0;min-width:0;margin-right:-8px;transform:scale(.5)}to{opacity:1;transform:none}}
+@keyframes ipL{to{opacity:0;flex-basis:0;min-width:0;flex-grow:0;margin-right:-8px;transform:scale(.5)}}
 .ic{position:relative;flex:none;width:var(--pz);height:var(--pz)}
 .rg{position:absolute;inset:0;width:100%;height:100%}
 .gl{position:absolute;inset:0;display:grid;place-items:center}.gl svg{width:21px;height:21px;overflow:visible}.ic::after{content:"";position:absolute;inset:7px;border-radius:50%;background:radial-gradient(circle,var(--ac,#fff) 0,transparent 72%);opacity:.2;pointer-events:none}.gl{z-index:1}.gl.big svg{width:26px;height:26px}
@@ -452,6 +455,7 @@ function paint(key){
 /* ---------- quotes with meaning ---------- */
 const Q=[["We suffer more often in imagination than in reality.","Seneca","Most of what we dread never happens. Worry rehearses pain in advance, so meet each problem when it actually arrives."],["The unexamined life is not worth living.","Socrates","A life on autopilot misses its point. Question your habits, beliefs and choices so you live on purpose."],["What stands in the way becomes the way.","Marcus Aurelius","Obstacles aren’t detours from the path, they are the path. Treat each setback as material to work with."],["It is not that we have a short time to live, but that we waste much of it.","Seneca","Life is long enough if used well. The real loss is the hours we hand to distraction and delay."],["Nothing endures but change.","Heraclitus","Everything is in motion, so clinging to how things were causes suffering. Adapting is the only stable strategy."],["He who has a why to live can bear almost any how.","Friedrich Nietzsche","A strong purpose makes hardship bearable. Know what you’re living for and the difficulty weighs less."],["Man is condemned to be free.","Jean-Paul Sartre","You can’t escape choosing, so you own the consequences. Even not choosing is a choice."],["The only thing I know is that I know nothing.","Socrates","Wisdom starts with admitting the limits of what you know. Humility keeps you curious and teachable."],["Happiness depends upon ourselves.","Aristotle","Contentment comes from how we act and think, not from luck. Cultivate good habits and character."],["We are what we repeatedly do. Excellence, then, is not an act, but a habit.","Will Durant, on Aristotle","Greatness is built from small daily practices, not one heroic moment. Your routines shape who you become."],["Man is the measure of all things.","Protagoras","Truth and value are judged from human experience and perspective. It invites us to take other viewpoints seriously."],["Wonder is the feeling of a philosopher, and philosophy begins in wonder.","Plato","Curiosity is where deep thinking starts. Stay amazed by ordinary things and the questions keep coming."],["Life must be understood backwards, but it must be lived forwards.","Søren Kierkegaard","Only in hindsight does the pattern make sense, yet you must decide before you know. Act despite uncertainty."],["People are disturbed not by things, but by the views they take of them.","Epictetus","It’s our judgement of events, not the events, that upsets us. Change the interpretation and the distress shrinks."],["The soul becomes dyed with the colour of its thoughts.","Marcus Aurelius","What you repeatedly think shapes your character. Guard your thinking like you’d guard your diet."],["When we are no longer able to change a situation, we are challenged to change ourselves.","Viktor Frankl","Some circumstances can’t be fixed, but our response always can. Growth often begins where control ends."],["I think, therefore I am.","René Descartes","Even if everything else can be doubted, the act of doubting proves a thinker exists. It’s a foundation for certainty."],["Whereof one cannot speak, thereof one must be silent.","Ludwig Wittgenstein","Some things lie beyond what words can clearly say. Be honest about where language and knowledge stop."],["The limits of my language mean the limits of my world.","Ludwig Wittgenstein","What we can name shapes what we can think. A richer vocabulary widens how much of life you can perceive."],["He who fights with monsters should be careful lest he thereby become a monster.","Friedrich Nietzsche","Long battles with something ugly can change you. Watch that fighting an enemy doesn’t make you resemble them."],["It is not the man who has too little, but the man who craves more, that is poor.","Seneca","Wealth is about wanting, not having. Endless desire leaves you poor at any income."],["Waste no more time arguing about what a good man should be. Be one.","Marcus Aurelius","Stop debating virtue and practise it. Character shows in actions, not opinions."],["Freedom is secured not by the fulfilling of one’s desires, but by the removal of desire.","Epictetus","Chasing every want makes you its servant. Wanting less is a faster route to being free."],["Hope is a good breakfast, but it is a bad supper.","Francis Bacon","Optimism fuels a start but can’t sustain the finish. Pair hope with plans and results."],["Attention is the rarest and purest form of generosity.","Simone Weil","Truly focusing on someone, without fixing or judging, is a real gift. Presence costs more than money."],["One must imagine Sisyphus happy.","Albert Camus","Even endless, repetitive effort can hold meaning if you embrace it. Find purpose in the doing, not only the outcome."],["The journey of a thousand miles begins with a single step.","Laozi","Big goals feel overwhelming until you start. Begin with the next small, concrete action."],["Knowing others is intelligence; knowing yourself is true wisdom.","Laozi","Understanding people is clever, but understanding your own motives is deeper. Self-knowledge guides every other decision."],["Real knowledge is to know the extent of one’s ignorance.","Confucius","Knowing what you don’t know marks a true expert. It prevents overconfidence and invites learning."],["Do not weep; do not wax indignant. Understand.","Baruch Spinoza","Rather than react with anger or grief, look for causes. Understanding brings calm and better responses."],["All of humanity’s problems stem from man’s inability to sit quietly in a room alone.","Blaise Pascal","We chase distraction to avoid our own thoughts. Learning to be still can solve more than constant busyness."],["You could leave life right now. Let that determine what you do and say and think.","Marcus Aurelius","Remembering life is finite sharpens priorities. Act today as though it counts, because it does."],["Do not spoil what you have by desiring what you have not.","Epicurus","Dwelling on what’s missing dulls what’s already good. Practise gratitude for what you have now."],["Dare to know! Have the courage to use your own understanding.","Immanuel Kant","Don’t outsource your thinking to authorities or the crowd. Reason for yourself, even when it’s uncomfortable."]];
 let qKey=null,qOff=0;
+const qCur=()=>{const p=aklParts(),day=Math.floor(Date.UTC(+p.year,+p.month-1,+p.day)/864e5),slot=day*8+Math.floor(nowMin()/180);return Q[(((slot+qOff)*7)%Q.length+Q.length)%Q.length]};
 function quote(force){
   const p=aklParts(),day=Math.floor(Date.UTC(+p.year,+p.month-1,+p.day)/864e5),slot=day*8+Math.floor(nowMin()/180),k=slot+'|'+qOff;
   if(k===qKey&&!force)return;qKey=k;
@@ -575,7 +579,7 @@ async function feed(u){
   return j.items.map(i=>({t:i.title,d:i.description||i.content,l:i.link,p:i.pubDate}));
 }
 /* RNZ stories with a Valorant story slipped in after every third one */
-const TK={on:false};
+const TK={on:false,out:0,busy:0,seen:0};
 function newsRender(){
   if(TK.on)return;
   const R=NW.rnz,V=NW.val,L=[];let v=0;
@@ -663,9 +667,31 @@ const focusReg=()=>LS.g('vreg','');
 function valFilter(){const g=focusReg();VAL.live=!g?VAL.liveAll:VAL.liveAll.filter(m=>{const k=regK(m.ev);return isFav(m.a)||isFav(m.b)||!k||k[1]===g||k[1]==='ma'||k[1]==='ch'})}
 let goldT=0;function vgGold(){const e=$('vg');e.classList.remove('gold');void e.offsetWidth;e.classList.add('gold');clearTimeout(goldT);goldT=setTimeout(()=>e.classList.remove('gold'),3400)}
 function goldCheck(){if(!favs().length)return;VAL.liveAll.forEach(m=>{const dn=(m.mp||[]).filter(x=>x.st==='d'),was=VAL.dn[m.id];VAL.dn[m.id]=dn.length;if(was==null||dn.length<=was)return;const w=dn[dn.length-1];if(isFav(w.a>w.b?m.a:m.b))vgGold()})}
+const TKR=e=>e.getBoundingClientRect(),TKI=(s,f)=>'inset('+(s.top-f.top)+'px '+(f.right-s.right)+'px '+(f.bottom-s.bottom)+'px '+(s.left-f.left)+'px round 30px)';
+const tkPort=()=>matchMedia('(orientation:portrait)').matches,tkSmall=()=>matchMedia('(max-width:700px)').matches;
+/* the card grows over the news + quote slots (clip-path reveal, no layout distortion); they fade away underneath */
+function tkIn(first){const m=$('app'),v=$('vg'),n=$('nw'),q=$('q'),b=$('bus'),pt=tkPort();
+  if(first||tkSmall()||!v.animate){m.classList.add('tk','tkx');return}
+  const a={v:TKR(v),n:TKR(n),b:TKR(b)};m.classList.add('tk');const f=TKR(v),fb=TKR(b),o={duration:850,easing:'cubic-bezier(.22,.9,.3,1)'},an=[];
+  an.push(v.animate([{clipPath:TKI(pt?a.n:a.v,f)},{clipPath:TKI(f,f)}],o));
+  if(pt)an.push(b.animate([{clipPath:TKI(a.b,fb)},{clipPath:TKI(fb,fb)}],o));
+  [n,q].forEach(x=>an.push(x.animate([{opacity:1,transform:'scale(1)'},{opacity:0,transform:'scale(.94)'}],{duration:520,easing:'ease-in',fill:'forwards'})));
+  setTimeout(()=>{m.classList.add('tkx');an.forEach(x=>x.cancel())},900)}
+function tkOut(cb){const m=$('app'),v=$('vg'),n=$('nw'),q=$('q'),b=$('bus'),pt=tkPort();
+  if(tkSmall()||!v.animate){m.classList.remove('tk','tkx');cb();return}
+  m.classList.remove('tk','tkx');const t={v:TKR(v),b:TKR(b)};m.classList.add('tk');const f=TKR(v),fb=TKR(b),an=[],o={duration:720,easing:'cubic-bezier(.4,0,.2,1)',fill:'forwards'};
+  an.push(pt?v.animate([{opacity:1},{opacity:0}],{duration:420,fill:'forwards'}):v.animate([{clipPath:TKI(f,f)},{clipPath:TKI(t.v,f)}],o));
+  if(pt)an.push(b.animate([{clipPath:TKI(fb,fb)},{clipPath:TKI(t.b,fb)}],o));
+  [n,q].forEach(x=>an.push(x.animate([{opacity:0,transform:'scale(.94)'},{opacity:1,transform:'scale(1)'}],{duration:600,delay:140,easing:'ease-out',fill:'backwards'})));
+  setTimeout(()=>{m.classList.remove('tk');an.forEach(x=>x.cancel());cb()},760)}
 function valRender(){
   const T=favs().length?VAL.liveAll.filter(m=>(isFav(m.a)||isFav(m.b))&&m.mp&&m.mp.some(x=>x.st)):[],on=T.length>0;
-  if(on!==TK.on){TK.on=on;$('app').classList.toggle('tk',on);if(!on){RT.nw.s='';RT.nw.items=[];newsRender()}}
+  if(TK.busy)return;
+  if(on!==TK.on){
+    if(on){tkIn(!TK.seen);TK.on=true;TK.out=0;TK.seen=1;if(typeof ilRefreshAll==='function')ilRefreshAll()}
+    else{TK.busy=1;TK.out=1;if(typeof ilRefreshAll==='function')ilRefreshAll();tkOut(()=>{TK.on=false;TK.busy=0;RT.nw.s='';RT.nw.items=[];newsRender();valRender()});return}
+  }
+  TK.seen=1;
   if(on){setItems('vg',T.map(m=>({t:'k',d:m})),true);return}
   const ch=(a,n)=>{const o=[];for(let i=0;i<a.length;i+=n)o.push(a.slice(i,i+n));return o},P=[];
   const LV=VAL.live,D=LV.filter(m=>m.pl||(m.mp&&m.mp.some(x=>x.st))).slice(0,3),Rst=LV.filter(m=>!D.includes(m));
@@ -714,7 +740,7 @@ G.moon=f=>{const ill=(1-Math.cos(2*Math.PI*f))/2,rx=(9*Math.abs(Math.cos(2*Math.
 const walkMin=()=>Math.max(0,+cfg().walk||0);
 const qLine=x=>{const up=x.q.d>=0;return '<b>'+x.s+'</b> $'+x.q.c.toFixed(2)+' <em class="'+(up?'up':'dn')+'">'+(up?'▲ ':'▼ ')+Math.abs(x.q.dp).toFixed(2)+'%</em>'};
 const uvLv=u=>u<3?['Low',K.green]:u<6?['Moderate','#f2dc5c']:u<8?['High',K.sand]:u<11?['Very high',K.rose]:['Extreme',K.violet];
-const IL={ai:0,dwell:6000};
+const IL={ai:0,ni:0,dwell:6000};
 /* Two rows; each keeps exactly one pill open and they run on offset timers.
    c() = [ring fraction or null for a bare icon, accent, glyph]. Nothing repeats what the main widgets show. */
 const PILL={
@@ -725,15 +751,22 @@ const PILL={
   k:{ok:()=>!!cfg().fh&&IS.qs.some(x=>x.q&&x.q.c),c:()=>{const q=IS.qs.find(x=>x.q&&x.q.c);return[null,q.q.d>=0?K.green:K.rose,G.spark(q.q.d>=0)]},x:()=>{const L=IS.qs.filter(x=>x.q&&x.q.c);return['US market '+(IS.mk.open?'open':'closed'),qLine(L[0]),L[1]?qLine(L[1]).replace(/<\/?b>/g,''):'']}},
   l:{ok:()=>IS.svc.some(x=>x-walkMin()>=0)||!!IS.next,c:()=>{const s=IS.svc.find(x=>x-walkMin()>=0);if(s==null)return[.1,K.grey,G.walk(K.grey)];const lv=s-walkMin(),c=lv<=1?K.sand:K.green;return[lv/10,c,G.walk(c)]},x:()=>{const n=IS.next,s=IS.svc.find(x=>x-walkMin()>=0);if(s==null)return['Next bus',n?esc(n.route)+' · '+n.mins+' min':'—',''];const lv=s-walkMin();return['Leave for the bus',lv<=0?'Leave now':'in '+lv+' min',n?esc(n.route):'']}},
   a:{ok:()=>true,c:()=>{const ok=IS.alerts[0]&&IS.alerts[0].ok,c=ok?K.green:K.amber;return[null,c,G.bell(c)]},x:()=>{const A=IS.alerts,i=IL.ai%Math.max(1,A.length),a=A[i];if(!a)return['Service alerts','Checking…'];return a.ok?['Service alerts','All clear',esc(a.routes)]:['',esc(a.h),'',null,1]}},
+  q:{fx:1,ok:()=>TK.on&&!TK.out,c:()=>[null,K.violet,dsvg('<path d="M7 17c-1.7 0-3-1.3-3-3 0-2.8 1.7-5.4 4.5-6.6l.8 1.4C7.7 9.7 7 10.8 7 12h1.5v5H7zm9 0c-1.7 0-3-1.3-3-3 0-2.8 1.7-5.4 4.5-6.6l.8 1.4c-1.6.9-2.3 2-2.3 3.2H18v5h-2z" fill="'+K.violet+'"/>')],x:()=>{const q=qCur();return['Quote · '+esc(q[1]),esc(q[0]),'',null,1]}},
+  n:{fx:1,ok:()=>TK.on&&!TK.out&&NW.rnz.length>0,c:()=>[null,K.blue,dsvg('<rect x="4" y="5" width="16" height="14" rx="2.5" fill="none" stroke="'+K.blue+'" stroke-width="1.6"/><path d="M8 9.5h8M8 13h8M8 16h5" stroke="'+K.blue+'" stroke-width="1.5" stroke-linecap="round"/>')],x:()=>{const L=NW.rnz,t=L[IL.ni%L.length];return['RNZ News',esc(t.t),'',null,1]}},
 };
-const ROWS=[{id:'ra',ids:['h','w','s','v']},{id:'rb',ids:['k','l','a']}];
+const ROWS=[{id:'ra',ids:['h','w','s','v','n']},{id:'rb',ids:['k','l','a','q']}];
 ROWS.forEach(r=>{r.cur=null;r.t=0;r.busy=false;r.ids.forEach(i=>PILL[i].row=r)});
 function ilFill(id,text){
   const p=PILL[id],c=p.c();p.el.style.setProperty('--ac',c[1]);
   p.ic.innerHTML=(c[0]==null?'':ring(c[0],c[1]))+'<span class="gl'+(c[0]==null?' big':'')+'">'+c[2]+'</span>';
   if(text){const t=p.x();p.it.innerHTML='<div class="tx">'+(t[0]?'<div class="l1">'+t[0]+'</div>':'')+'<div class="l2'+(t[4]?' cl':'')+'">'+t[1]+(t[2]?'<span class="l3">'+t[2]+'</span>':'')+'</div></div>'}
 }
-function ilRefresh(id){const p=PILL[id];if(!p||!p.el)return;const ok=p.ok();p.el.style.display=ok?'':'none';if(ok)ilFill(id,p.row.cur===id)}
+function ilRefresh(id){const p=PILL[id];if(!p||!p.el)return;const ok=p.ok();
+  if(p.fx){if(ok){if(!p.sh){p.sh=1;clearTimeout(p.ht);p.el.style.display='';p.el.classList.remove('lv');p.el.classList.add('en');setTimeout(()=>p.el.classList.remove('en'),700)}ilFill(id,p.row.cur===id)}
+    else if(p.sh===undefined){p.sh=0;p.el.style.display='none'}
+    else if(p.sh){p.sh=0;if(p.row.cur===id)p.row.cur=null;p.el.classList.add('lv');p.ht=setTimeout(()=>{p.el.style.display='none';p.el.classList.remove('lv','open','hush')},480)}
+    return}
+p.el.style.display=ok?'':'none';if(ok)ilFill(id,p.row.cur===id)}
 const ilRefreshAll=()=>Object.keys(PILL).forEach(ilRefresh);
 function updRefresh(){const u=$('upd');if(!u)return;const w=staleSrc().length>0;$('updt').textContent=LR?hmt(LR/1000):'—';u.classList.toggle('busy',BUSY>0);u.classList.toggle('warn',w);$('upl').textContent=w?'Check data':'Updated'}
 function ilSwap(r,id){
@@ -742,7 +775,7 @@ function ilSwap(r,id){
   if(pv){pv.el.classList.add('hush');ilFill(r.cur,false)}   /* text fades and the icon settles back to its rest pose... */
   setTimeout(()=>{
     if(pv)pv.el.classList.remove('open','hush');            /* ...and only then does the pill close and the next one open */
-    if(id==='a')IL.ai++;
+    if(id==='a')IL.ai++;if(id==='n')IL.ni++;
     ilFill(id,true);nx.el.classList.add('open');r.cur=id;
     setTimeout(()=>{r.busy=false},760);
   },pv?340:0);
