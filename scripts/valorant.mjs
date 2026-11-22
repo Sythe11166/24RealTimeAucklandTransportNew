@@ -118,7 +118,7 @@ async function fetchMatch(path, live, sa, sb) {
         const ag = (/agents\/([a-z0-9]+)\.(?:png|webp)/i.exec(t.find('.ovw-agents img').first().attr('src') || '') || [])[1];
         let k = val(t.find('.ovw-kda-stat[data-col="kills"]').first()), d = val(t.find('.ovw-kda-stat[data-col="deaths"]').first()), as = val(t.find('.ovw-kda-stat[data-col="assists"]').first());
         if (k == null || d == null) { const m3 = /(\d+)\s*\/\s*(\d+)\s*\/\s*(\d+)/.exec(txt(t.find('.mod-kda').first())); if (m3) { k = +m3[1]; d = +m3[2]; as = +m3[3]; } }
-        if (nm) rows.push({ n: nm, k, d, ...(as != null ? { a: as } : {}), ag: ag || '' });
+        if (nm) rows.push({ n: nm, k, d, ...(as != null ? { a: as } : {}), ag: ag || '', tg: txt(t.find('.ovw-player-tag').first()) });
       });
     });
     return rows;
@@ -157,15 +157,16 @@ async function fetchMatch(path, live, sa, sb) {
   if (!live) {
     const pm = games.filter(m => m.n && started(m));
     // post-match summary: every played map with both rosters (agent, K/D) and the round-by-round result (overtime included)
+    let tgs = null;
     const sm = pm.map(m => {
       const o = { n: m.n, a: m.a, b: m.b }, r = rowsOf(m.g);
-      if (r.length >= 10) { const top = x => x.slice().sort((p, q) => (q.k ?? -1) - (p.k ?? -1) || (p.d ?? 0) - (q.d ?? 0)); o.pa = top(r.slice(0, 5)); o.pb = top(r.slice(5, 10)); }
+      if (r.length >= 10) { const top = x => x.slice().sort((p, q) => (q.k ?? -1) - (p.k ?? -1) || (p.d ?? 0) - (q.d ?? 0)); o.pa = top(r.slice(0, 5)).map(({ tg, ...x }) => x); o.pb = top(r.slice(5, 10)).map(({ tg, ...x }) => x); if (!tgs && r[0].tg) tgs = [r[0].tg, r[5].tg]; }
       const rd = rdOf(m.g); if (rd.length) o.rd = rd;
       return o;
     });
     const withKd = sm.filter(x => x.pa && x.pa.some(p => p.k != null && p.a != null)).length;
     console.log('summary', path.split('/')[1], 'maps', sm.length, '| with K/D:', withKd, '| with rounds:', sm.filter(x => x.rd).length, '| sample:', sm[0] && sm[0].pa ? JSON.stringify(sm[0].pa[0]) : 'none');
-    return { mp: pm.map(m => ({ n: m.n, a: m.a, b: m.b })), sm, ...common };
+    return { mp: pm.map(m => ({ n: m.n, a: m.a, b: m.b })), sm, ...(tgs ? { tg: tgs } : {}), ...common };
   }
 
   // live: every map of the series. d = played, l = being played (or about to start), n = still to come
@@ -188,7 +189,8 @@ async function fetchMatch(path, live, sa, sb) {
   if (rows.length >= 10) {
     const top = r => r.slice().sort((x, y) => y.k - x.k || x.d - y.d);
     const cut = r => r.map(({ n, ag }) => ({ n, ag: liveRows ? ag : '' }));
-    out.pl = kd ? { a: top(rows.slice(0, 5)), b: top(rows.slice(5, 10)) } : { a: cut(rows.slice(0, 5)), b: cut(rows.slice(5, 10)) };
+    out.pl = kd ? { a: top(rows.slice(0, 5)).map(({ tg, ...x }) => x), b: top(rows.slice(5, 10)).map(({ tg, ...x }) => x) } : { a: cut(rows.slice(0, 5)), b: cut(rows.slice(5, 10)) };
+    if (rows[0].tg && rows[5].tg) out.tg = [rows[0].tg, rows[5].tg];
     if (kd) out.plm = games[li].n; else out.nk = 1;
   }
   if (rd.length) { out.rd = rd; out.rdm = games[li].n; }
@@ -199,13 +201,13 @@ const oldRes = Object.fromEntries((old.results || []).map(m => [m.id, m]));
 const oldLive = Object.fromEntries((old.live || []).map(m => [m.id, m]));
 for (const m of live) {
   try { let x; try { x = await fetchMatch(m.url.replace(BASE, ''), true, m.sa, m.sb); } catch (e1) { await sleep(2500); x = await fetchMatch(m.url.replace(BASE, ''), true, m.sa, m.sb); } const { evl, fsc, ...r } = x; if (evl) evlogos[m.ev] = evl; Object.assign(m, r); if (m.vt && !m.vt.length) delete m.vt; }
-  catch (e) { console.log('LIVE DETAIL FAILED, showing older map data for', m.a, 'v', m.b, '-', e.message); const o = oldLive[m.id]; if (o) { for (const k of ['mp', 'pl', 'plm', 'nk', 'rd', 'rdm', 'bo', 'vt', 'h2h', 'evu']) if (o[k] !== undefined) m[k] = o[k]; } }
+  catch (e) { console.log('LIVE DETAIL FAILED, showing older map data for', m.a, 'v', m.b, '-', e.message); const o = oldLive[m.id]; if (o) { for (const k of ['mp', 'pl', 'plm', 'nk', 'rd', 'rdm', 'bo', 'vt', 'h2h', 'evu', 'tg']) if (o[k] !== undefined) m[k] = o[k]; } }
   await sleep(600);
 }
 for (const m of results) {
   const o = oldRes[m.id];
-  if (o && o.mp && o.mp.length) { m.mp = o.mp; for (const k of ['sm', 'vt', 'h2h', 'bo', 'smt', 'et']) if (o[k] !== undefined) m[k] = o[k]; continue; }
-  try { const x = await fetchMatch(m.url.replace(BASE, ''), false); if (x.mp.length) m.mp = x.mp; if (x.sm) m.sm = x.sm; if (x.evl) evlogos[m.ev] = x.evl; for (const k of ['vt', 'h2h', 'bo']) if (x[k]) m[k] = x[k]; m.smt = Date.now(); }
+  if (o && o.mp && o.mp.length) { m.mp = o.mp; for (const k of ['sm', 'vt', 'h2h', 'bo', 'smt', 'et', 'tg']) if (o[k] !== undefined) m[k] = o[k]; continue; }
+  try { const x = await fetchMatch(m.url.replace(BASE, ''), false); if (x.mp.length) m.mp = x.mp; if (x.sm) m.sm = x.sm; if (x.tg) m.tg = x.tg; if (x.evl) evlogos[m.ev] = x.evl; for (const k of ['vt', 'h2h', 'bo']) if (x[k]) m[k] = x[k]; m.smt = Date.now(); }
   catch (e) { console.log('map detail skipped:', m.url, e.message); }
   await sleep(1200);
 }
@@ -220,6 +222,7 @@ for (const o of old.live || []) {
     const x = await fetchMatch(o.url.replace(BASE, ''), false);
     if (x.fsc) { g.sa = x.fsc[0]; g.sb = x.fsc[1]; }
     if (x.mp.length) g.mp = x.mp;
+    if (x.tg) g.tg = x.tg;
     console.log('finished:', o.a, g.sa + '-' + g.sb, o.b, '(kept until vlr lists it)');
   } catch (e) { console.log('finished match detail skipped:', e.message); }
   results.unshift(g);
@@ -229,13 +232,14 @@ for (const o of old.live || []) {
 // post-match summaries: (re)fetch until every map shows K/D, retrying at most every 8 minutes, and only for matches from the last 30 hours
 for (const m of results) {
   const o = oldRes[m.id];
-  if (o) for (const k of ['sm', 'vt', 'h2h', 'bo', 'smt', 'et']) if (m[k] === undefined && o[k] !== undefined) m[k] = o[k];
+  if (o) for (const k of ['sm', 'vt', 'h2h', 'bo', 'smt', 'et', 'tg']) if (m[k] === undefined && o[k] !== undefined) m[k] = o[k];
   if (m.et === undefined && oldLive[m.id]) m.et = Date.now();   // end time: first run that saw it finished (drives the 1-hour post-match card)
-  const full = m.sm && m.sm.length && m.sm.every(x => x.pa && x.pa.some(p => p.k != null));
+  const full = m.tg && m.sm && m.sm.length && m.sm.every(x => x.pa && x.pa.some(p => p.k != null));
   if (full || (m.smt && Date.now() - m.smt < 8 * 60000) || Date.now() - (m.ts || 0) > 30 * 36e5) continue;
   try {
     const x = await fetchMatch(m.url.replace(BASE, ''), false);
     if (x.sm && x.sm.length) m.sm = x.sm;
+    if (x.tg) m.tg = x.tg;
     if (x.mp.length) m.mp = x.mp;
     for (const k of ['vt', 'h2h', 'bo']) if (x[k]) m[k] = x[k];
   } catch (e) { console.log('summary skipped:', m.url, e.message); }
