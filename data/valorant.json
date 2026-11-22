@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T01:51:02.459Z",
+ "updated": "2026-11-22T01:52:42.930Z",
  "live": [
   {
    "id": "792034",
@@ -174,7 +174,7 @@
    "id": "792907",
    "a": "Oafs",
    "b": "Shopify Rebellion Black",
-   "sa": "0",
+   "sa": "1",
    "sb": "0",
    "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
    "ph": "Swiss Stage–Round 2 (1-0)",
@@ -183,13 +183,15 @@
    "mp": [
     {
      "n": "Lotus",
-     "a": 12,
+     "a": 13,
      "b": 8,
-     "st": "l"
+     "st": "d"
     },
     {
      "n": "Corrode",
-     "st": "n"
+     "a": 0,
+     "b": 0,
+     "st": "l"
     },
     {
      "n": "Summit",
@@ -234,90 +236,7 @@
      "",
      "Summit"
     ]
-   ],
-   "rd": [
-    [
-     "a",
-     "e"
-    ],
-    [
-     "a",
-     "e"
-    ],
-    [
-     "a",
-     "d"
-    ],
-    [
-     "a",
-     "e"
-    ],
-    [
-     "b",
-     "e"
-    ],
-    [
-     "a",
-     "t"
-    ],
-    [
-     "a",
-     "d"
-    ],
-    [
-     "b",
-     "e"
-    ],
-    [
-     "a",
-     "e"
-    ],
-    [
-     "a",
-     "d"
-    ],
-    [
-     "a",
-     "d"
-    ],
-    [
-     "a",
-     "e"
-    ],
-    [
-     "b",
-     "d"
-    ],
-    [
-     "b",
-     "e"
-    ],
-    [
-     "a",
-     "e"
-    ],
-    [
-     "a",
-     "e"
-    ],
-    [
-     "b",
-     "e"
-    ],
-    [
-     "b",
-     "d"
-    ],
-    [
-     "b",
-     "e"
-    ],
-    [
-     "b",
-     "e"
-    ]
-   ],
-   "rdm": "Lotus"
+   ]
   },
   {
    "id": "792908",
@@ -332,7 +251,7 @@
    "mp": [
     {
      "n": "Sunset",
-     "a": 12,
+     "a": 13,
      "b": 12,
      "st": "l"
     },
@@ -480,6 +399,10 @@
     [
      "a",
      "e"
+    ],
+    [
+     "a",
+     "e"
     ]
    ],
    "rdm": "Sunset"
@@ -527,7 +450,7 @@
    "sb": "–",
    "ev": "VCT 2027: EMEA Kickoff - MENA Qualifier",
    "ph": "Playoffs–Grand Final",
-   "ts": 1795312200000,
+   "ts": 1795312500000,
    "url": "https://www.vlr.gg/792551/mix-my-miks-vs-no-org-no-problem-vct-2027-emea-kickoff-mena-qualifier-playoffs-gf",
    "bo": "3",
    "evu": "/event/3167/vct-2027-emea-kickoff-mena-qualifier/playoffs",
