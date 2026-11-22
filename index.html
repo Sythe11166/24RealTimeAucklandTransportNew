@@ -1120,8 +1120,8 @@ function setDim(v){
 function inWin(a,b){if(!a||!b)return false;const t=x=>{const q=x.split(':');return +q[0]*60+ +q[1]},m=Math.floor(nowMin()),s0=t(a),e0=t(b);return s0>e0?(m>=s0||m<e0):(m>=s0&&m<e0)}
 function dpKey(){
   const p=prt(F3),dow=['Sun','Mon','Tue','Wed','Thu','Fri','Sat'].indexOf(p.weekday),wk=dow>0&&dow<6,m=nowMin();
-  const hot=DPR.force>Date.now()||(IS.alerts[0]&&!IS.alerts[0].ok&&inWin('05:00','23:00'));
-  return (wk&&inWin(LS.g('cmOn','06:30'),LS.g('cmOff','09:00')))||hot?'am':m>=1020?'eve':'day';
+  const cm=wk&&inWin(LS.g('cmOn','06:30'),LS.g('cmOff','09:00')),hot=DPR.force>Date.now()||(cm&&IS.alerts[0]&&!IS.alerts[0].ok);
+  return cm||hot?'am':m>=1020?'eve':'day';
 }
 function dpApply(){
   const k=dpKey();if(k===DPR.k)return;const first=!DPR.k,main=document.querySelector('main');DPR.k=k;
