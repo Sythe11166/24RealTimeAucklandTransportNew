@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T01:25:13.865Z",
+ "updated": "2026-11-22T01:28:35.482Z",
  "live": [
   {
    "id": "792033",
@@ -179,7 +179,7 @@
    "mp": [
     {
      "n": "Lotus",
-     "a": 8,
+     "a": 9,
      "b": 2,
      "st": "l"
     },
@@ -271,6 +271,10 @@
     [
      "a",
      "d"
+    ],
+    [
+     "a",
+     "d"
     ]
    ],
    "rdm": "Lotus"
@@ -288,8 +292,8 @@
    "mp": [
     {
      "n": "Sunset",
-     "a": 7,
-     "b": 4,
+     "a": 8,
+     "b": 5,
      "st": "l"
     },
     {
@@ -384,26 +388,20 @@
     [
      "b",
      "e"
+    ],
+    [
+     "a",
+     "e"
+    ],
+    [
+     "b",
+     "e"
     ]
    ],
    "rdm": "Sunset"
   }
  ],
  "upcoming": [
-  {
-   "id": "792551",
-   "a": "Mix My Miks",
-   "b": "No Org No Problem",
-   "sa": "–",
-   "sb": "–",
-   "ev": "VCT 2027: EMEA Kickoff - MENA Qualifier",
-   "ph": "Playoffs–Grand Final",
-   "ts": 1795310700000,
-   "url": "https://www.vlr.gg/792551/mix-my-miks-vs-no-org-no-problem-vct-2027-emea-kickoff-mena-qualifier-playoffs-gf",
-   "bo": "3",
-   "evu": "/event/3167/vct-2027-emea-kickoff-mena-qualifier/playoffs",
-   "fz": 1
-  },
   {
    "id": "792909",
    "a": "Masterclass",
@@ -420,6 +418,20 @@
    },
    "bo": "3",
    "evu": "/event/3179/vct-2027-america-kickoff-north-america-qualifier-playoffs/swiss-stage",
+   "fz": 1
+  },
+  {
+   "id": "792551",
+   "a": "Mix My Miks",
+   "b": "No Org No Problem",
+   "sa": "–",
+   "sb": "–",
+   "ev": "VCT 2027: EMEA Kickoff - MENA Qualifier",
+   "ph": "Playoffs–Grand Final",
+   "ts": 1795311000000,
+   "url": "https://www.vlr.gg/792551/mix-my-miks-vs-no-org-no-problem-vct-2027-emea-kickoff-mena-qualifier-playoffs-gf",
+   "bo": "3",
+   "evu": "/event/3167/vct-2027-emea-kickoff-mena-qualifier/playoffs",
    "fz": 1
   }
  ],
