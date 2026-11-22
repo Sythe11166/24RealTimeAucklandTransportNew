@@ -116,9 +116,9 @@ async function fetchMatch(path, live, sa, sb) {
       $(tb).find('.ovw-row').not('.mod-head').each((_, tr) => {
         const t = $(tr), nm = txt(t.find('.ovw-player-name').first());
         const ag = (/agents\/([a-z0-9]+)\.(?:png|webp)/i.exec(t.find('.ovw-agents img').first().attr('src') || '') || [])[1];
-        let k = val(t.find('.ovw-kda-stat[data-col="kills"]').first()), d = val(t.find('.ovw-kda-stat[data-col="deaths"]').first());
-        if (k == null || d == null) { const m3 = /(\d+)\s*\/\s*(\d+)\s*\/\s*(\d+)/.exec(txt(t.find('.mod-kda').first())); if (m3) { k = +m3[1]; d = +m3[2]; } }
-        if (nm) rows.push({ n: nm, k, d, ag: ag || '' });
+        let k = val(t.find('.ovw-kda-stat[data-col="kills"]').first()), d = val(t.find('.ovw-kda-stat[data-col="deaths"]').first()), as = val(t.find('.ovw-kda-stat[data-col="assists"]').first());
+        if (k == null || d == null) { const m3 = /(\d+)\s*\/\s*(\d+)\s*\/\s*(\d+)/.exec(txt(t.find('.mod-kda').first())); if (m3) { k = +m3[1]; d = +m3[2]; as = +m3[3]; } }
+        if (nm) rows.push({ n: nm, k, d, ...(as != null ? { a: as } : {}), ag: ag || '' });
       });
     });
     return rows;
@@ -163,7 +163,7 @@ async function fetchMatch(path, live, sa, sb) {
       const rd = rdOf(m.g); if (rd.length) o.rd = rd;
       return o;
     });
-    const withKd = sm.filter(x => x.pa && x.pa.some(p => p.k != null)).length;
+    const withKd = sm.filter(x => x.pa && x.pa.some(p => p.k != null && p.a != null)).length;
     console.log('summary', path.split('/')[1], 'maps', sm.length, '| with K/D:', withKd, '| with rounds:', sm.filter(x => x.rd).length, '| sample:', sm[0] && sm[0].pa ? JSON.stringify(sm[0].pa[0]) : 'none');
     return { mp: pm.map(m => ({ n: m.n, a: m.a, b: m.b })), sm, ...common };
   }
@@ -204,7 +204,7 @@ for (const m of live) {
 }
 for (const m of results) {
   const o = oldRes[m.id];
-  if (o && o.mp && o.mp.length) { m.mp = o.mp; for (const k of ['sm', 'vt', 'h2h', 'bo', 'smt']) if (o[k] !== undefined) m[k] = o[k]; continue; }
+  if (o && o.mp && o.mp.length) { m.mp = o.mp; for (const k of ['sm', 'vt', 'h2h', 'bo', 'smt', 'et']) if (o[k] !== undefined) m[k] = o[k]; continue; }
   try { const x = await fetchMatch(m.url.replace(BASE, ''), false); if (x.mp.length) m.mp = x.mp; if (x.sm) m.sm = x.sm; if (x.evl) evlogos[m.ev] = x.evl; for (const k of ['vt', 'h2h', 'bo']) if (x[k]) m[k] = x[k]; m.smt = Date.now(); }
   catch (e) { console.log('map detail skipped:', m.url, e.message); }
   await sleep(1200);
@@ -215,7 +215,7 @@ const resIds = new Set(results.map(m => m.id));
 for (const o of old.results || []) if (o.g && !resIds.has(o.id) && !live.some(m => m.id === o.id) && Date.now() - (o.ts || 0) < 3 * 36e5) results.unshift(o);
 for (const o of old.live || []) {
   if (live.some(m => m.id === o.id) || resIds.has(o.id)) continue;
-  const g = { id: o.id, a: o.a, b: o.b, sa: o.sa, sb: o.sb, ev: o.ev, ph: o.ph, ts: o.ts, url: o.url, g: 1, mp: (o.mp || []).filter(x => x.a != null).map(x => ({ n: x.n, a: x.a, b: x.b })) };
+  const g = { id: o.id, a: o.a, b: o.b, sa: o.sa, sb: o.sb, ev: o.ev, ph: o.ph, ts: o.ts, et: Date.now(), url: o.url, g: 1, mp: (o.mp || []).filter(x => x.a != null).map(x => ({ n: x.n, a: x.a, b: x.b })) };
   try {
     const x = await fetchMatch(o.url.replace(BASE, ''), false);
     if (x.fsc) { g.sa = x.fsc[0]; g.sb = x.fsc[1]; }
@@ -229,7 +229,8 @@ for (const o of old.live || []) {
 // post-match summaries: (re)fetch until every map shows K/D, retrying at most every 8 minutes, and only for matches from the last 30 hours
 for (const m of results) {
   const o = oldRes[m.id];
-  if (o) for (const k of ['sm', 'vt', 'h2h', 'bo', 'smt']) if (m[k] === undefined && o[k] !== undefined) m[k] = o[k];
+  if (o) for (const k of ['sm', 'vt', 'h2h', 'bo', 'smt', 'et']) if (m[k] === undefined && o[k] !== undefined) m[k] = o[k];
+  if (m.et === undefined && oldLive[m.id]) m.et = Date.now();   // end time: first run that saw it finished (drives the 1-hour post-match card)
   const full = m.sm && m.sm.length && m.sm.every(x => x.pa && x.pa.some(p => p.k != null));
   if (full || (m.smt && Date.now() - m.smt < 8 * 60000) || Date.now() - (m.ts || 0) > 30 * 36e5) continue;
   try {

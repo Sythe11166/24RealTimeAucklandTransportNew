@@ -149,6 +149,8 @@ img.tb{background:#fff;padding:.2em}
 .lpc div{display:grid;grid-template-columns:2.3em minmax(0,1fr) auto;align-items:center;gap:.55em;font-weight:600}.lpc.na div{grid-template-columns:minmax(0,1fr) auto}
 .ag{width:2.3em;height:2.3em;border-radius:.7em;object-fit:cover;object-position:50% 12%;background:rgba(255,255,255,.14)}.lpc span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .lpc b{font-weight:750;font-variant-numeric:tabular-nums;white-space:nowrap;color:#7fe3a0}.lpc b.dn{color:#ff9a9a}
+.kda{display:inline-flex;align-items:baseline;gap:.2em}.kda i{font-style:normal;min-width:2ch;text-align:right}.kda s{text-decoration:none;opacity:.4;font-weight:500}
+.lpc .agw{display:block;width:2.3em;height:2.3em;border-radius:.7em;overflow:hidden;background:rgba(255,255,255,.14)}.agw img{display:block;width:100%;height:100%;object-fit:cover;transform:scale(1.4);transform-origin:50% 24%}
 .w-val::after{content:'';position:absolute;inset:0;z-index:-1;pointer-events:none;opacity:0;transition:opacity .7s;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 .07 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E"),linear-gradient(rgba(6,7,12,.3),rgba(6,7,12,.3)),radial-gradient(95% 140% at 0% 50%,var(--ca,#333) 0%,transparent 64%),radial-gradient(95% 140% at 100% 50%,var(--cb,#333) 0%,transparent 64%),#07080d}.w-val.lvg::after{opacity:1}.w-val.lvg .lpl{background:rgba(5,6,10,.5)}.w-val.lvg .vk,.w-val.lvg .vch,.w-val.lvg .ve{text-shadow:0 1px 10px rgba(0,0,0,.4)}.w-val.lvg .vmx:not(.lv){background:rgba(8,10,20,.3)}
 .vrg{display:inline-flex;align-items:center;font-size:.64em;font-weight:800;letter-spacing:.08em;text-transform:uppercase;padding:.26em .8em;border-radius:999px;white-space:nowrap;background:rgba(6,7,12,.55)}
 .vrg.em{color:#d4f53c;box-shadow:inset 0 0 0 1px rgba(212,245,60,.5)}.vrg.am{color:#ff6a2f;box-shadow:inset 0 0 0 1px rgba(255,106,47,.55)}.vrg.pa{color:#2fd6d6;box-shadow:inset 0 0 0 1px rgba(47,214,214,.5)}.vrg.cn{color:#ff4d7a;box-shadow:inset 0 0 0 1px rgba(255,77,122,.55)}.vrg.ma{color:#b48cff;box-shadow:inset 0 0 0 1px rgba(180,140,255,.5)}.vrg.ch{color:#ffd24a;box-shadow:inset 0 0 0 1px rgba(255,210,74,.5)}
@@ -205,7 +207,8 @@ body.eco .vl>*,body.eco .lv1>*{animation:none}
 @media(min-width:701px){main.tk #vg{grid-area:v-start/v-start/q-end/n-end;z-index:3}
 @media(orientation:portrait){main.tk #vg{grid-area:q-start/q-start/n-end/n-end}main.tk #bus{grid-area:b-start/b-start/v-end/v-end;z-index:2}}
 main.tkx #nw,main.tkx #q{display:none}}
-.vgp.tkp{font-size:calc(min(4.7cqh,1.6cqw)*var(--vf,1));display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.6fr) minmax(0,1fr);grid-template-rows:auto minmax(0,1fr);column-gap:1.6em}
+.vb.tp{cursor:pointer}.tkclose{position:absolute;top:0;right:0;z-index:4;width:2.3em;height:2.3em;border-radius:50%;display:grid;place-items:center;color:#fff;background:rgba(255,255,255,.16);box-shadow:inset 0 0 0 1px rgba(255,255,255,.12)}.tkclose svg{width:1.05em;height:1.05em}.tkclose:active{background:rgba(255,255,255,.3)}
+.vgp.tkp{position:relative;font-size:calc(min(4.7cqh,1.6cqw)*var(--vf,1));display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.6fr) minmax(0,1fr);grid-template-rows:auto minmax(0,1fr);column-gap:1.6em}
 .tkp .vh{grid-column:1/-1}
 .tkt{display:flex;flex-direction:column;justify-content:center;gap:.75em;min-width:0}
 .tkh{display:flex;align-items:center;gap:.75em;min-width:0}.tkt.r .tkh{flex-direction:row-reverse;text-align:right}
@@ -484,7 +487,7 @@ function tick(){
   $('th').textContent=p.hour;$('tn').textContent=p.minute;$('ap').textContent=p.dayPeriod||'';
   const day=Math.floor(Date.UTC(+p.year,+p.month-1,+p.day)/864e5);
   if(day!==qDay){qDay=day;$('dt').textContent=new Date().toLocaleDateString('en-NZ',{timeZone:TZ,weekday:'long',day:'numeric',month:'long'});[SR,SS]=sunCalc()}
-  secBar(+p.second);mkt();quote();skyBg();tickCountdowns();ilRefresh('s');ilRefresh('l');
+  if(TK.exp&&Date.now()>TK.exp)valRender();secBar(+p.second);mkt();quote();skyBg();tickCountdowns();ilRefresh('s');ilRefresh('l');
 }
 function schedTick(){const d=new Date();setTimeout(()=>{tick();minuteChecks();schedTick()},60000-(d.getSeconds()*1000+d.getMilliseconds())+40)}
 const DAY={sun:['#79c4f4','#ffe28f','#ff9d5c','#ffd24a','#ff8a3d','#6ec1ff','#fff1a6'],part:['#8cc6ee','#f6e2a8','#f5b27a','#ffd76a','#ffa64d','#9bd3ff','#ffeab4'],cloud:['#aebccd','#d3d9e1','#9aa8ba','#c7d0dc','#95a5b9','#e3e8ee','#eef3fa'],fog:['#bfc5ce','#dcdfe4','#aab1bc','#e7e9ec','#b6bcc6','#cfd4db','#eceff3'],rain:['#6f879d','#8fa3b6','#566b81','#7aa0c0','#5b7c99','#9db4c8','#b5d8f2'],storm:['#3a4256','#4e586d','#232938','#5b4b8a','#3b4f7a','#6b7aa8','#a9a4e8'],snow:['#dbe8f4','#f0f5fa','#bdd0e2','#ffffff','#cfe2f5','#e6eef7','#ffffff']};
@@ -569,6 +572,7 @@ async function weather(){
 /* ---------- NZ news: all of today's general stories ---------- */
 const NW={rnz:[],val:[],err:''};
 rotor('nw','nb','nd',n=>n.err?'<div class="fit" style="font-size:16px"><p>News unavailable ('+esc(n.err)+').</p></div>':'<div class="fit" style="font-size:21px"><span class="tag">'+esc(n.src)+(n.ago?' · '+esc(n.ago):'')+'</span><h3>'+esc(n.t)+'</h3><p>'+esc(n.b)+'</p><a href="'+esc(n.l)+'" target="_blank" rel="noopener">'+esc(n.cta||'Read on RNZ ↗')+'</a></div>',14000,{fit:21,tr:'tr-flip'});
+$('vg').addEventListener('click',e=>{const c=e.target.closest('.tkclose');if(c){TK.dis[c.dataset.id]=1;if(TK.man===c.dataset.id)TK.man=null;valRender();return}const r=e.target.closest('[data-rid]');if(r){TK.man=r.dataset.rid;delete TK.dis[TK.man];valRender()}});
 $('nw').onclick=e=>{if(!e.target.closest('a'))step('nw',1)};$('q').onclick=()=>{qOff++;quote(true)};
 const FEEDS=['https://www.rnz.co.nz/rss/national.xml','https://www.rnz.co.nz/rss/world.xml','https://www.rnz.co.nz/rss/business.xml','https://www.rnz.co.nz/rss/political.xml','https://www.rnz.co.nz/rss/ldr.xml'];
 const clean=h=>{const t=document.createElement('textarea');t.innerHTML=String(h||'').replace(/<[^>]*>/g,' ');return t.value.replace(/\s+/g,' ').trim()};
@@ -582,7 +586,7 @@ async function feed(u){
   return j.items.map(i=>({t:i.title,d:i.description||i.content,l:i.link,p:i.pubDate}));
 }
 /* RNZ stories with a Valorant story slipped in after every third one */
-const TK={on:false,out:0,busy:0,seen:0};
+const TK={on:false,out:0,busy:0,seen:0,man:null,dis:{},exp:0};
 function newsRender(){
   if(TK.on)return;
   const R=NW.rnz,V=NW.val,L=[];let v=0;
@@ -623,12 +627,13 @@ const evNo=e=>evS(e).replace(/^(Americas?|EMEA|Pacific|China)\s+/i,'').trim()||e
 const evOf=L=>{const s=[...new Set(L.map(m=>evS(m.ev)))];return s.length===1?evNo(L[0].ev):''};
 const tcol=t=>VAL.colors[t]||'hsl('+hueOf(t)+' 60% 50%)';
 const nz=n=>n.length>14?' s2':n.length>11?' s1':'';
-const agUrl=a=>{const x=VAL.agents[a];return x?x.p||x.i:'https://www.vlr.gg/img/vlr/game/agents/'+encodeURIComponent(a)+'.png'};
+const agUrl=a=>{const x=VAL.agents[a];return x?x.i||x.p:'https://www.vlr.gg/img/vlr/game/agents/'+encodeURIComponent(a)+'.png'};
 const tmS=ts=>{const d=new Date(ts),t=d.toLocaleTimeString('en-NZ',{hour:'numeric',minute:'2-digit',hour12:true,timeZone:'Pacific/Auckland'}).replace(/\s/g,'').toLowerCase();return F5.format(d)===F5.format(new Date())?t:d.toLocaleDateString('en-NZ',{weekday:'short',timeZone:'Pacific/Auckland'})+' '+t};
 const side=(n,r,lo,c,ev)=>{const nm='<span class="'+nz(sn(n)).trim()+'">'+esc(sn(n))+(isFav(n)?' <em class="fv">★</em>':'')+'</span>',bd=badge(n,VAL.logos[n],c,ev);return '<div class="vk'+(r?' r':'')+(lo?' lo':'')+'">'+(r?nm+bd:bd+nm)+'</div>'};
 const scoreC=(m,live)=>{const A=+m.sa,B=+m.sb;return '<div class="vm"><b'+(!live&&B>A?' class="lo"':'')+'>'+esc(m.sa)+'</b><i>–</i><b'+(!live&&A>B?' class="lo"':'')+'>'+esc(m.sb)+'</b></div>'};
 const mapPills=(mp,sw,big,rg)=>(!mp||!mp.length)&&!rg?'':'<div class="vmp'+(big?' big':'')+'">'+(rg||'')+(mp||[]).filter(x=>x.a!=null).map(x=>{const w=x.lv?'lv':sw&&(x.a>x.b?'a':'b')!==sw?'dm':'',A=x.a>x.b,B=x.b>x.a;return '<span class="vmx '+w+'">'+(x.lv?'<span class="ldot"></span>':'')+esc(x.n)+' <b'+(!x.lv&&B?' class="lo"':'')+'>'+x.a+'</b><span class="lo">–</span><b'+(!x.lv&&A?' class="lo"':'')+'>'+x.b+'</b></span>'}).join('')+'</div>';
-const plCol=(p,any,nk,r)=>'<div class="lpc'+(any?'':' na')+(nk?' nk':'')+(r?' r':'')+'">'+p.map(x=>'<div>'+(any?(x.ag?'<img class="ag" src="'+esc(agUrl(x.ag))+'" alt="" loading="lazy" decoding="async">':'<i class="ag"></i>'):'')+'<span>'+esc(x.n)+'</span>'+(nk?'':'<b class="'+(x.k<x.d?'dn':'')+'">'+x.k+'/'+x.d+'</b>')+'</div>').join('')+'</div>';
+const kda=x=>'<b class="kda'+(x.k<x.d?' dn':'')+'"><i>'+x.k+'</i><s>/</s><i>'+x.d+'</i>'+(x.a!=null?'<s>/</s><i>'+x.a+'</i>':'')+'</b>';
+const plCol=(p,any,nk,r)=>'<div class="lpc'+(any?'':' na')+(nk?' nk':'')+(r?' r':'')+'">'+p.map(x=>'<div>'+(any?(x.ag?'<span class="agw"><img src="'+esc(agUrl(x.ag))+'" alt="" loading="lazy" decoding="async"></span>':'<i class="ag"></i>'):'')+'<span>'+esc(x.n)+'</span>'+(nk?'':kda(x))+'</div>').join('')+'</div>';
 const vhead=(c,lbl,ev,r)=>'<div class="vh"><span class="vch'+(c?' '+c:'')+'">'+(c==='lv'?'<span class="ldot"></span>':'')+lbl+'</span>'+(r||'')+'<span class="ve">'+esc(ev)+'</span></div>';
 const when=ts=>F6.format(new Date(ts)).replace(',','');
 const mapRail=m=>{const mp=m.mp,n=mp.length;let f=mp.findIndex(x=>x.st==='l');if(f<0)f=Math.max(0,mp.map(x=>x.st).lastIndexOf('d'));
@@ -648,18 +653,18 @@ const rdStrip=m=>{const rd=m.rd||[];if(!rd.length)return '';const N=Math.max(24,
 const h2hLine=m=>m.h2h&&m.h2h.a+m.h2h.b?'<div class="h2h">Head to head · '+esc(sn(m.a))+' <b>'+m.h2h.a+' – '+m.h2h.b+'</b> '+esc(sn(m.b))+'</div>':'';
 const ageTag=()=>VAL.upd&&VAL.age>(VAL.liveAll.length?8:45)?'<span class="vrg bo" style="color:#ffb340;box-shadow:inset 0 0 1px 1px rgba(255,179,64,.55)">data '+VAL.age+'m old</span>':'';
 const boTag=m=>m.bo?'<span class="vrg bo">BO'+m.bo+'</span>':'';
-const liveHtml=m=>{const mp=m.mp||[],cur=mp.find(x=>x.st==='l'||x.lv),has=mp.some(x=>x.st);return '<div class="vgp">'+vhead('lv','Live',evNo(m.ev)+(m.ph?' · '+m.ph:''),regP(m.ev)+boTag(m)+ageTag())+'<div class="lv1"><div class="lsr">'+side(m.a,0,0,'',m.ev)+'<div class="lsc"><b>'+esc(m.sa)+'</b><i>–</i><b>'+esc(m.sb)+'</b></div>'+side(m.b,1,0,'',m.ev)+'</div>'+(has?mapRail(m):mapPills(mp,null,1))+rdStrip(m)+(m.pl?(()=>{const any=[...m.pl.a,...m.pl.b].some(x=>x.ag);const nm=m.plm||(cur&&cur.n);return '<div class="lpl">'+plCol(m.pl.a,any,m.nk)+'<div class="lcap">'+(m.nk?'Players':'K / D'+(nm?' · '+esc(nm):''))+'</div>'+plCol(m.pl.b,any,m.nk,1)+'</div>'})():'')+h2hLine(m)+'</div></div>'};
+const liveHtml=m=>{const mp=m.mp||[],cur=mp.find(x=>x.st==='l'||x.lv),has=mp.some(x=>x.st);return '<div class="vgp">'+vhead('lv','Live',evNo(m.ev)+(m.ph?' · '+m.ph:''),regP(m.ev)+boTag(m)+ageTag())+'<div class="lv1"><div class="lsr">'+side(m.a,0,0,'',m.ev)+'<div class="lsc"><b>'+esc(m.sa)+'</b><i>–</i><b>'+esc(m.sb)+'</b></div>'+side(m.b,1,0,'',m.ev)+'</div>'+(has?mapRail(m):mapPills(mp,null,1))+rdStrip(m)+(m.pl?(()=>{const any=[...m.pl.a,...m.pl.b].some(x=>x.ag);const nm=m.plm||(cur&&cur.n);return '<div class="lpl">'+plCol(m.pl.a,any,m.nk)+'<div class="lcap">'+(m.nk?'Players':(any||(m.pl&&[...m.pl.a,...m.pl.b].some(x=>x.a!=null))?'K / D / A':'K / D')+(nm?' · '+esc(nm):''))+'</div>'+plCol(m.pl.b,any,m.nk,1)+'</div>'})():'')+h2hLine(m)+'</div></div>'};
 const tkHtml=m=>{const mp=m.mp||[],has=mp.some(x=>x.st),li=mp.findIndex(x=>x.st==='l'||x.lv),cur=mp[li],A=+m.sa,B=+m.sb,vt=m.vt||[],any=m.pl?[...m.pl.a,...m.pl.b].some(x=>x.ag):false,nm=m.plm||(cur&&cur.n);
-  const team=(t,r)=>'<div class="tkt'+(r?' r':'')+'"><div class="tkh">'+badge(t,VAL.logos[t],'',m.ev,1)+'<div class="tkn">'+esc(sn(t))+(isFav(t)?' <em class="fv">★</em>':'')+'</div></div>'+(m.pl?'<div class="tkb"><div class="lcap">'+(m.nk?'Players':'K / D'+(nm?' · '+esc(nm):''))+'</div>'+plCol(r?m.pl.b:m.pl.a,any,m.nk,r)+'</div>':'')+'</div>';
+  const team=(t,r)=>'<div class="tkt'+(r?' r':'')+'"><div class="tkh">'+badge(t,VAL.logos[t],'',m.ev,1)+'<div class="tkn">'+esc(sn(t))+(isFav(t)?' <em class="fv">★</em>':'')+'</div></div>'+(m.pl?'<div class="tkb"><div class="lcap">'+(m.nk?'Players':((m.pl.a[0]&&m.pl.a[0].a!=null)?'K / D / A':'K / D')+(nm?' · '+esc(nm):''))+'</div>'+plCol(r?m.pl.b:m.pl.a,any,m.nk,r)+'</div>':'')+'</div>';
   const vl=vt.length?'<div class="tkv">'+vt.map(v=>v[0]==='d'?'Decider '+esc(v[2]):esc(abbr(v[1]))+(v[0]==='x'?' ban ':' pick ')+esc(v[2])).join(' · ')+'</div>':'';
   return '<div class="vgp tkp">'+vhead('lv','Live',evNo(m.ev)+(m.ph?' · '+m.ph:''),regP(m.ev)+boTag(m)+ageTag())+team(m.a,0)+'<div class="tkc"><div class="tks"><b'+(B>A?' class="lo"':'')+'>'+esc(m.sa)+'</b><i>–</i><b'+(A>B?' class="lo"':'')+'>'+esc(m.sb)+'</b></div>'+(cur&&cur.a!=null?'<div class="tkl"><span class="ldot"></span>'+esc(cur.n)+' <b>'+cur.a+' – '+cur.b+'</b> · Round '+(cur.a+cur.b+1)+'</div>':'')+(has?mapRail(m):mapPills(mp,null,1))+rdStrip(m)+vl+h2hLine(m)+'</div>'+team(m.b,1)+'</div>'};
 const tkPost=(m,i)=>{const s=m.sm[i],A=+m.sa,B=+m.sb,n=m.sm.length,any=[...(s.pa||[]),...(s.pb||[])].some(x=>x.ag),vt=m.vt||[],ot=s.a!=null&&s.a+s.b>24;
-  const team=(t,r,pl)=>{const kd=pl&&pl.some(x=>x.k!=null);return '<div class="tkt'+(r?' r':'')+'"><div class="tkh">'+badge(t,VAL.logos[t],'',m.ev,1)+'<div class="tkn">'+esc(sn(t))+(isFav(t)?' <em class="fv">★</em>':'')+'</div></div>'+(pl?'<div class="tkb"><div class="lcap">'+(kd?'K / D · '+esc(s.n):'Players')+'</div>'+plCol(pl,any,!kd,r)+'</div>':'')+'</div>'};
+  const team=(t,r,pl)=>{const kd=pl&&pl.some(x=>x.k!=null);return '<div class="tkt'+(r?' r':'')+'"><div class="tkh">'+badge(t,VAL.logos[t],'',m.ev,1)+'<div class="tkn">'+esc(sn(t))+(isFav(t)?' <em class="fv">★</em>':'')+'</div></div>'+(pl?'<div class="tkb"><div class="lcap">'+(kd?'K / D / A · '+esc(s.n):'Players')+'</div>'+plCol(pl,any,!kd,r)+'</div>':'')+'</div>'};
   const pf=VAL.pf['p'+m.id];VAL.pf['p'+m.id]=i;
   const cell=(x,k)=>'<div class="mc '+(k===i?'f':'nx')+'"><small>'+(k===n-1&&n>1&&+m.bo===n?'Decider':'Map '+(k+1))+'</small><b>'+esc(x.n)+'</b><i>'+x.a+' – '+x.b+'</i></div>';
   const rail='<div class="mrail mrs" style="--n:'+n+';--f:'+i+'" data-f="'+i+'" data-p="'+(pf==null?i:pf)+'"><div class="mcols">'+m.sm.map(cell).join('')+'</div><div class="mbar">'+m.sm.map((x,k)=>'<s class="'+(k<i?'dn':'')+'"></s>').join('')+'<u class="mth"></u></div></div>';
   const vl=vt.length?'<div class="tkv">'+vt.map(v=>v[0]==='d'?'Decider '+esc(v[2]):esc(abbr(v[1]))+(v[0]==='x'?' ban ':' pick ')+esc(v[2])).join(' · ')+'</div>':'';
-  return '<div class="vgp tkp">'+vhead('','Final',evNo(m.ev)+(m.ph?' · '+m.ph:''),regP(m.ev)+boTag(m))+team(m.a,0,s.pa)+'<div class="tkc"><div class="tks"><b'+(B>A?' class="lo"':'')+'>'+esc(m.sa)+'</b><i>–</i><b'+(A>B?' class="lo"':'')+'>'+esc(m.sb)+'</b></div>'+(s.a!=null?'<div class="tkl fin">'+esc(s.n)+' <b>'+s.a+' – '+s.b+'</b>'+(ot?' · Overtime':'')+'</div>':'')+rail+rdStrip({a:m.a,b:m.b,rd:s.rd||[]})+vl+h2hLine(m)+'</div>'+team(m.b,1,s.pb)+'</div>'};
+  return '<div class="vgp tkp"><button class="tkclose" data-id="'+esc(m.id)+'" aria-label="Close summary"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M6.5 6.5l11 11M17.5 6.5l-11 11"/></svg></button>'+vhead('','Final',evNo(m.ev)+(m.ph?' · '+m.ph:''),regP(m.ev)+boTag(m))+team(m.a,0,s.pa)+'<div class="tkc"><div class="tks"><b'+(B>A?' class="lo"':'')+'>'+esc(m.sa)+'</b><i>–</i><b'+(A>B?' class="lo"':'')+'>'+esc(m.sb)+'</b></div>'+(s.a!=null?'<div class="tkl fin">'+esc(s.n)+' <b>'+s.a+' – '+s.b+'</b>'+(ot?' · Overtime':'')+'</div>':'')+rail+rdStrip({a:m.a,b:m.b,rd:s.rd||[]})+vl+h2hLine(m)+'</div>'+team(m.b,1,s.pb)+'</div>'};
 const bigSide=(n,ev)=>'<div class="bs">'+badge(n,VAL.logos[n],'',ev,1)+'<span>'+esc(sn(n))+(isFav(n)?' <em class="fv">★</em>':'')+'</span></div>';
 const soonHtml=m=>{const vt=m.vt||[];return '<div class="vgp">'+vhead('','Starting soon',evNo(m.ev)+(m.ph?' · '+m.ph:''),regP(m.ev)+boTag(m))+'<div class="lv1"><div class="lsr so">'+bigSide(m.a,m.ev)+'<div class="vtc"><div class="vt">'+esc(tmS(m.ts))+'</div><div class="vd cdn" data-ts="'+m.ts+'">'+(m.ts<Date.now()?'starting':'in '+cdTxt(m.ts))+'</div></div>'+bigSide(m.b,m.ev)+'</div>'+(vt.length?'<div class="vet" style="--n:'+vt.length+'">'+vt.map(v=>'<div class="vx '+v[0]+'" style="--tc:'+(v[1]?tcol(v[1]):'#fff')+'"><small>'+(v[0]==='d'?'Decider':esc(abbr(v[1]))+(v[0]==='x'?' ban':' pick'))+'</small><b>'+esc(v[2])+'</b></div>').join('')+'</div>':'<div class="lnote">Map veto not published yet</div>')+h2hLine(m)+'</div></div>'};
 const brHtml=b=>{const X=new Set(b.x||[]),rs=b.r;let idx=-1;rs.forEach((r,i)=>{if(r.m.some(x=>x[4]!=='u'))idx=i});if(idx<0)idx=0;
@@ -668,7 +673,7 @@ const brHtml=b=>{const X=new Set(b.x||[]),rs=b.r;let idx=-1;rs.forEach((r,i)=>{i
   return '<div class="vgp">'+vhead('','Bracket',evNo(b.ev),regP(b.ev)+(X.size?'<span class="vrg bo">'+X.size+' out</span>':''))+'<div class="bcs" style="--c:'+cols.length+'">'+cols.map(r=>{const o=r.m.slice().sort((x,y)=>(y[4]==='l')-(x[4]==='l')),sh=o.slice(0,4);return '<div class="bc"><h5>'+esc(r.r)+'</h5>'+sh.map(x=>{const u=x[4]==='u',d=x[4]==='d';return '<div class="bm'+(x[4]==='l'?' lv':'')+'">'+tm(x[0],x[2],d&&x[3]>x[2],u)+tm(x[1],x[3],d&&x[2]>x[3],u)+'</div>'}).join('')+(o.length>4?'<div class="bmore">+'+(o.length-4)+' more</div>':'')+'</div>'}).join('')+'</div></div>'};
 const liveList=L=>'<div class="vgp">'+vhead('lv','Live',evOf(L),regH(L)+ageTag())+'<div class="vl">'+L.map(m=>{const mp=m.mp||[],i=mp.findIndex(x=>x.st==='l'||x.lv),c=mp[i],A=+m.sa,B=+m.sb;return '<div class="vp nx">'+side(m.a,0,0,'',m.ev)+'<div class="vtc"><div class="sc2"><b class="'+(A>B?'w':'')+'">'+esc(m.sa)+'</b><b class="'+(B>A?'w':'')+'">'+esc(m.sb)+'</b></div>'+(c&&c.a!=null?'<div class="ml"><span class="ldot"></span>Map '+(i+1)+' · '+c.a+' – '+c.b+'</div>':'')+'</div>'+side(m.b,1,0,'',m.ev)+'</div>'}).join('')+'</div></div>';
 const upHtml=L=>'<div class="vgp">'+vhead('','Next',evOf(L),regH(L))+'<div class="vl">'+L.map(m=>'<div class="vp nx">'+side(m.a,0,0,'',m.ev)+'<div class="vtc"><div class="vt">'+(m.ts<Date.now()?'starting':esc(tmS(m.ts)))+'</div><div class="vd cdn" data-ts="'+m.ts+'">'+(m.ts<Date.now()?'starting':'in '+cdTxt(m.ts))+'</div></div>'+side(m.b,1,0,'',m.ev)+'</div>').join('')+'</div></div>';
-const resHtml=L=>'<div class="vgp">'+vhead('','Results',evOf(L),regH(L))+'<div class="vl">'+L.map(m=>{const A=+m.sa,B=+m.sb;return '<div class="vb"><div class="vp">'+side(m.a,0,B>A,'',m.ev)+scoreC(m,0)+side(m.b,1,A>B,'',m.ev)+'</div>'+mapPills(m.mp,A>B?'a':B>A?'b':null)+'</div>'}).join('')+'</div></div>';
+const resHtml=L=>'<div class="vgp">'+vhead('','Results',evOf(L),regH(L))+'<div class="vl">'+L.map(m=>{const A=+m.sa,B=+m.sb;return '<div class="vb'+(m.sm&&m.sm.length?' tp':'')+'"'+(m.sm&&m.sm.length?' data-rid="'+esc(m.id)+'"':'')+'><div class="vp">'+side(m.a,0,B>A,'',m.ev)+scoreC(m,0)+side(m.b,1,A>B,'',m.ev)+'</div>'+mapPills(m.mp,A>B?'a':B>A?'b':null)+'</div>'}).join('')+'</div></div>';
 const emptyHtml=p=>'<div class="vgp vgempty">'+vhead('','Valorant','VCT')+'<b>'+esc(p.h)+'</b><span>'+esc(p.msg)+'</span></div>';
 rotor('vg','vgb','vgd',p=>(vgGlow(p),p.t==='k'?(p.pm!=null?tkPost(p.d,p.pm):tkHtml(p.d)):p.t==='l'?liveHtml(p.d):p.t==='ll'?liveList(p.d):p.t==='s'?soonHtml(p.d):p.t==='b'?brHtml(p.d):p.t==='u'?upHtml(p.d):p.t==='r'?resHtml(p.d):emptyHtml(p)),11000);
 function vgGlow(p){requestAnimationFrame(vgPost);const e=$('vg');e.classList.toggle('lvg',p.t==='l'||p.t==='k');if(p.t==='l'||p.t==='k'){e.style.setProperty('--ca',tcol(p.d.a));e.style.setProperty('--cb',tcol(p.d.b))}}
@@ -697,8 +702,12 @@ function tkOut(cb){const m=$('app'),v=$('vg'),n=$('nw'),q=$('q'),b=$('bus'),pt=t
 function valRender(){
   const dk=t=>new Date(t).toLocaleDateString('en-CA',{timeZone:TZ}),fa=favs().length>0;
   const T=fa?VAL.liveAll.filter(m=>(isFav(m.a)||isFav(m.b))&&m.mp&&m.mp.some(x=>x.st)):[];
-  /* after a favourite's match, the big card keeps a map-by-map summary for the rest of that day */
-  const F=fa&&!T.length?VAL.res.filter(m=>(isFav(m.a)||isFav(m.b))&&m.sm&&m.sm.length&&(dk(m.ts)===dk(Date.now())||Date.now()-m.ts<4*36e5)).sort((a,b)=>b.ts-a.ts):[];
+  /* after a favourite's match the big card keeps a map-by-map summary for an hour; tapping a result opens one on demand */
+  const nowT=Date.now(),hs=m=>m.sm&&m.sm.length;
+  const auto=fa&&!T.length?VAL.res.filter(m=>(isFav(m.a)||isFav(m.b))&&hs(m)&&m.et&&nowT-m.et<36e5&&!TK.dis[m.id]).sort((a,b)=>b.et-a.et):[];
+  if(T.length)TK.man=null;
+  const man=TK.man?VAL.res.filter(m=>m.id===TK.man&&hs(m)):[];if(TK.man&&!man.length)TK.man=null;
+  const F=man.length?man:auto;TK.exp=man.length||!auto.length?0:Math.min(...auto.map(m=>m.et+36e5));
   const TP=T.length?T.map(m=>({t:'k',d:m})):F.flatMap(m=>m.sm.map((_,i)=>({t:'k',d:m,pm:i}))),on=TP.length>0;
   if(TK.busy)return;
   if(on!==TK.on){
