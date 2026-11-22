@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T03:21:55.827Z",
+ "updated": "2026-11-22T03:23:32.493Z",
  "live": [
   {
    "id": "792907",
@@ -27,7 +27,7 @@
     {
      "n": "Summit",
      "a": 2,
-     "b": 6,
+     "b": 7,
      "st": "l"
     }
    ],
@@ -148,6 +148,10 @@
     ],
     [
      "b",
+     "d"
+    ],
+    [
+     "b",
      "e"
     ]
    ],
@@ -173,7 +177,7 @@
     {
      "n": "Haven",
      "a": 2,
-     "b": 7,
+     "b": 8,
      "st": "l"
     },
     {
@@ -307,6 +311,10 @@
     [
      "b",
      "e"
+    ],
+    [
+     "b",
+     "e"
     ]
    ],
    "rdm": "Haven"
@@ -321,7 +329,7 @@
    "sb": "–",
    "ev": "VCT 2027: EMEA Kickoff - MENA Qualifier",
    "ph": "Playoffs–Grand Final",
-   "ts": 1795317600000,
+   "ts": 1795317900000,
    "url": "https://www.vlr.gg/792551/mix-my-miks-vs-no-org-no-problem-vct-2027-emea-kickoff-mena-qualifier-playoffs-gf",
    "bo": "3",
    "evu": "/event/3167/vct-2027-emea-kickoff-mena-qualifier/playoffs",
