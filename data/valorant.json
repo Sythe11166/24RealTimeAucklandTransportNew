@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T03:29:59.838Z",
+ "updated": "2026-11-22T03:31:37.263Z",
  "live": [
   {
    "id": "792907",
@@ -27,7 +27,7 @@
     {
      "n": "Summit",
      "a": 2,
-     "b": 10,
+     "b": 11,
      "st": "l"
     }
    ],
@@ -165,6 +165,10 @@
     [
      "b",
      "d"
+    ],
+    [
+     "b",
+     "e"
     ]
    ],
    "rdm": "Summit"
@@ -189,7 +193,7 @@
     {
      "n": "Haven",
      "a": 3,
-     "b": 11,
+     "b": 12,
      "st": "l"
     },
     {
@@ -334,6 +338,10 @@
     ],
     [
      "a",
+     "e"
+    ],
+    [
+     "b",
      "e"
     ],
     [
@@ -691,7 +699,7 @@
  "br": {
   "u": "/event/3179/vct-2027-america-kickoff-north-america-qualifier-playoffs/swiss-stage",
   "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-  "at": 1795318005402,
+  "at": 1795318295978,
   "r": [
    {
     "r": "Round 1 (0-0)",
