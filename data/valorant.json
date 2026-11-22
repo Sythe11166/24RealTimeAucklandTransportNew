@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T01:52:42.930Z",
+ "updated": "2026-11-22T01:54:23.293Z",
  "live": [
   {
    "id": "792034",
@@ -32,7 +32,54 @@
     }
    ],
    "evu": "/event/3183/vct-2027-america-kickoff-brazil-qualifier-playoffs/swiss-stage",
-   "bo": "3"
+   "bo": "3",
+   "pl": {
+    "a": [
+     {
+      "n": "kwn",
+      "ag": ""
+     },
+     {
+      "n": "lucks",
+      "ag": ""
+     },
+     {
+      "n": "Loweed",
+      "ag": ""
+     },
+     {
+      "n": "mixyce",
+      "ag": ""
+     },
+     {
+      "n": "duhT",
+      "ag": ""
+     }
+    ],
+    "b": [
+     {
+      "n": "saske",
+      "ag": ""
+     },
+     {
+      "n": "Antunes",
+      "ag": ""
+     },
+     {
+      "n": "Kipins",
+      "ag": ""
+     },
+     {
+      "n": "LoveX",
+      "ag": ""
+     },
+     {
+      "n": "Jezam Luska",
+      "ag": ""
+     }
+    ]
+   },
+   "nk": 1
   },
   {
    "id": "792035",
@@ -65,7 +112,54 @@
     }
    ],
    "evu": "/event/3183/vct-2027-america-kickoff-brazil-qualifier-playoffs/swiss-stage",
-   "bo": "3"
+   "bo": "3",
+   "pl": {
+    "a": [
+     {
+      "n": "taka",
+      "ag": ""
+     },
+     {
+      "n": "forbanz",
+      "ag": ""
+     },
+     {
+      "n": "Stwz1",
+      "ag": ""
+     },
+     {
+      "n": "skz",
+      "ag": ""
+     },
+     {
+      "n": "RgLMeister",
+      "ag": ""
+     }
+    ],
+    "b": [
+     {
+      "n": "netin",
+      "ag": ""
+     },
+     {
+      "n": "nevoy",
+      "ag": ""
+     },
+     {
+      "n": "gbz",
+      "ag": ""
+     },
+     {
+      "n": "znajder",
+      "ag": ""
+     },
+     {
+      "n": "GuhRVN",
+      "ag": ""
+     }
+    ]
+   },
+   "nk": 1
   },
   {
    "id": "792910",
@@ -87,7 +181,7 @@
     {
      "n": "Haven",
      "a": 4,
-     "b": 4,
+     "b": 5,
      "st": "l"
     },
     {
@@ -134,6 +228,53 @@
      "Bind"
     ]
    ],
+   "pl": {
+    "a": [
+     {
+      "n": "Hasagi",
+      "ag": ""
+     },
+     {
+      "n": "Freshie",
+      "ag": ""
+     },
+     {
+      "n": "flux",
+      "ag": ""
+     },
+     {
+      "n": "wertlle",
+      "ag": ""
+     },
+     {
+      "n": "Dillon",
+      "ag": ""
+     }
+    ],
+    "b": [
+     {
+      "n": "welyy",
+      "ag": ""
+     },
+     {
+      "n": "vita",
+      "ag": ""
+     },
+     {
+      "n": "zaj",
+      "ag": ""
+     },
+     {
+      "n": "Pa1nt",
+      "ag": ""
+     },
+     {
+      "n": "payne",
+      "ag": ""
+     }
+    ]
+   },
+   "nk": 1,
    "rd": [
     [
      "b",
@@ -161,6 +302,10 @@
     ],
     [
      "a",
+     "e"
+    ],
+    [
+     "b",
      "e"
     ],
     [
@@ -236,13 +381,60 @@
      "",
      "Summit"
     ]
-   ]
+   ],
+   "pl": {
+    "a": [
+     {
+      "n": "jakee",
+      "ag": ""
+     },
+     {
+      "n": "stellar",
+      "ag": ""
+     },
+     {
+      "n": "bdog",
+      "ag": ""
+     },
+     {
+      "n": "heartless",
+      "ag": ""
+     },
+     {
+      "n": "stunna",
+      "ag": ""
+     }
+    ],
+    "b": [
+     {
+      "n": "NiSMO",
+      "ag": ""
+     },
+     {
+      "n": "Smoke",
+      "ag": ""
+     },
+     {
+      "n": "Kyu",
+      "ag": ""
+     },
+     {
+      "n": "zander",
+      "ag": ""
+     },
+     {
+      "n": "Boni",
+      "ag": ""
+     }
+    ]
+   },
+   "nk": 1
   },
   {
    "id": "792908",
    "a": "Cloud9",
    "b": "Maryville University",
-   "sa": "0",
+   "sa": "1",
    "sb": "0",
    "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
    "ph": "Swiss Stage–Round 2 (1-0)",
@@ -251,13 +443,15 @@
    "mp": [
     {
      "n": "Sunset",
-     "a": 13,
+     "a": 14,
      "b": 12,
-     "st": "l"
+     "st": "d"
     },
     {
      "n": "Haven",
-     "st": "n"
+     "a": 0,
+     "b": 0,
+     "st": "l"
     },
     {
      "n": "Summit",
@@ -303,109 +497,53 @@
      "Summit"
     ]
    ],
-   "rd": [
-    [
-     "a",
-     "e"
+   "pl": {
+    "a": [
+     {
+      "n": "GLYPH",
+      "ag": ""
+     },
+     {
+      "n": "Derrek",
+      "ag": ""
+     },
+     {
+      "n": "alym",
+      "ag": ""
+     },
+     {
+      "n": "nightz",
+      "ag": ""
+     },
+     {
+      "n": "FireBallOps",
+      "ag": ""
+     }
     ],
-    [
-     "a",
-     "b"
-    ],
-    [
-     "a",
-     "e"
-    ],
-    [
-     "a",
-     "e"
-    ],
-    [
-     "a",
-     "b"
-    ],
-    [
-     "a",
-     "e"
-    ],
-    [
-     "b",
-     "e"
-    ],
-    [
-     "b",
-     "d"
-    ],
-    [
-     "b",
-     "e"
-    ],
-    [
-     "a",
-     "b"
-    ],
-    [
-     "b",
-     "e"
-    ],
-    [
-     "a",
-     "e"
-    ],
-    [
-     "b",
-     "e"
-    ],
-    [
-     "b",
-     "e"
-    ],
-    [
-     "a",
-     "e"
-    ],
-    [
-     "b",
-     "e"
-    ],
-    [
-     "b",
-     "e"
-    ],
-    [
-     "b",
-     "e"
-    ],
-    [
-     "b",
-     "e"
-    ],
-    [
-     "b",
-     "e"
-    ],
-    [
-     "a",
-     "t"
-    ],
-    [
-     "a",
-     "e"
-    ],
-    [
-     "b",
-     "e"
-    ],
-    [
-     "a",
-     "e"
-    ],
-    [
-     "a",
-     "e"
+    "b": [
+     {
+      "n": "Shondex",
+      "ag": ""
+     },
+     {
+      "n": "geeza",
+      "ag": ""
+     },
+     {
+      "n": "renz",
+      "ag": ""
+     },
+     {
+      "n": "Boomy",
+      "ag": ""
+     },
+     {
+      "n": "Ange",
+      "ag": ""
+     }
     ]
-   ],
-   "rdm": "Sunset"
+   },
+   "nk": 1
   },
   {
    "id": "792909",
@@ -438,7 +576,54 @@
    "h2h": {
     "a": 1,
     "b": 0
-   }
+   },
+   "pl": {
+    "a": [
+     {
+      "n": "Marved",
+      "ag": ""
+     },
+     {
+      "n": "s0m",
+      "ag": ""
+     },
+     {
+      "n": "florescent",
+      "ag": ""
+     },
+     {
+      "n": "yay",
+      "ag": ""
+     },
+     {
+      "n": "Subroza",
+      "ag": ""
+     }
+    ],
+    "b": [
+     {
+      "n": "cuz",
+      "ag": ""
+     },
+     {
+      "n": "Dark3st",
+      "ag": ""
+     },
+     {
+      "n": "om3y",
+      "ag": ""
+     },
+     {
+      "n": "Zoestol",
+      "ag": ""
+     },
+     {
+      "n": "Zamal",
+      "ag": ""
+     }
+    ]
+   },
+   "nk": 1
   }
  ],
  "upcoming": [
