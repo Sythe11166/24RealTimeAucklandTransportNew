@@ -1,21 +1,7 @@
 {
- "updated": "2026-11-22T09:07:34.011Z",
+ "updated": "2026-11-22T09:12:18.253Z",
  "live": [],
  "upcoming": [
-  {
-   "id": "792551",
-   "a": "Mix My Miks",
-   "b": "No Org No Problem",
-   "sa": "–",
-   "sb": "–",
-   "ev": "VCT 2027: EMEA Kickoff - MENA Qualifier",
-   "ph": "Playoffs–Grand Final",
-   "ts": 1795338600000,
-   "url": "https://www.vlr.gg/792551/mix-my-miks-vs-no-org-no-problem-vct-2027-emea-kickoff-mena-qualifier-playoffs-gf",
-   "bo": "3",
-   "evu": "/event/3167/vct-2027-emea-kickoff-mena-qualifier/playoffs",
-   "fz": 1
-  },
   {
    "id": "793333",
    "a": "counterfeit",
@@ -57,7 +43,14 @@
    "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
    "ph": "Swiss Stage–Round 3 (1-1)",
    "ts": 1795393800000,
-   "url": "https://www.vlr.gg/793335/maryville-university-vs-qor-vct-2027-america-kickoff-north-america-qualifier-playoffs-r3-1-1"
+   "url": "https://www.vlr.gg/793335/maryville-university-vs-qor-vct-2027-america-kickoff-north-america-qualifier-playoffs-r3-1-1",
+   "h2h": {
+    "a": 0,
+    "b": 2
+   },
+   "bo": "3",
+   "evu": "/event/3179/vct-2027-america-kickoff-north-america-qualifier-playoffs/swiss-stage",
+   "fz": 1
   },
   {
    "id": "793336",
@@ -4346,9 +4339,7 @@
   "counterfeit": "https://owcdn.net/img/6aff29b4d9f7b.png",
   "FlyQuest": "https://owcdn.net/img/69cac541ed59b.png",
   "Wildcard": "https://owcdn.net/img/6afb9b586bdab.png",
-  "QoR": "https://owcdn.net/img/63e9a11797f41.png",
-  "Mix My Miks": "https://owcdn.net/img/6aad435f0d90b.png",
-  "No Org No Problem": ""
+  "QoR": "https://owcdn.net/img/63e9a11797f41.png"
  },
  "colors": {
   "Winthrop University": "#fbb310",
@@ -4365,8 +4356,7 @@
   "SaD Esports": "#137dbd",
   "FlyQuest": "#02814b",
   "Wildcard": "#21a9f4",
-  "QoR": "#25befa",
-  "Mix My Miks": "#911318"
+  "QoR": "#25befa"
  },
  "agents": {
   "gekko": {
@@ -4492,8 +4482,7 @@
  },
  "evlogos": {
   "VCT 2027: America Kickoff - North America Qualifier Playoffs": "https://owcdn.net/img/640f5ab71dfbb.png",
-  "VCT 2027: America Kickoff - Brazil Qualifier Playoffs": "https://owcdn.net/img/640f5ab71dfbb.png",
-  "VCT 2027: EMEA Kickoff - MENA Qualifier": "https://owcdn.net/img/65ab59620a233.png"
+  "VCT 2027: America Kickoff - Brazil Qualifier Playoffs": "https://owcdn.net/img/640f5ab71dfbb.png"
  },
  "vct": "https://owcdn.net/img/640f5ab71dfbb.png",
  "br": {
