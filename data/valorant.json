@@ -1,86 +1,6 @@
 {
- "updated": "2026-11-22T02:11:34.253Z",
+ "updated": "2026-11-22T02:13:14.502Z",
  "live": [
-  {
-   "id": "792034",
-   "a": "ARRANCA DREAMS",
-   "b": "Piranhas do Caribe",
-   "sa": "1",
-   "sb": "1",
-   "ev": "VCT 2027: America Kickoff - Brazil Qualifier Playoffs",
-   "ph": "Swiss Stage–Round 2 (0-1)",
-   "ts": 1795302000000,
-   "url": "https://www.vlr.gg/792034/arranca-dreams-vs-piranhas-do-caribe-vct-2027-america-kickoff-brazil-qualifier-playoffs-swiss-stage-r2-0-1",
-   "mp": [
-    {
-     "n": "Bind",
-     "a": 9,
-     "b": 13,
-     "st": "d"
-    },
-    {
-     "n": "Lotus",
-     "a": 13,
-     "b": 11,
-     "st": "d"
-    },
-    {
-     "n": "TBD",
-     "a": 0,
-     "b": 0,
-     "st": "l"
-    }
-   ],
-   "evu": "/event/3183/vct-2027-america-kickoff-brazil-qualifier-playoffs/swiss-stage",
-   "bo": "3",
-   "pl": {
-    "a": [
-     {
-      "n": "kwn",
-      "ag": ""
-     },
-     {
-      "n": "lucks",
-      "ag": ""
-     },
-     {
-      "n": "Loweed",
-      "ag": ""
-     },
-     {
-      "n": "mixyce",
-      "ag": ""
-     },
-     {
-      "n": "duhT",
-      "ag": ""
-     }
-    ],
-    "b": [
-     {
-      "n": "saske",
-      "ag": ""
-     },
-     {
-      "n": "Antunes",
-      "ag": ""
-     },
-     {
-      "n": "Kipins",
-      "ag": ""
-     },
-     {
-      "n": "LoveX",
-      "ag": ""
-     },
-     {
-      "n": "Jezam Luska",
-      "ag": ""
-     }
-    ]
-   },
-   "nk": 1
-  },
   {
    "id": "792035",
    "a": "Next",
@@ -180,7 +100,7 @@
     },
     {
      "n": "Haven",
-     "a": 5,
+     "a": 6,
      "b": 11,
      "st": "l"
     },
@@ -339,6 +259,10 @@
     [
      "b",
      "e"
+    ],
+    [
+     "a",
+     "e"
     ]
    ],
    "rdm": "Haven"
@@ -363,7 +287,7 @@
     {
      "n": "Corrode",
      "a": 1,
-     "b": 4,
+     "b": 5,
      "st": "l"
     },
     {
@@ -477,6 +401,10 @@
     [
      "b",
      "e"
+    ],
+    [
+     "b",
+     "e"
     ]
    ],
    "rdm": "Corrode"
@@ -500,7 +428,7 @@
     },
     {
      "n": "Haven",
-     "a": 3,
+     "a": 4,
      "b": 0,
      "st": "l"
     },
@@ -607,6 +535,10 @@
     [
      "a",
      "e"
+    ],
+    [
+     "a",
+     "e"
     ]
    ],
    "rdm": "Haven"
@@ -709,11 +641,11 @@
     ],
     [
      "a",
-     "e"
+     "d"
     ],
     [
      "a",
-     "e"
+     "d"
     ],
     [
      "a",
@@ -732,7 +664,7 @@
    "sb": "–",
    "ev": "VCT 2027: EMEA Kickoff - MENA Qualifier",
    "ph": "Playoffs–Grand Final",
-   "ts": 1795313400000,
+   "ts": 1795313700000,
    "url": "https://www.vlr.gg/792551/mix-my-miks-vs-no-org-no-problem-vct-2027-emea-kickoff-mena-qualifier-playoffs-gf",
    "bo": "3",
    "evu": "/event/3167/vct-2027-emea-kickoff-mena-qualifier/playoffs",
@@ -760,6 +692,34 @@
      "n": "Lotus",
      "a": 4,
      "b": 13
+    }
+   ]
+  },
+  {
+   "id": "792034",
+   "a": "ARRANCA DREAMS",
+   "b": "Piranhas do Caribe",
+   "sa": "2",
+   "sb": "1",
+   "ev": "VCT 2027: America Kickoff - Brazil Qualifier Playoffs",
+   "ph": "Swiss Stage–Round 2 (0-1)",
+   "ts": 1795302000000,
+   "url": "https://www.vlr.gg/792034/arranca-dreams-vs-piranhas-do-caribe-vct-2027-america-kickoff-brazil-qualifier-playoffs-swiss-stage-r2-0-1",
+   "mp": [
+    {
+     "n": "Bind",
+     "a": 9,
+     "b": 13
+    },
+    {
+     "n": "Lotus",
+     "a": 13,
+     "b": 11
+    },
+    {
+     "n": "Corrode",
+     "a": 13,
+     "b": 11
     }
    ]
   },
@@ -948,29 +908,6 @@
      "b": 13
     }
    ]
-  },
-  {
-   "id": "792031",
-   "a": "Mafiosos",
-   "b": "SÓ TEM VELHO",
-   "sa": "0",
-   "sb": "2",
-   "ev": "VCT 2027: America Kickoff - Brazil Qualifier Playoffs",
-   "ph": "Swiss Stage–Round 2 (1-0)",
-   "ts": 1795291200000,
-   "url": "https://www.vlr.gg/792031/mafiosos-vs-s-tem-velho-vct-2027-america-kickoff-brazil-qualifier-playoffs-swiss-stage-r2-1-0",
-   "mp": [
-    {
-     "n": "Summit",
-     "a": 9,
-     "b": 13
-    },
-    {
-     "n": "Haven",
-     "a": 6,
-     "b": 13
-    }
-   ]
   }
  ],
  "news": [
@@ -1029,8 +966,6 @@
   "2Game Esports": "https://owcdn.net/img/67725c368d524.png",
   "ELEVATE": "https://owcdn.net/img/65990c8ab7c2b.png",
   "Team Solid": "https://owcdn.net/img/689d0fc04ad22.png",
-  "Mafiosos": "/img/vlr/tmp/vlr.png",
-  "SÓ TEM VELHO": "/img/vlr/tmp/vlr.png",
   "Yellow Dragon Gaming": "https://owcdn.net/img/6afd0bad47358.png",
   "Wildcard": "https://owcdn.net/img/6afb9b586bdab.png",
   "QoR": "https://owcdn.net/img/63e9a11797f41.png",
