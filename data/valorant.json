@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T00:40:26.890Z",
+ "updated": "2026-11-23T00:42:31.422Z",
  "live": [
   {
    "id": "792040",
@@ -179,7 +179,7 @@
     {
      "n": "Bind",
      "a": 11,
-     "b": 7,
+     "b": 8,
      "st": "l"
     },
     {
@@ -353,6 +353,10 @@
     [
      "b",
      "e"
+    ],
+    [
+     "b",
+     "e"
     ]
    ],
    "rdm": "Bind"
@@ -371,7 +375,7 @@
     {
      "n": "Lotus",
      "a": 3,
-     "b": 3,
+     "b": 4,
      "st": "l"
     },
     {
@@ -493,6 +497,10 @@
     [
      "a",
      "t"
+    ],
+    [
+     "b",
+     "e"
     ],
     [
      "b",
@@ -4965,7 +4973,7 @@
   "u": "/event/3183/vct-2027-america-kickoff-brazil-qualifier-playoffs/swiss-stage",
   "rg": "Americas",
   "ev": "VCT 2027: America Kickoff - Brazil Qualifier Playoffs",
-  "at": 1795394229225,
+  "at": 1795394550107,
   "r": [
    {
     "r": "Round 1 (0-0)",
