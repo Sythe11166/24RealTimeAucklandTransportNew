@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T00:28:54.909Z",
+ "updated": "2026-11-23T00:30:36.166Z",
  "live": [
   {
    "id": "792040",
@@ -176,7 +176,7 @@
    "mp": [
     {
      "n": "Bind",
-     "a": 4,
+     "a": 6,
      "b": 5,
      "st": "l"
     },
@@ -315,6 +315,14 @@
     [
      "b",
      "e"
+    ],
+    [
+     "a",
+     "e"
+    ],
+    [
+     "a",
+     "e"
     ]
    ],
    "rdm": "Bind"
@@ -332,7 +340,7 @@
    "mp": [
     {
      "n": "TBD",
-     "a": 1,
+     "a": 2,
      "b": 0,
      "st": "l"
     },
@@ -406,40 +414,176 @@
     [
      "a",
      "d"
+    ],
+    [
+     "a",
+     "d"
     ]
    ],
    "rdm": "TBD"
-  }
- ],
- "upcoming": [
+  },
   {
    "id": "793238",
    "a": "Chivas Esports",
    "b": "Old School Kr3w",
-   "sa": "–",
-   "sb": "–",
+   "sa": "0",
+   "sb": "0",
    "ev": "VCT 2027: America Kickoff - LATAM North Qualifier Playoffs",
    "ph": "Swiss Stage–Round 2 (0-1)",
    "ts": 1795393800000,
    "url": "https://www.vlr.gg/793238/chivas-esports-vs-old-school-kr3w-vct-2027-america-kickoff-latam-north-qualifier-playoffs-swiss-stage-r2-0-1",
-   "bo": "3",
+   "mp": [
+    {
+     "n": "TBD",
+     "a": 0,
+     "b": 0,
+     "st": "l"
+    },
+    {
+     "n": "TBD",
+     "st": "n"
+    },
+    {
+     "n": "TBD",
+     "st": "n"
+    }
+   ],
    "evu": "/event/3184/vct-2027-america-kickoff-latam-north-qualifier-playoffs/swiss-stage",
-   "fz": 1
+   "bo": "3",
+   "pl": {
+    "a": [
+     {
+      "n": "paganus",
+      "ag": ""
+     },
+     {
+      "n": "otaQ",
+      "ag": ""
+     },
+     {
+      "n": "Sabortzz",
+      "ag": ""
+     },
+     {
+      "n": "Peloncito",
+      "ag": ""
+     },
+     {
+      "n": "solution",
+      "ag": ""
+     }
+    ],
+    "b": [
+     {
+      "n": "jPacheco",
+      "ag": ""
+     },
+     {
+      "n": "Mora",
+      "ag": ""
+     },
+     {
+      "n": "yMnGkzZzZzZ",
+      "ag": ""
+     },
+     {
+      "n": "Sitolui",
+      "ag": ""
+     },
+     {
+      "n": "stress",
+      "ag": ""
+     }
+    ]
+   },
+   "tg": [
+    "CHV",
+    "OSK"
+   ],
+   "nk": 1
   },
   {
    "id": "793239",
    "a": "STREAMER ARENA",
    "b": "Squirtle Rangers",
-   "sa": "–",
-   "sb": "–",
+   "sa": "0",
+   "sb": "0",
    "ev": "VCT 2027: America Kickoff - LATAM North Qualifier Playoffs",
    "ph": "Swiss Stage–Round 2 (0-1)",
    "ts": 1795393800000,
    "url": "https://www.vlr.gg/793239/streamer-arena-vs-squirtle-rangers-vct-2027-america-kickoff-latam-north-qualifier-playoffs-swiss-stage-r2-0-1",
-   "bo": "3",
+   "mp": [
+    {
+     "n": "TBD",
+     "a": 0,
+     "b": 0,
+     "st": "l"
+    },
+    {
+     "n": "TBD",
+     "st": "n"
+    },
+    {
+     "n": "TBD",
+     "st": "n"
+    }
+   ],
    "evu": "/event/3184/vct-2027-america-kickoff-latam-north-qualifier-playoffs/swiss-stage",
-   "fz": 1
-  },
+   "bo": "3",
+   "pl": {
+    "a": [
+     {
+      "n": "clutchz",
+      "ag": ""
+     },
+     {
+      "n": "Dlasqx1",
+      "ag": ""
+     },
+     {
+      "n": "Matkazeta",
+      "ag": ""
+     },
+     {
+      "n": "Zelver",
+      "ag": ""
+     },
+     {
+      "n": "coiZ",
+      "ag": ""
+     }
+    ],
+    "b": [
+     {
+      "n": "Joluma",
+      "ag": ""
+     },
+     {
+      "n": "Fotzy",
+      "ag": ""
+     },
+     {
+      "n": "Tonezer",
+      "ag": ""
+     },
+     {
+      "n": "LaZer",
+      "ag": ""
+     },
+     {
+      "n": "Mina Ha",
+      "ag": ""
+     }
+    ]
+   },
+   "tg": [
+    "STA",
+    "SQR"
+   ],
+   "nk": 1
+  }
+ ],
+ "upcoming": [
   {
    "id": "793563",
    "a": "University War",
@@ -463,7 +607,10 @@
    "ev": "VCT 2027: America Kickoff - LATAM South Qualifier Playoffs",
    "ph": "Swiss Stage–Round 2 (1-0)",
    "ts": 1795460400000,
-   "url": "https://www.vlr.gg/793564/tramite-vs-el-legado-vct-2027-america-kickoff-latam-south-qualifier-playoffs-r2-1-0"
+   "url": "https://www.vlr.gg/793564/tramite-vs-el-legado-vct-2027-america-kickoff-latam-south-qualifier-playoffs-r2-1-0",
+   "bo": "3",
+   "evu": "/event/3185/vct-2027-america-kickoff-latam-south-qualifier-playoffs/swiss-stage",
+   "fz": 1
   },
   {
    "id": "793565",
@@ -474,7 +621,10 @@
    "ev": "VCT 2027: America Kickoff - LATAM South Qualifier Playoffs",
    "ph": "Swiss Stage–Round 2 (0-1)",
    "ts": 1795469400000,
-   "url": "https://www.vlr.gg/793565/9z-globant-vs-malajunta-vct-2027-america-kickoff-latam-south-qualifier-playoffs-r2-0-1"
+   "url": "https://www.vlr.gg/793565/9z-globant-vs-malajunta-vct-2027-america-kickoff-latam-south-qualifier-playoffs-r2-0-1",
+   "bo": "3",
+   "evu": "/event/3185/vct-2027-america-kickoff-latam-south-qualifier-playoffs/swiss-stage",
+   "fz": 1
   },
   {
    "id": "793566",
@@ -4566,7 +4716,9 @@
   "TROOPERS": "",
   "Bonkers": "https://owcdn.net/img/645fbc5da4a21.png",
   "Finishers": "https://owcdn.net/img/69d48940ee5bf.png",
-  "MeatZn": ""
+  "MeatZn": "",
+  "Mix My Miks": "https://owcdn.net/img/6aad435f0d90b.png",
+  "No Org No Problem": ""
  },
  "colors": {
   "Winthrop University": "#fbb310",
@@ -4592,7 +4744,8 @@
   "9z Globant": "",
   "KRÜ BLAZE": "#d70f83",
   "Bonkers": "#e0900e",
-  "Finishers": "#4e859b"
+  "Finishers": "#4e859b",
+  "Mix My Miks": "#911318"
  },
  "agents": {
   "gekko": {
@@ -4721,7 +4874,8 @@
   "VCT 2027: America Kickoff - Brazil Qualifier Playoffs": "https://owcdn.net/img/640f5ab71dfbb.png",
   "VCT 2027: America Kickoff - LATAM North Qualifier Playoffs": "https://owcdn.net/img/640f5ab71dfbb.png",
   "VCT 2027: America Kickoff - LATAM South Qualifier Playoffs": "https://owcdn.net/img/640f5ab71dfbb.png",
-  "VCT 2027: Pacific Kickoff - Oceania Qualifier": "https://owcdn.net/img/640f5ae002674.png"
+  "VCT 2027: Pacific Kickoff - Oceania Qualifier": "https://owcdn.net/img/640f5ae002674.png",
+  "VCT 2027: EMEA Kickoff - MENA Qualifier": "https://owcdn.net/img/65ab59620a233.png"
  },
  "vct": "https://owcdn.net/img/640f5ab71dfbb.png",
  "br": {
@@ -5033,20 +5187,6 @@
  },
  "fu": [
   {
-   "id": "793238",
-   "a": "Chivas Esports",
-   "b": "Old School Kr3w",
-   "ev": "VCT 2027: America Kickoff - LATAM North Qualifier Playoffs",
-   "ts": 1795393800000
-  },
-  {
-   "id": "793239",
-   "a": "STREAMER ARENA",
-   "b": "Squirtle Rangers",
-   "ev": "VCT 2027: America Kickoff - LATAM North Qualifier Playoffs",
-   "ts": 1795393800000
-  },
-  {
    "id": "793563",
    "a": "University War",
    "b": "ARG.MIX",
@@ -5248,7 +5388,7 @@
    "sa": "2",
    "sb": "1",
    "ev": "VCT 2027: EMEA Kickoff - MENA Qualifier",
-   "ts": 1795289400000
+   "ts": 1795285800000
   },
   {
    "id": "792550",
@@ -5266,7 +5406,7 @@
    "sa": "0",
    "sb": "2",
    "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ts": 1795228200000
+   "ts": 1795224600000
   },
   {
    "id": "791683",
@@ -5275,7 +5415,7 @@
    "sa": "2",
    "sb": "1",
    "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ts": 1795224600000
+   "ts": 1795221000000
   },
   {
    "id": "791684",
