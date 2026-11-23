@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T20:13:29.475Z",
+ "updated": "2026-11-23T20:13:59.653Z",
  "live": [
   {
    "id": "793563",
@@ -3821,6 +3821,12 @@
  ],
  "news": [
   {
+   "t": "FULL SENSE parts ways with FrosT",
+   "d": "FULL SENSE allows FrosT to look for another team.",
+   "ts": 1795435200000,
+   "url": "https://www.vlr.gg/793958/full-sense-parts-ways-with-frost"
+  },
+  {
    "t": "BOOM and Team Secret merge, announce first BTS roster",
    "d": "A merger results in the BTS of SEA Valorant being formed.",
    "ts": 1795435200000,
@@ -3849,12 +3855,6 @@
    "d": "After a year and a half with MIBR GC, bstrdd looks set to leave.",
    "ts": 1795435200000,
    "url": "https://www.vlr.gg/793822/mibr-gc-allows-bstrdd-to-explore-options"
-  },
-  {
-   "t": "GIANTX announces first roster of post-partnership era",
-   "d": "A new era of GIANTX starts with a group of five Tier 2 journeymen.",
-   "ts": 1795435200000,
-   "url": "https://www.vlr.gg/793817/giantx-announces-first-roster-of-post-partnership-era"
   }
  ],
  "logos": {
