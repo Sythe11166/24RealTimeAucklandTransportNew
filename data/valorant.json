@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T00:16:45.652Z",
+ "updated": "2026-11-23T00:18:26.233Z",
  "live": [
   {
    "id": "792040",
@@ -85,7 +85,7 @@
    "id": "792041",
    "a": "Mafiosos",
    "b": "Master Bank",
-   "sa": "0",
+   "sa": "1",
    "sb": "0",
    "ev": "VCT 2027: America Kickoff - Brazil Qualifier Playoffs",
    "ph": "Swiss Stage–Round 3 (1-1)",
@@ -93,14 +93,16 @@
    "url": "https://www.vlr.gg/792041/mafiosos-vs-master-bank-vct-2027-america-kickoff-brazil-qualifier-playoffs-swiss-stage-r3-1-1",
    "mp": [
     {
+     "n": "Haven",
+     "a": 13,
+     "b": 8,
+     "st": "d"
+    },
+    {
      "n": "TBD",
      "a": 0,
      "b": 0,
      "st": "l"
-    },
-    {
-     "n": "TBD",
-     "st": "n"
     },
     {
      "n": "TBD",
@@ -174,7 +176,7 @@
    "mp": [
     {
      "n": "Bind",
-     "a": 1,
+     "a": 2,
      "b": 2,
      "st": "l"
     },
@@ -289,6 +291,10 @@
     [
      "a",
      "e"
+    ],
+    [
+     "a",
+     "e"
     ]
    ],
    "rdm": "Bind"
@@ -393,7 +399,7 @@
    "sb": "–",
    "ev": "VCT 2027: Pacific Kickoff - Oceania Qualifier",
    "ph": "Main Event–Upper Semifinals",
-   "ts": 1795590900000,
+   "ts": 1795591200000,
    "url": "https://www.vlr.gg/790432/troopers-vs-bonkers-vct-2027-pacific-kickoff-oceania-qualifier-ubsf"
   },
   {
@@ -404,7 +410,7 @@
    "sb": "–",
    "ev": "VCT 2027: Pacific Kickoff - Oceania Qualifier",
    "ph": "Main Event–Upper Semifinals",
-   "ts": 1795590900000,
+   "ts": 1795591200000,
    "url": "https://www.vlr.gg/790433/finishers-vs-meatzn-vct-2027-pacific-kickoff-oceania-qualifier-ubsf"
   },
   {
@@ -415,7 +421,7 @@
    "sb": "–",
    "ev": "VCT 2027: EMEA Kickoff - MENA Qualifier",
    "ph": "Playoffs–Grand Final",
-   "ts": 1795911300000,
+   "ts": 1795911600000,
    "url": "https://www.vlr.gg/792551/mix-my-miks-vs-no-org-no-problem-vct-2027-emea-kickoff-mena-qualifier-playoffs-gf"
   }
  ],
@@ -4981,21 +4987,21 @@
    "a": "TROOPERS",
    "b": "Bonkers",
    "ev": "VCT 2027: Pacific Kickoff - Oceania Qualifier",
-   "ts": 1795590900000
+   "ts": 1795591200000
   },
   {
    "id": "790433",
    "a": "Finishers",
    "b": "MeatZn",
    "ev": "VCT 2027: Pacific Kickoff - Oceania Qualifier",
-   "ts": 1795590900000
+   "ts": 1795591200000
   },
   {
    "id": "792551",
    "a": "Mix My Miks",
    "b": "No Org No Problem",
    "ev": "VCT 2027: EMEA Kickoff - MENA Qualifier",
-   "ts": 1795911300000
+   "ts": 1795911600000
   }
  ],
  "fr": [
@@ -5096,7 +5102,7 @@
    "sa": "2",
    "sb": "1",
    "ev": "VCT 2027: America Kickoff - Brazil Qualifier Playoffs",
-   "ts": 1795302900000
+   "ts": 1795303200000
   },
   {
    "id": "792903",
@@ -5105,7 +5111,7 @@
    "sa": "0",
    "sb": "2",
    "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ts": 1795299300000
+   "ts": 1795299600000
   },
   {
    "id": "792904",
@@ -5114,7 +5120,7 @@
    "sa": "1",
    "sb": "2",
    "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ts": 1795299300000
+   "ts": 1795299600000
   },
   {
    "id": "792905",
@@ -5123,7 +5129,7 @@
    "sa": "1",
    "sb": "2",
    "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ts": 1795299300000
+   "ts": 1795299600000
   },
   {
    "id": "792906",
@@ -5132,7 +5138,7 @@
    "sa": "2",
    "sb": "1",
    "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ts": 1795299300000
+   "ts": 1795299600000
   },
   {
    "id": "792032",
@@ -5141,7 +5147,7 @@
    "sa": "2",
    "sb": "1",
    "ev": "VCT 2027: America Kickoff - Brazil Qualifier Playoffs",
-   "ts": 1795292100000
+   "ts": 1795292400000
   },
   {
    "id": "792549",
@@ -5150,7 +5156,7 @@
    "sa": "2",
    "sb": "1",
    "ev": "VCT 2027: EMEA Kickoff - MENA Qualifier",
-   "ts": 1795288500000
+   "ts": 1795288800000
   },
   {
    "id": "792550",
@@ -5159,7 +5165,7 @@
    "sa": "2",
    "sb": "1",
    "ev": "VCT 2027: EMEA Kickoff - MENA Qualifier",
-   "ts": 1795277700000
+   "ts": 1795278000000
   },
   {
    "id": "791685",
@@ -5168,7 +5174,7 @@
    "sa": "0",
    "sb": "2",
    "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ts": 1795227300000
+   "ts": 1795227600000
   },
   {
    "id": "791683",
@@ -5177,7 +5183,7 @@
    "sa": "2",
    "sb": "1",
    "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ts": 1795223700000
+   "ts": 1795224000000
   },
   {
    "id": "791684",
@@ -5186,7 +5192,7 @@
    "sa": "2",
    "sb": "0",
    "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ts": 1795220100000
+   "ts": 1795220400000
   },
   {
    "id": "791686",
@@ -5195,7 +5201,7 @@
    "sa": "0",
    "sb": "2",
    "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ts": 1795220100000
+   "ts": 1795220400000
   },
   {
    "id": "791707",
@@ -5204,7 +5210,7 @@
    "sa": "2",
    "sb": "1",
    "ev": "VCT 2027: America Kickoff - Brazil Qualifier Playoffs",
-   "ts": 1795216500000
+   "ts": 1795216800000
   },
   {
    "id": "791679",
@@ -5213,7 +5219,7 @@
    "sa": "2",
    "sb": "0",
    "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ts": 1795212900000
+   "ts": 1795213200000
   },
   {
    "id": "791680",
@@ -5222,7 +5228,7 @@
    "sa": "2",
    "sb": "0",
    "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ts": 1795212900000
+   "ts": 1795213200000
   },
   {
    "id": "791681",
@@ -5231,7 +5237,7 @@
    "sa": "2",
    "sb": "1",
    "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ts": 1795212900000
+   "ts": 1795213200000
   },
   {
    "id": "791682",
@@ -5240,7 +5246,7 @@
    "sa": "0",
    "sb": "2",
    "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ts": 1795212900000
+   "ts": 1795213200000
   },
   {
    "id": "791703",
@@ -5249,7 +5255,7 @@
    "sa": "2",
    "sb": "1",
    "ev": "VCT 2027: America Kickoff - Brazil Qualifier Playoffs",
-   "ts": 1795205700000
+   "ts": 1795206000000
   },
   {
    "id": "790841",
@@ -5258,7 +5264,7 @@
    "sa": "2",
    "sb": "0",
    "ev": "VCT 2027: America Kickoff - North America Open Qualifier",
-   "ts": 1795392900000
+   "ts": 1795393200000
   },
   {
    "id": "789941",
@@ -5267,7 +5273,7 @@
    "sa": "2",
    "sb": "0",
    "ev": "VCT 2027: America Kickoff - North America Open Qualifier",
-   "ts": 1795392900000
+   "ts": 1795393200000
   },
   {
    "id": "789943",
@@ -5276,7 +5282,7 @@
    "sa": "2",
    "sb": "0",
    "ev": "VCT 2027: America Kickoff - North America Open Qualifier",
-   "ts": 1795392900000
+   "ts": 1795393200000
   },
   {
    "id": "789944",
@@ -5285,7 +5291,7 @@
    "sa": "2",
    "sb": "0",
    "ev": "VCT 2027: America Kickoff - North America Open Qualifier",
-   "ts": 1795392900000
+   "ts": 1795393200000
   },
   {
    "id": "790757",
@@ -5294,7 +5300,7 @@
    "sa": "0",
    "sb": "2",
    "ev": "VCT 2027: EMEA Kickoff - Europe Open Qualifier",
-   "ts": 1795392900000
+   "ts": 1795393200000
   },
   {
    "id": "790755",
@@ -5303,7 +5309,7 @@
    "sa": "2",
    "sb": "1",
    "ev": "VCT 2027: EMEA Kickoff - Europe Open Qualifier",
-   "ts": 1795392900000
+   "ts": 1795393200000
   },
   {
    "id": "790756",
@@ -5312,7 +5318,7 @@
    "sa": "1",
    "sb": "2",
    "ev": "VCT 2027: EMEA Kickoff - Europe Open Qualifier",
-   "ts": 1795392900000
+   "ts": 1795393200000
   },
   {
    "id": "789937",
@@ -5321,7 +5327,7 @@
    "sa": "2",
    "sb": "0",
    "ev": "VCT 2027: America Kickoff - North America Open Qualifier",
-   "ts": 1795306500000
+   "ts": 1795306800000
   },
   {
    "id": "789934",
@@ -5330,7 +5336,7 @@
    "sa": "1",
    "sb": "2",
    "ev": "VCT 2027: America Kickoff - North America Open Qualifier",
-   "ts": 1795306500000
+   "ts": 1795306800000
   },
   {
    "id": "789939",
@@ -5339,7 +5345,7 @@
    "sa": "2",
    "sb": "0",
    "ev": "VCT 2027: America Kickoff - North America Open Qualifier",
-   "ts": 1795306500000
+   "ts": 1795306800000
   },
   {
    "id": "789917",
@@ -5348,7 +5354,7 @@
    "sa": "2",
    "sb": "1",
    "ev": "VCT 2027: America Kickoff - North America Open Qualifier",
-   "ts": 1795306500000
+   "ts": 1795306800000
   },
   {
    "id": "789929",
@@ -5357,7 +5363,7 @@
    "sa": "2",
    "sb": "0",
    "ev": "VCT 2027: America Kickoff - North America Open Qualifier",
-   "ts": 1795306500000
+   "ts": 1795306800000
   },
   {
    "id": "789174",
@@ -5366,7 +5372,7 @@
    "sa": "2",
    "sb": "0",
    "ev": "VCT 2027: EMEA Kickoff - Europe Open Qualifier",
-   "ts": 1795306500000
+   "ts": 1795306800000
   }
  ]
 }
