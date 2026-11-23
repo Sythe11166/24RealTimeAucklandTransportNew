@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T14:00:56.221Z",
+ "updated": "2026-11-23T14:02:34.626Z",
  "live": [
   {
    "id": "793795",
@@ -119,93 +119,27 @@
     "TPE"
    ],
    "nk": 1
-  },
+  }
+ ],
+ "upcoming": [
   {
    "id": "793796",
    "a": "ZEXAR ESPORTS",
    "b": "SIGN Esports",
-   "sa": "0",
-   "sb": "0",
+   "sa": "–",
+   "sb": "–",
    "ev": "VCT 2027: Pacific Kickoff - South Asia Qualifier",
    "ph": "Playoffs–Upper Quarterfinals",
-   "ts": 1795442400000,
+   "ts": 1795446000000,
    "url": "https://www.vlr.gg/793796/zexar-esports-vs-sign-esports-vct-2027-pacific-kickoff-south-asia-qualifier-ubqf",
-   "mp": [
-    {
-     "n": "TBD",
-     "a": 0,
-     "b": 0,
-     "st": "l"
-    },
-    {
-     "n": "TBD",
-     "st": "n"
-    },
-    {
-     "n": "TBD",
-     "st": "n"
-    }
-   ],
-   "evu": "/event/3206/vct-2027-pacific-kickoff-south-asia-qualifier/playoffs",
-   "bo": "3",
    "h2h": {
     "a": 0,
     "b": 1
    },
-   "pl": {
-    "a": [
-     {
-      "n": "BlooDy13",
-      "ag": ""
-     },
-     {
-      "n": "OBITO",
-      "ag": ""
-     },
-     {
-      "n": "GhostyXD",
-      "ag": ""
-     },
-     {
-      "n": "fluxx",
-      "ag": ""
-     },
-     {
-      "n": "howaboutn0",
-      "ag": ""
-     }
-    ],
-    "b": [
-     {
-      "n": "Russ",
-      "ag": ""
-     },
-     {
-      "n": "Deadly10",
-      "ag": ""
-     },
-     {
-      "n": "tricky",
-      "ag": ""
-     },
-     {
-      "n": "Yuvi",
-      "ag": ""
-     },
-     {
-      "n": "Garv",
-      "ag": ""
-     }
-    ]
-   },
-   "tg": [
-    "ZXR",
-    "SGN"
-   ],
-   "nk": 1
-  }
- ],
- "upcoming": [
+   "bo": "3",
+   "evu": "/event/3206/vct-2027-pacific-kickoff-south-asia-qualifier/playoffs",
+   "fz": 1
+  },
   {
    "id": "793563",
    "a": "University War",
@@ -243,10 +177,7 @@
    "ev": "VCT 2027: America Kickoff - LATAM South Qualifier Playoffs",
    "ph": "Swiss Stage–Round 2 (0-1)",
    "ts": 1795469400000,
-   "url": "https://www.vlr.gg/793565/9z-globant-vs-malajunta-vct-2027-america-kickoff-latam-south-qualifier-playoffs-r2-0-1",
-   "bo": "3",
-   "evu": "/event/3185/vct-2027-america-kickoff-latam-south-qualifier-playoffs/swiss-stage",
-   "fz": 1
+   "url": "https://www.vlr.gg/793565/9z-globant-vs-malajunta-vct-2027-america-kickoff-latam-south-qualifier-playoffs-r2-0-1"
   },
   {
    "id": "793566",
@@ -335,20 +266,35 @@
    "ph": "Main Event–Upper Semifinals",
    "ts": 1795590000000,
    "url": "https://www.vlr.gg/790432/troopers-vs-bonkers-vct-2027-pacific-kickoff-oceania-qualifier-ubsf"
-  },
-  {
-   "id": "790433",
-   "a": "Finishers",
-   "b": "MeatZn",
-   "sa": "–",
-   "sb": "–",
-   "ev": "VCT 2027: Pacific Kickoff - Oceania Qualifier",
-   "ph": "Main Event–Upper Semifinals",
-   "ts": 1795590000000,
-   "url": "https://www.vlr.gg/790433/finishers-vs-meatzn-vct-2027-pacific-kickoff-oceania-qualifier-ubsf"
   }
  ],
  "results": [
+  {
+   "id": "793796",
+   "a": "ZEXAR ESPORTS",
+   "b": "SIGN Esports",
+   "sa": "0",
+   "sb": "0",
+   "ev": "VCT 2027: Pacific Kickoff - South Asia Qualifier",
+   "ph": "Playoffs–Upper Quarterfinals",
+   "ts": 1795442400000,
+   "et": 1795442550258,
+   "url": "https://www.vlr.gg/793796/zexar-esports-vs-sign-esports-vct-2027-pacific-kickoff-south-asia-qualifier-ubqf",
+   "g": 1,
+   "mp": [
+    {
+     "n": "TBD",
+     "a": 0,
+     "b": 0
+    }
+   ],
+   "h2h": {
+    "a": 0,
+    "b": 1
+   },
+   "bo": "3",
+   "smt": 1795442551395
+  },
   {
    "id": "793238",
    "a": "Chivas Esports",
@@ -3504,416 +3450,6 @@
     "FAKE",
     "FLY"
    ]
-  },
-  {
-   "id": "793334",
-   "a": "Wildcard",
-   "b": "Winthrop University",
-   "sa": "2",
-   "sb": "0",
-   "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ph": "Swiss Stage–Round 3 (1-1)",
-   "ts": 1795384800000,
-   "url": "https://www.vlr.gg/793334/wildcard-vs-winthrop-university-vct-2027-america-kickoff-north-america-qualifier-playoffs-r3-1-1",
-   "mp": [
-    {
-     "n": "Abyss",
-     "a": 13,
-     "b": 11
-    },
-    {
-     "n": "Corrode",
-     "a": 13,
-     "b": 7
-    }
-   ],
-   "sm": [
-    {
-     "n": "Abyss",
-     "a": 13,
-     "b": 11,
-     "pa": [
-      {
-       "n": "icy",
-       "k": 23,
-       "d": 15,
-       "a": 5,
-       "ag": "waylay"
-      },
-      {
-       "n": "zerona",
-       "k": 18,
-       "d": 17,
-       "a": 9,
-       "ag": "sova"
-      },
-      {
-       "n": "nerve",
-       "k": 16,
-       "d": 15,
-       "a": 5,
-       "ag": "tejo"
-      },
-      {
-       "n": "neT",
-       "k": 14,
-       "d": 19,
-       "a": 9,
-       "ag": "astra"
-      },
-      {
-       "n": "Spaz",
-       "k": 10,
-       "d": 20,
-       "a": 10,
-       "ag": "omen"
-      }
-     ],
-     "pb": [
-      {
-       "n": "infiltrator",
-       "k": 21,
-       "d": 17,
-       "a": 2,
-       "ag": "yoru"
-      },
-      {
-       "n": "Fair",
-       "k": 19,
-       "d": 17,
-       "a": 6,
-       "ag": "hush"
-      },
-      {
-       "n": "Veyron",
-       "k": 18,
-       "d": 15,
-       "a": 4,
-       "ag": "astra"
-      },
-      {
-       "n": "Governor",
-       "k": 15,
-       "d": 16,
-       "a": 9,
-       "ag": "sova"
-      },
-      {
-       "n": "1Karma",
-       "k": 12,
-       "d": 17,
-       "a": 14,
-       "ag": "harbor"
-      }
-     ],
-     "rd": [
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "a",
-       "d"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "a",
-       "b"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "d"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "b"
-      ],
-      [
-       "a",
-       "b"
-      ],
-      [
-       "b",
-       "d"
-      ],
-      [
-       "b",
-       "d"
-      ],
-      [
-       "a",
-       "e"
-      ]
-     ]
-    },
-    {
-     "n": "Corrode",
-     "a": 13,
-     "b": 7,
-     "pa": [
-      {
-       "n": "nerve",
-       "k": 16,
-       "d": 9,
-       "a": 10,
-       "ag": "fade"
-      },
-      {
-       "n": "zerona",
-       "k": 16,
-       "d": 15,
-       "a": 3,
-       "ag": "iso"
-      },
-      {
-       "n": "icy",
-       "k": 16,
-       "d": 16,
-       "a": 9,
-       "ag": "raze"
-      },
-      {
-       "n": "Spaz",
-       "k": 15,
-       "d": 11,
-       "a": 10,
-       "ag": "astra"
-      },
-      {
-       "n": "neT",
-       "k": 9,
-       "d": 15,
-       "a": 10,
-       "ag": "sage"
-      }
-     ],
-     "pb": [
-      {
-       "n": "Fair",
-       "k": 18,
-       "d": 14,
-       "a": 3,
-       "ag": "chamber"
-      },
-      {
-       "n": "infiltrator",
-       "k": 16,
-       "d": 15,
-       "a": 5,
-       "ag": "neon"
-      },
-      {
-       "n": "Veyron",
-       "k": 11,
-       "d": 15,
-       "a": 14,
-       "ag": "omen"
-      },
-      {
-       "n": "Governor",
-       "k": 11,
-       "d": 17,
-       "a": 4,
-       "ag": "fade"
-      },
-      {
-       "n": "1Karma",
-       "k": 10,
-       "d": 11,
-       "a": 3,
-       "ag": "viper"
-      }
-     ],
-     "rd": [
-      [
-       "a",
-       "b"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "b"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "a",
-       "t"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ]
-     ]
-    }
-   ],
-   "vt": [
-    [
-     "x",
-     "WC",
-     "Lotus"
-    ],
-    [
-     "x",
-     "WU",
-     "Sunset"
-    ],
-    [
-     "p",
-     "WC",
-     "Abyss"
-    ],
-    [
-     "p",
-     "WU",
-     "Corrode"
-    ],
-    [
-     "x",
-     "WC",
-     "Haven"
-    ],
-    [
-     "x",
-     "WU",
-     "Summit"
-    ],
-    [
-     "d",
-     "",
-     "Bind"
-    ]
-   ],
-   "h2h": {
-    "a": 0,
-    "b": 1
-   },
-   "bo": "3",
-   "smt": 1795435488641,
-   "tg": [
-    "WC",
-    "WU"
-   ]
   }
  ],
  "news": [
@@ -3988,11 +3524,7 @@
   "Eternal Fire": "https://owcdn.net/img/6628980dcdaea.png",
   "Misa Esports": "https://owcdn.net/img/6887b1d2edd20.png",
   "counterfeit": "https://owcdn.net/img/6aff29b4d9f7b.png",
-  "FlyQuest": "https://owcdn.net/img/69cac541ed59b.png",
-  "Wildcard": "https://owcdn.net/img/6afb9b586bdab.png",
-  "Winthrop University": "https://owcdn.net/img/636c2f2592313.png",
-  "Fire Flux Esports": "https://owcdn.net/img/68e6e1bcca45d.png",
-  "Trigon Titans": "https://owcdn.net/img/6afa21f3b97d6.png"
+  "FlyQuest": "https://owcdn.net/img/69cac541ed59b.png"
  },
  "colors": {
   "Oafs": "",
@@ -4016,11 +3548,7 @@
   "Eternal Fire": "#988966",
   "Misa Esports": "",
   "counterfeit": "#957226",
-  "FlyQuest": "#02814b",
-  "Wildcard": "#21a9f4",
-  "Winthrop University": "#fbb310",
-  "Fire Flux Esports": "#18d7f5",
-  "Trigon Titans": ""
+  "FlyQuest": "#02814b"
  },
  "agents": {
   "gekko": {
@@ -4234,6 +3762,13 @@
   "x": []
  },
  "fu": [
+  {
+   "id": "793796",
+   "a": "ZEXAR ESPORTS",
+   "b": "SIGN Esports",
+   "ev": "VCT 2027: Pacific Kickoff - South Asia Qualifier",
+   "ts": 1795446000000
+  },
   {
    "id": "793563",
    "a": "University War",
