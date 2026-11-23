@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T02:08:20.074Z",
+ "updated": "2026-11-23T02:10:18.829Z",
  "live": [
   {
    "id": "793239",
@@ -139,6 +139,50 @@
    "ph": "Swiss Stage–Round 2 (0-1)",
    "ts": 1795469400000,
    "url": "https://www.vlr.gg/793566/kr-blaze-vs-fracasados-ny-vct-2027-america-kickoff-latam-south-qualifier-playoffs-r2-0-1"
+  },
+  {
+   "id": "793735",
+   "a": "Cloud9",
+   "b": "QoR",
+   "sa": "–",
+   "sb": "–",
+   "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
+   "ph": "Playoffs –Upper Quarterfinals",
+   "ts": 1795486200000,
+   "url": "https://www.vlr.gg/793735/cloud9-vs-qor-vct-2027-america-kickoff-north-america-qualifier-playoffs-ubqf"
+  },
+  {
+   "id": "793736",
+   "a": "YFP",
+   "b": "Oafs",
+   "sa": "–",
+   "sb": "–",
+   "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
+   "ph": "Playoffs –Upper Quarterfinals",
+   "ts": 1795486200000,
+   "url": "https://www.vlr.gg/793736/yfp-vs-oafs-vct-2027-america-kickoff-north-america-qualifier-playoffs-ubqf"
+  },
+  {
+   "id": "793738",
+   "a": "Shopify Rebellion Black",
+   "b": "counterfeit",
+   "sa": "–",
+   "sb": "–",
+   "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
+   "ph": "Playoffs –Upper Quarterfinals",
+   "ts": 1795486200000,
+   "url": "https://www.vlr.gg/793738/shopify-rebellion-black-vs-counterfeit-vct-2027-america-kickoff-north-america-qualifier-playoffs-ubqf"
+  },
+  {
+   "id": "793737",
+   "a": "ENVY",
+   "b": "Wildcard",
+   "sa": "–",
+   "sb": "–",
+   "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
+   "ph": "Playoffs –Upper Quarterfinals",
+   "ts": 1795486200000,
+   "url": "https://www.vlr.gg/793737/envy-vs-wildcard-vct-2027-america-kickoff-north-america-qualifier-playoffs-ubqf"
   },
   {
    "id": "790432",
@@ -3665,12 +3709,10 @@
   "MALAJUNTA": "",
   "KRÜ BLAZE": "https://owcdn.net/img/6704ad6a515a1.png",
   "fracasados ny": "",
-  "TROOPERS": "",
-  "Bonkers": "https://owcdn.net/img/645fbc5da4a21.png",
-  "Finishers": "https://owcdn.net/img/69d48940ee5bf.png",
-  "MeatZn": "",
-  "Mix My Miks": "https://owcdn.net/img/6aad435f0d90b.png",
-  "No Org No Problem": ""
+  "Cloud9": "https://owcdn.net/img/628addcbd509e.png",
+  "YFP": "https://owcdn.net/img/677826ad11d3b.png",
+  "Shopify Rebellion Black": "https://owcdn.net/img/679314c8ac387.png",
+  "ENVY": "https://owcdn.net/img/5f3ca822464a3.png"
  },
  "colors": {
   "Winthrop University": "#fbb310",
@@ -3690,9 +3732,10 @@
   "University War": "#bf0425",
   "9z Globant": "",
   "KRÜ BLAZE": "#d70f83",
-  "Bonkers": "#e0900e",
-  "Finishers": "#4e859b",
-  "Mix My Miks": "#911318"
+  "Cloud9": "#27afe5",
+  "YFP": "#1031e1",
+  "Shopify Rebellion Black": "",
+  "ENVY": ""
  },
  "agents": {
   "gekko": {
@@ -3820,9 +3863,7 @@
   "VCT 2027: America Kickoff - North America Qualifier Playoffs": "https://owcdn.net/img/640f5ab71dfbb.png",
   "VCT 2027: America Kickoff - Brazil Qualifier Playoffs": "https://owcdn.net/img/640f5ab71dfbb.png",
   "VCT 2027: America Kickoff - LATAM North Qualifier Playoffs": "https://owcdn.net/img/640f5ab71dfbb.png",
-  "VCT 2027: America Kickoff - LATAM South Qualifier Playoffs": "https://owcdn.net/img/640f5ab71dfbb.png",
-  "VCT 2027: Pacific Kickoff - Oceania Qualifier": "https://owcdn.net/img/640f5ae002674.png",
-  "VCT 2027: EMEA Kickoff - MENA Qualifier": "https://owcdn.net/img/65ab59620a233.png"
+  "VCT 2027: America Kickoff - LATAM South Qualifier Playoffs": "https://owcdn.net/img/640f5ab71dfbb.png"
  },
  "vct": "https://owcdn.net/img/640f5ab71dfbb.png",
  "br": {
@@ -3933,6 +3974,34 @@
    "b": "fracasados ny",
    "ev": "VCT 2027: America Kickoff - LATAM South Qualifier Playoffs",
    "ts": 1795469400000
+  },
+  {
+   "id": "793735",
+   "a": "Cloud9",
+   "b": "QoR",
+   "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
+   "ts": 1795486200000
+  },
+  {
+   "id": "793736",
+   "a": "YFP",
+   "b": "Oafs",
+   "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
+   "ts": 1795486200000
+  },
+  {
+   "id": "793738",
+   "a": "Shopify Rebellion Black",
+   "b": "counterfeit",
+   "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
+   "ts": 1795486200000
+  },
+  {
+   "id": "793737",
+   "a": "ENVY",
+   "b": "Wildcard",
+   "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
+   "ts": 1795486200000
   },
   {
    "id": "790432",
