@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T00:49:07.365Z",
+ "updated": "2026-11-23T00:50:45.964Z",
  "live": [
   {
    "id": "792040",
@@ -378,7 +378,7 @@
    "mp": [
     {
      "n": "Lotus",
-     "a": 3,
+     "a": 4,
      "b": 7,
      "st": "l"
     },
@@ -525,6 +525,10 @@
     [
      "b",
      "e"
+    ],
+    [
+     "a",
+     "e"
     ]
    ],
    "rdm": "Lotus"
@@ -615,7 +619,7 @@
    "id": "793239",
    "a": "STREAMER ARENA",
    "b": "Squirtle Rangers",
-   "sa": "0",
+   "sa": "1",
    "sb": "0",
    "ev": "VCT 2027: America Kickoff - LATAM North Qualifier Playoffs",
    "ph": "Swiss Stage–Round 2 (0-1)",
@@ -623,14 +627,16 @@
    "url": "https://www.vlr.gg/793239/streamer-arena-vs-squirtle-rangers-vct-2027-america-kickoff-latam-north-qualifier-playoffs-swiss-stage-r2-0-1",
    "mp": [
     {
+     "n": "Bind",
+     "a": 13,
+     "b": 4,
+     "st": "d"
+    },
+    {
      "n": "TBD",
      "a": 0,
      "b": 0,
      "st": "l"
-    },
-    {
-     "n": "TBD",
-     "st": "n"
     },
     {
      "n": "TBD",
