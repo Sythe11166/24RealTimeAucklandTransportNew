@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T01:47:36.246Z",
+ "updated": "2026-11-23T01:49:13.001Z",
  "live": [
   {
    "id": "793335",
@@ -150,11 +150,11 @@
     ],
     [
      "a",
-     "e"
+     "d"
     ],
     [
      "b",
-     "e"
+     "b"
     ],
     [
      "b",
@@ -4110,7 +4110,7 @@
   "u": "/event/3179/vct-2027-america-kickoff-north-america-qualifier-playoffs/swiss-stage",
   "rg": "Americas",
   "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-  "at": 1795398241152,
+  "at": 1795398551718,
   "r": [
    {
     "r": "Round 1 (0-0)",
@@ -4259,9 +4259,9 @@
      [
       "Oafs",
       "SaD Esports",
-      1,
+      2,
       0,
-      "l"
+      "d"
      ],
      [
       "Maryville University",
