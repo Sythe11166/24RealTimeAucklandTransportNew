@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T00:10:01.104Z",
+ "updated": "2026-11-23T00:11:42.748Z",
  "live": [
   {
    "id": "792040",
@@ -175,7 +175,7 @@
     {
      "n": "Bind",
      "a": 0,
-     "b": 0,
+     "b": 1,
      "st": "l"
     },
     {
@@ -230,45 +230,45 @@
     "a": [
      {
       "n": "stellar",
-      "ag": ""
+      "ag": "brimstone"
      },
      {
       "n": "bdog",
-      "ag": ""
+      "ag": "waylay"
      },
      {
       "n": "jakee",
-      "ag": ""
+      "ag": "viper"
      },
      {
       "n": "heartless",
-      "ag": ""
+      "ag": "skye"
      },
      {
       "n": "stunna",
-      "ag": ""
+      "ag": "raze"
      }
     ],
     "b": [
      {
       "n": "vita",
-      "ag": ""
+      "ag": "neon"
      },
      {
       "n": "welyy",
-      "ag": ""
+      "ag": "skye"
      },
      {
       "n": "Pa1nt",
-      "ag": ""
+      "ag": "hush"
      },
      {
       "n": "payne",
-      "ag": ""
+      "ag": "brimstone"
      },
      {
       "n": "zaj",
-      "ag": ""
+      "ag": "viper"
      }
     ]
    },
@@ -276,7 +276,14 @@
     "OAF",
     "SAD"
    ],
-   "nk": 1
+   "nk": 1,
+   "rd": [
+    [
+     "b",
+     "d"
+    ]
+   ],
+   "rdm": "Bind"
   }
  ],
  "upcoming": [
@@ -4608,7 +4615,7 @@
   "u": "/event/3183/vct-2027-america-kickoff-brazil-qualifier-playoffs/swiss-stage",
   "rg": "Americas",
   "ev": "VCT 2027: America Kickoff - Brazil Qualifier Playoffs",
-  "at": 1795392397979,
+  "at": 1795392701386,
   "r": [
    {
     "r": "Round 1 (0-0)",
