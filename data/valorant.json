@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-23T15:17:43.725Z",
+ "updated": "2026-11-23T15:20:53.827Z",
  "live": [
   {
    "id": "793796",
    "a": "ZEXAR ESPORTS",
    "b": "SIGN Esports",
    "sa": "0",
-   "sb": "0",
+   "sb": "1",
    "ev": "VCT 2027: Pacific Kickoff - South Asia Qualifier",
    "ph": "Playoffs–Upper Quarterfinals",
    "ts": 1795442400000,
@@ -14,13 +14,15 @@
    "mp": [
     {
      "n": "Sunset",
-     "a": 0,
-     "b": 0,
-     "st": "l"
+     "a": 5,
+     "b": 13,
+     "st": "d"
     },
     {
      "n": "Corrode",
-     "st": "n"
+     "a": 0,
+     "b": 0,
+     "st": "l"
     },
     {
      "n": "Haven",
