@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T00:35:31.300Z",
+ "updated": "2026-11-23T00:37:10.513Z",
  "live": [
   {
    "id": "792040",
@@ -178,7 +178,7 @@
    "mp": [
     {
      "n": "Bind",
-     "a": 9,
+     "a": 10,
      "b": 6,
      "st": "l"
     },
@@ -341,6 +341,10 @@
     [
      "b",
      "e"
+    ],
+    [
+     "a",
+     "e"
     ]
    ],
    "rdm": "Bind"
@@ -359,7 +363,7 @@
     {
      "n": "Lotus",
      "a": 3,
-     "b": 1,
+     "b": 2,
      "st": "l"
     },
     {
@@ -481,6 +485,10 @@
     [
      "a",
      "t"
+    ],
+    [
+     "b",
+     "e"
     ]
    ],
    "rdm": "Lotus"
@@ -4945,7 +4953,7 @@
   "u": "/event/3183/vct-2027-america-kickoff-brazil-qualifier-playoffs/swiss-stage",
   "rg": "Americas",
   "ev": "VCT 2027: America Kickoff - Brazil Qualifier Playoffs",
-  "at": 1795393933906,
+  "at": 1795394229225,
   "r": [
    {
     "r": "Round 1 (0-0)",
@@ -5094,7 +5102,7 @@
      [
       "BRASIL2002",
       "ARRANCA DREAMS",
-      0,
+      1,
       0,
       "l"
      ],
