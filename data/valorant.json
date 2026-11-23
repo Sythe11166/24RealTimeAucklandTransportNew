@@ -1,25 +1,92 @@
 {
- "updated": "2026-11-23T14:29:00.642Z",
- "live": [],
- "upcoming": [
+ "updated": "2026-11-23T14:30:42.147Z",
+ "live": [
   {
    "id": "793796",
    "a": "ZEXAR ESPORTS",
    "b": "SIGN Esports",
-   "sa": "–",
-   "sb": "–",
+   "sa": "0",
+   "sb": "0",
    "ev": "VCT 2027: Pacific Kickoff - South Asia Qualifier",
    "ph": "Playoffs–Upper Quarterfinals",
-   "ts": 1795444200000,
+   "ts": 1795442400000,
    "url": "https://www.vlr.gg/793796/zexar-esports-vs-sign-esports-vct-2027-pacific-kickoff-south-asia-qualifier-ubqf",
+   "mp": [
+    {
+     "n": "TBD",
+     "a": 0,
+     "b": 0,
+     "st": "l"
+    },
+    {
+     "n": "TBD",
+     "st": "n"
+    },
+    {
+     "n": "TBD",
+     "st": "n"
+    }
+   ],
+   "evu": "/event/3206/vct-2027-pacific-kickoff-south-asia-qualifier/playoffs",
+   "bo": "3",
    "h2h": {
     "a": 0,
     "b": 1
    },
-   "bo": "3",
-   "evu": "/event/3206/vct-2027-pacific-kickoff-south-asia-qualifier/playoffs",
-   "fz": 1
-  },
+   "pl": {
+    "a": [
+     {
+      "n": "BlooDy13",
+      "ag": ""
+     },
+     {
+      "n": "OBITO",
+      "ag": ""
+     },
+     {
+      "n": "GhostyXD",
+      "ag": ""
+     },
+     {
+      "n": "fluxx",
+      "ag": ""
+     },
+     {
+      "n": "howaboutn0",
+      "ag": ""
+     }
+    ],
+    "b": [
+     {
+      "n": "Russ",
+      "ag": ""
+     },
+     {
+      "n": "Deadly10",
+      "ag": ""
+     },
+     {
+      "n": "tricky",
+      "ag": ""
+     },
+     {
+      "n": "Yuvi",
+      "ag": ""
+     },
+     {
+      "n": "Garv",
+      "ag": ""
+     }
+    ]
+   },
+   "tg": [
+    "ZXR",
+    "SGN"
+   ],
+   "nk": 1
+  }
+ ],
+ "upcoming": [
   {
    "id": "793563",
    "a": "University War",
@@ -57,7 +124,10 @@
    "ev": "VCT 2027: America Kickoff - LATAM South Qualifier Playoffs",
    "ph": "Swiss Stage–Round 2 (0-1)",
    "ts": 1795469400000,
-   "url": "https://www.vlr.gg/793565/9z-globant-vs-malajunta-vct-2027-america-kickoff-latam-south-qualifier-playoffs-r2-0-1"
+   "url": "https://www.vlr.gg/793565/9z-globant-vs-malajunta-vct-2027-america-kickoff-latam-south-qualifier-playoffs-r2-0-1",
+   "bo": "3",
+   "evu": "/event/3185/vct-2027-america-kickoff-latam-south-qualifier-playoffs/swiss-stage",
+   "fz": 1
   },
   {
    "id": "793566",
@@ -111,7 +181,7 @@
    "sb": "–",
    "ev": "VCT 2027: EMEA Kickoff - Türkiye Qualifier",
    "ph": "Playoffs–Opening (A)",
-   "ts": 1795541400000,
+   "ts": 1795537800000,
    "url": "https://www.vlr.gg/793634/fire-flux-esports-vs-trigon-titans-vct-2027-emea-kickoff-t-rkiye-qualifier-playoffs-opening-a"
   },
   {
@@ -146,35 +216,20 @@
    "ph": "Playoffs–Upper Semifinals",
    "ts": 1795591800000,
    "url": "https://www.vlr.gg/790432/troopers-vs-bonkers-vct-2027-pacific-kickoff-oceania-qualifier-ubsf"
+  },
+  {
+   "id": "790433",
+   "a": "Finishers",
+   "b": "MeatZn",
+   "sa": "–",
+   "sb": "–",
+   "ev": "VCT 2027: Pacific Kickoff - Oceania Qualifier",
+   "ph": "Playoffs–Upper Semifinals",
+   "ts": 1795591800000,
+   "url": "https://www.vlr.gg/790433/finishers-vs-meatzn-vct-2027-pacific-kickoff-oceania-qualifier-ubsf"
   }
  ],
  "results": [
-  {
-   "id": "793796",
-   "a": "ZEXAR ESPORTS",
-   "b": "SIGN Esports",
-   "sa": "0",
-   "sb": "0",
-   "ev": "VCT 2027: Pacific Kickoff - South Asia Qualifier",
-   "ph": "Playoffs–Upper Quarterfinals",
-   "ts": 1795442400000,
-   "et": 1795442550258,
-   "url": "https://www.vlr.gg/793796/zexar-esports-vs-sign-esports-vct-2027-pacific-kickoff-south-asia-qualifier-ubqf",
-   "g": 1,
-   "mp": [
-    {
-     "n": "TBD",
-     "a": 0,
-     "b": 0
-    }
-   ],
-   "h2h": {
-    "a": 0,
-    "b": 1
-   },
-   "bo": "3",
-   "smt": 1795443754657
-  },
   {
    "id": "793795",
    "a": "GodLike Esports",
@@ -3307,6 +3362,424 @@
     "FUE",
     "505"
    ]
+  },
+  {
+   "id": "793333",
+   "a": "counterfeit",
+   "b": "FlyQuest",
+   "sa": "2",
+   "sb": "0",
+   "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
+   "ph": "Swiss Stage–Round 3 (1-1)",
+   "ts": 1795384800000,
+   "url": "https://www.vlr.gg/793333/counterfeit-vs-flyquest-vct-2027-america-kickoff-north-america-qualifier-playoffs-r3-1-1",
+   "mp": [
+    {
+     "n": "Sunset",
+     "a": 13,
+     "b": 11
+    },
+    {
+     "n": "Corrode",
+     "a": 13,
+     "b": 10
+    }
+   ],
+   "sm": [
+    {
+     "n": "Sunset",
+     "a": 13,
+     "b": 11,
+     "pa": [
+      {
+       "n": "Zamal",
+       "k": 22,
+       "d": 16,
+       "a": 6,
+       "ag": "neon"
+      },
+      {
+       "n": "Dark3st",
+       "k": 20,
+       "d": 20,
+       "a": 6,
+       "ag": "sova"
+      },
+      {
+       "n": "Zoestol",
+       "k": 16,
+       "d": 17,
+       "a": 10,
+       "ag": "omen"
+      },
+      {
+       "n": "om3y",
+       "k": 15,
+       "d": 17,
+       "a": 4,
+       "ag": "chamber"
+      },
+      {
+       "n": "cuz",
+       "k": 11,
+       "d": 19,
+       "a": 5,
+       "ag": "sage"
+      }
+     ],
+     "pb": [
+      {
+       "n": "sorex",
+       "k": 20,
+       "d": 12,
+       "a": 5,
+       "ag": "cypher"
+      },
+      {
+       "n": "sacred",
+       "k": 19,
+       "d": 19,
+       "a": 8,
+       "ag": "omen"
+      },
+      {
+       "n": "solada",
+       "k": 19,
+       "d": 19,
+       "a": 5,
+       "ag": "hush"
+      },
+      {
+       "n": "tonza",
+       "k": 17,
+       "d": 17,
+       "a": 5,
+       "ag": "neon"
+      },
+      {
+       "n": "Kess",
+       "k": 14,
+       "d": 17,
+       "a": 11,
+       "ag": "sova"
+      }
+     ],
+     "rd": [
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "d"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "b"
+      ],
+      [
+       "b",
+       "t"
+      ],
+      [
+       "b",
+       "d"
+      ],
+      [
+       "a",
+       "b"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "d"
+      ],
+      [
+       "a",
+       "b"
+      ],
+      [
+       "b",
+       "d"
+      ],
+      [
+       "a",
+       "d"
+      ],
+      [
+       "a",
+       "d"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "a",
+       "d"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "b",
+       "b"
+      ],
+      [
+       "a",
+       "d"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "a",
+       "t"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ]
+     ]
+    },
+    {
+     "n": "Corrode",
+     "a": 13,
+     "b": 10,
+     "pa": [
+      {
+       "n": "om3y",
+       "k": 22,
+       "d": 14,
+       "a": 3,
+       "ag": "vyse"
+      },
+      {
+       "n": "cuz",
+       "k": 17,
+       "d": 16,
+       "a": 8,
+       "ag": "fade"
+      },
+      {
+       "n": "Dark3st",
+       "k": 17,
+       "d": 18,
+       "a": 6,
+       "ag": "viper"
+      },
+      {
+       "n": "Zamal",
+       "k": 14,
+       "d": 19,
+       "a": 10,
+       "ag": "waylay"
+      },
+      {
+       "n": "Zoestol",
+       "k": 11,
+       "d": 14,
+       "a": 10,
+       "ag": "omen"
+      }
+     ],
+     "pb": [
+      {
+       "n": "Kess",
+       "k": 19,
+       "d": 16,
+       "a": 6,
+       "ag": "fade"
+      },
+      {
+       "n": "tonza",
+       "k": 19,
+       "d": 17,
+       "a": 4,
+       "ag": "waylay"
+      },
+      {
+       "n": "sorex",
+       "k": 16,
+       "d": 14,
+       "a": 7,
+       "ag": "viper"
+      },
+      {
+       "n": "solada",
+       "k": 15,
+       "d": 18,
+       "a": 10,
+       "ag": "hush"
+      },
+      {
+       "n": "sacred",
+       "k": 12,
+       "d": 16,
+       "a": 4,
+       "ag": "omen"
+      }
+     ],
+     "rd": [
+      [
+       "a",
+       "d"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "a",
+       "d"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "d"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "b"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "b",
+       "d"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ]
+     ]
+    }
+   ],
+   "tg": [
+    "FAKE",
+    "FLY"
+   ],
+   "vt": [
+    [
+     "x",
+     "FAKE",
+     "Abyss"
+    ],
+    [
+     "x",
+     "FLY",
+     "Bind"
+    ],
+    [
+     "p",
+     "FAKE",
+     "Sunset"
+    ],
+    [
+     "p",
+     "FLY",
+     "Corrode"
+    ],
+    [
+     "x",
+     "FAKE",
+     "Lotus"
+    ],
+    [
+     "x",
+     "FLY",
+     "Haven"
+    ],
+    [
+     "d",
+     "",
+     "Summit"
+    ]
+   ],
+   "bo": "3",
+   "smt": 1795444234859
   }
  ],
  "news": [
@@ -3379,7 +3852,11 @@
   "Kryon Esports": "https://owcdn.net/img/6a82a3d1c3505.png",
   "RANKERS": "",
   "Eternal Fire": "https://owcdn.net/img/6628980dcdaea.png",
-  "Misa Esports": "https://owcdn.net/img/6887b1d2edd20.png"
+  "Misa Esports": "https://owcdn.net/img/6887b1d2edd20.png",
+  "Fire Flux Esports": "https://owcdn.net/img/68e6e1bcca45d.png",
+  "Trigon Titans": "https://owcdn.net/img/6afa21f3b97d6.png",
+  "counterfeit": "https://owcdn.net/img/6aff29b4d9f7b.png",
+  "FlyQuest": "https://owcdn.net/img/69cac541ed59b.png"
  },
  "colors": {
   "Oafs": "",
@@ -3401,7 +3878,11 @@
   "GOC Esports": "#5d5193",
   "Kryon Esports": "#f73034",
   "Eternal Fire": "#988966",
-  "Misa Esports": ""
+  "Misa Esports": "",
+  "Fire Flux Esports": "#18d7f5",
+  "Trigon Titans": "",
+  "counterfeit": "#957226",
+  "FlyQuest": "#02814b"
  },
  "agents": {
   "gekko": {
@@ -3538,7 +4019,7 @@
   "u": "/event/3185/vct-2027-america-kickoff-latam-south-qualifier-playoffs/swiss-stage",
   "rg": "Americas",
   "ev": "VCT 2027: America Kickoff - LATAM South Qualifier Playoffs",
-  "at": 1795442356031,
+  "at": 1795444238005,
   "r": [
    {
     "r": "Round 1 (0-0)",
@@ -3616,13 +4097,6 @@
  },
  "fu": [
   {
-   "id": "793796",
-   "a": "ZEXAR ESPORTS",
-   "b": "SIGN Esports",
-   "ev": "VCT 2027: Pacific Kickoff - South Asia Qualifier",
-   "ts": 1795444200000
-  },
-  {
    "id": "793563",
    "a": "University War",
    "b": "ARG.MIX",
@@ -3676,7 +4150,7 @@
    "a": "Fire Flux Esports",
    "b": "Trigon Titans",
    "ev": "VCT 2027: EMEA Kickoff - Türkiye Qualifier",
-   "ts": 1795541400000
+   "ts": 1795537800000
   },
   {
    "id": "793767",
@@ -3711,14 +4185,14 @@
    "a": "Beşiktaş Esports",
    "b": "Galatasaray Esports",
    "ev": "VCT 2027: EMEA Kickoff - Türkiye Qualifier",
-   "ts": 1795617000000
+   "ts": 1795613400000
   },
   {
    "id": "793638",
    "a": "PCIFIC Esports",
    "b": "team apanthe",
    "ev": "VCT 2027: EMEA Kickoff - Türkiye Qualifier",
-   "ts": 1795627800000
+   "ts": 1795624200000
   },
   {
    "id": "792042",
@@ -3856,7 +4330,7 @@
    "sa": "0",
    "sb": "2",
    "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ts": 1795314600000
+   "ts": 1795311000000
   },
   {
    "id": "792908",
@@ -3946,7 +4420,7 @@
    "sa": "2",
    "sb": "1",
    "ev": "VCT 2027: EMEA Kickoff - MENA Qualifier",
-   "ts": 1795289400000
+   "ts": 1795285800000
   },
   {
    "id": "792550",
@@ -3964,7 +4438,7 @@
    "sa": "0",
    "sb": "2",
    "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ts": 1795228200000
+   "ts": 1795224600000
   },
   {
    "id": "791683",
@@ -3973,7 +4447,7 @@
    "sa": "2",
    "sb": "1",
    "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ts": 1795224600000
+   "ts": 1795221000000
   },
   {
    "id": "791684",
