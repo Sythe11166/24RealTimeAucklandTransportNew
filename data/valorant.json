@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T12:04:52.429Z",
+ "updated": "2026-11-23T12:06:28.165Z",
  "live": [
   {
    "id": "793795",
@@ -13,22 +13,59 @@
    "url": "https://www.vlr.gg/793795/godlike-esports-vs-trigger-point-esports-vct-2027-pacific-kickoff-south-asia-qualifier-ubqf",
    "mp": [
     {
-     "n": "TBD",
+     "n": "Lotus",
      "a": 0,
      "b": 0,
      "st": "l"
     },
     {
-     "n": "TBD",
+     "n": "Bind",
      "st": "n"
     },
     {
-     "n": "TBD",
+     "n": "Haven",
      "st": "n"
     }
    ],
    "evu": "/event/3206/vct-2027-pacific-kickoff-south-asia-qualifier/playoffs",
    "bo": "3",
+   "vt": [
+    [
+     "x",
+     "TPE",
+     "Abyss"
+    ],
+    [
+     "x",
+     "GDL",
+     "Sunset"
+    ],
+    [
+     "p",
+     "TPE",
+     "Lotus"
+    ],
+    [
+     "p",
+     "GDL",
+     "Bind"
+    ],
+    [
+     "x",
+     "TPE",
+     "Summit"
+    ],
+    [
+     "x",
+     "GDL",
+     "Corrode"
+    ],
+    [
+     "d",
+     "",
+     "Haven"
+    ]
+   ],
    "pl": {
     "a": [
      {
@@ -3748,10 +3785,6 @@
      ]
     }
    ],
-   "tg": [
-    "WC",
-    "WU"
-   ],
    "vt": [
     [
      "x",
@@ -3794,7 +3827,11 @@
     "b": 1
    },
    "bo": "3",
-   "smt": 1795435488641
+   "smt": 1795435488641,
+   "tg": [
+    "WC",
+    "WU"
+   ]
   }
  ],
  "news": [
@@ -4034,7 +4071,7 @@
   "u": "/event/3185/vct-2027-america-kickoff-latam-south-qualifier-playoffs/swiss-stage",
   "rg": "Americas",
   "ev": "VCT 2027: America Kickoff - LATAM South Qualifier Playoffs",
-  "at": 1795435296231,
+  "at": 1795435586878,
   "r": [
    {
     "r": "Round 1 (0-0)",
