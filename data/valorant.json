@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T12:09:37.948Z",
+ "updated": "2026-11-23T12:11:33.676Z",
  "live": [
   {
    "id": "793795",
@@ -196,7 +196,7 @@
    "sb": "–",
    "ev": "VCT 2027: Pacific Kickoff - South Asia Qualifier",
    "ph": "Playoffs–Upper Quarterfinals",
-   "ts": 1795521600000,
+   "ts": 1795512600000,
    "url": "https://www.vlr.gg/793797/revenant-xspark-vs-goc-esports-vct-2027-pacific-kickoff-south-asia-qualifier-ubqf"
   },
   {
@@ -207,7 +207,7 @@
    "sb": "–",
    "ev": "VCT 2027: Pacific Kickoff - South Asia Qualifier",
    "ph": "Playoffs–Upper Quarterfinals",
-   "ts": 1795525800000,
+   "ts": 1795522200000,
    "url": "https://www.vlr.gg/793798/kryon-esports-vs-rankers-vct-2027-pacific-kickoff-south-asia-qualifier-ubqf"
   },
   {
@@ -4071,7 +4071,7 @@
   "u": "/event/3185/vct-2027-america-kickoff-latam-south-qualifier-playoffs/swiss-stage",
   "rg": "Americas",
   "ev": "VCT 2027: America Kickoff - LATAM South Qualifier Playoffs",
-  "at": 1795435586878,
+  "at": 1795435892362,
   "r": [
    {
     "r": "Round 1 (0-0)",
@@ -4188,14 +4188,14 @@
    "a": "Revenant XSpark",
    "b": "GOC Esports",
    "ev": "VCT 2027: Pacific Kickoff - South Asia Qualifier",
-   "ts": 1795521600000
+   "ts": 1795512600000
   },
   {
    "id": "793798",
    "a": "Kryon Esports",
    "b": "RANKERS",
    "ev": "VCT 2027: Pacific Kickoff - South Asia Qualifier",
-   "ts": 1795525800000
+   "ts": 1795522200000
   },
   {
    "id": "793633",
