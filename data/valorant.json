@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T01:20:48.065Z",
+ "updated": "2026-11-23T01:22:27.098Z",
  "live": [
   {
    "id": "792040",
@@ -964,13 +964,13 @@
      ]
     }
    ],
+   "bo": "3",
+   "smt": 1795396845538,
+   "et": 1795396846740,
    "tg": [
     "Mafia",
     "171"
-   ],
-   "bo": "3",
-   "smt": 1795396845538,
-   "et": 1795396846740
+   ]
   },
   {
    "id": "793236",
@@ -4628,7 +4628,7 @@
   "u": "/event/3183/vct-2027-america-kickoff-brazil-qualifier-playoffs/swiss-stage",
   "rg": "Americas",
   "ev": "VCT 2027: America Kickoff - Brazil Qualifier Playoffs",
-  "at": 1795396649267,
+  "at": 1795396945799,
   "r": [
    {
     "r": "Round 1 (0-0)",
@@ -4784,9 +4784,9 @@
      [
       "Mafiosos",
       "Master Bank",
-      1,
+      2,
       0,
-      "l"
+      "d"
      ]
     ]
    },
