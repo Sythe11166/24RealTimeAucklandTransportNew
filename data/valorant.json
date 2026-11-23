@@ -1,88 +1,6 @@
 {
- "updated": "2026-11-23T01:27:45.271Z",
+ "updated": "2026-11-23T01:29:25.170Z",
  "live": [
-  {
-   "id": "792040",
-   "a": "BRASIL2002",
-   "b": "ARRANCA DREAMS",
-   "sa": "1",
-   "sb": "0",
-   "ev": "VCT 2027: America Kickoff - Brazil Qualifier Playoffs",
-   "ph": "Swiss Stage–Round 3 (1-1)",
-   "ts": 1795388400000,
-   "url": "https://www.vlr.gg/792040/brasil2002-vs-arranca-dreams-vct-2027-america-kickoff-brazil-qualifier-playoffs-swiss-stage-r3-1-1",
-   "mp": [
-    {
-     "n": "Abyss",
-     "a": 15,
-     "b": 13,
-     "st": "d"
-    },
-    {
-     "n": "TBD",
-     "a": 0,
-     "b": 0,
-     "st": "l"
-    },
-    {
-     "n": "TBD",
-     "st": "n"
-    }
-   ],
-   "evu": "/event/3183/vct-2027-america-kickoff-brazil-qualifier-playoffs/swiss-stage",
-   "bo": "3",
-   "pl": {
-    "a": [
-     {
-      "n": "pryze",
-      "ag": ""
-     },
-     {
-      "n": "silentzz",
-      "ag": ""
-     },
-     {
-      "n": "lz",
-      "ag": ""
-     },
-     {
-      "n": "pollo",
-      "ag": ""
-     },
-     {
-      "n": "chubizin",
-      "ag": ""
-     }
-    ],
-    "b": [
-     {
-      "n": "lucks",
-      "ag": ""
-     },
-     {
-      "n": "kwn",
-      "ag": ""
-     },
-     {
-      "n": "Loweed",
-      "ag": ""
-     },
-     {
-      "n": "mixyce",
-      "ag": ""
-     },
-     {
-      "n": "duhT",
-      "ag": ""
-     }
-    ]
-   },
-   "tg": [
-    "BRA2002",
-    "ARRA"
-   ],
-   "nk": 1
-  },
   {
    "id": "793336",
    "a": "Oafs",
@@ -103,7 +21,7 @@
     {
      "n": "Lotus",
      "a": 8,
-     "b": 1,
+     "b": 2,
      "st": "l"
     },
     {
@@ -236,6 +154,10 @@
     ],
     [
      "a",
+     "d"
+    ],
+    [
+     "b",
      "e"
     ]
    ],
@@ -261,7 +183,7 @@
     {
      "n": "Summit",
      "a": 0,
-     "b": 0,
+     "b": 1,
      "st": "l"
     },
     {
@@ -362,7 +284,14 @@
     "MU",
     "QOR"
    ],
-   "nk": 1
+   "nk": 1,
+   "rd": [
+    [
+     "b",
+     "e"
+    ]
+   ],
+   "rdm": "Summit"
   },
   {
    "id": "793238",
@@ -618,6 +547,376 @@
   }
  ],
  "results": [
+  {
+   "id": "792040",
+   "a": "BRASIL2002",
+   "b": "ARRANCA DREAMS",
+   "sa": "2",
+   "sb": "0",
+   "ev": "VCT 2027: America Kickoff - Brazil Qualifier Playoffs",
+   "ph": "Swiss Stage–Round 3 (1-1)",
+   "ts": 1795388400000,
+   "url": "https://www.vlr.gg/792040/brasil2002-vs-arranca-dreams-vct-2027-america-kickoff-brazil-qualifier-playoffs-swiss-stage-r3-1-1",
+   "mp": [
+    {
+     "n": "Abyss",
+     "a": 15,
+     "b": 13
+    },
+    {
+     "n": "Lotus",
+     "a": 13,
+     "b": 3
+    }
+   ],
+   "sm": [
+    {
+     "n": "Abyss",
+     "a": 15,
+     "b": 13,
+     "pa": [
+      {
+       "n": "chubizin",
+       "k": 26,
+       "d": 18,
+       "a": 9,
+       "ag": "harbor"
+      },
+      {
+       "n": "pollo",
+       "k": 22,
+       "d": 21,
+       "a": 6,
+       "ag": "yoru"
+      },
+      {
+       "n": "lz",
+       "k": 18,
+       "d": 16,
+       "a": 10,
+       "ag": "astra"
+      },
+      {
+       "n": "pryze",
+       "k": 16,
+       "d": 22,
+       "a": 8,
+       "ag": "sova"
+      },
+      {
+       "n": "silentzz",
+       "k": 9,
+       "d": 25,
+       "a": 9,
+       "ag": "hush"
+      }
+     ],
+     "pb": [
+      {
+       "n": "Loweed",
+       "k": 28,
+       "d": 19,
+       "a": 9,
+       "ag": "hush"
+      },
+      {
+       "n": "duhT",
+       "k": 21,
+       "d": 17,
+       "a": 10,
+       "ag": "sova"
+      },
+      {
+       "n": "lucks",
+       "k": 21,
+       "d": 18,
+       "a": 14,
+       "ag": "omen"
+      },
+      {
+       "n": "mixyce",
+       "k": 17,
+       "d": 21,
+       "a": 3,
+       "ag": "waylay"
+      },
+      {
+       "n": "kwn",
+       "k": 14,
+       "d": 16,
+       "a": 12,
+       "ag": "harbor"
+      }
+     ],
+     "rd": [
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "b"
+      ],
+      [
+       "a",
+       "d"
+      ],
+      [
+       "a",
+       "d"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "d"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "d"
+      ],
+      [
+       "b",
+       "d"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "b",
+       "t"
+      ],
+      [
+       "a",
+       "b"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "b",
+       "d"
+      ],
+      [
+       "b",
+       "d"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "b"
+      ],
+      [
+       "a",
+       "b"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "d"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "a",
+       "d"
+      ],
+      [
+       "a",
+       "e"
+      ]
+     ]
+    },
+    {
+     "n": "Lotus",
+     "a": 13,
+     "b": 3,
+     "pa": [
+      {
+       "n": "silentzz",
+       "k": 18,
+       "d": 14,
+       "a": 6,
+       "ag": "hush"
+      },
+      {
+       "n": "pryze",
+       "k": 15,
+       "d": 6,
+       "a": 10,
+       "ag": "fade"
+      },
+      {
+       "n": "pollo",
+       "k": 15,
+       "d": 10,
+       "a": 2,
+       "ag": "chamber"
+      },
+      {
+       "n": "lz",
+       "k": 13,
+       "d": 6,
+       "a": 14,
+       "ag": "omen"
+      },
+      {
+       "n": "chubizin",
+       "k": 12,
+       "d": 8,
+       "a": 9,
+       "ag": "viper"
+      }
+     ],
+     "pb": [
+      {
+       "n": "lucks",
+       "k": 11,
+       "d": 16,
+       "a": 3,
+       "ag": "viper"
+      },
+      {
+       "n": "mixyce",
+       "k": 10,
+       "d": 15,
+       "a": 3,
+       "ag": "omen"
+      },
+      {
+       "n": "duhT",
+       "k": 9,
+       "d": 14,
+       "a": 4,
+       "ag": "raze"
+      },
+      {
+       "n": "kwn",
+       "k": 7,
+       "d": 14,
+       "a": 7,
+       "ag": "fade"
+      },
+      {
+       "n": "Loweed",
+       "k": 7,
+       "d": 14,
+       "a": 1,
+       "ag": "hush"
+      }
+     ],
+     "rd": [
+      [
+       "a",
+       "d"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "t"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "d"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "d"
+      ],
+      [
+       "a",
+       "d"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ]
+     ]
+    }
+   ],
+   "tg": [
+    "BRA2002",
+    "ARRA"
+   ],
+   "bo": "3",
+   "smt": 1795397361713,
+   "et": 1795397362913
+  },
   {
    "id": "792041",
    "a": "Mafiosos",
@@ -3995,412 +4294,6 @@
     "MC",
     "FAKE"
    ]
-  },
-  {
-   "id": "792908",
-   "a": "Cloud9",
-   "b": "Maryville University",
-   "sa": "2",
-   "sb": "0",
-   "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ph": "Swiss Stage–Round 2 (1-0)",
-   "ts": 1795311000000,
-   "url": "https://www.vlr.gg/792908/cloud9-vs-maryville-university-vct-2027-america-kickoff-north-america-qualifier-playoffs-r2-1-0",
-   "mp": [
-    {
-     "n": "Sunset",
-     "a": 14,
-     "b": 12
-    },
-    {
-     "n": "Haven",
-     "a": 13,
-     "b": 5
-    }
-   ],
-   "sm": [
-    {
-     "n": "Sunset",
-     "a": 14,
-     "b": 12,
-     "pa": [
-      {
-       "n": "alym",
-       "k": 25,
-       "d": 18,
-       "a": 9,
-       "ag": "neon"
-      },
-      {
-       "n": "nightz",
-       "k": 22,
-       "d": 15,
-       "a": 9,
-       "ag": "omen"
-      },
-      {
-       "n": "FireBallOps",
-       "k": 20,
-       "d": 17,
-       "a": 0,
-       "ag": "chamber"
-      },
-      {
-       "n": "GLYPH",
-       "k": 15,
-       "d": 19,
-       "a": 12,
-       "ag": "sage"
-      },
-      {
-       "n": "Derrek",
-       "k": 13,
-       "d": 19,
-       "a": 6,
-       "ag": "fade"
-      }
-     ],
-     "pb": [
-      {
-       "n": "Boomy",
-       "k": 26,
-       "d": 21,
-       "a": 6,
-       "ag": "neon"
-      },
-      {
-       "n": "Shondex",
-       "k": 18,
-       "d": 20,
-       "a": 1,
-       "ag": "chamber"
-      },
-      {
-       "n": "geeza",
-       "k": 15,
-       "d": 17,
-       "a": 2,
-       "ag": "sova"
-      },
-      {
-       "n": "renz",
-       "k": 15,
-       "d": 18,
-       "a": 12,
-       "ag": "sage"
-      },
-      {
-       "n": "Ange",
-       "k": 14,
-       "d": 19,
-       "a": 13,
-       "ag": "omen"
-      }
-     ],
-     "rd": [
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "b"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "b"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "d"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "a",
-       "b"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "a",
-       "t"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "a",
-       "d"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ]
-     ]
-    },
-    {
-     "n": "Haven",
-     "a": 13,
-     "b": 5,
-     "pa": [
-      {
-       "n": "nightz",
-       "k": 19,
-       "d": 10,
-       "a": 11,
-       "ag": "phoenix"
-      },
-      {
-       "n": "GLYPH",
-       "k": 15,
-       "d": 8,
-       "a": 9,
-       "ag": "omen"
-      },
-      {
-       "n": "FireBallOps",
-       "k": 15,
-       "d": 9,
-       "a": 6,
-       "ag": "cypher"
-      },
-      {
-       "n": "Derrek",
-       "k": 10,
-       "d": 11,
-       "a": 11,
-       "ag": "sova"
-      },
-      {
-       "n": "alym",
-       "k": 7,
-       "d": 12,
-       "a": 7,
-       "ag": "neon"
-      }
-     ],
-     "pb": [
-      {
-       "n": "Shondex",
-       "k": 14,
-       "d": 12,
-       "a": 2,
-       "ag": "cypher"
-      },
-      {
-       "n": "Ange",
-       "k": 10,
-       "d": 11,
-       "a": 8,
-       "ag": "omen"
-      },
-      {
-       "n": "renz",
-       "k": 10,
-       "d": 15,
-       "a": 7,
-       "ag": "phoenix"
-      },
-      {
-       "n": "Boomy",
-       "k": 10,
-       "d": 15,
-       "a": 2,
-       "ag": "neon"
-      },
-      {
-       "n": "geeza",
-       "k": 6,
-       "d": 13,
-       "a": 9,
-       "ag": "sova"
-      }
-     ],
-     "rd": [
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "b"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "b"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "a",
-       "d"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ]
-     ]
-    }
-   ],
-   "vt": [
-    [
-     "x",
-     "C9",
-     "Bind"
-    ],
-    [
-     "x",
-     "MU",
-     "Abyss"
-    ],
-    [
-     "p",
-     "C9",
-     "Sunset"
-    ],
-    [
-     "p",
-     "MU",
-     "Haven"
-    ],
-    [
-     "x",
-     "C9",
-     "Corrode"
-    ],
-    [
-     "x",
-     "MU",
-     "Lotus"
-    ],
-    [
-     "d",
-     "",
-     "Summit"
-    ]
-   ],
-   "bo": "3",
-   "smt": 1795322473476,
-   "tg": [
-    "C9",
-    "MU"
-   ]
   }
  ],
  "news": [
@@ -4449,7 +4342,6 @@
   "SaD Esports": "https://owcdn.net/img/6528e9505cb61.png",
   "Next": "",
   "Oafs": "https://owcdn.net/img/6aefe353142fe.png",
-  "Cloud9": "https://owcdn.net/img/628addcbd509e.png",
   "counterfeit": "https://owcdn.net/img/6aff29b4d9f7b.png",
   "FlyQuest": "https://owcdn.net/img/69cac541ed59b.png",
   "Wildcard": "https://owcdn.net/img/6afb9b586bdab.png",
@@ -4486,7 +4378,6 @@
  "colors": {
   "Winthrop University": "#fbb310",
   "Oafs": "",
-  "Cloud9": "#27afe5",
   "Maryville University": "#a9171c",
   "Masterclass": "",
   "counterfeit": "#957226",
@@ -4641,66 +4532,66 @@
  },
  "vct": "https://owcdn.net/img/640f5ab71dfbb.png",
  "br": {
-  "u": "/event/3183/vct-2027-america-kickoff-brazil-qualifier-playoffs/swiss-stage",
+  "u": "/event/3179/vct-2027-america-kickoff-north-america-qualifier-playoffs/swiss-stage",
   "rg": "Americas",
-  "ev": "VCT 2027: America Kickoff - Brazil Qualifier Playoffs",
-  "at": 1795397263963,
+  "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
+  "at": 1795397363867,
   "r": [
    {
     "r": "Round 1 (0-0)",
     "m": [
      [
-      "Fluxo W7M",
-      "0 intelecto",
+      "Cloud9",
+      "counterfeit",
       2,
       0,
       "d"
      ],
      [
-      "2Game Esports",
-      "Master Bank",
+      "ENVY",
+      "Yellow Dragon Gaming",
       2,
       0,
       "d"
      ],
      [
-      "Team Solid",
-      "ARRANCA DREAMS",
+      "YFP",
+      "Wildcard",
       2,
       1,
       "d"
      ],
      [
-      "Next",
-      "SÓ TEM VELHO",
+      "QoR",
+      "Oafs",
       0,
       2,
       "d"
      ],
      [
-      "ELEVATE",
-      "Piranhas do Caribe",
+      "Shopify Rebellion Black",
+      "Xora Esports",
       2,
       0,
       "d"
      ],
      [
-      "Manticore",
-      "Arashi",
-      2,
+      "Shopify Rebellion Gold",
+      "Maryville University",
       0,
+      2,
       "d"
      ],
      [
-      "BRASIL2002",
-      "TIME DO B3M",
+      "FlyQuest",
+      "Masterclass",
       2,
       1,
       "d"
      ],
      [
-      "GANGUE",
-      "Mafiosos",
+      "SaD Esports",
+      "Winthrop University",
       0,
       2,
       "d"
@@ -4711,31 +4602,31 @@
     "r": "Round 2 (1-0)",
     "m": [
      [
-      "2Game Esports",
-      "BRASIL2002",
-      2,
-      1,
-      "d"
-     ],
-     [
-      "ELEVATE",
-      "Team Solid",
-      1,
-      2,
-      "d"
-     ],
-     [
-      "Mafiosos",
-      "SÓ TEM VELHO",
+      "Winthrop University",
+      "YFP",
       0,
       2,
       "d"
      ],
      [
-      "Fluxo W7M",
-      "Manticore",
-      2,
+      "FlyQuest",
+      "ENVY",
       1,
+      2,
+      "d"
+     ],
+     [
+      "Oafs",
+      "Shopify Rebellion Black",
+      1,
+      2,
+      "d"
+     ],
+     [
+      "Cloud9",
+      "Maryville University",
+      2,
+      0,
       "d"
      ]
     ]
@@ -4744,31 +4635,31 @@
     "r": "Round 2 (0-1)",
     "m": [
      [
-      "TIME DO B3M",
-      "Master Bank",
-      0,
+      "Yellow Dragon Gaming",
+      "Wildcard",
+      1,
       2,
       "d"
      ],
      [
-      "ARRANCA DREAMS",
-      "Piranhas do Caribe",
+      "QoR",
+      "Shopify Rebellion Gold",
       2,
       1,
       "d"
      ],
      [
-      "Arashi",
-      "0 intelecto",
+      "Xora Esports",
+      "SaD Esports",
+      1,
       2,
-      0,
       "d"
      ],
      [
-      "Next",
-      "GANGUE",
+      "Masterclass",
+      "counterfeit",
+      0,
       2,
-      1,
       "d"
      ]
     ]
@@ -4777,170 +4668,32 @@
     "r": "Round 3 (1-1)",
     "m": [
      [
-      "Manticore",
-      "Next",
-      1,
+      "counterfeit",
+      "FlyQuest",
       2,
+      0,
       "d"
      ],
      [
-      "ELEVATE",
-      "Arashi",
+      "Wildcard",
+      "Winthrop University",
       2,
-      1,
+      0,
       "d"
      ],
      [
-      "BRASIL2002",
-      "ARRANCA DREAMS",
+      "Oafs",
+      "SaD Esports",
       1,
       0,
       "l"
      ],
      [
-      "Mafiosos",
-      "Master Bank",
-      2,
+      "Maryville University",
+      "QoR",
       0,
-      "d"
-     ]
-    ]
-   },
-   {
-    "r": "Upper Quarterfinals",
-    "m": [
-     [
-      "TBD",
-      "TBD",
-      0,
-      0,
-      "u"
-     ],
-     [
-      "TBD",
-      "TBD",
-      0,
-      0,
-      "u"
-     ],
-     [
-      "TBD",
-      "TBD",
-      0,
-      0,
-      "u"
-     ],
-     [
-      "TBD",
-      "TBD",
-      0,
-      0,
-      "u"
-     ]
-    ]
-   },
-   {
-    "r": "Lower Round 1",
-    "m": [
-     [
-      "TBD",
-      "TBD",
-      0,
-      0,
-      "u"
-     ],
-     [
-      "TBD",
-      "TBD",
-      0,
-      0,
-      "u"
-     ]
-    ]
-   },
-   {
-    "r": "Upper Semifinals",
-    "m": [
-     [
-      "TBD",
-      "TBD",
-      0,
-      0,
-      "u"
-     ],
-     [
-      "TBD",
-      "TBD",
-      0,
-      0,
-      "u"
-     ]
-    ]
-   },
-   {
-    "r": "Lower Round 2",
-    "m": [
-     [
-      "TBD",
-      "TBD",
-      0,
-      0,
-      "u"
-     ],
-     [
-      "TBD",
-      "TBD",
-      0,
-      0,
-      "u"
-     ]
-    ]
-   },
-   {
-    "r": "Upper Final",
-    "m": [
-     [
-      "TBD",
-      "TBD",
-      0,
-      0,
-      "u"
-     ]
-    ]
-   },
-   {
-    "r": "Lower Round 3",
-    "m": [
-     [
-      "TBD",
-      "TBD",
-      0,
-      0,
-      "u"
-     ]
-    ]
-   },
-   {
-    "r": "Lower Final",
-    "m": [
-     [
-      "TBD",
-      "TBD",
-      0,
-      0,
-      "u"
-     ]
-    ]
-   },
-   {
-    "r": "Grand Final",
-    "m": [
-     [
-      "TBD",
-      "TBD",
-      0,
-      0,
-      "u"
+      1,
+      "l"
      ]
     ]
    }
@@ -4999,6 +4752,15 @@
   }
  ],
  "fr": [
+  {
+   "id": "792040",
+   "a": "BRASIL2002",
+   "b": "ARRANCA DREAMS",
+   "sa": "2",
+   "sb": "0",
+   "ev": "VCT 2027: America Kickoff - Brazil Qualifier Playoffs",
+   "ts": 1795388400000
+  },
   {
    "id": "792041",
    "a": "Mafiosos",
@@ -5159,7 +4921,7 @@
    "sa": "2",
    "sb": "1",
    "ev": "VCT 2027: EMEA Kickoff - MENA Qualifier",
-   "ts": 1795289400000
+   "ts": 1795285800000
   },
   {
    "id": "792550",
@@ -5177,7 +4939,7 @@
    "sa": "0",
    "sb": "2",
    "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ts": 1795228200000
+   "ts": 1795224600000
   },
   {
    "id": "791683",
@@ -5186,7 +4948,7 @@
    "sa": "2",
    "sb": "1",
    "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ts": 1795224600000
+   "ts": 1795221000000
   },
   {
    "id": "791684",
@@ -5356,15 +5118,6 @@
    "b": "Eternal Focus",
    "sa": "2",
    "sb": "1",
-   "ev": "VCT 2027: America Kickoff - North America Open Qualifier",
-   "ts": 1795311000000
-  },
-  {
-   "id": "789929",
-   "a": "counterfeit",
-   "b": "BarbieQ",
-   "sa": "2",
-   "sb": "0",
    "ev": "VCT 2027: America Kickoff - North America Open Qualifier",
    "ts": 1795311000000
   }
