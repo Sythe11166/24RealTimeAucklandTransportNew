@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T12:53:54.185Z",
+ "updated": "2026-11-23T12:57:06.120Z",
  "live": [
   {
    "id": "793795",
@@ -3836,6 +3836,12 @@
  ],
  "news": [
   {
+   "t": "Trace Esports outlines rebuild with CHICHOO, nobody, Nicc",
+   "d": "A dazzling three-man signing class for Trace.",
+   "ts": 1795435200000,
+   "url": "https://www.vlr.gg/793834/trace-esports-outlines-rebuild-with-chichoo-nobody-nicc"
+  },
+  {
    "t": "zekken departs MIBR in offseason of exits",
    "d": "A superstar hits the market as a free agent.",
    "ts": 1795435200000,
@@ -3864,12 +3870,6 @@
    "d": "Three return in an offseason rebuild for Dplus.",
    "ts": 1795435200000,
    "url": "https://www.vlr.gg/793815/dplus-announces-new-peri-led-roster-with-estrella-hermes-flora-wolverine"
-  },
-  {
-   "t": "FlyQuest's time to fly: they sign Kess, tonza, sacred, Gorilla, zelo",
-   "d": "A new trio and a coaching duo join solada and sorex for the 2027 season.",
-   "ts": 1795262400000,
-   "url": "https://www.vlr.gg/793026/flyquests-time-to-fly-they-sign-kess-tonza-sacred-gorilla-zelo"
   }
  ],
  "logos": {
@@ -4071,7 +4071,7 @@
   "u": "/event/3185/vct-2027-america-kickoff-latam-south-qualifier-playoffs/swiss-stage",
   "rg": "Americas",
   "ev": "VCT 2027: America Kickoff - LATAM South Qualifier Playoffs",
-  "at": 1795438314229,
+  "at": 1795438624832,
   "r": [
    {
     "r": "Round 1 (0-0)",
