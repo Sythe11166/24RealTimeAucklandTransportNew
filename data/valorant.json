@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-23T13:03:30.795Z",
+ "updated": "2026-11-23T13:06:41.348Z",
  "live": [
   {
    "id": "793795",
    "a": "GodLike Esports",
    "b": "Trigger Point Esports",
-   "sa": "0",
+   "sa": "1",
    "sb": "0",
    "ev": "VCT 2027: Pacific Kickoff - South Asia Qualifier",
    "ph": "Playoffs–Upper Quarterfinals",
@@ -14,13 +14,15 @@
    "mp": [
     {
      "n": "Lotus",
-     "a": 0,
-     "b": 0,
-     "st": "l"
+     "a": 13,
+     "b": 8,
+     "st": "d"
     },
     {
      "n": "Bind",
-     "st": "n"
+     "a": 0,
+     "b": 0,
+     "st": "l"
     },
     {
      "n": "Haven",
