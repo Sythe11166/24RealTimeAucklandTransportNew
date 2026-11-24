@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T11:29:58.899Z",
+ "updated": "2026-11-24T11:31:37.763Z",
  "live": [
   {
    "id": "793797",
@@ -253,7 +253,7 @@
    "sb": "–",
    "ev": "VCT 2027: Pacific Kickoff - South Asia Qualifier",
    "ph": "Playoffs–Upper Semifinals",
-   "ts": 1795609800000,
+   "ts": 1795606200000,
    "url": "https://www.vlr.gg/793799/godlike-esports-vs-sign-esports-vct-2027-pacific-kickoff-south-asia-qualifier-ubsf"
   },
   {
@@ -264,7 +264,7 @@
    "sb": "–",
    "ev": "VCT 2027: EMEA Kickoff - Türkiye Qualifier",
    "ph": "Playoffs–Opening (B)",
-   "ts": 1795617000000,
+   "ts": 1795613400000,
    "url": "https://www.vlr.gg/793639/be-ikta-esports-vs-galatasaray-esports-vct-2027-emea-kickoff-t-rkiye-qualifier-playoffs-opening-b"
   }
  ],
@@ -4455,21 +4455,21 @@
    "a": "GodLike Esports",
    "b": "SIGN Esports",
    "ev": "VCT 2027: Pacific Kickoff - South Asia Qualifier",
-   "ts": 1795609800000
+   "ts": 1795606200000
   },
   {
    "id": "793639",
    "a": "Beşiktaş Esports",
    "b": "Galatasaray Esports",
    "ev": "VCT 2027: EMEA Kickoff - Türkiye Qualifier",
-   "ts": 1795617000000
+   "ts": 1795613400000
   },
   {
    "id": "793638",
    "a": "PCIFIC Esports",
    "b": "team apanthe",
    "ev": "VCT 2027: EMEA Kickoff - Türkiye Qualifier",
-   "ts": 1795627800000
+   "ts": 1795624200000
   },
   {
    "id": "792042",
