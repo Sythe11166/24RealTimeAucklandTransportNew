@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T18:28:06.110Z",
+ "updated": "2026-11-24T18:29:45.679Z",
  "live": [
   {
    "id": "793634",
@@ -3348,7 +3348,7 @@
    "sb": "2",
    "ev": "VCT 2027: Pacific Kickoff - South Asia Qualifier",
    "ph": "Playoffs–Upper Quarterfinals",
-   "ts": 1795447800000,
+   "ts": 1795444200000,
    "url": "https://www.vlr.gg/793796/zexar-esports-vs-sign-esports-vct-2027-pacific-kickoff-south-asia-qualifier-ubqf",
    "mp": [
     {
@@ -5568,7 +5568,7 @@
    "sa": "0",
    "sb": "2",
    "ev": "VCT 2027: Pacific Kickoff - South Asia Qualifier",
-   "ts": 1795447800000
+   "ts": 1795444200000
   },
   {
    "id": "793795",
@@ -5586,7 +5586,7 @@
    "sa": "2",
    "sb": "0",
    "ev": "VCT 2027: America Kickoff - LATAM North Qualifier Playoffs",
-   "ts": 1795397400000
+   "ts": 1795393800000
   },
   {
    "id": "793239",
@@ -5595,7 +5595,7 @@
    "sa": "2",
    "sb": "1",
    "ev": "VCT 2027: America Kickoff - LATAM North Qualifier Playoffs",
-   "ts": 1795397400000
+   "ts": 1795393800000
   },
   {
    "id": "793335",
@@ -5676,7 +5676,7 @@
    "sa": "0",
    "sb": "2",
    "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ts": 1795314600000
+   "ts": 1795311000000
   },
   {
    "id": "792908",
@@ -5766,7 +5766,7 @@
    "sa": "2",
    "sb": "1",
    "ev": "VCT 2027: EMEA Kickoff - MENA Qualifier",
-   "ts": 1795289400000
+   "ts": 1795285800000
   },
   {
    "id": "792550",
@@ -5784,7 +5784,7 @@
    "sa": "0",
    "sb": "2",
    "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ts": 1795228200000
+   "ts": 1795224600000
   },
   {
    "id": "791683",
@@ -5793,7 +5793,7 @@
    "sa": "2",
    "sb": "1",
    "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ts": 1795224600000
+   "ts": 1795221000000
   },
   {
    "id": "791684",
