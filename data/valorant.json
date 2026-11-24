@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T09:49:00.976Z",
+ "updated": "2026-11-24T09:50:38.176Z",
  "live": [
   {
    "id": "793797",
@@ -204,6 +204,17 @@
    "url": "https://www.vlr.gg/793768/chivas-esports-vs-streamer-arena-vct-2027-america-kickoff-latam-north-qualifier-playoffs-swiss-stage-r3-1-1"
   },
   {
+   "id": "793803",
+   "a": "Trigger Point Esports",
+   "b": "ZEXAR ESPORTS",
+   "sa": "–",
+   "sb": "–",
+   "ev": "VCT 2027: Pacific Kickoff - South Asia Qualifier",
+   "ph": "Playoffs–Lower Round 1",
+   "ts": 1795588200000,
+   "url": "https://www.vlr.gg/793803/trigger-point-esports-vs-zexar-esports-vct-2027-pacific-kickoff-south-asia-qualifier-lr1"
+  },
+  {
    "id": "790432",
    "a": "TROOPERS",
    "b": "Bonkers",
@@ -226,6 +237,17 @@
    "url": "https://www.vlr.gg/790433/finishers-vs-meatzn-vct-2027-pacific-kickoff-oceania-qualifier-ubsf"
   },
   {
+   "id": "793799",
+   "a": "GodLike Esports",
+   "b": "SIGN Esports",
+   "sa": "–",
+   "sb": "–",
+   "ev": "VCT 2027: Pacific Kickoff - South Asia Qualifier",
+   "ph": "Playoffs–Upper Semifinals",
+   "ts": 1795607400000,
+   "url": "https://www.vlr.gg/793799/godlike-esports-vs-sign-esports-vct-2027-pacific-kickoff-south-asia-qualifier-ubsf"
+  },
+  {
    "id": "793639",
    "a": "Beşiktaş Esports",
    "b": "Galatasaray Esports",
@@ -246,28 +268,6 @@
    "ph": "Playoffs–Opening (B)",
    "ts": 1795625400000,
    "url": "https://www.vlr.gg/793638/pcific-esports-vs-team-apanthe-vct-2027-emea-kickoff-t-rkiye-qualifier-playoffs-opening-b"
-  },
-  {
-   "id": "792042",
-   "a": "SÓ TEM VELHO",
-   "b": "Next",
-   "sa": "–",
-   "sb": "–",
-   "ev": "VCT 2027: America Kickoff - Brazil Qualifier Playoffs",
-   "ph": "Playoffs–Upper Quarterfinals",
-   "ts": 1795722600000,
-   "url": "https://www.vlr.gg/792042/s-tem-velho-vs-next-vct-2027-america-kickoff-brazil-qualifier-playoffs-ubqf"
-  },
-  {
-   "id": "792043",
-   "a": "Fluxo W7M",
-   "b": "ELEVATE",
-   "sa": "–",
-   "sb": "–",
-   "ev": "VCT 2027: America Kickoff - Brazil Qualifier Playoffs",
-   "ph": "Playoffs–Upper Quarterfinals",
-   "ts": 1795733400000,
-   "url": "https://www.vlr.gg/792043/fluxo-w7m-vs-elevate-vct-2027-america-kickoff-brazil-qualifier-playoffs-ubqf"
   }
  ],
  "results": [
@@ -3918,8 +3918,6 @@
   "Trigon Titans": "https://owcdn.net/img/6afa21f3b97d6.png",
   "TROOPERS": "",
   "Bonkers": "https://owcdn.net/img/645fbc5da4a21.png",
-  "Finishers": "https://owcdn.net/img/69d48940ee5bf.png",
-  "MeatZn": "",
   "Cloud9": "https://owcdn.net/img/628addcbd509e.png"
  },
  "colors": {
@@ -3943,7 +3941,6 @@
   "Fire Flux Esports": "#18d7f5",
   "Trigon Titans": "",
   "Bonkers": "#e0900e",
-  "Finishers": "#4e859b",
   "Cloud9": "#27afe5"
  },
  "agents": {
@@ -4428,6 +4425,13 @@
    "ts": 1795568400000
   },
   {
+   "id": "793803",
+   "a": "Trigger Point Esports",
+   "b": "ZEXAR ESPORTS",
+   "ev": "VCT 2027: Pacific Kickoff - South Asia Qualifier",
+   "ts": 1795588200000
+  },
+  {
    "id": "790432",
    "a": "TROOPERS",
    "b": "Bonkers",
@@ -4440,6 +4444,13 @@
    "b": "MeatZn",
    "ev": "VCT 2027: Pacific Kickoff - Oceania Qualifier",
    "ts": 1795593600000
+  },
+  {
+   "id": "793799",
+   "a": "GodLike Esports",
+   "b": "SIGN Esports",
+   "ev": "VCT 2027: Pacific Kickoff - South Asia Qualifier",
+   "ts": 1795607400000
   },
   {
    "id": "793639",
