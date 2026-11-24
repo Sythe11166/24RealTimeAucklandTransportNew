@@ -1,212 +1,6 @@
 {
- "updated": "2026-11-24T12:33:05.763Z",
- "live": [
-  {
-   "id": "793797",
-   "a": "Revenant XSpark",
-   "b": "GOC Esports",
-   "sa": "2",
-   "sb": "1",
-   "ev": "VCT 2027: Pacific Kickoff - South Asia Qualifier",
-   "ph": "Playoffs–Upper Quarterfinals",
-   "ts": 1795512600000,
-   "url": "https://www.vlr.gg/793797/revenant-xspark-vs-goc-esports-vct-2027-pacific-kickoff-south-asia-qualifier-ubqf",
-   "mp": [
-    {
-     "n": "Sunset",
-     "a": 11,
-     "b": 13,
-     "st": "d"
-    },
-    {
-     "n": "Haven",
-     "a": 13,
-     "b": 5,
-     "st": "d"
-    },
-    {
-     "n": "Summit",
-     "a": 13,
-     "b": 10,
-     "st": "d"
-    }
-   ],
-   "evu": "/event/3206/vct-2027-pacific-kickoff-south-asia-qualifier/playoffs",
-   "bo": "3",
-   "vt": [
-    [
-     "x",
-     "GOC",
-     "Bind"
-    ],
-    [
-     "x",
-     "RNTX",
-     "Corrode"
-    ],
-    [
-     "p",
-     "GOC",
-     "Sunset"
-    ],
-    [
-     "p",
-     "RNTX",
-     "Haven"
-    ],
-    [
-     "x",
-     "GOC",
-     "Abyss"
-    ],
-    [
-     "x",
-     "RNTX",
-     "Lotus"
-    ],
-    [
-     "d",
-     "",
-     "Summit"
-    ]
-   ],
-   "h2h": {
-    "a": 1,
-    "b": 0
-   },
-   "pl": {
-    "a": [
-     {
-      "n": "Venka",
-      "ag": ""
-     },
-     {
-      "n": "hellff",
-      "ag": ""
-     },
-     {
-      "n": "deecee",
-      "ag": ""
-     },
-     {
-      "n": "Lightningfast",
-      "ag": ""
-     },
-     {
-      "n": "Hoax",
-      "ag": ""
-     }
-    ],
-    "b": [
-     {
-      "n": "xeon",
-      "ag": ""
-     },
-     {
-      "n": "Makaveli",
-      "ag": ""
-     },
-     {
-      "n": "khelthuzad",
-      "ag": ""
-     },
-     {
-      "n": "Envy2K",
-      "ag": ""
-     },
-     {
-      "n": "SynX",
-      "ag": ""
-     }
-    ]
-   },
-   "tg": [
-    "RNTX",
-    "GOC"
-   ],
-   "nk": 1
-  },
-  {
-   "id": "793798",
-   "a": "Kryon Esports",
-   "b": "RANKERS",
-   "sa": "0",
-   "sb": "0",
-   "ev": "VCT 2027: Pacific Kickoff - South Asia Qualifier",
-   "ph": "Playoffs–Upper Quarterfinals",
-   "ts": 1795523400000,
-   "url": "https://www.vlr.gg/793798/kryon-esports-vs-rankers-vct-2027-pacific-kickoff-south-asia-qualifier-ubqf",
-   "mp": [
-    {
-     "n": "TBD",
-     "a": 0,
-     "b": 0,
-     "st": "l"
-    },
-    {
-     "n": "TBD",
-     "st": "n"
-    },
-    {
-     "n": "TBD",
-     "st": "n"
-    }
-   ],
-   "evu": "/event/3206/vct-2027-pacific-kickoff-south-asia-qualifier/playoffs",
-   "bo": "3",
-   "pl": {
-    "a": [
-     {
-      "n": "Kohliii",
-      "ag": ""
-     },
-     {
-      "n": "Rinsat",
-      "ag": ""
-     },
-     {
-      "n": "r1seN",
-      "ag": ""
-     },
-     {
-      "n": "Trinity",
-      "ag": ""
-     },
-     {
-      "n": "Dpwhyyy",
-      "ag": ""
-     }
-    ],
-    "b": [
-     {
-      "n": "admr",
-      "ag": ""
-     },
-     {
-      "n": "ZEPHE",
-      "ag": ""
-     },
-     {
-      "n": "Kladenstein",
-      "ag": ""
-     },
-     {
-      "n": "KenZo",
-      "ag": ""
-     },
-     {
-      "n": "YASH",
-      "ag": ""
-     }
-    ]
-   },
-   "tg": [
-    "KRN",
-    "RANK"
-   ],
-   "nk": 1
-  }
- ],
+ "updated": "2026-11-24T12:34:48.993Z",
+ "live": [],
  "upcoming": [
   {
    "id": "793735",
@@ -237,6 +31,31 @@
    "fz": 1
   },
   {
+   "id": "793737",
+   "a": "ENVY",
+   "b": "Wildcard",
+   "sa": "–",
+   "sb": "–",
+   "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
+   "ph": "Playoffs –Upper Quarterfinals",
+   "ts": 1795523700000,
+   "url": "https://www.vlr.gg/793737/envy-vs-wildcard-vct-2027-america-kickoff-north-america-qualifier-playoffs-ubqf",
+   "bo": "3",
+   "evu": "/event/3179/vct-2027-america-kickoff-north-america-qualifier-playoffs/playoffs",
+   "fz": 1
+  },
+  {
+   "id": "793798",
+   "a": "Kryon Esports",
+   "b": "RANKERS",
+   "sa": "–",
+   "sb": "–",
+   "ev": "VCT 2027: Pacific Kickoff - South Asia Qualifier",
+   "ph": "Playoffs–Upper Quarterfinals",
+   "ts": 1795524000000,
+   "url": "https://www.vlr.gg/793798/kryon-esports-vs-rankers-vct-2027-pacific-kickoff-south-asia-qualifier-ubqf"
+  },
+  {
    "id": "793633",
    "a": "Eternal Fire",
    "b": "Misa Esports",
@@ -245,14 +64,7 @@
    "ev": "VCT 2027: EMEA Kickoff - Türkiye Qualifier",
    "ph": "Playoffs–Opening (A)",
    "ts": 1795530600000,
-   "url": "https://www.vlr.gg/793633/eternal-fire-vs-misa-esports-vct-2027-emea-kickoff-t-rkiye-qualifier-playoffs-opening-a",
-   "h2h": {
-    "a": 1,
-    "b": 1
-   },
-   "bo": "3",
-   "evu": "/event/3177/vct-2027-emea-kickoff-t-rkiye-qualifier/playoffs",
-   "fz": 1
+   "url": "https://www.vlr.gg/793633/eternal-fire-vs-misa-esports-vct-2027-emea-kickoff-t-rkiye-qualifier-playoffs-opening-a"
   },
   {
    "id": "793634",
@@ -330,31 +142,612 @@
    "ph": "Playoffs–Upper Semifinals",
    "ts": 1795609800000,
    "url": "https://www.vlr.gg/793799/godlike-esports-vs-sign-esports-vct-2027-pacific-kickoff-south-asia-qualifier-ubsf"
-  },
-  {
-   "id": "793639",
-   "a": "Beşiktaş Esports",
-   "b": "Galatasaray Esports",
-   "sa": "–",
-   "sb": "–",
-   "ev": "VCT 2027: EMEA Kickoff - Türkiye Qualifier",
-   "ph": "Playoffs–Opening (B)",
-   "ts": 1795613700000,
-   "url": "https://www.vlr.gg/793639/be-ikta-esports-vs-galatasaray-esports-vct-2027-emea-kickoff-t-rkiye-qualifier-playoffs-opening-b"
-  },
-  {
-   "id": "793638",
-   "a": "PCIFIC Esports",
-   "b": "team apanthe",
-   "sa": "–",
-   "sb": "–",
-   "ev": "VCT 2027: EMEA Kickoff - Türkiye Qualifier",
-   "ph": "Playoffs–Opening (B)",
-   "ts": 1795624500000,
-   "url": "https://www.vlr.gg/793638/pcific-esports-vs-team-apanthe-vct-2027-emea-kickoff-t-rkiye-qualifier-playoffs-opening-b"
   }
  ],
  "results": [
+  {
+   "id": "793798",
+   "a": "Kryon Esports",
+   "b": "RANKERS",
+   "sa": "0",
+   "sb": "0",
+   "ev": "VCT 2027: Pacific Kickoff - South Asia Qualifier",
+   "ph": "Playoffs–Upper Quarterfinals",
+   "ts": 1795523400000,
+   "et": 1795523680841,
+   "url": "https://www.vlr.gg/793798/kryon-esports-vs-rankers-vct-2027-pacific-kickoff-south-asia-qualifier-ubqf",
+   "g": 1,
+   "mp": [
+    {
+     "n": "TBD",
+     "a": 0,
+     "b": 0
+    }
+   ],
+   "bo": "3",
+   "smt": 1795523682094
+  },
+  {
+   "id": "793797",
+   "a": "Revenant XSpark",
+   "b": "GOC Esports",
+   "sa": "2",
+   "sb": "1",
+   "ev": "VCT 2027: Pacific Kickoff - South Asia Qualifier",
+   "ph": "Playoffs–Upper Quarterfinals",
+   "ts": 1795512600000,
+   "url": "https://www.vlr.gg/793797/revenant-xspark-vs-goc-esports-vct-2027-pacific-kickoff-south-asia-qualifier-ubqf",
+   "mp": [
+    {
+     "n": "Sunset",
+     "a": 11,
+     "b": 13
+    },
+    {
+     "n": "Haven",
+     "a": 13,
+     "b": 5
+    },
+    {
+     "n": "Summit",
+     "a": 13,
+     "b": 10
+    }
+   ],
+   "sm": [
+    {
+     "n": "Sunset",
+     "a": 11,
+     "b": 13,
+     "pa": [
+      {
+       "n": "Lightningfast",
+       "k": 22,
+       "d": 21,
+       "a": 4,
+       "ag": "neon"
+      },
+      {
+       "n": "Venka",
+       "k": 21,
+       "d": 20,
+       "a": 4,
+       "ag": "yoru"
+      },
+      {
+       "n": "deecee",
+       "k": 19,
+       "d": 14,
+       "a": 4,
+       "ag": "cypher"
+      },
+      {
+       "n": "hellff",
+       "k": 13,
+       "d": 18,
+       "a": 12,
+       "ag": "fade"
+      },
+      {
+       "n": "Hoax",
+       "k": 12,
+       "d": 14,
+       "a": 8,
+       "ag": "omen"
+      }
+     ],
+     "pb": [
+      {
+       "n": "Makaveli",
+       "k": 20,
+       "d": 15,
+       "a": 5,
+       "ag": "omen"
+      },
+      {
+       "n": "SynX",
+       "k": 18,
+       "d": 16,
+       "a": 5,
+       "ag": "fade"
+      },
+      {
+       "n": "khelthuzad",
+       "k": 18,
+       "d": 18,
+       "a": 3,
+       "ag": "chamber"
+      },
+      {
+       "n": "xeon",
+       "k": 17,
+       "d": 16,
+       "a": 5,
+       "ag": "sage"
+      },
+      {
+       "n": "Envy2K",
+       "k": 14,
+       "d": 22,
+       "a": 9,
+       "ag": "neon"
+      }
+     ],
+     "rd": [
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "b"
+      ],
+      [
+       "b",
+       "b"
+      ],
+      [
+       "a",
+       "d"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "d"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "d"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "b",
+       "d"
+      ],
+      [
+       "b",
+       "d"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "b",
+       "d"
+      ],
+      [
+       "a",
+       "b"
+      ],
+      [
+       "b",
+       "e"
+      ]
+     ]
+    },
+    {
+     "n": "Haven",
+     "a": 13,
+     "b": 5,
+     "pa": [
+      {
+       "n": "Venka",
+       "k": 22,
+       "d": 9,
+       "a": 3,
+       "ag": "phoenix"
+      },
+      {
+       "n": "Lightningfast",
+       "k": 16,
+       "d": 11,
+       "a": 6,
+       "ag": "neon"
+      },
+      {
+       "n": "Hoax",
+       "k": 14,
+       "d": 9,
+       "a": 10,
+       "ag": "omen"
+      },
+      {
+       "n": "deecee",
+       "k": 13,
+       "d": 7,
+       "a": 9,
+       "ag": "cypher"
+      },
+      {
+       "n": "hellff",
+       "k": 9,
+       "d": 8,
+       "a": 8,
+       "ag": "sova"
+      }
+     ],
+     "pb": [
+      {
+       "n": "Envy2K",
+       "k": 13,
+       "d": 15,
+       "a": 6,
+       "ag": "yoru"
+      },
+      {
+       "n": "Makaveli",
+       "k": 12,
+       "d": 14,
+       "a": 3,
+       "ag": "sova"
+      },
+      {
+       "n": "SynX",
+       "k": 9,
+       "d": 15,
+       "a": 3,
+       "ag": "cypher"
+      },
+      {
+       "n": "xeon",
+       "k": 6,
+       "d": 15,
+       "a": 8,
+       "ag": "omen"
+      },
+      {
+       "n": "khelthuzad",
+       "k": 4,
+       "d": 15,
+       "a": 2,
+       "ag": "neon"
+      }
+     ],
+     "rd": [
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "d"
+      ],
+      [
+       "a",
+       "d"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "d"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "b"
+      ],
+      [
+       "b",
+       "d"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "b",
+       "d"
+      ],
+      [
+       "a",
+       "e"
+      ]
+     ]
+    },
+    {
+     "n": "Summit",
+     "a": 13,
+     "b": 10,
+     "pa": [
+      {
+       "n": "Venka",
+       "k": 22,
+       "d": 17,
+       "a": 6,
+       "ag": "phoenix"
+      },
+      {
+       "n": "deecee",
+       "k": 20,
+       "d": 17,
+       "a": 11,
+       "ag": "cypher"
+      },
+      {
+       "n": "hellff",
+       "k": 18,
+       "d": 15,
+       "a": 5,
+       "ag": "fade"
+      },
+      {
+       "n": "Lightningfast",
+       "k": 17,
+       "d": 18,
+       "a": 10,
+       "ag": "neon"
+      },
+      {
+       "n": "Hoax",
+       "k": 13,
+       "d": 15,
+       "a": 12,
+       "ag": "omen"
+      }
+     ],
+     "pb": [
+      {
+       "n": "xeon",
+       "k": 23,
+       "d": 15,
+       "a": 5,
+       "ag": "sage"
+      },
+      {
+       "n": "Makaveli",
+       "k": 22,
+       "d": 19,
+       "a": 11,
+       "ag": "omen"
+      },
+      {
+       "n": "khelthuzad",
+       "k": 20,
+       "d": 17,
+       "a": 3,
+       "ag": "chamber"
+      },
+      {
+       "n": "Envy2K",
+       "k": 10,
+       "d": 19,
+       "a": 10,
+       "ag": "neon"
+      },
+      {
+       "n": "SynX",
+       "k": 7,
+       "d": 20,
+       "a": 10,
+       "ag": "fade"
+      }
+     ],
+     "rd": [
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "b",
+       "d"
+      ],
+      [
+       "a",
+       "b"
+      ],
+      [
+       "a",
+       "b"
+      ],
+      [
+       "a",
+       "b"
+      ],
+      [
+       "b",
+       "d"
+      ],
+      [
+       "b",
+       "d"
+      ],
+      [
+       "b",
+       "d"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "d"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "a",
+       "d"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "t"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ]
+     ]
+    }
+   ],
+   "tg": [
+    "RNTX",
+    "GOC"
+   ],
+   "vt": [
+    [
+     "x",
+     "GOC",
+     "Bind"
+    ],
+    [
+     "x",
+     "RNTX",
+     "Corrode"
+    ],
+    [
+     "p",
+     "GOC",
+     "Sunset"
+    ],
+    [
+     "p",
+     "RNTX",
+     "Haven"
+    ],
+    [
+     "x",
+     "GOC",
+     "Abyss"
+    ],
+    [
+     "x",
+     "RNTX",
+     "Lotus"
+    ],
+    [
+     "d",
+     "",
+     "Summit"
+    ]
+   ],
+   "h2h": {
+    "a": 1,
+    "b": 0
+   },
+   "bo": "3",
+   "smt": 1795523679640,
+   "et": 1795523682994
+  },
   {
    "id": "793565",
    "a": "9z Globant",
@@ -3016,921 +3409,6 @@
     "CHV",
     "OSK"
    ]
-  },
-  {
-   "id": "793239",
-   "a": "STREAMER ARENA",
-   "b": "Squirtle Rangers",
-   "sa": "2",
-   "sb": "1",
-   "ev": "VCT 2027: America Kickoff - LATAM North Qualifier Playoffs",
-   "ph": "Swiss Stage–Round 2 (0-1)",
-   "ts": 1795394100000,
-   "url": "https://www.vlr.gg/793239/streamer-arena-vs-squirtle-rangers-vct-2027-america-kickoff-latam-north-qualifier-playoffs-swiss-stage-r2-0-1",
-   "mp": [
-    {
-     "n": "Bind",
-     "a": 13,
-     "b": 4
-    },
-    {
-     "n": "Summit",
-     "a": 8,
-     "b": 13
-    },
-    {
-     "n": "Haven",
-     "a": 13,
-     "b": 8
-    }
-   ],
-   "sm": [
-    {
-     "n": "Bind",
-     "a": 13,
-     "b": 4,
-     "pa": [
-      {
-       "n": "clutchz",
-       "k": 20,
-       "d": 6,
-       "a": 5,
-       "ag": "chamber"
-      },
-      {
-       "n": "Matkazeta",
-       "k": 17,
-       "d": 11,
-       "a": 3,
-       "ag": "waylay"
-      },
-      {
-       "n": "Dlasqx1",
-       "k": 16,
-       "d": 5,
-       "a": 4,
-       "ag": "viper"
-      },
-      {
-       "n": "Levi",
-       "k": 15,
-       "d": 8,
-       "a": 8,
-       "ag": "brimstone"
-      },
-      {
-       "n": "Zelver",
-       "k": 9,
-       "d": 13,
-       "a": 10,
-       "ag": "skye"
-      }
-     ],
-     "pb": [
-      {
-       "n": "Joluma",
-       "k": 12,
-       "d": 16,
-       "a": 1,
-       "ag": "chamber"
-      },
-      {
-       "n": "Mina Ha",
-       "k": 10,
-       "d": 15,
-       "a": 3,
-       "ag": "viper"
-      },
-      {
-       "n": "LaZer",
-       "k": 9,
-       "d": 15,
-       "a": 7,
-       "ag": "waylay"
-      },
-      {
-       "n": "Tonezer",
-       "k": 7,
-       "d": 16,
-       "a": 4,
-       "ag": "skye"
-      },
-      {
-       "n": "Xhowi",
-       "k": 5,
-       "d": 15,
-       "a": 8,
-       "ag": "brimstone"
-      }
-     ],
-     "rd": [
-      [
-       "b",
-       "d"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "t"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "b",
-       "d"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "d"
-      ],
-      [
-       "a",
-       "d"
-      ],
-      [
-       "a",
-       "d"
-      ]
-     ]
-    },
-    {
-     "n": "Summit",
-     "a": 8,
-     "b": 13,
-     "pa": [
-      {
-       "n": "Levi",
-       "k": 22,
-       "d": 14,
-       "a": 3,
-       "ag": "fade"
-      },
-      {
-       "n": "clutchz",
-       "k": 16,
-       "d": 18,
-       "a": 4,
-       "ag": "chamber"
-      },
-      {
-       "n": "Dlasqx1",
-       "k": 14,
-       "d": 14,
-       "a": 6,
-       "ag": "omen"
-      },
-      {
-       "n": "Matkazeta",
-       "k": 13,
-       "d": 19,
-       "a": 10,
-       "ag": "neon"
-      },
-      {
-       "n": "Zelver",
-       "k": 8,
-       "d": 18,
-       "a": 5,
-       "ag": "sage"
-      }
-     ],
-     "pb": [
-      {
-       "n": "Joluma",
-       "k": 22,
-       "d": 14,
-       "a": 4,
-       "ag": "chamber"
-      },
-      {
-       "n": "LaZer",
-       "k": 19,
-       "d": 16,
-       "a": 4,
-       "ag": "neon"
-      },
-      {
-       "n": "Fotzy",
-       "k": 18,
-       "d": 13,
-       "a": 10,
-       "ag": "omen"
-      },
-      {
-       "n": "Tonezer",
-       "k": 15,
-       "d": 13,
-       "a": 6,
-       "ag": "fade"
-      },
-      {
-       "n": "Mina Ha",
-       "k": 9,
-       "d": 17,
-       "a": 6,
-       "ag": "sage"
-      }
-     ],
-     "rd": [
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "a",
-       "d"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "t"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "d"
-      ]
-     ]
-    },
-    {
-     "n": "Haven",
-     "a": 13,
-     "b": 8,
-     "pa": [
-      {
-       "n": "Dlasqx1",
-       "k": 27,
-       "d": 15,
-       "a": 9,
-       "ag": "phoenix"
-      },
-      {
-       "n": "Matkazeta",
-       "k": 23,
-       "d": 13,
-       "a": 10,
-       "ag": "neon"
-      },
-      {
-       "n": "Levi",
-       "k": 15,
-       "d": 14,
-       "a": 22,
-       "ag": "omen"
-      },
-      {
-       "n": "clutchz",
-       "k": 12,
-       "d": 13,
-       "a": 8,
-       "ag": "chamber"
-      },
-      {
-       "n": "Zelver",
-       "k": 12,
-       "d": 14,
-       "a": 15,
-       "ag": "sova"
-      }
-     ],
-     "pb": [
-      {
-       "n": "LaZer",
-       "k": 17,
-       "d": 19,
-       "a": 5,
-       "ag": "neon"
-      },
-      {
-       "n": "Joluma",
-       "k": 15,
-       "d": 16,
-       "a": 5,
-       "ag": "chamber"
-      },
-      {
-       "n": "Fotzy",
-       "k": 14,
-       "d": 20,
-       "a": 8,
-       "ag": "omen"
-      },
-      {
-       "n": "Mina Ha",
-       "k": 13,
-       "d": 15,
-       "a": 3,
-       "ag": "hush"
-      },
-      {
-       "n": "Tonezer",
-       "k": 10,
-       "d": 19,
-       "a": 7,
-       "ag": "sova"
-      }
-     ],
-     "rd": [
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "b",
-       "b"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "a",
-       "d"
-      ],
-      [
-       "a",
-       "d"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "a",
-       "t"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "d"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ]
-     ]
-    }
-   ],
-   "bo": "3",
-   "smt": 1795400861754,
-   "et": 1795400862955,
-   "tg": [
-    "STA",
-    "SQR"
-   ]
-  },
-  {
-   "id": "793335",
-   "a": "Maryville University",
-   "b": "QoR",
-   "sa": "0",
-   "sb": "2",
-   "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ph": "Swiss Stage–Round 3 (1-1)",
-   "ts": 1795394100000,
-   "url": "https://www.vlr.gg/793335/maryville-university-vs-qor-vct-2027-america-kickoff-north-america-qualifier-playoffs-r3-1-1",
-   "mp": [
-    {
-     "n": "Lotus",
-     "a": 11,
-     "b": 13
-    },
-    {
-     "n": "Summit",
-     "a": 4,
-     "b": 13
-    }
-   ],
-   "sm": [
-    {
-     "n": "Lotus",
-     "a": 11,
-     "b": 13,
-     "pa": [
-      {
-       "n": "geeza",
-       "k": 19,
-       "d": 16,
-       "a": 3,
-       "ag": "vyse"
-      },
-      {
-       "n": "renz",
-       "k": 16,
-       "d": 16,
-       "a": 9,
-       "ag": "fade"
-      },
-      {
-       "n": "Shondex",
-       "k": 14,
-       "d": 15,
-       "a": 2,
-       "ag": "viper"
-      },
-      {
-       "n": "Ange",
-       "k": 12,
-       "d": 18,
-       "a": 10,
-       "ag": "omen"
-      },
-      {
-       "n": "Boomy",
-       "k": 12,
-       "d": 20,
-       "a": 8,
-       "ag": "neon"
-      }
-     ],
-     "pb": [
-      {
-       "n": "calamity",
-       "k": 25,
-       "d": 18,
-       "a": 8,
-       "ag": "neon"
-      },
-      {
-       "n": "ExpMoe",
-       "k": 23,
-       "d": 14,
-       "a": 14,
-       "ag": "omen"
-      },
-      {
-       "n": "vanitas",
-       "k": 15,
-       "d": 14,
-       "a": 10,
-       "ag": "fade"
-      },
-      {
-       "n": "dynamic",
-       "k": 12,
-       "d": 13,
-       "a": 2,
-       "ag": "chamber"
-      },
-      {
-       "n": "yearn",
-       "k": 10,
-       "d": 14,
-       "a": 9,
-       "ag": "viper"
-      }
-     ],
-     "rd": [
-      [
-       "a",
-       "d"
-      ],
-      [
-       "a",
-       "d"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "a",
-       "t"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "b"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "b",
-       "d"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "b"
-      ],
-      [
-       "a",
-       "b"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ]
-     ]
-    },
-    {
-     "n": "Summit",
-     "a": 4,
-     "b": 13,
-     "pa": [
-      {
-       "n": "Shondex",
-       "k": 18,
-       "d": 15,
-       "a": 1,
-       "ag": "chamber"
-      },
-      {
-       "n": "Ange",
-       "k": 9,
-       "d": 12,
-       "a": 10,
-       "ag": "omen"
-      },
-      {
-       "n": "geeza",
-       "k": 7,
-       "d": 12,
-       "a": 4,
-       "ag": "fade"
-      },
-      {
-       "n": "renz",
-       "k": 7,
-       "d": 14,
-       "a": 3,
-       "ag": "sage"
-      },
-      {
-       "n": "Boomy",
-       "k": 7,
-       "d": 16,
-       "a": 5,
-       "ag": "neon"
-      }
-     ],
-     "pb": [
-      {
-       "n": "calamity",
-       "k": 18,
-       "d": 14,
-       "a": 7,
-       "ag": "neon"
-      },
-      {
-       "n": "ExpMoe",
-       "k": 16,
-       "d": 10,
-       "a": 14,
-       "ag": "omen"
-      },
-      {
-       "n": "vanitas",
-       "k": 13,
-       "d": 6,
-       "a": 4,
-       "ag": "fade"
-      },
-      {
-       "n": "dynamic",
-       "k": 12,
-       "d": 9,
-       "a": 3,
-       "ag": "chamber"
-      },
-      {
-       "n": "yearn",
-       "k": 10,
-       "d": 9,
-       "a": 8,
-       "ag": "sage"
-      }
-     ],
-     "rd": [
-      [
-       "b",
-       "b"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "b"
-      ],
-      [
-       "a",
-       "t"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "a",
-       "d"
-      ],
-      [
-       "b",
-       "b"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "d"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "a",
-       "b"
-      ],
-      [
-       "b",
-       "e"
-      ]
-     ]
-    }
-   ],
-   "vt": [
-    [
-     "x",
-     "MU",
-     "Abyss"
-    ],
-    [
-     "x",
-     "QOR",
-     "Bind"
-    ],
-    [
-     "p",
-     "MU",
-     "Lotus"
-    ],
-    [
-     "p",
-     "QOR",
-     "Summit"
-    ],
-    [
-     "x",
-     "MU",
-     "Haven"
-    ],
-    [
-     "x",
-     "QOR",
-     "Sunset"
-    ],
-    [
-     "d",
-     "",
-     "Corrode"
-    ]
-   ],
-   "h2h": {
-    "a": 0,
-    "b": 2
-   },
-   "bo": "3",
-   "smt": 1795399221344,
-   "et": 1795399222546,
-   "tg": [
-    "MU",
-    "QOR"
-   ]
   }
  ],
  "news": [
@@ -3973,13 +3451,11 @@
  ],
  "logos": {
   "505": "",
-  "Maryville University": "https://owcdn.net/img/6457181dc433a.png",
   "QoR": "https://owcdn.net/img/63e9a11797f41.png",
   "Contra": "https://owcdn.net/img/66572b1da4d79.png",
   "Chivas Esports": "https://owcdn.net/img/63ce2eedbe573.png",
   "Old School Kr3w": "https://owcdn.net/img/6affcfa3797d5.png",
   "STREAMER ARENA": "https://owcdn.net/img/69c4c2382b847.png",
-  "Squirtle Rangers": "",
   "University War": "https://owcdn.net/img/65df25f7afcad.png",
   "ARG.MIX": "",
   "TRAMITE": "",
@@ -4003,11 +3479,10 @@
   "Cloud9": "https://owcdn.net/img/628addcbd509e.png",
   "YFP": "https://owcdn.net/img/677826ad11d3b.png",
   "Oafs": "https://owcdn.net/img/6aefe353142fe.png",
-  "TROOPERS": "",
-  "Bonkers": "https://owcdn.net/img/645fbc5da4a21.png"
+  "ENVY": "https://owcdn.net/img/5f3ca822464a3.png",
+  "Wildcard": "https://owcdn.net/img/6afb9b586bdab.png"
  },
  "colors": {
-  "Maryville University": "#a9171c",
   "QoR": "#25befa",
   "Contra": "#f0b104",
   "Chivas Esports": "#cdaa3d",
@@ -4029,7 +3504,8 @@
   "Cloud9": "#27afe5",
   "YFP": "#1031e1",
   "Oafs": "",
-  "Bonkers": "#e0900e"
+  "ENVY": "",
+  "Wildcard": "#21a9f4"
  },
  "agents": {
   "gekko": {
@@ -4158,8 +3634,7 @@
   "VCT 2027: America Kickoff - LATAM North Qualifier Playoffs": "https://owcdn.net/img/640f5ab71dfbb.png",
   "VCT 2027: America Kickoff - LATAM South Qualifier Playoffs": "https://owcdn.net/img/640f5ab71dfbb.png",
   "VCT 2027: Pacific Kickoff - South Asia Qualifier": "https://owcdn.net/img/640f5ae002674.png",
-  "VCT 2027: EMEA Kickoff - Türkiye Qualifier": "https://owcdn.net/img/65ab59620a233.png",
-  "VCT 2027: Pacific Kickoff - Oceania Qualifier": "https://owcdn.net/img/640f5ae002674.png"
+  "VCT 2027: EMEA Kickoff - Türkiye Qualifier": "https://owcdn.net/img/65ab59620a233.png"
  },
  "vct": "https://owcdn.net/img/640f5ab71dfbb.png",
  "br": {
@@ -4485,6 +3960,20 @@
    "ts": 1795523700000
   },
   {
+   "id": "793737",
+   "a": "ENVY",
+   "b": "Wildcard",
+   "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
+   "ts": 1795523700000
+  },
+  {
+   "id": "793798",
+   "a": "Kryon Esports",
+   "b": "RANKERS",
+   "ev": "VCT 2027: Pacific Kickoff - South Asia Qualifier",
+   "ts": 1795524000000
+  },
+  {
    "id": "793633",
    "a": "Eternal Fire",
    "b": "Misa Esports",
@@ -4584,6 +4073,15 @@
   }
  ],
  "fr": [
+  {
+   "id": "793797",
+   "a": "Revenant XSpark",
+   "b": "GOC Esports",
+   "sa": "2",
+   "sb": "1",
+   "ev": "VCT 2027: Pacific Kickoff - South Asia Qualifier",
+   "ts": 1795512600000
+  },
   {
    "id": "793565",
    "a": "9z Globant",
@@ -4960,15 +4458,6 @@
    "sa": "2",
    "sb": "0",
    "ev": "VCT 2027: America Kickoff - North America Open Qualifier",
-   "ts": 1795437300000
-  },
-  {
-   "id": "790757",
-   "a": "Barça eSports",
-   "b": "CGN Esports",
-   "sa": "0",
-   "sb": "2",
-   "ev": "VCT 2027: EMEA Kickoff - Europe Open Qualifier",
    "ts": 1795437300000
   }
  ]
