@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T13:29:17.262Z",
+ "updated": "2026-11-24T13:30:56.318Z",
  "live": [
   {
    "id": "793798",
@@ -258,7 +258,7 @@
    "sb": "–",
    "ev": "VCT 2027: EMEA Kickoff - Türkiye Qualifier",
    "ph": "Playoffs–Opening (B)",
-   "ts": 1795617000000,
+   "ts": 1795613400000,
    "url": "https://www.vlr.gg/793639/be-ikta-esports-vs-galatasaray-esports-vct-2027-emea-kickoff-t-rkiye-qualifier-playoffs-opening-b"
   }
  ],
@@ -4639,14 +4639,14 @@
    "a": "Beşiktaş Esports",
    "b": "Galatasaray Esports",
    "ev": "VCT 2027: EMEA Kickoff - Türkiye Qualifier",
-   "ts": 1795617000000
+   "ts": 1795613400000
   },
   {
    "id": "793638",
    "a": "PCIFIC Esports",
    "b": "team apanthe",
    "ev": "VCT 2027: EMEA Kickoff - Türkiye Qualifier",
-   "ts": 1795627800000
+   "ts": 1795624200000
   },
   {
    "id": "792042",
