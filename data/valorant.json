@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T15:12:45.869Z",
+ "updated": "2026-11-24T15:14:21.540Z",
  "live": [
   {
    "id": "793633",
@@ -204,15 +204,15 @@
    "url": "https://www.vlr.gg/790433/finishers-vs-meatzn-vct-2027-pacific-kickoff-oceania-qualifier-ubsf"
   },
   {
-   "id": "793800",
-   "a": "Revenant XSpark",
-   "b": "Kryon Esports",
+   "id": "793804",
+   "a": "GOC Esports",
+   "b": "RANKERS",
    "sa": "–",
    "sb": "–",
    "ev": "VCT 2027: Pacific Kickoff - South Asia Qualifier",
-   "ph": "Playoffs–Upper Semifinals",
+   "ph": "Playoffs–Lower Round 1",
    "ts": 1795599000000,
-   "url": "https://www.vlr.gg/793800/revenant-xspark-vs-kryon-esports-vct-2027-pacific-kickoff-south-asia-qualifier-ubsf"
+   "url": "https://www.vlr.gg/793804/goc-esports-vs-rankers-vct-2027-pacific-kickoff-south-asia-qualifier-lr1"
   },
   {
    "id": "793799",
@@ -4415,9 +4415,9 @@
    "ts": 1795593600000
   },
   {
-   "id": "793800",
-   "a": "Revenant XSpark",
-   "b": "Kryon Esports",
+   "id": "793804",
+   "a": "GOC Esports",
+   "b": "RANKERS",
    "ev": "VCT 2027: Pacific Kickoff - South Asia Qualifier",
    "ts": 1795599000000
   },
@@ -4497,6 +4497,13 @@
    "b": "WIP Esports",
    "ev": "VCT 2027: EMEA Kickoff - Europe Qualifier Playoffs",
    "ts": 1795630500000
+  },
+  {
+   "id": "793800",
+   "a": "Revenant XSpark",
+   "b": "Kryon Esports",
+   "ev": "VCT 2027: Pacific Kickoff - South Asia Qualifier",
+   "ts": 1795673700000
   },
   {
    "id": "792042",
@@ -4733,7 +4740,7 @@
    "sa": "2",
    "sb": "1",
    "ev": "VCT 2027: America Kickoff - Brazil Qualifier Playoffs",
-   "ts": 1795306500000
+   "ts": 1795302900000
   },
   {
    "id": "792903",
