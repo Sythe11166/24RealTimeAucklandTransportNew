@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T14:38:07.319Z",
+ "updated": "2026-11-24T14:40:16.394Z",
  "live": [
   {
    "id": "793798",
@@ -209,48 +209,6 @@
  ],
  "upcoming": [
   {
-   "id": "793735",
-   "a": "Cloud9",
-   "b": "QoR",
-   "sa": "–",
-   "sb": "–",
-   "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ph": "Playoffs –Upper Quarterfinals",
-   "ts": 1795531200000,
-   "url": "https://www.vlr.gg/793735/cloud9-vs-qor-vct-2027-america-kickoff-north-america-qualifier-playoffs-ubqf",
-   "bo": "3",
-   "evu": "/event/3179/vct-2027-america-kickoff-north-america-qualifier-playoffs/playoffs",
-   "fz": 1
-  },
-  {
-   "id": "793736",
-   "a": "YFP",
-   "b": "Oafs",
-   "sa": "–",
-   "sb": "–",
-   "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ph": "Playoffs –Upper Quarterfinals",
-   "ts": 1795531200000,
-   "url": "https://www.vlr.gg/793736/yfp-vs-oafs-vct-2027-america-kickoff-north-america-qualifier-playoffs-ubqf",
-   "bo": "3",
-   "evu": "/event/3179/vct-2027-america-kickoff-north-america-qualifier-playoffs/playoffs",
-   "fz": 1
-  },
-  {
-   "id": "793737",
-   "a": "ENVY",
-   "b": "Wildcard",
-   "sa": "–",
-   "sb": "–",
-   "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ph": "Playoffs –Upper Quarterfinals",
-   "ts": 1795531200000,
-   "url": "https://www.vlr.gg/793737/envy-vs-wildcard-vct-2027-america-kickoff-north-america-qualifier-playoffs-ubqf",
-   "bo": "3",
-   "evu": "/event/3179/vct-2027-america-kickoff-north-america-qualifier-playoffs/playoffs",
-   "fz": 1
-  },
-  {
    "id": "793634",
    "a": "Fire Flux Esports",
    "b": "Trigon Titans",
@@ -259,7 +217,10 @@
    "ev": "VCT 2027: EMEA Kickoff - Türkiye Qualifier",
    "ph": "Playoffs–Opening (A)",
    "ts": 1795541400000,
-   "url": "https://www.vlr.gg/793634/fire-flux-esports-vs-trigon-titans-vct-2027-emea-kickoff-t-rkiye-qualifier-playoffs-opening-a"
+   "url": "https://www.vlr.gg/793634/fire-flux-esports-vs-trigon-titans-vct-2027-emea-kickoff-t-rkiye-qualifier-playoffs-opening-a",
+   "bo": "3",
+   "evu": "/event/3177/vct-2027-emea-kickoff-t-rkiye-qualifier/playoffs",
+   "fz": 1
   },
   {
    "id": "793767",
@@ -270,7 +231,10 @@
    "ev": "VCT 2027: America Kickoff - LATAM North Qualifier Playoffs",
    "ph": "Swiss Stage–Round 3 (1-1)",
    "ts": 1795557600000,
-   "url": "https://www.vlr.gg/793767/contra-vs-505-vct-2027-america-kickoff-latam-north-qualifier-playoffs-swiss-stage-r3-1-1"
+   "url": "https://www.vlr.gg/793767/contra-vs-505-vct-2027-america-kickoff-latam-north-qualifier-playoffs-swiss-stage-r3-1-1",
+   "bo": "3",
+   "evu": "/event/3184/vct-2027-america-kickoff-latam-north-qualifier-playoffs/swiss-stage",
+   "fz": 1
   },
   {
    "id": "793768",
@@ -281,7 +245,14 @@
    "ev": "VCT 2027: America Kickoff - LATAM North Qualifier Playoffs",
    "ph": "Swiss Stage–Round 3 (1-1)",
    "ts": 1795568400000,
-   "url": "https://www.vlr.gg/793768/chivas-esports-vs-streamer-arena-vct-2027-america-kickoff-latam-north-qualifier-playoffs-swiss-stage-r3-1-1"
+   "url": "https://www.vlr.gg/793768/chivas-esports-vs-streamer-arena-vct-2027-america-kickoff-latam-north-qualifier-playoffs-swiss-stage-r3-1-1",
+   "h2h": {
+    "a": 2,
+    "b": 0
+   },
+   "bo": "3",
+   "evu": "/event/3184/vct-2027-america-kickoff-latam-north-qualifier-playoffs/swiss-stage",
+   "fz": 1
   },
   {
    "id": "793803",
@@ -339,15 +310,48 @@
    "url": "https://www.vlr.gg/793639/be-ikta-esports-vs-galatasaray-esports-vct-2027-emea-kickoff-t-rkiye-qualifier-playoffs-opening-b"
   },
   {
-   "id": "793638",
-   "a": "PCIFIC Esports",
-   "b": "team apanthe",
+   "id": "794016",
+   "a": "UCAM Esports Club",
+   "b": "CGN Esports",
    "sa": "–",
    "sb": "–",
-   "ev": "VCT 2027: EMEA Kickoff - Türkiye Qualifier",
-   "ph": "Playoffs–Opening (B)",
-   "ts": 1795624800000,
-   "url": "https://www.vlr.gg/793638/pcific-esports-vs-team-apanthe-vct-2027-emea-kickoff-t-rkiye-qualifier-playoffs-opening-b"
+   "ev": "VCT 2027: EMEA Kickoff - Europe Qualifier Playoffs",
+   "ph": "Swiss Stage–Round 1 (0-0)",
+   "ts": 1795621200000,
+   "url": "https://www.vlr.gg/794016/ucam-esports-club-vs-cgn-esports-vct-2027-emea-kickoff-europe-qualifier-playoffs-swiss-stage-r1-0-0"
+  },
+  {
+   "id": "794017",
+   "a": "Natus Vincere Junior",
+   "b": "Aurora Gaming",
+   "sa": "–",
+   "sb": "–",
+   "ev": "VCT 2027: EMEA Kickoff - Europe Qualifier Playoffs",
+   "ph": "Swiss Stage–Round 1 (0-0)",
+   "ts": 1795621200000,
+   "url": "https://www.vlr.gg/794017/natus-vincere-junior-vs-aurora-gaming-vct-2027-emea-kickoff-europe-qualifier-playoffs-swiss-stage-r1-0-0"
+  },
+  {
+   "id": "794018",
+   "a": "Mandatory",
+   "b": "Barça eSports",
+   "sa": "–",
+   "sb": "–",
+   "ev": "VCT 2027: EMEA Kickoff - Europe Qualifier Playoffs",
+   "ph": "Swiss Stage–Round 1 (0-0)",
+   "ts": 1795621200000,
+   "url": "https://www.vlr.gg/794018/mandatory-vs-bar-a-esports-vct-2027-emea-kickoff-europe-qualifier-playoffs-swiss-stage-r1-0-0"
+  },
+  {
+   "id": "794019",
+   "a": "GIANTX",
+   "b": "Pixel Lumina",
+   "sa": "–",
+   "sb": "–",
+   "ev": "VCT 2027: EMEA Kickoff - Europe Qualifier Playoffs",
+   "ph": "Swiss Stage–Round 1 (0-0)",
+   "ts": 1795621200000,
+   "url": "https://www.vlr.gg/794019/giantx-vs-pixel-lumina-vct-2027-emea-kickoff-europe-qualifier-playoffs-swiss-stage-r1-0-0"
   }
  ],
  "results": [
@@ -4175,14 +4179,12 @@
   "Fire Flux Esports": "https://owcdn.net/img/68e6e1bcca45d.png",
   "Trigon Titans": "https://owcdn.net/img/6afa21f3b97d6.png",
   "Squirtle Rangers": "",
-  "Cloud9": "https://owcdn.net/img/628addcbd509e.png",
-  "QoR": "https://owcdn.net/img/63e9a11797f41.png",
-  "YFP": "https://owcdn.net/img/677826ad11d3b.png",
-  "Oafs": "https://owcdn.net/img/6aefe353142fe.png",
-  "ENVY": "https://owcdn.net/img/5f3ca822464a3.png",
-  "Wildcard": "https://owcdn.net/img/6afb9b586bdab.png",
   "TROOPERS": "",
-  "Bonkers": "https://owcdn.net/img/645fbc5da4a21.png"
+  "Bonkers": "https://owcdn.net/img/645fbc5da4a21.png",
+  "Finishers": "https://owcdn.net/img/69d48940ee5bf.png",
+  "MeatZn": "",
+  "Beşiktaş Esports": "https://owcdn.net/img/623de5ba6273f.png",
+  "Galatasaray Esports": "https://owcdn.net/img/61e88bf9166d3.png"
  },
  "colors": {
   "Contra": "#f0b104",
@@ -4202,13 +4204,10 @@
   "Misa Esports": "",
   "Fire Flux Esports": "#18d7f5",
   "Trigon Titans": "",
-  "Cloud9": "#27afe5",
-  "QoR": "#25befa",
-  "YFP": "#1031e1",
-  "Oafs": "",
-  "ENVY": "",
-  "Wildcard": "#21a9f4",
-  "Bonkers": "#e0900e"
+  "Bonkers": "#e0900e",
+  "Finishers": "#4e859b",
+  "Beşiktaş Esports": "#e33331",
+  "Galatasaray Esports": "#fca31a"
  },
  "agents": {
   "gekko": {
@@ -4337,73 +4336,44 @@
   "VCT 2027: America Kickoff - LATAM South Qualifier Playoffs": "https://owcdn.net/img/640f5ab71dfbb.png",
   "VCT 2027: Pacific Kickoff - South Asia Qualifier": "https://owcdn.net/img/640f5ae002674.png",
   "VCT 2027: EMEA Kickoff - Türkiye Qualifier": "https://owcdn.net/img/65ab59620a233.png",
-  "VCT 2027: America Kickoff - North America Qualifier Playoffs": "https://owcdn.net/img/640f5ab71dfbb.png",
   "VCT 2027: Pacific Kickoff - Oceania Qualifier": "https://owcdn.net/img/640f5ae002674.png"
  },
  "vct": "https://owcdn.net/img/640f5ab71dfbb.png",
  "br": {
-  "u": "/event/3179/vct-2027-america-kickoff-north-america-qualifier-playoffs/playoffs",
+  "u": "/event/3184/vct-2027-america-kickoff-latam-north-qualifier-playoffs/swiss-stage",
   "rg": "Americas",
-  "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-  "at": 1795531086020,
+  "ev": "VCT 2027: America Kickoff - LATAM North Qualifier Playoffs",
+  "at": 1795531212198,
   "r": [
    {
     "r": "Round 1 (0-0)",
     "m": [
      [
-      "Cloud9",
-      "counterfeit",
+      "LEONS",
+      "STREAMER ARENA",
       2,
       0,
       "d"
      ],
      [
-      "ENVY",
-      "Yellow Dragon Gaming",
-      2,
-      0,
-      "d"
-     ],
-     [
-      "YFP",
-      "Wildcard",
+      "FUEGO",
+      "Chivas Esports",
       2,
       1,
       "d"
      ],
      [
-      "QoR",
-      "Oafs",
-      0,
-      2,
-      "d"
-     ],
-     [
-      "Shopify Rebellion Black",
-      "Xora Esports",
+      "505",
+      "Squirtle Rangers",
       2,
       0,
       "d"
      ],
      [
-      "Shopify Rebellion Gold",
-      "Maryville University",
+      "Contra",
+      "Old School Kr3w",
+      2,
       0,
-      2,
-      "d"
-     ],
-     [
-      "FlyQuest",
-      "Masterclass",
-      2,
-      1,
-      "d"
-     ],
-     [
-      "SaD Esports",
-      "Winthrop University",
-      0,
-      2,
       "d"
      ]
     ]
@@ -4412,29 +4382,15 @@
     "r": "Round 2 (1-0)",
     "m": [
      [
-      "Winthrop University",
-      "YFP",
+      "LEONS",
+      "Contra",
+      2,
       0,
-      2,
       "d"
      ],
      [
-      "FlyQuest",
-      "ENVY",
-      1,
-      2,
-      "d"
-     ],
-     [
-      "Oafs",
-      "Shopify Rebellion Black",
-      1,
-      2,
-      "d"
-     ],
-     [
-      "Cloud9",
-      "Maryville University",
+      "FUEGO",
+      "505",
       2,
       0,
       "d"
@@ -4445,31 +4401,17 @@
     "r": "Round 2 (0-1)",
     "m": [
      [
-      "Yellow Dragon Gaming",
-      "Wildcard",
-      1,
+      "Chivas Esports",
+      "Old School Kr3w",
       2,
-      "d"
-     ],
-     [
-      "QoR",
-      "Shopify Rebellion Gold",
-      2,
-      1,
-      "d"
-     ],
-     [
-      "Xora Esports",
-      "SaD Esports",
-      1,
-      2,
-      "d"
-     ],
-     [
-      "Masterclass",
-      "counterfeit",
       0,
+      "d"
+     ],
+     [
+      "STREAMER ARENA",
+      "Squirtle Rangers",
       2,
+      1,
       "d"
      ]
     ]
@@ -4478,167 +4420,15 @@
     "r": "Round 3 (1-1)",
     "m": [
      [
-      "counterfeit",
-      "FlyQuest",
-      2,
-      0,
-      "d"
-     ],
-     [
-      "Wildcard",
-      "Winthrop University",
-      2,
-      0,
-      "d"
-     ],
-     [
-      "Oafs",
-      "SaD Esports",
-      2,
-      0,
-      "d"
-     ],
-     [
-      "Maryville University",
-      "QoR",
-      0,
-      2,
-      "d"
-     ]
-    ]
-   },
-   {
-    "r": "Upper Quarterfinals",
-    "m": [
-     [
-      "Cloud9",
-      "QoR",
+      "Contra",
+      "505",
       0,
       0,
       "u"
      ],
      [
-      "YFP",
-      "Oafs",
-      0,
-      0,
-      "u"
-     ],
-     [
-      "ENVY",
-      "Wildcard",
-      0,
-      0,
-      "u"
-     ],
-     [
-      "Shopify Rebellion Black",
-      "counterfeit",
-      0,
-      0,
-      "u"
-     ]
-    ]
-   },
-   {
-    "r": "Upper Semifinals",
-    "m": [
-     [
-      "TBD",
-      "TBD",
-      0,
-      0,
-      "u"
-     ],
-     [
-      "TBD",
-      "TBD",
-      0,
-      0,
-      "u"
-     ]
-    ]
-   },
-   {
-    "r": "Lower Round 1",
-    "m": [
-     [
-      "TBD",
-      "TBD",
-      0,
-      0,
-      "u"
-     ],
-     [
-      "TBD",
-      "TBD",
-      0,
-      0,
-      "u"
-     ]
-    ]
-   },
-   {
-    "r": "Lower Round 2",
-    "m": [
-     [
-      "TBD",
-      "TBD",
-      0,
-      0,
-      "u"
-     ],
-     [
-      "TBD",
-      "TBD",
-      0,
-      0,
-      "u"
-     ]
-    ]
-   },
-   {
-    "r": "Upper Final",
-    "m": [
-     [
-      "TBD",
-      "TBD",
-      0,
-      0,
-      "u"
-     ]
-    ]
-   },
-   {
-    "r": "Lower Round 3",
-    "m": [
-     [
-      "TBD",
-      "TBD",
-      0,
-      0,
-      "u"
-     ]
-    ]
-   },
-   {
-    "r": "Lower Final",
-    "m": [
-     [
-      "TBD",
-      "TBD",
-      0,
-      0,
-      "u"
-     ]
-    ]
-   },
-   {
-    "r": "Grand Final",
-    "m": [
-     [
-      "TBD",
-      "TBD",
+      "Chivas Esports",
+      "STREAMER ARENA",
       0,
       0,
       "u"
@@ -4649,27 +4439,6 @@
   "x": []
  },
  "fu": [
-  {
-   "id": "793735",
-   "a": "Cloud9",
-   "b": "QoR",
-   "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ts": 1795531200000
-  },
-  {
-   "id": "793736",
-   "a": "YFP",
-   "b": "Oafs",
-   "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ts": 1795531200000
-  },
-  {
-   "id": "793737",
-   "a": "ENVY",
-   "b": "Wildcard",
-   "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ts": 1795531200000
-  },
   {
    "id": "793634",
    "a": "Fire Flux Esports",
@@ -4727,11 +4496,67 @@
    "ts": 1795617000000
   },
   {
+   "id": "794016",
+   "a": "UCAM Esports Club",
+   "b": "CGN Esports",
+   "ev": "VCT 2027: EMEA Kickoff - Europe Qualifier Playoffs",
+   "ts": 1795621200000
+  },
+  {
+   "id": "794017",
+   "a": "Natus Vincere Junior",
+   "b": "Aurora Gaming",
+   "ev": "VCT 2027: EMEA Kickoff - Europe Qualifier Playoffs",
+   "ts": 1795621200000
+  },
+  {
+   "id": "794018",
+   "a": "Mandatory",
+   "b": "Barça eSports",
+   "ev": "VCT 2027: EMEA Kickoff - Europe Qualifier Playoffs",
+   "ts": 1795621200000
+  },
+  {
+   "id": "794019",
+   "a": "GIANTX",
+   "b": "Pixel Lumina",
+   "ev": "VCT 2027: EMEA Kickoff - Europe Qualifier Playoffs",
+   "ts": 1795621200000
+  },
+  {
    "id": "793638",
    "a": "PCIFIC Esports",
    "b": "team apanthe",
    "ev": "VCT 2027: EMEA Kickoff - Türkiye Qualifier",
    "ts": 1795624800000
+  },
+  {
+   "id": "794020",
+   "a": "Eintracht Frankfurt",
+   "b": "F9 EICAR",
+   "ev": "VCT 2027: EMEA Kickoff - Europe Qualifier Playoffs",
+   "ts": 1795628400000
+  },
+  {
+   "id": "794021",
+   "a": "Enterprise Esports",
+   "b": "xXxMasterProMegaTeamxXx",
+   "ev": "VCT 2027: EMEA Kickoff - Europe Qualifier Playoffs",
+   "ts": 1795628400000
+  },
+  {
+   "id": "794022",
+   "a": "MIR",
+   "b": "La Masia",
+   "ev": "VCT 2027: EMEA Kickoff - Europe Qualifier Playoffs",
+   "ts": 1795628400000
+  },
+  {
+   "id": "794023",
+   "a": "Joblife",
+   "b": "WIP Esports",
+   "ev": "VCT 2027: EMEA Kickoff - Europe Qualifier Playoffs",
+   "ts": 1795628400000
   },
   {
    "id": "792042",
@@ -4950,7 +4775,7 @@
    "sa": "1",
    "sb": "2",
    "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ts": 1795311600000
+   "ts": 1795308000000
   },
   {
    "id": "792035",
@@ -5136,15 +4961,6 @@
    "id": "789943",
    "a": "Wildcard",
    "b": "yoshi industries",
-   "sa": "2",
-   "sb": "0",
-   "ev": "VCT 2027: America Kickoff - North America Open Qualifier",
-   "ts": 1795444800000
-  },
-  {
-   "id": "789944",
-   "a": "counterfeit",
-   "b": "Bittersweet Gaming",
    "sa": "2",
    "sb": "0",
    "ev": "VCT 2027: America Kickoff - North America Open Qualifier",
