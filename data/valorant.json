@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-24T15:24:17.793Z",
+ "updated": "2026-11-24T15:27:28.626Z",
  "live": [
   {
    "id": "793633",
    "a": "Eternal Fire",
    "b": "Misa Esports",
-   "sa": "0",
+   "sa": "1",
    "sb": "0",
    "ev": "VCT 2027: EMEA Kickoff - Türkiye Qualifier",
    "ph": "Playoffs–Opening (A)",
@@ -14,13 +14,15 @@
    "mp": [
     {
      "n": "Summit",
-     "a": 0,
-     "b": 0,
-     "st": "l"
+     "a": 13,
+     "b": 8,
+     "st": "d"
     },
     {
      "n": "Lotus",
-     "st": "n"
+     "a": 0,
+     "b": 0,
+     "st": "l"
     },
     {
      "n": "Bind",
@@ -4276,7 +4278,7 @@
   "u": "/event/3184/vct-2027-america-kickoff-latam-north-qualifier-playoffs/swiss-stage",
   "rg": "Americas",
   "ev": "VCT 2027: America Kickoff - LATAM North Qualifier Playoffs",
-  "at": 1795533760356,
+  "at": 1795534047297,
   "r": [
    {
     "r": "Round 1 (0-0)",
