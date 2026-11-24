@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-24T11:39:52.968Z",
+ "updated": "2026-11-24T11:41:31.862Z",
  "live": [
   {
    "id": "793797",
    "a": "Revenant XSpark",
    "b": "GOC Esports",
-   "sa": "0",
+   "sa": "1",
    "sb": "1",
    "ev": "VCT 2027: Pacific Kickoff - South Asia Qualifier",
    "ph": "Playoffs–Upper Quarterfinals",
@@ -20,13 +20,15 @@
     },
     {
      "n": "Haven",
-     "a": 0,
-     "b": 0,
-     "st": "l"
+     "a": 13,
+     "b": 5,
+     "st": "d"
     },
     {
      "n": "Summit",
-     "st": "n"
+     "a": 0,
+     "b": 0,
+     "st": "l"
     }
    ],
    "evu": "/event/3206/vct-2027-pacific-kickoff-south-asia-qualifier/playoffs",
