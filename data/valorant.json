@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T10:08:57.141Z",
+ "updated": "2026-11-24T10:12:11.181Z",
  "live": [
   {
    "id": "793797",
@@ -125,20 +125,6 @@
  ],
  "upcoming": [
   {
-   "id": "793735",
-   "a": "Cloud9",
-   "b": "QoR",
-   "sa": "–",
-   "sb": "–",
-   "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ph": "Playoffs –Upper Quarterfinals",
-   "ts": 1795515000000,
-   "url": "https://www.vlr.gg/793735/cloud9-vs-qor-vct-2027-america-kickoff-north-america-qualifier-playoffs-ubqf",
-   "bo": "3",
-   "evu": "/event/3179/vct-2027-america-kickoff-north-america-qualifier-playoffs/playoffs",
-   "fz": 1
-  },
-  {
    "id": "793798",
    "a": "Kryon Esports",
    "b": "RANKERS",
@@ -179,7 +165,10 @@
    "ev": "VCT 2027: EMEA Kickoff - Türkiye Qualifier",
    "ph": "Playoffs–Opening (A)",
    "ts": 1795541400000,
-   "url": "https://www.vlr.gg/793634/fire-flux-esports-vs-trigon-titans-vct-2027-emea-kickoff-t-rkiye-qualifier-playoffs-opening-a"
+   "url": "https://www.vlr.gg/793634/fire-flux-esports-vs-trigon-titans-vct-2027-emea-kickoff-t-rkiye-qualifier-playoffs-opening-a",
+   "bo": "3",
+   "evu": "/event/3177/vct-2027-emea-kickoff-t-rkiye-qualifier/playoffs",
+   "fz": 1
   },
   {
    "id": "793767",
@@ -268,6 +257,17 @@
    "ph": "Playoffs–Opening (B)",
    "ts": 1795626600000,
    "url": "https://www.vlr.gg/793638/pcific-esports-vs-team-apanthe-vct-2027-emea-kickoff-t-rkiye-qualifier-playoffs-opening-b"
+  },
+  {
+   "id": "792042",
+   "a": "SÓ TEM VELHO",
+   "b": "Next",
+   "sa": "–",
+   "sb": "–",
+   "ev": "VCT 2027: America Kickoff - Brazil Qualifier Playoffs",
+   "ph": "Playoffs–Upper Quarterfinals",
+   "ts": 1795720200000,
+   "url": "https://www.vlr.gg/792042/s-tem-velho-vs-next-vct-2027-america-kickoff-brazil-qualifier-playoffs-ubqf"
   }
  ],
  "results": [
@@ -3918,7 +3918,8 @@
   "Trigon Titans": "https://owcdn.net/img/6afa21f3b97d6.png",
   "TROOPERS": "",
   "Bonkers": "https://owcdn.net/img/645fbc5da4a21.png",
-  "Cloud9": "https://owcdn.net/img/628addcbd509e.png"
+  "Finishers": "https://owcdn.net/img/69d48940ee5bf.png",
+  "MeatZn": ""
  },
  "colors": {
   "Maryville University": "#a9171c",
@@ -3941,7 +3942,7 @@
   "Fire Flux Esports": "#18d7f5",
   "Trigon Titans": "",
   "Bonkers": "#e0900e",
-  "Cloud9": "#27afe5"
+  "Finishers": "#4e859b"
  },
  "agents": {
   "gekko": {
@@ -4078,7 +4079,7 @@
   "u": "/event/3179/vct-2027-america-kickoff-north-america-qualifier-playoffs/playoffs",
   "rg": "Americas",
   "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-  "at": 1795514836387,
+  "at": 1795515128431,
   "r": [
    {
     "r": "Round 1 (0-0)",
