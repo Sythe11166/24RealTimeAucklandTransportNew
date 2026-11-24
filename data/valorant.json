@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T17:39:19.135Z",
+ "updated": "2026-11-24T17:40:54.401Z",
  "live": [
   {
    "id": "793634",
@@ -5866,15 +5866,6 @@
    "sb": "1",
    "ev": "VCT 2027: America Kickoff - Brazil Qualifier Playoffs",
    "ts": 1795207200000
-  },
-  {
-   "id": "790841",
-   "a": "Wildcard",
-   "b": "counterfeit",
-   "sa": "2",
-   "sb": "0",
-   "ev": "VCT 2027: America Kickoff - North America Open Qualifier",
-   "ts": 1795455600000
   }
  ]
 }
