@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T09:33:56.868Z",
+ "updated": "2026-11-24T09:35:58.357Z",
  "live": [
   {
    "id": "793797",
@@ -13,22 +13,59 @@
    "url": "https://www.vlr.gg/793797/revenant-xspark-vs-goc-esports-vct-2027-pacific-kickoff-south-asia-qualifier-ubqf",
    "mp": [
     {
-     "n": "TBD",
+     "n": "Sunset",
      "a": 0,
      "b": 0,
      "st": "l"
     },
     {
-     "n": "TBD",
+     "n": "Haven",
      "st": "n"
     },
     {
-     "n": "TBD",
+     "n": "Summit",
      "st": "n"
     }
    ],
    "evu": "/event/3206/vct-2027-pacific-kickoff-south-asia-qualifier/playoffs",
    "bo": "3",
+   "vt": [
+    [
+     "x",
+     "GOC Esports",
+     "Bind"
+    ],
+    [
+     "x",
+     "RNTX",
+     "Corrode"
+    ],
+    [
+     "p",
+     "GOC Esports",
+     "Sunset"
+    ],
+    [
+     "p",
+     "RNTX",
+     "Haven"
+    ],
+    [
+     "x",
+     "GOC Esports",
+     "Abyss"
+    ],
+    [
+     "x",
+     "RNTX",
+     "Lotus"
+    ],
+    [
+     "d",
+     "",
+     "Summit"
+    ]
+   ],
    "h2h": {
     "a": 1,
     "b": 0
