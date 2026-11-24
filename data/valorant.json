@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-24T14:24:53.567Z",
+ "updated": "2026-11-24T14:26:31.939Z",
  "live": [
   {
    "id": "793798",
    "a": "Kryon Esports",
    "b": "RANKERS",
-   "sa": "0",
+   "sa": "1",
    "sb": "1",
    "ev": "VCT 2027: Pacific Kickoff - South Asia Qualifier",
    "ph": "Playoffs–Upper Quarterfinals",
@@ -20,13 +20,15 @@
     },
     {
      "n": "Lotus",
-     "a": 0,
-     "b": 0,
-     "st": "l"
+     "a": 13,
+     "b": 4,
+     "st": "d"
     },
     {
      "n": "Bind",
-     "st": "n"
+     "a": 0,
+     "b": 0,
+     "st": "l"
     }
    ],
    "evu": "/event/3206/vct-2027-pacific-kickoff-south-asia-qualifier/playoffs",
