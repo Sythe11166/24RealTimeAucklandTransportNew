@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T22:23:30.389Z",
+ "updated": "2026-11-24T22:25:06.401Z",
  "live": [
   {
    "id": "793767",
@@ -6085,6 +6085,13 @@
    "ts": 1795674300000
   },
   {
+   "id": "793635",
+   "a": "Eternal Fire",
+   "b": "Trigon Titans",
+   "ev": "VCT 2027: EMEA Kickoff - Türkiye Qualifier",
+   "ts": 1795703100000
+  },
+  {
    "id": "792042",
    "a": "SÓ TEM VELHO",
    "b": "Next",
@@ -6111,6 +6118,13 @@
    "b": "Mafiosos",
    "ev": "VCT 2027: America Kickoff - Brazil Qualifier Playoffs",
    "ts": 1795818300000
+  },
+  {
+   "id": "793636",
+   "a": "Misa Esports",
+   "b": "Fire Flux Esports",
+   "ev": "VCT 2027: EMEA Kickoff - Türkiye Qualifier",
+   "ts": 1795962300000
   }
  ],
  "fr": [
@@ -6229,7 +6243,7 @@
    "sa": "0",
    "sb": "2",
    "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ts": 1795397100000
+   "ts": 1795393500000
   },
   {
    "id": "793336",
