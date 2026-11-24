@@ -1,21 +1,7 @@
 {
- "updated": "2026-11-24T09:17:37.796Z",
+ "updated": "2026-11-24T09:22:26.725Z",
  "live": [],
  "upcoming": [
-  {
-   "id": "793735",
-   "a": "Cloud9",
-   "b": "QoR",
-   "sa": "–",
-   "sb": "–",
-   "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ph": "Playoffs –Upper Quarterfinals",
-   "ts": 1795512000000,
-   "url": "https://www.vlr.gg/793735/cloud9-vs-qor-vct-2027-america-kickoff-north-america-qualifier-playoffs-ubqf",
-   "bo": "3",
-   "evu": "/event/3179/vct-2027-america-kickoff-north-america-qualifier-playoffs/playoffs",
-   "fz": 1
-  },
   {
    "id": "793797",
    "a": "Revenant XSpark",
@@ -57,7 +43,14 @@
    "ev": "VCT 2027: EMEA Kickoff - Türkiye Qualifier",
    "ph": "Playoffs–Opening (A)",
    "ts": 1795530600000,
-   "url": "https://www.vlr.gg/793633/eternal-fire-vs-misa-esports-vct-2027-emea-kickoff-t-rkiye-qualifier-playoffs-opening-a"
+   "url": "https://www.vlr.gg/793633/eternal-fire-vs-misa-esports-vct-2027-emea-kickoff-t-rkiye-qualifier-playoffs-opening-a",
+   "h2h": {
+    "a": 1,
+    "b": 1
+   },
+   "bo": "3",
+   "evu": "/event/3177/vct-2027-emea-kickoff-t-rkiye-qualifier/playoffs",
+   "fz": 1
   },
   {
    "id": "793634",
@@ -146,6 +139,17 @@
    "ph": "Playoffs–Upper Quarterfinals",
    "ts": 1795720800000,
    "url": "https://www.vlr.gg/792042/s-tem-velho-vs-next-vct-2027-america-kickoff-brazil-qualifier-playoffs-ubqf"
+  },
+  {
+   "id": "792043",
+   "a": "Fluxo W7M",
+   "b": "ELEVATE",
+   "sa": "–",
+   "sb": "–",
+   "ev": "VCT 2027: America Kickoff - Brazil Qualifier Playoffs",
+   "ph": "Playoffs–Upper Quarterfinals",
+   "ts": 1795731600000,
+   "url": "https://www.vlr.gg/792043/fluxo-w7m-vs-elevate-vct-2027-america-kickoff-brazil-qualifier-playoffs-ubqf"
   }
  ],
  "results": [
@@ -3796,7 +3800,8 @@
   "Trigon Titans": "https://owcdn.net/img/6afa21f3b97d6.png",
   "TROOPERS": "",
   "Bonkers": "https://owcdn.net/img/645fbc5da4a21.png",
-  "Cloud9": "https://owcdn.net/img/628addcbd509e.png"
+  "Finishers": "https://owcdn.net/img/69d48940ee5bf.png",
+  "MeatZn": ""
  },
  "colors": {
   "Maryville University": "#a9171c",
@@ -3819,7 +3824,7 @@
   "Fire Flux Esports": "#18d7f5",
   "Trigon Titans": "",
   "Bonkers": "#e0900e",
-  "Cloud9": "#27afe5"
+  "Finishers": "#4e859b"
  },
  "agents": {
   "gekko": {
