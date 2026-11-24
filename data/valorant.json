@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T15:17:33.092Z",
+ "updated": "2026-11-24T15:19:08.623Z",
  "live": [
   {
    "id": "793633",
@@ -244,7 +244,7 @@
    "sb": "–",
    "ev": "VCT 2027: EMEA Kickoff - Europe Qualifier Playoffs",
    "ph": "Swiss Stage–Round 1 (0-0)",
-   "ts": 1795619700000,
+   "ts": 1795620000000,
    "url": "https://www.vlr.gg/794016/ucam-esports-club-vs-cgn-esports-vct-2027-emea-kickoff-europe-qualifier-playoffs-swiss-stage-r1-0-0"
   },
   {
@@ -255,7 +255,7 @@
    "sb": "–",
    "ev": "VCT 2027: EMEA Kickoff - Europe Qualifier Playoffs",
    "ph": "Swiss Stage–Round 1 (0-0)",
-   "ts": 1795619700000,
+   "ts": 1795620000000,
    "url": "https://www.vlr.gg/794017/natus-vincere-junior-vs-aurora-gaming-vct-2027-emea-kickoff-europe-qualifier-playoffs-swiss-stage-r1-0-0"
   },
   {
@@ -266,7 +266,7 @@
    "sb": "–",
    "ev": "VCT 2027: EMEA Kickoff - Europe Qualifier Playoffs",
    "ph": "Swiss Stage–Round 1 (0-0)",
-   "ts": 1795619700000,
+   "ts": 1795620000000,
    "url": "https://www.vlr.gg/794018/mandatory-vs-bar-a-esports-vct-2027-emea-kickoff-europe-qualifier-playoffs-swiss-stage-r1-0-0"
   }
  ],
@@ -4440,98 +4440,98 @@
    "a": "UCAM Esports Club",
    "b": "CGN Esports",
    "ev": "VCT 2027: EMEA Kickoff - Europe Qualifier Playoffs",
-   "ts": 1795619700000
+   "ts": 1795620000000
   },
   {
    "id": "794017",
    "a": "Natus Vincere Junior",
    "b": "Aurora Gaming",
    "ev": "VCT 2027: EMEA Kickoff - Europe Qualifier Playoffs",
-   "ts": 1795619700000
+   "ts": 1795620000000
   },
   {
    "id": "794018",
    "a": "Mandatory",
    "b": "Barça eSports",
    "ev": "VCT 2027: EMEA Kickoff - Europe Qualifier Playoffs",
-   "ts": 1795619700000
+   "ts": 1795620000000
   },
   {
    "id": "794019",
    "a": "GIANTX",
    "b": "Pixel Lumina",
    "ev": "VCT 2027: EMEA Kickoff - Europe Qualifier Playoffs",
-   "ts": 1795619700000
+   "ts": 1795620000000
   },
   {
    "id": "793638",
    "a": "PCIFIC Esports",
    "b": "team apanthe",
    "ev": "VCT 2027: EMEA Kickoff - Türkiye Qualifier",
-   "ts": 1795626900000
+   "ts": 1795627200000
   },
   {
    "id": "794020",
    "a": "Eintracht Frankfurt",
    "b": "F9 EICAR",
    "ev": "VCT 2027: EMEA Kickoff - Europe Qualifier Playoffs",
-   "ts": 1795630500000
+   "ts": 1795630800000
   },
   {
    "id": "794021",
    "a": "Enterprise Esports",
    "b": "xXxMasterProMegaTeamxXx",
    "ev": "VCT 2027: EMEA Kickoff - Europe Qualifier Playoffs",
-   "ts": 1795630500000
+   "ts": 1795630800000
   },
   {
    "id": "794022",
    "a": "MIR",
    "b": "La Masia",
    "ev": "VCT 2027: EMEA Kickoff - Europe Qualifier Playoffs",
-   "ts": 1795630500000
+   "ts": 1795630800000
   },
   {
    "id": "794023",
    "a": "Joblife",
    "b": "WIP Esports",
    "ev": "VCT 2027: EMEA Kickoff - Europe Qualifier Playoffs",
-   "ts": 1795630500000
+   "ts": 1795630800000
   },
   {
    "id": "793800",
    "a": "Revenant XSpark",
    "b": "Kryon Esports",
    "ev": "VCT 2027: Pacific Kickoff - South Asia Qualifier",
-   "ts": 1795673700000
+   "ts": 1795674000000
   },
   {
    "id": "792042",
    "a": "SÓ TEM VELHO",
    "b": "Next",
    "ev": "VCT 2027: America Kickoff - Brazil Qualifier Playoffs",
-   "ts": 1795720500000
+   "ts": 1795720800000
   },
   {
    "id": "792043",
    "a": "Fluxo W7M",
    "b": "ELEVATE",
    "ev": "VCT 2027: America Kickoff - Brazil Qualifier Playoffs",
-   "ts": 1795731300000
+   "ts": 1795731600000
   },
   {
    "id": "792044",
    "a": "Team Solid",
    "b": "BRASIL2002",
    "ev": "VCT 2027: America Kickoff - Brazil Qualifier Playoffs",
-   "ts": 1795806900000
+   "ts": 1795807200000
   },
   {
    "id": "792045",
    "a": "2Game Esports",
    "b": "Mafiosos",
    "ev": "VCT 2027: America Kickoff - Brazil Qualifier Playoffs",
-   "ts": 1795817700000
+   "ts": 1795818000000
   }
  ],
  "fr": [
