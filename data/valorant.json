@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-25T10:32:45.167Z",
+ "updated": "2026-11-25T10:34:20.852Z",
  "live": [
   {
    "id": "793804",
    "a": "GOC Esports",
    "b": "RANKERS",
-   "sa": "0",
+   "sa": "1",
    "sb": "0",
    "ev": "VCT 2027: Pacific Kickoff - South Asia Qualifier",
    "ph": "Playoffs–Lower Round 1",
@@ -14,13 +14,15 @@
    "mp": [
     {
      "n": "Summit",
-     "a": 0,
-     "b": 0,
-     "st": "l"
+     "a": 13,
+     "b": 4,
+     "st": "d"
     },
     {
      "n": "Sunset",
-     "st": "n"
+     "a": 0,
+     "b": 0,
+     "st": "l"
     },
     {
      "n": "Haven",
