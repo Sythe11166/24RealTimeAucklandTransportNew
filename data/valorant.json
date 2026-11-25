@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T21:33:55.086Z",
+ "updated": "2026-11-25T21:35:34.089Z",
  "live": [
   {
    "id": "794021",
@@ -162,92 +162,6 @@
    "tg": [
     "MIR",
     "MSA"
-   ],
-   "nk": 1
-  },
-  {
-   "id": "794023",
-   "a": "Joblife",
-   "b": "WIP Esports",
-   "sa": "1",
-   "sb": "0",
-   "ev": "VCT 2027: EMEA Kickoff - Europe Qualifier Playoffs",
-   "ph": "Swiss Stage–Round 1 (0-0)",
-   "ts": 1795631400000,
-   "url": "https://www.vlr.gg/794023/joblife-vs-wip-esports-vct-2027-emea-kickoff-europe-qualifier-playoffs-swiss-stage-r1-0-0",
-   "mp": [
-    {
-     "n": "Sunset",
-     "a": 13,
-     "b": 11,
-     "st": "d"
-    },
-    {
-     "n": "TBD",
-     "a": 0,
-     "b": 0,
-     "st": "l"
-    },
-    {
-     "n": "TBD",
-     "st": "n"
-    }
-   ],
-   "evu": "/event/3233/vct-2027-emea-kickoff-europe-qualifier-playoffs/swiss-stage",
-   "bo": "3",
-   "h2h": {
-    "a": 3,
-    "b": 2
-   },
-   "pl": {
-    "a": [
-     {
-      "n": "westside",
-      "ag": ""
-     },
-     {
-      "n": "WanZeru",
-      "ag": ""
-     },
-     {
-      "n": "Sevire",
-      "ag": ""
-     },
-     {
-      "n": "hoody",
-      "ag": ""
-     },
-     {
-      "n": "al0rante",
-      "ag": ""
-     }
-    ],
-    "b": [
-     {
-      "n": "TakaS",
-      "ag": ""
-     },
-     {
-      "n": "mepeezy",
-      "ag": ""
-     },
-     {
-      "n": "Jesse",
-      "ag": ""
-     },
-     {
-      "n": "Vorwenn",
-      "ag": ""
-     },
-     {
-      "n": "wtex",
-      "ag": ""
-     }
-    ]
-   },
-   "tg": [
-    "JL",
-    "WIP"
    ],
    "nk": 1
   },
@@ -1023,6 +937,388 @@
     "SGE",
     "F9"
    ]
+  },
+  {
+   "id": "794023",
+   "a": "Joblife",
+   "b": "WIP Esports",
+   "sa": "2",
+   "sb": "0",
+   "ev": "VCT 2027: EMEA Kickoff - Europe Qualifier Playoffs",
+   "ph": "Swiss Stage–Round 1 (0-0)",
+   "ts": 1795631400000,
+   "url": "https://www.vlr.gg/794023/joblife-vs-wip-esports-vct-2027-emea-kickoff-europe-qualifier-playoffs-swiss-stage-r1-0-0",
+   "mp": [
+    {
+     "n": "Sunset",
+     "a": 13,
+     "b": 11
+    },
+    {
+     "n": "Haven",
+     "a": 13,
+     "b": 9
+    }
+   ],
+   "sm": [
+    {
+     "n": "Sunset",
+     "a": 13,
+     "b": 11,
+     "pa": [
+      {
+       "n": "Sevire",
+       "k": 19,
+       "d": 15,
+       "a": 4,
+       "ag": "sage"
+      },
+      {
+       "n": "al0rante",
+       "k": 19,
+       "d": 16,
+       "a": 8,
+       "ag": "omen"
+      },
+      {
+       "n": "hoody",
+       "k": 17,
+       "d": 16,
+       "a": 6,
+       "ag": "sova"
+      },
+      {
+       "n": "WanZeru",
+       "k": 16,
+       "d": 17,
+       "a": 5,
+       "ag": "neon"
+      },
+      {
+       "n": "westside",
+       "k": 16,
+       "d": 17,
+       "a": 0,
+       "ag": "chamber"
+      }
+     ],
+     "pb": [
+      {
+       "n": "mepeezy",
+       "k": 21,
+       "d": 17,
+       "a": 6,
+       "ag": "sage"
+      },
+      {
+       "n": "TakaS",
+       "k": 18,
+       "d": 16,
+       "a": 6,
+       "ag": "chamber"
+      },
+      {
+       "n": "Vorwenn",
+       "k": 16,
+       "d": 18,
+       "a": 4,
+       "ag": "sova"
+      },
+      {
+       "n": "Jesse",
+       "k": 14,
+       "d": 17,
+       "a": 10,
+       "ag": "omen"
+      },
+      {
+       "n": "wtex",
+       "k": 12,
+       "d": 19,
+       "a": 8,
+       "ag": "neon"
+      }
+     ],
+     "rd": [
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "d"
+      ],
+      [
+       "a",
+       "d"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "a",
+       "d"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "b"
+      ],
+      [
+       "a",
+       "d"
+      ],
+      [
+       "a",
+       "d"
+      ],
+      [
+       "a",
+       "d"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "d"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "b",
+       "d"
+      ],
+      [
+       "a",
+       "b"
+      ],
+      [
+       "a",
+       "b"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "d"
+      ],
+      [
+       "b",
+       "d"
+      ],
+      [
+       "b",
+       "d"
+      ],
+      [
+       "a",
+       "e"
+      ]
+     ]
+    },
+    {
+     "n": "Haven",
+     "a": 13,
+     "b": 9,
+     "pa": [
+      {
+       "n": "Sevire",
+       "k": 27,
+       "d": 12,
+       "a": 8,
+       "ag": "phoenix"
+      },
+      {
+       "n": "WanZeru",
+       "k": 23,
+       "d": 15,
+       "a": 5,
+       "ag": "neon"
+      },
+      {
+       "n": "al0rante",
+       "k": 12,
+       "d": 15,
+       "a": 11,
+       "ag": "omen"
+      },
+      {
+       "n": "westside",
+       "k": 11,
+       "d": 14,
+       "a": 7,
+       "ag": "cypher"
+      },
+      {
+       "n": "hoody",
+       "k": 9,
+       "d": 12,
+       "a": 5,
+       "ag": "sova"
+      }
+     ],
+     "pb": [
+      {
+       "n": "mepeezy",
+       "k": 17,
+       "d": 18,
+       "a": 10,
+       "ag": "viper"
+      },
+      {
+       "n": "Jesse",
+       "k": 16,
+       "d": 17,
+       "a": 11,
+       "ag": "omen"
+      },
+      {
+       "n": "TakaS",
+       "k": 14,
+       "d": 14,
+       "a": 2,
+       "ag": "chamber"
+      },
+      {
+       "n": "Vorwenn",
+       "k": 11,
+       "d": 14,
+       "a": 4,
+       "ag": "sova"
+      },
+      {
+       "n": "wtex",
+       "k": 10,
+       "d": 19,
+       "a": 3,
+       "ag": "neon"
+      }
+     ],
+     "rd": [
+      [
+       "b",
+       "d"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "b",
+       "d"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "b"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "b"
+      ],
+      [
+       "b",
+       "d"
+      ],
+      [
+       "b",
+       "d"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "d"
+      ],
+      [
+       "a",
+       "d"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "b"
+      ],
+      [
+       "a",
+       "d"
+      ]
+     ]
+    }
+   ],
+   "tg": [
+    "JL",
+    "WIP"
+   ],
+   "h2h": {
+    "a": 3,
+    "b": 2
+   },
+   "bo": "3",
+   "smt": 1795642530627,
+   "et": 1795642531828
   },
   {
    "id": "793639",
@@ -4294,381 +4590,6 @@
     "GODL",
     "SGN"
    ]
-  },
-  {
-   "id": "793804",
-   "a": "GOC Esports",
-   "b": "RANKERS",
-   "sa": "2",
-   "sb": "0",
-   "ev": "VCT 2027: Pacific Kickoff - South Asia Qualifier",
-   "ph": "Playoffs–Lower Round 1",
-   "ts": 1795600800000,
-   "url": "https://www.vlr.gg/793804/goc-esports-vs-rankers-vct-2027-pacific-kickoff-south-asia-qualifier-lr1",
-   "mp": [
-    {
-     "n": "Summit",
-     "a": 13,
-     "b": 4
-    },
-    {
-     "n": "Sunset",
-     "a": 13,
-     "b": 6
-    }
-   ],
-   "sm": [
-    {
-     "n": "Summit",
-     "a": 13,
-     "b": 4,
-     "pa": [
-      {
-       "n": "Envy2K",
-       "k": 17,
-       "d": 13,
-       "a": 9,
-       "ag": "neon"
-      },
-      {
-       "n": "SynX",
-       "k": 15,
-       "d": 10,
-       "a": 7,
-       "ag": "fade"
-      },
-      {
-       "n": "Makaveli",
-       "k": 15,
-       "d": 11,
-       "a": 5,
-       "ag": "omen"
-      },
-      {
-       "n": "khelthuzad",
-       "k": 13,
-       "d": 7,
-       "a": 2,
-       "ag": "chamber"
-      },
-      {
-       "n": "xeon",
-       "k": 13,
-       "d": 9,
-       "a": 5,
-       "ag": "sage"
-      }
-     ],
-     "pb": [
-      {
-       "n": "ZEPHE",
-       "k": 15,
-       "d": 17,
-       "a": 5,
-       "ag": "chamber"
-      },
-      {
-       "n": "Kladenstein",
-       "k": 11,
-       "d": 14,
-       "a": 2,
-       "ag": "fade"
-      },
-      {
-       "n": "Larper",
-       "k": 9,
-       "d": 13,
-       "a": 1,
-       "ag": "waylay"
-      },
-      {
-       "n": "YASH",
-       "k": 8,
-       "d": 14,
-       "a": 9,
-       "ag": "iso"
-      },
-      {
-       "n": "admr",
-       "k": 7,
-       "d": 15,
-       "a": 4,
-       "ag": "omen"
-      }
-     ],
-     "rd": [
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "b"
-      ],
-      [
-       "b",
-       "d"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "b",
-       "d"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "d"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ]
-     ]
-    },
-    {
-     "n": "Sunset",
-     "a": 13,
-     "b": 6,
-     "pa": [
-      {
-       "n": "khelthuzad",
-       "k": 19,
-       "d": 12,
-       "a": 2,
-       "ag": "chamber"
-      },
-      {
-       "n": "SynX",
-       "k": 16,
-       "d": 12,
-       "a": 8,
-       "ag": "fade"
-      },
-      {
-       "n": "Envy2K",
-       "k": 15,
-       "d": 15,
-       "a": 10,
-       "ag": "neon"
-      },
-      {
-       "n": "xeon",
-       "k": 14,
-       "d": 10,
-       "a": 5,
-       "ag": "sage"
-      },
-      {
-       "n": "Makaveli",
-       "k": 10,
-       "d": 10,
-       "a": 10,
-       "ag": "omen"
-      }
-     ],
-     "pb": [
-      {
-       "n": "ZEPHE",
-       "k": 16,
-       "d": 14,
-       "a": 5,
-       "ag": "veto"
-      },
-      {
-       "n": "admr",
-       "k": 12,
-       "d": 16,
-       "a": 8,
-       "ag": "clove"
-      },
-      {
-       "n": "Kladenstein",
-       "k": 11,
-       "d": 16,
-       "a": 4,
-       "ag": "waylay"
-      },
-      {
-       "n": "Larper",
-       "k": 10,
-       "d": 13,
-       "a": 5,
-       "ag": "fade"
-      },
-      {
-       "n": "YASH",
-       "k": 10,
-       "d": 16,
-       "a": 8,
-       "ag": "iso"
-      }
-     ],
-     "rd": [
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "b",
-       "b"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "a",
-       "d"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "a",
-       "t"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "d"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "a",
-       "b"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "b"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ]
-     ]
-    }
-   ],
-   "vt": [
-    [
-     "x",
-     "GOC",
-     "Bind"
-    ],
-    [
-     "x",
-     "RANK",
-     "Corrode"
-    ],
-    [
-     "p",
-     "GOC",
-     "Summit"
-    ],
-    [
-     "p",
-     "RANK",
-     "Sunset"
-    ],
-    [
-     "x",
-     "GOC",
-     "Lotus"
-    ],
-    [
-     "x",
-     "RANK",
-     "Abyss"
-    ],
-    [
-     "d",
-     "",
-     "Haven"
-    ]
-   ],
-   "bo": "3",
-   "smt": 1795605685287,
-   "et": 1795605686489,
-   "tg": [
-    "GOC",
-    "RANK"
-   ]
   }
  ],
  "news": [
@@ -4714,7 +4635,6 @@
   "GodLike Esports": "https://owcdn.net/img/63ebaa91f0e07.png",
   "SIGN Esports": "https://owcdn.net/img/69adf8ca7becf.png",
   "GOC Esports": "https://owcdn.net/img/6b0558757feb7.png",
-  "RANKERS": "",
   "TROOPERS": "",
   "Finishers": "https://owcdn.net/img/69d48940ee5bf.png",
   "Beşiktaş Esports": "https://owcdn.net/img/623de5ba6273f.png",
@@ -5128,6 +5048,15 @@
    "ts": 1795631400000
   },
   {
+   "id": "794023",
+   "a": "Joblife",
+   "b": "WIP Esports",
+   "sa": "2",
+   "sb": "0",
+   "ev": "VCT 2027: EMEA Kickoff - Europe Qualifier Playoffs",
+   "ts": 1795631400000
+  },
+  {
    "id": "793639",
    "a": "Beşiktaş Esports",
    "b": "Galatasaray Esports",
@@ -5531,15 +5460,6 @@
    "sb": "2",
    "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
    "ts": 1795221300000
-  },
-  {
-   "id": "791707",
-   "a": "BRASIL2002",
-   "b": "TIME DO B3M",
-   "sa": "2",
-   "sb": "1",
-   "ev": "VCT 2027: America Kickoff - Brazil Qualifier Playoffs",
-   "ts": 1795217700000
   }
  ]
 }
