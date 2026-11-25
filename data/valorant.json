@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T17:29:41.208Z",
+ "updated": "2026-11-25T17:30:09.937Z",
  "live": [
   {
    "id": "794016",
@@ -345,14 +345,16 @@
    "url": "https://www.vlr.gg/793639/be-ikta-esports-vs-galatasaray-esports-vct-2027-emea-kickoff-t-rkiye-qualifier-playoffs-opening-b",
    "mp": [
     {
+     "n": "Bind",
+     "a": 13,
+     "b": 8,
+     "st": "d"
+    },
+    {
      "n": "TBD",
      "a": 0,
      "b": 0,
      "st": "l"
-    },
-    {
-     "n": "TBD",
-     "st": "n"
     },
     {
      "n": "TBD",
