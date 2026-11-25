@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T10:34:20.852Z",
+ "updated": "2026-11-25T10:37:31.791Z",
  "live": [
   {
    "id": "793804",
@@ -4571,7 +4571,7 @@
   "u": "/event/3206/vct-2027-pacific-kickoff-south-asia-qualifier/playoffs",
   "rg": "Pacific",
   "ev": "VCT 2027: Pacific Kickoff - South Asia Qualifier",
-  "at": 1795602763830,
+  "at": 1795603050448,
   "r": [
    {
     "r": "Round 1",
@@ -5476,7 +5476,7 @@
      [
       "GOC Esports",
       "RANKERS",
-      0,
+      1,
       0,
       "l"
      ]
