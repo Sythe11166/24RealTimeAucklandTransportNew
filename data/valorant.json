@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T09:17:52.274Z",
+ "updated": "2026-11-25T09:21:06.148Z",
  "live": [
   {
    "id": "793803",
@@ -140,14 +140,16 @@
      "st": "d"
     },
     {
+     "n": "Haven",
+     "a": 8,
+     "b": 13,
+     "st": "d"
+    },
+    {
      "n": "TBD",
      "a": 0,
      "b": 0,
      "st": "l"
-    },
-    {
-     "n": "TBD",
-     "st": "n"
     }
    ],
    "evu": "/event/3205/vct-2027-pacific-kickoff-oceania-qualifier/playoffs",
@@ -159,7 +161,7 @@
    "pl": {
     "a": [
      {
-      "n": "nez",
+      "n": "Strame",
       "ag": ""
      },
      {
@@ -167,15 +169,15 @@
       "ag": ""
      },
      {
-      "n": "Strame",
-      "ag": ""
-     },
-     {
-      "n": "LOATHE",
+      "n": "nez",
       "ag": ""
      },
      {
       "n": "RYRY",
+      "ag": ""
+     },
+     {
+      "n": "LOATHE",
       "ag": ""
      }
     ],
@@ -185,11 +187,11 @@
       "ag": ""
      },
      {
-      "n": "Minimise",
+      "n": "SWERL",
       "ag": ""
      },
      {
-      "n": "SWERL",
+      "n": "FLOGA",
       "ag": ""
      },
      {
@@ -197,7 +199,7 @@
       "ag": ""
      },
      {
-      "n": "FLOGA",
+      "n": "Minimise",
       "ag": ""
      }
     ]
