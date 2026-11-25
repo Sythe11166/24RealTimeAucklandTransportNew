@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T17:07:53.048Z",
+ "updated": "2026-11-25T17:09:34.647Z",
  "live": [
   {
    "id": "794016",
@@ -475,24 +475,24 @@
   {
    "id": "793991",
    "a": "9z Globant",
-   "b": "ARG.MIX",
-   "sa": "–",
-   "sb": "–",
-   "ev": "VCT 2027: America Kickoff - LATAM South Qualifier Playoffs",
-   "ph": "Swiss Stage–Round 3 (1-1)",
-   "ts": 1795633200000,
-   "url": "https://www.vlr.gg/793991/9z-globant-vs-arg-mix-vct-2027-america-kickoff-latam-south-qualifier-playoffs-r3-1-1"
-  },
-  {
-   "id": "793992",
-   "a": "TRAMITE",
    "b": "fracasados ny",
    "sa": "–",
    "sb": "–",
    "ev": "VCT 2027: America Kickoff - LATAM South Qualifier Playoffs",
    "ph": "Swiss Stage–Round 3 (1-1)",
+   "ts": 1795633200000,
+   "url": "https://www.vlr.gg/793991/9z-globant-vs-fracasados-ny-vct-2027-america-kickoff-latam-south-qualifier-playoffs-r3-1-1"
+  },
+  {
+   "id": "793992",
+   "a": "ARG.MIX",
+   "b": "TRAMITE",
+   "sa": "–",
+   "sb": "–",
+   "ev": "VCT 2027: America Kickoff - LATAM South Qualifier Playoffs",
+   "ph": "Swiss Stage–Round 3 (1-1)",
    "ts": 1795644000000,
-   "url": "https://www.vlr.gg/793992/tramite-vs-fracasados-ny-vct-2027-america-kickoff-latam-south-qualifier-playoffs-r3-1-1"
+   "url": "https://www.vlr.gg/793992/arg-mix-vs-tramite-vct-2027-america-kickoff-latam-south-qualifier-playoffs-r3-1-1"
   },
   {
    "id": "793800",
@@ -4707,7 +4707,7 @@
   "u": "/event/3206/vct-2027-pacific-kickoff-south-asia-qualifier/playoffs",
   "rg": "Pacific",
   "ev": "VCT 2027: Pacific Kickoff - South Asia Qualifier",
-  "at": 1795626241546,
+  "at": 1795626573365,
   "r": [
    {
     "r": "Round 1",
@@ -5745,14 +5745,14 @@
   {
    "id": "793991",
    "a": "9z Globant",
-   "b": "ARG.MIX",
+   "b": "fracasados ny",
    "ev": "VCT 2027: America Kickoff - LATAM South Qualifier Playoffs",
    "ts": 1795633200000
   },
   {
    "id": "793992",
-   "a": "TRAMITE",
-   "b": "fracasados ny",
+   "a": "ARG.MIX",
+   "b": "TRAMITE",
    "ev": "VCT 2027: America Kickoff - LATAM South Qualifier Playoffs",
    "ts": 1795644000000
   },
