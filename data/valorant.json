@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T10:27:54.366Z",
+ "updated": "2026-11-25T10:29:30.099Z",
  "live": [
   {
    "id": "793804",
@@ -3757,7 +3757,7 @@
    "sb": "1",
    "ev": "VCT 2027: Pacific Kickoff - South Asia Qualifier",
    "ph": "Playoffs–Upper Quarterfinals",
-   "ts": 1795516200000,
+   "ts": 1795512600000,
    "url": "https://www.vlr.gg/793797/revenant-xspark-vs-goc-esports-vct-2027-pacific-kickoff-south-asia-qualifier-ubqf",
    "mp": [
     {
@@ -5824,7 +5824,7 @@
    "sa": "2",
    "sb": "1",
    "ev": "VCT 2027: Pacific Kickoff - South Asia Qualifier",
-   "ts": 1795516200000
+   "ts": 1795512600000
   },
   {
    "id": "793565",
@@ -5833,7 +5833,7 @@
    "sa": "2",
    "sb": "0",
    "ev": "VCT 2027: America Kickoff - LATAM South Qualifier Playoffs",
-   "ts": 1795473000000
+   "ts": 1795469400000
   },
   {
    "id": "793563",
@@ -5851,7 +5851,7 @@
    "sa": "0",
    "sb": "2",
    "ev": "VCT 2027: Pacific Kickoff - South Asia Qualifier",
-   "ts": 1795447800000
+   "ts": 1795444200000
   },
   {
    "id": "793795",
@@ -5869,7 +5869,7 @@
    "sa": "2",
    "sb": "0",
    "ev": "VCT 2027: America Kickoff - LATAM North Qualifier Playoffs",
-   "ts": 1795397400000
+   "ts": 1795393800000
   },
   {
    "id": "793335",
@@ -5941,7 +5941,7 @@
    "sa": "0",
    "sb": "2",
    "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ts": 1795314600000
+   "ts": 1795311000000
   },
   {
    "id": "792908",
@@ -6031,7 +6031,7 @@
    "sa": "2",
    "sb": "1",
    "ev": "VCT 2027: EMEA Kickoff - MENA Qualifier",
-   "ts": 1795289400000
+   "ts": 1795285800000
   },
   {
    "id": "792550",
@@ -6049,7 +6049,7 @@
    "sa": "0",
    "sb": "2",
    "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ts": 1795228200000
+   "ts": 1795224600000
   },
   {
    "id": "791683",
@@ -6058,7 +6058,7 @@
    "sa": "2",
    "sb": "1",
    "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ts": 1795224600000
+   "ts": 1795221000000
   },
   {
    "id": "791684",
