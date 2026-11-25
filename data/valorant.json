@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T10:14:48.673Z",
+ "updated": "2026-11-25T10:16:25.031Z",
  "live": [
   {
    "id": "793804",
@@ -13,22 +13,59 @@
    "url": "https://www.vlr.gg/793804/goc-esports-vs-rankers-vct-2027-pacific-kickoff-south-asia-qualifier-lr1",
    "mp": [
     {
-     "n": "TBD",
+     "n": "Summit",
      "a": 0,
      "b": 0,
      "st": "l"
     },
     {
-     "n": "TBD",
+     "n": "Sunset",
      "st": "n"
     },
     {
-     "n": "TBD",
+     "n": "Haven",
      "st": "n"
     }
    ],
    "evu": "/event/3206/vct-2027-pacific-kickoff-south-asia-qualifier/playoffs",
    "bo": "3",
+   "vt": [
+    [
+     "x",
+     "GOC",
+     "Bind"
+    ],
+    [
+     "x",
+     "RANK",
+     "Corrode"
+    ],
+    [
+     "p",
+     "GOC",
+     "Summit"
+    ],
+    [
+     "p",
+     "RANK",
+     "Sunset"
+    ],
+    [
+     "x",
+     "GOC",
+     "Lotus"
+    ],
+    [
+     "x",
+     "RANK",
+     "Abyss"
+    ],
+    [
+     "d",
+     "",
+     "Haven"
+    ]
+   ],
    "pl": {
     "a": [
      {
@@ -4532,7 +4569,7 @@
   "u": "/event/3206/vct-2027-pacific-kickoff-south-asia-qualifier/playoffs",
   "rg": "Pacific",
   "ev": "VCT 2027: Pacific Kickoff - South Asia Qualifier",
-  "at": 1795601496594,
+  "at": 1795601783722,
   "r": [
    {
     "r": "Round 1",
