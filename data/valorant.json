@@ -1,174 +1,6 @@
 {
- "updated": "2026-11-25T16:33:44.897Z",
+ "updated": "2026-11-25T16:35:23.651Z",
  "live": [
-  {
-   "id": "793638",
-   "a": "PCIFIC Esports",
-   "b": "team apanthe",
-   "sa": "1",
-   "sb": "0",
-   "ev": "VCT 2027: EMEA Kickoff - Türkiye Qualifier",
-   "ph": "Playoffs–Opening (B)",
-   "ts": 1795627800000,
-   "url": "https://www.vlr.gg/793638/pcific-esports-vs-team-apanthe-vct-2027-emea-kickoff-t-rkiye-qualifier-playoffs-opening-b",
-   "mp": [
-    {
-     "n": "Lotus",
-     "a": 13,
-     "b": 10,
-     "st": "d"
-    },
-    {
-     "n": "Abyss",
-     "a": 13,
-     "b": 5,
-     "st": "d"
-    },
-    {
-     "n": "TBD",
-     "a": 0,
-     "b": 0,
-     "st": "l"
-    }
-   ],
-   "evu": "/event/3177/vct-2027-emea-kickoff-t-rkiye-qualifier/playoffs",
-   "bo": "3",
-   "pl": {
-    "a": [
-     {
-      "n": "Gloomy",
-      "ag": ""
-     },
-     {
-      "n": "sh0ut",
-      "ag": ""
-     },
-     {
-      "n": "envex",
-      "ag": ""
-     },
-     {
-      "n": "sh1ngo",
-      "ag": ""
-     },
-     {
-      "n": "VdekJeNN",
-      "ag": ""
-     }
-    ],
-    "b": [
-     {
-      "n": "siskoefe",
-      "ag": ""
-     },
-     {
-      "n": "apanthe",
-      "ag": ""
-     },
-     {
-      "n": "ScooPy",
-      "ag": ""
-     },
-     {
-      "n": "deidames",
-      "ag": ""
-     },
-     {
-      "n": "Frosty",
-      "ag": ""
-     }
-    ]
-   },
-   "tg": [
-    "PCF",
-    "apan"
-   ],
-   "nk": 1
-  },
-  {
-   "id": "793639",
-   "a": "Beşiktaş Esports",
-   "b": "Galatasaray Esports",
-   "sa": "0",
-   "sb": "0",
-   "ev": "VCT 2027: EMEA Kickoff - Türkiye Qualifier",
-   "ph": "Playoffs–Opening (B)",
-   "ts": 1795617000000,
-   "url": "https://www.vlr.gg/793639/be-ikta-esports-vs-galatasaray-esports-vct-2027-emea-kickoff-t-rkiye-qualifier-playoffs-opening-b",
-   "mp": [
-    {
-     "n": "TBD",
-     "a": 0,
-     "b": 0,
-     "st": "l"
-    },
-    {
-     "n": "TBD",
-     "st": "n"
-    },
-    {
-     "n": "TBD",
-     "st": "n"
-    }
-   ],
-   "evu": "/event/3177/vct-2027-emea-kickoff-t-rkiye-qualifier/playoffs",
-   "bo": "3",
-   "h2h": {
-    "a": 1,
-    "b": 0
-   },
-   "pl": {
-    "a": [
-     {
-      "n": "wezzy",
-      "ag": ""
-     },
-     {
-      "n": "influx",
-      "ag": ""
-     },
-     {
-      "n": "TBD",
-      "ag": ""
-     },
-     {
-      "n": "TBD",
-      "ag": ""
-     },
-     {
-      "n": "TBD",
-      "ag": ""
-     }
-    ],
-    "b": [
-     {
-      "n": "Padisah",
-      "ag": ""
-     },
-     {
-      "n": "Zeask",
-      "ag": ""
-     },
-     {
-      "n": "nekky",
-      "ag": ""
-     },
-     {
-      "n": "Slaughter",
-      "ag": ""
-     },
-     {
-      "n": "WerlasS",
-      "ag": ""
-     }
-    ]
-   },
-   "tg": [
-    "BJK",
-    "GS"
-   ],
-   "nk": 1
-  },
   {
    "id": "794016",
    "a": "UCAM Esports Club",
@@ -490,6 +322,90 @@
    "tg": [
     "GX",
     "PXL"
+   ],
+   "nk": 1
+  },
+  {
+   "id": "793639",
+   "a": "Beşiktaş Esports",
+   "b": "Galatasaray Esports",
+   "sa": "0",
+   "sb": "0",
+   "ev": "VCT 2027: EMEA Kickoff - Türkiye Qualifier",
+   "ph": "Playoffs–Opening (B)",
+   "ts": 1795617000000,
+   "url": "https://www.vlr.gg/793639/be-ikta-esports-vs-galatasaray-esports-vct-2027-emea-kickoff-t-rkiye-qualifier-playoffs-opening-b",
+   "mp": [
+    {
+     "n": "TBD",
+     "a": 0,
+     "b": 0,
+     "st": "l"
+    },
+    {
+     "n": "TBD",
+     "st": "n"
+    },
+    {
+     "n": "TBD",
+     "st": "n"
+    }
+   ],
+   "evu": "/event/3177/vct-2027-emea-kickoff-t-rkiye-qualifier/playoffs",
+   "bo": "3",
+   "h2h": {
+    "a": 1,
+    "b": 0
+   },
+   "pl": {
+    "a": [
+     {
+      "n": "wezzy",
+      "ag": ""
+     },
+     {
+      "n": "influx",
+      "ag": ""
+     },
+     {
+      "n": "TBD",
+      "ag": ""
+     },
+     {
+      "n": "TBD",
+      "ag": ""
+     },
+     {
+      "n": "TBD",
+      "ag": ""
+     }
+    ],
+    "b": [
+     {
+      "n": "Padisah",
+      "ag": ""
+     },
+     {
+      "n": "Zeask",
+      "ag": ""
+     },
+     {
+      "n": "nekky",
+      "ag": ""
+     },
+     {
+      "n": "Slaughter",
+      "ag": ""
+     },
+     {
+      "n": "WerlasS",
+      "ag": ""
+     }
+    ]
+   },
+   "tg": [
+    "BJK",
+    "GS"
    ],
    "nk": 1
   }
@@ -988,12 +904,13 @@
      ]
     }
    ],
+   "bo": "3",
+   "smt": 1795624420200,
    "tg": [
     "PCF",
     "apan"
    ],
-   "bo": "3",
-   "smt": 1795624420200
+   "et": 1795624522309
   },
   {
    "id": "793799",
@@ -5919,6 +5836,13 @@
    "id": "793735",
    "a": "Cloud9",
    "b": "QoR",
+   "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
+   "ts": 1796160900000
+  },
+  {
+   "id": "793736",
+   "a": "YFP",
+   "b": "Oafs",
    "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
    "ts": 1796160900000
   }
