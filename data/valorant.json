@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T09:02:51.857Z",
+ "updated": "2026-11-25T09:04:30.345Z",
  "live": [
   {
    "id": "793803",
@@ -207,92 +207,6 @@
     "BONK"
    ],
    "nk": 1
-  },
-  {
-   "id": "790433",
-   "a": "Finishers",
-   "b": "MeatZn",
-   "sa": "0",
-   "sb": "1",
-   "ev": "VCT 2027: Pacific Kickoff - Oceania Qualifier",
-   "ph": "Playoffs–Upper Semifinals",
-   "ts": 1795593600000,
-   "url": "https://www.vlr.gg/790433/finishers-vs-meatzn-vct-2027-pacific-kickoff-oceania-qualifier-ubsf",
-   "mp": [
-    {
-     "n": "Bind",
-     "a": 9,
-     "b": 13,
-     "st": "d"
-    },
-    {
-     "n": "TBD",
-     "a": 0,
-     "b": 0,
-     "st": "l"
-    },
-    {
-     "n": "TBD",
-     "st": "n"
-    }
-   ],
-   "evu": "/event/3205/vct-2027-pacific-kickoff-oceania-qualifier/playoffs",
-   "bo": "3",
-   "h2h": {
-    "a": 0,
-    "b": 1
-   },
-   "pl": {
-    "a": [
-     {
-      "n": "RAMEN",
-      "ag": ""
-     },
-     {
-      "n": "Dasani",
-      "ag": ""
-     },
-     {
-      "n": "onob",
-      "ag": ""
-     },
-     {
-      "n": "benguin",
-      "ag": ""
-     },
-     {
-      "n": "ROKI",
-      "ag": ""
-     }
-    ],
-    "b": [
-     {
-      "n": "Swifty",
-      "ag": ""
-     },
-     {
-      "n": "BiggieCheese",
-      "ag": ""
-     },
-     {
-      "n": "Blessed",
-      "ag": ""
-     },
-     {
-      "n": "FETA",
-      "ag": ""
-     },
-     {
-      "n": "RESLYDE",
-      "ag": ""
-     }
-    ]
-   },
-   "tg": [
-    "FIN",
-    "MZN"
-   ],
-   "nk": 1
   }
  ],
  "upcoming": [
@@ -443,6 +357,368 @@
   }
  ],
  "results": [
+  {
+   "id": "790433",
+   "a": "Finishers",
+   "b": "MeatZn",
+   "sa": "0",
+   "sb": "2",
+   "ev": "VCT 2027: Pacific Kickoff - Oceania Qualifier",
+   "ph": "Playoffs–Upper Semifinals",
+   "ts": 1795593600000,
+   "url": "https://www.vlr.gg/790433/finishers-vs-meatzn-vct-2027-pacific-kickoff-oceania-qualifier-ubsf",
+   "mp": [
+    {
+     "n": "Bind",
+     "a": 9,
+     "b": 13
+    },
+    {
+     "n": "Sunset",
+     "a": 6,
+     "b": 13
+    }
+   ],
+   "sm": [
+    {
+     "n": "Bind",
+     "a": 9,
+     "b": 13,
+     "pa": [
+      {
+       "n": "onob",
+       "k": 18,
+       "d": 16,
+       "a": 5,
+       "ag": "chamber"
+      },
+      {
+       "n": "RAMEN",
+       "k": 16,
+       "d": 17,
+       "a": 8,
+       "ag": "skye"
+      },
+      {
+       "n": "benguin",
+       "k": 15,
+       "d": 17,
+       "a": 4,
+       "ag": "viper"
+      },
+      {
+       "n": "Dasani",
+       "k": 9,
+       "d": 17,
+       "a": 1,
+       "ag": "hush"
+      },
+      {
+       "n": "ROKI",
+       "k": 8,
+       "d": 14,
+       "a": 9,
+       "ag": "brimstone"
+      }
+     ],
+     "pb": [
+      {
+       "n": "Swifty",
+       "k": 20,
+       "d": 15,
+       "a": 5,
+       "ag": "veto"
+      },
+      {
+       "n": "Blessed",
+       "k": 17,
+       "d": 12,
+       "a": 11,
+       "ag": "fade"
+      },
+      {
+       "n": "RESLYDE",
+       "k": 17,
+       "d": 12,
+       "a": 4,
+       "ag": "hush"
+      },
+      {
+       "n": "FETA",
+       "k": 14,
+       "d": 15,
+       "a": 6,
+       "ag": "neon"
+      },
+      {
+       "n": "BiggieCheese",
+       "k": 13,
+       "d": 12,
+       "a": 7,
+       "ag": "brimstone"
+      }
+     ],
+     "rd": [
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "b"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "t"
+      ],
+      [
+       "b",
+       "t"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "t"
+      ],
+      [
+       "b",
+       "b"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "b"
+      ],
+      [
+       "b",
+       "b"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ]
+     ]
+    },
+    {
+     "n": "Sunset",
+     "a": 6,
+     "b": 13,
+     "pa": [
+      {
+       "n": "Dasani",
+       "k": 15,
+       "d": 16,
+       "a": 4,
+       "ag": "neon"
+      },
+      {
+       "n": "onob",
+       "k": 15,
+       "d": 18,
+       "a": 1,
+       "ag": "chamber"
+      },
+      {
+       "n": "benguin",
+       "k": 9,
+       "d": 17,
+       "a": 2,
+       "ag": "sage"
+      },
+      {
+       "n": "ROKI",
+       "k": 8,
+       "d": 15,
+       "a": 4,
+       "ag": "omen"
+      },
+      {
+       "n": "RAMEN",
+       "k": 6,
+       "d": 19,
+       "a": 4,
+       "ag": "sova"
+      }
+     ],
+     "pb": [
+      {
+       "n": "RESLYDE",
+       "k": 21,
+       "d": 12,
+       "a": 4,
+       "ag": "neon"
+      },
+      {
+       "n": "Blessed",
+       "k": 19,
+       "d": 9,
+       "a": 7,
+       "ag": "fade"
+      },
+      {
+       "n": "BiggieCheese",
+       "k": 18,
+       "d": 10,
+       "a": 13,
+       "ag": "omen"
+      },
+      {
+       "n": "Swifty",
+       "k": 16,
+       "d": 12,
+       "a": 5,
+       "ag": "veto"
+      },
+      {
+       "n": "FETA",
+       "k": 11,
+       "d": 10,
+       "a": 9,
+       "ag": "sage"
+      }
+     ],
+     "rd": [
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "a",
+       "d"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ]
+     ]
+    }
+   ],
+   "tg": [
+    "FIN",
+    "MZN"
+   ],
+   "h2h": {
+    "a": 0,
+    "b": 1
+   },
+   "bo": "3",
+   "smt": 1795597466782,
+   "et": 1795597467981
+  },
   {
    "id": "793768",
    "a": "Contra",
@@ -4078,381 +4354,6 @@
     "UW",
     "ARG."
    ]
-  },
-  {
-   "id": "793796",
-   "a": "ZEXAR ESPORTS",
-   "b": "SIGN Esports",
-   "sa": "0",
-   "sb": "2",
-   "ev": "VCT 2027: Pacific Kickoff - South Asia Qualifier",
-   "ph": "Playoffs–Upper Quarterfinals",
-   "ts": 1795446300000,
-   "url": "https://www.vlr.gg/793796/zexar-esports-vs-sign-esports-vct-2027-pacific-kickoff-south-asia-qualifier-ubqf",
-   "mp": [
-    {
-     "n": "Sunset",
-     "a": 5,
-     "b": 13
-    },
-    {
-     "n": "Corrode",
-     "a": 4,
-     "b": 13
-    }
-   ],
-   "sm": [
-    {
-     "n": "Sunset",
-     "a": 5,
-     "b": 13,
-     "pa": [
-      {
-       "n": "BlooDy13",
-       "k": 13,
-       "d": 15,
-       "a": 7,
-       "ag": "phoenix"
-      },
-      {
-       "n": "fluxx",
-       "k": 12,
-       "d": 16,
-       "a": 5,
-       "ag": "chamber"
-      },
-      {
-       "n": "OBITO",
-       "k": 10,
-       "d": 16,
-       "a": 5,
-       "ag": "omen"
-      },
-      {
-       "n": "howaboutn0",
-       "k": 9,
-       "d": 16,
-       "a": 6,
-       "ag": "sova"
-      },
-      {
-       "n": "GhostyXD",
-       "k": 9,
-       "d": 17,
-       "a": 5,
-       "ag": "neon"
-      }
-     ],
-     "pb": [
-      {
-       "n": "Yuvi",
-       "k": 21,
-       "d": 9,
-       "a": 15,
-       "ag": "phoenix"
-      },
-      {
-       "n": "Deadly10",
-       "k": 18,
-       "d": 13,
-       "a": 4,
-       "ag": "cypher"
-      },
-      {
-       "n": "Garv",
-       "k": 17,
-       "d": 10,
-       "a": 4,
-       "ag": "neon"
-      },
-      {
-       "n": "Russ",
-       "k": 15,
-       "d": 9,
-       "a": 8,
-       "ag": "omen"
-      },
-      {
-       "n": "tricky",
-       "k": 9,
-       "d": 12,
-       "a": 10,
-       "ag": "sova"
-      }
-     ],
-     "rd": [
-      [
-       "b",
-       "t"
-      ],
-      [
-       "b",
-       "d"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "b",
-       "d"
-      ],
-      [
-       "b",
-       "d"
-      ],
-      [
-       "b",
-       "d"
-      ],
-      [
-       "b",
-       "d"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "d"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "a",
-       "d"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "a",
-       "d"
-      ],
-      [
-       "a",
-       "d"
-      ],
-      [
-       "b",
-       "e"
-      ]
-     ]
-    },
-    {
-     "n": "Corrode",
-     "a": 4,
-     "b": 13,
-     "pa": [
-      {
-       "n": "fluxx",
-       "k": 19,
-       "d": 13,
-       "a": 1,
-       "ag": "chamber"
-      },
-      {
-       "n": "BlooDy13",
-       "k": 15,
-       "d": 15,
-       "a": 7,
-       "ag": "omen"
-      },
-      {
-       "n": "OBITO",
-       "k": 14,
-       "d": 14,
-       "a": 2,
-       "ag": "iso"
-      },
-      {
-       "n": "GhostyXD",
-       "k": 7,
-       "d": 15,
-       "a": 4,
-       "ag": "neon"
-      },
-      {
-       "n": "howaboutn0",
-       "k": 3,
-       "d": 15,
-       "a": 3,
-       "ag": "fade"
-      }
-     ],
-     "pb": [
-      {
-       "n": "Garv",
-       "k": 17,
-       "d": 14,
-       "a": 5,
-       "ag": "neon"
-      },
-      {
-       "n": "Russ",
-       "k": 16,
-       "d": 8,
-       "a": 16,
-       "ag": "omen"
-      },
-      {
-       "n": "tricky",
-       "k": 15,
-       "d": 11,
-       "a": 10,
-       "ag": "fade"
-      },
-      {
-       "n": "Deadly10",
-       "k": 14,
-       "d": 12,
-       "a": 4,
-       "ag": "chamber"
-      },
-      {
-       "n": "Yuvi",
-       "k": 10,
-       "d": 13,
-       "a": 11,
-       "ag": "waylay"
-      }
-     ],
-     "rd": [
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "d"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "d"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "b",
-       "d"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ]
-     ]
-    }
-   ],
-   "vt": [
-    [
-     "x",
-     "ZXR",
-     "Lotus"
-    ],
-    [
-     "x",
-     "SGN",
-     "Summit"
-    ],
-    [
-     "p",
-     "ZXR",
-     "Sunset"
-    ],
-    [
-     "p",
-     "SGN",
-     "Corrode"
-    ],
-    [
-     "x",
-     "ZXR",
-     "Abyss"
-    ],
-    [
-     "x",
-     "SGN",
-     "Bind"
-    ],
-    [
-     "d",
-     "",
-     "Haven"
-    ]
-   ],
-   "h2h": {
-    "a": 0,
-    "b": 1
-   },
-   "bo": "3",
-   "smt": 1795451246152,
-   "et": 1795451247354,
-   "tg": [
-    "ZXR",
-    "SGN"
-   ]
   }
  ],
  "news": [
@@ -5024,6 +4925,15 @@
  ],
  "fr": [
   {
+   "id": "790433",
+   "a": "Finishers",
+   "b": "MeatZn",
+   "sa": "0",
+   "sb": "2",
+   "ev": "VCT 2027: Pacific Kickoff - Oceania Qualifier",
+   "ts": 1795593600000
+  },
+  {
    "id": "793768",
    "a": "Contra",
    "b": "STREAMER ARENA",
@@ -5417,15 +5327,6 @@
    "sa": "2",
    "sb": "0",
    "ev": "VCT 2027: America Kickoff - North America Open Qualifier",
-   "ts": 1795424700000
-  },
-  {
-   "id": "790757",
-   "a": "Barça eSports",
-   "b": "CGN Esports",
-   "sa": "0",
-   "sb": "2",
-   "ev": "VCT 2027: EMEA Kickoff - Europe Open Qualifier",
    "ts": 1795424700000
   }
  ]
