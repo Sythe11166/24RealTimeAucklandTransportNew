@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T19:44:46.723Z",
+ "updated": "2026-11-25T19:46:25.665Z",
  "live": [
   {
    "id": "794020",
@@ -167,7 +167,7 @@
    "id": "794022",
    "a": "MIR",
    "b": "La Masia",
-   "sa": "0",
+   "sa": "1",
    "sb": "0",
    "ev": "VCT 2027: EMEA Kickoff - Europe Qualifier Playoffs",
    "ph": "Swiss Stage–Round 1 (0-0)",
@@ -175,14 +175,16 @@
    "url": "https://www.vlr.gg/794022/mir-vs-la-masia-vct-2027-emea-kickoff-europe-qualifier-playoffs-swiss-stage-r1-0-0",
    "mp": [
     {
+     "n": "Abyss",
+     "a": 13,
+     "b": 8,
+     "st": "d"
+    },
+    {
      "n": "TBD",
      "a": 0,
      "b": 0,
      "st": "l"
-    },
-    {
-     "n": "TBD",
-     "st": "n"
     },
     {
      "n": "TBD",
