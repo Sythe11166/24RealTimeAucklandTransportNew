@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T08:38:07.250Z",
+ "updated": "2026-11-25T08:39:44.607Z",
  "live": [
   {
    "id": "793803",
@@ -127,21 +127,23 @@
    "a": "TROOPERS",
    "b": "Bonkers",
    "sa": "0",
-   "sb": "0",
+   "sb": "1",
    "ev": "VCT 2027: Pacific Kickoff - Oceania Qualifier",
    "ph": "Playoffs–Upper Semifinals",
    "ts": 1795593600000,
    "url": "https://www.vlr.gg/790432/troopers-vs-bonkers-vct-2027-pacific-kickoff-oceania-qualifier-ubsf",
    "mp": [
     {
+     "n": "Summit",
+     "a": 3,
+     "b": 13,
+     "st": "d"
+    },
+    {
      "n": "TBD",
      "a": 0,
      "b": 0,
      "st": "l"
-    },
-    {
-     "n": "TBD",
-     "st": "n"
     },
     {
      "n": "TBD",
@@ -5217,7 +5219,7 @@
    "sa": "1",
    "sb": "2",
    "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ts": 1795311600000
+   "ts": 1795308000000
   },
   {
    "id": "792035",
