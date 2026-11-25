@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T18:29:49.184Z",
+ "updated": "2026-11-25T18:31:35.840Z",
  "live": [
   {
    "id": "794016",
@@ -254,62 +254,333 @@
     "GS"
    ],
    "nk": 1
-  }
- ],
- "upcoming": [
+  },
   {
    "id": "794020",
    "a": "Eintracht Frankfurt",
    "b": "F9 EICAR",
-   "sa": "–",
-   "sb": "–",
+   "sa": "0",
+   "sb": "0",
    "ev": "VCT 2027: EMEA Kickoff - Europe Qualifier Playoffs",
    "ph": "Swiss Stage–Round 1 (0-0)",
    "ts": 1795631400000,
    "url": "https://www.vlr.gg/794020/eintracht-frankfurt-vs-f9-eicar-vct-2027-emea-kickoff-europe-qualifier-playoffs-swiss-stage-r1-0-0",
-   "bo": "3",
+   "mp": [
+    {
+     "n": "TBD",
+     "a": 0,
+     "b": 0,
+     "st": "l"
+    },
+    {
+     "n": "TBD",
+     "st": "n"
+    },
+    {
+     "n": "TBD",
+     "st": "n"
+    }
+   ],
    "evu": "/event/3233/vct-2027-emea-kickoff-europe-qualifier-playoffs/swiss-stage",
-   "fz": 1
+   "bo": "3",
+   "pl": {
+    "a": [
+     {
+      "n": "azury",
+      "ag": ""
+     },
+     {
+      "n": "musashi",
+      "ag": ""
+     },
+     {
+      "n": "Jamelinho213",
+      "ag": ""
+     },
+     {
+      "n": "Fizzy",
+      "ag": ""
+     },
+     {
+      "n": "TBD",
+      "ag": ""
+     }
+    ],
+    "b": [
+     {
+      "n": "H1ber",
+      "ag": ""
+     },
+     {
+      "n": "Kajuks",
+      "ag": ""
+     },
+     {
+      "n": "Yohpa",
+      "ag": ""
+     },
+     {
+      "n": "TITOUNE",
+      "ag": ""
+     },
+     {
+      "n": "poeth",
+      "ag": ""
+     }
+    ]
+   },
+   "tg": [
+    "SGE",
+    "F9"
+   ],
+   "nk": 1
   },
   {
    "id": "794021",
    "a": "Enterprise Esports",
    "b": "xXxMasterProMegaTeamxXx",
-   "sa": "–",
-   "sb": "–",
+   "sa": "0",
+   "sb": "0",
    "ev": "VCT 2027: EMEA Kickoff - Europe Qualifier Playoffs",
    "ph": "Swiss Stage–Round 1 (0-0)",
    "ts": 1795631400000,
    "url": "https://www.vlr.gg/794021/enterprise-esports-vs-xxxmasterpromegateamxxx-vct-2027-emea-kickoff-europe-qualifier-playoffs-swiss-stage-r1-0-0",
-   "bo": "3",
+   "mp": [
+    {
+     "n": "TBD",
+     "a": 0,
+     "b": 0,
+     "st": "l"
+    },
+    {
+     "n": "TBD",
+     "st": "n"
+    },
+    {
+     "n": "TBD",
+     "st": "n"
+    }
+   ],
    "evu": "/event/3233/vct-2027-emea-kickoff-europe-qualifier-playoffs/swiss-stage",
-   "fz": 1
+   "bo": "3",
+   "pl": {
+    "a": [
+     {
+      "n": "kozzy",
+      "ag": ""
+     },
+     {
+      "n": "TBD",
+      "ag": ""
+     },
+     {
+      "n": "TBD",
+      "ag": ""
+     },
+     {
+      "n": "TBD",
+      "ag": ""
+     },
+     {
+      "n": "TBD",
+      "ag": ""
+     }
+    ],
+    "b": [
+     {
+      "n": "shawN",
+      "ag": ""
+     },
+     {
+      "n": "moner",
+      "ag": ""
+     },
+     {
+      "n": "adore",
+      "ag": ""
+     },
+     {
+      "n": "ORI4K",
+      "ag": ""
+     },
+     {
+      "n": "Michel",
+      "ag": ""
+     }
+    ]
+   },
+   "tg": [
+    "EP",
+    "MPMT"
+   ],
+   "nk": 1
   },
   {
    "id": "794022",
    "a": "MIR",
    "b": "La Masia",
-   "sa": "–",
-   "sb": "–",
+   "sa": "0",
+   "sb": "0",
    "ev": "VCT 2027: EMEA Kickoff - Europe Qualifier Playoffs",
    "ph": "Swiss Stage–Round 1 (0-0)",
    "ts": 1795631400000,
    "url": "https://www.vlr.gg/794022/mir-vs-la-masia-vct-2027-emea-kickoff-europe-qualifier-playoffs-swiss-stage-r1-0-0",
-   "bo": "3",
+   "mp": [
+    {
+     "n": "TBD",
+     "a": 0,
+     "b": 0,
+     "st": "l"
+    },
+    {
+     "n": "TBD",
+     "st": "n"
+    },
+    {
+     "n": "TBD",
+     "st": "n"
+    }
+   ],
    "evu": "/event/3233/vct-2027-emea-kickoff-europe-qualifier-playoffs/swiss-stage",
-   "fz": 1
+   "bo": "3",
+   "pl": {
+    "a": [
+     {
+      "n": "Bishepss",
+      "ag": ""
+     },
+     {
+      "n": "reblyik",
+      "ag": ""
+     },
+     {
+      "n": "innersavage",
+      "ag": ""
+     },
+     {
+      "n": "kospa1n",
+      "ag": ""
+     },
+     {
+      "n": "Indra",
+      "ag": ""
+     }
+    ],
+    "b": [
+     {
+      "n": "nayte",
+      "ag": ""
+     },
+     {
+      "n": "lux9",
+      "ag": ""
+     },
+     {
+      "n": "soren",
+      "ag": ""
+     },
+     {
+      "n": "askoo",
+      "ag": ""
+     },
+     {
+      "n": "izana",
+      "ag": ""
+     }
+    ]
+   },
+   "tg": [
+    "MIR",
+    "MSA"
+   ],
+   "nk": 1
   },
   {
    "id": "794023",
    "a": "Joblife",
    "b": "WIP Esports",
-   "sa": "–",
-   "sb": "–",
+   "sa": "0",
+   "sb": "0",
    "ev": "VCT 2027: EMEA Kickoff - Europe Qualifier Playoffs",
    "ph": "Swiss Stage–Round 1 (0-0)",
    "ts": 1795631400000,
-   "url": "https://www.vlr.gg/794023/joblife-vs-wip-esports-vct-2027-emea-kickoff-europe-qualifier-playoffs-swiss-stage-r1-0-0"
-  },
+   "url": "https://www.vlr.gg/794023/joblife-vs-wip-esports-vct-2027-emea-kickoff-europe-qualifier-playoffs-swiss-stage-r1-0-0",
+   "mp": [
+    {
+     "n": "TBD",
+     "a": 0,
+     "b": 0,
+     "st": "l"
+    },
+    {
+     "n": "TBD",
+     "st": "n"
+    },
+    {
+     "n": "TBD",
+     "st": "n"
+    }
+   ],
+   "evu": "/event/3233/vct-2027-emea-kickoff-europe-qualifier-playoffs/swiss-stage",
+   "bo": "3",
+   "h2h": {
+    "a": 3,
+    "b": 2
+   },
+   "pl": {
+    "a": [
+     {
+      "n": "westside",
+      "ag": ""
+     },
+     {
+      "n": "WanZeru",
+      "ag": ""
+     },
+     {
+      "n": "Sevire",
+      "ag": ""
+     },
+     {
+      "n": "hoody",
+      "ag": ""
+     },
+     {
+      "n": "al0rante",
+      "ag": ""
+     }
+    ],
+    "b": [
+     {
+      "n": "TakaS",
+      "ag": ""
+     },
+     {
+      "n": "mepeezy",
+      "ag": ""
+     },
+     {
+      "n": "Jesse",
+      "ag": ""
+     },
+     {
+      "n": "Vorwenn",
+      "ag": ""
+     },
+     {
+      "n": "wtex",
+      "ag": ""
+     }
+    ]
+   },
+   "tg": [
+    "JL",
+    "WIP"
+   ],
+   "nk": 1
+  }
+ ],
+ "upcoming": [
   {
    "id": "793991",
    "a": "9z Globant",
@@ -319,7 +590,10 @@
    "ev": "VCT 2027: America Kickoff - LATAM South Qualifier Playoffs",
    "ph": "Swiss Stage–Round 3 (1-1)",
    "ts": 1795633200000,
-   "url": "https://www.vlr.gg/793991/9z-globant-vs-fracasados-ny-vct-2027-america-kickoff-latam-south-qualifier-playoffs-r3-1-1"
+   "url": "https://www.vlr.gg/793991/9z-globant-vs-fracasados-ny-vct-2027-america-kickoff-latam-south-qualifier-playoffs-r3-1-1",
+   "bo": "3",
+   "evu": "/event/3185/vct-2027-america-kickoff-latam-south-qualifier-playoffs/swiss-stage",
+   "fz": 1
   },
   {
    "id": "793992",
@@ -330,7 +604,14 @@
    "ev": "VCT 2027: America Kickoff - LATAM South Qualifier Playoffs",
    "ph": "Swiss Stage–Round 3 (1-1)",
    "ts": 1795644000000,
-   "url": "https://www.vlr.gg/793992/arg-mix-vs-tramite-vct-2027-america-kickoff-latam-south-qualifier-playoffs-r3-1-1"
+   "url": "https://www.vlr.gg/793992/arg-mix-vs-tramite-vct-2027-america-kickoff-latam-south-qualifier-playoffs-r3-1-1",
+   "h2h": {
+    "a": 0,
+    "b": 1
+   },
+   "bo": "3",
+   "evu": "/event/3185/vct-2027-america-kickoff-latam-south-qualifier-playoffs/swiss-stage",
+   "fz": 1
   },
   {
    "id": "793800",
@@ -341,7 +622,14 @@
    "ev": "VCT 2027: Pacific Kickoff - South Asia Qualifier",
    "ph": "Playoffs–Upper Semifinals",
    "ts": 1795674600000,
-   "url": "https://www.vlr.gg/793800/revenant-xspark-vs-kryon-esports-vct-2027-pacific-kickoff-south-asia-qualifier-ubsf"
+   "url": "https://www.vlr.gg/793800/revenant-xspark-vs-kryon-esports-vct-2027-pacific-kickoff-south-asia-qualifier-ubsf",
+   "h2h": {
+    "a": 1,
+    "b": 0
+   },
+   "bo": "3",
+   "evu": "/event/3206/vct-2027-pacific-kickoff-south-asia-qualifier/playoffs",
+   "fz": 1
   },
   {
    "id": "790436",
@@ -397,6 +685,50 @@
    "ph": "Playoffs–Upper Semifinals",
    "ts": 1795728600000,
    "url": "https://www.vlr.gg/794180/leones-vs-contra-vct-2027-america-kickoff-latam-north-qualifier-playoffs-ubsf"
+  },
+  {
+   "id": "792043",
+   "a": "Fluxo W7M",
+   "b": "ELEVATE",
+   "sa": "–",
+   "sb": "–",
+   "ev": "VCT 2027: America Kickoff - Brazil Qualifier Playoffs",
+   "ph": "Playoffs–Upper Quarterfinals",
+   "ts": 1795732200000,
+   "url": "https://www.vlr.gg/792043/fluxo-w7m-vs-elevate-vct-2027-america-kickoff-brazil-qualifier-playoffs-ubqf"
+  },
+  {
+   "id": "794181",
+   "a": "FUEGO",
+   "b": "Chivas Esports",
+   "sa": "–",
+   "sb": "–",
+   "ev": "VCT 2027: America Kickoff - LATAM North Qualifier Playoffs",
+   "ph": "Playoffs–Upper Semifinals",
+   "ts": 1795739400000,
+   "url": "https://www.vlr.gg/794181/fuego-vs-chivas-esports-vct-2027-america-kickoff-latam-north-qualifier-playoffs-ubsf"
+  },
+  {
+   "id": "790434",
+   "a": "Bonkers",
+   "b": "MeatZn",
+   "sa": "–",
+   "sb": "–",
+   "ev": "VCT 2027: Pacific Kickoff - Oceania Qualifier",
+   "ph": "Playoffs–Upper Final",
+   "ts": 1795764600000,
+   "url": "https://www.vlr.gg/790434/bonkers-vs-meatzn-vct-2027-pacific-kickoff-oceania-qualifier-ubf"
+  },
+  {
+   "id": "792044",
+   "a": "Team Solid",
+   "b": "BRASIL2002",
+   "sa": "–",
+   "sb": "–",
+   "ev": "VCT 2027: America Kickoff - Brazil Qualifier Playoffs",
+   "ph": "Playoffs–Upper Quarterfinals",
+   "ts": 1795807800000,
+   "url": "https://www.vlr.gg/792044/team-solid-vs-brasil2002-vct-2027-america-kickoff-brazil-qualifier-playoffs-ubqf"
   }
  ],
  "results": [
@@ -4372,7 +4704,12 @@
   "TRAMITE": "",
   "fracasados ny": "",
   "Revenant XSpark": "https://owcdn.net/img/6a20030faecd7.png",
-  "Kryon Esports": "https://owcdn.net/img/6a82a3d1c3505.png"
+  "Kryon Esports": "https://owcdn.net/img/6a82a3d1c3505.png",
+  "Eternal Fire": "https://owcdn.net/img/6628980dcdaea.png",
+  "Trigon Titans": "https://owcdn.net/img/6afa21f3b97d6.png",
+  "SÓ TEM VELHO": "",
+  "Next": "",
+  "Leones": ""
  },
  "colors": {
   "Contra": "#f0b104",
@@ -4404,7 +4741,9 @@
   "WIP Esports": "#0722ad",
   "9z Globant": "",
   "Revenant XSpark": "#dbb657",
-  "Kryon Esports": "#f73034"
+  "Kryon Esports": "#f73034",
+  "Eternal Fire": "#988966",
+  "Trigon Titans": ""
  },
  "agents": {
   "gekko": {
@@ -4534,7 +4873,8 @@
   "VCT 2027: EMEA Kickoff - Türkiye Qualifier": "https://owcdn.net/img/65ab59620a233.png",
   "VCT 2027: Pacific Kickoff - Oceania Qualifier": "https://owcdn.net/img/640f5ae002674.png",
   "VCT 2027: EMEA Kickoff - Europe Qualifier Playoffs": "https://owcdn.net/img/65ab59620a233.png",
-  "VCT 2027: America Kickoff - LATAM South Qualifier Playoffs": "https://owcdn.net/img/640f5ab71dfbb.png"
+  "VCT 2027: America Kickoff - LATAM South Qualifier Playoffs": "https://owcdn.net/img/640f5ab71dfbb.png",
+  "VCT 2027: America Kickoff - Brazil Qualifier Playoffs": "https://owcdn.net/img/640f5ab71dfbb.png"
  },
  "vct": "https://owcdn.net/img/640f5ab71dfbb.png",
  "br": {
@@ -4608,34 +4948,6 @@
   "x": []
  },
  "fu": [
-  {
-   "id": "794020",
-   "a": "Eintracht Frankfurt",
-   "b": "F9 EICAR",
-   "ev": "VCT 2027: EMEA Kickoff - Europe Qualifier Playoffs",
-   "ts": 1795631400000
-  },
-  {
-   "id": "794021",
-   "a": "Enterprise Esports",
-   "b": "xXxMasterProMegaTeamxXx",
-   "ev": "VCT 2027: EMEA Kickoff - Europe Qualifier Playoffs",
-   "ts": 1795631400000
-  },
-  {
-   "id": "794022",
-   "a": "MIR",
-   "b": "La Masia",
-   "ev": "VCT 2027: EMEA Kickoff - Europe Qualifier Playoffs",
-   "ts": 1795631400000
-  },
-  {
-   "id": "794023",
-   "a": "Joblife",
-   "b": "WIP Esports",
-   "ev": "VCT 2027: EMEA Kickoff - Europe Qualifier Playoffs",
-   "ts": 1795631400000
-  },
   {
    "id": "793991",
    "a": "9z Globant",
@@ -4732,7 +5044,7 @@
    "a": "Misa Esports",
    "b": "Fire Flux Esports",
    "ev": "VCT 2027: EMEA Kickoff - Türkiye Qualifier",
-   "ts": 1795962600000
+   "ts": 1795959000000
   },
   {
    "id": "793735",
@@ -4753,14 +5065,14 @@
    "a": "ENVY",
    "b": "Wildcard",
    "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ts": 1796171400000
+   "ts": 1796167800000
   },
   {
    "id": "793738",
    "a": "Shopify Rebellion Black",
    "b": "counterfeit",
    "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ts": 1796171400000
+   "ts": 1796167800000
   }
  ],
  "fr": [
