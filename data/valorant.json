@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T18:33:17.454Z",
+ "updated": "2026-11-25T18:36:37.205Z",
  "live": [
   {
    "id": "794016",
@@ -174,7 +174,7 @@
    "a": "Beşiktaş Esports",
    "b": "Galatasaray Esports",
    "sa": "1",
-   "sb": "0",
+   "sb": "1",
    "ev": "VCT 2027: EMEA Kickoff - Türkiye Qualifier",
    "ph": "Playoffs–Opening (B)",
    "ts": 1795617000000,
@@ -187,14 +187,16 @@
      "st": "d"
     },
     {
+     "n": "Sunset",
+     "a": 11,
+     "b": 13,
+     "st": "d"
+    },
+    {
      "n": "TBD",
      "a": 0,
      "b": 0,
      "st": "l"
-    },
-    {
-     "n": "TBD",
-     "st": "n"
     }
    ],
    "evu": "/event/3177/vct-2027-emea-kickoff-t-rkiye-qualifier/playoffs",
