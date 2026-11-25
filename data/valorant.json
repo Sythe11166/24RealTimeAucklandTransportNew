@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T03:58:48.455Z",
+ "updated": "2026-11-25T03:59:08.343Z",
  "live": [],
  "upcoming": [
   {
@@ -641,17 +641,17 @@
      ]
     }
    ],
-   "tg": [
-    "BBB",
-    "STA"
-   ],
    "h2h": {
     "a": 1,
     "b": 0
    },
    "bo": "3",
    "smt": 1795579123936,
-   "et": 1795579125136
+   "et": 1795579125136,
+   "tg": [
+    "BBB",
+    "STA"
+   ]
   },
   {
    "id": "793767",
@@ -3253,7 +3253,7 @@
    "sb": "1",
    "ev": "VCT 2027: America Kickoff - LATAM South Qualifier Playoffs",
    "ph": "Swiss Stage–Round 2 (1-0)",
-   "ts": 1795464000000,
+   "ts": 1795460400000,
    "url": "https://www.vlr.gg/793563/university-war-vs-arg-mix-vct-2027-america-kickoff-latam-south-qualifier-playoffs-r2-1-0",
    "mp": [
     {
@@ -4731,7 +4731,7 @@
    "sa": "2",
    "sb": "1",
    "ev": "VCT 2027: America Kickoff - LATAM South Qualifier Playoffs",
-   "ts": 1795464000000
+   "ts": 1795460400000
   },
   {
    "id": "793796",
@@ -4749,7 +4749,7 @@
    "sa": "2",
    "sb": "0",
    "ev": "VCT 2027: Pacific Kickoff - South Asia Qualifier",
-   "ts": 1795438800000
+   "ts": 1795435200000
   },
   {
    "id": "793238",
@@ -4776,7 +4776,7 @@
    "sa": "2",
    "sb": "0",
    "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ts": 1795395600000
+   "ts": 1795392000000
   },
   {
    "id": "792041",
@@ -4785,7 +4785,7 @@
    "sa": "2",
    "sb": "0",
    "ev": "VCT 2027: America Kickoff - Brazil Qualifier Playoffs",
-   "ts": 1795392000000
+   "ts": 1795388400000
   },
   {
    "id": "793236",
@@ -4794,7 +4794,7 @@
    "sa": "2",
    "sb": "0",
    "ev": "VCT 2027: America Kickoff - LATAM North Qualifier Playoffs",
-   "ts": 1795388400000
+   "ts": 1795384800000
   },
   {
    "id": "793333",
@@ -4803,7 +4803,7 @@
    "sa": "2",
    "sb": "0",
    "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ts": 1795388400000
+   "ts": 1795384800000
   },
   {
    "id": "793334",
@@ -4812,7 +4812,7 @@
    "sa": "2",
    "sb": "0",
    "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ts": 1795388400000
+   "ts": 1795384800000
   },
   {
    "id": "792039",
@@ -4821,7 +4821,7 @@
    "sa": "2",
    "sb": "1",
    "ev": "VCT 2027: America Kickoff - Brazil Qualifier Playoffs",
-   "ts": 1795381200000
+   "ts": 1795377600000
   },
   {
    "id": "792909",
@@ -4839,7 +4839,7 @@
    "sa": "2",
    "sb": "0",
    "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ts": 1795312800000
+   "ts": 1795309200000
   },
   {
    "id": "792907",
@@ -4875,7 +4875,7 @@
    "sa": "0",
    "sb": "2",
    "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ts": 1795302000000
+   "ts": 1795298400000
   },
   {
    "id": "792904",
@@ -4884,7 +4884,7 @@
    "sa": "1",
    "sb": "2",
    "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ts": 1795302000000
+   "ts": 1795298400000
   },
   {
    "id": "792905",
@@ -4893,7 +4893,7 @@
    "sa": "1",
    "sb": "2",
    "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ts": 1795302000000
+   "ts": 1795298400000
   },
   {
    "id": "792906",
@@ -4902,7 +4902,7 @@
    "sa": "2",
    "sb": "1",
    "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ts": 1795302000000
+   "ts": 1795298400000
   },
   {
    "id": "792032",
@@ -4911,7 +4911,7 @@
    "sa": "2",
    "sb": "1",
    "ev": "VCT 2027: America Kickoff - Brazil Qualifier Playoffs",
-   "ts": 1795294800000
+   "ts": 1795291200000
   },
   {
    "id": "792549",
@@ -4929,7 +4929,7 @@
    "sa": "2",
    "sb": "1",
    "ev": "VCT 2027: EMEA Kickoff - MENA Qualifier",
-   "ts": 1795280400000
+   "ts": 1795276800000
   },
   {
    "id": "791685",
@@ -4956,7 +4956,7 @@
    "sa": "2",
    "sb": "0",
    "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ts": 1795222800000
+   "ts": 1795219200000
   },
   {
    "id": "791686",
@@ -4965,7 +4965,7 @@
    "sa": "0",
    "sb": "2",
    "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ts": 1795222800000
+   "ts": 1795219200000
   },
   {
    "id": "791707",
@@ -4974,7 +4974,7 @@
    "sa": "2",
    "sb": "1",
    "ev": "VCT 2027: America Kickoff - Brazil Qualifier Playoffs",
-   "ts": 1795219200000
+   "ts": 1795215600000
   },
   {
    "id": "791679",
@@ -4983,7 +4983,7 @@
    "sa": "2",
    "sb": "0",
    "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ts": 1795215600000
+   "ts": 1795212000000
   },
   {
    "id": "791680",
@@ -4992,7 +4992,7 @@
    "sa": "2",
    "sb": "0",
    "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ts": 1795215600000
+   "ts": 1795212000000
   },
   {
    "id": "791681",
@@ -5001,7 +5001,7 @@
    "sa": "2",
    "sb": "1",
    "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ts": 1795215600000
+   "ts": 1795212000000
   },
   {
    "id": "791682",
@@ -5010,7 +5010,7 @@
    "sa": "0",
    "sb": "2",
    "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ts": 1795215600000
+   "ts": 1795212000000
   },
   {
    "id": "791703",
@@ -5019,7 +5019,7 @@
    "sa": "2",
    "sb": "1",
    "ev": "VCT 2027: America Kickoff - Brazil Qualifier Playoffs",
-   "ts": 1795208400000
+   "ts": 1795204800000
   },
   {
    "id": "790841",
