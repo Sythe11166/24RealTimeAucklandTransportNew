@@ -1,90 +1,6 @@
 {
- "updated": "2026-11-25T18:45:23.380Z",
+ "updated": "2026-11-25T18:47:04.669Z",
  "live": [
-  {
-   "id": "794017",
-   "a": "Natus Vincere Junior",
-   "b": "Aurora Gaming",
-   "sa": "1",
-   "sb": "1",
-   "ev": "VCT 2027: EMEA Kickoff - Europe Qualifier Playoffs",
-   "ph": "Swiss Stage–Round 1 (0-0)",
-   "ts": 1795622400000,
-   "url": "https://www.vlr.gg/794017/natus-vincere-junior-vs-aurora-gaming-vct-2027-emea-kickoff-europe-qualifier-playoffs-swiss-stage-r1-0-0",
-   "mp": [
-    {
-     "n": "Bind",
-     "a": 9,
-     "b": 13,
-     "st": "d"
-    },
-    {
-     "n": "Lotus",
-     "a": 13,
-     "b": 6,
-     "st": "d"
-    },
-    {
-     "n": "TBD",
-     "a": 0,
-     "b": 0,
-     "st": "l"
-    }
-   ],
-   "evu": "/event/3233/vct-2027-emea-kickoff-europe-qualifier-playoffs/swiss-stage",
-   "bo": "3",
-   "pl": {
-    "a": [
-     {
-      "n": "Javelin",
-      "ag": ""
-     },
-     {
-      "n": "Kolosha",
-      "ag": ""
-     },
-     {
-      "n": "Darxcioo",
-      "ag": ""
-     },
-     {
-      "n": "avey",
-      "ag": ""
-     },
-     {
-      "n": "sizo",
-      "ag": ""
-     }
-    ],
-    "b": [
-     {
-      "n": "Derke",
-      "ag": ""
-     },
-     {
-      "n": "trexx",
-      "ag": ""
-     },
-     {
-      "n": "B1SK",
-      "ag": ""
-     },
-     {
-      "n": "chiwa",
-      "ag": ""
-     },
-     {
-      "n": "Boo",
-      "ag": ""
-     }
-    ]
-   },
-   "tg": [
-    "NVJ",
-    "AURA"
-   ],
-   "nk": 1
-  },
   {
    "id": "793639",
    "a": "Beşiktaş Esports",
@@ -1177,6 +1093,522 @@
     "UCAM",
     "CGN"
    ]
+  },
+  {
+   "id": "794017",
+   "a": "Natus Vincere Junior",
+   "b": "Aurora Gaming",
+   "sa": "2",
+   "sb": "1",
+   "ev": "VCT 2027: EMEA Kickoff - Europe Qualifier Playoffs",
+   "ph": "Swiss Stage–Round 1 (0-0)",
+   "ts": 1795622400000,
+   "url": "https://www.vlr.gg/794017/natus-vincere-junior-vs-aurora-gaming-vct-2027-emea-kickoff-europe-qualifier-playoffs-swiss-stage-r1-0-0",
+   "mp": [
+    {
+     "n": "Bind",
+     "a": 9,
+     "b": 13
+    },
+    {
+     "n": "Lotus",
+     "a": 13,
+     "b": 6
+    },
+    {
+     "n": "Haven",
+     "a": 13,
+     "b": 5
+    }
+   ],
+   "sm": [
+    {
+     "n": "Bind",
+     "a": 9,
+     "b": 13,
+     "pa": [
+      {
+       "n": "Darxcioo",
+       "k": 19,
+       "d": 18,
+       "a": 4,
+       "ag": "neon"
+      },
+      {
+       "n": "avey",
+       "k": 17,
+       "d": 17,
+       "a": 8,
+       "ag": "astra"
+      },
+      {
+       "n": "Javelin",
+       "k": 16,
+       "d": 15,
+       "a": 15,
+       "ag": "skye"
+      },
+      {
+       "n": "Kolosha",
+       "k": 10,
+       "d": 19,
+       "a": 7,
+       "ag": "hush"
+      },
+      {
+       "n": "sizo",
+       "k": 9,
+       "d": 17,
+       "a": 7,
+       "ag": "cypher"
+      }
+     ],
+     "pb": [
+      {
+       "n": "Derke",
+       "k": 24,
+       "d": 15,
+       "a": 5,
+       "ag": "hush"
+      },
+      {
+       "n": "trexx",
+       "k": 22,
+       "d": 12,
+       "a": 12,
+       "ag": "fade"
+      },
+      {
+       "n": "chiwa",
+       "k": 16,
+       "d": 13,
+       "a": 4,
+       "ag": "viper"
+      },
+      {
+       "n": "Boo",
+       "k": 12,
+       "d": 13,
+       "a": 10,
+       "ag": "brimstone"
+      },
+      {
+       "n": "B1SK",
+       "k": 12,
+       "d": 18,
+       "a": 10,
+       "ag": "neon"
+      }
+     ],
+     "rd": [
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "a",
+       "d"
+      ],
+      [
+       "a",
+       "t"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "a",
+       "b"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "b",
+       "d"
+      ]
+     ]
+    },
+    {
+     "n": "Lotus",
+     "a": 13,
+     "b": 6,
+     "pa": [
+      {
+       "n": "Darxcioo",
+       "k": 20,
+       "d": 14,
+       "a": 1,
+       "ag": "neon"
+      },
+      {
+       "n": "avey",
+       "k": 18,
+       "d": 9,
+       "a": 13,
+       "ag": "omen"
+      },
+      {
+       "n": "Kolosha",
+       "k": 18,
+       "d": 14,
+       "a": 6,
+       "ag": "hush"
+      },
+      {
+       "n": "sizo",
+       "k": 13,
+       "d": 9,
+       "a": 6,
+       "ag": "viper"
+      },
+      {
+       "n": "Javelin",
+       "k": 6,
+       "d": 9,
+       "a": 9,
+       "ag": "fade"
+      }
+     ],
+     "pb": [
+      {
+       "n": "chiwa",
+       "k": 15,
+       "d": 13,
+       "a": 3,
+       "ag": "cypher"
+      },
+      {
+       "n": "trexx",
+       "k": 12,
+       "d": 16,
+       "a": 5,
+       "ag": "fade"
+      },
+      {
+       "n": "Derke",
+       "k": 10,
+       "d": 16,
+       "a": 6,
+       "ag": "hush"
+      },
+      {
+       "n": "B1SK",
+       "k": 10,
+       "d": 16,
+       "a": 1,
+       "ag": "neon"
+      },
+      {
+       "n": "Boo",
+       "k": 8,
+       "d": 14,
+       "a": 5,
+       "ag": "omen"
+      }
+     ],
+     "rd": [
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "a",
+       "d"
+      ],
+      [
+       "a",
+       "t"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "b",
+       "b"
+      ],
+      [
+       "a",
+       "d"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "b",
+       "d"
+      ],
+      [
+       "a",
+       "b"
+      ],
+      [
+       "a",
+       "b"
+      ],
+      [
+       "a",
+       "e"
+      ]
+     ]
+    },
+    {
+     "n": "Haven",
+     "a": 13,
+     "b": 5,
+     "pa": [
+      {
+       "n": "Darxcioo",
+       "k": 21,
+       "d": 11,
+       "a": 1,
+       "ag": "jett"
+      },
+      {
+       "n": "Kolosha",
+       "k": 17,
+       "d": 11,
+       "a": 12,
+       "ag": "hush"
+      },
+      {
+       "n": "avey",
+       "k": 14,
+       "d": 10,
+       "a": 12,
+       "ag": "omen"
+      },
+      {
+       "n": "sizo",
+       "k": 11,
+       "d": 11,
+       "a": 9,
+       "ag": "cypher"
+      },
+      {
+       "n": "Javelin",
+       "k": 11,
+       "d": 12,
+       "a": 8,
+       "ag": "sova"
+      }
+     ],
+     "pb": [
+      {
+       "n": "trexx",
+       "k": 20,
+       "d": 14,
+       "a": 1,
+       "ag": "sova"
+      },
+      {
+       "n": "B1SK",
+       "k": 11,
+       "d": 16,
+       "a": 8,
+       "ag": "neon"
+      },
+      {
+       "n": "Boo",
+       "k": 10,
+       "d": 14,
+       "a": 3,
+       "ag": "omen"
+      },
+      {
+       "n": "chiwa",
+       "k": 9,
+       "d": 15,
+       "a": 7,
+       "ag": "cypher"
+      },
+      {
+       "n": "Derke",
+       "k": 5,
+       "d": 15,
+       "a": 7,
+       "ag": "hush"
+      }
+     ],
+     "rd": [
+      [
+       "b",
+       "d"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "b"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "b"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "b",
+       "d"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "a",
+       "d"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "b",
+       "b"
+      ],
+      [
+       "a",
+       "d"
+      ]
+     ]
+    }
+   ],
+   "tg": [
+    "NVJ",
+    "AURA"
+   ],
+   "bo": "3",
+   "smt": 1795632420137,
+   "et": 1795632421338
   },
   {
    "id": "794018",
@@ -3959,619 +4391,6 @@
     "FIN",
     "MZN"
    ]
-  },
-  {
-   "id": "793803",
-   "a": "Trigger Point Esports",
-   "b": "ZEXAR ESPORTS",
-   "sa": "2",
-   "sb": "1",
-   "ev": "VCT 2027: Pacific Kickoff - South Asia Qualifier",
-   "ph": "Playoffs–Lower Round 1",
-   "ts": 1795588200000,
-   "url": "https://www.vlr.gg/793803/trigger-point-esports-vs-zexar-esports-vct-2027-pacific-kickoff-south-asia-qualifier-lr1",
-   "mp": [
-    {
-     "n": "Haven",
-     "a": 13,
-     "b": 11
-    },
-    {
-     "n": "Lotus",
-     "a": 9,
-     "b": 13
-    },
-    {
-     "n": "Corrode",
-     "a": 15,
-     "b": 13
-    }
-   ],
-   "sm": [
-    {
-     "n": "Haven",
-     "a": 13,
-     "b": 11,
-     "pa": [
-      {
-       "n": "WEELJACK",
-       "k": 22,
-       "d": 12,
-       "a": 6,
-       "ag": "cypher"
-      },
-      {
-       "n": "Pace",
-       "k": 21,
-       "d": 14,
-       "a": 14,
-       "ag": "omen"
-      },
-      {
-       "n": "hYpeF",
-       "k": 20,
-       "d": 18,
-       "a": 6,
-       "ag": "hush"
-      },
-      {
-       "n": "RaJ",
-       "k": 17,
-       "d": 18,
-       "a": 7,
-       "ag": "neon"
-      },
-      {
-       "n": "SangraM",
-       "k": 15,
-       "d": 15,
-       "a": 8,
-       "ag": "sova"
-      }
-     ],
-     "pb": [
-      {
-       "n": "BlooDy13",
-       "k": 22,
-       "d": 20,
-       "a": 9,
-       "ag": "phoenix"
-      },
-      {
-       "n": "OBITO",
-       "k": 19,
-       "d": 19,
-       "a": 6,
-       "ag": "waylay"
-      },
-      {
-       "n": "GhostyXD",
-       "k": 16,
-       "d": 18,
-       "a": 12,
-       "ag": "omen"
-      },
-      {
-       "n": "howaboutn0",
-       "k": 12,
-       "d": 17,
-       "a": 12,
-       "ag": "sova"
-      },
-      {
-       "n": "fluxx",
-       "k": 8,
-       "d": 21,
-       "a": 3,
-       "ag": "chamber"
-      }
-     ],
-     "rd": [
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "d"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "b",
-       "d"
-      ],
-      [
-       "b",
-       "d"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "b"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "b",
-       "b"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "b"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "d"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "d"
-      ],
-      [
-       "a",
-       "d"
-      ]
-     ]
-    },
-    {
-     "n": "Lotus",
-     "a": 9,
-     "b": 13,
-     "pa": [
-      {
-       "n": "WEELJACK",
-       "k": 20,
-       "d": 15,
-       "a": 8,
-       "ag": "cypher"
-      },
-      {
-       "n": "RaJ",
-       "k": 20,
-       "d": 19,
-       "a": 6,
-       "ag": "neon"
-      },
-      {
-       "n": "SangraM",
-       "k": 17,
-       "d": 15,
-       "a": 7,
-       "ag": "fade"
-      },
-      {
-       "n": "Pace",
-       "k": 16,
-       "d": 15,
-       "a": 7,
-       "ag": "omen"
-      },
-      {
-       "n": "hYpeF",
-       "k": 12,
-       "d": 18,
-       "a": 9,
-       "ag": "hush"
-      }
-     ],
-     "pb": [
-      {
-       "n": "OBITO",
-       "k": 22,
-       "d": 17,
-       "a": 7,
-       "ag": "raze"
-      },
-      {
-       "n": "BlooDy13",
-       "k": 19,
-       "d": 17,
-       "a": 4,
-       "ag": "omen"
-      },
-      {
-       "n": "GhostyXD",
-       "k": 17,
-       "d": 19,
-       "a": 6,
-       "ag": "neon"
-      },
-      {
-       "n": "fluxx",
-       "k": 13,
-       "d": 16,
-       "a": 4,
-       "ag": "chamber"
-      },
-      {
-       "n": "howaboutn0",
-       "k": 11,
-       "d": 16,
-       "a": 9,
-       "ag": "fade"
-      }
-     ],
-     "rd": [
-      [
-       "a",
-       "d"
-      ],
-      [
-       "a",
-       "d"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "a",
-       "d"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "b",
-       "d"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "b",
-       "d"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "b",
-       "d"
-      ]
-     ]
-    },
-    {
-     "n": "Corrode",
-     "a": 15,
-     "b": 13,
-     "pa": [
-      {
-       "n": "SangraM",
-       "k": 26,
-       "d": 19,
-       "a": 8,
-       "ag": "fade"
-      },
-      {
-       "n": "WEELJACK",
-       "k": 21,
-       "d": 18,
-       "a": 10,
-       "ag": "cypher"
-      },
-      {
-       "n": "Pace",
-       "k": 21,
-       "d": 18,
-       "a": 9,
-       "ag": "omen"
-      },
-      {
-       "n": "RaJ",
-       "k": 19,
-       "d": 25,
-       "a": 10,
-       "ag": "neon"
-      },
-      {
-       "n": "hYpeF",
-       "k": 18,
-       "d": 16,
-       "a": 8,
-       "ag": "phoenix"
-      }
-     ],
-     "pb": [
-      {
-       "n": "fluxx",
-       "k": 28,
-       "d": 19,
-       "a": 2,
-       "ag": "chamber"
-      },
-      {
-       "n": "OBITO",
-       "k": 23,
-       "d": 23,
-       "a": 7,
-       "ag": "waylay"
-      },
-      {
-       "n": "howaboutn0",
-       "k": 18,
-       "d": 21,
-       "a": 12,
-       "ag": "fade"
-      },
-      {
-       "n": "BlooDy13",
-       "k": 16,
-       "d": 19,
-       "a": 10,
-       "ag": "phoenix"
-      },
-      {
-       "n": "GhostyXD",
-       "k": 11,
-       "d": 23,
-       "a": 14,
-       "ag": "omen"
-      }
-     ],
-     "rd": [
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "b",
-       "t"
-      ],
-      [
-       "b",
-       "d"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "b",
-       "d"
-      ],
-      [
-       "b",
-       "d"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "d"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "a",
-       "d"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "d"
-      ],
-      [
-       "a",
-       "d"
-      ],
-      [
-       "a",
-       "d"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "d"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ]
-     ]
-    }
-   ],
-   "vt": [
-    [
-     "x",
-     "ZXR",
-     "Abyss"
-    ],
-    [
-     "x",
-     "TPE",
-     "Bind"
-    ],
-    [
-     "p",
-     "ZXR",
-     "Haven"
-    ],
-    [
-     "p",
-     "TPE",
-     "Lotus"
-    ],
-    [
-     "x",
-     "ZXR",
-     "Summit"
-    ],
-    [
-     "x",
-     "TPE",
-     "Sunset"
-    ],
-    [
-     "d",
-     "",
-     "Corrode"
-    ]
-   ],
-   "bo": "3",
-   "smt": 1795599746772,
-   "et": 1795599747973,
-   "tg": [
-    "TPE",
-    "ZXR"
-   ]
   }
  ],
  "news": [
@@ -4615,8 +4434,6 @@
  "logos": {
   "Contra": "https://owcdn.net/img/66572b1da4d79.png",
   "GodLike Esports": "https://owcdn.net/img/63ebaa91f0e07.png",
-  "Trigger Point Esports": "",
-  "ZEXAR ESPORTS": "https://owcdn.net/img/6b018b15bfc15.png",
   "SIGN Esports": "https://owcdn.net/img/69adf8ca7becf.png",
   "GOC Esports": "https://owcdn.net/img/6b0558757feb7.png",
   "RANKERS": "",
@@ -4659,7 +4476,6 @@
  "colors": {
   "Contra": "#f0b104",
   "GodLike Esports": "#edb74d",
-  "ZEXAR ESPORTS": "#a76df9",
   "SIGN Esports": "#f36c21",
   "GOC Esports": "#5d5193",
   "Bonkers": "#e0900e",
@@ -4822,74 +4638,1740 @@
  },
  "vct": "https://owcdn.net/img/640f5ab71dfbb.png",
  "br": {
-  "u": "/event/3233/vct-2027-emea-kickoff-europe-qualifier-playoffs/swiss-stage",
+  "u": "/event/3177/vct-2027-emea-kickoff-t-rkiye-qualifier/playoffs",
   "rg": "EMEA",
-  "ev": "VCT 2027: EMEA Kickoff - Europe Qualifier Playoffs",
-  "at": 1795632222496,
+  "ev": "VCT 2027: EMEA Kickoff - Türkiye Qualifier",
+  "at": 1795632423357,
   "r": [
    {
-    "r": "Round 1 (0-0)",
+    "r": "Round of 128",
     "m": [
      [
-      "UCAM Esports Club",
-      "CGN Esports",
-      2,
-      1,
-      "d"
-     ],
-     [
-      "Natus Vincere Junior",
-      "Aurora Gaming",
-      1,
-      1,
-      "l"
-     ],
-     [
-      "Mandatory",
-      "Barça eSports",
-      0,
-      2,
-      "d"
-     ],
-     [
-      "GIANTX",
-      "Pixel Lumina",
+      "Misa Esports",
+      "BIG E SPOR",
       2,
       0,
       "d"
      ],
      [
-      "Eintracht Frankfurt",
-      "F9 EICAR",
+      "AloWaxy",
+      "Hangar Esports",
+      2,
       0,
-      0,
-      "l"
+      "d"
      ],
      [
-      "Enterprise Esports",
-      "xXxMasterProMegaTeamxXx",
-      0,
-      0,
-      "l"
+      "lethalgamy",
+      "NAMEOLCAZ",
+      1,
+      2,
+      "d"
      ],
      [
-      "MIR",
-      "La Masia",
+      "TEAMVANTA",
+      "ACİL PARA LAZIM",
       0,
-      0,
-      "l"
+      2,
+      "d"
      ],
      [
-      "Joblife",
-      "WIP Esports",
+      "NICE TRY",
+      "Creep Espor",
+      0,
+      2,
+      "d"
+     ],
+     [
+      "NFive",
+      "KIYICI5",
+      0,
+      2,
+      "d"
+     ],
+     [
+      "QuilleD",
+      "Zyne Esports",
+      0,
+      2,
+      "d"
+     ],
+     [
+      "MAKARA GUYS",
+      "TAYCAN",
+      0,
+      2,
+      "d"
+     ],
+     [
+      "Epheir",
+      "BloodSoul",
+      1,
+      2,
+      "d"
+     ],
+     [
+      "BAFI BOYS",
+      "Massive",
+      2,
+      0,
+      "d"
+     ],
+     [
+      "OBSESSION",
+      "Ravana",
+      0,
+      2,
+      "d"
+     ],
+     [
+      "ZetaZero",
+      "ISUBU ESPOR",
+      2,
+      1,
+      "d"
+     ],
+     [
+      "NORA ESPORTS",
+      "CONFIGSTARZ",
+      1,
+      2,
+      "d"
+     ],
+     [
+      "Eclipse Esport",
+      "klod10",
+      2,
+      0,
+      "d"
+     ],
+     [
+      "bambiler",
+      "VETERANLAR",
+      2,
+      0,
+      "d"
+     ],
+     [
+      "LLeroxs Esports",
+      "COSMOS",
+      0,
+      2,
+      "d"
+     ],
+     [
+      "Space",
+      "ISTANBUL UNITED",
+      2,
+      0,
+      "d"
+     ],
+     [
+      "TEAM KARYNX",
+      "KOU's 5",
+      2,
+      0,
+      "d"
+     ],
+     [
+      "Yillanmis adamlar",
+      "TEAM NEXUS",
+      0,
+      2,
+      "d"
+     ],
+     [
+      "VANGUARD",
+      "dont care okay",
+      2,
+      0,
+      "d"
+     ],
+     [
+      "Team DENIGHT",
+      "Survey Corps",
+      1,
+      2,
+      "d"
+     ],
+     [
+      "Makara E-Spor",
+      "Team FORGE",
+      0,
+      2,
+      "d"
+     ],
+     [
+      "BLOK6",
+      "DIVANE HOOKAH",
+      2,
+      0,
+      "d"
+     ],
+     [
+      "Mersin E Spor",
+      "Not Day Esports",
+      2,
+      0,
+      "d"
+     ],
+     [
+      "Ashen Riders",
+      "BOLD",
+      0,
+      2,
+      "d"
+     ],
+     [
+      "Galatasaray Esports",
+      "IZMIR KATIP CELEBI",
+      2,
+      0,
+      "d"
+     ],
+     [
+      "Meyhane",
+      "CarpeDiem",
+      2,
+      0,
+      "d"
+     ],
+     [
+      "LUCIFER BEEBGIM",
+      "Becos",
+      2,
+      0,
+      "d"
+     ],
+     [
+      "EyeOfTheTyger",
+      "RIEZEN",
+      1,
+      2,
+      "d"
+     ],
+     [
+      "arabam alman misafirlerim fas",
+      "Lova Esports",
+      2,
+      0,
+      "d"
+     ],
+     [
+      "FOKIN",
+      "Alpha Vortex",
+      2,
+      1,
+      "d"
+     ],
+     [
+      "Team Static",
+      "AIMSTARS",
+      2,
+      0,
+      "d"
+     ],
+     [
+      "X1 Esports",
+      "3 Gün Yeter",
+      2,
+      0,
+      "d"
+     ],
+     [
+      "TRAYB",
+      "Boston Nine",
+      0,
+      2,
+      "d"
+     ],
+     [
+      "Drippy Ravens",
+      "LYTHIX Esports",
+      0,
+      2,
+      "d"
+     ],
+     [
+      "Team XF5",
+      "stars",
+      2,
+      0,
+      "d"
+     ],
+     [
+      "DAMPER",
+      "FairyTail E Sports",
+      1,
+      2,
+      "d"
+     ],
+     [
+      "Dark Passage",
+      "Nirvana",
+      2,
+      0,
+      "d"
+     ],
+     [
+      "Sesto Elemento",
+      "K4RMA5",
+      2,
+      0,
+      "d"
+     ],
+     [
+      "Pacific Esports",
+      "Elite My Moons",
+      0,
+      2,
+      "d"
+     ],
+     [
+      "EAGLE HILL",
+      "OUTGANG",
+      0,
+      2,
+      "d"
+     ],
+     [
+      "Trigon Titans",
+      "BEXORA",
+      2,
+      0,
+      "d"
+     ],
+     [
+      "Kotys Espor",
+      "Fragg",
+      2,
+      1,
+      "d"
+     ],
+     [
+      "1881 TEAM",
+      "NEANLATIYONBOLM",
+      0,
+      2,
+      "d"
+     ],
+     [
+      "Team eXcellence",
+      "NO Active",
+      2,
+      0,
+      "d"
+     ],
+     [
+      "TEAM NOCTIS",
+      "HAPPENS",
+      0,
+      2,
+      "d"
+     ],
+     [
+      "REIGNITED",
+      "OneShot",
+      2,
+      0,
+      "d"
+     ],
+     [
+      "Shockwave Esports",
+      "GHOSTING ESPORTS",
+      0,
+      2,
+      "d"
+     ],
+     [
+      "Galatasaray Esports",
+      "Shockwave Esports",
+      2,
+      0,
+      "d"
+     ],
+     [
+      "XMERGE",
+      "TFW",
+      2,
+      0,
+      "d"
+     ],
+     [
+      "LUNAR",
+      "KNG",
+      0,
+      2,
+      "d"
+     ],
+     [
+      "BLOK6",
+      "VANGUARD",
+      1,
+      2,
+      "d"
+     ],
+     [
+      "HamsiSpor",
+      "EXORCIST",
+      2,
+      0,
+      "d"
+     ],
+     [
+      "Surrender eSports",
+      "MOONLIGHT",
+      0,
+      2,
+      "d"
+     ],
+     [
+      "TEAMVANTA",
+      "TEAM NEXUS",
+      0,
+      2,
+      "d"
+     ],
+     [
+      "AETHER",
+      "Ekmekciler",
+      2,
+      0,
+      "d"
+     ],
+     [
+      "OVERPEEK",
+      "LEAF",
+      0,
+      2,
+      "d"
+     ],
+     [
+      "Vulpine",
+      "Boston Nine",
+      0,
+      2,
+      "d"
+     ],
+     [
+      "TEAM NOCTIS",
+      "SAVANA",
+      0,
+      2,
+      "d"
+     ],
+     [
+      "AYBU T1GERS",
+      "Eclipse Esport",
+      0,
+      2,
+      "d"
+     ],
+     [
+      "Team XF5",
+      "Team eXcellence",
+      0,
+      2,
+      "d"
+     ],
+     [
+      "QUACKS",
+      "BAFI BOYS",
+      1,
+      2,
+      "d"
+     ],
+     [
+      "Hangar Esports",
+      "Yillanmis adamlar",
+      0,
+      2,
+      "d"
+     ],
+     [
+      "BORU NEBATI",
+      "o Kaynasiyor",
+      2,
+      1,
+      "d"
+     ],
+     [
+      "Epheir",
+      "KBU Owls",
+      0,
+      2,
+      "d"
+     ],
+     [
+      "HADDINIBILBAO",
+      "yuksek suda swim",
+      2,
+      0,
+      "d"
+     ],
+     [
+      "REIGNITED",
+      "IPHONE 18 PRO MAX",
+      2,
+      0,
+      "d"
+     ],
+     [
+      "BIZ GENELDE KAYBEDERIZ",
+      "NANKATSU",
+      0,
+      2,
+      "d"
+     ],
+     [
+      "Team DENIGHT",
+      "OUTGANG",
+      2,
+      0,
+      "d"
+     ],
+     [
+      "Rogue Cats",
+      "DRAZEK",
+      2,
+      1,
+      "d"
+     ],
+     [
+      "Zyne Esports",
+      "Chavo",
+      1,
+      2,
+      "d"
+     ],
+     [
+      "Dark Passage",
+      "Ravana",
+      2,
+      0,
+      "d"
+     ],
+     [
+      "COSMOS",
+      "VETERANLAR",
+      2,
+      1,
+      "d"
+     ],
+     [
+      "NEANLATIYONBOLM",
+      "BIRILERI",
+      2,
+      0,
+      "d"
+     ],
+     [
+      "3 Gün Yeter",
+      "EOSTRIX",
+      2,
+      0,
+      "d"
+     ],
+     [
+      "LESLIONES",
+      "CU-ESPOR",
+      2,
+      0,
+      "d"
+     ],
+     [
+      "EyeOfTheTyger",
+      "3 SAAT YETER",
+      0,
+      2,
+      "d"
+     ],
+     [
+      "kayipbaliklar",
+      "BARU ESPOR",
+      2,
+      0,
+      "d"
+     ],
+     [
+      "Kotys Espor",
+      "SHOW BUSINESS",
+      0,
+      2,
+      "d"
+     ],
+     [
+      "NewDayNewGame",
+      "Team Zedra",
+      1,
+      2,
+      "d"
+     ],
+     [
+      "Dippy Ravens",
+      "SADECE HAYRANLAR",
+      0,
+      2,
+      "d"
+     ],
+     [
+      "OBEZ",
+      "team apanthe",
+      0,
+      2,
+      "d"
+     ],
+     [
+      "Elite My Moons",
+      "x4n4x users",
+      0,
+      2,
+      "d"
+     ],
+     [
+      "Mersin E Spor",
+      "Elite Esports",
+      1,
+      2,
+      "d"
+     ],
+     [
+      "GoldenAngel ve Askerleri",
+      "Team Static",
+      1,
+      2,
+      "d"
+     ],
+     [
+      "1881 TEAM",
+      "VALHALLA",
+      0,
+      2,
+      "d"
+     ],
+     [
+      "Mamacita",
+      "Alpha Vortex",
+      1,
+      2,
+      "d"
+     ],
+     [
+      "BOLD",
+      "Gedik Espor",
+      2,
+      0,
+      "d"
+     ],
+     [
+      "RIEZEN",
+      "NEW DAY NEW BOOST",
+      2,
+      0,
+      "d"
+     ],
+     [
+      "IZMIR KATIP CELEBI",
+      "ACİL PARA LAZIM",
+      0,
+      2,
+      "d"
+     ],
+     [
+      "Space",
+      "OZERA Esports",
+      0,
+      2,
+      "d"
+     ],
+     [
+      "GHOSTS",
+      "TEAM KARYNX",
+      2,
+      0,
+      "d"
+     ],
+     [
+      "ISUBU ESPOR",
+      "Survey Corps",
+      0,
+      2,
+      "d"
+     ],
+     [
+      "DZ TEAM",
+      "Atilim PHOENIX",
+      2,
+      0,
+      "d"
+     ]
+    ]
+   },
+   {
+    "r": "Round of 64",
+    "m": [
+     [
+      "Misa Esports",
+      "AloWaxy",
+      2,
+      0,
+      "d"
+     ],
+     [
+      "NAMEOLCAZ",
+      "ACİL PARA LAZIM",
+      1,
+      2,
+      "d"
+     ],
+     [
+      "Creep Espor",
+      "TeLe",
+      2,
+      0,
+      "d"
+     ],
+     [
+      "Rogue Cats",
+      "KIYICI5",
+      0,
+      2,
+      "d"
+     ],
+     [
+      "Zyne Esports",
+      "TAYCAN",
+      2,
+      0,
+      "d"
+     ],
+     [
+      "NANKATSU",
+      "FreeFrag",
+      2,
+      0,
+      "d"
+     ],
+     [
+      "BloodSoul",
+      "BAFI BOYS",
+      0,
+      2,
+      "d"
+     ],
+     [
+      "Ravana",
+      "ZetaZero",
+      2,
+      0,
+      "d"
+     ],
+     [
+      "CONFIGSTARZ",
+      "Tarak Sevdasi",
+      2,
+      0,
+      "d"
+     ],
+     [
+      "Eclipse Esport",
+      "bambiler",
+      2,
+      1,
+      "d"
+     ],
+     [
+      "COSMOS",
+      "Space",
+      2,
+      0,
+      "d"
+     ],
+     [
+      "TEAM KARYNX",
+      "TEAM NEXUS",
+      0,
+      2,
+      "d"
+     ],
+     [
+      "VANGUARD",
+      "MEANT TO BE",
+      0,
+      2,
+      "d"
+     ],
+     [
+      "Survey Corps",
+      "Team FORGE",
+      0,
+      2,
+      "d"
+     ],
+     [
+      "KARINCAYIYENLER",
+      "BLOK6",
+      0,
+      2,
+      "d"
+     ],
+     [
+      "Mersin E Spor",
+      "BOLD",
+      0,
+      2,
+      "d"
+     ],
+     [
+      "Galatasaray Esports",
+      "Meyhane",
+      2,
+      0,
+      "d"
+     ],
+     [
+      "LUCIFER BEEBGIM",
+      "Selale Dugun Salonu",
+      2,
+      0,
+      "d"
+     ],
+     [
+      "RIEZEN",
+      "arabam alman misafirlerim fas",
+      1,
+      2,
+      "d"
+     ],
+     [
+      "FOKIN",
+      "Team Static",
+      2,
+      0,
+      "d"
+     ],
+     [
+      "X1 Esports",
+      "Boston Nine",
+      0,
+      2,
+      "d"
+     ],
+     [
+      "LYTHIX Esports",
+      "Team XF5",
       0,
       0,
+      "d"
+     ],
+     [
+      "GHOSTS",
+      "FairyTail E Sports",
+      0,
+      0,
+      "d"
+     ],
+     [
+      "Dark Passage",
+      "ONLYFRAG",
+      2,
+      0,
+      "d"
+     ],
+     [
+      "LEAF",
+      "3 SAAT YETER",
+      2,
+      0,
+      "d"
+     ],
+     [
+      "Sesto Elemento",
+      "Elite My Moons",
+      2,
+      0,
+      "d"
+     ],
+     [
+      "OUTGANG",
+      "Dice",
+      2,
+      0,
+      "d"
+     ],
+     [
+      "Trigon Titans",
+      "Kotys Espor",
+      2,
+      0,
+      "d"
+     ],
+     [
+      "NEANLATIYONBOLM",
+      "Team eXcellence",
+      2,
+      0,
+      "d"
+     ],
+     [
+      "HAPPENS",
+      "REIGNITED",
+      0,
+      2,
+      "d"
+     ],
+     [
+      "GHOSTING ESPORTS",
+      "RAVEN Esports",
+      2,
+      0,
+      "d"
+     ],
+     [
+      "Galatasaray Esports",
+      "XMERGE",
+      2,
+      0,
+      "d"
+     ],
+     [
+      "KNG",
+      "VANGUARD",
+      0,
+      2,
+      "d"
+     ],
+     [
+      "TRABLUSGARP GAZILERI",
+      "HamsiSpor",
+      2,
+      1,
+      "d"
+     ],
+     [
+      "BEXORA",
+      "NEXORA Esports",
+      2,
+      0,
+      "d"
+     ],
+     [
+      "MOONLIGHT",
+      "Ashen Riders",
+      2,
+      0,
+      "d"
+     ],
+     [
+      "TEAM NEXUS",
+      "AETHER",
+      2,
+      0,
+      "d"
+     ],
+     [
+      "LEAF",
+      "Boston Nine",
+      0,
+      0,
+      "d"
+     ],
+     [
+      "SAVANA",
+      "MAKARA GUYS",
+      2,
+      0,
+      "d"
+     ],
+     [
+      "Eclipse Esport",
+      "Team eXcellence",
+      2,
+      0,
+      "d"
+     ],
+     [
+      "BAFI BOYS",
+      "Yillanmis adamlar",
+      2,
+      0,
+      "d"
+     ],
+     [
+      "BORU NEBATI",
+      "KBU Owls",
+      1,
+      2,
+      "d"
+     ],
+     [
+      "HADDINIBILBAO",
+      "REIGNITED",
+      0,
+      2,
+      "d"
+     ],
+     [
+      "NANKATSU",
+      "Team DENIGHT",
+      2,
+      0,
+      "d"
+     ],
+     [
+      "WLGaming Female Stars",
+      "Chavo",
+      0,
+      2,
+      "d"
+     ],
+     [
+      "Dark Passage",
+      "COSMOS",
+      2,
+      0,
+      "d"
+     ],
+     [
+      "NEANLATIYONBOLM",
+      "3 Gün Yeter",
+      2,
+      0,
+      "d"
+     ],
+     [
+      "LESLIONES",
+      "3 SAAT YETER",
+      0,
+      2,
+      "d"
+     ],
+     [
+      "kayipbaliklar",
+      "SHOW BUSINESS",
+      2,
+      0,
+      "d"
+     ],
+     [
+      "Team Zedra",
+      "ERISEMEZSIN",
+      2,
+      1,
+      "d"
+     ],
+     [
+      "SADECE HAYRANLAR",
+      "team apanthe",
+      1,
+      2,
+      "d"
+     ],
+     [
+      "x4n4x users",
+      "Elite Esports",
+      2,
+      0,
+      "d"
+     ],
+     [
+      "Team Static",
+      "One Lan Irmak",
+      2,
+      1,
+      "d"
+     ],
+     [
+      "VALHALLA",
+      "LYTHIX Esports",
+      1,
+      2,
+      "d"
+     ],
+     [
+      "Becos",
+      "Alpha Vortex",
+      0,
+      2,
+      "d"
+     ],
+     [
+      "Lemon Party",
+      "NKVT",
+      0,
+      2,
+      "d"
+     ],
+     [
+      "BOLD",
+      "RIEZEN",
+      2,
+      0,
+      "d"
+     ],
+     [
+      "ACİL PARA LAZIM",
+      "OZERA Esports",
+      2,
+      0,
+      "d"
+     ],
+     [
+      "GHOSTS",
+      "yaylanin corbalari",
+      2,
+      0,
+      "d"
+     ],
+     [
+      "Survey Corps",
+      "DZ TEAM",
+      2,
+      0,
+      "d"
+     ]
+    ]
+   },
+   {
+    "r": "Round of 32",
+    "m": [
+     [
+      "Misa Esports",
+      "ACİL PARA LAZIM",
+      2,
+      0,
+      "d"
+     ],
+     [
+      "Creep Espor",
+      "KIYICI5",
+      0,
+      2,
+      "d"
+     ],
+     [
+      "Zyne Esports",
+      "NANKATSU",
+      1,
+      2,
+      "d"
+     ],
+     [
+      "BAFI BOYS",
+      "Ravana",
+      0,
+      2,
+      "d"
+     ],
+     [
+      "CONFIGSTARZ",
+      "Eclipse Esport",
+      2,
+      0,
+      "d"
+     ],
+     [
+      "COSMOS",
+      "TEAM NEXUS",
+      0,
+      2,
+      "d"
+     ],
+     [
+      "MEANT TO BE",
+      "Team FORGE",
+      0,
+      2,
+      "d"
+     ],
+     [
+      "BLOK6",
+      "BOLD",
+      1,
+      2,
+      "d"
+     ],
+     [
+      "Galatasaray Esports",
+      "LUCIFER BEEBGIM",
+      2,
+      0,
+      "d"
+     ],
+     [
+      "21-22 galatasaray",
+      "arabam alman misafirlerim fas",
+      0,
+      2,
+      "d"
+     ],
+     [
+      "FOKIN",
+      "Boston Nine",
+      0,
+      2,
+      "d"
+     ],
+     [
+      "LYTHIX Esports",
+      "GHOSTS",
+      0,
+      2,
+      "d"
+     ],
+     [
+      "Dark Passage",
+      "LEAF",
+      1,
+      1,
+      "d"
+     ],
+     [
+      "Sesto Elemento",
+      "OUTGANG",
+      2,
+      0,
+      "d"
+     ],
+     [
+      "Trigon Titans",
+      "NEANLATIYONBOLM",
+      2,
+      0,
+      "d"
+     ],
+     [
+      "REIGNITED",
+      "GHOSTING ESPORTS",
+      2,
+      0,
+      "d"
+     ],
+     [
+      "Galatasaray Esports",
+      "VANGUARD",
+      2,
+      0,
+      "d"
+     ],
+     [
+      "TRABLUSGARP GAZILERI",
+      "BEXORA",
+      0,
+      2,
+      "d"
+     ],
+     [
+      "AIMSTARS",
+      "MOONLIGHT",
+      0,
+      2,
+      "d"
+     ],
+     [
+      "TEAM NEXUS",
+      "Boston Nine",
+      1,
+      2,
+      "d"
+     ],
+     [
+      "SAVANA",
+      "Eclipse Esport",
+      0,
+      2,
+      "d"
+     ],
+     [
+      "BAFI BOYS",
+      "KBU Owls",
+      2,
+      0,
+      "d"
+     ],
+     [
+      "REIGNITED",
+      "NANKATSU",
+      2,
+      0,
+      "d"
+     ],
+     [
+      "Rogue Cats",
+      "Chavo",
+      0,
+      2,
+      "d"
+     ],
+     [
+      "Dark Passage",
+      "NEANLATIYONBOLM",
+      1,
+      2,
+      "d"
+     ],
+     [
+      "3 SAAT YETER",
+      "kayipbaliklar",
+      1,
+      2,
+      "d"
+     ],
+     [
+      "Team Zedra",
+      "team apanthe",
+      0,
+      2,
+      "d"
+     ],
+     [
+      "x4n4x users",
+      "Team Static",
+      1,
+      2,
+      "d"
+     ],
+     [
+      "LYTHIX Esports",
+      "Alpha Vortex",
+      2,
+      1,
+      "d"
+     ],
+     [
+      "NKVT",
+      "LCHANCE",
+      2,
+      0,
+      "d"
+     ],
+     [
+      "BOLD",
+      "ACİL PARA LAZIM",
+      2,
+      1,
+      "d"
+     ],
+     [
+      "GHOSTS",
+      "Survey Corps",
+      2,
+      0,
+      "d"
+     ]
+    ]
+   },
+   {
+    "r": "Round of 16",
+    "m": [
+     [
+      "Misa Esports",
+      "KIYICI5",
+      2,
+      0,
+      "d"
+     ],
+     [
+      "NANKATSU",
+      "Ravana",
+      2,
+      1,
+      "d"
+     ],
+     [
+      "CONFIGSTARZ",
+      "TEAM NEXUS",
+      0,
+      2,
+      "d"
+     ],
+     [
+      "Team FORGE",
+      "BOLD",
+      2,
+      0,
+      "d"
+     ],
+     [
+      "Galatasaray Esports",
+      "arabam alman misafirlerim fas",
+      2,
+      0,
+      "d"
+     ],
+     [
+      "Boston Nine",
+      "GHOSTS",
+      2,
+      0,
+      "d"
+     ],
+     [
+      "Dark Passage",
+      "Sesto Elemento",
+      1,
+      2,
+      "d"
+     ],
+     [
+      "Trigon Titans",
+      "REIGNITED",
+      2,
+      0,
+      "d"
+     ],
+     [
+      "Galatasaray Esports",
+      "BEXORA",
+      2,
+      0,
+      "d"
+     ],
+     [
+      "MOONLIGHT",
+      "Boston Nine",
+      1,
+      2,
+      "d"
+     ],
+     [
+      "Eclipse Esport",
+      "BAFI BOYS",
+      2,
+      0,
+      "d"
+     ],
+     [
+      "REIGNITED",
+      "Chavo",
+      1,
+      2,
+      "d"
+     ],
+     [
+      "NEANLATIYONBOLM",
+      "kayipbaliklar",
+      0,
+      2,
+      "d"
+     ],
+     [
+      "team apanthe",
+      "Team Static",
+      2,
+      0,
+      "d"
+     ],
+     [
+      "LYTHIX Esports",
+      "NKVT",
+      0,
+      2,
+      "d"
+     ],
+     [
+      "BOLD",
+      "GHOSTS",
+      2,
+      1,
+      "d"
+     ]
+    ]
+   },
+   {
+    "r": "Round of 8",
+    "m": [
+     [
+      "Misa Esports",
+      "NANKATSU",
+      2,
+      0,
+      "d"
+     ],
+     [
+      "TEAM NEXUS",
+      "Team FORGE",
+      0,
+      2,
+      "d"
+     ],
+     [
+      "Galatasaray Esports",
+      "Boston Nine",
+      2,
+      0,
+      "d"
+     ],
+     [
+      "Sesto Elemento",
+      "Trigon Titans",
+      0,
+      2,
+      "d"
+     ],
+     [
+      "Galatasaray Esports",
+      "Boston Nine",
+      2,
+      0,
+      "d"
+     ],
+     [
+      "Eclipse Esport",
+      "Chavo",
+      0,
+      2,
+      "d"
+     ],
+     [
+      "kayipbaliklar",
+      "team apanthe",
+      0,
+      2,
+      "d"
+     ],
+     [
+      "NKVT",
+      "BOLD",
+      2,
+      0,
+      "d"
+     ]
+    ]
+   },
+   {
+    "r": "Round of 4",
+    "m": [
+     [
+      "Misa Esports",
+      "Team FORGE",
+      2,
+      1,
+      "d"
+     ],
+     [
+      "Galatasaray Esports",
+      "Trigon Titans",
+      0,
+      2,
+      "d"
+     ],
+     [
+      "Galatasaray Esports",
+      "Chavo",
+      2,
+      0,
+      "d"
+     ],
+     [
+      "team apanthe",
+      "NKVT",
+      2,
+      0,
+      "d"
+     ]
+    ]
+   },
+   {
+    "r": "Seed Decider",
+    "m": [
+     [
+      "Misa Esports",
+      "Trigon Titans",
+      1,
+      2,
+      "d"
+     ],
+     [
+      "Galatasaray Esports",
+      "team apanthe",
+      2,
+      0,
+      "d"
+     ]
+    ]
+   },
+   {
+    "r": "Opening (A)",
+    "m": [
+     [
+      "Eternal Fire",
+      "Misa Esports",
+      2,
+      0,
+      "d"
+     ],
+     [
+      "Fire Flux Esports",
+      "Trigon Titans",
+      0,
+      2,
+      "d"
+     ]
+    ]
+   },
+   {
+    "r": "Opening (B)",
+    "m": [
+     [
+      "PCIFIC Esports",
+      "team apanthe",
+      2,
+      0,
+      "d"
+     ],
+     [
+      "Beşiktaş Esports",
+      "Galatasaray Esports",
+      1,
+      1,
       "l"
+     ]
+    ]
+   },
+   {
+    "r": "Winner's (A)",
+    "m": [
+     [
+      "Eternal Fire",
+      "Trigon Titans",
+      0,
+      0,
+      "u"
+     ]
+    ]
+   },
+   {
+    "r": "Winner's (B)",
+    "m": [
+     [
+      "PCIFIC Esports",
+      "TBD",
+      0,
+      0,
+      "u"
+     ]
+    ]
+   },
+   {
+    "r": "Elimination (A)",
+    "m": [
+     [
+      "Misa Esports",
+      "Fire Flux Esports",
+      0,
+      0,
+      "u"
+     ]
+    ]
+   },
+   {
+    "r": "Elimination (B)",
+    "m": [
+     [
+      "team apanthe",
+      "TBD",
+      0,
+      0,
+      "u"
+     ]
+    ]
+   },
+   {
+    "r": "Decider (A)",
+    "m": [
+     [
+      "TBD",
+      "TBD",
+      0,
+      0,
+      "u"
+     ]
+    ]
+   },
+   {
+    "r": "Decider (B)",
+    "m": [
+     [
+      "TBD",
+      "TBD",
+      0,
+      0,
+      "u"
+     ]
+    ]
+   },
+   {
+    "r": "Upper Semifinals",
+    "m": [
+     [
+      "TBD",
+      "TBD",
+      0,
+      0,
+      "u"
+     ],
+     [
+      "TBD",
+      "TBD",
+      0,
+      0,
+      "u"
+     ]
+    ]
+   },
+   {
+    "r": "Upper Final",
+    "m": [
+     [
+      "TBD",
+      "TBD",
+      0,
+      0,
+      "u"
+     ]
+    ]
+   },
+   {
+    "r": "Lower Round 1",
+    "m": [
+     [
+      "TBD",
+      "TBD",
+      0,
+      0,
+      "u"
+     ]
+    ]
+   },
+   {
+    "r": "Lower Final",
+    "m": [
+     [
+      "TBD",
+      "TBD",
+      0,
+      0,
+      "u"
+     ]
+    ]
+   },
+   {
+    "r": "Grand Final",
+    "m": [
+     [
+      "TBD",
+      "TBD",
+      0,
+      0,
+      "u"
      ]
     ]
    }
   ],
-  "x": []
+  "x": [
+   "Misa Esports",
+   "team apanthe"
+  ]
  },
  "fu": [
   {
@@ -5024,6 +6506,15 @@
    "id": "794016",
    "a": "UCAM Esports Club",
    "b": "CGN Esports",
+   "sa": "2",
+   "sb": "1",
+   "ev": "VCT 2027: EMEA Kickoff - Europe Qualifier Playoffs",
+   "ts": 1795622400000
+  },
+  {
+   "id": "794017",
+   "a": "Natus Vincere Junior",
+   "b": "Aurora Gaming",
    "sa": "2",
    "sb": "1",
    "ev": "VCT 2027: EMEA Kickoff - Europe Qualifier Playoffs",
@@ -5431,15 +6922,6 @@
    "b": "Yellow Dragon Gaming",
    "sa": "2",
    "sb": "0",
-   "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ts": 1795214700000
-  },
-  {
-   "id": "791681",
-   "a": "YFP",
-   "b": "Wildcard",
-   "sa": "2",
-   "sb": "1",
    "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
    "ts": 1795214700000
   }
