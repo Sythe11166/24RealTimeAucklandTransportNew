@@ -1,90 +1,6 @@
 {
- "updated": "2026-11-25T21:10:00.138Z",
+ "updated": "2026-11-25T21:12:04.806Z",
  "live": [
-  {
-   "id": "794020",
-   "a": "Eintracht Frankfurt",
-   "b": "F9 EICAR",
-   "sa": "1",
-   "sb": "1",
-   "ev": "VCT 2027: EMEA Kickoff - Europe Qualifier Playoffs",
-   "ph": "Swiss Stage–Round 1 (0-0)",
-   "ts": 1795631400000,
-   "url": "https://www.vlr.gg/794020/eintracht-frankfurt-vs-f9-eicar-vct-2027-emea-kickoff-europe-qualifier-playoffs-swiss-stage-r1-0-0",
-   "mp": [
-    {
-     "n": "Summit",
-     "a": 13,
-     "b": 9,
-     "st": "d"
-    },
-    {
-     "n": "Lotus",
-     "a": 12,
-     "b": 14,
-     "st": "d"
-    },
-    {
-     "n": "TBD",
-     "a": 0,
-     "b": 0,
-     "st": "l"
-    }
-   ],
-   "evu": "/event/3233/vct-2027-emea-kickoff-europe-qualifier-playoffs/swiss-stage",
-   "bo": "3",
-   "pl": {
-    "a": [
-     {
-      "n": "azury",
-      "ag": ""
-     },
-     {
-      "n": "musashi",
-      "ag": ""
-     },
-     {
-      "n": "Jamelinho213",
-      "ag": ""
-     },
-     {
-      "n": "Fizzy",
-      "ag": ""
-     },
-     {
-      "n": "TBD",
-      "ag": ""
-     }
-    ],
-    "b": [
-     {
-      "n": "H1ber",
-      "ag": ""
-     },
-     {
-      "n": "Kajuks",
-      "ag": ""
-     },
-     {
-      "n": "Yohpa",
-      "ag": ""
-     },
-     {
-      "n": "TITOUNE",
-      "ag": ""
-     },
-     {
-      "n": "poeth",
-      "ag": ""
-     }
-    ]
-   },
-   "tg": [
-    "SGE",
-    "F9"
-   ],
-   "nk": 1
-  },
   {
    "id": "794021",
    "a": "Enterprise Esports",
@@ -568,6 +484,546 @@
   }
  ],
  "results": [
+  {
+   "id": "794020",
+   "a": "Eintracht Frankfurt",
+   "b": "F9 EICAR",
+   "sa": "2",
+   "sb": "1",
+   "ev": "VCT 2027: EMEA Kickoff - Europe Qualifier Playoffs",
+   "ph": "Swiss Stage–Round 1 (0-0)",
+   "ts": 1795631400000,
+   "url": "https://www.vlr.gg/794020/eintracht-frankfurt-vs-f9-eicar-vct-2027-emea-kickoff-europe-qualifier-playoffs-swiss-stage-r1-0-0",
+   "mp": [
+    {
+     "n": "Summit",
+     "a": 13,
+     "b": 9
+    },
+    {
+     "n": "Lotus",
+     "a": 12,
+     "b": 14
+    },
+    {
+     "n": "Sunset",
+     "a": 13,
+     "b": 4
+    }
+   ],
+   "sm": [
+    {
+     "n": "Summit",
+     "a": 13,
+     "b": 9,
+     "pa": [
+      {
+       "n": "Fizzy",
+       "k": 20,
+       "d": 14,
+       "a": 8,
+       "ag": "omen"
+      },
+      {
+       "n": "bipo",
+       "k": 20,
+       "d": 18,
+       "a": 11,
+       "ag": "neon"
+      },
+      {
+       "n": "azury",
+       "k": 19,
+       "d": 10,
+       "a": 3,
+       "ag": "sage"
+      },
+      {
+       "n": "musashi",
+       "k": 17,
+       "d": 12,
+       "a": 6,
+       "ag": "fade"
+      },
+      {
+       "n": "foe",
+       "k": 16,
+       "d": 12,
+       "a": 3,
+       "ag": "chamber"
+      }
+     ],
+     "pb": [
+      {
+       "n": "TITOUNE",
+       "k": 20,
+       "d": 18,
+       "a": 0,
+       "ag": "yoru"
+      },
+      {
+       "n": "Kajuks",
+       "k": 19,
+       "d": 19,
+       "a": 4,
+       "ag": "astra"
+      },
+      {
+       "n": "poeth",
+       "k": 13,
+       "d": 18,
+       "a": 1,
+       "ag": "vyse"
+      },
+      {
+       "n": "Yohpa",
+       "k": 7,
+       "d": 18,
+       "a": 7,
+       "ag": "neon"
+      },
+      {
+       "n": "H1ber",
+       "k": 7,
+       "d": 19,
+       "a": 5,
+       "ag": "fade"
+      }
+     ],
+     "rd": [
+      [
+       "b",
+       "b"
+      ],
+      [
+       "b",
+       "b"
+      ],
+      [
+       "b",
+       "b"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "d"
+      ],
+      [
+       "a",
+       "d"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "b",
+       "t"
+      ],
+      [
+       "b",
+       "d"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "b",
+       "d"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ]
+     ]
+    },
+    {
+     "n": "Lotus",
+     "a": 12,
+     "b": 14,
+     "pa": [
+      {
+       "n": "azury",
+       "k": 18,
+       "d": 18,
+       "a": 6,
+       "ag": "viper"
+      },
+      {
+       "n": "foe",
+       "k": 18,
+       "d": 20,
+       "a": 5,
+       "ag": "neon"
+      },
+      {
+       "n": "bipo",
+       "k": 16,
+       "d": 23,
+       "a": 10,
+       "ag": "hush"
+      },
+      {
+       "n": "musashi",
+       "k": 15,
+       "d": 16,
+       "a": 11,
+       "ag": "fade"
+      },
+      {
+       "n": "Fizzy",
+       "k": 15,
+       "d": 18,
+       "a": 11,
+       "ag": "omen"
+      }
+     ],
+     "pb": [
+      {
+       "n": "Kajuks",
+       "k": 28,
+       "d": 14,
+       "a": 5,
+       "ag": "omen"
+      },
+      {
+       "n": "poeth",
+       "k": 19,
+       "d": 13,
+       "a": 7,
+       "ag": "cypher"
+      },
+      {
+       "n": "TITOUNE",
+       "k": 19,
+       "d": 18,
+       "a": 6,
+       "ag": "neon"
+      },
+      {
+       "n": "Yohpa",
+       "k": 18,
+       "d": 16,
+       "a": 3,
+       "ag": "hush"
+      },
+      {
+       "n": "H1ber",
+       "k": 11,
+       "d": 21,
+       "a": 15,
+       "ag": "fade"
+      }
+     ],
+     "rd": [
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "b"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "d"
+      ],
+      [
+       "a",
+       "d"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "b"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "a",
+       "b"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "b"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "d"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ]
+     ]
+    },
+    {
+     "n": "Sunset",
+     "a": 13,
+     "b": 4,
+     "pa": [
+      {
+       "n": "foe",
+       "k": 20,
+       "d": 7,
+       "a": 2,
+       "ag": "chamber"
+      },
+      {
+       "n": "bipo",
+       "k": 15,
+       "d": 12,
+       "a": 6,
+       "ag": "neon"
+      },
+      {
+       "n": "Fizzy",
+       "k": 13,
+       "d": 8,
+       "a": 4,
+       "ag": "omen"
+      },
+      {
+       "n": "azury",
+       "k": 9,
+       "d": 8,
+       "a": 2,
+       "ag": "sage"
+      },
+      {
+       "n": "musashi",
+       "k": 7,
+       "d": 7,
+       "a": 3,
+       "ag": "sova"
+      }
+     ],
+     "pb": [
+      {
+       "n": "Kajuks",
+       "k": 11,
+       "d": 12,
+       "a": 4,
+       "ag": "omen"
+      },
+      {
+       "n": "H1ber",
+       "k": 11,
+       "d": 13,
+       "a": 3,
+       "ag": "fade"
+      },
+      {
+       "n": "poeth",
+       "k": 8,
+       "d": 13,
+       "a": 4,
+       "ag": "cypher"
+      },
+      {
+       "n": "TITOUNE",
+       "k": 6,
+       "d": 13,
+       "a": 4,
+       "ag": "neon"
+      },
+      {
+       "n": "Yohpa",
+       "k": 6,
+       "d": 13,
+       "a": 1,
+       "ag": "hush"
+      }
+     ],
+     "rd": [
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "b"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "d"
+      ],
+      [
+       "a",
+       "b"
+      ],
+      [
+       "a",
+       "b"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "b"
+      ],
+      [
+       "a",
+       "b"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "d"
+      ]
+     ]
+    }
+   ],
+   "tg": [
+    "SGE",
+    "F9"
+   ],
+   "bo": "3",
+   "smt": 1795641121214,
+   "et": 1795641122415
+  },
   {
    "id": "793639",
    "a": "Beşiktaş Esports",
@@ -4213,352 +4669,6 @@
     "GOC",
     "RANK"
    ]
-  },
-  {
-   "id": "790432",
-   "a": "TROOPERS",
-   "b": "Bonkers",
-   "sa": "0",
-   "sb": "2",
-   "ev": "VCT 2027: Pacific Kickoff - Oceania Qualifier",
-   "ph": "Playoffs–Upper Semifinals",
-   "ts": 1795593600000,
-   "url": "https://www.vlr.gg/790432/troopers-vs-bonkers-vct-2027-pacific-kickoff-oceania-qualifier-ubsf",
-   "mp": [
-    {
-     "n": "Summit",
-     "a": 3,
-     "b": 13
-    },
-    {
-     "n": "Haven",
-     "a": 8,
-     "b": 13
-    }
-   ],
-   "sm": [
-    {
-     "n": "Summit",
-     "a": 3,
-     "b": 13,
-     "pa": [
-      {
-       "n": "RYRY",
-       "k": 15,
-       "d": 14,
-       "a": 5,
-       "ag": "brimstone"
-      },
-      {
-       "n": "Strame",
-       "k": 9,
-       "d": 14,
-       "a": 1,
-       "ag": "cypher"
-      },
-      {
-       "n": "nez",
-       "k": 7,
-       "d": 14,
-       "a": 6,
-       "ag": "tejo"
-      },
-      {
-       "n": "LOATHE",
-       "k": 6,
-       "d": 14,
-       "a": 2,
-       "ag": "neon"
-      },
-      {
-       "n": "arcto",
-       "k": 4,
-       "d": 14,
-       "a": 7,
-       "ag": "hush"
-      }
-     ],
-     "pb": [
-      {
-       "n": "murza",
-       "k": 16,
-       "d": 6,
-       "a": 4,
-       "ag": "vyse"
-      },
-      {
-       "n": "Minimise",
-       "k": 16,
-       "d": 8,
-       "a": 8,
-       "ag": "phoenix"
-      },
-      {
-       "n": "kaza",
-       "k": 13,
-       "d": 7,
-       "a": 11,
-       "ag": "fade"
-      },
-      {
-       "n": "FLOGA",
-       "k": 13,
-       "d": 10,
-       "a": 9,
-       "ag": "astra"
-      },
-      {
-       "n": "SWERL",
-       "k": 12,
-       "d": 10,
-       "a": 3,
-       "ag": "waylay"
-      }
-     ],
-     "rd": [
-      [
-       "a",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "a",
-       "d"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "d"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ]
-     ]
-    },
-    {
-     "n": "Haven",
-     "a": 8,
-     "b": 13,
-     "pa": [
-      {
-       "n": "Strame",
-       "k": 20,
-       "d": 14,
-       "a": 5,
-       "ag": "cypher"
-      },
-      {
-       "n": "arcto",
-       "k": 20,
-       "d": 18,
-       "a": 4,
-       "ag": "hush"
-      },
-      {
-       "n": "nez",
-       "k": 14,
-       "d": 17,
-       "a": 11,
-       "ag": "sova"
-      },
-      {
-       "n": "LOATHE",
-       "k": 11,
-       "d": 18,
-       "a": 5,
-       "ag": "neon"
-      },
-      {
-       "n": "RYRY",
-       "k": 9,
-       "d": 17,
-       "a": 12,
-       "ag": "omen"
-      }
-     ],
-     "pb": [
-      {
-       "n": "kaza",
-       "k": 21,
-       "d": 13,
-       "a": 5,
-       "ag": "sova"
-      },
-      {
-       "n": "SWERL",
-       "k": 19,
-       "d": 14,
-       "a": 6,
-       "ag": "neon"
-      },
-      {
-       "n": "FLOGA",
-       "k": 17,
-       "d": 17,
-       "a": 17,
-       "ag": "omen"
-      },
-      {
-       "n": "murza",
-       "k": 15,
-       "d": 14,
-       "a": 7,
-       "ag": "cypher"
-      },
-      {
-       "n": "Minimise",
-       "k": 12,
-       "d": 16,
-       "a": 7,
-       "ag": "yoru"
-      }
-     ],
-     "rd": [
-      [
-       "a",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "a",
-       "d"
-      ],
-      [
-       "b",
-       "b"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "a",
-       "d"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ]
-     ]
-    }
-   ],
-   "h2h": {
-    "a": 0,
-    "b": 1
-   },
-   "bo": "3",
-   "smt": 1795598560855,
-   "et": 1795598562056,
-   "tg": [
-    "TRP",
-    "BONK"
-   ]
   }
  ],
  "news": [
@@ -4606,7 +4716,6 @@
   "GOC Esports": "https://owcdn.net/img/6b0558757feb7.png",
   "RANKERS": "",
   "TROOPERS": "",
-  "Bonkers": "https://owcdn.net/img/645fbc5da4a21.png",
   "Finishers": "https://owcdn.net/img/69d48940ee5bf.png",
   "Beşiktaş Esports": "https://owcdn.net/img/623de5ba6273f.png",
   "Galatasaray Esports": "https://owcdn.net/img/61e88bf9166d3.png",
@@ -4645,7 +4754,6 @@
   "GodLike Esports": "#edb74d",
   "SIGN Esports": "#f36c21",
   "GOC Esports": "#5d5193",
-  "Bonkers": "#e0900e",
   "Finishers": "#4e859b",
   "Beşiktaş Esports": "#e33331",
   "Galatasaray Esports": "#fca31a",
@@ -5010,6 +5118,15 @@
   }
  ],
  "fr": [
+  {
+   "id": "794020",
+   "a": "Eintracht Frankfurt",
+   "b": "F9 EICAR",
+   "sa": "2",
+   "sb": "1",
+   "ev": "VCT 2027: EMEA Kickoff - Europe Qualifier Playoffs",
+   "ts": 1795631400000
+  },
   {
    "id": "793639",
    "a": "Beşiktaş Esports",
@@ -5423,15 +5540,6 @@
    "sb": "1",
    "ev": "VCT 2027: America Kickoff - Brazil Qualifier Playoffs",
    "ts": 1795216200000
-  },
-  {
-   "id": "791679",
-   "a": "Cloud9",
-   "b": "counterfeit",
-   "sa": "2",
-   "sb": "0",
-   "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ts": 1795212600000
   }
  ]
 }
