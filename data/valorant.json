@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-25T07:30:13.287Z",
+ "updated": "2026-11-25T07:31:50.956Z",
  "live": [
   {
    "id": "793803",
    "a": "Trigger Point Esports",
    "b": "ZEXAR ESPORTS",
-   "sa": "0",
+   "sa": "1",
    "sb": "0",
    "ev": "VCT 2027: Pacific Kickoff - South Asia Qualifier",
    "ph": "Playoffs–Lower Round 1",
@@ -14,13 +14,15 @@
    "mp": [
     {
      "n": "Haven",
-     "a": 0,
-     "b": 0,
-     "st": "l"
+     "a": 13,
+     "b": 11,
+     "st": "d"
     },
     {
      "n": "Lotus",
-     "st": "n"
+     "a": 0,
+     "b": 0,
+     "st": "l"
     },
     {
      "n": "Corrode",
