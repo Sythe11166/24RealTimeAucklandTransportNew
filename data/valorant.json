@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T12:14:58.899Z",
+ "updated": "2026-11-25T12:16:35.044Z",
  "live": [
   {
    "id": "793799",
@@ -13,22 +13,59 @@
    "url": "https://www.vlr.gg/793799/godlike-esports-vs-sign-esports-vct-2027-pacific-kickoff-south-asia-qualifier-ubsf",
    "mp": [
     {
-     "n": "TBD",
+     "n": "Corrode",
      "a": 0,
      "b": 0,
      "st": "l"
     },
     {
-     "n": "TBD",
+     "n": "Lotus",
      "st": "n"
     },
     {
-     "n": "TBD",
+     "n": "Sunset",
      "st": "n"
     }
    ],
    "evu": "/event/3206/vct-2027-pacific-kickoff-south-asia-qualifier/playoffs",
    "bo": "3",
+   "vt": [
+    [
+     "x",
+     "SGN",
+     "Bind"
+    ],
+    [
+     "x",
+     "GODL",
+     "Abyss"
+    ],
+    [
+     "p",
+     "SGN",
+     "Corrode"
+    ],
+    [
+     "p",
+     "GODL",
+     "Lotus"
+    ],
+    [
+     "x",
+     "SGN",
+     "Summit"
+    ],
+    [
+     "x",
+     "GODL",
+     "Haven"
+    ],
+    [
+     "d",
+     "",
+     "Sunset"
+    ]
+   ],
    "pl": {
     "a": [
      {
@@ -4328,7 +4365,7 @@
   "u": "/event/3206/vct-2027-pacific-kickoff-south-asia-qualifier/playoffs",
   "rg": "Pacific",
   "ev": "VCT 2027: Pacific Kickoff - South Asia Qualifier",
-  "at": 1795608707097,
+  "at": 1795608993734,
   "r": [
    {
     "r": "Round 1",
