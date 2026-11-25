@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T16:45:17.304Z",
+ "updated": "2026-11-25T16:47:25.581Z",
  "live": [
   {
    "id": "794016",
@@ -166,21 +166,23 @@
    "a": "Mandatory",
    "b": "Barça eSports",
    "sa": "0",
-   "sb": "0",
+   "sb": "1",
    "ev": "VCT 2027: EMEA Kickoff - Europe Qualifier Playoffs",
    "ph": "Swiss Stage–Round 1 (0-0)",
    "ts": 1795622400000,
    "url": "https://www.vlr.gg/794018/mandatory-vs-bar-a-esports-vct-2027-emea-kickoff-europe-qualifier-playoffs-swiss-stage-r1-0-0",
    "mp": [
     {
+     "n": "Corrode",
+     "a": 7,
+     "b": 13,
+     "st": "d"
+    },
+    {
      "n": "TBD",
      "a": 0,
      "b": 0,
      "st": "l"
-    },
-    {
-     "n": "TBD",
-     "st": "n"
     },
     {
      "n": "TBD",
