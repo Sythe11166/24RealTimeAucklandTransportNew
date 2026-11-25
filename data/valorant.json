@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-25T17:48:41.410Z",
+ "updated": "2026-11-25T17:50:22.337Z",
  "live": [
   {
    "id": "794016",
    "a": "UCAM Esports Club",
    "b": "CGN Esports",
    "sa": "1",
-   "sb": "0",
+   "sb": "1",
    "ev": "VCT 2027: EMEA Kickoff - Europe Qualifier Playoffs",
    "ph": "Swiss Stage–Round 1 (0-0)",
    "ts": 1795622400000,
@@ -19,14 +19,16 @@
      "st": "d"
     },
     {
+     "n": "Lotus",
+     "a": 9,
+     "b": 13,
+     "st": "d"
+    },
+    {
      "n": "TBD",
      "a": 0,
      "b": 0,
      "st": "l"
-    },
-    {
-     "n": "TBD",
-     "st": "n"
     }
    ],
    "evu": "/event/3233/vct-2027-emea-kickoff-europe-qualifier-playoffs/swiss-stage",
