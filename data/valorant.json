@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-25T13:50:57.025Z",
+ "updated": "2026-11-25T13:51:20.063Z",
  "live": [
   {
    "id": "793799",
    "a": "GodLike Esports",
    "b": "SIGN Esports",
    "sa": "1",
-   "sb": "0",
+   "sb": "1",
    "ev": "VCT 2027: Pacific Kickoff - South Asia Qualifier",
    "ph": "Playoffs–Upper Semifinals",
    "ts": 1795607400000,
@@ -20,13 +20,15 @@
     },
     {
      "n": "Lotus",
-     "a": 0,
-     "b": 0,
-     "st": "l"
+     "a": 8,
+     "b": 13,
+     "st": "d"
     },
     {
      "n": "Sunset",
-     "st": "n"
+     "a": 0,
+     "b": 0,
+     "st": "l"
     }
    ],
    "evu": "/event/3206/vct-2027-pacific-kickoff-south-asia-qualifier/playoffs",
