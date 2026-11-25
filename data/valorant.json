@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T03:29:38.280Z",
+ "updated": "2026-11-25T03:31:14.409Z",
  "live": [
   {
    "id": "793767",
@@ -6298,14 +6298,14 @@
    "a": "Revenant XSpark",
    "b": "Kryon Esports",
    "ev": "VCT 2027: Pacific Kickoff - South Asia Qualifier",
-   "ts": 1795674600000
+   "ts": 1795671000000
   },
   {
    "id": "793635",
    "a": "Eternal Fire",
    "b": "Trigon Titans",
    "ev": "VCT 2027: EMEA Kickoff - Türkiye Qualifier",
-   "ts": 1795703400000
+   "ts": 1795699800000
   },
   {
    "id": "792042",
@@ -6340,7 +6340,7 @@
    "a": "Misa Esports",
    "b": "Fire Flux Esports",
    "ev": "VCT 2027: EMEA Kickoff - Türkiye Qualifier",
-   "ts": 1795962600000
+   "ts": 1795959000000
   }
  ],
  "fr": [
