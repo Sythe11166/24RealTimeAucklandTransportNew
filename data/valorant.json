@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T14:59:15.882Z",
+ "updated": "2026-11-25T15:00:54.405Z",
  "live": [
   {
    "id": "793639",
@@ -802,10 +802,6 @@
      ]
     }
    ],
-   "tg": [
-    "GODL",
-    "SGN"
-   ],
    "vt": [
     [
      "x",
@@ -845,7 +841,11 @@
    ],
    "bo": "3",
    "smt": 1795618749413,
-   "et": 1795618750614
+   "et": 1795618750614,
+   "tg": [
+    "GODL",
+    "SGN"
+   ]
   },
   {
    "id": "793804",
@@ -5527,49 +5527,49 @@
    "a": "SÓ TEM VELHO",
    "b": "Next",
    "ev": "VCT 2027: America Kickoff - Brazil Qualifier Playoffs",
-   "ts": 1795723200000
+   "ts": 1795719600000
   },
   {
    "id": "794180",
    "a": "Leones",
    "b": "Contra",
    "ev": "VCT 2027: America Kickoff - LATAM North Qualifier Playoffs",
-   "ts": 1795730400000
+   "ts": 1795726800000
   },
   {
    "id": "792043",
    "a": "Fluxo W7M",
    "b": "ELEVATE",
    "ev": "VCT 2027: America Kickoff - Brazil Qualifier Playoffs",
-   "ts": 1795734000000
+   "ts": 1795730400000
   },
   {
    "id": "794181",
    "a": "FUEGO",
    "b": "Chivas Esports",
    "ev": "VCT 2027: America Kickoff - LATAM North Qualifier Playoffs",
-   "ts": 1795741200000
+   "ts": 1795737600000
   },
   {
    "id": "790434",
    "a": "Bonkers",
    "b": "MeatZn",
    "ev": "VCT 2027: Pacific Kickoff - Oceania Qualifier",
-   "ts": 1795766400000
+   "ts": 1795762800000
   },
   {
    "id": "792044",
    "a": "Team Solid",
    "b": "BRASIL2002",
    "ev": "VCT 2027: America Kickoff - Brazil Qualifier Playoffs",
-   "ts": 1795809600000
+   "ts": 1795806000000
   },
   {
    "id": "792045",
    "a": "2Game Esports",
    "b": "Mafiosos",
    "ev": "VCT 2027: America Kickoff - Brazil Qualifier Playoffs",
-   "ts": 1795820400000
+   "ts": 1795816800000
   },
   {
    "id": "793636",
@@ -5583,7 +5583,7 @@
    "a": "Cloud9",
    "b": "QoR",
    "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ts": 1796162400000
+   "ts": 1796158800000
   }
  ],
  "fr": [
