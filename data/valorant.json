@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T17:04:02.897Z",
+ "updated": "2026-11-25T17:05:45.121Z",
  "live": [
   {
    "id": "794016",
@@ -6260,6 +6260,15 @@
    "sb": "2",
    "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
    "ts": 1795212300000
+  },
+  {
+   "id": "791703",
+   "a": "Team Solid",
+   "b": "ARRANCA DREAMS",
+   "sa": "2",
+   "sb": "1",
+   "ev": "VCT 2027: America Kickoff - Brazil Qualifier Playoffs",
+   "ts": 1795205100000
   }
  ]
 }
