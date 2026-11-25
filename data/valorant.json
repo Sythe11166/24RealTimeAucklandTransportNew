@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T02:44:04.482Z",
+ "updated": "2026-11-25T02:45:40.664Z",
  "live": [
   {
    "id": "793767",
@@ -3841,10 +3841,6 @@
      ]
     }
    ],
-   "tg": [
-    "GODL",
-    "TPE"
-   ],
    "vt": [
     [
      "x",
@@ -3883,7 +3879,11 @@
     ]
    ],
    "bo": "3",
-   "smt": 1795574638127
+   "smt": 1795574638127,
+   "tg": [
+    "GODL",
+    "TPE"
+   ]
   },
   {
    "id": "793238",
@@ -4215,12 +4215,12 @@
      ]
     }
    ],
+   "bo": "3",
+   "smt": 1795574639428,
    "tg": [
     "CHV",
     "OSK"
-   ],
-   "bo": "3",
-   "smt": 1795574639428
+   ]
   }
  ],
  "news": [
@@ -6462,15 +6462,6 @@
    "ts": 1795387500000
   },
   {
-   "id": "793237",
-   "a": "FUEGO",
-   "b": "505",
-   "sa": "2",
-   "sb": "0",
-   "ev": "VCT 2027: America Kickoff - LATAM North Qualifier Playoffs",
-   "ts": 1795387500000
-  },
-  {
    "id": "793333",
    "a": "counterfeit",
    "b": "FlyQuest",
@@ -6522,7 +6513,7 @@
    "sa": "1",
    "sb": "2",
    "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ts": 1795311900000
+   "ts": 1795308300000
   },
   {
    "id": "792910",
@@ -6746,6 +6737,15 @@
    "b": "WIP Esports",
    "sa": "2",
    "sb": "1",
+   "ev": "VCT 2027: EMEA Kickoff - Europe Open Qualifier",
+   "ts": 1795401900000
+  },
+  {
+   "id": "790756",
+   "a": "La Masia",
+   "b": "CGN Esports",
+   "sa": "1",
+   "sb": "2",
    "ev": "VCT 2027: EMEA Kickoff - Europe Open Qualifier",
    "ts": 1795401900000
   }
