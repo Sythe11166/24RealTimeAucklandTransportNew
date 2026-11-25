@@ -1,6 +1,90 @@
 {
- "updated": "2026-11-25T16:30:23.689Z",
+ "updated": "2026-11-25T16:33:44.897Z",
  "live": [
+  {
+   "id": "793638",
+   "a": "PCIFIC Esports",
+   "b": "team apanthe",
+   "sa": "1",
+   "sb": "0",
+   "ev": "VCT 2027: EMEA Kickoff - Türkiye Qualifier",
+   "ph": "Playoffs–Opening (B)",
+   "ts": 1795627800000,
+   "url": "https://www.vlr.gg/793638/pcific-esports-vs-team-apanthe-vct-2027-emea-kickoff-t-rkiye-qualifier-playoffs-opening-b",
+   "mp": [
+    {
+     "n": "Lotus",
+     "a": 13,
+     "b": 10,
+     "st": "d"
+    },
+    {
+     "n": "Abyss",
+     "a": 13,
+     "b": 5,
+     "st": "d"
+    },
+    {
+     "n": "TBD",
+     "a": 0,
+     "b": 0,
+     "st": "l"
+    }
+   ],
+   "evu": "/event/3177/vct-2027-emea-kickoff-t-rkiye-qualifier/playoffs",
+   "bo": "3",
+   "pl": {
+    "a": [
+     {
+      "n": "Gloomy",
+      "ag": ""
+     },
+     {
+      "n": "sh0ut",
+      "ag": ""
+     },
+     {
+      "n": "envex",
+      "ag": ""
+     },
+     {
+      "n": "sh1ngo",
+      "ag": ""
+     },
+     {
+      "n": "VdekJeNN",
+      "ag": ""
+     }
+    ],
+    "b": [
+     {
+      "n": "siskoefe",
+      "ag": ""
+     },
+     {
+      "n": "apanthe",
+      "ag": ""
+     },
+     {
+      "n": "ScooPy",
+      "ag": ""
+     },
+     {
+      "n": "deidames",
+      "ag": ""
+     },
+     {
+      "n": "Frosty",
+      "ag": ""
+     }
+    ]
+   },
+   "tg": [
+    "PCF",
+    "apan"
+   ],
+   "nk": 1
+  },
   {
    "id": "793639",
    "a": "Beşiktaş Esports",
@@ -412,20 +496,6 @@
  ],
  "upcoming": [
   {
-   "id": "793638",
-   "a": "PCIFIC Esports",
-   "b": "team apanthe",
-   "sa": "–",
-   "sb": "–",
-   "ev": "VCT 2027: EMEA Kickoff - Türkiye Qualifier",
-   "ph": "Playoffs–Opening (B)",
-   "ts": 1795627800000,
-   "url": "https://www.vlr.gg/793638/pcific-esports-vs-team-apanthe-vct-2027-emea-kickoff-t-rkiye-qualifier-playoffs-opening-b",
-   "bo": "3",
-   "evu": "/event/3177/vct-2027-emea-kickoff-t-rkiye-qualifier/playoffs",
-   "fz": 1
-  },
-  {
    "id": "794020",
    "a": "Eintracht Frankfurt",
    "b": "F9 EICAR",
@@ -462,7 +532,10 @@
    "ev": "VCT 2027: EMEA Kickoff - Europe Qualifier Playoffs",
    "ph": "Swiss Stage–Round 1 (0-0)",
    "ts": 1795631400000,
-   "url": "https://www.vlr.gg/794022/mir-vs-la-masia-vct-2027-emea-kickoff-europe-qualifier-playoffs-swiss-stage-r1-0-0"
+   "url": "https://www.vlr.gg/794022/mir-vs-la-masia-vct-2027-emea-kickoff-europe-qualifier-playoffs-swiss-stage-r1-0-0",
+   "bo": "3",
+   "evu": "/event/3233/vct-2027-emea-kickoff-europe-qualifier-playoffs/swiss-stage",
+   "fz": 1
   },
   {
    "id": "794023",
@@ -549,11 +622,379 @@
    "sb": "–",
    "ev": "VCT 2027: America Kickoff - Brazil Qualifier Playoffs",
    "ph": "Playoffs–Upper Quarterfinals",
-   "ts": 1795721400000,
+   "ts": 1795721700000,
    "url": "https://www.vlr.gg/792042/s-tem-velho-vs-next-vct-2027-america-kickoff-brazil-qualifier-playoffs-ubqf"
+  },
+  {
+   "id": "794180",
+   "a": "Leones",
+   "b": "Contra",
+   "sa": "–",
+   "sb": "–",
+   "ev": "VCT 2027: America Kickoff - LATAM North Qualifier Playoffs",
+   "ph": "Playoffs–Upper Semifinals",
+   "ts": 1795728900000,
+   "url": "https://www.vlr.gg/794180/leones-vs-contra-vct-2027-america-kickoff-latam-north-qualifier-playoffs-ubsf"
   }
  ],
  "results": [
+  {
+   "id": "793638",
+   "a": "PCIFIC Esports",
+   "b": "team apanthe",
+   "sa": "2",
+   "sb": "0",
+   "ev": "VCT 2027: EMEA Kickoff - Türkiye Qualifier",
+   "ph": "Playoffs–Opening (B)",
+   "ts": 1795617000000,
+   "url": "https://www.vlr.gg/793638/pcific-esports-vs-team-apanthe-vct-2027-emea-kickoff-t-rkiye-qualifier-playoffs-opening-b",
+   "mp": [
+    {
+     "n": "Lotus",
+     "a": 13,
+     "b": 10
+    },
+    {
+     "n": "Abyss",
+     "a": 13,
+     "b": 5
+    }
+   ],
+   "sm": [
+    {
+     "n": "Lotus",
+     "a": 13,
+     "b": 10,
+     "pa": [
+      {
+       "n": "sh1ngo",
+       "k": 23,
+       "d": 16,
+       "a": 4,
+       "ag": "neon"
+      },
+      {
+       "n": "envex",
+       "k": 20,
+       "d": 14,
+       "a": 7,
+       "ag": "hush"
+      },
+      {
+       "n": "VdekJeNN",
+       "k": 18,
+       "d": 14,
+       "a": 8,
+       "ag": "cypher"
+      },
+      {
+       "n": "Gloomy",
+       "k": 11,
+       "d": 15,
+       "a": 6,
+       "ag": "fade"
+      },
+      {
+       "n": "sh0ut",
+       "k": 11,
+       "d": 16,
+       "a": 13,
+       "ag": "omen"
+      }
+     ],
+     "pb": [
+      {
+       "n": "siskoefe",
+       "k": 17,
+       "d": 16,
+       "a": 8,
+       "ag": "fade"
+      },
+      {
+       "n": "apanthe",
+       "k": 16,
+       "d": 18,
+       "a": 4,
+       "ag": "neon"
+      },
+      {
+       "n": "ScooPy",
+       "k": 15,
+       "d": 16,
+       "a": 2,
+       "ag": "cypher"
+      },
+      {
+       "n": "Frosty",
+       "k": 15,
+       "d": 18,
+       "a": 7,
+       "ag": "hush"
+      },
+      {
+       "n": "deidames",
+       "k": 12,
+       "d": 15,
+       "a": 12,
+       "ag": "omen"
+      }
+     ],
+     "rd": [
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "b"
+      ],
+      [
+       "a",
+       "b"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "b",
+       "d"
+      ],
+      [
+       "b",
+       "d"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "a",
+       "d"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "a",
+       "d"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "d"
+      ]
+     ]
+    },
+    {
+     "n": "Abyss",
+     "a": 13,
+     "b": 5,
+     "pa": [
+      {
+       "n": "envex",
+       "k": 18,
+       "d": 12,
+       "a": 6,
+       "ag": "hush"
+      },
+      {
+       "n": "sh0ut",
+       "k": 15,
+       "d": 10,
+       "a": 8,
+       "ag": "omen"
+      },
+      {
+       "n": "Gloomy",
+       "k": 14,
+       "d": 8,
+       "a": 12,
+       "ag": "sova"
+      },
+      {
+       "n": "sh1ngo",
+       "k": 12,
+       "d": 7,
+       "a": 4,
+       "ag": "waylay"
+      },
+      {
+       "n": "VdekJeNN",
+       "k": 12,
+       "d": 11,
+       "a": 8,
+       "ag": "astra"
+      }
+     ],
+     "pb": [
+      {
+       "n": "siskoefe",
+       "k": 13,
+       "d": 14,
+       "a": 4,
+       "ag": "sova"
+      },
+      {
+       "n": "apanthe",
+       "k": 12,
+       "d": 15,
+       "a": 2,
+       "ag": "neon"
+      },
+      {
+       "n": "ScooPy",
+       "k": 9,
+       "d": 14,
+       "a": 1,
+       "ag": "harbor"
+      },
+      {
+       "n": "Frosty",
+       "k": 7,
+       "d": 15,
+       "a": 3,
+       "ag": "waylay"
+      },
+      {
+       "n": "deidames",
+       "k": 5,
+       "d": 13,
+       "a": 6,
+       "ag": "astra"
+      }
+     ],
+     "rd": [
+      [
+       "b",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "b"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "b"
+      ],
+      [
+       "a",
+       "b"
+      ],
+      [
+       "a",
+       "b"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "b"
+      ],
+      [
+       "a",
+       "d"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "b"
+      ],
+      [
+       "a",
+       "d"
+      ]
+     ]
+    }
+   ],
+   "tg": [
+    "PCF",
+    "apan"
+   ],
+   "bo": "3",
+   "smt": 1795624420200
+  },
   {
    "id": "793799",
    "a": "GodLike Esports",
@@ -4087,405 +4528,6 @@
     "FF",
     "TRT"
    ]
-  },
-  {
-   "id": "793633",
-   "a": "Eternal Fire",
-   "b": "Misa Esports",
-   "sa": "2",
-   "sb": "0",
-   "ev": "VCT 2027: EMEA Kickoff - Türkiye Qualifier",
-   "ph": "Playoffs–Opening (A)",
-   "ts": 1795530600000,
-   "url": "https://www.vlr.gg/793633/eternal-fire-vs-misa-esports-vct-2027-emea-kickoff-t-rkiye-qualifier-playoffs-opening-a",
-   "mp": [
-    {
-     "n": "Summit",
-     "a": 13,
-     "b": 8
-    },
-    {
-     "n": "Lotus",
-     "a": 13,
-     "b": 7
-    }
-   ],
-   "sm": [
-    {
-     "n": "Summit",
-     "a": 13,
-     "b": 8,
-     "pa": [
-      {
-       "n": "s0pp",
-       "k": 24,
-       "d": 12,
-       "a": 5,
-       "ag": "chamber"
-      },
-      {
-       "n": "sociablEE",
-       "k": 21,
-       "d": 13,
-       "a": 14,
-       "ag": "harbor"
-      },
-      {
-       "n": "KROSTALY",
-       "k": 19,
-       "d": 14,
-       "a": 9,
-       "ag": "fade"
-      },
-      {
-       "n": "Favian",
-       "k": 13,
-       "d": 16,
-       "a": 7,
-       "ag": "waylay"
-      },
-      {
-       "n": "echo",
-       "k": 11,
-       "d": 14,
-       "a": 10,
-       "ag": "sage"
-      }
-     ],
-     "pb": [
-      {
-       "n": "Izzy",
-       "k": 20,
-       "d": 14,
-       "a": 4,
-       "ag": "chamber"
-      },
-      {
-       "n": "Ronniee",
-       "k": 19,
-       "d": 20,
-       "a": 4,
-       "ag": "neon"
-      },
-      {
-       "n": "pAwn1",
-       "k": 18,
-       "d": 17,
-       "a": 5,
-       "ag": "omen"
-      },
-      {
-       "n": "MERZ",
-       "k": 6,
-       "d": 17,
-       "a": 7,
-       "ag": "sage"
-      },
-      {
-       "n": "Tiyosta",
-       "k": 6,
-       "d": 20,
-       "a": 6,
-       "ag": "fade"
-      }
-     ],
-     "rd": [
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "t"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "d"
-      ],
-      [
-       "a",
-       "d"
-      ],
-      [
-       "b",
-       "b"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "b"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "b",
-       "d"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "b"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "b",
-       "d"
-      ],
-      [
-       "a",
-       "b"
-      ],
-      [
-       "a",
-       "e"
-      ]
-     ]
-    },
-    {
-     "n": "Lotus",
-     "a": 13,
-     "b": 7,
-     "pa": [
-      {
-       "n": "echo",
-       "k": 24,
-       "d": 12,
-       "a": 3,
-       "ag": "cypher"
-      },
-      {
-       "n": "Favian",
-       "k": 19,
-       "d": 14,
-       "a": 6,
-       "ag": "hush"
-      },
-      {
-       "n": "s0pp",
-       "k": 16,
-       "d": 13,
-       "a": 7,
-       "ag": "neon"
-      },
-      {
-       "n": "KROSTALY",
-       "k": 15,
-       "d": 9,
-       "a": 13,
-       "ag": "fade"
-      },
-      {
-       "n": "sociablEE",
-       "k": 12,
-       "d": 14,
-       "a": 16,
-       "ag": "omen"
-      }
-     ],
-     "pb": [
-      {
-       "n": "Ronniee",
-       "k": 19,
-       "d": 18,
-       "a": 3,
-       "ag": "raze"
-      },
-      {
-       "n": "Tiyosta",
-       "k": 16,
-       "d": 16,
-       "a": 4,
-       "ag": "skye"
-      },
-      {
-       "n": "MERZ",
-       "k": 10,
-       "d": 17,
-       "a": 7,
-       "ag": "sage"
-      },
-      {
-       "n": "Izzy",
-       "k": 9,
-       "d": 18,
-       "a": 8,
-       "ag": "waylay"
-      },
-      {
-       "n": "pAwn1",
-       "k": 8,
-       "d": 17,
-       "a": 13,
-       "ag": "harbor"
-      }
-     ],
-     "rd": [
-      [
-       "b",
-       "d"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "b",
-       "d"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "b"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "d"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "b"
-      ],
-      [
-       "a",
-       "d"
-      ],
-      [
-       "a",
-       "d"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ]
-     ]
-    }
-   ],
-   "vt": [
-    [
-     "x",
-     "MISA",
-     "Corrode"
-    ],
-    [
-     "x",
-     "EF",
-     "Abyss"
-    ],
-    [
-     "p",
-     "MISA",
-     "Summit"
-    ],
-    [
-     "p",
-     "EF",
-     "Lotus"
-    ],
-    [
-     "x",
-     "MISA",
-     "Haven"
-    ],
-    [
-     "x",
-     "EF",
-     "Sunset"
-    ],
-    [
-     "d",
-     "",
-     "Bind"
-    ]
-   ],
-   "h2h": {
-    "a": 1,
-    "b": 1
-   },
-   "bo": "3",
-   "smt": 1795537434078,
-   "et": 1795537435280,
-   "tg": [
-    "EF",
-    "MISA"
-   ]
   }
  ],
  "news": [
@@ -4537,8 +4579,6 @@
   "SIGN Esports": "https://owcdn.net/img/69adf8ca7becf.png",
   "GOC Esports": "https://owcdn.net/img/6b0558757feb7.png",
   "RANKERS": "",
-  "Eternal Fire": "https://owcdn.net/img/6628980dcdaea.png",
-  "Misa Esports": "https://owcdn.net/img/6887b1d2edd20.png",
   "Fire Flux Esports": "https://owcdn.net/img/68e6e1bcca45d.png",
   "Trigon Titans": "https://owcdn.net/img/6afa21f3b97d6.png",
   "TROOPERS": "",
@@ -4580,8 +4620,6 @@
   "ZEXAR ESPORTS": "#a76df9",
   "SIGN Esports": "#f36c21",
   "GOC Esports": "#5d5193",
-  "Eternal Fire": "#988966",
-  "Misa Esports": "",
   "Fire Flux Esports": "#18d7f5",
   "Trigon Titans": "",
   "Bonkers": "#e0900e",
@@ -4744,7 +4782,7 @@
   "u": "/event/3206/vct-2027-pacific-kickoff-south-asia-qualifier/playoffs",
   "rg": "Pacific",
   "ev": "VCT 2027: Pacific Kickoff - South Asia Qualifier",
-  "at": 1795624122513,
+  "at": 1795624423558,
   "r": [
    {
     "r": "Round 1",
@@ -5752,13 +5790,6 @@
  },
  "fu": [
   {
-   "id": "793638",
-   "a": "PCIFIC Esports",
-   "b": "team apanthe",
-   "ev": "VCT 2027: EMEA Kickoff - Türkiye Qualifier",
-   "ts": 1795627800000
-  },
-  {
    "id": "794020",
    "a": "Eintracht Frankfurt",
    "b": "F9 EICAR",
@@ -5833,66 +5864,75 @@
    "a": "SÓ TEM VELHO",
    "b": "Next",
    "ev": "VCT 2027: America Kickoff - Brazil Qualifier Playoffs",
-   "ts": 1795721400000
+   "ts": 1795721700000
   },
   {
    "id": "794180",
    "a": "Leones",
    "b": "Contra",
    "ev": "VCT 2027: America Kickoff - LATAM North Qualifier Playoffs",
-   "ts": 1795728600000
+   "ts": 1795728900000
   },
   {
    "id": "792043",
    "a": "Fluxo W7M",
    "b": "ELEVATE",
    "ev": "VCT 2027: America Kickoff - Brazil Qualifier Playoffs",
-   "ts": 1795732200000
+   "ts": 1795732500000
   },
   {
    "id": "794181",
    "a": "FUEGO",
    "b": "Chivas Esports",
    "ev": "VCT 2027: America Kickoff - LATAM North Qualifier Playoffs",
-   "ts": 1795739400000
+   "ts": 1795739700000
   },
   {
    "id": "790434",
    "a": "Bonkers",
    "b": "MeatZn",
    "ev": "VCT 2027: Pacific Kickoff - Oceania Qualifier",
-   "ts": 1795764600000
+   "ts": 1795764900000
   },
   {
    "id": "792044",
    "a": "Team Solid",
    "b": "BRASIL2002",
    "ev": "VCT 2027: America Kickoff - Brazil Qualifier Playoffs",
-   "ts": 1795807800000
+   "ts": 1795808100000
   },
   {
    "id": "792045",
    "a": "2Game Esports",
    "b": "Mafiosos",
    "ev": "VCT 2027: America Kickoff - Brazil Qualifier Playoffs",
-   "ts": 1795818600000
+   "ts": 1795818900000
   },
   {
    "id": "793636",
    "a": "Misa Esports",
    "b": "Fire Flux Esports",
    "ev": "VCT 2027: EMEA Kickoff - Türkiye Qualifier",
-   "ts": 1795959000000
+   "ts": 1795959300000
   },
   {
    "id": "793735",
    "a": "Cloud9",
    "b": "QoR",
    "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ts": 1796160600000
+   "ts": 1796160900000
   }
  ],
  "fr": [
+  {
+   "id": "793638",
+   "a": "PCIFIC Esports",
+   "b": "team apanthe",
+   "sa": "2",
+   "sb": "0",
+   "ev": "VCT 2027: EMEA Kickoff - Türkiye Qualifier",
+   "ts": 1795617000000
+  },
   {
    "id": "793799",
    "a": "GodLike Esports",
@@ -5972,7 +6012,7 @@
    "sa": "2",
    "sb": "0",
    "ev": "VCT 2027: EMEA Kickoff - Türkiye Qualifier",
-   "ts": 1795530600000
+   "ts": 1795530900000
   },
   {
    "id": "793798",
@@ -5981,7 +6021,7 @@
    "sa": "2",
    "sb": "1",
    "ev": "VCT 2027: Pacific Kickoff - South Asia Qualifier",
-   "ts": 1795527000000
+   "ts": 1795527300000
   },
   {
    "id": "793797",
@@ -5990,7 +6030,7 @@
    "sa": "2",
    "sb": "1",
    "ev": "VCT 2027: Pacific Kickoff - South Asia Qualifier",
-   "ts": 1795512600000
+   "ts": 1795512900000
   },
   {
    "id": "793565",
@@ -5999,7 +6039,7 @@
    "sa": "2",
    "sb": "0",
    "ev": "VCT 2027: America Kickoff - LATAM South Qualifier Playoffs",
-   "ts": 1795469400000
+   "ts": 1795469700000
   },
   {
    "id": "793563",
@@ -6008,7 +6048,7 @@
    "sa": "2",
    "sb": "1",
    "ev": "VCT 2027: America Kickoff - LATAM South Qualifier Playoffs",
-   "ts": 1795462200000
+   "ts": 1795462500000
   },
   {
    "id": "793796",
@@ -6017,7 +6057,7 @@
    "sa": "0",
    "sb": "2",
    "ev": "VCT 2027: Pacific Kickoff - South Asia Qualifier",
-   "ts": 1795444200000
+   "ts": 1795444500000
   },
   {
    "id": "793795",
@@ -6026,7 +6066,7 @@
    "sa": "2",
    "sb": "0",
    "ev": "VCT 2027: Pacific Kickoff - South Asia Qualifier",
-   "ts": 1795437000000
+   "ts": 1795437300000
   },
   {
    "id": "793238",
@@ -6035,7 +6075,7 @@
    "sa": "2",
    "sb": "0",
    "ev": "VCT 2027: America Kickoff - LATAM North Qualifier Playoffs",
-   "ts": 1795393800000
+   "ts": 1795394100000
   },
   {
    "id": "793335",
@@ -6044,7 +6084,7 @@
    "sa": "0",
    "sb": "2",
    "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ts": 1795393800000
+   "ts": 1795394100000
   },
   {
    "id": "793336",
@@ -6053,7 +6093,7 @@
    "sa": "2",
    "sb": "0",
    "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ts": 1795393800000
+   "ts": 1795394100000
   },
   {
    "id": "792041",
@@ -6062,7 +6102,7 @@
    "sa": "2",
    "sb": "0",
    "ev": "VCT 2027: America Kickoff - Brazil Qualifier Playoffs",
-   "ts": 1795390200000
+   "ts": 1795390500000
   },
   {
    "id": "793236",
@@ -6071,7 +6111,7 @@
    "sa": "2",
    "sb": "0",
    "ev": "VCT 2027: America Kickoff - LATAM North Qualifier Playoffs",
-   "ts": 1795386600000
+   "ts": 1795386900000
   },
   {
    "id": "793333",
@@ -6080,7 +6120,7 @@
    "sa": "2",
    "sb": "0",
    "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ts": 1795386600000
+   "ts": 1795386900000
   },
   {
    "id": "793334",
@@ -6089,7 +6129,7 @@
    "sa": "2",
    "sb": "0",
    "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ts": 1795386600000
+   "ts": 1795386900000
   },
   {
    "id": "792039",
@@ -6098,7 +6138,7 @@
    "sa": "2",
    "sb": "1",
    "ev": "VCT 2027: America Kickoff - Brazil Qualifier Playoffs",
-   "ts": 1795379400000
+   "ts": 1795379700000
   },
   {
    "id": "792909",
@@ -6107,7 +6147,7 @@
    "sa": "0",
    "sb": "2",
    "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ts": 1795311000000
+   "ts": 1795311300000
   },
   {
    "id": "792908",
@@ -6116,7 +6156,7 @@
    "sa": "2",
    "sb": "0",
    "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ts": 1795311000000
+   "ts": 1795311300000
   },
   {
    "id": "792907",
@@ -6125,7 +6165,7 @@
    "sa": "1",
    "sb": "2",
    "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ts": 1795311000000
+   "ts": 1795311300000
   },
   {
    "id": "792910",
@@ -6134,7 +6174,7 @@
    "sa": "1",
    "sb": "2",
    "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ts": 1795311000000
+   "ts": 1795311300000
   },
   {
    "id": "792035",
@@ -6143,7 +6183,7 @@
    "sa": "2",
    "sb": "1",
    "ev": "VCT 2027: America Kickoff - Brazil Qualifier Playoffs",
-   "ts": 1795303800000
+   "ts": 1795304100000
   },
   {
    "id": "792903",
@@ -6152,7 +6192,7 @@
    "sa": "0",
    "sb": "2",
    "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ts": 1795300200000
+   "ts": 1795300500000
   },
   {
    "id": "792904",
@@ -6161,7 +6201,7 @@
    "sa": "1",
    "sb": "2",
    "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ts": 1795300200000
+   "ts": 1795300500000
   },
   {
    "id": "792905",
@@ -6170,7 +6210,7 @@
    "sa": "1",
    "sb": "2",
    "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ts": 1795300200000
+   "ts": 1795300500000
   },
   {
    "id": "792906",
@@ -6179,7 +6219,7 @@
    "sa": "2",
    "sb": "1",
    "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ts": 1795300200000
+   "ts": 1795300500000
   },
   {
    "id": "792032",
@@ -6188,7 +6228,7 @@
    "sa": "2",
    "sb": "1",
    "ev": "VCT 2027: America Kickoff - Brazil Qualifier Playoffs",
-   "ts": 1795293000000
+   "ts": 1795293300000
   },
   {
    "id": "792549",
@@ -6197,7 +6237,7 @@
    "sa": "2",
    "sb": "1",
    "ev": "VCT 2027: EMEA Kickoff - MENA Qualifier",
-   "ts": 1795285800000
+   "ts": 1795286100000
   },
   {
    "id": "792550",
@@ -6206,7 +6246,7 @@
    "sa": "2",
    "sb": "1",
    "ev": "VCT 2027: EMEA Kickoff - MENA Qualifier",
-   "ts": 1795278600000
+   "ts": 1795278900000
   },
   {
    "id": "791685",
@@ -6215,7 +6255,7 @@
    "sa": "0",
    "sb": "2",
    "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ts": 1795224600000
+   "ts": 1795224900000
   },
   {
    "id": "791683",
@@ -6224,7 +6264,7 @@
    "sa": "2",
    "sb": "1",
    "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ts": 1795221000000
+   "ts": 1795221300000
   },
   {
    "id": "791684",
@@ -6233,7 +6273,7 @@
    "sa": "2",
    "sb": "0",
    "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ts": 1795221000000
+   "ts": 1795221300000
   },
   {
    "id": "791686",
@@ -6242,7 +6282,7 @@
    "sa": "0",
    "sb": "2",
    "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ts": 1795221000000
+   "ts": 1795221300000
   },
   {
    "id": "791707",
@@ -6251,7 +6291,7 @@
    "sa": "2",
    "sb": "1",
    "ev": "VCT 2027: America Kickoff - Brazil Qualifier Playoffs",
-   "ts": 1795217400000
+   "ts": 1795217700000
   },
   {
    "id": "791679",
@@ -6260,7 +6300,7 @@
    "sa": "2",
    "sb": "0",
    "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ts": 1795213800000
+   "ts": 1795214100000
   },
   {
    "id": "791680",
@@ -6269,7 +6309,7 @@
    "sa": "2",
    "sb": "0",
    "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ts": 1795213800000
+   "ts": 1795214100000
   },
   {
    "id": "791681",
@@ -6278,7 +6318,7 @@
    "sa": "2",
    "sb": "1",
    "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ts": 1795213800000
+   "ts": 1795214100000
   },
   {
    "id": "791682",
@@ -6287,16 +6327,7 @@
    "sa": "0",
    "sb": "2",
    "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ts": 1795213800000
-  },
-  {
-   "id": "791703",
-   "a": "Team Solid",
-   "b": "ARRANCA DREAMS",
-   "sa": "2",
-   "sb": "1",
-   "ev": "VCT 2027: America Kickoff - Brazil Qualifier Playoffs",
-   "ts": 1795206600000
+   "ts": 1795214100000
   }
  ]
 }
