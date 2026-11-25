@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T14:38:53.021Z",
+ "updated": "2026-11-25T14:40:33.165Z",
  "live": [
   {
    "id": "793799",
@@ -3683,7 +3683,7 @@
    "sb": "1",
    "ev": "VCT 2027: Pacific Kickoff - South Asia Qualifier",
    "ph": "Playoffs–Upper Quarterfinals",
-   "ts": 1795527600000,
+   "ts": 1795524000000,
    "url": "https://www.vlr.gg/793798/kryon-esports-vs-rankers-vct-2027-pacific-kickoff-south-asia-qualifier-ubqf",
    "mp": [
     {
@@ -5698,7 +5698,7 @@
    "sa": "2",
    "sb": "1",
    "ev": "VCT 2027: Pacific Kickoff - South Asia Qualifier",
-   "ts": 1795527600000
+   "ts": 1795524000000
   },
   {
    "id": "793797",
@@ -5851,7 +5851,7 @@
    "sa": "1",
    "sb": "2",
    "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ts": 1795311600000
+   "ts": 1795308000000
   },
   {
    "id": "792035",
