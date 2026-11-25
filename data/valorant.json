@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T07:29:49.267Z",
+ "updated": "2026-11-25T07:30:13.287Z",
  "live": [
   {
    "id": "793803",
@@ -4804,7 +4804,7 @@
    "a": "Eternal Fire",
    "b": "Trigon Titans",
    "ev": "VCT 2027: EMEA Kickoff - Türkiye Qualifier",
-   "ts": 1795703400000
+   "ts": 1795699800000
   },
   {
    "id": "792042",
@@ -4853,7 +4853,7 @@
    "a": "Misa Esports",
    "b": "Fire Flux Esports",
    "ev": "VCT 2027: EMEA Kickoff - Türkiye Qualifier",
-   "ts": 1795962600000
+   "ts": 1795959000000
   }
  ],
  "fr": [
