@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T21:08:21.140Z",
+ "updated": "2026-11-25T21:10:00.138Z",
  "live": [
   {
    "id": "794020",
@@ -170,7 +170,7 @@
    "a": "MIR",
    "b": "La Masia",
    "sa": "1",
-   "sb": "0",
+   "sb": "1",
    "ev": "VCT 2027: EMEA Kickoff - Europe Qualifier Playoffs",
    "ph": "Swiss Stage–Round 1 (0-0)",
    "ts": 1795631400000,
@@ -183,14 +183,16 @@
      "st": "d"
     },
     {
+     "n": "Lotus",
+     "a": 13,
+     "b": 15,
+     "st": "d"
+    },
+    {
      "n": "TBD",
      "a": 0,
      "b": 0,
      "st": "l"
-    },
-    {
-     "n": "TBD",
-     "st": "n"
     }
    ],
    "evu": "/event/3233/vct-2027-emea-kickoff-europe-qualifier-playoffs/swiss-stage",
