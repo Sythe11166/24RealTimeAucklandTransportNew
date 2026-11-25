@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T21:23:38.672Z",
+ "updated": "2026-11-25T21:25:17.697Z",
  "live": [
   {
    "id": "794021",
@@ -4673,6 +4673,12 @@
  ],
  "news": [
   {
+   "t": "Rex Regum Qeon and crazyguy part ways",
+   "d": "crazyguy and RRQ go separate ways.",
+   "ts": 1795608000000,
+   "url": "https://www.vlr.gg/794344/rex-regum-qeon-and-crazyguy-part-ways"
+  },
+  {
    "t": "Sato and LEVIATÁN close a chapter, part ways ahead of 2027",
    "d": "A fresh start for both Sato and LEV.",
    "ts": 1795521600000,
@@ -4701,12 +4707,6 @@
    "d": "A merger results in the BTS of SEA Valorant being formed.",
    "ts": 1795435200000,
    "url": "https://www.vlr.gg/793903/boom-and-team-secret-merge-announce-first-bts-roster"
-  },
-  {
-   "t": "Trace Esports outlines rebuild with CHICHOO, nobody, Nicc",
-   "d": "A dazzling three-man signing class for Trace.",
-   "ts": 1795435200000,
-   "url": "https://www.vlr.gg/793834/trace-esports-outlines-rebuild-with-chichoo-nobody-nicc"
   }
  ],
  "logos": {
@@ -5332,7 +5332,7 @@
    "sa": "0",
    "sb": "2",
    "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ts": 1795397100000
+   "ts": 1795393500000
   },
   {
    "id": "793336",
