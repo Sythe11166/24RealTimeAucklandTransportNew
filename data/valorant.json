@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T11:28:58.404Z",
+ "updated": "2026-11-26T11:30:34.388Z",
  "live": [
   {
    "id": "793806",
@@ -5510,7 +5510,7 @@
    "a": "GodLike Esports",
    "b": "Revenant XSpark",
    "ev": "VCT 2027: Pacific Kickoff - South Asia Qualifier",
-   "ts": 1795782600000
+   "ts": 1795779000000
   },
   {
    "id": "792044",
@@ -5531,14 +5531,14 @@
    "a": "Misa Esports",
    "b": "Fire Flux Esports",
    "ev": "VCT 2027: EMEA Kickoff - Türkiye Qualifier",
-   "ts": 1795962600000
+   "ts": 1795959000000
   },
   {
    "id": "793641",
    "a": "team apanthe",
    "b": "Beşiktaş Esports",
    "ev": "VCT 2027: EMEA Kickoff - Türkiye Qualifier",
-   "ts": 1795973400000
+   "ts": 1795969800000
   }
  ],
  "fr": [
@@ -5702,7 +5702,7 @@
    "sa": "2",
    "sb": "1",
    "ev": "VCT 2027: Pacific Kickoff - South Asia Qualifier",
-   "ts": 1795591800000
+   "ts": 1795588200000
   },
   {
    "id": "793768",
@@ -5738,7 +5738,7 @@
    "sa": "2",
    "sb": "0",
    "ev": "VCT 2027: EMEA Kickoff - Türkiye Qualifier",
-   "ts": 1795534200000
+   "ts": 1795530600000
   },
   {
    "id": "793798",
@@ -5756,7 +5756,7 @@
    "sa": "2",
    "sb": "1",
    "ev": "VCT 2027: Pacific Kickoff - South Asia Qualifier",
-   "ts": 1795516200000
+   "ts": 1795512600000
   },
   {
    "id": "793565",
@@ -5765,7 +5765,7 @@
    "sa": "2",
    "sb": "0",
    "ev": "VCT 2027: America Kickoff - LATAM South Qualifier Playoffs",
-   "ts": 1795473000000
+   "ts": 1795469400000
   },
   {
    "id": "793563",
@@ -5783,7 +5783,7 @@
    "sa": "0",
    "sb": "2",
    "ev": "VCT 2027: Pacific Kickoff - South Asia Qualifier",
-   "ts": 1795447800000
+   "ts": 1795444200000
   },
   {
    "id": "793795",
@@ -5801,7 +5801,7 @@
    "sa": "2",
    "sb": "0",
    "ev": "VCT 2027: America Kickoff - LATAM North Qualifier Playoffs",
-   "ts": 1795397400000
+   "ts": 1795393800000
   },
   {
    "id": "793335",
@@ -5873,7 +5873,7 @@
    "sa": "0",
    "sb": "2",
    "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ts": 1795314600000
+   "ts": 1795311000000
   },
   {
    "id": "792908",
@@ -5963,7 +5963,7 @@
    "sa": "2",
    "sb": "1",
    "ev": "VCT 2027: EMEA Kickoff - MENA Qualifier",
-   "ts": 1795289400000
+   "ts": 1795285800000
   }
  ],
  "rd": [],
