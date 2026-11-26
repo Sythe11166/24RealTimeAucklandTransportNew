@@ -1,129 +1,6 @@
 {
- "updated": "2026-11-26T16:19:02.624Z",
+ "updated": "2026-11-26T16:20:42.134Z",
  "live": [
-  {
-   "id": "793635",
-   "a": "Eternal Fire",
-   "b": "Trigon Titans",
-   "sa": "1",
-   "sb": "0",
-   "ev": "VCT 2027: EMEA Kickoff - Türkiye Qualifier",
-   "ph": "Playoffs–Winner's (A)",
-   "ts": 1795703400000,
-   "url": "https://www.vlr.gg/793635/eternal-fire-vs-trigon-titans-vct-2027-emea-kickoff-t-rkiye-qualifier-playoffs-winners-a",
-   "mp": [
-    {
-     "n": "Sunset",
-     "a": 15,
-     "b": 13,
-     "st": "d"
-    },
-    {
-     "n": "Summit",
-     "a": 0,
-     "b": 0,
-     "st": "l"
-    },
-    {
-     "n": "Corrode",
-     "st": "n"
-    }
-   ],
-   "evu": "/event/3177/vct-2027-emea-kickoff-t-rkiye-qualifier/playoffs",
-   "bo": "3",
-   "vt": [
-    [
-     "x",
-     "EF",
-     "Abyss"
-    ],
-    [
-     "x",
-     "TRT",
-     "Lotus"
-    ],
-    [
-     "p",
-     "EF",
-     "Sunset"
-    ],
-    [
-     "p",
-     "TRT",
-     "Summit"
-    ],
-    [
-     "x",
-     "EF",
-     "Haven"
-    ],
-    [
-     "x",
-     "TRT",
-     "Bind"
-    ],
-    [
-     "d",
-     "",
-     "Corrode"
-    ]
-   ],
-   "h2h": {
-    "a": 1,
-    "b": 0
-   },
-   "pl": {
-    "a": [
-     {
-      "n": "Favian",
-      "ag": ""
-     },
-     {
-      "n": "sociablEE",
-      "ag": ""
-     },
-     {
-      "n": "echo",
-      "ag": ""
-     },
-     {
-      "n": "KROSTALY",
-      "ag": ""
-     },
-     {
-      "n": "s0pp",
-      "ag": ""
-     }
-    ],
-    "b": [
-     {
-      "n": "sterben",
-      "ag": ""
-     },
-     {
-      "n": "exe",
-      "ag": ""
-     },
-     {
-      "n": "Esconardo",
-      "ag": ""
-     },
-     {
-      "n": "Celasun",
-      "ag": ""
-     },
-     {
-      "n": "Anima",
-      "ag": ""
-     }
-    ]
-   },
-   "tg": [
-    "EF",
-    "TRT"
-   ],
-   "nk": 1
-  },
   {
    "id": "794454",
    "a": "Enterprise Esports",
@@ -605,6 +482,425 @@
   }
  ],
  "results": [
+  {
+   "id": "793635",
+   "a": "Eternal Fire",
+   "b": "Trigon Titans",
+   "sa": "2",
+   "sb": "0",
+   "ev": "VCT 2027: EMEA Kickoff - Türkiye Qualifier",
+   "ph": "Playoffs–Winner's (A)",
+   "ts": 1795703400000,
+   "url": "https://www.vlr.gg/793635/eternal-fire-vs-trigon-titans-vct-2027-emea-kickoff-t-rkiye-qualifier-playoffs-winners-a",
+   "mp": [
+    {
+     "n": "Sunset",
+     "a": 15,
+     "b": 13
+    },
+    {
+     "n": "Summit",
+     "a": 13,
+     "b": 5
+    }
+   ],
+   "sm": [
+    {
+     "n": "Sunset",
+     "a": 15,
+     "b": 13,
+     "pa": [
+      {
+       "n": "sociablEE",
+       "k": 23,
+       "d": 19,
+       "a": 14,
+       "ag": "omen"
+      },
+      {
+       "n": "Favian",
+       "k": 23,
+       "d": 22,
+       "a": 9,
+       "ag": "neon"
+      },
+      {
+       "n": "KROSTALY",
+       "k": 21,
+       "d": 17,
+       "a": 8,
+       "ag": "fade"
+      },
+      {
+       "n": "s0pp",
+       "k": 21,
+       "d": 23,
+       "a": 3,
+       "ag": "chamber"
+      },
+      {
+       "n": "echo",
+       "k": 19,
+       "d": 20,
+       "a": 9,
+       "ag": "sage"
+      }
+     ],
+     "pb": [
+      {
+       "n": "Anima",
+       "k": 24,
+       "d": 23,
+       "a": 6,
+       "ag": "neon"
+      },
+      {
+       "n": "Esconardo",
+       "k": 21,
+       "d": 21,
+       "a": 4,
+       "ag": "chamber"
+      },
+      {
+       "n": "exe",
+       "k": 20,
+       "d": 21,
+       "a": 9,
+       "ag": "sova"
+      },
+      {
+       "n": "Celasun",
+       "k": 18,
+       "d": 18,
+       "a": 12,
+       "ag": "sage"
+      },
+      {
+       "n": "sterben",
+       "k": 18,
+       "d": 24,
+       "a": 10,
+       "ag": "omen"
+      }
+     ],
+     "rd": [
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "b",
+       "d"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "a",
+       "b"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "a",
+       "d"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "d"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ]
+     ]
+    },
+    {
+     "n": "Summit",
+     "a": 13,
+     "b": 5,
+     "pa": [
+      {
+       "n": "KROSTALY",
+       "k": 19,
+       "d": 10,
+       "a": 9,
+       "ag": "fade"
+      },
+      {
+       "n": "echo",
+       "k": 17,
+       "d": 11,
+       "a": 5,
+       "ag": "sage"
+      },
+      {
+       "n": "s0pp",
+       "k": 17,
+       "d": 11,
+       "a": 3,
+       "ag": "chamber"
+      },
+      {
+       "n": "sociablEE",
+       "k": 13,
+       "d": 11,
+       "a": 17,
+       "ag": "harbor"
+      },
+      {
+       "n": "Favian",
+       "k": 11,
+       "d": 13,
+       "a": 3,
+       "ag": "waylay"
+      }
+     ],
+     "pb": [
+      {
+       "n": "Esconardo",
+       "k": 18,
+       "d": 14,
+       "a": 2,
+       "ag": "chamber"
+      },
+      {
+       "n": "Celasun",
+       "k": 15,
+       "d": 14,
+       "a": 3,
+       "ag": "sage"
+      },
+      {
+       "n": "exe",
+       "k": 12,
+       "d": 14,
+       "a": 7,
+       "ag": "fade"
+      },
+      {
+       "n": "Anima",
+       "k": 7,
+       "d": 16,
+       "a": 4,
+       "ag": "neon"
+      },
+      {
+       "n": "sterben",
+       "k": 4,
+       "d": 19,
+       "a": 7,
+       "ag": "omen"
+      }
+     ],
+     "rd": [
+      [
+       "a",
+       "d"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "d"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "a",
+       "d"
+      ],
+      [
+       "a",
+       "d"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ]
+     ]
+    }
+   ],
+   "tg": [
+    "EF",
+    "TRT"
+   ],
+   "vt": [
+    [
+     "x",
+     "EF",
+     "Abyss"
+    ],
+    [
+     "x",
+     "TRT",
+     "Lotus"
+    ],
+    [
+     "p",
+     "EF",
+     "Sunset"
+    ],
+    [
+     "p",
+     "TRT",
+     "Summit"
+    ],
+    [
+     "x",
+     "EF",
+     "Haven"
+    ],
+    [
+     "x",
+     "TRT",
+     "Bind"
+    ],
+    [
+     "d",
+     "",
+     "Corrode"
+    ]
+   ],
+   "h2h": {
+    "a": 1,
+    "b": 0
+   },
+   "bo": "3",
+   "smt": 1795710038636,
+   "et": 1795710039837
+  },
   {
    "id": "793805",
    "a": "Kryon Esports",
@@ -3801,602 +4097,6 @@
     "EP",
     "MPMT"
    ]
-  },
-  {
-   "id": "794022",
-   "a": "MIR",
-   "b": "La Masia",
-   "sa": "1",
-   "sb": "2",
-   "ev": "VCT 2027: EMEA Kickoff - Europe Qualifier Playoffs",
-   "ph": "Swiss Stage–Round 1 (0-0)",
-   "ts": 1795631400000,
-   "url": "https://www.vlr.gg/794022/mir-vs-la-masia-vct-2027-emea-kickoff-europe-qualifier-playoffs-swiss-stage-r1-0-0",
-   "mp": [
-    {
-     "n": "Abyss",
-     "a": 13,
-     "b": 8
-    },
-    {
-     "n": "Lotus",
-     "a": 13,
-     "b": 15
-    },
-    {
-     "n": "Haven",
-     "a": 14,
-     "b": 16
-    }
-   ],
-   "sm": [
-    {
-     "n": "Abyss",
-     "a": 13,
-     "b": 8,
-     "pa": [
-      {
-       "n": "reblyik",
-       "k": 19,
-       "d": 10,
-       "a": 2,
-       "ag": "veto"
-      },
-      {
-       "n": "kospa1n",
-       "k": 18,
-       "d": 14,
-       "a": 0,
-       "ag": "yoru"
-      },
-      {
-       "n": "MIR innersavage",
-       "k": 18,
-       "d": 15,
-       "a": 7,
-       "ag": "waylay"
-      },
-      {
-       "n": "MIR lndra",
-       "k": 15,
-       "d": 13,
-       "a": 10,
-       "ag": "sova"
-      },
-      {
-       "n": "Bishepss",
-       "k": 11,
-       "d": 14,
-       "a": 13,
-       "ag": "astra"
-      }
-     ],
-     "pb": [
-      {
-       "n": "soren",
-       "k": 17,
-       "d": 17,
-       "a": 4,
-       "ag": "hush"
-      },
-      {
-       "n": "nayte",
-       "k": 14,
-       "d": 15,
-       "a": 11,
-       "ag": "harbor"
-      },
-      {
-       "n": "izana",
-       "k": 12,
-       "d": 17,
-       "a": 7,
-       "ag": "cypher"
-      },
-      {
-       "n": "lux9",
-       "k": 12,
-       "d": 18,
-       "a": 6,
-       "ag": "waylay"
-      },
-      {
-       "n": "askoo",
-       "k": 11,
-       "d": 19,
-       "a": 4,
-       "ag": "sova"
-      }
-     ],
-     "rd": [
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "t"
-      ],
-      [
-       "a",
-       "d"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "b"
-      ],
-      [
-       "a",
-       "d"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "b",
-       "b"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "b"
-      ],
-      [
-       "a",
-       "d"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "d"
-      ],
-      [
-       "a",
-       "e"
-      ]
-     ]
-    },
-    {
-     "n": "Lotus",
-     "a": 13,
-     "b": 15,
-     "pa": [
-      {
-       "n": "kospa1n",
-       "k": 24,
-       "d": 21,
-       "a": 7,
-       "ag": "phoenix"
-      },
-      {
-       "n": "Bishepss",
-       "k": 22,
-       "d": 22,
-       "a": 9,
-       "ag": "omen"
-      },
-      {
-       "n": "MIR innersavage",
-       "k": 18,
-       "d": 22,
-       "a": 6,
-       "ag": "neon"
-      },
-      {
-       "n": "reblyik",
-       "k": 17,
-       "d": 21,
-       "a": 11,
-       "ag": "vyse"
-      },
-      {
-       "n": "MIR lndra",
-       "k": 14,
-       "d": 16,
-       "a": 12,
-       "ag": "fade"
-      }
-     ],
-     "pb": [
-      {
-       "n": "lux9",
-       "k": 28,
-       "d": 20,
-       "a": 8,
-       "ag": "raze"
-      },
-      {
-       "n": "askoo",
-       "k": 25,
-       "d": 17,
-       "a": 8,
-       "ag": "fade"
-      },
-      {
-       "n": "nayte",
-       "k": 20,
-       "d": 18,
-       "a": 12,
-       "ag": "omen"
-      },
-      {
-       "n": "izana",
-       "k": 19,
-       "d": 17,
-       "a": 6,
-       "ag": "chamber"
-      },
-      {
-       "n": "soren",
-       "k": 10,
-       "d": 23,
-       "a": 13,
-       "ag": "viper"
-      }
-     ],
-     "rd": [
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "b",
-       "d"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "d"
-      ],
-      [
-       "a",
-       "b"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "d"
-      ],
-      [
-       "a",
-       "d"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "d"
-      ],
-      [
-       "a",
-       "d"
-      ],
-      [
-       "a",
-       "t"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "a",
-       "d"
-      ],
-      [
-       "b",
-       "b"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ]
-     ]
-    },
-    {
-     "n": "Haven",
-     "a": 14,
-     "b": 16,
-     "pa": [
-      {
-       "n": "MIR innersavage",
-       "k": 28,
-       "d": 23,
-       "a": 6,
-       "ag": "neon"
-      },
-      {
-       "n": "MIR lndra",
-       "k": 26,
-       "d": 21,
-       "a": 6,
-       "ag": "sova"
-      },
-      {
-       "n": "kospa1n",
-       "k": 25,
-       "d": 20,
-       "a": 4,
-       "ag": "chamber"
-      },
-      {
-       "n": "reblyik",
-       "k": 18,
-       "d": 19,
-       "a": 7,
-       "ag": "viper"
-      },
-      {
-       "n": "Bishepss",
-       "k": 14,
-       "d": 22,
-       "a": 14,
-       "ag": "omen"
-      }
-     ],
-     "pb": [
-      {
-       "n": "soren",
-       "k": 26,
-       "d": 22,
-       "a": 4,
-       "ag": "hush"
-      },
-      {
-       "n": "lux9",
-       "k": 26,
-       "d": 25,
-       "a": 2,
-       "ag": "neon"
-      },
-      {
-       "n": "nayte",
-       "k": 22,
-       "d": 19,
-       "a": 10,
-       "ag": "omen"
-      },
-      {
-       "n": "izana",
-       "k": 20,
-       "d": 24,
-       "a": 4,
-       "ag": "cypher"
-      },
-      {
-       "n": "askoo",
-       "k": 11,
-       "d": 21,
-       "a": 5,
-       "ag": "sova"
-      }
-     ],
-     "rd": [
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "d"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "d"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "b",
-       "d"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "a",
-       "d"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "a",
-       "d"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "d"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "d"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ]
-     ]
-    }
-   ],
-   "bo": "3",
-   "smt": 1795644807168,
-   "et": 1795644808370,
-   "tg": [
-    "MIR",
-    "MSA"
-   ]
   }
  ],
  "news": [
@@ -5768,9 +5468,25 @@
    "b": "QoR",
    "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
    "ts": 1796160000000
+  },
+  {
+   "id": "793736",
+   "a": "YFP",
+   "b": "Oafs",
+   "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
+   "ts": 1796160000000
   }
  ],
  "fr": [
+  {
+   "id": "793635",
+   "a": "Eternal Fire",
+   "b": "Trigon Titans",
+   "sa": "2",
+   "sb": "0",
+   "ev": "VCT 2027: EMEA Kickoff - Türkiye Qualifier",
+   "ts": 1795703400000
+  },
   {
    "id": "793805",
    "a": "Kryon Esports",
@@ -6163,15 +5879,6 @@
    "a": "Winthrop University",
    "b": "YFP",
    "sa": "0",
-   "sb": "2",
-   "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ts": 1795299600000
-  },
-  {
-   "id": "792904",
-   "a": "FlyQuest",
-   "b": "ENVY",
-   "sa": "1",
    "sb": "2",
    "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
    "ts": 1795299600000
