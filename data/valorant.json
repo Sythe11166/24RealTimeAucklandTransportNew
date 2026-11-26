@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T13:24:21.367Z",
+ "updated": "2026-11-26T13:25:57.731Z",
  "live": [
   {
    "id": "793805",
@@ -5849,15 +5849,6 @@
    "sb": "1",
    "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
    "ts": 1795299900000
-  },
-  {
-   "id": "792032",
-   "a": "Fluxo W7M",
-   "b": "Manticore",
-   "sa": "2",
-   "sb": "1",
-   "ev": "VCT 2027: America Kickoff - Brazil Qualifier Playoffs",
-   "ts": 1795292700000
   }
  ],
  "rd": [],
