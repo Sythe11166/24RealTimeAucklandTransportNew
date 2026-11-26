@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T15:22:55.766Z",
+ "updated": "2026-11-26T15:24:34.104Z",
  "live": [
   {
    "id": "793635",
@@ -29,6 +29,43 @@
    ],
    "evu": "/event/3177/vct-2027-emea-kickoff-t-rkiye-qualifier/playoffs",
    "bo": "3",
+   "vt": [
+    [
+     "x",
+     "EF",
+     "Abyss"
+    ],
+    [
+     "x",
+     "TRT",
+     "Lotus"
+    ],
+    [
+     "p",
+     "EF",
+     "Sunset"
+    ],
+    [
+     "p",
+     "TRT",
+     "Summit"
+    ],
+    [
+     "x",
+     "EF",
+     "Haven"
+    ],
+    [
+     "x",
+     "TRT",
+     "Bind"
+    ],
+    [
+     "d",
+     "",
+     "Corrode"
+    ]
+   ],
    "h2h": {
     "a": 1,
     "b": 0
@@ -5705,7 +5742,7 @@
    "sa": "0",
    "sb": "2",
    "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ts": 1795397100000
+   "ts": 1795393500000
   },
   {
    "id": "793336",
