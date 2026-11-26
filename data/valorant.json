@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T11:12:34.351Z",
+ "updated": "2026-11-26T11:14:11.097Z",
  "live": [
   {
    "id": "793806",
@@ -5510,63 +5510,63 @@
    "a": "GodLike Esports",
    "b": "Revenant XSpark",
    "ev": "VCT 2027: Pacific Kickoff - South Asia Qualifier",
-   "ts": 1795781400000
+   "ts": 1795781700000
   },
   {
    "id": "792044",
    "a": "Team Solid",
    "b": "BRASIL2002",
    "ev": "VCT 2027: America Kickoff - Brazil Qualifier Playoffs",
-   "ts": 1795806600000
+   "ts": 1795806900000
   },
   {
    "id": "792045",
    "a": "2Game Esports",
    "b": "Mafiosos",
    "ev": "VCT 2027: America Kickoff - Brazil Qualifier Playoffs",
-   "ts": 1795817400000
+   "ts": 1795817700000
   },
   {
    "id": "793636",
    "a": "Misa Esports",
    "b": "Fire Flux Esports",
    "ev": "VCT 2027: EMEA Kickoff - Türkiye Qualifier",
-   "ts": 1795961400000
+   "ts": 1795961700000
   },
   {
    "id": "793641",
    "a": "team apanthe",
    "b": "Beşiktaş Esports",
    "ev": "VCT 2027: EMEA Kickoff - Türkiye Qualifier",
-   "ts": 1795972200000
+   "ts": 1795972500000
   },
   {
    "id": "793735",
    "a": "Cloud9",
    "b": "QoR",
    "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ts": 1796159400000
+   "ts": 1796159700000
   },
   {
    "id": "793736",
    "a": "YFP",
    "b": "Oafs",
    "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ts": 1796159400000
+   "ts": 1796159700000
   },
   {
    "id": "793737",
    "a": "ENVY",
    "b": "Wildcard",
    "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ts": 1796170200000
+   "ts": 1796170500000
   },
   {
    "id": "793738",
    "a": "Shopify Rebellion Black",
    "b": "counterfeit",
    "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ts": 1796170200000
+   "ts": 1796170500000
   }
  ],
  "fr": [
@@ -5937,7 +5937,7 @@
    "sa": "2",
    "sb": "1",
    "ev": "VCT 2027: America Kickoff - Brazil Qualifier Playoffs",
-   "ts": 1795306500000
+   "ts": 1795302900000
   },
   {
    "id": "792903",
