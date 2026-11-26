@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T18:43:41.293Z",
+ "updated": "2026-11-26T18:44:10.802Z",
  "live": [
   {
    "id": "794454",
@@ -572,6 +572,28 @@
  ],
  "results": [
   {
+   "id": "794457",
+   "a": "Joblife",
+   "b": "La Masia",
+   "sa": "0",
+   "sb": "0",
+   "ev": "VCT 2027: EMEA Kickoff - Europe Qualifier Playoffs",
+   "ph": "Swiss Stage–Round 2 (1-0)",
+   "ts": 1795717800000,
+   "et": 1795718611656,
+   "url": "https://www.vlr.gg/794457/joblife-vs-la-masia-vct-2027-emea-kickoff-europe-qualifier-playoffs-swiss-stage-r2-1-0",
+   "g": 1,
+   "mp": [
+    {
+     "n": "TBD",
+     "a": 0,
+     "b": 0
+    }
+   ],
+   "bo": "3",
+   "smt": 1795718614900
+  },
+  {
    "id": "794461",
    "a": "Mandatory",
    "b": "MIR",
@@ -596,28 +618,6 @@
    },
    "bo": "3",
    "smt": 1795718613862
-  },
-  {
-   "id": "794457",
-   "a": "Joblife",
-   "b": "La Masia",
-   "sa": "0",
-   "sb": "0",
-   "ev": "VCT 2027: EMEA Kickoff - Europe Qualifier Playoffs",
-   "ph": "Swiss Stage–Round 2 (1-0)",
-   "ts": 1795717800000,
-   "et": 1795718611656,
-   "url": "https://www.vlr.gg/794457/joblife-vs-la-masia-vct-2027-emea-kickoff-europe-qualifier-playoffs-swiss-stage-r2-1-0",
-   "g": 1,
-   "mp": [
-    {
-     "n": "TBD",
-     "a": 0,
-     "b": 0
-    }
-   ],
-   "bo": "3",
-   "smt": 1795718614900
   },
   {
    "id": "793640",
@@ -4213,7 +4213,7 @@
    "sa": "1",
    "sb": "2",
    "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ts": 1795311900000
+   "ts": 1795308300000
   }
  ],
  "rd": [],
