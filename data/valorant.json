@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T04:51:15.932Z",
+ "updated": "2026-11-26T04:51:36.333Z",
  "live": [],
  "upcoming": [
   {
@@ -42,7 +42,7 @@
    "sb": "–",
    "ev": "VCT 2027: Pacific Kickoff - South Asia Qualifier",
    "ph": "Playoffs–Lower Round 2",
-   "ts": 1795696200000,
+   "ts": 1795685400000,
    "url": "https://www.vlr.gg/793806/sign-esports-vs-goc-esports-vct-2027-pacific-kickoff-south-asia-qualifier-lr2",
    "bo": "3",
    "evu": "/event/3206/vct-2027-pacific-kickoff-south-asia-qualifier/playoffs",
@@ -4666,7 +4666,7 @@
    "a": "SIGN Esports",
    "b": "GOC Esports",
    "ev": "VCT 2027: Pacific Kickoff - South Asia Qualifier",
-   "ts": 1795696200000
+   "ts": 1795685400000
   },
   {
    "id": "793635",
