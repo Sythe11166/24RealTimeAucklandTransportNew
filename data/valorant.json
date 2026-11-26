@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T18:19:30.137Z",
+ "updated": "2026-11-26T18:21:10.955Z",
  "live": [
   {
    "id": "794454",
@@ -4091,7 +4091,7 @@
   "u": "/event/3233/vct-2027-emea-kickoff-europe-qualifier-playoffs/swiss-stage",
   "rg": "EMEA",
   "ev": "VCT 2027: EMEA Kickoff - Europe Qualifier Playoffs",
-  "at": 1795716967736,
+  "at": 1795717269653,
   "r": [
    {
     "r": "Round 1 (0-0)",
@@ -4161,14 +4161,14 @@
       "Enterprise Esports",
       "UCAM Esports Club",
       1,
-      0,
+      1,
       "l"
      ],
      [
       "Natus Vincere Junior",
       "Barça eSports",
       1,
-      0,
+      1,
       "l"
      ],
      [
