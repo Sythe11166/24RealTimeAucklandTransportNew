@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T10:04:01.577Z",
+ "updated": "2026-11-26T10:05:38.083Z",
  "live": [
   {
    "id": "793806",
@@ -13,22 +13,59 @@
    "url": "https://www.vlr.gg/793806/sign-esports-vs-goc-esports-vct-2027-pacific-kickoff-south-asia-qualifier-lr2",
    "mp": [
     {
-     "n": "TBD",
+     "n": "Corrode",
      "a": 0,
      "b": 0,
      "st": "l"
     },
     {
-     "n": "TBD",
+     "n": "Summit",
      "st": "n"
     },
     {
-     "n": "TBD",
+     "n": "Lotus",
      "st": "n"
     }
    ],
    "evu": "/event/3206/vct-2027-pacific-kickoff-south-asia-qualifier/playoffs",
    "bo": "3",
+   "vt": [
+    [
+     "x",
+     "SGN",
+     "Abyss"
+    ],
+    [
+     "x",
+     "GOC",
+     "Sunset"
+    ],
+    [
+     "p",
+     "SGN",
+     "Corrode"
+    ],
+    [
+     "p",
+     "GOC",
+     "Summit"
+    ],
+    [
+     "x",
+     "SGN",
+     "Bind"
+    ],
+    [
+     "x",
+     "GOC",
+     "Haven"
+    ],
+    [
+     "d",
+     "",
+     "Lotus"
+    ]
+   ],
    "pl": {
     "a": [
      {
@@ -4353,7 +4390,7 @@
   "u": "/event/3206/vct-2027-pacific-kickoff-south-asia-qualifier/playoffs",
   "rg": "Pacific",
   "ev": "VCT 2027: Pacific Kickoff - South Asia Qualifier",
-  "at": 1795687249764,
+  "at": 1795687536773,
   "r": [
    {
     "r": "Round 1",
