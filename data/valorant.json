@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T11:17:44.189Z",
+ "updated": "2026-11-26T11:20:57.877Z",
  "live": [
   {
    "id": "793806",
@@ -5539,34 +5539,6 @@
    "b": "Beşiktaş Esports",
    "ev": "VCT 2027: EMEA Kickoff - Türkiye Qualifier",
    "ts": 1795972800000
-  },
-  {
-   "id": "793735",
-   "a": "Cloud9",
-   "b": "QoR",
-   "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ts": 1796160000000
-  },
-  {
-   "id": "793736",
-   "a": "YFP",
-   "b": "Oafs",
-   "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ts": 1796160000000
-  },
-  {
-   "id": "793737",
-   "a": "ENVY",
-   "b": "Wildcard",
-   "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ts": 1796170800000
-  },
-  {
-   "id": "793738",
-   "a": "Shopify Rebellion Black",
-   "b": "counterfeit",
-   "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ts": 1796170800000
   }
  ],
  "fr": [
@@ -5995,5 +5967,5 @@
   }
  ],
  "rd": [],
- "rdt": 1795690780351
+ "rdt": 1795692057877
 }
