@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T19:15:47.521Z",
+ "updated": "2026-11-26T19:17:30.013Z",
  "live": [
   {
    "id": "794456",
@@ -15,7 +15,7 @@
     {
      "n": "Summit",
      "a": 8,
-     "b": 6,
+     "b": 7,
      "st": "l"
     },
     {
@@ -177,6 +177,10 @@
     [
      "b",
      "e"
+    ],
+    [
+     "b",
+     "e"
     ]
    ],
    "rdm": "Summit"
@@ -194,7 +198,7 @@
    "mp": [
     {
      "n": "Sunset",
-     "a": 5,
+     "a": 7,
      "b": 8,
      "st": "l"
     },
@@ -341,6 +345,14 @@
     [
      "a",
      "d"
+    ],
+    [
+     "a",
+     "e"
+    ],
+    [
+     "a",
+     "e"
     ],
     [
      "a",
@@ -507,6 +519,28 @@
  ],
  "results": [
   {
+   "id": "794457",
+   "a": "Joblife",
+   "b": "La Masia",
+   "sa": "0",
+   "sb": "0",
+   "ev": "VCT 2027: EMEA Kickoff - Europe Qualifier Playoffs",
+   "ph": "Swiss Stage–Round 2 (1-0)",
+   "ts": 1795717800000,
+   "et": 1795718611656,
+   "url": "https://www.vlr.gg/794457/joblife-vs-la-masia-vct-2027-emea-kickoff-europe-qualifier-playoffs-swiss-stage-r2-1-0",
+   "g": 1,
+   "mp": [
+    {
+     "n": "TBD",
+     "a": 0,
+     "b": 0
+    }
+   ],
+   "bo": "3",
+   "smt": 1795720230521
+  },
+  {
    "id": "794461",
    "a": "Mandatory",
    "b": "MIR",
@@ -531,28 +565,6 @@
    },
    "bo": "3",
    "smt": 1795720231576
-  },
-  {
-   "id": "794457",
-   "a": "Joblife",
-   "b": "La Masia",
-   "sa": "0",
-   "sb": "0",
-   "ev": "VCT 2027: EMEA Kickoff - Europe Qualifier Playoffs",
-   "ph": "Swiss Stage–Round 2 (1-0)",
-   "ts": 1795717800000,
-   "et": 1795718611656,
-   "url": "https://www.vlr.gg/794457/joblife-vs-la-masia-vct-2027-emea-kickoff-europe-qualifier-playoffs-swiss-stage-r2-1-0",
-   "g": 1,
-   "mp": [
-    {
-     "n": "TBD",
-     "a": 0,
-     "b": 0
-    }
-   ],
-   "bo": "3",
-   "smt": 1795720230521
   },
   {
    "id": "793640",
@@ -1496,17 +1508,17 @@
      ]
     }
    ],
-   "tg": [
-    "EP",
-    "UCAM"
-   ],
    "h2h": {
     "a": 2,
     "b": 0
    },
    "bo": "3",
    "smt": 1795720539486,
-   "et": 1795720542037
+   "et": 1795720542037,
+   "tg": [
+    "EP",
+    "UCAM"
+   ]
   },
   {
    "id": "794455",
