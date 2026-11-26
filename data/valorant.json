@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T18:33:28.490Z",
+ "updated": "2026-11-26T18:35:09.659Z",
  "live": [
   {
    "id": "794454",
@@ -472,22 +472,59 @@
    "url": "https://www.vlr.gg/794460/aurora-gaming-vs-wip-esports-vct-2027-emea-kickoff-europe-qualifier-playoffs-swiss-stage-r2-0-1",
    "mp": [
     {
-     "n": "TBD",
+     "n": "Sunset",
      "a": 0,
      "b": 0,
      "st": "l"
     },
     {
-     "n": "TBD",
+     "n": "Lotus",
      "st": "n"
     },
     {
-     "n": "TBD",
+     "n": "Haven",
      "st": "n"
     }
    ],
    "evu": "/event/3233/vct-2027-emea-kickoff-europe-qualifier-playoffs/swiss-stage",
    "bo": "3",
+   "vt": [
+    [
+     "x",
+     "WIP",
+     "Abyss"
+    ],
+    [
+     "x",
+     "AURA",
+     "Corrode"
+    ],
+    [
+     "p",
+     "WIP",
+     "Sunset"
+    ],
+    [
+     "p",
+     "AURA",
+     "Lotus"
+    ],
+    [
+     "x",
+     "WIP",
+     "Summit"
+    ],
+    [
+     "x",
+     "AURA",
+     "Bind"
+    ],
+    [
+     "d",
+     "",
+     "Haven"
+    ]
+   ],
    "pl": {
     "a": [
      {
