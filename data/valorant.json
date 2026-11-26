@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T17:30:00.121Z",
+ "updated": "2026-11-26T17:31:41.960Z",
  "live": [
   {
    "id": "794454",
@@ -250,27 +250,93 @@
     "F9"
    ],
    "nk": 1
-  }
- ],
- "upcoming": [
+  },
   {
    "id": "793640",
    "a": "PCIFIC Esports",
    "b": "Galatasaray Esports",
-   "sa": "–",
-   "sb": "–",
+   "sa": "0",
+   "sb": "0",
    "ev": "VCT 2027: EMEA Kickoff - Türkiye Qualifier",
    "ph": "Playoffs–Winner's (B)",
    "ts": 1795714200000,
    "url": "https://www.vlr.gg/793640/pcific-esports-vs-galatasaray-esports-vct-2027-emea-kickoff-t-rkiye-qualifier-playoffs-winners-b",
+   "mp": [
+    {
+     "n": "TBD",
+     "a": 0,
+     "b": 0,
+     "st": "l"
+    },
+    {
+     "n": "TBD",
+     "st": "n"
+    },
+    {
+     "n": "TBD",
+     "st": "n"
+    }
+   ],
+   "evu": "/event/3177/vct-2027-emea-kickoff-t-rkiye-qualifier/playoffs",
+   "bo": "3",
    "h2h": {
     "a": 4,
     "b": 2
    },
-   "bo": "3",
-   "evu": "/event/3177/vct-2027-emea-kickoff-t-rkiye-qualifier/playoffs",
-   "fz": 1
-  },
+   "pl": {
+    "a": [
+     {
+      "n": "sh0ut",
+      "ag": ""
+     },
+     {
+      "n": "envex",
+      "ag": ""
+     },
+     {
+      "n": "Gloomy",
+      "ag": ""
+     },
+     {
+      "n": "VdekJeNN",
+      "ag": ""
+     },
+     {
+      "n": "sh1ngo",
+      "ag": ""
+     }
+    ],
+    "b": [
+     {
+      "n": "nekky",
+      "ag": ""
+     },
+     {
+      "n": "Zeask",
+      "ag": ""
+     },
+     {
+      "n": "Padisah",
+      "ag": ""
+     },
+     {
+      "n": "Slaughter",
+      "ag": ""
+     },
+     {
+      "n": "WerlasS",
+      "ag": ""
+     }
+    ]
+   },
+   "tg": [
+    "PCF",
+    "GS"
+   ],
+   "nk": 1
+  }
+ ],
+ "upcoming": [
   {
    "id": "794456",
    "a": "Eintracht Frankfurt",
@@ -312,7 +378,10 @@
    "ev": "VCT 2027: EMEA Kickoff - Europe Qualifier Playoffs",
    "ph": "Swiss Stage–Round 2 (0-1)",
    "ts": 1795717800000,
-   "url": "https://www.vlr.gg/794460/aurora-gaming-vs-wip-esports-vct-2027-emea-kickoff-europe-qualifier-playoffs-swiss-stage-r2-0-1"
+   "url": "https://www.vlr.gg/794460/aurora-gaming-vs-wip-esports-vct-2027-emea-kickoff-europe-qualifier-playoffs-swiss-stage-r2-0-1",
+   "bo": "3",
+   "evu": "/event/3233/vct-2027-emea-kickoff-europe-qualifier-playoffs/swiss-stage",
+   "fz": 1
   },
   {
    "id": "794461",
@@ -401,6 +470,17 @@
    "ph": "Playoffs–Upper Final",
    "ts": 1795782600000,
    "url": "https://www.vlr.gg/793801/godlike-esports-vs-revenant-xspark-vct-2027-pacific-kickoff-south-asia-qualifier-ubf"
+  },
+  {
+   "id": "792044",
+   "a": "Team Solid",
+   "b": "BRASIL2002",
+   "sa": "–",
+   "sb": "–",
+   "ev": "VCT 2027: America Kickoff - Brazil Qualifier Playoffs",
+   "ph": "Playoffs–Upper Quarterfinals",
+   "ts": 1795807800000,
+   "url": "https://www.vlr.gg/792044/team-solid-vs-brasil2002-vct-2027-america-kickoff-brazil-qualifier-playoffs-ubqf"
   }
  ],
  "results": [
@@ -4092,7 +4172,9 @@
   "Leones": "",
   "Contra": "https://owcdn.net/img/66572b1da4d79.png",
   "Fluxo W7M": "https://owcdn.net/img/6a76a37807aad.png",
-  "ELEVATE": "https://owcdn.net/img/65990c8ab7c2b.png"
+  "ELEVATE": "https://owcdn.net/img/65990c8ab7c2b.png",
+  "FUEGO": "https://owcdn.net/img/678f90b7b65e5.png",
+  "Chivas Esports": "https://owcdn.net/img/63ce2eedbe573.png"
  },
  "colors": {
   "SIGN Esports": "#f36c21",
@@ -4123,7 +4205,9 @@
   "Mandatory": "#ea1d37",
   "Contra": "#f0b104",
   "Fluxo W7M": "#7e00c9",
-  "ELEVATE": "#d82027"
+  "ELEVATE": "#d82027",
+  "FUEGO": "#d95028",
+  "Chivas Esports": "#cdaa3d"
  },
  "agents": {
   "gekko": {
@@ -5269,13 +5353,6 @@
  },
  "fu": [
   {
-   "id": "793640",
-   "a": "PCIFIC Esports",
-   "b": "Galatasaray Esports",
-   "ev": "VCT 2027: EMEA Kickoff - Türkiye Qualifier",
-   "ts": 1795714200000
-  },
-  {
    "id": "794456",
    "a": "Eintracht Frankfurt",
    "b": "GIANTX",
@@ -5371,14 +5448,14 @@
    "a": "Misa Esports",
    "b": "Fire Flux Esports",
    "ev": "VCT 2027: EMEA Kickoff - Türkiye Qualifier",
-   "ts": 1795962600000
+   "ts": 1795959000000
   },
   {
    "id": "793641",
    "a": "team apanthe",
    "b": "Beşiktaş Esports",
    "ev": "VCT 2027: EMEA Kickoff - Türkiye Qualifier",
-   "ts": 1795973400000
+   "ts": 1795969800000
   },
   {
    "id": "793735",
@@ -5399,7 +5476,7 @@
    "a": "ENVY",
    "b": "Wildcard",
    "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ts": 1796171400000
+   "ts": 1796167800000
   }
  ],
  "fr": [
