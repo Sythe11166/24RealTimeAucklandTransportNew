@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T20:39:14.415Z",
+ "updated": "2026-11-26T20:42:37.236Z",
  "live": [
   {
    "id": "794460",
@@ -27,7 +27,7 @@
     {
      "n": "Haven",
      "a": 0,
-     "b": 0,
+     "b": 2,
      "st": "l"
     }
    ],
@@ -120,7 +120,18 @@
     "AURA",
     "WIP"
    ],
-   "nk": 1
+   "nk": 1,
+   "rd": [
+    [
+     "b",
+     "d"
+    ],
+    [
+     "b",
+     "d"
+    ]
+   ],
+   "rdm": "Haven"
   },
   {
    "id": "794457",
@@ -4624,7 +4635,7 @@
   "u": "/event/3233/vct-2027-emea-kickoff-europe-qualifier-playoffs/swiss-stage",
   "rg": "EMEA",
   "ev": "VCT 2027: EMEA Kickoff - Europe Qualifier Playoffs",
-  "at": 1795725355218,
+  "at": 1795725753585,
   "r": [
    {
     "r": "Round 1 (0-0)",
@@ -5264,5 +5275,5 @@
   }
  ],
  "rd": [],
- "rdt": 1795724435477
+ "rdt": 1795725757235
 }
