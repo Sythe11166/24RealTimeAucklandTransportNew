@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T12:03:16.178Z",
+ "updated": "2026-11-26T12:04:52.997Z",
  "live": [],
  "upcoming": [
   {
@@ -4167,7 +4167,7 @@
   "u": "/event/3206/vct-2027-pacific-kickoff-south-asia-qualifier/playoffs",
   "rg": "Pacific",
   "ev": "VCT 2027: Pacific Kickoff - South Asia Qualifier",
-  "at": 1795692825763,
+  "at": 1795694691681,
   "r": [
    {
     "r": "Round 1",
@@ -5103,9 +5103,9 @@
      [
       "SIGN Esports",
       "GOC Esports",
-      1,
+      2,
       0,
-      "l"
+      "d"
      ],
      [
       "Kryon Esports",
@@ -5121,7 +5121,7 @@
     "m": [
      [
       "TBD",
-      "TBD",
+      "SIGN Esports",
       0,
       0,
       "u"
