@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T18:45:54.007Z",
+ "updated": "2026-11-26T18:47:36.580Z",
  "live": [
   {
    "id": "794454",
@@ -186,7 +186,7 @@
    "mp": [
     {
      "n": "Summit",
-     "a": 0,
+     "a": 2,
      "b": 0,
      "st": "l"
     },
@@ -292,7 +292,18 @@
     "SGE",
     "GX"
    ],
-   "nk": 1
+   "nk": 1,
+   "rd": [
+    [
+     "a",
+     "e"
+    ],
+    [
+     "a",
+     "e"
+    ]
+   ],
+   "rdm": "Summit"
   },
   {
    "id": "794460",
@@ -307,7 +318,7 @@
    "mp": [
     {
      "n": "Sunset",
-     "a": 0,
+     "a": 1,
      "b": 2,
      "st": "l"
     },
@@ -417,6 +428,10 @@
     ],
     [
      "b",
+     "e"
+    ],
+    [
+     "a",
      "e"
     ]
    ],
@@ -576,6 +591,28 @@
  ],
  "results": [
   {
+   "id": "794457",
+   "a": "Joblife",
+   "b": "La Masia",
+   "sa": "0",
+   "sb": "0",
+   "ev": "VCT 2027: EMEA Kickoff - Europe Qualifier Playoffs",
+   "ph": "Swiss Stage–Round 2 (1-0)",
+   "ts": 1795717800000,
+   "et": 1795718611656,
+   "url": "https://www.vlr.gg/794457/joblife-vs-la-masia-vct-2027-emea-kickoff-europe-qualifier-playoffs-swiss-stage-r2-1-0",
+   "g": 1,
+   "mp": [
+    {
+     "n": "TBD",
+     "a": 0,
+     "b": 0
+    }
+   ],
+   "bo": "3",
+   "smt": 1795718614900
+  },
+  {
    "id": "794461",
    "a": "Mandatory",
    "b": "MIR",
@@ -600,28 +637,6 @@
    },
    "bo": "3",
    "smt": 1795718613862
-  },
-  {
-   "id": "794457",
-   "a": "Joblife",
-   "b": "La Masia",
-   "sa": "0",
-   "sb": "0",
-   "ev": "VCT 2027: EMEA Kickoff - Europe Qualifier Playoffs",
-   "ph": "Swiss Stage–Round 2 (1-0)",
-   "ts": 1795717800000,
-   "et": 1795718611656,
-   "url": "https://www.vlr.gg/794457/joblife-vs-la-masia-vct-2027-emea-kickoff-europe-qualifier-playoffs-swiss-stage-r2-1-0",
-   "g": 1,
-   "mp": [
-    {
-     "n": "TBD",
-     "a": 0,
-     "b": 0
-    }
-   ],
-   "bo": "3",
-   "smt": 1795718614900
   },
   {
    "id": "793640",
