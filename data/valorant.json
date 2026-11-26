@@ -1,126 +1,6 @@
 {
- "updated": "2026-11-26T11:33:47.047Z",
- "live": [
-  {
-   "id": "793806",
-   "a": "SIGN Esports",
-   "b": "GOC Esports",
-   "sa": "1",
-   "sb": "0",
-   "ev": "VCT 2027: Pacific Kickoff - South Asia Qualifier",
-   "ph": "Playoffs–Lower Round 2",
-   "ts": 1795685400000,
-   "url": "https://www.vlr.gg/793806/sign-esports-vs-goc-esports-vct-2027-pacific-kickoff-south-asia-qualifier-lr2",
-   "mp": [
-    {
-     "n": "Corrode",
-     "a": 14,
-     "b": 12,
-     "st": "d"
-    },
-    {
-     "n": "Summit",
-     "a": 0,
-     "b": 0,
-     "st": "l"
-    },
-    {
-     "n": "Lotus",
-     "st": "n"
-    }
-   ],
-   "evu": "/event/3206/vct-2027-pacific-kickoff-south-asia-qualifier/playoffs",
-   "bo": "3",
-   "vt": [
-    [
-     "x",
-     "SGN",
-     "Abyss"
-    ],
-    [
-     "x",
-     "GOC",
-     "Sunset"
-    ],
-    [
-     "p",
-     "SGN",
-     "Corrode"
-    ],
-    [
-     "p",
-     "GOC",
-     "Summit"
-    ],
-    [
-     "x",
-     "SGN",
-     "Bind"
-    ],
-    [
-     "x",
-     "GOC",
-     "Haven"
-    ],
-    [
-     "d",
-     "",
-     "Lotus"
-    ]
-   ],
-   "pl": {
-    "a": [
-     {
-      "n": "tricky",
-      "ag": ""
-     },
-     {
-      "n": "Deadly10",
-      "ag": ""
-     },
-     {
-      "n": "Garv",
-      "ag": ""
-     },
-     {
-      "n": "Yuvi",
-      "ag": ""
-     },
-     {
-      "n": "Russ",
-      "ag": ""
-     }
-    ],
-    "b": [
-     {
-      "n": "Envy2K",
-      "ag": ""
-     },
-     {
-      "n": "SynX",
-      "ag": ""
-     },
-     {
-      "n": "xeon",
-      "ag": ""
-     },
-     {
-      "n": "Makaveli",
-      "ag": ""
-     },
-     {
-      "n": "khelthuzad",
-      "ag": ""
-     }
-    ]
-   },
-   "tg": [
-    "SGN",
-    "GOC"
-   ],
-   "nk": 1
-  }
- ],
+ "updated": "2026-11-26T11:37:20.988Z",
+ "live": [],
  "upcoming": [
   {
    "id": "793805",
@@ -277,6 +157,437 @@
   }
  ],
  "results": [
+  {
+   "id": "793806",
+   "a": "SIGN Esports",
+   "b": "GOC Esports",
+   "sa": "2",
+   "sb": "0",
+   "ev": "VCT 2027: Pacific Kickoff - South Asia Qualifier",
+   "ph": "Playoffs–Lower Round 2",
+   "ts": 1795685400000,
+   "url": "https://www.vlr.gg/793806/sign-esports-vs-goc-esports-vct-2027-pacific-kickoff-south-asia-qualifier-lr2",
+   "mp": [
+    {
+     "n": "Corrode",
+     "a": 14,
+     "b": 12
+    },
+    {
+     "n": "Summit",
+     "a": 13,
+     "b": 11
+    }
+   ],
+   "sm": [
+    {
+     "n": "Corrode",
+     "a": 14,
+     "b": 12,
+     "pa": [
+      {
+       "n": "Deadly10",
+       "k": 24,
+       "d": 16,
+       "a": 3,
+       "ag": "chamber"
+      },
+      {
+       "n": "tricky",
+       "k": 23,
+       "d": 19,
+       "a": 9,
+       "ag": "fade"
+      },
+      {
+       "n": "Garv",
+       "k": 19,
+       "d": 22,
+       "a": 7,
+       "ag": "neon"
+      },
+      {
+       "n": "Russ",
+       "k": 18,
+       "d": 18,
+       "a": 16,
+       "ag": "omen"
+      },
+      {
+       "n": "Yuvi",
+       "k": 14,
+       "d": 15,
+       "a": 9,
+       "ag": "waylay"
+      }
+     ],
+     "pb": [
+      {
+       "n": "Envy2K",
+       "k": 21,
+       "d": 20,
+       "a": 11,
+       "ag": "waylay"
+      },
+      {
+       "n": "khelthuzad",
+       "k": 19,
+       "d": 18,
+       "a": 13,
+       "ag": "neon"
+      },
+      {
+       "n": "Makaveli",
+       "k": 18,
+       "d": 21,
+       "a": 10,
+       "ag": "fade"
+      },
+      {
+       "n": "xeon",
+       "k": 17,
+       "d": 20,
+       "a": 15,
+       "ag": "omen"
+      },
+      {
+       "n": "SynX",
+       "k": 15,
+       "d": 19,
+       "a": 5,
+       "ag": "cypher"
+      }
+     ],
+     "rd": [
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "b",
+       "t"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "a",
+       "d"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "a",
+       "d"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "d"
+      ]
+     ]
+    },
+    {
+     "n": "Summit",
+     "a": 13,
+     "b": 11,
+     "pa": [
+      {
+       "n": "Yuvi",
+       "k": 29,
+       "d": 12,
+       "a": 3,
+       "ag": "waylay"
+      },
+      {
+       "n": "Deadly10",
+       "k": 23,
+       "d": 17,
+       "a": 5,
+       "ag": "cypher"
+      },
+      {
+       "n": "Russ",
+       "k": 17,
+       "d": 17,
+       "a": 9,
+       "ag": "omen"
+      },
+      {
+       "n": "tricky",
+       "k": 17,
+       "d": 19,
+       "a": 8,
+       "ag": "fade"
+      },
+      {
+       "n": "Garv",
+       "k": 12,
+       "d": 20,
+       "a": 9,
+       "ag": "neon"
+      }
+     ],
+     "pb": [
+      {
+       "n": "xeon",
+       "k": 20,
+       "d": 17,
+       "a": 4,
+       "ag": "sage"
+      },
+      {
+       "n": "Makaveli",
+       "k": 19,
+       "d": 18,
+       "a": 11,
+       "ag": "omen"
+      },
+      {
+       "n": "khelthuzad",
+       "k": 16,
+       "d": 19,
+       "a": 3,
+       "ag": "chamber"
+      },
+      {
+       "n": "SynX",
+       "k": 15,
+       "d": 19,
+       "a": 13,
+       "ag": "fade"
+      },
+      {
+       "n": "Envy2K",
+       "k": 15,
+       "d": 25,
+       "a": 7,
+       "ag": "neon"
+      }
+     ],
+     "rd": [
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "b"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "a",
+       "d"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "b",
+       "t"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ]
+     ]
+    }
+   ],
+   "tg": [
+    "SGN",
+    "GOC"
+   ],
+   "vt": [
+    [
+     "x",
+     "SGN",
+     "Abyss"
+    ],
+    [
+     "x",
+     "GOC",
+     "Sunset"
+    ],
+    [
+     "p",
+     "SGN",
+     "Corrode"
+    ],
+    [
+     "p",
+     "GOC",
+     "Summit"
+    ],
+    [
+     "x",
+     "SGN",
+     "Bind"
+    ],
+    [
+     "x",
+     "GOC",
+     "Haven"
+    ],
+    [
+     "d",
+     "",
+     "Lotus"
+    ]
+   ],
+   "bo": "3",
+   "smt": 1795693037354,
+   "et": 1795693038555
+  },
   {
    "id": "790436",
    "a": "TROOPERS",
@@ -3625,534 +3936,6 @@
     "JL",
     "WIP"
    ]
-  },
-  {
-   "id": "793639",
-   "a": "Beşiktaş Esports",
-   "b": "Galatasaray Esports",
-   "sa": "1",
-   "sb": "2",
-   "ev": "VCT 2027: EMEA Kickoff - Türkiye Qualifier",
-   "ph": "Playoffs–Opening (B)",
-   "ts": 1795624200000,
-   "url": "https://www.vlr.gg/793639/be-ikta-esports-vs-galatasaray-esports-vct-2027-emea-kickoff-t-rkiye-qualifier-playoffs-opening-b",
-   "mp": [
-    {
-     "n": "Bind",
-     "a": 13,
-     "b": 8
-    },
-    {
-     "n": "Sunset",
-     "a": 11,
-     "b": 13
-    },
-    {
-     "n": "Haven",
-     "a": 3,
-     "b": 13
-    }
-   ],
-   "sm": [
-    {
-     "n": "Bind",
-     "a": 13,
-     "b": 8,
-     "pa": [
-      {
-       "n": "audaz",
-       "k": 18,
-       "d": 12,
-       "a": 8,
-       "ag": "brimstone"
-      },
-      {
-       "n": "wezzy",
-       "k": 17,
-       "d": 11,
-       "a": 3,
-       "ag": "neon"
-      },
-      {
-       "n": "MrFaliN",
-       "k": 17,
-       "d": 13,
-       "a": 6,
-       "ag": "fade"
-      },
-      {
-       "n": "influx",
-       "k": 17,
-       "d": 14,
-       "a": 6,
-       "ag": "hush"
-      },
-      {
-       "n": "Yigox",
-       "k": 12,
-       "d": 14,
-       "a": 7,
-       "ag": "viper"
-      }
-     ],
-     "pb": [
-      {
-       "n": "WerlasS",
-       "k": 18,
-       "d": 15,
-       "a": 4,
-       "ag": "viper"
-      },
-      {
-       "n": "Slaughter",
-       "k": 14,
-       "d": 15,
-       "a": 8,
-       "ag": "brimstone"
-      },
-      {
-       "n": "nekky",
-       "k": 13,
-       "d": 17,
-       "a": 3,
-       "ag": "fade"
-      },
-      {
-       "n": "Padisah",
-       "k": 10,
-       "d": 19,
-       "a": 5,
-       "ag": "yoru"
-      },
-      {
-       "n": "Zeask",
-       "k": 9,
-       "d": 15,
-       "a": 6,
-       "ag": "hush"
-      }
-     ],
-     "rd": [
-      [
-       "a",
-       "d"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "a",
-       "d"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "a",
-       "d"
-      ],
-      [
-       "b",
-       "b"
-      ],
-      [
-       "b",
-       "b"
-      ],
-      [
-       "a",
-       "d"
-      ],
-      [
-       "a",
-       "d"
-      ],
-      [
-       "a",
-       "d"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "a",
-       "b"
-      ],
-      [
-       "b",
-       "d"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "b"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ]
-     ]
-    },
-    {
-     "n": "Sunset",
-     "a": 11,
-     "b": 13,
-     "pa": [
-      {
-       "n": "MrFaliN",
-       "k": 22,
-       "d": 17,
-       "a": 6,
-       "ag": "fade"
-      },
-      {
-       "n": "Yigox",
-       "k": 18,
-       "d": 19,
-       "a": 2,
-       "ag": "chamber"
-      },
-      {
-       "n": "wezzy",
-       "k": 13,
-       "d": 20,
-       "a": 4,
-       "ag": "neon"
-      },
-      {
-       "n": "influx",
-       "k": 12,
-       "d": 17,
-       "a": 11,
-       "ag": "sage"
-      },
-      {
-       "n": "audaz",
-       "k": 8,
-       "d": 17,
-       "a": 13,
-       "ag": "omen"
-      }
-     ],
-     "pb": [
-      {
-       "n": "Padisah",
-       "k": 31,
-       "d": 15,
-       "a": 2,
-       "ag": "chamber"
-      },
-      {
-       "n": "Zeask",
-       "k": 21,
-       "d": 19,
-       "a": 5,
-       "ag": "neon"
-      },
-      {
-       "n": "nekky",
-       "k": 16,
-       "d": 12,
-       "a": 5,
-       "ag": "fade"
-      },
-      {
-       "n": "Slaughter",
-       "k": 12,
-       "d": 13,
-       "a": 8,
-       "ag": "omen"
-      },
-      {
-       "n": "WerlasS",
-       "k": 10,
-       "d": 14,
-       "a": 11,
-       "ag": "sage"
-      }
-     ],
-     "rd": [
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "a",
-       "d"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "b"
-      ],
-      [
-       "a",
-       "d"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "d"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "d"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "b"
-      ],
-      [
-       "b",
-       "d"
-      ],
-      [
-       "b",
-       "d"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "b"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "b"
-      ],
-      [
-       "b",
-       "e"
-      ]
-     ]
-    },
-    {
-     "n": "Haven",
-     "a": 3,
-     "b": 13,
-     "pa": [
-      {
-       "n": "MrFaliN",
-       "k": 14,
-       "d": 15,
-       "a": 4,
-       "ag": "sova"
-      },
-      {
-       "n": "audaz",
-       "k": 8,
-       "d": 16,
-       "a": 1,
-       "ag": "omen"
-      },
-      {
-       "n": "Yigox",
-       "k": 6,
-       "d": 14,
-       "a": 2,
-       "ag": "cypher"
-      },
-      {
-       "n": "wezzy",
-       "k": 6,
-       "d": 15,
-       "a": 1,
-       "ag": "neon"
-      },
-      {
-       "n": "influx",
-       "k": 4,
-       "d": 14,
-       "a": 3,
-       "ag": "waylay"
-      }
-     ],
-     "pb": [
-      {
-       "n": "Padisah",
-       "k": 18,
-       "d": 8,
-       "a": 4,
-       "ag": "cypher"
-      },
-      {
-       "n": "Zeask",
-       "k": 18,
-       "d": 10,
-       "a": 4,
-       "ag": "neon"
-      },
-      {
-       "n": "WerlasS",
-       "k": 17,
-       "d": 9,
-       "a": 4,
-       "ag": "phoenix"
-      },
-      {
-       "n": "nekky",
-       "k": 12,
-       "d": 7,
-       "a": 6,
-       "ag": "sova"
-      },
-      {
-       "n": "Slaughter",
-       "k": 9,
-       "d": 4,
-       "a": 7,
-       "ag": "omen"
-      }
-     ],
-     "rd": [
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "d"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "b",
-       "t"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "b",
-       "d"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "d"
-      ],
-      [
-       "b",
-       "d"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ]
-     ]
-    }
-   ],
-   "h2h": {
-    "a": 1,
-    "b": 0
-   },
-   "bo": "3",
-   "smt": 1795634661333,
-   "et": 1795634662534,
-   "tg": [
-    "BJK",
-    "GS"
-   ]
   }
  ],
  "news": [
@@ -4198,7 +3981,6 @@
   "GOC Esports": "https://owcdn.net/img/6b0558757feb7.png",
   "TROOPERS": "",
   "Finishers": "https://owcdn.net/img/69d48940ee5bf.png",
-  "Beşiktaş Esports": "https://owcdn.net/img/623de5ba6273f.png",
   "Galatasaray Esports": "https://owcdn.net/img/61e88bf9166d3.png",
   "PCIFIC Esports": "https://owcdn.net/img/656e2ae2b8a48.png",
   "Eintracht Frankfurt": "https://owcdn.net/img/659d1013d5cf5.png",
@@ -4229,7 +4011,6 @@
   "SIGN Esports": "#f36c21",
   "GOC Esports": "#5d5193",
   "Finishers": "#4e859b",
-  "Beşiktaş Esports": "#e33331",
   "Galatasaray Esports": "#fca31a",
   "PCIFIC Esports": "#27a9c4",
   "Eintracht Frankfurt": "#e3232a",
@@ -5543,6 +5324,15 @@
  ],
  "fr": [
   {
+   "id": "793806",
+   "a": "SIGN Esports",
+   "b": "GOC Esports",
+   "sa": "2",
+   "sb": "0",
+   "ev": "VCT 2027: Pacific Kickoff - South Asia Qualifier",
+   "ts": 1795685400000
+  },
+  {
    "id": "790436",
    "a": "TROOPERS",
    "b": "Finishers",
@@ -5955,15 +5745,6 @@
    "sb": "1",
    "ev": "VCT 2027: America Kickoff - Brazil Qualifier Playoffs",
    "ts": 1795293300000
-  },
-  {
-   "id": "792549",
-   "a": "Mix My Miks",
-   "b": "Gamax Esports",
-   "sa": "2",
-   "sb": "1",
-   "ev": "VCT 2027: EMEA Kickoff - MENA Qualifier",
-   "ts": 1795286100000
   }
  ],
  "rd": [],
