@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-26T21:52:48.555Z",
+ "updated": "2026-11-26T21:54:25.549Z",
  "live": [
   {
    "id": "792042",
    "a": "SÓ TEM VELHO",
    "b": "Next",
-   "sa": "0",
+   "sa": "1",
    "sb": "1",
    "ev": "VCT 2027: America Kickoff - Brazil Qualifier Playoffs",
    "ph": "Playoffs–Upper Quarterfinals",
@@ -19,14 +19,16 @@
      "st": "d"
     },
     {
+     "n": "Lotus",
+     "a": 13,
+     "b": 5,
+     "st": "d"
+    },
+    {
      "n": "TBD",
      "a": 0,
      "b": 0,
      "st": "l"
-    },
-    {
-     "n": "TBD",
-     "st": "n"
     }
    ],
    "evu": "/event/3183/vct-2027-america-kickoff-brazil-qualifier-playoffs/playoffs",
@@ -4904,7 +4906,7 @@
    "sa": "0",
    "sb": "2",
    "ev": "VCT 2027: EMEA Kickoff - Türkiye Qualifier",
-   "ts": 1795542900000
+   "ts": 1795539300000
   },
   {
    "id": "793633",
