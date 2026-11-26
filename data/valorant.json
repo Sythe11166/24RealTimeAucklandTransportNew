@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-26T01:40:21.533Z",
+ "updated": "2026-11-26T01:41:57.695Z",
  "live": [
   {
    "id": "794021",
    "a": "Enterprise Esports",
    "b": "xXxMasterProMegaTeamxXx",
-   "sa": "0",
+   "sa": "1",
    "sb": "0",
    "ev": "VCT 2027: EMEA Kickoff - Europe Qualifier Playoffs",
    "ph": "Swiss Stage–Round 1 (0-0)",
@@ -13,14 +13,16 @@
    "url": "https://www.vlr.gg/794021/enterprise-esports-vs-xxxmasterpromegateamxxx-vct-2027-emea-kickoff-europe-qualifier-playoffs-swiss-stage-r1-0-0",
    "mp": [
     {
+     "n": "Haven",
+     "a": 13,
+     "b": 8,
+     "st": "d"
+    },
+    {
      "n": "TBD",
      "a": 0,
      "b": 0,
      "st": "l"
-    },
-    {
-     "n": "TBD",
-     "st": "n"
     },
     {
      "n": "TBD",
