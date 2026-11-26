@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-26T17:07:51.027Z",
+ "updated": "2026-11-26T17:09:31.386Z",
  "live": [
   {
    "id": "794454",
    "a": "Enterprise Esports",
    "b": "UCAM Esports Club",
-   "sa": "0",
+   "sa": "1",
    "sb": "0",
    "ev": "VCT 2027: EMEA Kickoff - Europe Qualifier Playoffs",
    "ph": "Swiss Stage–Round 2 (1-0)",
@@ -13,14 +13,16 @@
    "url": "https://www.vlr.gg/794454/enterprise-esports-vs-ucam-esports-club-vct-2027-emea-kickoff-europe-qualifier-playoffs-swiss-stage-r2-1-0",
    "mp": [
     {
+     "n": "Lotus",
+     "a": 15,
+     "b": 13,
+     "st": "d"
+    },
+    {
      "n": "TBD",
      "a": 0,
      "b": 0,
      "st": "l"
-    },
-    {
-     "n": "TBD",
-     "st": "n"
     },
     {
      "n": "TBD",
@@ -89,7 +91,7 @@
    "id": "794455",
    "a": "Natus Vincere Junior",
    "b": "Barça eSports",
-   "sa": "0",
+   "sa": "1",
    "sb": "0",
    "ev": "VCT 2027: EMEA Kickoff - Europe Qualifier Playoffs",
    "ph": "Swiss Stage–Round 2 (1-0)",
@@ -97,14 +99,16 @@
    "url": "https://www.vlr.gg/794455/natus-vincere-junior-vs-bar-a-esports-vct-2027-emea-kickoff-europe-qualifier-playoffs-swiss-stage-r2-1-0",
    "mp": [
     {
+     "n": "Corrode",
+     "a": 13,
+     "b": 8,
+     "st": "d"
+    },
+    {
      "n": "TBD",
      "a": 0,
      "b": 0,
      "st": "l"
-    },
-    {
-     "n": "TBD",
-     "st": "n"
     },
     {
      "n": "TBD",
