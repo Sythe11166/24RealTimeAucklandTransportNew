@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T20:44:16.172Z",
+ "updated": "2026-11-26T20:45:58.076Z",
  "live": [
   {
    "id": "794460",
@@ -26,7 +26,7 @@
     },
     {
      "n": "Haven",
-     "a": 0,
+     "a": 1,
      "b": 2,
      "st": "l"
     }
@@ -129,6 +129,10 @@
     [
      "b",
      "d"
+    ],
+    [
+     "a",
+     "e"
     ]
    ],
    "rdm": "Haven"
@@ -234,7 +238,7 @@
     },
     {
      "n": "Sunset",
-     "a": 0,
+     "a": 1,
      "b": 0,
      "st": "l"
     },
@@ -336,7 +340,14 @@
     "MDR",
     "MIR"
    ],
-   "nk": 1
+   "nk": 1,
+   "rd": [
+    [
+     "a",
+     "e"
+    ]
+   ],
+   "rdm": "Sunset"
   },
   {
    "id": "792042",
@@ -508,6 +519,28 @@
    "url": "https://www.vlr.gg/793801/godlike-esports-vs-revenant-xspark-vct-2027-pacific-kickoff-south-asia-qualifier-ubf"
   },
   {
+   "id": "794841",
+   "a": "EL LEGADO",
+   "b": "ARG.MIX",
+   "sa": "–",
+   "sb": "–",
+   "ev": "VCT 2027: America Kickoff - LATAM South Qualifier Playoffs",
+   "ph": "Playoffs–Upper Semifinals",
+   "ts": 1795806000000,
+   "url": "https://www.vlr.gg/794841/el-legado-vs-arg-mix-vct-2027-america-kickoff-latam-south-qualifier-playoffs-ubsf"
+  },
+  {
+   "id": "794842",
+   "a": "University War",
+   "b": "9z Globant",
+   "sa": "–",
+   "sb": "–",
+   "ev": "VCT 2027: America Kickoff - LATAM South Qualifier Playoffs",
+   "ph": "Playoffs–Upper Semifinals",
+   "ts": 1795806000000,
+   "url": "https://www.vlr.gg/794842/university-war-vs-9z-globant-vct-2027-america-kickoff-latam-south-qualifier-playoffs-ubsf"
+  },
+  {
    "id": "792044",
    "a": "Team Solid",
    "b": "BRASIL2002",
@@ -550,28 +583,6 @@
    "ph": "Playoffs–Elimination (B)",
    "ts": 1795970700000,
    "url": "https://www.vlr.gg/793641/team-apanthe-vs-be-ikta-esports-vct-2027-emea-kickoff-t-rkiye-qualifier-playoffs-elim-b"
-  },
-  {
-   "id": "793735",
-   "a": "Cloud9",
-   "b": "QoR",
-   "sa": "–",
-   "sb": "–",
-   "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ph": "Playoffs –Upper Quarterfinals",
-   "ts": 1796161500000,
-   "url": "https://www.vlr.gg/793735/cloud9-vs-qor-vct-2027-america-kickoff-north-america-qualifier-playoffs-ubqf"
-  },
-  {
-   "id": "793736",
-   "a": "YFP",
-   "b": "Oafs",
-   "sa": "–",
-   "sb": "–",
-   "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ph": "Playoffs –Upper Quarterfinals",
-   "ts": 1796161500000,
-   "url": "https://www.vlr.gg/793736/yfp-vs-oafs-vct-2027-america-kickoff-north-america-qualifier-playoffs-ubqf"
   }
  ],
  "results": [
@@ -4459,11 +4470,11 @@
   "MeatZn": "",
   "GodLike Esports": "https://owcdn.net/img/63ebaa91f0e07.png",
   "Revenant XSpark": "https://owcdn.net/img/6a20030faecd7.png",
-  "Team Solid": "https://owcdn.net/img/689d0fc04ad22.png",
-  "BRASIL2002": "",
   "GOC Esports": "https://owcdn.net/img/6b0558757feb7.png",
-  "2Game Esports": "https://owcdn.net/img/67725c368d524.png",
-  "Mafiosos": ""
+  "EL LEGADO": "",
+  "ARG.MIX": "",
+  "University War": "https://owcdn.net/img/65df25f7afcad.png",
+  "9z Globant": "https://owcdn.net/img/65e447b0c2415.png"
  },
  "colors": {
   "SIGN Esports": "#f36c21",
@@ -4496,9 +4507,9 @@
   "Bonkers": "#e0900e",
   "GodLike Esports": "#edb74d",
   "Revenant XSpark": "#dbb657",
-  "Team Solid": "",
   "GOC Esports": "#16dcf9",
-  "2Game Esports": "#7a4bfb"
+  "University War": "#bf0425",
+  "9z Globant": ""
  },
  "agents": {
   "gekko": {
@@ -4628,7 +4639,8 @@
   "VCT 2027: Pacific Kickoff - Oceania Qualifier": "https://owcdn.net/img/640f5ae002674.png",
   "VCT 2027: EMEA Kickoff - Europe Qualifier Playoffs": "https://owcdn.net/img/65ab59620a233.png",
   "VCT 2027: America Kickoff - Brazil Qualifier Playoffs": "https://owcdn.net/img/640f5ab71dfbb.png",
-  "VCT 2027: America Kickoff - LATAM North Qualifier Playoffs": "https://owcdn.net/img/640f5ab71dfbb.png"
+  "VCT 2027: America Kickoff - LATAM North Qualifier Playoffs": "https://owcdn.net/img/640f5ab71dfbb.png",
+  "VCT 2027: America Kickoff - LATAM South Qualifier Playoffs": "https://owcdn.net/img/640f5ab71dfbb.png"
  },
  "vct": "https://owcdn.net/img/640f5ae002674.png",
  "br": {
@@ -4811,6 +4823,20 @@
    "ts": 1795782600000
   },
   {
+   "id": "794841",
+   "a": "EL LEGADO",
+   "b": "ARG.MIX",
+   "ev": "VCT 2027: America Kickoff - LATAM South Qualifier Playoffs",
+   "ts": 1795806000000
+  },
+  {
+   "id": "794842",
+   "a": "University War",
+   "b": "9z Globant",
+   "ev": "VCT 2027: America Kickoff - LATAM South Qualifier Playoffs",
+   "ts": 1795806000000
+  },
+  {
    "id": "792044",
    "a": "Team Solid",
    "b": "BRASIL2002",
@@ -4851,20 +4877,6 @@
    "b": "Oafs",
    "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
    "ts": 1796161500000
-  },
-  {
-   "id": "793737",
-   "a": "ENVY",
-   "b": "Wildcard",
-   "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ts": 1796168700000
-  },
-  {
-   "id": "793738",
-   "a": "Shopify Rebellion Black",
-   "b": "counterfeit",
-   "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ts": 1796168700000
   }
  ],
  "fr": [
