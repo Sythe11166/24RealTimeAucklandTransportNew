@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T09:29:48.238Z",
+ "updated": "2026-11-26T09:31:28.522Z",
  "live": [
   {
    "id": "790436",
@@ -82,23 +82,89 @@
     "FIN"
    ],
    "nk": 1
-  }
- ],
- "upcoming": [
+  },
   {
    "id": "793806",
    "a": "SIGN Esports",
    "b": "GOC Esports",
-   "sa": "–",
-   "sb": "–",
+   "sa": "0",
+   "sb": "0",
    "ev": "VCT 2027: Pacific Kickoff - South Asia Qualifier",
    "ph": "Playoffs–Lower Round 2",
    "ts": 1795685400000,
    "url": "https://www.vlr.gg/793806/sign-esports-vs-goc-esports-vct-2027-pacific-kickoff-south-asia-qualifier-lr2",
-   "bo": "3",
+   "mp": [
+    {
+     "n": "TBD",
+     "a": 0,
+     "b": 0,
+     "st": "l"
+    },
+    {
+     "n": "TBD",
+     "st": "n"
+    },
+    {
+     "n": "TBD",
+     "st": "n"
+    }
+   ],
    "evu": "/event/3206/vct-2027-pacific-kickoff-south-asia-qualifier/playoffs",
-   "fz": 1
-  },
+   "bo": "3",
+   "pl": {
+    "a": [
+     {
+      "n": "tricky",
+      "ag": ""
+     },
+     {
+      "n": "Deadly10",
+      "ag": ""
+     },
+     {
+      "n": "Garv",
+      "ag": ""
+     },
+     {
+      "n": "Yuvi",
+      "ag": ""
+     },
+     {
+      "n": "Russ",
+      "ag": ""
+     }
+    ],
+    "b": [
+     {
+      "n": "Envy2K",
+      "ag": ""
+     },
+     {
+      "n": "SynX",
+      "ag": ""
+     },
+     {
+      "n": "xeon",
+      "ag": ""
+     },
+     {
+      "n": "Makaveli",
+      "ag": ""
+     },
+     {
+      "n": "khelthuzad",
+      "ag": ""
+     }
+    ]
+   },
+   "tg": [
+    "SGN",
+    "GOC"
+   ],
+   "nk": 1
+  }
+ ],
+ "upcoming": [
   {
    "id": "793805",
    "a": "Kryon Esports",
@@ -144,7 +210,14 @@
    "ev": "VCT 2027: EMEA Kickoff - Türkiye Qualifier",
    "ph": "Playoffs–Winner's (B)",
    "ts": 1795714200000,
-   "url": "https://www.vlr.gg/793640/pcific-esports-vs-galatasaray-esports-vct-2027-emea-kickoff-t-rkiye-qualifier-playoffs-winners-b"
+   "url": "https://www.vlr.gg/793640/pcific-esports-vs-galatasaray-esports-vct-2027-emea-kickoff-t-rkiye-qualifier-playoffs-winners-b",
+   "h2h": {
+    "a": 4,
+    "b": 2
+   },
+   "bo": "3",
+   "evu": "/event/3177/vct-2027-emea-kickoff-t-rkiye-qualifier/playoffs",
+   "fz": 1
   },
   {
    "id": "792042",
@@ -209,7 +282,7 @@
    "sb": "–",
    "ev": "VCT 2027: Pacific Kickoff - South Asia Qualifier",
    "ph": "Playoffs–Upper Final",
-   "ts": 1795782600000,
+   "ts": 1795779000000,
    "url": "https://www.vlr.gg/793801/godlike-esports-vs-revenant-xspark-vct-2027-pacific-kickoff-south-asia-qualifier-ubf"
   },
   {
@@ -233,6 +306,17 @@
    "ph": "Playoffs–Upper Quarterfinals",
    "ts": 1795818600000,
    "url": "https://www.vlr.gg/792045/2game-esports-vs-mafiosos-vct-2027-america-kickoff-brazil-qualifier-playoffs-ubqf"
+  },
+  {
+   "id": "793636",
+   "a": "Misa Esports",
+   "b": "Fire Flux Esports",
+   "sa": "–",
+   "sb": "–",
+   "ev": "VCT 2027: EMEA Kickoff - Türkiye Qualifier",
+   "ph": "Playoffs–Elimination (A)",
+   "ts": 1795959000000,
+   "url": "https://www.vlr.gg/793636/misa-esports-vs-fire-flux-esports-vct-2027-emea-kickoff-t-rkiye-qualifier-playoffs-elim-a"
   }
  ],
  "results": [
@@ -4340,7 +4424,9 @@
   "ELEVATE": "https://owcdn.net/img/65990c8ab7c2b.png",
   "FUEGO": "https://owcdn.net/img/678f90b7b65e5.png",
   "Chivas Esports": "https://owcdn.net/img/63ce2eedbe573.png",
-  "Trigger Point Esports": "https://owcdn.net/img/6b0448ef61ab9.png"
+  "Trigger Point Esports": "https://owcdn.net/img/6b0448ef61ab9.png",
+  "Bonkers": "https://owcdn.net/img/645fbc5da4a21.png",
+  "MeatZn": ""
  },
  "colors": {
   "Contra": "#f0b104",
@@ -4368,7 +4454,8 @@
   "ELEVATE": "#d82027",
   "FUEGO": "#d95028",
   "Chivas Esports": "#cdaa3d",
-  "Trigger Point Esports": "#c90000"
+  "Trigger Point Esports": "#c90000",
+  "Bonkers": "#e0900e"
  },
  "agents": {
   "gekko": {
@@ -4603,13 +4690,6 @@
  },
  "fu": [
   {
-   "id": "793806",
-   "a": "SIGN Esports",
-   "b": "GOC Esports",
-   "ev": "VCT 2027: Pacific Kickoff - South Asia Qualifier",
-   "ts": 1795685400000
-  },
-  {
    "id": "793805",
    "a": "Kryon Esports",
    "b": "Trigger Point Esports",
@@ -4670,7 +4750,7 @@
    "a": "GodLike Esports",
    "b": "Revenant XSpark",
    "ev": "VCT 2027: Pacific Kickoff - South Asia Qualifier",
-   "ts": 1795782600000
+   "ts": 1795779000000
   },
   {
    "id": "792044",
@@ -4691,14 +4771,14 @@
    "a": "Misa Esports",
    "b": "Fire Flux Esports",
    "ev": "VCT 2027: EMEA Kickoff - Türkiye Qualifier",
-   "ts": 1795962600000
+   "ts": 1795959000000
   },
   {
    "id": "793641",
    "a": "team apanthe",
    "b": "Beşiktaş Esports",
    "ev": "VCT 2027: EMEA Kickoff - Türkiye Qualifier",
-   "ts": 1795973400000
+   "ts": 1795969800000
   },
   {
    "id": "793735",
@@ -4719,14 +4799,14 @@
    "a": "ENVY",
    "b": "Wildcard",
    "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ts": 1796171400000
+   "ts": 1796167800000
   },
   {
    "id": "793738",
    "a": "Shopify Rebellion Black",
    "b": "counterfeit",
    "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ts": 1796171400000
+   "ts": 1796167800000
   }
  ],
  "fr": [
