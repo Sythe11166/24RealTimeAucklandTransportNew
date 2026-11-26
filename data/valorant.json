@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-26T10:18:55.861Z",
+ "updated": "2026-11-26T10:22:06.741Z",
  "live": [
   {
    "id": "793806",
    "a": "SIGN Esports",
    "b": "GOC Esports",
-   "sa": "0",
+   "sa": "1",
    "sb": "0",
    "ev": "VCT 2027: Pacific Kickoff - South Asia Qualifier",
    "ph": "Playoffs–Lower Round 2",
@@ -14,13 +14,15 @@
    "mp": [
     {
      "n": "Corrode",
-     "a": 0,
-     "b": 0,
-     "st": "l"
+     "a": 14,
+     "b": 12,
+     "st": "d"
     },
     {
      "n": "Summit",
-     "st": "n"
+     "a": 0,
+     "b": 0,
+     "st": "l"
     },
     {
      "n": "Lotus",
@@ -4390,7 +4392,7 @@
   "u": "/event/3206/vct-2027-pacific-kickoff-south-asia-qualifier/playoffs",
   "rg": "Pacific",
   "ev": "VCT 2027: Pacific Kickoff - South Asia Qualifier",
-  "at": 1795688236615,
+  "at": 1795688525409,
   "r": [
    {
     "r": "Round 1",
@@ -5326,7 +5328,7 @@
      [
       "SIGN Esports",
       "GOC Esports",
-      0,
+      1,
       0,
       "l"
      ],
