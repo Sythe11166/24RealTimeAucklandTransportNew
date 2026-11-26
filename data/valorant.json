@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T14:27:39.645Z",
+ "updated": "2026-11-26T14:29:15.256Z",
  "live": [],
  "upcoming": [
   {
@@ -5327,6 +5327,13 @@
    "b": "Beşiktaş Esports",
    "ev": "VCT 2027: EMEA Kickoff - Türkiye Qualifier",
    "ts": 1795973400000
+  },
+  {
+   "id": "793735",
+   "a": "Cloud9",
+   "b": "QoR",
+   "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
+   "ts": 1796160600000
   }
  ],
  "fr": [
@@ -5508,7 +5515,7 @@
    "sa": "2",
    "sb": "1",
    "ev": "VCT 2027: Pacific Kickoff - South Asia Qualifier",
-   "ts": 1795591800000
+   "ts": 1795588200000
   },
   {
    "id": "793768",
@@ -5544,7 +5551,7 @@
    "sa": "2",
    "sb": "0",
    "ev": "VCT 2027: EMEA Kickoff - Türkiye Qualifier",
-   "ts": 1795534200000
+   "ts": 1795530600000
   },
   {
    "id": "793798",
@@ -5562,7 +5569,7 @@
    "sa": "2",
    "sb": "1",
    "ev": "VCT 2027: Pacific Kickoff - South Asia Qualifier",
-   "ts": 1795516200000
+   "ts": 1795512600000
   },
   {
    "id": "793565",
@@ -5571,7 +5578,7 @@
    "sa": "2",
    "sb": "0",
    "ev": "VCT 2027: America Kickoff - LATAM South Qualifier Playoffs",
-   "ts": 1795473000000
+   "ts": 1795469400000
   },
   {
    "id": "793563",
@@ -5589,7 +5596,7 @@
    "sa": "0",
    "sb": "2",
    "ev": "VCT 2027: Pacific Kickoff - South Asia Qualifier",
-   "ts": 1795447800000
+   "ts": 1795444200000
   },
   {
    "id": "793795",
@@ -5607,7 +5614,7 @@
    "sa": "2",
    "sb": "0",
    "ev": "VCT 2027: America Kickoff - LATAM North Qualifier Playoffs",
-   "ts": 1795397400000
+   "ts": 1795393800000
   },
   {
    "id": "793335",
@@ -5679,7 +5686,7 @@
    "sa": "0",
    "sb": "2",
    "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ts": 1795314600000
+   "ts": 1795311000000
   },
   {
    "id": "792908",
@@ -5730,15 +5737,6 @@
    "id": "792904",
    "a": "FlyQuest",
    "b": "ENVY",
-   "sa": "1",
-   "sb": "2",
-   "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ts": 1795300200000
-  },
-  {
-   "id": "792905",
-   "a": "Yellow Dragon Gaming",
-   "b": "Wildcard",
    "sa": "1",
    "sb": "2",
    "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
