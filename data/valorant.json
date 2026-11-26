@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T07:08:06.045Z",
+ "updated": "2026-11-26T07:11:16.941Z",
  "live": [
   {
    "id": "793800",
@@ -13,22 +13,59 @@
    "url": "https://www.vlr.gg/793800/revenant-xspark-vs-kryon-esports-vct-2027-pacific-kickoff-south-asia-qualifier-ubsf",
    "mp": [
     {
-     "n": "TBD",
+     "n": "Lotus",
      "a": 0,
      "b": 0,
      "st": "l"
     },
     {
-     "n": "TBD",
+     "n": "Haven",
      "st": "n"
     },
     {
-     "n": "TBD",
+     "n": "Abyss",
      "st": "n"
     }
    ],
    "evu": "/event/3206/vct-2027-pacific-kickoff-south-asia-qualifier/playoffs",
    "bo": "3",
+   "vt": [
+    [
+     "x",
+     "KRN",
+     "Summit"
+    ],
+    [
+     "x",
+     "RNTX",
+     "Corrode"
+    ],
+    [
+     "p",
+     "KRN",
+     "Lotus"
+    ],
+    [
+     "p",
+     "RNTX",
+     "Haven"
+    ],
+    [
+     "x",
+     "KRN",
+     "Bind"
+    ],
+    [
+     "x",
+     "RNTX",
+     "Sunset"
+    ],
+    [
+     "d",
+     "",
+     "Abyss"
+    ]
+   ],
    "h2h": {
     "a": 1,
     "b": 0
