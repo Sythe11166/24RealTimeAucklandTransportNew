@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T19:19:16.598Z",
+ "updated": "2026-11-26T19:21:00.056Z",
  "live": [
   {
    "id": "794456",
@@ -15,7 +15,7 @@
     {
      "n": "Summit",
      "a": 8,
-     "b": 7,
+     "b": 8,
      "st": "l"
     },
     {
@@ -181,6 +181,10 @@
     [
      "b",
      "e"
+    ],
+    [
+     "b",
+     "e"
     ]
    ],
    "rdm": "Summit"
@@ -198,7 +202,7 @@
    "mp": [
     {
      "n": "Sunset",
-     "a": 7,
+     "a": 8,
      "b": 8,
      "st": "l"
     },
@@ -345,6 +349,10 @@
     [
      "a",
      "d"
+    ],
+    [
+     "a",
+     "e"
     ],
     [
      "a",
@@ -519,6 +527,28 @@
  ],
  "results": [
   {
+   "id": "794457",
+   "a": "Joblife",
+   "b": "La Masia",
+   "sa": "0",
+   "sb": "0",
+   "ev": "VCT 2027: EMEA Kickoff - Europe Qualifier Playoffs",
+   "ph": "Swiss Stage–Round 2 (1-0)",
+   "ts": 1795717800000,
+   "et": 1795718611656,
+   "url": "https://www.vlr.gg/794457/joblife-vs-la-masia-vct-2027-emea-kickoff-europe-qualifier-playoffs-swiss-stage-r2-1-0",
+   "g": 1,
+   "mp": [
+    {
+     "n": "TBD",
+     "a": 0,
+     "b": 0
+    }
+   ],
+   "bo": "3",
+   "smt": 1795720749008
+  },
+  {
    "id": "794461",
    "a": "Mandatory",
    "b": "MIR",
@@ -543,28 +573,6 @@
    },
    "bo": "3",
    "smt": 1795720747960
-  },
-  {
-   "id": "794457",
-   "a": "Joblife",
-   "b": "La Masia",
-   "sa": "0",
-   "sb": "0",
-   "ev": "VCT 2027: EMEA Kickoff - Europe Qualifier Playoffs",
-   "ph": "Swiss Stage–Round 2 (1-0)",
-   "ts": 1795717800000,
-   "et": 1795718611656,
-   "url": "https://www.vlr.gg/794457/joblife-vs-la-masia-vct-2027-emea-kickoff-europe-qualifier-playoffs-swiss-stage-r2-1-0",
-   "g": 1,
-   "mp": [
-    {
-     "n": "TBD",
-     "a": 0,
-     "b": 0
-    }
-   ],
-   "bo": "3",
-   "smt": 1795720749008
   },
   {
    "id": "793640",
@@ -3785,7 +3793,7 @@
   "u": "/event/3233/vct-2027-emea-kickoff-europe-qualifier-playoffs/swiss-stage",
   "rg": "EMEA",
   "ev": "VCT 2027: EMEA Kickoff - Europe Qualifier Playoffs",
-  "at": 1795720546157,
+  "at": 1795720858706,
   "r": [
    {
     "r": "Round 1 (0-0)",
