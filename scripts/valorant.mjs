@@ -404,8 +404,24 @@ if (needAg.length) {
 // wider, lightweight lists for the home page (favourite teams' next/last matches within a month)
 const fu = list.filter(m => !m.live && m.ts && m.ts > Date.now() - 36e5 && !isTbd(m.a) && !isTbd(m.b)).sort((x, y) => x.ts - y.ts).slice(0, 60).map(m => ({ id: m.id, a: m.a, b: m.b, ev: m.ev, ts: m.ts }));
 const fr = pastList.filter(m => !isTbd(m.a) && !isTbd(m.b) && m.sa !== '' && m.sb !== '' && m.ts).slice(0, 50).map(m => ({ id: m.id, a: m.a, b: m.b, sa: m.sa, sb: m.sb, ev: m.ev, ts: m.ts }));
-const out = { live, upcoming, results: results.slice(0, 9), news, logos, colors, agents, evlogos, vct, br, fu, fr };
-const before = JSON.stringify({ live: old.live || [], upcoming: old.upcoming || [], results: old.results || [], news: old.news || [], logos: old.logos || {}, colors: old.colors || {}, agents: old.agents || {}, evlogos: old.evlogos || {}, vct: old.vct || '', br: old.br || null, fu: old.fu || [], fr: old.fr || [] });
+// reddit: top Valorant + Auckland thread (best effort: reddit often blocks datacenter IPs, the page then asks reddit from the browser itself)
+let rd = old.rd || [], rdt = old.rdt || 0;
+if (Date.now() - rdt > 20 * 60000) {
+  const got = [];
+  for (const u of ['https://www.reddit.com/r/ValorantCompetitive/top.json?t=day&limit=5&raw_json=1', 'https://www.reddit.com/r/VALORANT/top.json?t=day&limit=5&raw_json=1', 'https://www.reddit.com/r/auckland/search.json?q=%22Auckland+Transport%22+OR+bus+OR+train+OR+ferry&restrict_sr=1&sort=top&t=week&limit=8&raw_json=1']) {
+    try {
+      const r = await fetch(u, { headers: { 'User-Agent': 'dashboard-scraper/1.0 (github pages dashboard)' } });
+      if (!r.ok) throw new Error(r.status);
+      const j = await r.json(), p = ((j.data && j.data.children) || []).map(c => c.data).find(p => p && p.title && !p.stickied && !p.over_18);
+      if (p) got.push({ sub: p.subreddit, t: p.title, sc: p.score | 0, nc: p.num_comments | 0, ts: (p.created_utc || 0) * 1000, u: 'https://www.reddit.com' + p.permalink });
+    } catch (e) { console.log('reddit skipped:', e.message); }
+    await sleep(700);
+  }
+  if (got.length) rd = got;
+  rdt = Date.now();
+}
+const out = { live, upcoming, results: results.slice(0, 9), news, logos, colors, agents, evlogos, vct, br, fu, fr, rd, rdt };
+const before = JSON.stringify({ live: old.live || [], upcoming: old.upcoming || [], results: old.results || [], news: old.news || [], logos: old.logos || {}, colors: old.colors || {}, agents: old.agents || {}, evlogos: old.evlogos || {}, vct: old.vct || '', br: old.br || null, fu: old.fu || [], fr: old.fr || [], rd, rdt });
 const flat = o => JSON.stringify({ ...o, br: o.br && { ...o.br, at: 0 } });
 const fresh = old.updated && Date.now() - Date.parse(old.updated) < (live.length ? 3 : 20) * 60000;
 if (fresh && flat(JSON.parse(before)) === flat(out)) { console.log('No change'); process.exit(0); }
