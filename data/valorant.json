@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T18:52:47.099Z",
+ "updated": "2026-11-26T18:54:30.526Z",
  "live": [
   {
    "id": "794454",
@@ -186,8 +186,8 @@
    "mp": [
     {
      "n": "Summit",
-     "a": 3,
-     "b": 0,
+     "a": 4,
+     "b": 1,
      "st": "l"
     },
     {
@@ -304,6 +304,14 @@
     ],
     [
      "a",
+     "b"
+    ],
+    [
+     "b",
+     "d"
+    ],
+    [
+     "a",
      "e"
     ]
    ],
@@ -323,7 +331,7 @@
     {
      "n": "Sunset",
      "a": 1,
-     "b": 3,
+     "b": 5,
      "st": "l"
     },
     {
@@ -436,6 +444,14 @@
     ],
     [
      "a",
+     "e"
+    ],
+    [
+     "b",
+     "e"
+    ],
+    [
+     "b",
      "e"
     ],
     [
@@ -599,6 +615,28 @@
  ],
  "results": [
   {
+   "id": "794457",
+   "a": "Joblife",
+   "b": "La Masia",
+   "sa": "0",
+   "sb": "0",
+   "ev": "VCT 2027: EMEA Kickoff - Europe Qualifier Playoffs",
+   "ph": "Swiss Stage–Round 2 (1-0)",
+   "ts": 1795717800000,
+   "et": 1795718611656,
+   "url": "https://www.vlr.gg/794457/joblife-vs-la-masia-vct-2027-emea-kickoff-europe-qualifier-playoffs-swiss-stage-r2-1-0",
+   "g": 1,
+   "mp": [
+    {
+     "n": "TBD",
+     "a": 0,
+     "b": 0
+    }
+   ],
+   "bo": "3",
+   "smt": 1795719161986
+  },
+  {
    "id": "794461",
    "a": "Mandatory",
    "b": "MIR",
@@ -623,28 +661,6 @@
    },
    "bo": "3",
    "smt": 1795719161028
-  },
-  {
-   "id": "794457",
-   "a": "Joblife",
-   "b": "La Masia",
-   "sa": "0",
-   "sb": "0",
-   "ev": "VCT 2027: EMEA Kickoff - Europe Qualifier Playoffs",
-   "ph": "Swiss Stage–Round 2 (1-0)",
-   "ts": 1795717800000,
-   "et": 1795718611656,
-   "url": "https://www.vlr.gg/794457/joblife-vs-la-masia-vct-2027-emea-kickoff-europe-qualifier-playoffs-swiss-stage-r2-1-0",
-   "g": 1,
-   "mp": [
-    {
-     "n": "TBD",
-     "a": 0,
-     "b": 0
-    }
-   ],
-   "bo": "3",
-   "smt": 1795719161986
   },
   {
    "id": "793640",
@@ -3583,7 +3599,7 @@
   "u": "/event/3233/vct-2027-emea-kickoff-europe-qualifier-playoffs/swiss-stage",
   "rg": "EMEA",
   "ev": "VCT 2027: EMEA Kickoff - Europe Qualifier Playoffs",
-  "at": 1795718958711,
+  "at": 1795719269220,
   "r": [
    {
     "r": "Round 1 (0-0)",
@@ -4078,7 +4094,7 @@
    "sa": "0",
    "sb": "2",
    "ev": "VCT 2027: EMEA Kickoff - Türkiye Qualifier",
-   "ts": 1795542900000
+   "ts": 1795539300000
   },
   {
    "id": "793633",
