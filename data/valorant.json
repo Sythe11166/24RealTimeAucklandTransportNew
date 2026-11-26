@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-26T07:35:51.656Z",
+ "updated": "2026-11-26T07:37:29.623Z",
  "live": [
   {
    "id": "793800",
    "a": "Revenant XSpark",
    "b": "Kryon Esports",
-   "sa": "0",
+   "sa": "1",
    "sb": "0",
    "ev": "VCT 2027: Pacific Kickoff - South Asia Qualifier",
    "ph": "Playoffs–Upper Semifinals",
@@ -14,13 +14,15 @@
    "mp": [
     {
      "n": "Lotus",
-     "a": 0,
-     "b": 0,
-     "st": "l"
+     "a": 13,
+     "b": 9,
+     "st": "d"
     },
     {
      "n": "Haven",
-     "st": "n"
+     "a": 0,
+     "b": 0,
+     "st": "l"
     },
     {
      "n": "Abyss",
@@ -4640,7 +4642,7 @@
   "u": "/event/3177/vct-2027-emea-kickoff-t-rkiye-qualifier/playoffs",
   "rg": "EMEA",
   "ev": "VCT 2027: EMEA Kickoff - Türkiye Qualifier",
-  "at": 1795678358374,
+  "at": 1795678648243,
   "r": [
    {
     "r": "Round of 128",
