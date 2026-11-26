@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T09:08:23.272Z",
+ "updated": "2026-11-26T09:11:41.043Z",
  "live": [
   {
    "id": "790436",
@@ -4506,7 +4506,7 @@
   "u": "/event/3185/vct-2027-america-kickoff-latam-south-qualifier-playoffs/swiss-stage",
   "rg": "Americas",
   "ev": "VCT 2027: America Kickoff - LATAM South Qualifier Playoffs",
-  "at": 1795683982633,
+  "at": 1795684297517,
   "r": [
    {
     "r": "Round 1 (0-0)",
@@ -5155,5 +5155,5 @@
   }
  ],
  "rd": [],
- "rdt": 1795682916452
+ "rdt": 1795684301043
 }
