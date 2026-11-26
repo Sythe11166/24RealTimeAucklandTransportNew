@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-26T18:17:50.651Z",
+ "updated": "2026-11-26T18:19:30.137Z",
  "live": [
   {
    "id": "794454",
    "a": "Enterprise Esports",
    "b": "UCAM Esports Club",
    "sa": "1",
-   "sb": "0",
+   "sb": "1",
    "ev": "VCT 2027: EMEA Kickoff - Europe Qualifier Playoffs",
    "ph": "Swiss Stage–Round 2 (1-0)",
    "ts": 1795708800000,
@@ -19,14 +19,16 @@
      "st": "d"
     },
     {
+     "n": "Bind",
+     "a": 9,
+     "b": 13,
+     "st": "d"
+    },
+    {
      "n": "TBD",
      "a": 0,
      "b": 0,
      "st": "l"
-    },
-    {
-     "n": "TBD",
-     "st": "n"
     }
    ],
    "evu": "/event/3233/vct-2027-emea-kickoff-europe-qualifier-playoffs/swiss-stage",
@@ -92,7 +94,7 @@
    "a": "Natus Vincere Junior",
    "b": "Barça eSports",
    "sa": "1",
-   "sb": "0",
+   "sb": "1",
    "ev": "VCT 2027: EMEA Kickoff - Europe Qualifier Playoffs",
    "ph": "Swiss Stage–Round 2 (1-0)",
    "ts": 1795708800000,
@@ -105,14 +107,16 @@
      "st": "d"
     },
     {
+     "n": "Lotus",
+     "a": 6,
+     "b": 13,
+     "st": "d"
+    },
+    {
      "n": "TBD",
      "a": 0,
      "b": 0,
      "st": "l"
-    },
-    {
-     "n": "TBD",
-     "st": "n"
     }
    ],
    "evu": "/event/3233/vct-2027-emea-kickoff-europe-qualifier-playoffs/swiss-stage",
