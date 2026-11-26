@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T12:38:54.638Z",
+ "updated": "2026-11-26T12:40:30.602Z",
  "live": [
   {
    "id": "793805",
@@ -5648,7 +5648,7 @@
    "sa": "2",
    "sb": "1",
    "ev": "VCT 2027: Pacific Kickoff - South Asia Qualifier",
-   "ts": 1795527600000
+   "ts": 1795524000000
   },
   {
    "id": "793797",
@@ -5801,7 +5801,7 @@
    "sa": "1",
    "sb": "2",
    "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ts": 1795311600000
+   "ts": 1795308000000
   },
   {
    "id": "792035",
