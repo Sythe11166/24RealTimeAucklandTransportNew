@@ -1,230 +1,6 @@
 {
- "updated": "2026-11-26T21:24:49.796Z",
+ "updated": "2026-11-26T21:26:27.850Z",
  "live": [
-  {
-   "id": "794460",
-   "a": "Aurora Gaming",
-   "b": "WIP Esports",
-   "sa": "1",
-   "sb": "1",
-   "ev": "VCT 2027: EMEA Kickoff - Europe Qualifier Playoffs",
-   "ph": "Swiss Stage–Round 2 (0-1)",
-   "ts": 1795717800000,
-   "url": "https://www.vlr.gg/794460/aurora-gaming-vs-wip-esports-vct-2027-emea-kickoff-europe-qualifier-playoffs-swiss-stage-r2-0-1",
-   "mp": [
-    {
-     "n": "Sunset",
-     "a": 13,
-     "b": 9,
-     "st": "d"
-    },
-    {
-     "n": "Lotus",
-     "a": 8,
-     "b": 13,
-     "st": "d"
-    },
-    {
-     "n": "Haven",
-     "a": 12,
-     "b": 13,
-     "st": "l"
-    }
-   ],
-   "evu": "/event/3233/vct-2027-emea-kickoff-europe-qualifier-playoffs/swiss-stage",
-   "bo": "3",
-   "vt": [
-    [
-     "x",
-     "WIP",
-     "Abyss"
-    ],
-    [
-     "x",
-     "AURA",
-     "Corrode"
-    ],
-    [
-     "p",
-     "WIP",
-     "Sunset"
-    ],
-    [
-     "p",
-     "AURA",
-     "Lotus"
-    ],
-    [
-     "x",
-     "WIP",
-     "Summit"
-    ],
-    [
-     "x",
-     "AURA",
-     "Bind"
-    ],
-    [
-     "d",
-     "",
-     "Haven"
-    ]
-   ],
-   "pl": {
-    "a": [
-     {
-      "n": "Boo",
-      "ag": ""
-     },
-     {
-      "n": "B1SK",
-      "ag": ""
-     },
-     {
-      "n": "trexx",
-      "ag": ""
-     },
-     {
-      "n": "Derke",
-      "ag": ""
-     },
-     {
-      "n": "chiwa",
-      "ag": ""
-     }
-    ],
-    "b": [
-     {
-      "n": "wtex",
-      "ag": ""
-     },
-     {
-      "n": "TakaS",
-      "ag": ""
-     },
-     {
-      "n": "mepeezy",
-      "ag": ""
-     },
-     {
-      "n": "Vorwenn",
-      "ag": ""
-     },
-     {
-      "n": "Jesse",
-      "ag": ""
-     }
-    ]
-   },
-   "tg": [
-    "AURA",
-    "WIP"
-   ],
-   "nk": 1,
-   "rd": [
-    [
-     "b",
-     "d"
-    ],
-    [
-     "b",
-     "d"
-    ],
-    [
-     "a",
-     "e"
-    ],
-    [
-     "b",
-     "d"
-    ],
-    [
-     "b",
-     "d"
-    ],
-    [
-     "b",
-     "e"
-    ],
-    [
-     "b",
-     "e"
-    ],
-    [
-     "b",
-     "e"
-    ],
-    [
-     "a",
-     "e"
-    ],
-    [
-     "b",
-     "d"
-    ],
-    [
-     "b",
-     "e"
-    ],
-    [
-     "b",
-     "e"
-    ],
-    [
-     "a",
-     "d"
-    ],
-    [
-     "a",
-     "e"
-    ],
-    [
-     "a",
-     "d"
-    ],
-    [
-     "a",
-     "e"
-    ],
-    [
-     "a",
-     "e"
-    ],
-    [
-     "a",
-     "e"
-    ],
-    [
-     "a",
-     "e"
-    ],
-    [
-     "b",
-     "e"
-    ],
-    [
-     "a",
-     "e"
-    ],
-    [
-     "a",
-     "e"
-    ],
-    [
-     "b",
-     "e"
-    ],
-    [
-     "a",
-     "e"
-    ],
-    [
-     "b",
-     "e"
-    ]
-   ],
-   "rdm": "Haven"
-  },
   {
    "id": "792042",
    "a": "SÓ TEM VELHO",
@@ -1583,6 +1359,599 @@
     "SGE",
     "GX"
    ]
+  },
+  {
+   "id": "794460",
+   "a": "Aurora Gaming",
+   "b": "WIP Esports",
+   "sa": "1",
+   "sb": "2",
+   "ev": "VCT 2027: EMEA Kickoff - Europe Qualifier Playoffs",
+   "ph": "Swiss Stage–Round 2 (0-1)",
+   "ts": 1795717800000,
+   "url": "https://www.vlr.gg/794460/aurora-gaming-vs-wip-esports-vct-2027-emea-kickoff-europe-qualifier-playoffs-swiss-stage-r2-0-1",
+   "mp": [
+    {
+     "n": "Sunset",
+     "a": 13,
+     "b": 9
+    },
+    {
+     "n": "Lotus",
+     "a": 8,
+     "b": 13
+    },
+    {
+     "n": "Haven",
+     "a": 12,
+     "b": 14
+    }
+   ],
+   "sm": [
+    {
+     "n": "Sunset",
+     "a": 13,
+     "b": 9,
+     "pa": [
+      {
+       "n": "B1SK",
+       "k": 18,
+       "d": 14,
+       "a": 5,
+       "ag": "chamber"
+      },
+      {
+       "n": "Derke",
+       "k": 17,
+       "d": 19,
+       "a": 4,
+       "ag": "neon"
+      },
+      {
+       "n": "chiwa",
+       "k": 16,
+       "d": 15,
+       "a": 4,
+       "ag": "sage"
+      },
+      {
+       "n": "trexx",
+       "k": 14,
+       "d": 12,
+       "a": 10,
+       "ag": "fade"
+      },
+      {
+       "n": "Boo",
+       "k": 13,
+       "d": 16,
+       "a": 5,
+       "ag": "omen"
+      }
+     ],
+     "pb": [
+      {
+       "n": "mepeezy",
+       "k": 22,
+       "d": 12,
+       "a": 6,
+       "ag": "sage"
+      },
+      {
+       "n": "Vorwenn",
+       "k": 18,
+       "d": 13,
+       "a": 5,
+       "ag": "sova"
+      },
+      {
+       "n": "wtex",
+       "k": 14,
+       "d": 19,
+       "a": 10,
+       "ag": "neon"
+      },
+      {
+       "n": "TakaS",
+       "k": 12,
+       "d": 18,
+       "a": 4,
+       "ag": "chamber"
+      },
+      {
+       "n": "Jesse",
+       "k": 10,
+       "d": 16,
+       "a": 8,
+       "ag": "omen"
+      }
+     ],
+     "rd": [
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "a",
+       "d"
+      ],
+      [
+       "b",
+       "b"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "a",
+       "d"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "b"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "b"
+      ],
+      [
+       "b",
+       "d"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ]
+     ]
+    },
+    {
+     "n": "Lotus",
+     "a": 8,
+     "b": 13,
+     "pa": [
+      {
+       "n": "B1SK",
+       "k": 17,
+       "d": 18,
+       "a": 6,
+       "ag": "neon"
+      },
+      {
+       "n": "chiwa",
+       "k": 15,
+       "d": 14,
+       "a": 4,
+       "ag": "cypher"
+      },
+      {
+       "n": "trexx",
+       "k": 15,
+       "d": 16,
+       "a": 4,
+       "ag": "fade"
+      },
+      {
+       "n": "Derke",
+       "k": 12,
+       "d": 17,
+       "a": 7,
+       "ag": "raze"
+      },
+      {
+       "n": "Boo",
+       "k": 6,
+       "d": 15,
+       "a": 12,
+       "ag": "omen"
+      }
+     ],
+     "pb": [
+      {
+       "n": "mepeezy",
+       "k": 20,
+       "d": 11,
+       "a": 5,
+       "ag": "viper"
+      },
+      {
+       "n": "Jesse",
+       "k": 20,
+       "d": 14,
+       "a": 9,
+       "ag": "omen"
+      },
+      {
+       "n": "wtex",
+       "k": 19,
+       "d": 13,
+       "a": 7,
+       "ag": "neon"
+      },
+      {
+       "n": "TakaS",
+       "k": 16,
+       "d": 16,
+       "a": 1,
+       "ag": "chamber"
+      },
+      {
+       "n": "Vorwenn",
+       "k": 5,
+       "d": 11,
+       "a": 10,
+       "ag": "skye"
+      }
+     ],
+     "rd": [
+      [
+       "b",
+       "d"
+      ],
+      [
+       "b",
+       "d"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "b",
+       "t"
+      ],
+      [
+       "a",
+       "b"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "d"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "b"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "a",
+       "t"
+      ],
+      [
+       "b",
+       "b"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ]
+     ]
+    },
+    {
+     "n": "Haven",
+     "a": 12,
+     "b": 14,
+     "pa": [
+      {
+       "n": "Derke",
+       "k": 29,
+       "d": 16,
+       "a": 2,
+       "ag": "jett"
+      },
+      {
+       "n": "trexx",
+       "k": 20,
+       "d": 19,
+       "a": 11,
+       "ag": "sova"
+      },
+      {
+       "n": "Boo",
+       "k": 16,
+       "d": 16,
+       "a": 13,
+       "ag": "omen"
+      },
+      {
+       "n": "chiwa",
+       "k": 16,
+       "d": 17,
+       "a": 10,
+       "ag": "cypher"
+      },
+      {
+       "n": "B1SK",
+       "k": 13,
+       "d": 21,
+       "a": 9,
+       "ag": "neon"
+      }
+     ],
+     "pb": [
+      {
+       "n": "TakaS",
+       "k": 28,
+       "d": 20,
+       "a": 1,
+       "ag": "chamber"
+      },
+      {
+       "n": "mepeezy",
+       "k": 24,
+       "d": 17,
+       "a": 7,
+       "ag": "viper"
+      },
+      {
+       "n": "Vorwenn",
+       "k": 20,
+       "d": 15,
+       "a": 7,
+       "ag": "sova"
+      },
+      {
+       "n": "wtex",
+       "k": 9,
+       "d": 20,
+       "a": 10,
+       "ag": "neon"
+      },
+      {
+       "n": "Jesse",
+       "k": 8,
+       "d": 22,
+       "a": 13,
+       "ag": "omen"
+      }
+     ],
+     "rd": [
+      [
+       "b",
+       "d"
+      ],
+      [
+       "b",
+       "d"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "b",
+       "d"
+      ],
+      [
+       "b",
+       "d"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "b",
+       "d"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "a",
+       "d"
+      ],
+      [
+       "a",
+       "d"
+      ],
+      [
+       "a",
+       "d"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "d"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "a",
+       "d"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ]
+     ]
+    }
+   ],
+   "tg": [
+    "AURA",
+    "WIP"
+   ],
+   "vt": [
+    [
+     "x",
+     "WIP",
+     "Abyss"
+    ],
+    [
+     "x",
+     "AURA",
+     "Corrode"
+    ],
+    [
+     "p",
+     "WIP",
+     "Sunset"
+    ],
+    [
+     "p",
+     "AURA",
+     "Lotus"
+    ],
+    [
+     "x",
+     "WIP",
+     "Summit"
+    ],
+    [
+     "x",
+     "AURA",
+     "Bind"
+    ],
+    [
+     "d",
+     "",
+     "Haven"
+    ]
+   ],
+   "bo": "3",
+   "smt": 1795728384261,
+   "et": 1795728385461
   },
   {
    "id": "793640",
@@ -3749,425 +4118,6 @@
     "PXL",
     "F9"
    ]
-  },
-  {
-   "id": "793635",
-   "a": "Eternal Fire",
-   "b": "Trigon Titans",
-   "sa": "2",
-   "sb": "0",
-   "ev": "VCT 2027: EMEA Kickoff - Türkiye Qualifier",
-   "ph": "Playoffs–Winner's (A)",
-   "ts": 1795703400000,
-   "url": "https://www.vlr.gg/793635/eternal-fire-vs-trigon-titans-vct-2027-emea-kickoff-t-rkiye-qualifier-playoffs-winners-a",
-   "mp": [
-    {
-     "n": "Sunset",
-     "a": 15,
-     "b": 13
-    },
-    {
-     "n": "Summit",
-     "a": 13,
-     "b": 5
-    }
-   ],
-   "sm": [
-    {
-     "n": "Sunset",
-     "a": 15,
-     "b": 13,
-     "pa": [
-      {
-       "n": "sociablEE",
-       "k": 23,
-       "d": 19,
-       "a": 14,
-       "ag": "omen"
-      },
-      {
-       "n": "Favian",
-       "k": 23,
-       "d": 22,
-       "a": 9,
-       "ag": "neon"
-      },
-      {
-       "n": "KROSTALY",
-       "k": 21,
-       "d": 17,
-       "a": 8,
-       "ag": "fade"
-      },
-      {
-       "n": "s0pp",
-       "k": 21,
-       "d": 23,
-       "a": 3,
-       "ag": "chamber"
-      },
-      {
-       "n": "echo",
-       "k": 19,
-       "d": 20,
-       "a": 9,
-       "ag": "sage"
-      }
-     ],
-     "pb": [
-      {
-       "n": "Anima",
-       "k": 24,
-       "d": 23,
-       "a": 6,
-       "ag": "neon"
-      },
-      {
-       "n": "Esconardo",
-       "k": 21,
-       "d": 21,
-       "a": 4,
-       "ag": "chamber"
-      },
-      {
-       "n": "exe",
-       "k": 20,
-       "d": 21,
-       "a": 9,
-       "ag": "sova"
-      },
-      {
-       "n": "Celasun",
-       "k": 18,
-       "d": 18,
-       "a": 12,
-       "ag": "sage"
-      },
-      {
-       "n": "sterben",
-       "k": 18,
-       "d": 24,
-       "a": 10,
-       "ag": "omen"
-      }
-     ],
-     "rd": [
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "b",
-       "d"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "a",
-       "b"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "a",
-       "d"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "d"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ]
-     ]
-    },
-    {
-     "n": "Summit",
-     "a": 13,
-     "b": 5,
-     "pa": [
-      {
-       "n": "KROSTALY",
-       "k": 19,
-       "d": 10,
-       "a": 9,
-       "ag": "fade"
-      },
-      {
-       "n": "echo",
-       "k": 17,
-       "d": 11,
-       "a": 5,
-       "ag": "sage"
-      },
-      {
-       "n": "s0pp",
-       "k": 17,
-       "d": 11,
-       "a": 3,
-       "ag": "chamber"
-      },
-      {
-       "n": "sociablEE",
-       "k": 13,
-       "d": 11,
-       "a": 17,
-       "ag": "harbor"
-      },
-      {
-       "n": "Favian",
-       "k": 11,
-       "d": 13,
-       "a": 3,
-       "ag": "waylay"
-      }
-     ],
-     "pb": [
-      {
-       "n": "Esconardo",
-       "k": 18,
-       "d": 14,
-       "a": 2,
-       "ag": "chamber"
-      },
-      {
-       "n": "Celasun",
-       "k": 15,
-       "d": 14,
-       "a": 3,
-       "ag": "sage"
-      },
-      {
-       "n": "exe",
-       "k": 12,
-       "d": 14,
-       "a": 7,
-       "ag": "fade"
-      },
-      {
-       "n": "Anima",
-       "k": 7,
-       "d": 16,
-       "a": 4,
-       "ag": "neon"
-      },
-      {
-       "n": "sterben",
-       "k": 4,
-       "d": 19,
-       "a": 7,
-       "ag": "omen"
-      }
-     ],
-     "rd": [
-      [
-       "a",
-       "d"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "d"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "a",
-       "d"
-      ],
-      [
-       "a",
-       "d"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ]
-     ]
-    }
-   ],
-   "vt": [
-    [
-     "x",
-     "EF",
-     "Abyss"
-    ],
-    [
-     "x",
-     "TRT",
-     "Lotus"
-    ],
-    [
-     "p",
-     "EF",
-     "Sunset"
-    ],
-    [
-     "p",
-     "TRT",
-     "Summit"
-    ],
-    [
-     "x",
-     "EF",
-     "Haven"
-    ],
-    [
-     "x",
-     "TRT",
-     "Bind"
-    ],
-    [
-     "d",
-     "",
-     "Corrode"
-    ]
-   ],
-   "h2h": {
-    "a": 1,
-    "b": 0
-   },
-   "bo": "3",
-   "smt": 1795710038636,
-   "et": 1795710039837,
-   "tg": [
-    "EF",
-    "TRT"
-   ]
   }
  ],
  "news": [
@@ -4220,8 +4170,6 @@
   "La Masia": "https://owcdn.net/img/67d238ec97f91.png",
   "Joblife": "https://owcdn.net/img/63a944e6cbe49.png",
   "Kryon Esports": "https://owcdn.net/img/6a82a3d1c3505.png",
-  "Eternal Fire": "https://owcdn.net/img/6628980dcdaea.png",
-  "Trigon Titans": "https://owcdn.net/img/6afa21f3b97d6.png",
   "UCAM Esports Club": "https://owcdn.net/img/5f7f77ef1e2f0.png",
   "Natus Vincere Junior": "https://owcdn.net/img/62a4109ddbd7f.png",
   "Barça eSports": "https://owcdn.net/img/65843488833d1.png",
@@ -4259,8 +4207,6 @@
   "La Masia": "#e7c05b",
   "Joblife": "",
   "Kryon Esports": "#f73034",
-  "Eternal Fire": "#988966",
-  "Trigon Titans": "",
   "UCAM Esports Club": "#e3aa09",
   "Natus Vincere Junior": "#ecdf00",
   "Barça eSports": "#d8ae03",
@@ -4687,6 +4633,15 @@
    "b": "GIANTX",
    "sa": "2",
    "sb": "0",
+   "ev": "VCT 2027: EMEA Kickoff - Europe Qualifier Playoffs",
+   "ts": 1795717800000
+  },
+  {
+   "id": "794460",
+   "a": "Aurora Gaming",
+   "b": "WIP Esports",
+   "sa": "1",
+   "sb": "2",
    "ev": "VCT 2027: EMEA Kickoff - Europe Qualifier Playoffs",
    "ts": 1795717800000
   },
