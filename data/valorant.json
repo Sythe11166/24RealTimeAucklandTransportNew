@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T19:50:34.345Z",
+ "updated": "2026-11-26T19:52:12.730Z",
  "live": [
   {
    "id": "794456",
@@ -20,7 +20,7 @@
     },
     {
      "n": "Lotus",
-     "a": 0,
+     "a": 1,
      "b": 2,
      "st": "l"
     },
@@ -131,6 +131,10 @@
     [
      "b",
      "e"
+    ],
+    [
+     "a",
+     "e"
     ]
    ],
    "rdm": "Lotus"
@@ -154,8 +158,8 @@
     },
     {
      "n": "Lotus",
-     "a": 0,
-     "b": 2,
+     "a": 1,
+     "b": 3,
      "st": "l"
     },
     {
@@ -261,6 +265,14 @@
     [
      "b",
      "e"
+    ],
+    [
+     "a",
+     "e"
+    ],
+    [
+     "b",
+     "d"
     ]
    ],
    "rdm": "Lotus"
@@ -357,22 +369,59 @@
    "url": "https://www.vlr.gg/794461/mandatory-vs-mir-vct-2027-emea-kickoff-europe-qualifier-playoffs-swiss-stage-r2-0-1",
    "mp": [
     {
-     "n": "TBD",
+     "n": "Corrode",
      "a": 0,
-     "b": 0,
+     "b": 1,
      "st": "l"
     },
     {
-     "n": "TBD",
+     "n": "Sunset",
      "st": "n"
     },
     {
-     "n": "TBD",
+     "n": "Abyss",
      "st": "n"
     }
    ],
    "evu": "/event/3233/vct-2027-emea-kickoff-europe-qualifier-playoffs/swiss-stage",
    "bo": "3",
+   "vt": [
+    [
+     "x",
+     "MDR",
+     "Split"
+    ],
+    [
+     "x",
+     "MIR",
+     "Bind"
+    ],
+    [
+     "p",
+     "MDR",
+     "Corrode"
+    ],
+    [
+     "p",
+     "MIR",
+     "Sunset"
+    ],
+    [
+     "x",
+     "MDR",
+     "Haven"
+    ],
+    [
+     "x",
+     "MIR",
+     "Lotus"
+    ],
+    [
+     "d",
+     "",
+     "Abyss"
+    ]
+   ],
    "h2h": {
     "a": 1,
     "b": 0
@@ -427,7 +476,14 @@
     "MDR",
     "MIR"
    ],
-   "nk": 1
+   "nk": 1,
+   "rd": [
+    [
+     "b",
+     "e"
+    ]
+   ],
+   "rdm": "Corrode"
   }
  ],
  "upcoming": [
