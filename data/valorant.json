@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T13:29:13.705Z",
+ "updated": "2026-11-26T13:30:49.935Z",
  "live": [
   {
    "id": "793805",
@@ -5425,14 +5425,14 @@
    "a": "Misa Esports",
    "b": "Fire Flux Esports",
    "ev": "VCT 2027: EMEA Kickoff - Türkiye Qualifier",
-   "ts": 1795962600000
+   "ts": 1795959000000
   },
   {
    "id": "793641",
    "a": "team apanthe",
    "b": "Beşiktaş Esports",
    "ev": "VCT 2027: EMEA Kickoff - Türkiye Qualifier",
-   "ts": 1795973400000
+   "ts": 1795969800000
   }
  ],
  "fr": [
