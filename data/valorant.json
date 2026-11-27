@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T11:00:09.497Z",
+ "updated": "2026-11-27T11:01:47.249Z",
  "live": [
   {
    "id": "793807",
@@ -4317,12 +4317,12 @@
      ]
     }
    ],
+   "bo": "3",
+   "smt": 1795777203375,
    "tg": [
     "NVJ",
     "BAR"
-   ],
-   "bo": "3",
-   "smt": 1795777203375
+   ]
   }
  ],
  "news": [
@@ -4856,21 +4856,21 @@
    "a": "SÓ TEM VELHO",
    "b": "Fluxo W7M",
    "ev": "VCT 2027: America Kickoff - Brazil Qualifier Playoffs",
-   "ts": 1795896000000
+   "ts": 1795892400000
   },
   {
    "id": "794180",
    "a": "LEONES",
    "b": "Contra",
    "ev": "VCT 2027: America Kickoff - LATAM North Qualifier Playoffs",
-   "ts": 1795903200000
+   "ts": 1795899600000
   },
   {
    "id": "794181",
    "a": "FUEGO",
    "b": "Chivas Esports",
    "ev": "VCT 2027: America Kickoff - LATAM North Qualifier Playoffs",
-   "ts": 1795914000000
+   "ts": 1795910400000
   },
   {
    "id": "793636",
@@ -4891,21 +4891,21 @@
    "a": "Next",
    "b": "ELEVATE",
    "ev": "VCT 2027: America Kickoff - Brazil Qualifier Playoffs",
-   "ts": 1795982400000
+   "ts": 1795978800000
   },
   {
    "id": "793735",
    "a": "Cloud9",
    "b": "QoR",
    "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ts": 1796162400000
+   "ts": 1796158800000
   },
   {
    "id": "793736",
    "a": "YFP",
    "b": "Oafs",
    "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ts": 1796162400000
+   "ts": 1796158800000
   }
  ],
  "fr": [
