@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T17:44:07.055Z",
+ "updated": "2026-11-27T17:45:48.525Z",
  "live": [
   {
    "id": "794998",
@@ -93,7 +93,7 @@
    "id": "794999",
    "a": "MIR",
    "b": "F9 EICAR",
-   "sa": "0",
+   "sa": "1",
    "sb": "1",
    "ev": "VCT 2027: EMEA Kickoff - Europe Qualifier Playoffs",
    "ph": "Swiss Stage–Round 3 (1-1)",
@@ -107,14 +107,16 @@
      "st": "d"
     },
     {
+     "n": "Sunset",
+     "a": 13,
+     "b": 5,
+     "st": "d"
+    },
+    {
      "n": "TBD",
      "a": 0,
      "b": 0,
      "st": "l"
-    },
-    {
-     "n": "TBD",
-     "st": "n"
     }
    ],
    "evu": "/event/3233/vct-2027-emea-kickoff-europe-qualifier-playoffs/swiss-stage",
@@ -191,7 +193,7 @@
     {
      "n": "Haven",
      "a": 5,
-     "b": 3,
+     "b": 4,
      "st": "l"
     },
     {
@@ -320,6 +322,10 @@
     ],
     [
      "a",
+     "e"
+    ],
+    [
+     "b",
      "e"
     ]
    ],
@@ -6079,5 +6085,5 @@
   }
  ],
  "rd": [],
- "rdt": 1795800309806
+ "rdt": 1795801548523
 }
