@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T23:59:09.119Z",
+ "updated": "2026-11-27T00:00:45.730Z",
  "live": [
   {
    "id": "794180",
@@ -306,7 +306,7 @@
    "sb": "–",
    "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
    "ph": "Playoffs –Upper Quarterfinals",
-   "ts": 1796162400000,
+   "ts": 1796158800000,
    "url": "https://www.vlr.gg/793735/cloud9-vs-qor-vct-2027-america-kickoff-north-america-qualifier-playoffs-ubqf"
   },
   {
@@ -317,7 +317,7 @@
    "sb": "–",
    "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
    "ph": "Playoffs –Upper Quarterfinals",
-   "ts": 1796162400000,
+   "ts": 1796158800000,
    "url": "https://www.vlr.gg/793736/yfp-vs-oafs-vct-2027-america-kickoff-north-america-qualifier-playoffs-ubqf"
   }
  ],
@@ -4805,14 +4805,14 @@
    "a": "Cloud9",
    "b": "QoR",
    "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ts": 1796162400000
+   "ts": 1796158800000
   },
   {
    "id": "793736",
    "a": "YFP",
    "b": "Oafs",
    "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ts": 1796162400000
+   "ts": 1796158800000
   },
   {
    "id": "793737",
