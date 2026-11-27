@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T19:30:58.646Z",
+ "updated": "2026-11-27T19:31:22.525Z",
  "live": [
   {
    "id": "795001",
@@ -87,7 +87,7 @@
    "id": "794997",
    "a": "GIANTX",
    "b": "WIP Esports",
-   "sa": "0",
+   "sa": "1",
    "sb": "0",
    "ev": "VCT 2027: EMEA Kickoff - Europe Qualifier Playoffs",
    "ph": "Swiss Stage–Round 3 (1-1)",
@@ -95,14 +95,16 @@
    "url": "https://www.vlr.gg/794997/giantx-vs-wip-esports-vct-2027-emea-kickoff-europe-qualifier-playoffs-swiss-stage-r3-1-1",
    "mp": [
     {
+     "n": "Bind",
+     "a": 13,
+     "b": 5,
+     "st": "d"
+    },
+    {
      "n": "TBD",
      "a": 0,
      "b": 0,
      "st": "l"
-    },
-    {
-     "n": "TBD",
-     "st": "n"
     },
     {
      "n": "TBD",
@@ -4602,7 +4604,7 @@
   {
    "t": "ONSIDE rebrands to ToBe, announces full roster",
    "d": "ONSIDE rebrands to ToBe, or not to be?",
-   "ts": 1795694400000,
+   "ts": 1795780800000,
    "url": "https://www.vlr.gg/794974/onside-rebrands-to-tobe-announces-full-roster"
   },
   {
