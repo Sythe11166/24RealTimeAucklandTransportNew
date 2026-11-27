@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T00:03:59.741Z",
+ "updated": "2026-11-27T00:07:11.726Z",
  "live": [
   {
    "id": "794180",
@@ -90,21 +90,23 @@
    "a": "Fluxo W7M",
    "b": "ELEVATE",
    "sa": "0",
-   "sb": "0",
+   "sb": "1",
    "ev": "VCT 2027: America Kickoff - Brazil Qualifier Playoffs",
    "ph": "Playoffs–Upper Quarterfinals",
    "ts": 1795734000000,
    "url": "https://www.vlr.gg/792043/fluxo-w7m-vs-elevate-vct-2027-america-kickoff-brazil-qualifier-playoffs-ubqf",
    "mp": [
     {
+     "n": "Lotus",
+     "a": 8,
+     "b": 13,
+     "st": "d"
+    },
+    {
      "n": "TBD",
      "a": 0,
      "b": 0,
      "st": "l"
-    },
-    {
-     "n": "TBD",
-     "st": "n"
     },
     {
      "n": "TBD",
