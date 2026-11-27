@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T21:05:41.017Z",
+ "updated": "2026-11-27T21:07:20.826Z",
  "live": [
   {
    "id": "794997",
@@ -268,7 +268,7 @@
     },
     {
      "n": "Corrode",
-     "a": 4,
+     "a": 5,
      "b": 4,
      "st": "l"
     },
@@ -403,6 +403,10 @@
     [
      "b",
      "e"
+    ],
+    [
+     "a",
+     "e"
     ]
    ],
    "rdm": "Corrode"
@@ -412,21 +416,23 @@
    "a": "Team Solid",
    "b": "BRASIL2002",
    "sa": "0",
-   "sb": "0",
+   "sb": "1",
    "ev": "VCT 2027: America Kickoff - Brazil Qualifier Playoffs",
    "ph": "Playoffs–Upper Quarterfinals",
    "ts": 1795809600000,
    "url": "https://www.vlr.gg/792044/team-solid-vs-brasil2002-vct-2027-america-kickoff-brazil-qualifier-playoffs-ubqf",
    "mp": [
     {
+     "n": "Haven",
+     "a": 11,
+     "b": 13,
+     "st": "d"
+    },
+    {
      "n": "TBD",
      "a": 0,
      "b": 0,
      "st": "l"
-    },
-    {
-     "n": "TBD",
-     "st": "n"
     },
     {
      "n": "TBD",
