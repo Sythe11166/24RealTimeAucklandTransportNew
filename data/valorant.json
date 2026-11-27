@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-27T17:40:46.590Z",
+ "updated": "2026-11-27T17:42:26.673Z",
  "live": [
   {
    "id": "794998",
    "a": "Enterprise Esports",
    "b": "CGN Esports",
    "sa": "1",
-   "sb": "0",
+   "sb": "1",
    "ev": "VCT 2027: EMEA Kickoff - Europe Qualifier Playoffs",
    "ph": "Swiss Stage–Round 3 (1-1)",
    "ts": 1795795200000,
@@ -19,14 +19,16 @@
      "st": "d"
     },
     {
+     "n": "Summit",
+     "a": 8,
+     "b": 13,
+     "st": "d"
+    },
+    {
      "n": "TBD",
      "a": 0,
      "b": 0,
      "st": "l"
-    },
-    {
-     "n": "TBD",
-     "st": "n"
     }
    ],
    "evu": "/event/3233/vct-2027-emea-kickoff-europe-qualifier-playoffs/swiss-stage",
@@ -188,7 +190,7 @@
     },
     {
      "n": "Haven",
-     "a": 4,
+     "a": 5,
      "b": 3,
      "st": "l"
     },
@@ -307,6 +309,10 @@
     [
      "a",
      "b"
+    ],
+    [
+     "a",
+     "e"
     ],
     [
      "a",
