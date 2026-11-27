@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T19:44:35.323Z",
+ "updated": "2026-11-27T19:46:15.531Z",
  "live": [
   {
    "id": "795001",
@@ -19,14 +19,16 @@
      "st": "d"
     },
     {
+     "n": "Haven",
+     "a": 5,
+     "b": 13,
+     "st": "d"
+    },
+    {
      "n": "TBD",
      "a": 0,
      "b": 0,
      "st": "l"
-    },
-    {
-     "n": "TBD",
-     "st": "n"
     }
    ],
    "evu": "/event/3233/vct-2027-emea-kickoff-europe-qualifier-playoffs/swiss-stage",
@@ -38,11 +40,11 @@
       "ag": ""
      },
      {
-      "n": "shawN",
+      "n": "moner",
       "ag": ""
      },
      {
-      "n": "moner",
+      "n": "ORI4K",
       "ag": ""
      },
      {
@@ -50,7 +52,7 @@
       "ag": ""
      },
      {
-      "n": "ORI4K",
+      "n": "shawN",
       "ag": ""
      }
     ],
@@ -60,19 +62,19 @@
       "ag": ""
      },
      {
-      "n": "nataNk",
-      "ag": ""
-     },
-     {
-      "n": "Chadi",
-      "ag": ""
-     },
-     {
       "n": "Kamisseq",
       "ag": ""
      },
      {
+      "n": "nataNk",
+      "ag": ""
+     },
+     {
       "n": "MOLSI",
+      "ag": ""
+     },
+     {
+      "n": "Chadi",
       "ag": ""
      }
     ]
@@ -480,6 +482,348 @@
   }
  ],
  "results": [
+  {
+   "id": "795001",
+   "a": "xXxMasterProMegaTeamxXx",
+   "b": "Pixel Lumina",
+   "sa": "0",
+   "sb": "2",
+   "ev": "VCT 2027: EMEA Kickoff - Europe Qualifier Playoffs",
+   "ph": "Swiss Stage–Round 3 (0-2)",
+   "ts": 1795804200000,
+   "url": "https://www.vlr.gg/795001/xxxmasterpromegateamxxx-vs-pixel-lumina-vct-2027-emea-kickoff-europe-qualifier-playoffs-swiss-stage-r3-0-2",
+   "mp": [
+    {
+     "n": "Lotus",
+     "a": 6,
+     "b": 13
+    },
+    {
+     "n": "Haven",
+     "a": 5,
+     "b": 13
+    }
+   ],
+   "sm": [
+    {
+     "n": "Lotus",
+     "a": 6,
+     "b": 13,
+     "pa": [
+      {
+       "n": "Michel",
+       "k": 15,
+       "d": 16,
+       "a": 2,
+       "ag": "neon"
+      },
+      {
+       "n": "adore",
+       "k": 14,
+       "d": 19,
+       "a": 4,
+       "ag": "raze"
+      },
+      {
+       "n": "moner",
+       "k": 10,
+       "d": 16,
+       "a": 5,
+       "ag": "cypher"
+      },
+      {
+       "n": "shawN",
+       "k": 10,
+       "d": 16,
+       "a": 7,
+       "ag": "omen"
+      },
+      {
+       "n": "ORI4K",
+       "k": 10,
+       "d": 17,
+       "a": 11,
+       "ag": "fade"
+      }
+     ],
+     "pb": [
+      {
+       "n": "Saiz",
+       "k": 22,
+       "d": 12,
+       "a": 3,
+       "ag": "cypher"
+      },
+      {
+       "n": "Chadi",
+       "k": 19,
+       "d": 12,
+       "a": 8,
+       "ag": "neon"
+      },
+      {
+       "n": "nataNk",
+       "k": 17,
+       "d": 10,
+       "a": 7,
+       "ag": "fade"
+      },
+      {
+       "n": "MOLSI",
+       "k": 13,
+       "d": 11,
+       "a": 10,
+       "ag": "omen"
+      },
+      {
+       "n": "Kamisseq",
+       "k": 13,
+       "d": 14,
+       "a": 9,
+       "ag": "yoru"
+      }
+     ],
+     "rd": [
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "b"
+      ],
+      [
+       "b",
+       "d"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "d"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "b",
+       "d"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ]
+     ]
+    },
+    {
+     "n": "Haven",
+     "a": 5,
+     "b": 13,
+     "pa": [
+      {
+       "n": "adore",
+       "k": 17,
+       "d": 13,
+       "a": 1,
+       "ag": "jett"
+      },
+      {
+       "n": "moner",
+       "k": 12,
+       "d": 14,
+       "a": 3,
+       "ag": "cypher"
+      },
+      {
+       "n": "ORI4K",
+       "k": 10,
+       "d": 13,
+       "a": 5,
+       "ag": "sova"
+      },
+      {
+       "n": "Michel",
+       "k": 8,
+       "d": 15,
+       "a": 0,
+       "ag": "phoenix"
+      },
+      {
+       "n": "shawN",
+       "k": 6,
+       "d": 16,
+       "a": 6,
+       "ag": "omen"
+      }
+     ],
+     "pb": [
+      {
+       "n": "Saiz",
+       "k": 20,
+       "d": 9,
+       "a": 6,
+       "ag": "cypher"
+      },
+      {
+       "n": "Kamisseq",
+       "k": 14,
+       "d": 9,
+       "a": 7,
+       "ag": "phoenix"
+      },
+      {
+       "n": "Chadi",
+       "k": 14,
+       "d": 16,
+       "a": 3,
+       "ag": "neon"
+      },
+      {
+       "n": "nataNk",
+       "k": 12,
+       "d": 10,
+       "a": 6,
+       "ag": "sova"
+      },
+      {
+       "n": "MOLSI",
+       "k": 10,
+       "d": 9,
+       "a": 6,
+       "ag": "omen"
+      }
+     ],
+     "rd": [
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "b"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "b",
+       "d"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "d"
+      ]
+     ]
+    }
+   ],
+   "tg": [
+    "MPMT",
+    "PXL"
+   ],
+   "bo": "3",
+   "smt": 1795808771121,
+   "et": 1795808772322
+  },
   {
    "id": "794998",
    "a": "Enterprise Esports",
@@ -4238,344 +4582,6 @@
     "SV",
     "NXT"
    ]
-  },
-  {
-   "id": "794457",
-   "a": "Joblife",
-   "b": "La Masia",
-   "sa": "2",
-   "sb": "0",
-   "ev": "VCT 2027: EMEA Kickoff - Europe Qualifier Playoffs",
-   "ph": "Swiss Stage–Round 2 (1-0)",
-   "ts": 1795722300000,
-   "url": "https://www.vlr.gg/794457/joblife-vs-la-masia-vct-2027-emea-kickoff-europe-qualifier-playoffs-swiss-stage-r2-1-0",
-   "mp": [
-    {
-     "n": "Sunset",
-     "a": 13,
-     "b": 4
-    },
-    {
-     "n": "Lotus",
-     "a": 13,
-     "b": 6
-    }
-   ],
-   "sm": [
-    {
-     "n": "Sunset",
-     "a": 13,
-     "b": 4,
-     "pa": [
-      {
-       "n": "al0rante",
-       "k": 17,
-       "d": 8,
-       "a": 7,
-       "ag": "omen"
-      },
-      {
-       "n": "westside",
-       "k": 15,
-       "d": 7,
-       "a": 1,
-       "ag": "chamber"
-      },
-      {
-       "n": "hoody",
-       "k": 15,
-       "d": 8,
-       "a": 6,
-       "ag": "sova"
-      },
-      {
-       "n": "WanZeru",
-       "k": 14,
-       "d": 12,
-       "a": 4,
-       "ag": "neon"
-      },
-      {
-       "n": "Sevire",
-       "k": 10,
-       "d": 10,
-       "a": 7,
-       "ag": "sage"
-      }
-     ],
-     "pb": [
-      {
-       "n": "lux9",
-       "k": 18,
-       "d": 15,
-       "a": 1,
-       "ag": "neon"
-      },
-      {
-       "n": "izana",
-       "k": 13,
-       "d": 13,
-       "a": 1,
-       "ag": "chamber"
-      },
-      {
-       "n": "askoo",
-       "k": 7,
-       "d": 15,
-       "a": 1,
-       "ag": "sova"
-      },
-      {
-       "n": "nayte",
-       "k": 4,
-       "d": 13,
-       "a": 6,
-       "ag": "omen"
-      },
-      {
-       "n": "soren",
-       "k": 3,
-       "d": 15,
-       "a": 5,
-       "ag": "sage"
-      }
-     ],
-     "rd": [
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "b",
-       "t"
-      ],
-      [
-       "a",
-       "b"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "b"
-      ],
-      [
-       "a",
-       "b"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "b"
-      ],
-      [
-       "a",
-       "d"
-      ]
-     ]
-    },
-    {
-     "n": "Lotus",
-     "a": 13,
-     "b": 6,
-     "pa": [
-      {
-       "n": "hoody",
-       "k": 29,
-       "d": 9,
-       "a": 4,
-       "ag": "fade"
-      },
-      {
-       "n": "al0rante",
-       "k": 18,
-       "d": 11,
-       "a": 3,
-       "ag": "viper"
-      },
-      {
-       "n": "Sevire",
-       "k": 10,
-       "d": 12,
-       "a": 4,
-       "ag": "omen"
-      },
-      {
-       "n": "westside",
-       "k": 8,
-       "d": 11,
-       "a": 4,
-       "ag": "chamber"
-      },
-      {
-       "n": "WanZeru",
-       "k": 5,
-       "d": 17,
-       "a": 8,
-       "ag": "raze"
-      }
-     ],
-     "pb": [
-      {
-       "n": "nayte",
-       "k": 18,
-       "d": 14,
-       "a": 7,
-       "ag": "omen"
-      },
-      {
-       "n": "izana",
-       "k": 14,
-       "d": 14,
-       "a": 3,
-       "ag": "chamber"
-      },
-      {
-       "n": "lux9",
-       "k": 13,
-       "d": 14,
-       "a": 1,
-       "ag": "raze"
-      },
-      {
-       "n": "soren",
-       "k": 8,
-       "d": 13,
-       "a": 4,
-       "ag": "viper"
-      },
-      {
-       "n": "askoo",
-       "k": 7,
-       "d": 15,
-       "a": 5,
-       "ag": "fade"
-      }
-     ],
-     "rd": [
-      [
-       "a",
-       "d"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "b"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "d"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "a",
-       "d"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "b"
-      ],
-      [
-       "a",
-       "e"
-      ]
-     ]
-    }
-   ],
-   "bo": "3",
-   "smt": 1795726453005,
-   "et": 1795726454205,
-   "tg": [
-    "JL",
-    "MSA"
-   ]
   }
  ],
  "news": [
@@ -5138,6 +5144,15 @@
  ],
  "fr": [
   {
+   "id": "795001",
+   "a": "xXxMasterProMegaTeamxXx",
+   "b": "Pixel Lumina",
+   "sa": "0",
+   "sb": "2",
+   "ev": "VCT 2027: EMEA Kickoff - Europe Qualifier Playoffs",
+   "ts": 1795804200000
+  },
+  {
    "id": "794998",
    "a": "Enterprise Esports",
    "b": "CGN Esports",
@@ -5576,15 +5591,6 @@
    "sa": "2",
    "sb": "0",
    "ev": "VCT 2027: America Kickoff - LATAM North Qualifier Playoffs",
-   "ts": 1795394700000
-  },
-  {
-   "id": "793335",
-   "a": "Maryville University",
-   "b": "QoR",
-   "sa": "0",
-   "sb": "2",
-   "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
    "ts": 1795394700000
   }
  ],
