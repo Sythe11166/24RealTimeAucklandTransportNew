@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T21:59:54.175Z",
+ "updated": "2026-11-27T22:01:35.576Z",
  "live": [
   {
    "id": "794841",
@@ -107,7 +107,7 @@
     {
      "n": "Haven",
      "a": 3,
-     "b": 5,
+     "b": 6,
      "st": "l"
     }
    ],
@@ -237,6 +237,10 @@
     [
      "b",
      "d"
+    ],
+    [
+     "b",
+     "e"
     ]
    ],
    "rdm": "Haven"
@@ -324,27 +328,93 @@
     "BRA2002"
    ],
    "nk": 1
-  }
- ],
- "upcoming": [
+  },
   {
    "id": "794842",
    "a": "University War",
    "b": "9z Globant",
-   "sa": "–",
-   "sb": "–",
+   "sa": "0",
+   "sb": "0",
    "ev": "VCT 2027: America Kickoff - LATAM South Qualifier Playoffs",
    "ph": "Playoffs–Upper Semifinals",
    "ts": 1795816800000,
    "url": "https://www.vlr.gg/794842/university-war-vs-9z-globant-vct-2027-america-kickoff-latam-south-qualifier-playoffs-ubsf",
+   "mp": [
+    {
+     "n": "TBD",
+     "a": 0,
+     "b": 0,
+     "st": "l"
+    },
+    {
+     "n": "TBD",
+     "st": "n"
+    },
+    {
+     "n": "TBD",
+     "st": "n"
+    }
+   ],
+   "evu": "/event/3185/vct-2027-america-kickoff-latam-south-qualifier-playoffs/playoffs",
+   "bo": "3",
    "h2h": {
     "a": 0,
     "b": 2
    },
-   "bo": "3",
-   "evu": "/event/3185/vct-2027-america-kickoff-latam-south-qualifier-playoffs/playoffs",
-   "fz": 1
-  },
+   "pl": {
+    "a": [
+     {
+      "n": "alca",
+      "ag": ""
+     },
+     {
+      "n": "Mathi",
+      "ag": ""
+     },
+     {
+      "n": "Mystizip",
+      "ag": ""
+     },
+     {
+      "n": "Lolo",
+      "ag": ""
+     },
+     {
+      "n": "mta",
+      "ag": ""
+     }
+    ],
+    "b": [
+     {
+      "n": "Kimbo",
+      "ag": ""
+     },
+     {
+      "n": "M1key",
+      "ag": ""
+     },
+     {
+      "n": "Siduzord",
+      "ag": ""
+     },
+     {
+      "n": "Dantedeu5",
+      "ag": ""
+     },
+     {
+      "n": "Tacolilla",
+      "ag": ""
+     }
+    ]
+   },
+   "tg": [
+    "UW",
+    "9ZG"
+   ],
+   "nk": 1
+  }
+ ],
+ "upcoming": [
   {
    "id": "792045",
    "a": "2Game Esports",
@@ -386,7 +456,14 @@
    "ev": "VCT 2027: Pacific Kickoff - South Asia Qualifier",
    "ph": "Playoffs–Lower Final",
    "ts": 1795858200000,
-   "url": "https://www.vlr.gg/793808/godlike-esports-vs-kryon-esports-vct-2027-pacific-kickoff-south-asia-qualifier-lbf"
+   "url": "https://www.vlr.gg/793808/godlike-esports-vs-kryon-esports-vct-2027-pacific-kickoff-south-asia-qualifier-lbf",
+   "h2h": {
+    "a": 0,
+    "b": 1
+   },
+   "bo": "3",
+   "evu": "/event/3206/vct-2027-pacific-kickoff-south-asia-qualifier/playoffs",
+   "fz": 1
   },
   {
    "id": "792046",
@@ -418,7 +495,7 @@
    "sb": "–",
    "ev": "VCT 2027: America Kickoff - LATAM North Qualifier Playoffs",
    "ph": "Playoffs–Upper Semifinals",
-   "ts": 1795914000000,
+   "ts": 1795910400000,
    "url": "https://www.vlr.gg/794181/fuego-vs-chivas-esports-vct-2027-america-kickoff-latam-north-qualifier-playoffs-ubsf"
   },
   {
@@ -451,7 +528,7 @@
    "sb": "–",
    "ev": "VCT 2027: America Kickoff - Brazil Qualifier Playoffs",
    "ph": "Playoffs–Upper Semifinals",
-   "ts": 1795982400000,
+   "ts": 1795978800000,
    "url": "https://www.vlr.gg/792048/next-vs-elevate-vct-2027-america-kickoff-brazil-qualifier-playoffs-ubsf"
   },
   {
@@ -462,7 +539,7 @@
    "sb": "–",
    "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
    "ph": "Playoffs –Upper Quarterfinals",
-   "ts": 1796162400000,
+   "ts": 1796158800000,
    "url": "https://www.vlr.gg/793735/cloud9-vs-qor-vct-2027-america-kickoff-north-america-qualifier-playoffs-ubqf"
   },
   {
@@ -473,8 +550,19 @@
    "sb": "–",
    "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
    "ph": "Playoffs –Upper Quarterfinals",
-   "ts": 1796162400000,
+   "ts": 1796158800000,
    "url": "https://www.vlr.gg/793736/yfp-vs-oafs-vct-2027-america-kickoff-north-america-qualifier-playoffs-ubqf"
+  },
+  {
+   "id": "793737",
+   "a": "ENVY",
+   "b": "Wildcard",
+   "sa": "–",
+   "sb": "–",
+   "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
+   "ph": "Playoffs –Upper Quarterfinals",
+   "ts": 1796169600000,
+   "url": "https://www.vlr.gg/793737/envy-vs-wildcard-vct-2027-america-kickoff-north-america-qualifier-playoffs-ubqf"
   }
  ],
  "results": [
@@ -4862,7 +4950,9 @@
   "FUEGO": "https://owcdn.net/img/678f90b7b65e5.png",
   "Chivas Esports": "https://owcdn.net/img/63ce2eedbe573.png",
   "Misa Esports": "https://owcdn.net/img/6887b1d2edd20.png",
-  "Fire Flux Esports": "https://owcdn.net/img/68e6e1bcca45d.png"
+  "Fire Flux Esports": "https://owcdn.net/img/68e6e1bcca45d.png",
+  "team apanthe": "https://owcdn.net/img/6b00a5a2e4ba4.png",
+  "Beşiktaş Esports": "https://owcdn.net/img/623de5ba6273f.png"
  },
  "colors": {
   "SIGN Esports": "#f36c21",
@@ -4895,7 +4985,9 @@
   "FUEGO": "#d95028",
   "Chivas Esports": "#cdaa3d",
   "Misa Esports": "",
-  "Fire Flux Esports": "#18d7f5"
+  "Fire Flux Esports": "#18d7f5",
+  "team apanthe": "",
+  "Beşiktaş Esports": "#e33331"
  },
  "agents": {
   "gekko": {
@@ -5238,13 +5330,6 @@
  },
  "fu": [
   {
-   "id": "794842",
-   "a": "University War",
-   "b": "9z Globant",
-   "ev": "VCT 2027: America Kickoff - LATAM South Qualifier Playoffs",
-   "ts": 1795816800000
-  },
-  {
    "id": "792045",
    "a": "2Game Esports",
    "b": "Mafiosos",
@@ -5284,7 +5369,7 @@
    "a": "FUEGO",
    "b": "Chivas Esports",
    "ev": "VCT 2027: America Kickoff - LATAM North Qualifier Playoffs",
-   "ts": 1795914000000
+   "ts": 1795910400000
   },
   {
    "id": "793636",
@@ -5305,21 +5390,21 @@
    "a": "Next",
    "b": "ELEVATE",
    "ev": "VCT 2027: America Kickoff - Brazil Qualifier Playoffs",
-   "ts": 1795982400000
+   "ts": 1795978800000
   },
   {
    "id": "793735",
    "a": "Cloud9",
    "b": "QoR",
    "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ts": 1796162400000
+   "ts": 1796158800000
   },
   {
    "id": "793736",
    "a": "YFP",
    "b": "Oafs",
    "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ts": 1796162400000
+   "ts": 1796158800000
   },
   {
    "id": "793737",
