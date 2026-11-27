@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T20:09:44.954Z",
+ "updated": "2026-11-27T20:11:23.827Z",
  "live": [
   {
    "id": "794997",
@@ -259,7 +259,7 @@
     {
      "n": "Abyss",
      "a": 1,
-     "b": 6,
+     "b": 7,
      "st": "l"
     },
     {
@@ -393,6 +393,10 @@
     [
      "a",
      "d"
+    ],
+    [
+     "b",
+     "e"
     ]
    ],
    "rdm": "Abyss"
@@ -4982,7 +4986,7 @@
   "u": "/event/3233/vct-2027-emea-kickoff-europe-qualifier-playoffs/swiss-stage",
   "rg": "EMEA",
   "ev": "VCT 2027: EMEA Kickoff - Europe Qualifier Playoffs",
-  "at": 1795809985316,
+  "at": 1795810282520,
   "r": [
    {
     "r": "Round 1 (0-0)",
