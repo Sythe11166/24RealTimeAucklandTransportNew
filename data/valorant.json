@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T11:03:24.068Z",
+ "updated": "2026-11-27T11:05:02.364Z",
  "live": [
   {
    "id": "793807",
@@ -4327,6 +4327,12 @@
  ],
  "news": [
   {
+   "t": "lukxo and erde leave LOUD as champions",
+   "d": "The two highest-rated players from Champions Shanghai depart LOUD.",
+   "ts": 1795780800000,
+   "url": "https://www.vlr.gg/795014/lukxo-and-erde-leave-loud-as-champions"
+  },
+  {
    "t": "Enterprise completes clean slate rebuild",
    "d": "A new-look Enterprise is set to take on 2027.",
    "ts": 1795780800000,
@@ -4355,12 +4361,6 @@
    "d": "The American IGL crosses the Atlantic to join FNATIC.",
    "ts": 1795694400000,
    "url": "https://www.vlr.gg/794813/fnatic-finds-its-igl-signs-valyn"
-  },
-  {
-   "t": "All Gamers introduces Jinggg and Spring",
-   "d": "All Gamers introduces two new additions ahead of 2027.",
-   "ts": 1795694400000,
-   "url": "https://www.vlr.gg/794801/all-gamers-introduces-jinggg-and-spring"
   }
  ],
  "logos": {
@@ -4549,7 +4549,7 @@
   "u": "/event/3233/vct-2027-emea-kickoff-europe-qualifier-playoffs/swiss-stage",
   "rg": "EMEA",
   "ev": "VCT 2027: EMEA Kickoff - Europe Qualifier Playoffs",
-  "at": 1795777206632,
+  "at": 1795777501027,
   "r": [
    {
     "r": "Round 1 (0-0)",
