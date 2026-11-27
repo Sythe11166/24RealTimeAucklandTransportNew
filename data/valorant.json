@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-27T10:33:36.811Z",
+ "updated": "2026-11-27T10:35:13.877Z",
  "live": [
   {
    "id": "793807",
    "a": "Kryon Esports",
    "b": "SIGN Esports",
-   "sa": "0",
+   "sa": "1",
    "sb": "0",
    "ev": "VCT 2027: Pacific Kickoff - South Asia Qualifier",
    "ph": "Playoffs–Lower Round 3",
@@ -14,13 +14,15 @@
    "mp": [
     {
      "n": "Corrode",
-     "a": 0,
-     "b": 0,
-     "st": "l"
+     "a": 15,
+     "b": 13,
+     "st": "d"
     },
     {
      "n": "Lotus",
-     "st": "n"
+     "a": 0,
+     "b": 0,
+     "st": "l"
     },
     {
      "n": "Haven",
