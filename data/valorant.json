@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T09:42:45.297Z",
+ "updated": "2026-11-27T09:45:56.851Z",
  "live": [
   {
    "id": "793807",
@@ -13,22 +13,59 @@
    "url": "https://www.vlr.gg/793807/kryon-esports-vs-sign-esports-vct-2027-pacific-kickoff-south-asia-qualifier-lr3",
    "mp": [
     {
-     "n": "TBD",
+     "n": "Corrode",
      "a": 0,
      "b": 0,
      "st": "l"
     },
     {
-     "n": "TBD",
+     "n": "Lotus",
      "st": "n"
     },
     {
-     "n": "TBD",
+     "n": "Haven",
      "st": "n"
     }
    ],
    "evu": "/event/3206/vct-2027-pacific-kickoff-south-asia-qualifier/playoffs",
    "bo": "3",
+   "vt": [
+    [
+     "x",
+     "SGN",
+     "Abyss"
+    ],
+    [
+     "x",
+     "KRN",
+     "Bind"
+    ],
+    [
+     "p",
+     "SGN",
+     "Corrode"
+    ],
+    [
+     "p",
+     "KRN",
+     "Lotus"
+    ],
+    [
+     "x",
+     "SGN",
+     "Summit"
+    ],
+    [
+     "x",
+     "KRN",
+     "Sunset"
+    ],
+    [
+     "d",
+     "",
+     "Haven"
+    ]
+   ],
    "h2h": {
     "a": 1,
     "b": 1
