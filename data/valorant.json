@@ -1,90 +1,6 @@
 {
- "updated": "2026-11-27T21:43:18.767Z",
+ "updated": "2026-11-27T21:44:58.864Z",
  "live": [
-  {
-   "id": "794996",
-   "a": "Barça eSports",
-   "b": "La Masia",
-   "sa": "1",
-   "sb": "1",
-   "ev": "VCT 2027: EMEA Kickoff - Europe Qualifier Playoffs",
-   "ph": "Swiss Stage–Round 3 (1-1)",
-   "ts": 1795805400000,
-   "url": "https://www.vlr.gg/794996/bar-a-esports-vs-la-masia-vct-2027-emea-kickoff-europe-qualifier-playoffs-swiss-stage-r3-1-1",
-   "mp": [
-    {
-     "n": "Bind",
-     "a": 14,
-     "b": 12,
-     "st": "d"
-    },
-    {
-     "n": "Lotus",
-     "a": 12,
-     "b": 14,
-     "st": "d"
-    },
-    {
-     "n": "Sunset",
-     "a": 13,
-     "b": 5,
-     "st": "d"
-    }
-   ],
-   "evu": "/event/3233/vct-2027-emea-kickoff-europe-qualifier-playoffs/swiss-stage",
-   "bo": "3",
-   "pl": {
-    "a": [
-     {
-      "n": "purp0",
-      "ag": ""
-     },
-     {
-      "n": "Proxh",
-      "ag": ""
-     },
-     {
-      "n": "MONSTEERR",
-      "ag": ""
-     },
-     {
-      "n": "Pa1ze",
-      "ag": ""
-     },
-     {
-      "n": "Fit1nho",
-      "ag": ""
-     }
-    ],
-    "b": [
-     {
-      "n": "izana",
-      "ag": ""
-     },
-     {
-      "n": "askoo",
-      "ag": ""
-     },
-     {
-      "n": "nayte",
-      "ag": ""
-     },
-     {
-      "n": "lux9",
-      "ag": ""
-     },
-     {
-      "n": "soren",
-      "ag": ""
-     }
-    ]
-   },
-   "tg": [
-    "BAR",
-    "MSA"
-   ],
-   "nk": 1
-  },
   {
    "id": "794841",
    "a": "EL LEGADO",
@@ -190,7 +106,7 @@
     },
     {
      "n": "Haven",
-     "a": 0,
+     "a": 1,
      "b": 0,
      "st": "l"
     }
@@ -288,13 +204,20 @@
     "JL",
     "NVJ"
    ],
-   "nk": 1
+   "nk": 1,
+   "rd": [
+    [
+     "a",
+     "e"
+    ]
+   ],
+   "rdm": "Haven"
   },
   {
    "id": "792044",
    "a": "Team Solid",
    "b": "BRASIL2002",
-   "sa": "0",
+   "sa": "1",
    "sb": "1",
    "ev": "VCT 2027: America Kickoff - Brazil Qualifier Playoffs",
    "ph": "Playoffs–Upper Quarterfinals",
@@ -308,14 +231,16 @@
      "st": "d"
     },
     {
+     "n": "Bind",
+     "a": 13,
+     "b": 2,
+     "st": "d"
+    },
+    {
      "n": "TBD",
      "a": 0,
      "b": 0,
      "st": "l"
-    },
-    {
-     "n": "TBD",
-     "st": "n"
     }
    ],
    "evu": "/event/3183/vct-2027-america-kickoff-brazil-qualifier-playoffs/playoffs",
@@ -1077,13 +1002,13 @@
      ]
     }
    ],
+   "bo": "3",
+   "smt": 1795815794092,
+   "et": 1795815795293,
    "tg": [
     "BAR",
     "MSA"
-   ],
-   "bo": "3",
-   "smt": 1795815794092,
-   "et": 1795815795293
+   ]
   },
   {
    "id": "794997",
