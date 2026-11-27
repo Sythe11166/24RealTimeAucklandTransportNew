@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T11:32:54.143Z",
+ "updated": "2026-11-27T11:36:05.866Z",
  "live": [
   {
    "id": "793807",
@@ -4327,6 +4327,12 @@
  ],
  "news": [
   {
+   "t": "Eintracht Frankfurt adds foe, bipo, Amcar, assistant coach Fields",
+   "d": "A six-man roster for Eintracht Frankfurt.",
+   "ts": 1795780800000,
+   "url": "https://www.vlr.gg/795017/eintracht-frankfurt-adds-foe-bipo-amcar-assistant-coach-fields"
+  },
+  {
    "t": "lukxo and erde leave LOUD as champions",
    "d": "The two highest-rated players from Champions Shanghai depart LOUD.",
    "ts": 1795780800000,
@@ -4355,12 +4361,6 @@
    "d": "A new roster ahead of the 2027 campaign for Fire Flux.",
    "ts": 1795694400000,
    "url": "https://www.vlr.gg/794930/fire-flux-unveils-new-look-roster-ahead-of-2027-season"
-  },
-  {
-   "t": "FNATIC finds its IGL, signs valyn",
-   "d": "The American IGL crosses the Atlantic to join FNATIC.",
-   "ts": 1795694400000,
-   "url": "https://www.vlr.gg/794813/fnatic-finds-its-igl-signs-valyn"
   }
  ],
  "logos": {
