@@ -1,91 +1,6 @@
 {
- "updated": "2026-11-27T22:53:46.629Z",
- "live": [
-  {
-   "id": "792044",
-   "a": "Team Solid",
-   "b": "BRASIL2002",
-   "sa": "1",
-   "sb": "1",
-   "ev": "VCT 2027: America Kickoff - Brazil Qualifier Playoffs",
-   "ph": "Playoffs–Upper Quarterfinals",
-   "ts": 1795809600000,
-   "url": "https://www.vlr.gg/792044/team-solid-vs-brasil2002-vct-2027-america-kickoff-brazil-qualifier-playoffs-ubqf",
-   "mp": [
-    {
-     "n": "Haven",
-     "a": 11,
-     "b": 13,
-     "st": "d"
-    },
-    {
-     "n": "Bind",
-     "a": 13,
-     "b": 2,
-     "st": "d"
-    },
-    {
-     "n": "TBD",
-     "a": 0,
-     "b": 0,
-     "st": "l"
-    }
-   ],
-   "evu": "/event/3183/vct-2027-america-kickoff-brazil-qualifier-playoffs/playoffs",
-   "bo": "3",
-   "pl": {
-    "a": [
-     {
-      "n": "havoc",
-      "ag": ""
-     },
-     {
-      "n": "liazzi",
-      "ag": ""
-     },
-     {
-      "n": "cauanzin",
-      "ag": ""
-     },
-     {
-      "n": "mwzera",
-      "ag": ""
-     },
-     {
-      "n": "Bruxo",
-      "ag": ""
-     }
-    ],
-    "b": [
-     {
-      "n": "pollo",
-      "ag": ""
-     },
-     {
-      "n": "pryze",
-      "ag": ""
-     },
-     {
-      "n": "silentzz",
-      "ag": ""
-     },
-     {
-      "n": "lz",
-      "ag": ""
-     },
-     {
-      "n": "chubizin",
-      "ag": ""
-     }
-    ]
-   },
-   "tg": [
-    "TSS",
-    "BRA2002"
-   ],
-   "nk": 1
-  }
- ],
+ "updated": "2026-11-27T22:55:24.104Z",
+ "live": [],
  "upcoming": [
   {
    "id": "792045",
@@ -263,6 +178,514 @@
    },
    "bo": "3",
    "smt": 1795819827905
+  },
+  {
+   "id": "792044",
+   "a": "Team Solid",
+   "b": "BRASIL2002",
+   "sa": "2",
+   "sb": "1",
+   "ev": "VCT 2027: America Kickoff - Brazil Qualifier Playoffs",
+   "ph": "Playoffs–Upper Quarterfinals",
+   "ts": 1795809600000,
+   "url": "https://www.vlr.gg/792044/team-solid-vs-brasil2002-vct-2027-america-kickoff-brazil-qualifier-playoffs-ubqf",
+   "mp": [
+    {
+     "n": "Haven",
+     "a": 11,
+     "b": 13
+    },
+    {
+     "n": "Bind",
+     "a": 13,
+     "b": 2
+    },
+    {
+     "n": "Summit",
+     "a": 13,
+     "b": 5
+    }
+   ],
+   "sm": [
+    {
+     "n": "Haven",
+     "a": 11,
+     "b": 13,
+     "pa": [
+      {
+       "n": "havoc",
+       "k": 28,
+       "d": 19,
+       "a": 6,
+       "ag": "neon"
+      },
+      {
+       "n": "liazzi",
+       "k": 19,
+       "d": 17,
+       "a": 12,
+       "ag": "omen"
+      },
+      {
+       "n": "mwzera",
+       "k": 18,
+       "d": 17,
+       "a": 3,
+       "ag": "chamber"
+      },
+      {
+       "n": "Bruxo",
+       "k": 13,
+       "d": 18,
+       "a": 10,
+       "ag": "phoenix"
+      },
+      {
+       "n": "cauanzin",
+       "k": 10,
+       "d": 16,
+       "a": 7,
+       "ag": "sova"
+      }
+     ],
+     "pb": [
+      {
+       "n": "pollo",
+       "k": 21,
+       "d": 13,
+       "a": 8,
+       "ag": "chamber"
+      },
+      {
+       "n": "pryze",
+       "k": 20,
+       "d": 16,
+       "a": 11,
+       "ag": "sova"
+      },
+      {
+       "n": "chubizin",
+       "k": 20,
+       "d": 18,
+       "a": 11,
+       "ag": "phoenix"
+      },
+      {
+       "n": "lz",
+       "k": 13,
+       "d": 19,
+       "a": 9,
+       "ag": "omen"
+      },
+      {
+       "n": "silentzz",
+       "k": 13,
+       "d": 22,
+       "a": 4,
+       "ag": "neon"
+      }
+     ],
+     "rd": [
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "t"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "a",
+       "d"
+      ],
+      [
+       "b",
+       "b"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "b"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "b"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "b"
+      ],
+      [
+       "b",
+       "d"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "b",
+       "d"
+      ],
+      [
+       "b",
+       "e"
+      ]
+     ]
+    },
+    {
+     "n": "Bind",
+     "a": 13,
+     "b": 2,
+     "pa": [
+      {
+       "n": "cauanzin",
+       "k": 19,
+       "d": 5,
+       "a": 7,
+       "ag": "skye"
+      },
+      {
+       "n": "Bruxo",
+       "k": 15,
+       "d": 11,
+       "a": 4,
+       "ag": "raze"
+      },
+      {
+       "n": "liazzi",
+       "k": 12,
+       "d": 5,
+       "a": 12,
+       "ag": "brimstone"
+      },
+      {
+       "n": "mwzera",
+       "k": 10,
+       "d": 6,
+       "a": 0,
+       "ag": "viper"
+      },
+      {
+       "n": "havoc",
+       "k": 9,
+       "d": 7,
+       "a": 3,
+       "ag": "neon"
+      }
+     ],
+     "pb": [
+      {
+       "n": "silentzz",
+       "k": 11,
+       "d": 14,
+       "a": 1,
+       "ag": "waylay"
+      },
+      {
+       "n": "lz",
+       "k": 6,
+       "d": 13,
+       "a": 0,
+       "ag": "brimstone"
+      },
+      {
+       "n": "chubizin",
+       "k": 6,
+       "d": 13,
+       "a": 4,
+       "ag": "deadlock"
+      },
+      {
+       "n": "pollo",
+       "k": 6,
+       "d": 13,
+       "a": 4,
+       "ag": "viper"
+      },
+      {
+       "n": "pryze",
+       "k": 5,
+       "d": 12,
+       "a": 3,
+       "ag": "skye"
+      }
+     ],
+     "rd": [
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "b"
+      ],
+      [
+       "a",
+       "b"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "b",
+       "t"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "b",
+       "d"
+      ],
+      [
+       "a",
+       "b"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "d"
+      ],
+      [
+       "a",
+       "e"
+      ]
+     ]
+    },
+    {
+     "n": "Summit",
+     "a": 13,
+     "b": 5,
+     "pa": [
+      {
+       "n": "havoc",
+       "k": 23,
+       "d": 13,
+       "a": 3,
+       "ag": "neon"
+      },
+      {
+       "n": "Bruxo",
+       "k": 16,
+       "d": 12,
+       "a": 15,
+       "ag": "sage"
+      },
+      {
+       "n": "liazzi",
+       "k": 15,
+       "d": 12,
+       "a": 11,
+       "ag": "omen"
+      },
+      {
+       "n": "mwzera",
+       "k": 12,
+       "d": 6,
+       "a": 1,
+       "ag": "chamber"
+      },
+      {
+       "n": "cauanzin",
+       "k": 9,
+       "d": 11,
+       "a": 9,
+       "ag": "fade"
+      }
+     ],
+     "pb": [
+      {
+       "n": "pollo",
+       "k": 19,
+       "d": 14,
+       "a": 1,
+       "ag": "chamber"
+      },
+      {
+       "n": "silentzz",
+       "k": 11,
+       "d": 17,
+       "a": 1,
+       "ag": "neon"
+      },
+      {
+       "n": "chubizin",
+       "k": 9,
+       "d": 14,
+       "a": 7,
+       "ag": "sage"
+      },
+      {
+       "n": "lz",
+       "k": 8,
+       "d": 15,
+       "a": 10,
+       "ag": "omen"
+      },
+      {
+       "n": "pryze",
+       "k": 7,
+       "d": 15,
+       "a": 10,
+       "ag": "fade"
+      }
+     ],
+     "rd": [
+      [
+       "a",
+       "d"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "a",
+       "d"
+      ],
+      [
+       "b",
+       "b"
+      ],
+      [
+       "a",
+       "d"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "t"
+      ],
+      [
+       "a",
+       "d"
+      ],
+      [
+       "a",
+       "d"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "b"
+      ],
+      [
+       "b",
+       "d"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ]
+     ]
+    }
+   ],
+   "tg": [
+    "TSS",
+    "BRA2002"
+   ],
+   "bo": "3",
+   "smt": 1795820120454,
+   "et": 1795820121655
   },
   {
    "id": "795002",
@@ -3935,338 +4358,15 @@
     "AURA",
     "MDR"
    ]
-  },
-  {
-   "id": "795003",
-   "a": "Eintracht Frankfurt",
-   "b": "UCAM Esports Club",
-   "sa": "2",
-   "sb": "0",
-   "ev": "VCT 2027: EMEA Kickoff - Europe Qualifier Playoffs",
-   "ph": "Swiss Stage–Round 3 (2-0)",
-   "ts": 1795795200000,
-   "url": "https://www.vlr.gg/795003/eintracht-frankfurt-vs-ucam-esports-club-vct-2027-emea-kickoff-europe-qualifier-playoffs-swiss-stage-r3-2-0",
-   "mp": [
-    {
-     "n": "Sunset",
-     "a": 13,
-     "b": 4
-    },
-    {
-     "n": "Abyss",
-     "a": 13,
-     "b": 3
-    }
-   ],
-   "sm": [
-    {
-     "n": "Sunset",
-     "a": 13,
-     "b": 4,
-     "pa": [
-      {
-       "n": "Fizzy",
-       "k": 24,
-       "d": 11,
-       "a": 9,
-       "ag": "omen"
-      },
-      {
-       "n": "azury",
-       "k": 20,
-       "d": 6,
-       "a": 4,
-       "ag": "sage"
-      },
-      {
-       "n": "foe",
-       "k": 15,
-       "d": 10,
-       "a": 2,
-       "ag": "chamber"
-      },
-      {
-       "n": "bipo",
-       "k": 11,
-       "d": 11,
-       "a": 6,
-       "ag": "neon"
-      },
-      {
-       "n": "musashi",
-       "k": 3,
-       "d": 10,
-       "a": 7,
-       "ag": "sova"
-      }
-     ],
-     "pb": [
-      {
-       "n": "Filu",
-       "k": 12,
-       "d": 14,
-       "a": 1,
-       "ag": "chamber"
-      },
-      {
-       "n": "Buld",
-       "k": 10,
-       "d": 14,
-       "a": 3,
-       "ag": "omen"
-      },
-      {
-       "n": "Flickless",
-       "k": 10,
-       "d": 15,
-       "a": 4,
-       "ag": "sova"
-      },
-      {
-       "n": "waddle",
-       "k": 10,
-       "d": 15,
-       "a": 1,
-       "ag": "hush"
-      },
-      {
-       "n": "kamyk",
-       "k": 6,
-       "d": 15,
-       "a": 3,
-       "ag": "sage"
-      }
-     ],
-     "rd": [
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "b",
-       "t"
-      ],
-      [
-       "b",
-       "d"
-      ],
-      [
-       "a",
-       "b"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "a",
-       "d"
-      ],
-      [
-       "a",
-       "e"
-      ]
-     ]
-    },
-    {
-     "n": "Abyss",
-     "a": 13,
-     "b": 3,
-     "pa": [
-      {
-       "n": "bipo",
-       "k": 31,
-       "d": 4,
-       "a": 6,
-       "ag": "hush"
-      },
-      {
-       "n": "foe",
-       "k": 18,
-       "d": 10,
-       "a": 10,
-       "ag": "waylay"
-      },
-      {
-       "n": "musashi",
-       "k": 11,
-       "d": 5,
-       "a": 3,
-       "ag": "sova"
-      },
-      {
-       "n": "azury",
-       "k": 7,
-       "d": 4,
-       "a": 7,
-       "ag": "astra"
-      },
-      {
-       "n": "Fizzy",
-       "k": 4,
-       "d": 5,
-       "a": 9,
-       "ag": "harbor"
-      }
-     ],
-     "pb": [
-      {
-       "n": "waddle",
-       "k": 12,
-       "d": 14,
-       "a": 2,
-       "ag": "waylay"
-      },
-      {
-       "n": "Filu",
-       "k": 7,
-       "d": 15,
-       "a": 4,
-       "ag": "yoru"
-      },
-      {
-       "n": "kamyk",
-       "k": 6,
-       "d": 13,
-       "a": 2,
-       "ag": "astra"
-      },
-      {
-       "n": "Buld",
-       "k": 3,
-       "d": 15,
-       "a": 6,
-       "ag": "harbor"
-      },
-      {
-       "n": "Flickless",
-       "k": 0,
-       "d": 14,
-       "a": 2,
-       "ag": "sova"
-      }
-     ],
-     "rd": [
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "d"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "b"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "d"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "d"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ]
-     ]
-    }
-   ],
-   "h2h": {
-    "a": 1,
-    "b": 1
-   },
-   "bo": "3",
-   "smt": 1795819406141,
-   "tg": [
-    "SGE",
-    "UCAM"
-   ]
   }
  ],
  "news": [
+  {
+   "t": "FNATIC completes its rebuild by signing Minny",
+   "d": "Minny and marteen reunite on FNATIC.",
+   "ts": 1795780800000,
+   "url": "https://www.vlr.gg/795374/fnatic-completes-its-rebuild-by-signing-minny"
+  },
   {
    "t": "GAM Esports kicks off Valorant venture by signing crazyguy",
    "d": "crazyguy signs with his hometown organization GAM Esports.",
@@ -4296,12 +4396,6 @@
    "d": "Two come in, two come out for BBL.",
    "ts": 1795780800000,
    "url": "https://www.vlr.gg/795006/bbl-esports-adds-oroni-comeback-in-offseason-rebuild"
-  },
-  {
-   "t": "ONSIDE rebrands to ToBe, announces full roster",
-   "d": "ONSIDE rebrands to ToBe, or not to be?",
-   "ts": 1795694400000,
-   "url": "https://www.vlr.gg/794974/onside-rebrands-to-tobe-announces-full-roster"
   }
  ],
  "logos": {
@@ -4338,9 +4432,7 @@
   "Misa Esports": "https://owcdn.net/img/6887b1d2edd20.png",
   "Fire Flux Esports": "https://owcdn.net/img/68e6e1bcca45d.png",
   "team apanthe": "https://owcdn.net/img/6b00a5a2e4ba4.png",
-  "Beşiktaş Esports": "https://owcdn.net/img/623de5ba6273f.png",
-  "Eintracht Frankfurt": "https://owcdn.net/img/659d1013d5cf5.png",
-  "UCAM Esports Club": "https://owcdn.net/img/5f7f77ef1e2f0.png"
+  "Beşiktaş Esports": "https://owcdn.net/img/623de5ba6273f.png"
  },
  "colors": {
   "MIR": "",
@@ -4371,9 +4463,7 @@
   "Misa Esports": "",
   "Fire Flux Esports": "#18d7f5",
   "team apanthe": "",
-  "Beşiktaş Esports": "#e33331",
-  "Eintracht Frankfurt": "#e3232a",
-  "UCAM Esports Club": "#e3aa09"
+  "Beşiktaş Esports": "#e33331"
  },
  "agents": {
   "gekko": {
@@ -4823,6 +4913,15 @@
  ],
  "fr": [
   {
+   "id": "792044",
+   "a": "Team Solid",
+   "b": "BRASIL2002",
+   "sa": "2",
+   "sb": "1",
+   "ev": "VCT 2027: America Kickoff - Brazil Qualifier Playoffs",
+   "ts": 1795809600000
+  },
+  {
    "id": "795002",
    "a": "Joblife",
    "b": "Natus Vincere Junior",
@@ -5225,7 +5324,7 @@
    "sa": "0",
    "sb": "2",
    "ev": "VCT 2027: EMEA Kickoff - Türkiye Qualifier",
-   "ts": 1795542900000
+   "ts": 1795539300000
   },
   {
    "id": "793633",
@@ -5262,15 +5361,6 @@
    "sb": "0",
    "ev": "VCT 2027: America Kickoff - LATAM South Qualifier Playoffs",
    "ts": 1795470900000
-  },
-  {
-   "id": "793563",
-   "a": "University War",
-   "b": "ARG.MIX",
-   "sa": "2",
-   "sb": "1",
-   "ev": "VCT 2027: America Kickoff - LATAM South Qualifier Playoffs",
-   "ts": 1795463700000
   }
  ],
  "rd": [],
