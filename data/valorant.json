@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T05:40:19.856Z",
+ "updated": "2026-11-27T05:40:40.267Z",
  "live": [],
  "upcoming": [
   {
@@ -4207,6 +4207,12 @@
  ],
  "news": [
   {
+   "t": "ONSIDE rebrands to ToBe, announces full roster",
+   "d": "ONSIDE rebrands to ToBe, or not to be?",
+   "ts": 1795694400000,
+   "url": "https://www.vlr.gg/794974/onside-rebrands-to-tobe-announces-full-roster"
+  },
+  {
    "t": "Fire Flux unveils new-look roster ahead of 2027 season",
    "d": "A new roster ahead of the 2027 campaign for Fire Flux.",
    "ts": 1795694400000,
@@ -4235,12 +4241,6 @@
    "d": "marteen lands with FNATIC for 2027.",
    "ts": 1795608000000,
    "url": "https://www.vlr.gg/794374/fnatic-begins-new-era-with-marteen"
-  },
-  {
-   "t": "Rex Regum Qeon and crazyguy part ways",
-   "d": "crazyguy and RRQ go separate ways.",
-   "ts": 1795608000000,
-   "url": "https://www.vlr.gg/794344/rex-regum-qeon-and-crazyguy-part-ways"
   }
  ],
  "logos": {
