@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T17:25:09.808Z",
+ "updated": "2026-11-27T17:26:51.735Z",
  "live": [
   {
    "id": "794998",
@@ -189,7 +189,7 @@
     {
      "n": "Haven",
      "a": 0,
-     "b": 0,
+     "b": 1,
      "st": "l"
     },
     {
@@ -240,45 +240,45 @@
     "a": [
      {
       "n": "B1SK",
-      "ag": ""
+      "ag": "neon"
      },
      {
       "n": "trexx",
-      "ag": ""
+      "ag": "sova"
      },
      {
       "n": "Derke",
-      "ag": ""
+      "ag": "jett"
      },
      {
       "n": "Boo",
-      "ag": ""
+      "ag": "omen"
      },
      {
       "n": "chiwa",
-      "ag": ""
+      "ag": "cypher"
      }
     ],
     "b": [
      {
       "n": "MiniBoo",
-      "ag": ""
+      "ag": "jett"
      },
      {
       "n": "runneR",
-      "ag": ""
+      "ag": "cypher"
      },
      {
       "n": "Veqaj",
-      "ag": ""
+      "ag": "neon"
      },
      {
       "n": "starxo",
-      "ag": ""
+      "ag": "sova"
      },
      {
       "n": "Kicks",
-      "ag": ""
+      "ag": "omen"
      }
     ]
    },
@@ -286,7 +286,14 @@
     "AURA",
     "MDR"
    ],
-   "nk": 1
+   "nk": 1,
+   "rd": [
+    [
+     "b",
+     "e"
+    ]
+   ],
+   "rdm": "Haven"
   }
  ],
  "upcoming": [
@@ -4441,7 +4448,7 @@
   "u": "/event/3206/vct-2027-pacific-kickoff-south-asia-qualifier/playoffs",
   "rg": "Pacific",
   "ev": "VCT 2027: Pacific Kickoff - South Asia Qualifier",
-  "at": 1795800104277,
+  "at": 1795800410361,
   "r": [
    {
     "r": "Round 1",
