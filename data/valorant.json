@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T19:33:02.280Z",
+ "updated": "2026-11-27T19:34:42.147Z",
  "live": [
   {
    "id": "795001",
@@ -4817,7 +4817,7 @@
   "u": "/event/3233/vct-2027-emea-kickoff-europe-qualifier-playoffs/swiss-stage",
   "rg": "EMEA",
   "ev": "VCT 2027: EMEA Kickoff - Europe Qualifier Playoffs",
-  "at": 1795807755337,
+  "at": 1795808080862,
   "r": [
    {
     "r": "Round 1 (0-0)",
@@ -4966,7 +4966,7 @@
      [
       "GIANTX",
       "WIP Esports",
-      0,
+      1,
       0,
       "l"
      ],
