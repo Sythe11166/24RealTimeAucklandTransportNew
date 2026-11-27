@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T17:31:55.522Z",
+ "updated": "2026-11-27T17:33:36.139Z",
  "live": [
   {
    "id": "794998",
@@ -189,7 +189,7 @@
     {
      "n": "Haven",
      "a": 1,
-     "b": 2,
+     "b": 3,
      "st": "l"
     },
     {
@@ -294,11 +294,15 @@
     ],
     [
      "b",
-     "e"
+     "d"
     ],
     [
      "a",
-     "e"
+     "b"
+    ],
+    [
+     "b",
+     "d"
     ]
    ],
    "rdm": "Haven"
@@ -432,7 +436,7 @@
    "sb": "–",
    "ev": "VCT 2027: America Kickoff - Brazil Qualifier Playoffs",
    "ph": "Playoffs–Lower Round 1",
-   "ts": 1795894200000,
+   "ts": 1795894500000,
    "url": "https://www.vlr.gg/792046/s-tem-velho-vs-fluxo-w7m-vct-2027-america-kickoff-brazil-qualifier-playoffs-lr1"
   },
   {
@@ -443,7 +447,7 @@
    "sb": "–",
    "ev": "VCT 2027: America Kickoff - LATAM North Qualifier Playoffs",
    "ph": "Playoffs–Upper Semifinals",
-   "ts": 1795901400000,
+   "ts": 1795901700000,
    "url": "https://www.vlr.gg/794180/leones-vs-contra-vct-2027-america-kickoff-latam-north-qualifier-playoffs-ubsf"
   }
  ],
@@ -5538,70 +5542,70 @@
    "a": "SÓ TEM VELHO",
    "b": "Fluxo W7M",
    "ev": "VCT 2027: America Kickoff - Brazil Qualifier Playoffs",
-   "ts": 1795894200000
+   "ts": 1795894500000
   },
   {
    "id": "794180",
    "a": "LEONES",
    "b": "Contra",
    "ev": "VCT 2027: America Kickoff - LATAM North Qualifier Playoffs",
-   "ts": 1795901400000
+   "ts": 1795901700000
   },
   {
    "id": "794181",
    "a": "FUEGO",
    "b": "Chivas Esports",
    "ev": "VCT 2027: America Kickoff - LATAM North Qualifier Playoffs",
-   "ts": 1795912200000
+   "ts": 1795912500000
   },
   {
    "id": "793636",
    "a": "Misa Esports",
    "b": "Fire Flux Esports",
    "ev": "VCT 2027: EMEA Kickoff - Türkiye Qualifier",
-   "ts": 1795959000000
+   "ts": 1795959300000
   },
   {
    "id": "793641",
    "a": "team apanthe",
    "b": "Beşiktaş Esports",
    "ev": "VCT 2027: EMEA Kickoff - Türkiye Qualifier",
-   "ts": 1795969800000
+   "ts": 1795970100000
   },
   {
    "id": "792048",
    "a": "Next",
    "b": "ELEVATE",
    "ev": "VCT 2027: America Kickoff - Brazil Qualifier Playoffs",
-   "ts": 1795980600000
+   "ts": 1795980900000
   },
   {
    "id": "793735",
    "a": "Cloud9",
    "b": "QoR",
    "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ts": 1796160600000
+   "ts": 1796160900000
   },
   {
    "id": "793736",
    "a": "YFP",
    "b": "Oafs",
    "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ts": 1796160600000
+   "ts": 1796160900000
   },
   {
    "id": "793737",
    "a": "ENVY",
    "b": "Wildcard",
    "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ts": 1796167800000
+   "ts": 1796168100000
   },
   {
    "id": "793738",
    "a": "Shopify Rebellion Black",
    "b": "counterfeit",
    "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ts": 1796167800000
+   "ts": 1796168100000
   }
  ],
  "fr": [
@@ -5693,7 +5697,7 @@
    "sa": "0",
    "sb": "2",
    "ev": "VCT 2027: EMEA Kickoff - Türkiye Qualifier",
-   "ts": 1795714200000
+   "ts": 1795714500000
   },
   {
    "id": "794454",
@@ -5702,7 +5706,7 @@
    "sa": "1",
    "sb": "2",
    "ev": "VCT 2027: EMEA Kickoff - Europe Qualifier Playoffs",
-   "ts": 1795710600000
+   "ts": 1795710900000
   },
   {
    "id": "794455",
@@ -5711,7 +5715,7 @@
    "sa": "2",
    "sb": "1",
    "ev": "VCT 2027: EMEA Kickoff - Europe Qualifier Playoffs",
-   "ts": 1795710600000
+   "ts": 1795710900000
   },
   {
    "id": "794458",
@@ -5720,7 +5724,7 @@
    "sa": "2",
    "sb": "0",
    "ev": "VCT 2027: EMEA Kickoff - Europe Qualifier Playoffs",
-   "ts": 1795710600000
+   "ts": 1795710900000
   },
   {
    "id": "794459",
@@ -5729,7 +5733,7 @@
    "sa": "0",
    "sb": "2",
    "ev": "VCT 2027: EMEA Kickoff - Europe Qualifier Playoffs",
-   "ts": 1795710600000
+   "ts": 1795710900000
   },
   {
    "id": "793635",
@@ -5738,7 +5742,7 @@
    "sa": "2",
    "sb": "0",
    "ev": "VCT 2027: EMEA Kickoff - Türkiye Qualifier",
-   "ts": 1795703400000
+   "ts": 1795703700000
   },
   {
    "id": "793805",
@@ -5747,7 +5751,7 @@
    "sa": "2",
    "sb": "0",
    "ev": "VCT 2027: Pacific Kickoff - South Asia Qualifier",
-   "ts": 1795696200000
+   "ts": 1795696500000
   },
   {
    "id": "793806",
@@ -5756,7 +5760,7 @@
    "sa": "2",
    "sb": "0",
    "ev": "VCT 2027: Pacific Kickoff - South Asia Qualifier",
-   "ts": 1795685400000
+   "ts": 1795685700000
   },
   {
    "id": "790436",
@@ -5765,7 +5769,7 @@
    "sa": "0",
    "sb": "2",
    "ev": "VCT 2027: Pacific Kickoff - Oceania Qualifier",
-   "ts": 1795681800000
+   "ts": 1795682100000
   },
   {
    "id": "793800",
@@ -5774,7 +5778,7 @@
    "sa": "2",
    "sb": "0",
    "ev": "VCT 2027: Pacific Kickoff - South Asia Qualifier",
-   "ts": 1795674600000
+   "ts": 1795674900000
   },
   {
    "id": "793992",
@@ -5783,7 +5787,7 @@
    "sa": "2",
    "sb": "0",
    "ev": "VCT 2027: America Kickoff - LATAM South Qualifier Playoffs",
-   "ts": 1795645800000
+   "ts": 1795646100000
   },
   {
    "id": "793991",
@@ -5792,7 +5796,7 @@
    "sa": "2",
    "sb": "0",
    "ev": "VCT 2027: America Kickoff - LATAM South Qualifier Playoffs",
-   "ts": 1795635000000
+   "ts": 1795635300000
   },
   {
    "id": "794020",
@@ -5801,7 +5805,7 @@
    "sa": "2",
    "sb": "1",
    "ev": "VCT 2027: EMEA Kickoff - Europe Qualifier Playoffs",
-   "ts": 1795631400000
+   "ts": 1795631700000
   },
   {
    "id": "794021",
@@ -5810,7 +5814,7 @@
    "sa": "2",
    "sb": "0",
    "ev": "VCT 2027: EMEA Kickoff - Europe Qualifier Playoffs",
-   "ts": 1795631400000
+   "ts": 1795631700000
   },
   {
    "id": "794022",
@@ -5819,7 +5823,7 @@
    "sa": "1",
    "sb": "2",
    "ev": "VCT 2027: EMEA Kickoff - Europe Qualifier Playoffs",
-   "ts": 1795631400000
+   "ts": 1795631700000
   },
   {
    "id": "794023",
@@ -5828,7 +5832,7 @@
    "sa": "2",
    "sb": "0",
    "ev": "VCT 2027: EMEA Kickoff - Europe Qualifier Playoffs",
-   "ts": 1795631400000
+   "ts": 1795631700000
   },
   {
    "id": "793639",
@@ -5837,7 +5841,7 @@
    "sa": "1",
    "sb": "2",
    "ev": "VCT 2027: EMEA Kickoff - Türkiye Qualifier",
-   "ts": 1795624200000
+   "ts": 1795624500000
   },
   {
    "id": "794016",
@@ -5846,7 +5850,7 @@
    "sa": "2",
    "sb": "1",
    "ev": "VCT 2027: EMEA Kickoff - Europe Qualifier Playoffs",
-   "ts": 1795624200000
+   "ts": 1795624500000
   },
   {
    "id": "794017",
@@ -5855,7 +5859,7 @@
    "sa": "2",
    "sb": "1",
    "ev": "VCT 2027: EMEA Kickoff - Europe Qualifier Playoffs",
-   "ts": 1795624200000
+   "ts": 1795624500000
   },
   {
    "id": "794018",
@@ -5864,7 +5868,7 @@
    "sa": "0",
    "sb": "2",
    "ev": "VCT 2027: EMEA Kickoff - Europe Qualifier Playoffs",
-   "ts": 1795624200000
+   "ts": 1795624500000
   },
   {
    "id": "794019",
@@ -5873,7 +5877,7 @@
    "sa": "2",
    "sb": "0",
    "ev": "VCT 2027: EMEA Kickoff - Europe Qualifier Playoffs",
-   "ts": 1795624200000
+   "ts": 1795624500000
   },
   {
    "id": "793638",
@@ -5882,7 +5886,7 @@
    "sa": "2",
    "sb": "0",
    "ev": "VCT 2027: EMEA Kickoff - Türkiye Qualifier",
-   "ts": 1795617000000
+   "ts": 1795617300000
   },
   {
    "id": "793799",
@@ -5891,7 +5895,7 @@
    "sa": "2",
    "sb": "1",
    "ev": "VCT 2027: Pacific Kickoff - South Asia Qualifier",
-   "ts": 1795609800000
+   "ts": 1795610100000
   },
   {
    "id": "793804",
@@ -5900,7 +5904,7 @@
    "sa": "2",
    "sb": "0",
    "ev": "VCT 2027: Pacific Kickoff - South Asia Qualifier",
-   "ts": 1795602600000
+   "ts": 1795602900000
   },
   {
    "id": "790432",
@@ -5909,7 +5913,7 @@
    "sa": "0",
    "sb": "2",
    "ev": "VCT 2027: Pacific Kickoff - Oceania Qualifier",
-   "ts": 1795595400000
+   "ts": 1795595700000
   },
   {
    "id": "793803",
@@ -5918,7 +5922,7 @@
    "sa": "2",
    "sb": "1",
    "ev": "VCT 2027: Pacific Kickoff - South Asia Qualifier",
-   "ts": 1795588200000
+   "ts": 1795588500000
   },
   {
    "id": "793768",
@@ -5927,7 +5931,7 @@
    "sa": "2",
    "sb": "1",
    "ev": "VCT 2027: America Kickoff - LATAM North Qualifier Playoffs",
-   "ts": 1795570200000
+   "ts": 1795570500000
   },
   {
    "id": "793767",
@@ -5936,7 +5940,7 @@
    "sa": "2",
    "sb": "0",
    "ev": "VCT 2027: America Kickoff - LATAM North Qualifier Playoffs",
-   "ts": 1795559400000
+   "ts": 1795559700000
   },
   {
    "id": "793634",
@@ -5945,7 +5949,7 @@
    "sa": "0",
    "sb": "2",
    "ev": "VCT 2027: EMEA Kickoff - Türkiye Qualifier",
-   "ts": 1795541400000
+   "ts": 1795541700000
   },
   {
    "id": "793633",
@@ -5954,7 +5958,7 @@
    "sa": "2",
    "sb": "0",
    "ev": "VCT 2027: EMEA Kickoff - Türkiye Qualifier",
-   "ts": 1795530600000
+   "ts": 1795530900000
   },
   {
    "id": "793798",
@@ -5963,7 +5967,7 @@
    "sa": "2",
    "sb": "1",
    "ev": "VCT 2027: Pacific Kickoff - South Asia Qualifier",
-   "ts": 1795527000000
+   "ts": 1795527300000
   },
   {
    "id": "793797",
@@ -5972,7 +5976,7 @@
    "sa": "2",
    "sb": "1",
    "ev": "VCT 2027: Pacific Kickoff - South Asia Qualifier",
-   "ts": 1795512600000
+   "ts": 1795512900000
   },
   {
    "id": "793565",
@@ -5981,7 +5985,7 @@
    "sa": "2",
    "sb": "0",
    "ev": "VCT 2027: America Kickoff - LATAM South Qualifier Playoffs",
-   "ts": 1795469400000
+   "ts": 1795469700000
   },
   {
    "id": "793563",
@@ -5990,7 +5994,7 @@
    "sa": "2",
    "sb": "1",
    "ev": "VCT 2027: America Kickoff - LATAM South Qualifier Playoffs",
-   "ts": 1795462200000
+   "ts": 1795462500000
   },
   {
    "id": "793796",
@@ -5999,7 +6003,7 @@
    "sa": "0",
    "sb": "2",
    "ev": "VCT 2027: Pacific Kickoff - South Asia Qualifier",
-   "ts": 1795444200000
+   "ts": 1795444500000
   },
   {
    "id": "793795",
@@ -6008,7 +6012,7 @@
    "sa": "2",
    "sb": "0",
    "ev": "VCT 2027: Pacific Kickoff - South Asia Qualifier",
-   "ts": 1795437000000
+   "ts": 1795437300000
   },
   {
    "id": "793238",
@@ -6017,7 +6021,7 @@
    "sa": "2",
    "sb": "0",
    "ev": "VCT 2027: America Kickoff - LATAM North Qualifier Playoffs",
-   "ts": 1795393800000
+   "ts": 1795394100000
   },
   {
    "id": "793335",
@@ -6026,7 +6030,7 @@
    "sa": "0",
    "sb": "2",
    "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ts": 1795393800000
+   "ts": 1795394100000
   },
   {
    "id": "793336",
@@ -6035,7 +6039,7 @@
    "sa": "2",
    "sb": "0",
    "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
-   "ts": 1795393800000
+   "ts": 1795394100000
   },
   {
    "id": "792041",
@@ -6044,7 +6048,7 @@
    "sa": "2",
    "sb": "0",
    "ev": "VCT 2027: America Kickoff - Brazil Qualifier Playoffs",
-   "ts": 1795390200000
+   "ts": 1795390500000
   },
   {
    "id": "793236",
@@ -6053,7 +6057,7 @@
    "sa": "2",
    "sb": "0",
    "ev": "VCT 2027: America Kickoff - LATAM North Qualifier Playoffs",
-   "ts": 1795386600000
+   "ts": 1795386900000
   }
  ],
  "rd": [],
