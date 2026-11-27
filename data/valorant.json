@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T16:34:28.361Z",
+ "updated": "2026-11-27T16:36:06.089Z",
  "live": [
   {
    "id": "794998",
@@ -178,7 +178,7 @@
    "mp": [
     {
      "n": "Bind",
-     "a": 7,
+     "a": 8,
      "b": 6,
      "st": "l"
     },
@@ -333,6 +333,10 @@
     [
      "a",
      "e"
+    ],
+    [
+     "a",
+     "e"
     ]
    ],
    "rdm": "Bind"
@@ -341,7 +345,7 @@
    "id": "795003",
    "a": "Eintracht Frankfurt",
    "b": "UCAM Esports Club",
-   "sa": "0",
+   "sa": "1",
    "sb": "0",
    "ev": "VCT 2027: EMEA Kickoff - Europe Qualifier Playoffs",
    "ph": "Swiss Stage–Round 3 (2-0)",
@@ -349,14 +353,16 @@
    "url": "https://www.vlr.gg/795003/eintracht-frankfurt-vs-ucam-esports-club-vct-2027-emea-kickoff-europe-qualifier-playoffs-swiss-stage-r3-2-0",
    "mp": [
     {
+     "n": "Sunset",
+     "a": 13,
+     "b": 4,
+     "st": "d"
+    },
+    {
      "n": "TBD",
      "a": 0,
      "b": 0,
      "st": "l"
-    },
-    {
-     "n": "TBD",
-     "st": "n"
     },
     {
      "n": "TBD",
