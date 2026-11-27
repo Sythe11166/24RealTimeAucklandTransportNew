@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T17:12:54.192Z",
+ "updated": "2026-11-27T17:14:35.750Z",
  "live": [
   {
    "id": "794998",
@@ -174,7 +174,7 @@
    "a": "Aurora Gaming",
    "b": "Mandatory",
    "sa": "0",
-   "sb": "0",
+   "sb": "1",
    "ev": "VCT 2027: EMEA Kickoff - Europe Qualifier Playoffs",
    "ph": "Swiss Stage–Round 3 (0-2)",
    "ts": 1795795200000,
@@ -183,12 +183,14 @@
     {
      "n": "Bind",
      "a": 14,
-     "b": 15,
-     "st": "l"
+     "b": 16,
+     "st": "d"
     },
     {
      "n": "Haven",
-     "st": "n"
+     "a": 0,
+     "b": 0,
+     "st": "l"
     },
     {
      "n": "Sunset",
@@ -238,45 +240,45 @@
     "a": [
      {
       "n": "B1SK",
-      "ag": "yoru"
+      "ag": ""
      },
      {
       "n": "trexx",
-      "ag": "fade"
+      "ag": ""
      },
      {
       "n": "Derke",
-      "ag": "raze"
+      "ag": ""
      },
      {
       "n": "Boo",
-      "ag": "brimstone"
+      "ag": ""
      },
      {
       "n": "chiwa",
-      "ag": "viper"
+      "ag": ""
      }
     ],
     "b": [
      {
       "n": "MiniBoo",
-      "ag": "raze"
+      "ag": ""
      },
      {
       "n": "runneR",
-      "ag": "viper"
+      "ag": ""
      },
      {
       "n": "Veqaj",
-      "ag": "yoru"
+      "ag": ""
      },
      {
       "n": "starxo",
-      "ag": "fade"
+      "ag": ""
      },
      {
       "n": "Kicks",
-      "ag": "brimstone"
+      "ag": ""
      }
     ]
    },
@@ -284,126 +286,7 @@
     "AURA",
     "MDR"
    ],
-   "nk": 1,
-   "rd": [
-    [
-     "b",
-     "e"
-    ],
-    [
-     "b",
-     "e"
-    ],
-    [
-     "b",
-     "t"
-    ],
-    [
-     "b",
-     "e"
-    ],
-    [
-     "a",
-     "e"
-    ],
-    [
-     "a",
-     "e"
-    ],
-    [
-     "a",
-     "e"
-    ],
-    [
-     "a",
-     "b"
-    ],
-    [
-     "b",
-     "t"
-    ],
-    [
-     "b",
-     "e"
-    ],
-    [
-     "a",
-     "b"
-    ],
-    [
-     "a",
-     "e"
-    ],
-    [
-     "a",
-     "e"
-    ],
-    [
-     "a",
-     "e"
-    ],
-    [
-     "a",
-     "e"
-    ],
-    [
-     "a",
-     "e"
-    ],
-    [
-     "b",
-     "b"
-    ],
-    [
-     "b",
-     "b"
-    ],
-    [
-     "b",
-     "b"
-    ],
-    [
-     "b",
-     "e"
-    ],
-    [
-     "a",
-     "e"
-    ],
-    [
-     "b",
-     "e"
-    ],
-    [
-     "b",
-     "e"
-    ],
-    [
-     "a",
-     "e"
-    ],
-    [
-     "b",
-     "t"
-    ],
-    [
-     "a",
-     "d"
-    ],
-    [
-     "b",
-     "e"
-    ],
-    [
-     "a",
-     "e"
-    ],
-    [
-     "b",
-     "e"
-    ]
-   ],
-   "rdm": "Bind"
+   "nk": 1
   }
  ],
  "upcoming": [
@@ -868,17 +751,17 @@
      ]
     }
    ],
-   "tg": [
-    "SGE",
-    "UCAM"
-   ],
    "h2h": {
     "a": 1,
     "b": 1
    },
    "bo": "3",
    "smt": 1795799568445,
-   "et": 1795799569646
+   "et": 1795799569646,
+   "tg": [
+    "SGE",
+    "UCAM"
+   ]
   },
   {
    "id": "793801",
@@ -4558,7 +4441,7 @@
   "u": "/event/3206/vct-2027-pacific-kickoff-south-asia-qualifier/playoffs",
   "rg": "Pacific",
   "ev": "VCT 2027: Pacific Kickoff - South Asia Qualifier",
-  "at": 1795799369934,
+  "at": 1795799674399,
   "r": [
    {
     "r": "Round 1",
