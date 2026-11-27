@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-27T16:49:05.374Z",
+ "updated": "2026-11-27T16:50:42.474Z",
  "live": [
   {
    "id": "794998",
    "a": "Enterprise Esports",
    "b": "CGN Esports",
-   "sa": "0",
+   "sa": "1",
    "sb": "0",
    "ev": "VCT 2027: EMEA Kickoff - Europe Qualifier Playoffs",
    "ph": "Swiss Stage–Round 3 (1-1)",
@@ -13,14 +13,16 @@
    "url": "https://www.vlr.gg/794998/enterprise-esports-vs-cgn-esports-vct-2027-emea-kickoff-europe-qualifier-playoffs-swiss-stage-r3-1-1",
    "mp": [
     {
+     "n": "Abyss",
+     "a": 13,
+     "b": 10,
+     "st": "d"
+    },
+    {
      "n": "TBD",
      "a": 0,
      "b": 0,
      "st": "l"
-    },
-    {
-     "n": "TBD",
-     "st": "n"
     },
     {
      "n": "TBD",
