@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T12:54:36.564Z",
+ "updated": "2026-11-27T12:56:11.804Z",
  "live": [
   {
    "id": "793801",
@@ -4960,6 +4960,13 @@
    "b": "Wildcard",
    "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
    "ts": 1796169300000
+  },
+  {
+   "id": "793738",
+   "a": "Shopify Rebellion Black",
+   "b": "counterfeit",
+   "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
+   "ts": 1796169300000
   }
  ],
  "fr": [
@@ -5385,15 +5392,6 @@
    "sb": "0",
    "ev": "VCT 2027: America Kickoff - Brazil Qualifier Playoffs",
    "ts": 1795391700000
-  },
-  {
-   "id": "793236",
-   "a": "LEONES",
-   "b": "Contra",
-   "sa": "2",
-   "sb": "0",
-   "ev": "VCT 2027: America Kickoff - LATAM North Qualifier Playoffs",
-   "ts": 1795388100000
   }
  ],
  "rd": [],
