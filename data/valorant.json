@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T20:38:29.910Z",
+ "updated": "2026-11-27T20:40:09.738Z",
  "live": [
   {
    "id": "794997",
@@ -252,7 +252,7 @@
    "a": "Joblife",
    "b": "Natus Vincere Junior",
    "sa": "0",
-   "sb": "0",
+   "sb": "1",
    "ev": "VCT 2027: EMEA Kickoff - Europe Qualifier Playoffs",
    "ph": "Swiss Stage–Round 3 (2-0)",
    "ts": 1795809000000,
@@ -261,12 +261,14 @@
     {
      "n": "Abyss",
      "a": 6,
-     "b": 10,
-     "st": "l"
+     "b": 13,
+     "st": "d"
     },
     {
      "n": "Corrode",
-     "st": "n"
+     "a": 0,
+     "b": 0,
+     "st": "l"
     },
     {
      "n": "Haven",
@@ -320,45 +322,45 @@
     "a": [
      {
       "n": "al0rante",
-      "ag": "harbor"
+      "ag": ""
      },
      {
       "n": "WanZeru",
-      "ag": "waylay"
+      "ag": ""
      },
      {
       "n": "Sevire",
-      "ag": "hush"
+      "ag": ""
      },
      {
       "n": "westside",
-      "ag": "astra"
+      "ag": ""
      },
      {
       "n": "hoody",
-      "ag": "sova"
+      "ag": ""
      }
     ],
     "b": [
      {
       "n": "Javelin",
-      "ag": "sova"
+      "ag": ""
      },
      {
       "n": "Darxcioo",
-      "ag": "jett"
+      "ag": ""
      },
      {
       "n": "avey",
-      "ag": "astra"
+      "ag": ""
      },
      {
       "n": "sizo",
-      "ag": "cypher"
+      "ag": ""
      },
      {
       "n": "Kolosha",
-      "ag": "hush"
+      "ag": ""
      }
     ]
    },
@@ -366,74 +368,7 @@
     "JL",
     "NVJ"
    ],
-   "nk": 1,
-   "rd": [
-    [
-     "b",
-     "e"
-    ],
-    [
-     "b",
-     "e"
-    ],
-    [
-     "b",
-     "e"
-    ],
-    [
-     "b",
-     "e"
-    ],
-    [
-     "b",
-     "e"
-    ],
-    [
-     "b",
-     "b"
-    ],
-    [
-     "a",
-     "d"
-    ],
-    [
-     "b",
-     "e"
-    ],
-    [
-     "b",
-     "b"
-    ],
-    [
-     "a",
-     "d"
-    ],
-    [
-     "b",
-     "e"
-    ],
-    [
-     "a",
-     "e"
-    ],
-    [
-     "a",
-     "e"
-    ],
-    [
-     "a",
-     "e"
-    ],
-    [
-     "b",
-     "e"
-    ],
-    [
-     "a",
-     "b"
-    ]
-   ],
-   "rdm": "Abyss"
+   "nk": 1
   },
   {
    "id": "792044",
@@ -5718,7 +5653,7 @@
    "sa": "2",
    "sb": "1",
    "ev": "VCT 2027: Pacific Kickoff - South Asia Qualifier",
-   "ts": 1795527600000
+   "ts": 1795524000000
   },
   {
    "id": "793797",
