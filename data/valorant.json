@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T07:37:53.816Z",
+ "updated": "2026-11-27T07:39:31.956Z",
  "live": [],
  "upcoming": [
   {
@@ -4439,7 +4439,7 @@
   "u": "/event/3233/vct-2027-emea-kickoff-europe-qualifier-playoffs/swiss-stage",
   "rg": "EMEA",
   "ev": "VCT 2027: EMEA Kickoff - Europe Qualifier Playoffs",
-  "at": 1795763327279,
+  "at": 1795765168534,
   "r": [
    {
     "r": "Round 1 (0-0)",
@@ -5024,7 +5024,7 @@
    "sa": "2",
    "sb": "1",
    "ev": "VCT 2027: Pacific Kickoff - South Asia Qualifier",
-   "ts": 1795527600000
+   "ts": 1795524000000
   },
   {
    "id": "793797",
@@ -5127,5 +5127,5 @@
   }
  ],
  "rd": [],
- "rdt": 1795763942917
+ "rdt": 1795765171955
 }
