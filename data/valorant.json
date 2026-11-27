@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T15:53:02.240Z",
+ "updated": "2026-11-27T15:54:40.202Z",
  "live": [],
  "upcoming": [
   {
@@ -5705,7 +5705,7 @@
    "sa": "0",
    "sb": "2",
    "ev": "VCT 2027: EMEA Kickoff - Türkiye Qualifier",
-   "ts": 1795542900000
+   "ts": 1795539300000
   },
   {
    "id": "793633",
@@ -5796,6 +5796,33 @@
    "sb": "0",
    "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
    "ts": 1795395300000
+  },
+  {
+   "id": "792041",
+   "a": "Mafiosos",
+   "b": "Master Bank",
+   "sa": "2",
+   "sb": "0",
+   "ev": "VCT 2027: America Kickoff - Brazil Qualifier Playoffs",
+   "ts": 1795391700000
+  },
+  {
+   "id": "793236",
+   "a": "LEONES",
+   "b": "Contra",
+   "sa": "2",
+   "sb": "0",
+   "ev": "VCT 2027: America Kickoff - LATAM North Qualifier Playoffs",
+   "ts": 1795388100000
+  },
+  {
+   "id": "793333",
+   "a": "counterfeit",
+   "b": "FlyQuest",
+   "sa": "2",
+   "sb": "0",
+   "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
+   "ts": 1795388100000
   }
  ],
  "rd": [],
