@@ -1,90 +1,6 @@
 {
- "updated": "2026-11-27T21:22:50.192Z",
+ "updated": "2026-11-27T21:24:31.917Z",
  "live": [
-  {
-   "id": "794997",
-   "a": "GIANTX",
-   "b": "WIP Esports",
-   "sa": "1",
-   "sb": "1",
-   "ev": "VCT 2027: EMEA Kickoff - Europe Qualifier Playoffs",
-   "ph": "Swiss Stage–Round 3 (1-1)",
-   "ts": 1795807800000,
-   "url": "https://www.vlr.gg/794997/giantx-vs-wip-esports-vct-2027-emea-kickoff-europe-qualifier-playoffs-swiss-stage-r3-1-1",
-   "mp": [
-    {
-     "n": "Bind",
-     "a": 13,
-     "b": 5,
-     "st": "d"
-    },
-    {
-     "n": "Haven",
-     "a": 7,
-     "b": 13,
-     "st": "d"
-    },
-    {
-     "n": "TBD",
-     "a": 0,
-     "b": 0,
-     "st": "l"
-    }
-   ],
-   "evu": "/event/3233/vct-2027-emea-kickoff-europe-qualifier-playoffs/swiss-stage",
-   "bo": "3",
-   "pl": {
-    "a": [
-     {
-      "n": "wackie",
-      "ag": ""
-     },
-     {
-      "n": "globeX",
-      "ag": ""
-     },
-     {
-      "n": "ZachKappa",
-      "ag": ""
-     },
-     {
-      "n": "sickrey",
-      "ag": ""
-     },
-     {
-      "n": "Vitie",
-      "ag": ""
-     }
-    ],
-    "b": [
-     {
-      "n": "wtex",
-      "ag": ""
-     },
-     {
-      "n": "TakaS",
-      "ag": ""
-     },
-     {
-      "n": "Jesse",
-      "ag": ""
-     },
-     {
-      "n": "Vorwenn",
-      "ag": ""
-     },
-     {
-      "n": "mepeezy",
-      "ag": ""
-     }
-    ]
-   },
-   "tg": [
-    "GX",
-    "WIP"
-   ],
-   "nk": 1
-  },
   {
    "id": "794996",
    "a": "Barça eSports",
@@ -666,6 +582,522 @@
   }
  ],
  "results": [
+  {
+   "id": "794997",
+   "a": "GIANTX",
+   "b": "WIP Esports",
+   "sa": "1",
+   "sb": "2",
+   "ev": "VCT 2027: EMEA Kickoff - Europe Qualifier Playoffs",
+   "ph": "Swiss Stage–Round 3 (1-1)",
+   "ts": 1795805100000,
+   "url": "https://www.vlr.gg/794997/giantx-vs-wip-esports-vct-2027-emea-kickoff-europe-qualifier-playoffs-swiss-stage-r3-1-1",
+   "mp": [
+    {
+     "n": "Bind",
+     "a": 13,
+     "b": 5
+    },
+    {
+     "n": "Haven",
+     "a": 7,
+     "b": 13
+    },
+    {
+     "n": "Sunset",
+     "a": 8,
+     "b": 13
+    }
+   ],
+   "sm": [
+    {
+     "n": "Bind",
+     "a": 13,
+     "b": 5,
+     "pa": [
+      {
+       "n": "ZachKappa",
+       "k": 17,
+       "d": 9,
+       "a": 4,
+       "ag": "yoru"
+      },
+      {
+       "n": "wackie",
+       "k": 15,
+       "d": 8,
+       "a": 3,
+       "ag": "viper"
+      },
+      {
+       "n": "globeX",
+       "k": 15,
+       "d": 12,
+       "a": 4,
+       "ag": "raze"
+      },
+      {
+       "n": "Vitie",
+       "k": 14,
+       "d": 9,
+       "a": 11,
+       "ag": "brimstone"
+      },
+      {
+       "n": "sickrey",
+       "k": 10,
+       "d": 10,
+       "a": 11,
+       "ag": "fade"
+      }
+     ],
+     "pb": [
+      {
+       "n": "mepeezy",
+       "k": 12,
+       "d": 15,
+       "a": 4,
+       "ag": "viper"
+      },
+      {
+       "n": "Jesse",
+       "k": 11,
+       "d": 12,
+       "a": 4,
+       "ag": "brimstone"
+      },
+      {
+       "n": "Vorwenn",
+       "k": 10,
+       "d": 14,
+       "a": 3,
+       "ag": "fade"
+      },
+      {
+       "n": "TakaS",
+       "k": 10,
+       "d": 16,
+       "a": 3,
+       "ag": "raze"
+      },
+      {
+       "n": "wtex",
+       "k": 5,
+       "d": 14,
+       "a": 1,
+       "ag": "yoru"
+      }
+     ],
+     "rd": [
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "b"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "d"
+      ],
+      [
+       "b",
+       "d"
+      ],
+      [
+       "a",
+       "b"
+      ],
+      [
+       "b",
+       "t"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "a",
+       "b"
+      ],
+      [
+       "a",
+       "b"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "d"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "d"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ]
+     ]
+    },
+    {
+     "n": "Haven",
+     "a": 7,
+     "b": 13,
+     "pa": [
+      {
+       "n": "Vitie",
+       "k": 16,
+       "d": 15,
+       "a": 8,
+       "ag": "omen"
+      },
+      {
+       "n": "wackie",
+       "k": 14,
+       "d": 15,
+       "a": 3,
+       "ag": "cypher"
+      },
+      {
+       "n": "ZachKappa",
+       "k": 13,
+       "d": 19,
+       "a": 7,
+       "ag": "phoenix"
+      },
+      {
+       "n": "globeX",
+       "k": 9,
+       "d": 16,
+       "a": 3,
+       "ag": "neon"
+      },
+      {
+       "n": "sickrey",
+       "k": 7,
+       "d": 16,
+       "a": 5,
+       "ag": "sova"
+      }
+     ],
+     "pb": [
+      {
+       "n": "Jesse",
+       "k": 21,
+       "d": 9,
+       "a": 12,
+       "ag": "omen"
+      },
+      {
+       "n": "TakaS",
+       "k": 19,
+       "d": 12,
+       "a": 3,
+       "ag": "chamber"
+      },
+      {
+       "n": "wtex",
+       "k": 14,
+       "d": 12,
+       "a": 6,
+       "ag": "neon"
+      },
+      {
+       "n": "Vorwenn",
+       "k": 14,
+       "d": 13,
+       "a": 4,
+       "ag": "sova"
+      },
+      {
+       "n": "mepeezy",
+       "k": 13,
+       "d": 13,
+       "a": 1,
+       "ag": "viper"
+      }
+     ],
+     "rd": [
+      [
+       "b",
+       "d"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "b"
+      ],
+      [
+       "b",
+       "t"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "b",
+       "d"
+      ],
+      [
+       "b",
+       "d"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "d"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "b"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "a",
+       "d"
+      ],
+      [
+       "b",
+       "e"
+      ]
+     ]
+    },
+    {
+     "n": "Sunset",
+     "a": 8,
+     "b": 13,
+     "pa": [
+      {
+       "n": "sickrey",
+       "k": 13,
+       "d": 13,
+       "a": 3,
+       "ag": "sova"
+      },
+      {
+       "n": "wackie",
+       "k": 13,
+       "d": 17,
+       "a": 5,
+       "ag": "cypher"
+      },
+      {
+       "n": "Vitie",
+       "k": 12,
+       "d": 16,
+       "a": 7,
+       "ag": "kayo"
+      },
+      {
+       "n": "globeX",
+       "k": 12,
+       "d": 16,
+       "a": 3,
+       "ag": "neon"
+      },
+      {
+       "n": "ZachKappa",
+       "k": 7,
+       "d": 17,
+       "a": 6,
+       "ag": "omen"
+      }
+     ],
+     "pb": [
+      {
+       "n": "Jesse",
+       "k": 18,
+       "d": 8,
+       "a": 8,
+       "ag": "omen"
+      },
+      {
+       "n": "wtex",
+       "k": 18,
+       "d": 13,
+       "a": 4,
+       "ag": "neon"
+      },
+      {
+       "n": "mepeezy",
+       "k": 17,
+       "d": 13,
+       "a": 10,
+       "ag": "sage"
+      },
+      {
+       "n": "TakaS",
+       "k": 16,
+       "d": 13,
+       "a": 5,
+       "ag": "chamber"
+      },
+      {
+       "n": "Vorwenn",
+       "k": 10,
+       "d": 10,
+       "a": 4,
+       "ag": "sova"
+      }
+     ],
+     "rd": [
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "b"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "b"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "a",
+       "d"
+      ],
+      [
+       "a",
+       "t"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "a",
+       "d"
+      ],
+      [
+       "a",
+       "d"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "b",
+       "d"
+      ],
+      [
+       "a",
+       "b"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "d"
+      ]
+     ]
+    }
+   ],
+   "tg": [
+    "GX",
+    "WIP"
+   ],
+   "bo": "3",
+   "smt": 1795814667470,
+   "et": 1795814668671
+  },
   {
    "id": "795001",
    "a": "xXxMasterProMegaTeamxXx",
@@ -4254,518 +4686,6 @@
     "FX",
     "ELV"
    ]
-  },
-  {
-   "id": "792042",
-   "a": "SÓ TEM VELHO",
-   "b": "Next",
-   "sa": "1",
-   "sb": "2",
-   "ev": "VCT 2027: America Kickoff - Brazil Qualifier Playoffs",
-   "ph": "Playoffs–Upper Quarterfinals",
-   "ts": 1795724700000,
-   "url": "https://www.vlr.gg/792042/s-tem-velho-vs-next-vct-2027-america-kickoff-brazil-qualifier-playoffs-ubqf",
-   "mp": [
-    {
-     "n": "Abyss",
-     "a": 9,
-     "b": 13
-    },
-    {
-     "n": "Lotus",
-     "a": 13,
-     "b": 5
-    },
-    {
-     "n": "Haven",
-     "a": 4,
-     "b": 13
-    }
-   ],
-   "sm": [
-    {
-     "n": "Abyss",
-     "a": 9,
-     "b": 13,
-     "pa": [
-      {
-       "n": "raised",
-       "k": 24,
-       "d": 18,
-       "a": 1,
-       "ag": "waylay"
-      },
-      {
-       "n": "aztex",
-       "k": 10,
-       "d": 15,
-       "a": 6,
-       "ag": "yoru"
-      },
-      {
-       "n": "STV caiobazz",
-       "k": 10,
-       "d": 15,
-       "a": 6,
-       "ag": "sova"
-      },
-      {
-       "n": "chadu",
-       "k": 8,
-       "d": 16,
-       "a": 7,
-       "ag": "astra"
-      },
-      {
-       "n": "Yeah",
-       "k": 8,
-       "d": 17,
-       "a": 4,
-       "ag": "omen"
-      }
-     ],
-     "pb": [
-      {
-       "n": "taka",
-       "k": 20,
-       "d": 11,
-       "a": 3,
-       "ag": "yoru"
-      },
-      {
-       "n": "Stwz1",
-       "k": 19,
-       "d": 13,
-       "a": 12,
-       "ag": "harbor"
-      },
-      {
-       "n": "forbanz",
-       "k": 18,
-       "d": 15,
-       "a": 7,
-       "ag": "waylay"
-      },
-      {
-       "n": "RgLMeister",
-       "k": 13,
-       "d": 9,
-       "a": 14,
-       "ag": "astra"
-      },
-      {
-       "n": "skz",
-       "k": 11,
-       "d": 12,
-       "a": 5,
-       "ag": "sova"
-      }
-     ],
-     "rd": [
-      [
-       "a",
-       "d"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "b"
-      ],
-      [
-       "b",
-       "b"
-      ],
-      [
-       "b",
-       "b"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "a",
-       "t"
-      ],
-      [
-       "b",
-       "b"
-      ],
-      [
-       "a",
-       "d"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "b"
-      ],
-      [
-       "b",
-       "d"
-      ],
-      [
-       "a",
-       "b"
-      ],
-      [
-       "a",
-       "b"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "a",
-       "b"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ]
-     ]
-    },
-    {
-     "n": "Lotus",
-     "a": 13,
-     "b": 5,
-     "pa": [
-      {
-       "n": "raised",
-       "k": 18,
-       "d": 11,
-       "a": 6,
-       "ag": "neon"
-      },
-      {
-       "n": "chadu",
-       "k": 17,
-       "d": 9,
-       "a": 6,
-       "ag": "viper"
-      },
-      {
-       "n": "aztex",
-       "k": 16,
-       "d": 10,
-       "a": 4,
-       "ag": "chamber"
-      },
-      {
-       "n": "STV caiobazz",
-       "k": 14,
-       "d": 10,
-       "a": 5,
-       "ag": "fade"
-      },
-      {
-       "n": "Yeah",
-       "k": 10,
-       "d": 8,
-       "a": 11,
-       "ag": "omen"
-      }
-     ],
-     "pb": [
-      {
-       "n": "taka",
-       "k": 14,
-       "d": 13,
-       "a": 3,
-       "ag": "viper"
-      },
-      {
-       "n": "RgLMeister",
-       "k": 9,
-       "d": 16,
-       "a": 6,
-       "ag": "omen"
-      },
-      {
-       "n": "forbanz",
-       "k": 9,
-       "d": 17,
-       "a": 1,
-       "ag": "yoru"
-      },
-      {
-       "n": "Stwz1",
-       "k": 8,
-       "d": 14,
-       "a": 3,
-       "ag": "fade"
-      },
-      {
-       "n": "skz",
-       "k": 8,
-       "d": 15,
-       "a": 1,
-       "ag": "raze"
-      }
-     ],
-     "rd": [
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "a",
-       "d"
-      ],
-      [
-       "a",
-       "t"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "a",
-       "d"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "d"
-      ],
-      [
-       "a",
-       "d"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ]
-     ]
-    },
-    {
-     "n": "Haven",
-     "a": 4,
-     "b": 13,
-     "pa": [
-      {
-       "n": "chadu",
-       "k": 13,
-       "d": 13,
-       "a": 1,
-       "ag": "chamber"
-      },
-      {
-       "n": "Yeah",
-       "k": 12,
-       "d": 13,
-       "a": 2,
-       "ag": "phoenix"
-      },
-      {
-       "n": "raised",
-       "k": 11,
-       "d": 14,
-       "a": 5,
-       "ag": "neon"
-      },
-      {
-       "n": "STV caiobazz",
-       "k": 9,
-       "d": 15,
-       "a": 5,
-       "ag": "sova"
-      },
-      {
-       "n": "aztex",
-       "k": 6,
-       "d": 15,
-       "a": 5,
-       "ag": "omen"
-      }
-     ],
-     "pb": [
-      {
-       "n": "forbanz",
-       "k": 21,
-       "d": 10,
-       "a": 7,
-       "ag": "neon"
-      },
-      {
-       "n": "RgLMeister",
-       "k": 16,
-       "d": 11,
-       "a": 9,
-       "ag": "omen"
-      },
-      {
-       "n": "skz",
-       "k": 12,
-       "d": 8,
-       "a": 6,
-       "ag": "phoenix"
-      },
-      {
-       "n": "taka",
-       "k": 11,
-       "d": 13,
-       "a": 2,
-       "ag": "chamber"
-      },
-      {
-       "n": "Stwz1",
-       "k": 10,
-       "d": 9,
-       "a": 10,
-       "ag": "sova"
-      }
-     ],
-     "rd": [
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "b"
-      ],
-      [
-       "b",
-       "b"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "b"
-      ],
-      [
-       "b",
-       "b"
-      ],
-      [
-       "a",
-       "d"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "a",
-       "d"
-      ],
-      [
-       "a",
-       "d"
-      ],
-      [
-       "b",
-       "d"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "a",
-       "b"
-      ],
-      [
-       "b",
-       "e"
-      ]
-     ]
-    }
-   ],
-   "h2h": {
-    "a": 1,
-    "b": 0
-   },
-   "bo": "3",
-   "smt": 1795732927516,
-   "et": 1795732928716,
-   "tg": [
-    "SV",
-    "NXT"
-   ]
   }
  ],
  "news": [
@@ -4818,7 +4738,6 @@
   "WIP Esports": "https://owcdn.net/img/695c9c861fe80.png",
   "Mandatory": "https://owcdn.net/img/695c961fbab82.png",
   "SÓ TEM VELHO": "",
-  "Next": "",
   "Fluxo W7M": "https://owcdn.net/img/6a76a37807aad.png",
   "ELEVATE": "https://owcdn.net/img/65990c8ab7c2b.png",
   "GodLike Esports": "https://owcdn.net/img/63ebaa91f0e07.png",
@@ -5018,7 +4937,7 @@
   "u": "/event/3233/vct-2027-emea-kickoff-europe-qualifier-playoffs/swiss-stage",
   "rg": "EMEA",
   "ev": "VCT 2027: EMEA Kickoff - Europe Qualifier Playoffs",
-  "at": 1795814345030,
+  "at": 1795814670614,
   "r": [
    {
     "r": "Round 1 (0-0)",
@@ -5168,8 +5087,8 @@
       "GIANTX",
       "WIP Esports",
       1,
-      1,
-      "l"
+      2,
+      "d"
      ],
      [
       "Barça eSports",
@@ -5322,6 +5241,15 @@
   }
  ],
  "fr": [
+  {
+   "id": "794997",
+   "a": "GIANTX",
+   "b": "WIP Esports",
+   "sa": "1",
+   "sb": "2",
+   "ev": "VCT 2027: EMEA Kickoff - Europe Qualifier Playoffs",
+   "ts": 1795805100000
+  },
   {
    "id": "795001",
    "a": "xXxMasterProMegaTeamxXx",
@@ -5762,15 +5690,6 @@
    "sb": "0",
    "ev": "VCT 2027: Pacific Kickoff - South Asia Qualifier",
    "ts": 1795436700000
-  },
-  {
-   "id": "793238",
-   "a": "Chivas Esports",
-   "b": "Old School Kr3w",
-   "sa": "2",
-   "sb": "0",
-   "ev": "VCT 2027: America Kickoff - LATAM North Qualifier Playoffs",
-   "ts": 1795397100000
   }
  ],
  "rd": [],
