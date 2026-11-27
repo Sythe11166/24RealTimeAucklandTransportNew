@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T19:49:35.717Z",
+ "updated": "2026-11-27T19:51:15.969Z",
  "live": [
   {
    "id": "794997",
@@ -244,27 +244,93 @@
     "ARG."
    ],
    "nk": 1
-  }
- ],
- "upcoming": [
+  },
   {
    "id": "795002",
    "a": "Joblife",
    "b": "Natus Vincere Junior",
-   "sa": "–",
-   "sb": "–",
+   "sa": "0",
+   "sb": "0",
    "ev": "VCT 2027: EMEA Kickoff - Europe Qualifier Playoffs",
    "ph": "Swiss Stage–Round 3 (2-0)",
    "ts": 1795809000000,
    "url": "https://www.vlr.gg/795002/joblife-vs-natus-vincere-junior-vct-2027-emea-kickoff-europe-qualifier-playoffs-swiss-stage-r3-2-0",
+   "mp": [
+    {
+     "n": "TBD",
+     "a": 0,
+     "b": 0,
+     "st": "l"
+    },
+    {
+     "n": "TBD",
+     "st": "n"
+    },
+    {
+     "n": "TBD",
+     "st": "n"
+    }
+   ],
+   "evu": "/event/3233/vct-2027-emea-kickoff-europe-qualifier-playoffs/swiss-stage",
+   "bo": "3",
    "h2h": {
     "a": 1,
     "b": 0
    },
-   "bo": "3",
-   "evu": "/event/3233/vct-2027-emea-kickoff-europe-qualifier-playoffs/swiss-stage",
-   "fz": 1
-  },
+   "pl": {
+    "a": [
+     {
+      "n": "al0rante",
+      "ag": ""
+     },
+     {
+      "n": "WanZeru",
+      "ag": ""
+     },
+     {
+      "n": "Sevire",
+      "ag": ""
+     },
+     {
+      "n": "westside",
+      "ag": ""
+     },
+     {
+      "n": "hoody",
+      "ag": ""
+     }
+    ],
+    "b": [
+     {
+      "n": "Javelin",
+      "ag": ""
+     },
+     {
+      "n": "Darxcioo",
+      "ag": ""
+     },
+     {
+      "n": "avey",
+      "ag": ""
+     },
+     {
+      "n": "sizo",
+      "ag": ""
+     },
+     {
+      "n": "Kolosha",
+      "ag": ""
+     }
+    ]
+   },
+   "tg": [
+    "JL",
+    "NVJ"
+   ],
+   "nk": 1
+  }
+ ],
+ "upcoming": [
   {
    "id": "792044",
    "a": "Team Solid",
@@ -306,7 +372,10 @@
    "ev": "VCT 2027: America Kickoff - Brazil Qualifier Playoffs",
    "ph": "Playoffs–Upper Quarterfinals",
    "ts": 1795820400000,
-   "url": "https://www.vlr.gg/792045/2game-esports-vs-mafiosos-vct-2027-america-kickoff-brazil-qualifier-playoffs-ubqf"
+   "url": "https://www.vlr.gg/792045/2game-esports-vs-mafiosos-vct-2027-america-kickoff-brazil-qualifier-playoffs-ubqf",
+   "bo": "3",
+   "evu": "/event/3183/vct-2027-america-kickoff-brazil-qualifier-playoffs/playoffs",
+   "fz": 1
   },
   {
    "id": "790437",
@@ -395,6 +464,17 @@
    "ph": "Playoffs–Upper Semifinals",
    "ts": 1795981800000,
    "url": "https://www.vlr.gg/792048/next-vs-elevate-vct-2027-america-kickoff-brazil-qualifier-playoffs-ubsf"
+  },
+  {
+   "id": "793735",
+   "a": "Cloud9",
+   "b": "QoR",
+   "sa": "–",
+   "sb": "–",
+   "ev": "VCT 2027: America Kickoff - North America Qualifier Playoffs",
+   "ph": "Playoffs –Upper Quarterfinals",
+   "ts": 1796161800000,
+   "url": "https://www.vlr.gg/793735/cloud9-vs-qor-vct-2027-america-kickoff-north-america-qualifier-playoffs-ubqf"
   }
  ],
  "results": [
@@ -4574,7 +4654,9 @@
   "MeatZn": "",
   "Finishers": "https://owcdn.net/img/69d48940ee5bf.png",
   "LEONES": "https://owcdn.net/img/6b08e649e523c.png",
-  "Contra": "https://owcdn.net/img/66572b1da4d79.png"
+  "Contra": "https://owcdn.net/img/66572b1da4d79.png",
+  "FUEGO": "https://owcdn.net/img/678f90b7b65e5.png",
+  "Chivas Esports": "https://owcdn.net/img/63ce2eedbe573.png"
  },
  "colors": {
   "SIGN Esports": "#f36c21",
@@ -4604,7 +4686,9 @@
   "2Game Esports": "#7a4bfb",
   "Finishers": "#4e859b",
   "LEONES": "#945634",
-  "Contra": "#f0b104"
+  "Contra": "#f0b104",
+  "FUEGO": "#d95028",
+  "Chivas Esports": "#cdaa3d"
  },
  "agents": {
   "gekko": {
@@ -4945,13 +5029,6 @@
   "x": []
  },
  "fu": [
-  {
-   "id": "795002",
-   "a": "Joblife",
-   "b": "Natus Vincere Junior",
-   "ev": "VCT 2027: EMEA Kickoff - Europe Qualifier Playoffs",
-   "ts": 1795809000000
-  },
   {
    "id": "792044",
    "a": "Team Solid",
