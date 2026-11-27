@@ -382,14 +382,14 @@ body.eco :is(.ry,.sg,.mn,.cl,.dr path,.sf,.bz,.t1,.t2,.fg,.a1,.a2,.slw,.ws,.spk,
 body.eco .ldot{animation:none;opacity:.9}
 body.eco .fi,body.eco .fi.out{animation-duration:.35s!important}
 body.eco .fi{filter:none!important}
-#nite{position:fixed;inset:0;z-index:70;background:#000;color:#fff;overflow:hidden;opacity:0;visibility:hidden;transition:opacity 1.6s ease,visibility 0s 1.6s;font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display",system-ui,sans-serif}
+#nite{--nb:.5;--nc:255,176,96;position:fixed;inset:0;z-index:70;background:radial-gradient(130% 60% at 50% 112%,rgba(48,62,128,calc(var(--nb)*.55)),transparent 64%),linear-gradient(180deg,#000 0%,#02040c 50%,#060a1c 100%);color:rgb(var(--nc));overflow:hidden;opacity:0;visibility:hidden;transition:opacity 1.6s ease,visibility 0s 1.6s;font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display",system-ui,sans-serif}
 #nite.on{opacity:1;visibility:visible;transition:opacity 1.6s ease}
 #nite svg *{animation:none!important}
 #nite:not(.on) *,#nite:not(.on) *::after{animation-play-state:paused!important}
-.nsky,#nfx,#nmoon{position:absolute;inset:0;pointer-events:none}
+.nsky,#nfx,#nmoon{position:absolute;inset:0;pointer-events:none}.nsky{opacity:calc(.5 + var(--nb)*.5)}#nfx{opacity:calc(.3 + var(--nb)*.6)}
 .nsky.cl{background:radial-gradient(60% 42% at 24% 28%,rgba(120,140,178,.11),transparent 70%),radial-gradient(55% 40% at 80% 70%,rgba(120,140,178,.08),transparent 70%)}
 .nsky.fg{background:linear-gradient(180deg,rgba(150,160,175,.10),rgba(150,160,175,.03))}
-.nsky.st{background-image:radial-gradient(1.5px 1.5px at 12% 18%,#fff,transparent),radial-gradient(1px 1px at 28% 62%,#fff,transparent),radial-gradient(1.5px 1.5px at 44% 12%,#fff,transparent),radial-gradient(1px 1px at 61% 38%,#fff,transparent),radial-gradient(1.5px 1.5px at 77% 74%,#fff,transparent),radial-gradient(1px 1px at 88% 22%,#fff,transparent),radial-gradient(1px 1px at 5% 84%,#fff,transparent),radial-gradient(1.5px 1.5px at 53% 90%,#fff,transparent),radial-gradient(1px 1px at 36% 40%,#fff,transparent),radial-gradient(1px 1px at 93% 58%,#fff,transparent);opacity:.7}
+.nsky.st{background-image:radial-gradient(2.4px 2.4px at 12% 18%,#fff,transparent),radial-gradient(1.8px 1.8px at 28% 62%,#fff,transparent),radial-gradient(2.4px 2.4px at 44% 12%,#fff,transparent),radial-gradient(1.8px 1.8px at 61% 38%,#fff,transparent),radial-gradient(2.4px 2.4px at 77% 74%,#fff,transparent),radial-gradient(1.8px 1.8px at 88% 22%,#fff,transparent),radial-gradient(1.8px 1.8px at 5% 84%,#fff,transparent),radial-gradient(2.4px 2.4px at 53% 90%,#fff,transparent),radial-gradient(1.8px 1.8px at 36% 40%,#fff,transparent),radial-gradient(1.8px 1.8px at 93% 58%,#fff,transparent);opacity:.7}
 .nsky.st::after{content:"";position:absolute;inset:0;background-image:radial-gradient(2px 2px at 18% 34%,#fff,transparent),radial-gradient(2px 2px at 72% 22%,#fff,transparent),radial-gradient(2px 2px at 86% 62%,#fff,transparent),radial-gradient(1.6px 1.6px at 40% 78%,#fff,transparent);animation:ntw 7s ease-in-out infinite alternate}
 @keyframes ntw{from{opacity:.15}to{opacity:.95}}
 .nd,.ns{position:absolute;top:-12vh;will-change:transform}
@@ -399,18 +399,19 @@ body.eco .fi{filter:none!important}
 @keyframes nsnow{50%{transform:translate3d(3vw,62vh,0)}to{transform:translate3d(-2vw,122vh,0)}}
 .nfl{position:absolute;inset:0;background:#8fa0ff;opacity:0;animation:nflash 13s linear infinite}
 @keyframes nflash{0%,95%{opacity:0}96%{opacity:.07}97%{opacity:0}98%{opacity:.05}100%{opacity:0}}
-#nmoon{inset:auto;top:6vh;right:7vw;width:min(11vw,84px);height:min(11vw,84px);opacity:.8}#nmoon svg{width:100%;height:100%}
-#nic{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:min(2.4vh,22px);transition:transform 4s ease;text-align:center}
-#nit{display:flex;align-items:baseline;justify-content:center;font-size:min(25vw,31vh);font-weight:200;letter-spacing:-.045em;line-height:.9;color:rgba(255,255,255,.88);font-variant-numeric:tabular-nums}
-.ncn{margin:0 .02em;opacity:.55}#nap{font-size:.17em;font-weight:500;letter-spacing:0;margin-left:.2em;opacity:.6;text-transform:uppercase}
-#nid{font-size:min(3.6vw,4.6vh);font-weight:500;color:rgba(255,255,255,.58);letter-spacing:.01em}
-#niw{display:flex;align-items:center;gap:min(2vw,20px);margin-top:min(1.6vh,14px);color:rgba(255,255,255,.72)}
-#niw svg{width:min(8vw,70px);height:min(8vw,70px);opacity:.85}#niw b{font-size:min(7vw,64px);font-weight:300;letter-spacing:-.03em}
-#niw .nd2{text-align:left;font-size:min(2.6vw,24px);font-weight:600;line-height:1.25}#niw small{display:block;font-size:.72em;font-weight:500;color:rgba(255,255,255,.5)}
-#nih{display:flex;gap:min(4.5vw,44px);margin-top:min(1.4vh,12px);color:rgba(255,255,255,.55)}
-#nih div{display:flex;flex-direction:column;align-items:center;gap:4px;font-size:min(2.1vw,19px);font-weight:500}#nih svg{width:min(5.4vw,44px);height:min(5.4vw,44px);opacity:.8}#nih b{font-weight:600;color:rgba(255,255,255,.75)}#nih i{font-style:normal;font-size:.82em;color:rgba(130,190,255,.75);min-height:1.1em}
-#nto{display:flex;align-items:center;gap:min(1.6vw,16px);margin-top:min(1.6vh,14px);padding:min(1vh,9px) min(2.4vw,24px);border-radius:999px;background:rgba(255,255,255,.055);color:rgba(255,255,255,.6);font-size:min(2.2vw,20px);font-weight:500}.ntl{text-transform:uppercase;letter-spacing:.1em;font-size:.7em;color:rgba(255,255,255,.4)}#nto svg{width:1.9em;height:1.9em;opacity:.85}#nto b{color:rgba(255,255,255,.82);font-weight:600}
-#ngear{position:absolute;right:max(22px,env(safe-area-inset-right));bottom:max(22px,env(safe-area-inset-bottom));width:48px;height:48px;border-radius:50%;display:grid;place-items:center;color:rgba(255,255,255,.4)}#ngear svg{width:22px;height:22px}
+#nmoon{inset:auto;top:6vh;right:7vw;width:min(12vw,110px);height:min(12vw,110px);opacity:calc(var(--nb)*.95);filter:sepia(.85) saturate(1.7) hue-rotate(-12deg)}#nmoon svg{width:100%;height:100%}
+#nic{position:absolute;inset:0 0 min(7vh,60px) 0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:min(2.4vh,22px);transition:transform 4s ease;text-align:center}
+#nit{display:flex;align-items:baseline;justify-content:center;font-size:min(23vw,26vh);font-weight:200;letter-spacing:-.045em;line-height:.9;color:rgba(var(--nc),calc(.2 + var(--nb)*.75));font-variant-numeric:tabular-nums}
+.ncn{margin:0 .02em;opacity:.55}#nap{font-size:.17em;font-weight:500;letter-spacing:0;margin-left:.2em;opacity:.7;text-transform:uppercase}
+#nid{font-size:min(3.8vw,4.8vh);font-weight:500;color:rgba(var(--nc),calc(.15 + var(--nb)*.6));letter-spacing:.01em}
+#nic svg{filter:sepia(.85) saturate(1.8) hue-rotate(-14deg);opacity:calc(.3 + var(--nb)*.7)}
+#niw{display:flex;align-items:center;gap:min(2.6vw,28px);margin-top:min(1.6vh,14px);color:rgba(var(--nc),calc(.15 + var(--nb)*.7))}
+#niw svg{width:min(14vw,13vh,140px);height:min(14vw,13vh,140px)}#niw b{font-size:min(10vw,11vh,112px);font-weight:300;letter-spacing:-.03em}
+#niw .nd2{text-align:left;font-size:min(3.6vw,4.2vh);font-weight:600;line-height:1.2}#niw small{display:block;font-size:.66em;font-weight:500;color:rgba(var(--nc),calc(.1 + var(--nb)*.5))}
+#nih{display:flex;gap:min(4.6vw,48px);margin-top:min(1.6vh,14px);color:rgba(var(--nc),calc(.12 + var(--nb)*.55))}
+#nih div{display:flex;flex-direction:column;align-items:center;gap:min(1vh,8px);font-size:min(3vw,3.4vh);font-weight:500}#nih svg{width:min(9.2vw,9vh,92px);height:min(9.2vw,9vh,92px)}#nih b{font-weight:600;color:rgba(var(--nc),calc(.15 + var(--nb)*.7))}#nih i{font-style:normal;font-size:.84em;color:rgba(var(--nc),calc(.12 + var(--nb)*.55));min-height:1.1em}
+#nto{display:flex;align-items:center;gap:min(2vw,20px);margin-top:min(1.8vh,16px);padding:min(1.2vh,10px) min(3vw,30px);border-radius:999px;background:rgba(var(--nc),calc(var(--nb)*.1));color:rgba(var(--nc),calc(.12 + var(--nb)*.55));font-size:min(3vw,3.4vh);font-weight:500}.ntl{text-transform:uppercase;letter-spacing:.1em;font-size:.66em;color:rgba(var(--nc),calc(.1 + var(--nb)*.4))}#nto svg{width:2em;height:2em}#nto b{color:rgba(var(--nc),calc(.15 + var(--nb)*.7));font-weight:600}
+#ngear{position:absolute;right:max(22px,env(safe-area-inset-right));bottom:max(22px,env(safe-area-inset-bottom));width:48px;height:48px;border-radius:50%;display:grid;place-items:center;color:rgba(var(--nc),calc(var(--nb)*.5))}#ngear svg{width:22px;height:22px}
 #nhint{position:absolute;left:0;right:0;bottom:max(26px,env(safe-area-inset-bottom));text-align:center;font-size:13px;letter-spacing:.06em;color:rgba(255,255,255,.22)}
 /* ---------- Settings: iPad Settings app look (split view, inset grouped lists, system controls) ---------- */
 #dlg{padding:0;border:0;background:transparent;color:#fff;width:min(900px,94vw);height:min(760px,86vh);max-width:none;max-height:none;overflow:visible;font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text","SF Pro Display",system-ui,sans-serif;-webkit-font-smoothing:antialiased}
@@ -550,6 +551,8 @@ input{width:100%;font:inherit;color:#eaf1fb;background:#08101f;border:1px solid 
         <div class="st-g"><label class="st-row"><span class="st-l">Night screen</span><span class="st-sw"><input type="checkbox" id="c_n"><i></i></span></label>
         <div class="st-cx" id="stncx"><div><label class="st-row"><span class="st-l">From</span><input class="st-tm" id="k8" type="time"></label><label class="st-row"><span class="st-l">Back to widgets at</span><input class="st-tm" id="k9" type="time"></label></div></div></div>
         <p class="st-f">The clock goes full screen and dim between these times. Tap the screen to bring the widgets back for 45 seconds.</p>
+        <div class="st-g st-gs"><div class="st-seg" data-t="c_nb" style="--n:4"><i class="st-th"></i><button type="button" data-v="25">Dimmest</button><button type="button" data-v="50">Dim</button><button type="button" data-v="75">Medium</button><button type="button" data-v="100">Bright</button></div></div>
+        <p class="st-f">Night screen brightness. Everything turns warm amber so it never lights the room.</p><input id="c_nb" type="hidden">
       </div>
       <div class="st-pane" data-p="noti" data-t="Notifications">
         <h1 class="st-lt">Notifications</h1>
@@ -1207,6 +1210,7 @@ async function reddit(){
   tmRender();
 }
 function niteRender(){
+  $('nite').style.setProperty('--nb',Math.max(.15,Math.min(1,(+LS.g('nbr','50')||50)/100)));
   const p=aklParts();$('nth').textContent=p.hour;$('ntn').textContent=p.minute;$('nap').textContent=p.dayPeriod||'';$('nid').textContent=FND.format(new Date());
   const w=IS.W;if(!w){$('niw').innerHTML='';$('nih').innerHTML='';return}
   $('niw').innerHTML=ic(w.kind,w.day)+'<b>'+w.t+'°</b><div class="nd2">'+esc(w.lab)+'<small>H '+w.hi+'° · L '+w.lo+'° · Feels '+w.fl+'°</small></div>';
@@ -1214,7 +1218,7 @@ function niteRender(){
   $('nih').innerHTML=w.h.slice(0,5).map(x=>'<div><span>'+x.l+'</span>'+ic(x.k,x.d)+'<b>'+x.t+'°</b><i>'+(x.p>=20?x.p+'%':'')+'</i></div>').join('');
 }
 function niteSky(){
-  const w=IS.W,k=w?w.kind:'sun',night=w?!w.day:true,sig=k+(night?'n':'d');if(sig===DM.sig)return;DM.sig=sig;
+  const w=IS.W,k=w?w.kind:'sun',night=true,sig=k+(night?'n':'d');if(sig===DM.sig)return;DM.sig=sig;
   const sk=$('nsky');sk.className='nsky'+(night&&NSTAR[k]?' st':'')+(k==='fog'?' fg':'')+(k==='cloud'||k==='part'||k==='rain'||k==='storm'||k==='snow'?' cl':'');
   const f=fxFor(w?WX.code:0),n=Math.max(10,Math.min(34,Math.round(f[1]/9)));let h='';
   if(f[0]==='rain'||f[0]==='storm')for(let i=0;i<n;i++)h+='<i class="nd" style="left:'+(Math.random()*108).toFixed(1)+'%;animation-duration:'+(1.5+Math.random()*1.4).toFixed(2)+'s;animation-delay:-'+(Math.random()*3).toFixed(2)+'s;opacity:'+(.45+Math.random()*.5).toFixed(2)+'"></i>';
@@ -1403,13 +1407,13 @@ function loadSet(){const c=cfg(),set=(id,v)=>{$(id).value=v},chk=(id,v)=>{$(id).
   set('k1',c.at);set('k3',c.fh);set('k4',c.stop);set('k5',c.routes);set('k7',c.walk);set('k8',LS.g('dimOn','22:00')||LS.g('dimOn0','22:00'));set('k9',LS.g('dimOff','05:30'));set('k12',LS.g('cmOn','06:30'));set('k13',LS.g('cmOff','09:00'));set('k10',LS.g('vfav',''));set('k11',LS.g('vreg',''));
   chk('c_n',!!LS.g('dimOn','22:00'));$('stncx').classList.toggle('off',!$('c_n').checked);
   chk('c_w',LS.g('n_weather','1')!=='0');chk('c_s',LS.g('n_stocks','1')!=='0');chk('c_v',LS.g('n_valorant','1')!=='0');chk('c_t',LS.g('n_transport','1')!=='0');
-  set('c_gap',LS.g('ngap','30'));set('c_qf',LS.g('qFrom','22:00'));set('c_qt',LS.g('qTo','07:00'));chk('c_eco',LS.g('eco','1')==='1');chk('c_fx',LS.g('fx','0')==='1');
+  set('c_gap',LS.g('ngap','30'));set('c_nb',LS.g('nbr','50'));set('c_qf',LS.g('qFrom','22:00'));set('c_qt',LS.g('qTo','07:00'));chk('c_eco',LS.g('eco','1')==='1');chk('c_fx',LS.g('fx','0')==='1');
   document.querySelectorAll('.st-seg').forEach(s=>segSync(s,true));document.querySelectorAll('.st-stp').forEach(stpSync);stSnap=stConn();stDot()}
 function commit(){clearTimeout(stT);const g=id=>$(id).value,on=id=>$(id).checked?'1':'0';
   LS.s('at',g('k1').trim());LS.s('fh',g('k3').trim());LS.s('stop',g('k4').trim()||'8274');LS.s('routes',g('k5'));LS.s('walk',g('k7').trim()||'4');
   const f=g('k8')||'22:00';LS.s('dimOn',$('c_n').checked?f:'');LS.s('dimOn0',f);LS.s('dimOff',g('k9'));LS.s('cmOn',g('k12')||'06:30');LS.s('cmOff',g('k13')||'09:00');dpApply();LS.s('vfav',g('k10').trim());LS.s('vreg',g('k11'));
   LS.s('n_weather',on('c_w'));LS.s('n_stocks',on('c_s'));LS.s('n_valorant',on('c_v'));LS.s('n_transport',on('c_t'));
-  LS.s('ngap',g('c_gap'));LS.s('qFrom',g('c_qf'));LS.s('qTo',g('c_qt'));LS.s('eco',on('c_eco'));LS.s('fx',on('c_fx'));
+  LS.s('ngap',g('c_gap'));LS.s('nbr',g('c_nb')||'50');if(DM.on)niteRender();LS.s('qFrom',g('c_qf'));LS.s('qTo',g('c_qt'));LS.s('eco',on('c_eco'));LS.s('fx',on('c_fx'));
   valFilter();valRender();applyEco();fxSet(FM,FN);fxStart();dimCalc();
   const cs=stConn();if(cs!==stSnap){stSnap=cs;stopPos=null;buses();stocks(true)}}
 const qSave=ms=>{clearTimeout(stT);stT=setTimeout(commit,ms)};
