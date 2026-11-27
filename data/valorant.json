@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T14:26:42.190Z",
+ "updated": "2026-11-27T14:27:01.186Z",
  "live": [],
  "upcoming": [
   {
@@ -491,10 +491,6 @@
      ]
     }
    ],
-   "tg": [
-    "GODL",
-    "RNTX"
-   ],
    "vt": [
     [
      "x",
@@ -534,7 +530,11 @@
    ],
    "bo": "3",
    "smt": 1795789597569,
-   "et": 1795789598770
+   "et": 1795789598770,
+   "tg": [
+    "GODL",
+    "RNTX"
+   ]
   },
   {
    "id": "793807",
@@ -4001,7 +4001,7 @@
   {
    "t": "ONSIDE rebrands to ToBe, announces full roster",
    "d": "ONSIDE rebrands to ToBe, or not to be?",
-   "ts": 1795694400000,
+   "ts": 1795780800000,
    "url": "https://www.vlr.gg/794974/onside-rebrands-to-tobe-announces-full-roster"
   },
   {
