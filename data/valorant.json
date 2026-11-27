@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T21:42:47.562Z",
+ "updated": "2026-11-27T21:43:18.767Z",
  "live": [
   {
    "id": "794996",
@@ -25,10 +25,10 @@
      "st": "d"
     },
     {
-     "n": "TBD",
-     "a": 0,
-     "b": 0,
-     "st": "l"
+     "n": "Sunset",
+     "a": 13,
+     "b": 5,
+     "st": "d"
     }
    ],
    "evu": "/event/3233/vct-2027-emea-kickoff-europe-qualifier-playoffs/swiss-stage",
@@ -40,11 +40,11 @@
       "ag": ""
      },
      {
-      "n": "MONSTEERR",
+      "n": "Proxh",
       "ag": ""
      },
      {
-      "n": "Proxh",
+      "n": "MONSTEERR",
       "ag": ""
      },
      {
@@ -58,15 +58,11 @@
     ],
     "b": [
      {
-      "n": "lux9",
-      "ag": ""
-     },
-     {
-      "n": "soren",
-      "ag": ""
-     },
-     {
       "n": "izana",
+      "ag": ""
+     },
+     {
+      "n": "askoo",
       "ag": ""
      },
      {
@@ -74,7 +70,11 @@
       "ag": ""
      },
      {
-      "n": "askoo",
+      "n": "lux9",
+      "ag": ""
+     },
+     {
+      "n": "soren",
       "ag": ""
      }
     ]
@@ -525,6 +525,566 @@
   }
  ],
  "results": [
+  {
+   "id": "794996",
+   "a": "Barça eSports",
+   "b": "La Masia",
+   "sa": "2",
+   "sb": "1",
+   "ev": "VCT 2027: EMEA Kickoff - Europe Qualifier Playoffs",
+   "ph": "Swiss Stage–Round 3 (1-1)",
+   "ts": 1795805400000,
+   "url": "https://www.vlr.gg/794996/bar-a-esports-vs-la-masia-vct-2027-emea-kickoff-europe-qualifier-playoffs-swiss-stage-r3-1-1",
+   "mp": [
+    {
+     "n": "Bind",
+     "a": 14,
+     "b": 12
+    },
+    {
+     "n": "Lotus",
+     "a": 12,
+     "b": 14
+    },
+    {
+     "n": "Sunset",
+     "a": 13,
+     "b": 5
+    }
+   ],
+   "sm": [
+    {
+     "n": "Bind",
+     "a": 14,
+     "b": 12,
+     "pa": [
+      {
+       "n": "MONSTEERR",
+       "k": 22,
+       "d": 16,
+       "a": 7,
+       "ag": "viper"
+      },
+      {
+       "n": "purp0",
+       "k": 20,
+       "d": 17,
+       "a": 4,
+       "ag": "chamber"
+      },
+      {
+       "n": "Proxh",
+       "k": 20,
+       "d": 20,
+       "a": 14,
+       "ag": "brimstone"
+      },
+      {
+       "n": "Pa1ze",
+       "k": 20,
+       "d": 22,
+       "a": 10,
+       "ag": "raze"
+      },
+      {
+       "n": "Fit1nho",
+       "k": 17,
+       "d": 17,
+       "a": 6,
+       "ag": "skye"
+      }
+     ],
+     "pb": [
+      {
+       "n": "soren",
+       "k": 23,
+       "d": 20,
+       "a": 1,
+       "ag": "viper"
+      },
+      {
+       "n": "lux9",
+       "k": 23,
+       "d": 23,
+       "a": 1,
+       "ag": "raze"
+      },
+      {
+       "n": "askoo",
+       "k": 16,
+       "d": 20,
+       "a": 16,
+       "ag": "brimstone"
+      },
+      {
+       "n": "nayte",
+       "k": 15,
+       "d": 17,
+       "a": 8,
+       "ag": "skye"
+      },
+      {
+       "n": "izana",
+       "k": 15,
+       "d": 19,
+       "a": 3,
+       "ag": "chamber"
+      }
+     ],
+     "rd": [
+      [
+       "a",
+       "d"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "t"
+      ],
+      [
+       "a",
+       "t"
+      ],
+      [
+       "b",
+       "b"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "b"
+      ],
+      [
+       "a",
+       "d"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "d"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "t"
+      ],
+      [
+       "b",
+       "d"
+      ],
+      [
+       "b",
+       "d"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "a",
+       "b"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "b",
+       "d"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "a",
+       "d"
+      ],
+      [
+       "a",
+       "e"
+      ]
+     ]
+    },
+    {
+     "n": "Lotus",
+     "a": 12,
+     "b": 14,
+     "pa": [
+      {
+       "n": "purp0",
+       "k": 22,
+       "d": 16,
+       "a": 3,
+       "ag": "chamber"
+      },
+      {
+       "n": "Pa1ze",
+       "k": 22,
+       "d": 17,
+       "a": 10,
+       "ag": "raze"
+      },
+      {
+       "n": "Proxh",
+       "k": 17,
+       "d": 20,
+       "a": 7,
+       "ag": "omen"
+      },
+      {
+       "n": "MONSTEERR",
+       "k": 14,
+       "d": 20,
+       "a": 7,
+       "ag": "viper"
+      },
+      {
+       "n": "Fit1nho",
+       "k": 12,
+       "d": 18,
+       "a": 6,
+       "ag": "fade"
+      }
+     ],
+     "pb": [
+      {
+       "n": "lux9",
+       "k": 20,
+       "d": 17,
+       "a": 6,
+       "ag": "raze"
+      },
+      {
+       "n": "izana",
+       "k": 20,
+       "d": 17,
+       "a": 4,
+       "ag": "chamber"
+      },
+      {
+       "n": "askoo",
+       "k": 20,
+       "d": 18,
+       "a": 5,
+       "ag": "fade"
+      },
+      {
+       "n": "soren",
+       "k": 17,
+       "d": 19,
+       "a": 6,
+       "ag": "viper"
+      },
+      {
+       "n": "nayte",
+       "k": 14,
+       "d": 16,
+       "a": 13,
+       "ag": "omen"
+      }
+     ],
+     "rd": [
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "b"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "a",
+       "d"
+      ],
+      [
+       "a",
+       "t"
+      ],
+      [
+       "a",
+       "t"
+      ],
+      [
+       "a",
+       "d"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "a",
+       "d"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "d"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "d"
+      ],
+      [
+       "a",
+       "b"
+      ],
+      [
+       "a",
+       "b"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "b"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ]
+     ]
+    },
+    {
+     "n": "Sunset",
+     "a": 13,
+     "b": 5,
+     "pa": [
+      {
+       "n": "purp0",
+       "k": 20,
+       "d": 8,
+       "a": 2,
+       "ag": "chamber"
+      },
+      {
+       "n": "Proxh",
+       "k": 17,
+       "d": 12,
+       "a": 16,
+       "ag": "omen"
+      },
+      {
+       "n": "Pa1ze",
+       "k": 15,
+       "d": 12,
+       "a": 5,
+       "ag": "neon"
+      },
+      {
+       "n": "MONSTEERR",
+       "k": 14,
+       "d": 10,
+       "a": 9,
+       "ag": "sage"
+      },
+      {
+       "n": "Fit1nho",
+       "k": 12,
+       "d": 10,
+       "a": 4,
+       "ag": "fade"
+      }
+     ],
+     "pb": [
+      {
+       "n": "izana",
+       "k": 20,
+       "d": 14,
+       "a": 2,
+       "ag": "chamber"
+      },
+      {
+       "n": "askoo",
+       "k": 11,
+       "d": 16,
+       "a": 4,
+       "ag": "sova"
+      },
+      {
+       "n": "lux9",
+       "k": 10,
+       "d": 18,
+       "a": 7,
+       "ag": "neon"
+      },
+      {
+       "n": "nayte",
+       "k": 6,
+       "d": 15,
+       "a": 7,
+       "ag": "omen"
+      },
+      {
+       "n": "soren",
+       "k": 5,
+       "d": 15,
+       "a": 6,
+       "ag": "sage"
+      }
+     ],
+     "rd": [
+      [
+       "a",
+       "d"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "d"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "a",
+       "d"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "b"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "b"
+      ],
+      [
+       "a",
+       "b"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ]
+     ]
+    }
+   ],
+   "tg": [
+    "BAR",
+    "MSA"
+   ],
+   "bo": "3",
+   "smt": 1795815794092,
+   "et": 1795815795293
+  },
   {
    "id": "794997",
    "a": "GIANTX",
@@ -4271,364 +4831,6 @@
     "KRN",
     "SGN"
    ]
-  },
-  {
-   "id": "792043",
-   "a": "Fluxo W7M",
-   "b": "ELEVATE",
-   "sa": "0",
-   "sb": "2",
-   "ev": "VCT 2027: America Kickoff - Brazil Qualifier Playoffs",
-   "ph": "Playoffs–Upper Quarterfinals",
-   "ts": 1795734000000,
-   "url": "https://www.vlr.gg/792043/fluxo-w7m-vs-elevate-vct-2027-america-kickoff-brazil-qualifier-playoffs-ubqf",
-   "mp": [
-    {
-     "n": "Lotus",
-     "a": 8,
-     "b": 13
-    },
-    {
-     "n": "Corrode",
-     "a": 7,
-     "b": 13
-    }
-   ],
-   "sm": [
-    {
-     "n": "Lotus",
-     "a": 8,
-     "b": 13,
-     "pa": [
-      {
-       "n": "Palla",
-       "k": 18,
-       "d": 17,
-       "a": 7,
-       "ag": "waylay"
-      },
-      {
-       "n": "qck",
-       "k": 14,
-       "d": 15,
-       "a": 1,
-       "ag": "yoru"
-      },
-      {
-       "n": "jzz",
-       "k": 13,
-       "d": 13,
-       "a": 0,
-       "ag": "vyse"
-      },
-      {
-       "n": "mazin",
-       "k": 12,
-       "d": 14,
-       "a": 9,
-       "ag": "fade"
-      },
-      {
-       "n": "tuyz",
-       "k": 3,
-       "d": 16,
-       "a": 8,
-       "ag": "omen"
-      }
-     ],
-     "pb": [
-      {
-       "n": "Brinks",
-       "k": 19,
-       "d": 10,
-       "a": 6,
-       "ag": "omen"
-      },
-      {
-       "n": "dth",
-       "k": 18,
-       "d": 12,
-       "a": 7,
-       "ag": "viper"
-      },
-      {
-       "n": "kon4n",
-       "k": 15,
-       "d": 12,
-       "a": 6,
-       "ag": "fade"
-      },
-      {
-       "n": "maestr0",
-       "k": 12,
-       "d": 11,
-       "a": 4,
-       "ag": "raze"
-      },
-      {
-       "n": "Zap",
-       "k": 11,
-       "d": 15,
-       "a": 6,
-       "ag": "vyse"
-      }
-     ],
-     "rd": [
-      [
-       "b",
-       "d"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "b"
-      ],
-      [
-       "a",
-       "b"
-      ],
-      [
-       "b",
-       "d"
-      ],
-      [
-       "a",
-       "b"
-      ],
-      [
-       "b",
-       "d"
-      ],
-      [
-       "b",
-       "t"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "b",
-       "b"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "b"
-      ]
-     ]
-    },
-    {
-     "n": "Corrode",
-     "a": 7,
-     "b": 13,
-     "pa": [
-      {
-       "n": "Palla",
-       "k": 21,
-       "d": 16,
-       "a": 5,
-       "ag": "neon"
-      },
-      {
-       "n": "tuyz",
-       "k": 13,
-       "d": 15,
-       "a": 7,
-       "ag": "omen"
-      },
-      {
-       "n": "mazin",
-       "k": 10,
-       "d": 14,
-       "a": 7,
-       "ag": "fade"
-      },
-      {
-       "n": "jzz",
-       "k": 10,
-       "d": 15,
-       "a": 1,
-       "ag": "viper"
-      },
-      {
-       "n": "qck",
-       "k": 4,
-       "d": 16,
-       "a": 3,
-       "ag": "yoru"
-      }
-     ],
-     "pb": [
-      {
-       "n": "maestr0",
-       "k": 24,
-       "d": 10,
-       "a": 5,
-       "ag": "neon"
-      },
-      {
-       "n": "Brinks",
-       "k": 18,
-       "d": 10,
-       "a": 8,
-       "ag": "omen"
-      },
-      {
-       "n": "dth",
-       "k": 15,
-       "d": 14,
-       "a": 3,
-       "ag": "viper"
-      },
-      {
-       "n": "Zap",
-       "k": 10,
-       "d": 14,
-       "a": 10,
-       "ag": "kayo"
-      },
-      {
-       "n": "kon4n",
-       "k": 9,
-       "d": 10,
-       "a": 9,
-       "ag": "fade"
-      }
-     ],
-     "rd": [
-      [
-       "a",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "d"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "b"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "t"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "d"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ]
-     ]
-    }
-   ],
-   "bo": "3",
-   "smt": 1795741502298,
-   "et": 1795741503498,
-   "tg": [
-    "FX",
-    "ELV"
-   ]
   }
  ],
  "news": [
@@ -4682,7 +4884,6 @@
   "Mandatory": "https://owcdn.net/img/695c961fbab82.png",
   "SÓ TEM VELHO": "",
   "Fluxo W7M": "https://owcdn.net/img/6a76a37807aad.png",
-  "ELEVATE": "https://owcdn.net/img/65990c8ab7c2b.png",
   "GodLike Esports": "https://owcdn.net/img/63ebaa91f0e07.png",
   "Revenant XSpark": "https://owcdn.net/img/6a20030faecd7.png",
   "Enterprise Esports": "https://owcdn.net/img/68643d0b1c72b.png",
@@ -4722,7 +4923,6 @@
   "WIP Esports": "#0722ad",
   "Mandatory": "#ea1d37",
   "Fluxo W7M": "#7e00c9",
-  "ELEVATE": "#d82027",
   "GodLike Esports": "#edb74d",
   "Revenant XSpark": "#dbb657",
   "Enterprise Esports": "#ea2043",
@@ -5185,6 +5385,15 @@
  ],
  "fr": [
   {
+   "id": "794996",
+   "a": "Barça eSports",
+   "b": "La Masia",
+   "sa": "2",
+   "sb": "1",
+   "ev": "VCT 2027: EMEA Kickoff - Europe Qualifier Playoffs",
+   "ts": 1795805400000
+  },
+  {
    "id": "794997",
    "a": "GIANTX",
    "b": "WIP Esports",
@@ -5624,15 +5833,6 @@
    "sb": "2",
    "ev": "VCT 2027: Pacific Kickoff - South Asia Qualifier",
    "ts": 1795445100000
-  },
-  {
-   "id": "793795",
-   "a": "GodLike Esports",
-   "b": "Trigger Point Esports",
-   "sa": "2",
-   "sb": "0",
-   "ev": "VCT 2027: Pacific Kickoff - South Asia Qualifier",
-   "ts": 1795437900000
   }
  ],
  "rd": [],
