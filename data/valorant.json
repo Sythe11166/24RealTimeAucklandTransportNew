@@ -1,25 +1,92 @@
 {
- "updated": "2026-11-27T09:29:27.419Z",
- "live": [],
- "upcoming": [
+ "updated": "2026-11-27T09:31:07.329Z",
+ "live": [
   {
    "id": "793807",
    "a": "Kryon Esports",
    "b": "SIGN Esports",
-   "sa": "–",
-   "sb": "–",
+   "sa": "0",
+   "sb": "0",
    "ev": "VCT 2027: Pacific Kickoff - South Asia Qualifier",
    "ph": "Playoffs–Lower Round 3",
    "ts": 1795771800000,
    "url": "https://www.vlr.gg/793807/kryon-esports-vs-sign-esports-vct-2027-pacific-kickoff-south-asia-qualifier-lr3",
+   "mp": [
+    {
+     "n": "TBD",
+     "a": 0,
+     "b": 0,
+     "st": "l"
+    },
+    {
+     "n": "TBD",
+     "st": "n"
+    },
+    {
+     "n": "TBD",
+     "st": "n"
+    }
+   ],
+   "evu": "/event/3206/vct-2027-pacific-kickoff-south-asia-qualifier/playoffs",
+   "bo": "3",
    "h2h": {
     "a": 1,
     "b": 1
    },
-   "bo": "3",
-   "evu": "/event/3206/vct-2027-pacific-kickoff-south-asia-qualifier/playoffs",
-   "fz": 1
-  },
+   "pl": {
+    "a": [
+     {
+      "n": "r1seN",
+      "ag": ""
+     },
+     {
+      "n": "Trinity",
+      "ag": ""
+     },
+     {
+      "n": "Kohliii",
+      "ag": ""
+     },
+     {
+      "n": "Rinsat",
+      "ag": ""
+     },
+     {
+      "n": "Dpwhyyy",
+      "ag": ""
+     }
+    ],
+    "b": [
+     {
+      "n": "Russ",
+      "ag": ""
+     },
+     {
+      "n": "tricky",
+      "ag": ""
+     },
+     {
+      "n": "Garv",
+      "ag": ""
+     },
+     {
+      "n": "Deadly10",
+      "ag": ""
+     },
+     {
+      "n": "Yuvi",
+      "ag": ""
+     }
+    ]
+   },
+   "tg": [
+    "KRN",
+    "SGN"
+   ],
+   "nk": 1
+  }
+ ],
+ "upcoming": [
   {
    "id": "793801",
    "a": "GodLike Esports",
@@ -61,7 +128,10 @@
    "ev": "VCT 2027: EMEA Kickoff - Europe Qualifier Playoffs",
    "ph": "Swiss Stage–Round 3 (1-1)",
    "ts": 1795795200000,
-   "url": "https://www.vlr.gg/794999/mir-vs-f9-eicar-vct-2027-emea-kickoff-europe-qualifier-playoffs-swiss-stage-r3-1-1"
+   "url": "https://www.vlr.gg/794999/mir-vs-f9-eicar-vct-2027-emea-kickoff-europe-qualifier-playoffs-swiss-stage-r3-1-1",
+   "bo": "3",
+   "evu": "/event/3233/vct-2027-emea-kickoff-europe-qualifier-playoffs/swiss-stage",
+   "fz": 1
   },
   {
    "id": "795000",
@@ -150,6 +220,17 @@
    "ph": "Playoffs–Upper Quarterfinals",
    "ts": 1795809600000,
    "url": "https://www.vlr.gg/792044/team-solid-vs-brasil2002-vct-2027-america-kickoff-brazil-qualifier-playoffs-ubqf"
+  },
+  {
+   "id": "794842",
+   "a": "University War",
+   "b": "9z Globant",
+   "sa": "–",
+   "sb": "–",
+   "ev": "VCT 2027: America Kickoff - LATAM South Qualifier Playoffs",
+   "ph": "Playoffs–Upper Semifinals",
+   "ts": 1795816800000,
+   "url": "https://www.vlr.gg/794842/university-war-vs-9z-globant-vct-2027-america-kickoff-latam-south-qualifier-playoffs-ubsf"
   }
  ],
  "results": [
@@ -3946,7 +4027,9 @@
   "UCAM Esports Club": "https://owcdn.net/img/5f7f77ef1e2f0.png",
   "CGN Esports": "https://owcdn.net/img/60defafec983c.png",
   "F9 EICAR": "https://owcdn.net/img/6873c999c300f.png",
-  "Barça eSports": "https://owcdn.net/img/65843488833d1.png"
+  "Barça eSports": "https://owcdn.net/img/65843488833d1.png",
+  "xXxMasterProMegaTeamxXx": "",
+  "Pixel Lumina": "https://owcdn.net/img/6a9c93fa8e858.png"
  },
  "colors": {
   "SIGN Esports": "#f36c21",
@@ -3970,7 +4053,8 @@
   "UCAM Esports Club": "#e3aa09",
   "CGN Esports": "",
   "F9 EICAR": "",
-  "Barça eSports": "#d8ae03"
+  "Barça eSports": "#d8ae03",
+  "Pixel Lumina": ""
  },
  "agents": {
   "gekko": {
@@ -4106,7 +4190,7 @@
   "u": "/event/3185/vct-2027-america-kickoff-latam-south-qualifier-playoffs/playoffs",
   "rg": "Americas",
   "ev": "VCT 2027: America Kickoff - LATAM South Qualifier Playoffs",
-  "at": 1795770798285,
+  "at": 1795771864574,
   "r": [
    {
     "r": "Round 1 (0-0)",
@@ -4270,13 +4354,6 @@
  },
  "fu": [
   {
-   "id": "793807",
-   "a": "Kryon Esports",
-   "b": "SIGN Esports",
-   "ev": "VCT 2027: Pacific Kickoff - South Asia Qualifier",
-   "ts": 1795771800000
-  },
-  {
    "id": "793801",
    "a": "GodLike Esports",
    "b": "Revenant XSpark",
@@ -4393,14 +4470,14 @@
    "a": "Misa Esports",
    "b": "Fire Flux Esports",
    "ev": "VCT 2027: EMEA Kickoff - Türkiye Qualifier",
-   "ts": 1795962600000
+   "ts": 1795959000000
   },
   {
    "id": "793641",
    "a": "team apanthe",
    "b": "Beşiktaş Esports",
    "ev": "VCT 2027: EMEA Kickoff - Türkiye Qualifier",
-   "ts": 1795973400000
+   "ts": 1795969800000
   },
   {
    "id": "792048",
