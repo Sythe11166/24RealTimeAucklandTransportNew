@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T19:42:55.536Z",
+ "updated": "2026-11-27T19:44:35.323Z",
  "live": [
   {
    "id": "795001",
@@ -169,7 +169,7 @@
    "id": "794996",
    "a": "Barça eSports",
    "b": "La Masia",
-   "sa": "0",
+   "sa": "1",
    "sb": "0",
    "ev": "VCT 2027: EMEA Kickoff - Europe Qualifier Playoffs",
    "ph": "Swiss Stage–Round 3 (1-1)",
@@ -177,14 +177,16 @@
    "url": "https://www.vlr.gg/794996/bar-a-esports-vs-la-masia-vct-2027-emea-kickoff-europe-qualifier-playoffs-swiss-stage-r3-1-1",
    "mp": [
     {
+     "n": "Bind",
+     "a": 14,
+     "b": 12,
+     "st": "d"
+    },
+    {
      "n": "TBD",
      "a": 0,
      "b": 0,
      "st": "l"
-    },
-    {
-     "n": "TBD",
-     "st": "n"
     },
     {
      "n": "TBD",
@@ -4817,7 +4819,7 @@
   "u": "/event/3233/vct-2027-emea-kickoff-europe-qualifier-playoffs/swiss-stage",
   "rg": "EMEA",
   "ev": "VCT 2027: EMEA Kickoff - Europe Qualifier Playoffs",
-  "at": 1795808377794,
+  "at": 1795808674025,
   "r": [
    {
     "r": "Round 1 (0-0)",
@@ -4973,7 +4975,7 @@
      [
       "Barça eSports",
       "La Masia",
-      0,
+      1,
       0,
       "l"
      ]
