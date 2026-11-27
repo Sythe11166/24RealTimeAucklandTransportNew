@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T18:02:46.262Z",
+ "updated": "2026-11-27T18:04:27.341Z",
  "live": [
   {
    "id": "794998",
@@ -192,7 +192,7 @@
     },
     {
      "n": "Haven",
-     "a": 7,
+     "a": 9,
      "b": 9,
      "st": "l"
     },
@@ -350,10 +350,18 @@
     ],
     [
      "a",
-     "e"
+     "d"
     ],
     [
      "b",
+     "b"
+    ],
+    [
+     "a",
+     "d"
+    ],
+    [
+     "a",
      "e"
     ]
    ],
@@ -4512,7 +4520,7 @@
   "u": "/event/3206/vct-2027-pacific-kickoff-south-asia-qualifier/playoffs",
   "rg": "Pacific",
   "ev": "VCT 2027: Pacific Kickoff - South Asia Qualifier",
-  "at": 1795802343884,
+  "at": 1795802666049,
   "r": [
    {
     "r": "Round 1",
