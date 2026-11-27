@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T18:48:47.638Z",
+ "updated": "2026-11-27T18:50:26.978Z",
  "live": [
   {
    "id": "795000",
@@ -27,7 +27,7 @@
     {
      "n": "Sunset",
      "a": 3,
-     "b": 7,
+     "b": 8,
      "st": "l"
     }
    ],
@@ -161,6 +161,10 @@
     [
      "a",
      "e"
+    ],
+    [
+     "b",
+     "e"
     ]
    ],
    "rdm": "Sunset"
@@ -244,23 +248,89 @@
     "PXL"
    ],
    "nk": 1
-  }
- ],
- "upcoming": [
+  },
   {
    "id": "794996",
    "a": "Barça eSports",
    "b": "La Masia",
-   "sa": "–",
-   "sb": "–",
+   "sa": "0",
+   "sb": "0",
    "ev": "VCT 2027: EMEA Kickoff - Europe Qualifier Playoffs",
    "ph": "Swiss Stage–Round 3 (1-1)",
    "ts": 1795805400000,
    "url": "https://www.vlr.gg/794996/bar-a-esports-vs-la-masia-vct-2027-emea-kickoff-europe-qualifier-playoffs-swiss-stage-r3-1-1",
-   "bo": "3",
+   "mp": [
+    {
+     "n": "TBD",
+     "a": 0,
+     "b": 0,
+     "st": "l"
+    },
+    {
+     "n": "TBD",
+     "st": "n"
+    },
+    {
+     "n": "TBD",
+     "st": "n"
+    }
+   ],
    "evu": "/event/3233/vct-2027-emea-kickoff-europe-qualifier-playoffs/swiss-stage",
-   "fz": 1
-  },
+   "bo": "3",
+   "pl": {
+    "a": [
+     {
+      "n": "purp0",
+      "ag": ""
+     },
+     {
+      "n": "MONSTEERR",
+      "ag": ""
+     },
+     {
+      "n": "Proxh",
+      "ag": ""
+     },
+     {
+      "n": "Pa1ze",
+      "ag": ""
+     },
+     {
+      "n": "Fit1nho",
+      "ag": ""
+     }
+    ],
+    "b": [
+     {
+      "n": "lux9",
+      "ag": ""
+     },
+     {
+      "n": "soren",
+      "ag": ""
+     },
+     {
+      "n": "izana",
+      "ag": ""
+     },
+     {
+      "n": "nayte",
+      "ag": ""
+     },
+     {
+      "n": "askoo",
+      "ag": ""
+     }
+    ]
+   },
+   "tg": [
+    "BAR",
+    "MSA"
+   ],
+   "nk": 1
+  }
+ ],
+ "upcoming": [
   {
    "id": "794841",
    "a": "EL LEGADO",
@@ -298,7 +368,14 @@
    "ev": "VCT 2027: EMEA Kickoff - Europe Qualifier Playoffs",
    "ph": "Swiss Stage–Round 3 (2-0)",
    "ts": 1795807800000,
-   "url": "https://www.vlr.gg/795002/joblife-vs-natus-vincere-junior-vct-2027-emea-kickoff-europe-qualifier-playoffs-swiss-stage-r3-2-0"
+   "url": "https://www.vlr.gg/795002/joblife-vs-natus-vincere-junior-vct-2027-emea-kickoff-europe-qualifier-playoffs-swiss-stage-r3-2-0",
+   "h2h": {
+    "a": 1,
+    "b": 0
+   },
+   "bo": "3",
+   "evu": "/event/3233/vct-2027-emea-kickoff-europe-qualifier-playoffs/swiss-stage",
+   "fz": 1
   },
   {
    "id": "792044",
@@ -387,6 +464,17 @@
    "ph": "Playoffs–Upper Semifinals",
    "ts": 1795913400000,
    "url": "https://www.vlr.gg/794181/fuego-vs-chivas-esports-vct-2027-america-kickoff-latam-north-qualifier-playoffs-ubsf"
+  },
+  {
+   "id": "793636",
+   "a": "Misa Esports",
+   "b": "Fire Flux Esports",
+   "sa": "–",
+   "sb": "–",
+   "ev": "VCT 2027: EMEA Kickoff - Türkiye Qualifier",
+   "ph": "Playoffs–Elimination (A)",
+   "ts": 1795960200000,
+   "url": "https://www.vlr.gg/793636/misa-esports-vs-fire-flux-esports-vct-2027-emea-kickoff-t-rkiye-qualifier-playoffs-elim-a"
   }
  ],
  "results": [
@@ -4683,13 +4771,6 @@
  },
  "fu": [
   {
-   "id": "794996",
-   "a": "Barça eSports",
-   "b": "La Masia",
-   "ev": "VCT 2027: EMEA Kickoff - Europe Qualifier Playoffs",
-   "ts": 1795805400000
-  },
-  {
    "id": "794841",
    "a": "EL LEGADO",
    "b": "ARG.MIX",
@@ -5121,7 +5202,7 @@
    "sa": "2",
    "sb": "1",
    "ev": "VCT 2027: Pacific Kickoff - South Asia Qualifier",
-   "ts": 1795611000000
+   "ts": 1795607400000
   },
   {
    "id": "793804",
