@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T19:52:53.825Z",
+ "updated": "2026-11-27T19:54:55.288Z",
  "live": [
   {
    "id": "794997",
@@ -4862,7 +4862,7 @@
   "u": "/event/3233/vct-2027-emea-kickoff-europe-qualifier-playoffs/swiss-stage",
   "rg": "EMEA",
   "ev": "VCT 2027: EMEA Kickoff - Europe Qualifier Playoffs",
-  "at": 1795808972202,
+  "at": 1795809293977,
   "r": [
    {
     "r": "Round 1 (0-0)",
@@ -5058,7 +5058,7 @@
       "Natus Vincere Junior",
       0,
       0,
-      "u"
+      "l"
      ]
     ]
    }
@@ -5549,7 +5549,7 @@
    "sa": "0",
    "sb": "2",
    "ev": "VCT 2027: EMEA Kickoff - Türkiye Qualifier",
-   "ts": 1795542900000
+   "ts": 1795539300000
   },
   {
    "id": "793633",
