@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T16:30:50.261Z",
+ "updated": "2026-11-27T16:32:28.862Z",
  "live": [
   {
    "id": "794998",
@@ -178,7 +178,7 @@
    "mp": [
     {
      "n": "Bind",
-     "a": 5,
+     "a": 6,
      "b": 6,
      "st": "l"
     },
@@ -321,6 +321,10 @@
     [
      "b",
      "e"
+    ],
+    [
+     "a",
+     "b"
     ],
     [
      "a",
@@ -4619,7 +4623,7 @@
   "u": "/event/3206/vct-2027-pacific-kickoff-south-asia-qualifier/playoffs",
   "rg": "Pacific",
   "ev": "VCT 2027: Pacific Kickoff - South Asia Qualifier",
-  "at": 1795796854534,
+  "at": 1795797147554,
   "r": [
    {
     "r": "Round 1",
