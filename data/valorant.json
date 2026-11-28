@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-28T08:50:02.455Z",
+ "updated": "2026-11-28T08:51:39.212Z",
  "live": [
   {
    "id": "790437",
    "a": "MeatZn",
    "b": "Finishers",
    "sa": "0",
-   "sb": "0",
+   "sb": "1",
    "ev": "VCT 2027: Pacific Kickoff - Oceania Qualifier",
    "ph": "Playoffs–Lower Final",
    "ts": 1795852800000,
@@ -14,13 +14,15 @@
    "mp": [
     {
      "n": "Abyss",
-     "a": 0,
-     "b": 0,
-     "st": "l"
+     "a": 8,
+     "b": 13,
+     "st": "d"
     },
     {
      "n": "Sunset",
-     "st": "n"
+     "a": 0,
+     "b": 0,
+     "st": "l"
     },
     {
      "n": "Summit",
