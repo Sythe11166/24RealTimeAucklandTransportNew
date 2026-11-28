@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-28T10:18:21.435Z",
+ "updated": "2026-11-28T10:21:32.502Z",
  "live": [
   {
    "id": "790437",
    "a": "MeatZn",
    "b": "Finishers",
-   "sa": "0",
+   "sa": "1",
    "sb": "1",
    "ev": "VCT 2027: Pacific Kickoff - Oceania Qualifier",
    "ph": "Playoffs–Lower Final",
@@ -20,13 +20,15 @@
     },
     {
      "n": "Sunset",
-     "a": 0,
-     "b": 0,
-     "st": "l"
+     "a": 15,
+     "b": 13,
+     "st": "d"
     },
     {
      "n": "Summit",
-     "st": "n"
+     "a": 0,
+     "b": 0,
+     "st": "l"
     }
    ],
    "evu": "/event/3205/vct-2027-pacific-kickoff-oceania-qualifier/playoffs",
