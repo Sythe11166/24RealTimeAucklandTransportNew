@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T11:14:01.158Z",
+ "updated": "2026-11-28T11:17:12.485Z",
  "live": [
   {
    "id": "793808",
@@ -4794,6 +4794,12 @@
  ],
  "news": [
   {
+   "t": "VARREL adds Ash, Jinboong, Raxcal, Jovi in offseason rebuild",
+   "d": "VARREL returns two players and its head coach, but adds four new faces in a large-scale rebuild.",
+   "ts": 1795867200000,
+   "url": "https://www.vlr.gg/795486/varrel-adds-ash-jinboong-raxcal-jovi-in-offseason-rebuild"
+  },
+  {
    "t": "Dragon Ranger Gaming picks up lucas",
    "d": "lucas finds his second stop in VCT CN, landing with the Dragons.",
    "ts": 1795867200000,
@@ -4822,12 +4828,6 @@
    "d": "A six-man roster for Eintracht Frankfurt.",
    "ts": 1795780800000,
    "url": "https://www.vlr.gg/795017/eintracht-frankfurt-adds-foe-bipo-amcar-assistant-coach-fields"
-  },
-  {
-   "t": "lukxo and erde leave LOUD as champions",
-   "d": "The two highest-rated players from Champions Shanghai depart LOUD.",
-   "ts": 1795780800000,
-   "url": "https://www.vlr.gg/795014/lukxo-and-erde-leave-loud-as-champions"
   }
  ],
  "logos": {
@@ -5015,7 +5015,7 @@
   "u": "/event/3183/vct-2027-america-kickoff-brazil-qualifier-playoffs/playoffs",
   "rg": "Americas",
   "ev": "VCT 2027: America Kickoff - Brazil Qualifier Playoffs",
-  "at": 1795864248771,
+  "at": 1795864631154,
   "r": [
    {
     "r": "Round 1 (0-0)",
