@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T09:32:44.315Z",
+ "updated": "2026-11-28T09:34:21.141Z",
  "live": [
   {
    "id": "790437",
@@ -136,22 +136,67 @@
    "url": "https://www.vlr.gg/793808/godlike-esports-vs-kryon-esports-vct-2027-pacific-kickoff-south-asia-qualifier-lbf",
    "mp": [
     {
-     "n": "TBD",
+     "n": "Bind",
      "a": 0,
      "b": 0,
      "st": "l"
     },
     {
-     "n": "TBD",
+     "n": "Lotus",
      "st": "n"
     },
     {
-     "n": "TBD",
+     "n": "Haven",
+     "st": "n"
+    },
+    {
+     "n": "Abyss",
+     "st": "n"
+    },
+    {
+     "n": "Corrode",
      "st": "n"
     }
    ],
    "evu": "/event/3206/vct-2027-pacific-kickoff-south-asia-qualifier/playoffs",
-   "bo": "3",
+   "bo": "5",
+   "vt": [
+    [
+     "x",
+     "GODL",
+     "Summit"
+    ],
+    [
+     "x",
+     "KRN",
+     "Sunset"
+    ],
+    [
+     "p",
+     "GODL",
+     "Bind"
+    ],
+    [
+     "p",
+     "KRN",
+     "Lotus"
+    ],
+    [
+     "p",
+     "GODL",
+     "Haven"
+    ],
+    [
+     "p",
+     "KRN",
+     "Abyss"
+    ],
+    [
+     "d",
+     "",
+     "Corrode"
+    ]
+   ],
    "h2h": {
     "a": 0,
     "b": 1
