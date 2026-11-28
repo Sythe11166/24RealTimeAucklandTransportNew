@@ -1,131 +1,6 @@
 {
- "updated": "2026-11-28T11:09:11.455Z",
+ "updated": "2026-11-28T11:10:50.105Z",
  "live": [
-  {
-   "id": "790437",
-   "a": "MeatZn",
-   "b": "Finishers",
-   "sa": "1",
-   "sb": "1",
-   "ev": "VCT 2027: Pacific Kickoff - Oceania Qualifier",
-   "ph": "Playoffs–Lower Final",
-   "ts": 1795852800000,
-   "url": "https://www.vlr.gg/790437/meatzn-vs-finishers-vct-2027-pacific-kickoff-oceania-qualifier-lbf",
-   "mp": [
-    {
-     "n": "Abyss",
-     "a": 8,
-     "b": 13,
-     "st": "d"
-    },
-    {
-     "n": "Sunset",
-     "a": 15,
-     "b": 13,
-     "st": "d"
-    },
-    {
-     "n": "Summit",
-     "a": 0,
-     "b": 0,
-     "st": "l"
-    }
-   ],
-   "evu": "/event/3205/vct-2027-pacific-kickoff-oceania-qualifier/playoffs",
-   "bo": "3",
-   "vt": [
-    [
-     "x",
-     "FIN",
-     "Haven"
-    ],
-    [
-     "x",
-     "MZN",
-     "Lotus"
-    ],
-    [
-     "p",
-     "FIN",
-     "Abyss"
-    ],
-    [
-     "p",
-     "MZN",
-     "Sunset"
-    ],
-    [
-     "x",
-     "FIN",
-     "Corrode"
-    ],
-    [
-     "x",
-     "MZN",
-     "Bind"
-    ],
-    [
-     "d",
-     "",
-     "Summit"
-    ]
-   ],
-   "h2h": {
-    "a": 2,
-    "b": 0
-   },
-   "pl": {
-    "a": [
-     {
-      "n": "FETA",
-      "ag": ""
-     },
-     {
-      "n": "Blessed",
-      "ag": ""
-     },
-     {
-      "n": "Swifty",
-      "ag": ""
-     },
-     {
-      "n": "BiggieCheese",
-      "ag": ""
-     },
-     {
-      "n": "RESLYDE",
-      "ag": ""
-     }
-    ],
-    "b": [
-     {
-      "n": "onob",
-      "ag": ""
-     },
-     {
-      "n": "ROKI",
-      "ag": ""
-     },
-     {
-      "n": "RAMEN",
-      "ag": ""
-     },
-     {
-      "n": "benguin",
-      "ag": ""
-     },
-     {
-      "n": "Dasani",
-      "ag": ""
-     }
-    ]
-   },
-   "tg": [
-    "MZN",
-    "FIN"
-   ],
-   "nk": 1
-  },
   {
    "id": "793808",
    "a": "GodLike Esports",
@@ -387,6 +262,17 @@
    "url": "https://www.vlr.gg/794181/fuego-vs-chivas-esports-vct-2027-america-kickoff-latam-north-qualifier-playoffs-ubsf"
   },
   {
+   "id": "790435",
+   "a": "Bonkers",
+   "b": "MeatZn",
+   "sa": "–",
+   "sb": "–",
+   "ev": "VCT 2027: Pacific Kickoff - Oceania Qualifier",
+   "ph": "Playoffs–Grand Final",
+   "ts": 1795932000000,
+   "url": "https://www.vlr.gg/790435/bonkers-vs-meatzn-vct-2027-pacific-kickoff-oceania-qualifier-gf"
+  },
+  {
    "id": "793636",
    "a": "Misa Esports",
    "b": "Fire Flux Esports",
@@ -396,20 +282,622 @@
    "ph": "Playoffs–Elimination (A)",
    "ts": 1795961400000,
    "url": "https://www.vlr.gg/793636/misa-esports-vs-fire-flux-esports-vct-2027-emea-kickoff-t-rkiye-qualifier-playoffs-elim-a"
-  },
-  {
-   "id": "793641",
-   "a": "team apanthe",
-   "b": "Beşiktaş Esports",
-   "sa": "–",
-   "sb": "–",
-   "ev": "VCT 2027: EMEA Kickoff - Türkiye Qualifier",
-   "ph": "Playoffs–Elimination (B)",
-   "ts": 1795972200000,
-   "url": "https://www.vlr.gg/793641/team-apanthe-vs-be-ikta-esports-vct-2027-emea-kickoff-t-rkiye-qualifier-playoffs-elim-b"
   }
  ],
  "results": [
+  {
+   "id": "790437",
+   "a": "MeatZn",
+   "b": "Finishers",
+   "sa": "2",
+   "sb": "1",
+   "ev": "VCT 2027: Pacific Kickoff - Oceania Qualifier",
+   "ph": "Playoffs–Lower Final",
+   "ts": 1795852800000,
+   "url": "https://www.vlr.gg/790437/meatzn-vs-finishers-vct-2027-pacific-kickoff-oceania-qualifier-lbf",
+   "mp": [
+    {
+     "n": "Abyss",
+     "a": 8,
+     "b": 13
+    },
+    {
+     "n": "Sunset",
+     "a": 15,
+     "b": 13
+    },
+    {
+     "n": "Summit",
+     "a": 13,
+     "b": 11
+    }
+   ],
+   "sm": [
+    {
+     "n": "Abyss",
+     "a": 8,
+     "b": 13,
+     "pa": [
+      {
+       "n": "Blessed",
+       "k": 19,
+       "d": 15,
+       "a": 7,
+       "ag": "sova"
+      },
+      {
+       "n": "Swifty",
+       "k": 18,
+       "d": 15,
+       "a": 4,
+       "ag": "veto"
+      },
+      {
+       "n": "FETA",
+       "k": 13,
+       "d": 16,
+       "a": 5,
+       "ag": "yoru"
+      },
+      {
+       "n": "RESLYDE",
+       "k": 13,
+       "d": 17,
+       "a": 9,
+       "ag": "hush"
+      },
+      {
+       "n": "BiggieCheese",
+       "k": 11,
+       "d": 16,
+       "a": 7,
+       "ag": "omen"
+      }
+     ],
+     "pb": [
+      {
+       "n": "benguin",
+       "k": 20,
+       "d": 17,
+       "a": 6,
+       "ag": "hush"
+      },
+      {
+       "n": "RAMEN",
+       "k": 16,
+       "d": 12,
+       "a": 4,
+       "ag": "tejo"
+      },
+      {
+       "n": "Dasani",
+       "k": 16,
+       "d": 17,
+       "a": 2,
+       "ag": "iso"
+      },
+      {
+       "n": "ROKI",
+       "k": 14,
+       "d": 14,
+       "a": 4,
+       "ag": "astra"
+      },
+      {
+       "n": "onob",
+       "k": 12,
+       "d": 14,
+       "a": 5,
+       "ag": "chamber"
+      }
+     ],
+     "rd": [
+      [
+       "b",
+       "d"
+      ],
+      [
+       "b",
+       "d"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "t"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "a",
+       "d"
+      ],
+      [
+       "a",
+       "d"
+      ],
+      [
+       "a",
+       "d"
+      ],
+      [
+       "a",
+       "t"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "b"
+      ],
+      [
+       "b",
+       "e"
+      ]
+     ]
+    },
+    {
+     "n": "Sunset",
+     "a": 15,
+     "b": 13,
+     "pa": [
+      {
+       "n": "Blessed",
+       "k": 28,
+       "d": 18,
+       "a": 14,
+       "ag": "fade"
+      },
+      {
+       "n": "FETA",
+       "k": 25,
+       "d": 23,
+       "a": 10,
+       "ag": "sage"
+      },
+      {
+       "n": "RESLYDE",
+       "k": 21,
+       "d": 24,
+       "a": 12,
+       "ag": "neon"
+      },
+      {
+       "n": "BiggieCheese",
+       "k": 19,
+       "d": 21,
+       "a": 10,
+       "ag": "omen"
+      },
+      {
+       "n": "Swifty",
+       "k": 18,
+       "d": 22,
+       "a": 7,
+       "ag": "veto"
+      }
+     ],
+     "pb": [
+      {
+       "n": "benguin",
+       "k": 24,
+       "d": 21,
+       "a": 7,
+       "ag": "sage"
+      },
+      {
+       "n": "onob",
+       "k": 24,
+       "d": 23,
+       "a": 4,
+       "ag": "chamber"
+      },
+      {
+       "n": "Dasani",
+       "k": 24,
+       "d": 24,
+       "a": 11,
+       "ag": "neon"
+      },
+      {
+       "n": "ROKI",
+       "k": 19,
+       "d": 22,
+       "a": 18,
+       "ag": "omen"
+      },
+      {
+       "n": "RAMEN",
+       "k": 17,
+       "d": 21,
+       "a": 10,
+       "ag": "fade"
+      }
+     ],
+     "rd": [
+      [
+       "a",
+       "d"
+      ],
+      [
+       "a",
+       "d"
+      ],
+      [
+       "a",
+       "d"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "d"
+      ],
+      [
+       "a",
+       "d"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "d"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "d"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "d"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "b",
+       "d"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ]
+     ]
+    },
+    {
+     "n": "Summit",
+     "a": 13,
+     "b": 11,
+     "pa": [
+      {
+       "n": "Blessed",
+       "k": 25,
+       "d": 14,
+       "a": 8,
+       "ag": "fade"
+      },
+      {
+       "n": "Swifty",
+       "k": 19,
+       "d": 13,
+       "a": 4,
+       "ag": "veto"
+      },
+      {
+       "n": "BiggieCheese",
+       "k": 14,
+       "d": 15,
+       "a": 15,
+       "ag": "omen"
+      },
+      {
+       "n": "FETA",
+       "k": 13,
+       "d": 20,
+       "a": 8,
+       "ag": "sage"
+      },
+      {
+       "n": "RESLYDE",
+       "k": 12,
+       "d": 20,
+       "a": 6,
+       "ag": "neon"
+      }
+     ],
+     "pb": [
+      {
+       "n": "onob",
+       "k": 23,
+       "d": 17,
+       "a": 2,
+       "ag": "chamber"
+      },
+      {
+       "n": "benguin",
+       "k": 19,
+       "d": 17,
+       "a": 6,
+       "ag": "yoru"
+      },
+      {
+       "n": "Dasani",
+       "k": 18,
+       "d": 20,
+       "a": 4,
+       "ag": "neon"
+      },
+      {
+       "n": "RAMEN",
+       "k": 12,
+       "d": 13,
+       "a": 7,
+       "ag": "fade"
+      },
+      {
+       "n": "ROKI",
+       "k": 10,
+       "d": 16,
+       "a": 16,
+       "ag": "omen"
+      }
+     ],
+     "rd": [
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "t"
+      ],
+      [
+       "b",
+       "d"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "d"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "b"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "b",
+       "d"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "d"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "d"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ],
+      [
+       "a",
+       "d"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "b",
+       "e"
+      ],
+      [
+       "a",
+       "e"
+      ]
+     ]
+    }
+   ],
+   "tg": [
+    "MZN",
+    "FIN"
+   ],
+   "vt": [
+    [
+     "x",
+     "FIN",
+     "Haven"
+    ],
+    [
+     "x",
+     "MZN",
+     "Lotus"
+    ],
+    [
+     "p",
+     "FIN",
+     "Abyss"
+    ],
+    [
+     "p",
+     "MZN",
+     "Sunset"
+    ],
+    [
+     "x",
+     "FIN",
+     "Corrode"
+    ],
+    [
+     "x",
+     "MZN",
+     "Bind"
+    ],
+    [
+     "d",
+     "",
+     "Summit"
+    ]
+   ],
+   "h2h": {
+    "a": 2,
+    "b": 0
+   },
+   "bo": "3",
+   "smt": 1795864245583,
+   "et": 1795864246785
+  },
   {
    "id": "792045",
    "a": "2Game Esports",
@@ -4302,635 +4790,6 @@
     "MIR",
     "F9"
    ]
-  },
-  {
-   "id": "795000",
-   "a": "Aurora Gaming",
-   "b": "Mandatory",
-   "sa": "1",
-   "sb": "2",
-   "ev": "VCT 2027: EMEA Kickoff - Europe Qualifier Playoffs",
-   "ph": "Swiss Stage–Round 3 (0-2)",
-   "ts": 1795795200000,
-   "url": "https://www.vlr.gg/795000/aurora-gaming-vs-mandatory-vct-2027-emea-kickoff-europe-qualifier-playoffs-swiss-stage-r3-0-2",
-   "mp": [
-    {
-     "n": "Bind",
-     "a": 14,
-     "b": 16
-    },
-    {
-     "n": "Haven",
-     "a": 13,
-     "b": 9
-    },
-    {
-     "n": "Sunset",
-     "a": 12,
-     "b": 14
-    }
-   ],
-   "sm": [
-    {
-     "n": "Bind",
-     "a": 14,
-     "b": 16,
-     "pa": [
-      {
-       "n": "trexx",
-       "k": 31,
-       "d": 18,
-       "a": 4,
-       "ag": "fade"
-      },
-      {
-       "n": "Derke",
-       "k": 23,
-       "d": 25,
-       "a": 5,
-       "ag": "raze"
-      },
-      {
-       "n": "B1SK",
-       "k": 17,
-       "d": 20,
-       "a": 5,
-       "ag": "yoru"
-      },
-      {
-       "n": "Boo",
-       "k": 16,
-       "d": 21,
-       "a": 8,
-       "ag": "brimstone"
-      },
-      {
-       "n": "chiwa",
-       "k": 13,
-       "d": 20,
-       "a": 7,
-       "ag": "viper"
-      }
-     ],
-     "pb": [
-      {
-       "n": "MiniBoo",
-       "k": 30,
-       "d": 21,
-       "a": 6,
-       "ag": "raze"
-      },
-      {
-       "n": "Veqaj",
-       "k": 22,
-       "d": 20,
-       "a": 4,
-       "ag": "yoru"
-      },
-      {
-       "n": "runneR",
-       "k": 21,
-       "d": 19,
-       "a": 7,
-       "ag": "viper"
-      },
-      {
-       "n": "starxo",
-       "k": 18,
-       "d": 22,
-       "a": 13,
-       "ag": "fade"
-      },
-      {
-       "n": "Kicks",
-       "k": 13,
-       "d": 18,
-       "a": 22,
-       "ag": "brimstone"
-      }
-     ],
-     "rd": [
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "t"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "b"
-      ],
-      [
-       "b",
-       "t"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "a",
-       "b"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "b",
-       "b"
-      ],
-      [
-       "b",
-       "b"
-      ],
-      [
-       "b",
-       "b"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "b",
-       "b"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "a",
-       "d"
-      ],
-      [
-       "b",
-       "t"
-      ],
-      [
-       "a",
-       "d"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "a",
-       "t"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ]
-     ]
-    },
-    {
-     "n": "Haven",
-     "a": 13,
-     "b": 9,
-     "pa": [
-      {
-       "n": "Derke",
-       "k": 29,
-       "d": 13,
-       "a": 3,
-       "ag": "jett"
-      },
-      {
-       "n": "trexx",
-       "k": 18,
-       "d": 11,
-       "a": 8,
-       "ag": "sova"
-      },
-      {
-       "n": "chiwa",
-       "k": 18,
-       "d": 13,
-       "a": 10,
-       "ag": "cypher"
-      },
-      {
-       "n": "Boo",
-       "k": 8,
-       "d": 17,
-       "a": 7,
-       "ag": "omen"
-      },
-      {
-       "n": "B1SK",
-       "k": 8,
-       "d": 18,
-       "a": 3,
-       "ag": "neon"
-      }
-     ],
-     "pb": [
-      {
-       "n": "runneR",
-       "k": 23,
-       "d": 16,
-       "a": 9,
-       "ag": "cypher"
-      },
-      {
-       "n": "Kicks",
-       "k": 13,
-       "d": 14,
-       "a": 11,
-       "ag": "omen"
-      },
-      {
-       "n": "starxo",
-       "k": 12,
-       "d": 15,
-       "a": 9,
-       "ag": "sova"
-      },
-      {
-       "n": "MiniBoo",
-       "k": 12,
-       "d": 18,
-       "a": 2,
-       "ag": "jett"
-      },
-      {
-       "n": "Veqaj",
-       "k": 12,
-       "d": 18,
-       "a": 5,
-       "ag": "neon"
-      }
-     ],
-     "rd": [
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "d"
-      ],
-      [
-       "a",
-       "b"
-      ],
-      [
-       "b",
-       "d"
-      ],
-      [
-       "a",
-       "b"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "a",
-       "d"
-      ],
-      [
-       "b",
-       "b"
-      ],
-      [
-       "a",
-       "d"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "d"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "d"
-      ]
-     ]
-    },
-    {
-     "n": "Sunset",
-     "a": 12,
-     "b": 14,
-     "pa": [
-      {
-       "n": "Derke",
-       "k": 28,
-       "d": 20,
-       "a": 6,
-       "ag": "neon"
-      },
-      {
-       "n": "B1SK",
-       "k": 21,
-       "d": 18,
-       "a": 3,
-       "ag": "chamber"
-      },
-      {
-       "n": "trexx",
-       "k": 19,
-       "d": 16,
-       "a": 11,
-       "ag": "fade"
-      },
-      {
-       "n": "Boo",
-       "k": 13,
-       "d": 20,
-       "a": 8,
-       "ag": "omen"
-      },
-      {
-       "n": "chiwa",
-       "k": 13,
-       "d": 20,
-       "a": 8,
-       "ag": "sage"
-      }
-     ],
-     "pb": [
-      {
-       "n": "MiniBoo",
-       "k": 27,
-       "d": 20,
-       "a": 4,
-       "ag": "neon"
-      },
-      {
-       "n": "runneR",
-       "k": 21,
-       "d": 16,
-       "a": 6,
-       "ag": "cypher"
-      },
-      {
-       "n": "Kicks",
-       "k": 17,
-       "d": 18,
-       "a": 13,
-       "ag": "omen"
-      },
-      {
-       "n": "starxo",
-       "k": 16,
-       "d": 19,
-       "a": 9,
-       "ag": "fade"
-      },
-      {
-       "n": "Veqaj",
-       "k": 13,
-       "d": 21,
-       "a": 18,
-       "ag": "kayo"
-      }
-     ],
-     "rd": [
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "d"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "b"
-      ],
-      [
-       "b",
-       "b"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "a",
-       "d"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "b"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "b"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "a",
-       "b"
-      ],
-      [
-       "b",
-       "d"
-      ],
-      [
-       "a",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ],
-      [
-       "b",
-       "e"
-      ]
-     ]
-    }
-   ],
-   "vt": [
-    [
-     "x",
-     "MDR",
-     "Summit"
-    ],
-    [
-     "x",
-     "AURA",
-     "Corrode"
-    ],
-    [
-     "p",
-     "MDR",
-     "Bind"
-    ],
-    [
-     "p",
-     "AURA",
-     "Haven"
-    ],
-    [
-     "x",
-     "MDR",
-     "Lotus"
-    ],
-    [
-     "x",
-     "AURA",
-     "Abyss"
-    ],
-    [
-     "d",
-     "",
-     "Sunset"
-    ]
-   ],
-   "bo": "3",
-   "smt": 1795807751129,
-   "et": 1795807752330,
-   "tg": [
-    "AURA",
-    "MDR"
-   ]
   }
  ],
  "news": [
@@ -4977,7 +4836,6 @@
   "Joblife": "https://owcdn.net/img/63a944e6cbe49.png",
   "Kryon Esports": "https://owcdn.net/img/6a82a3d1c3505.png",
   "GIANTX": "https://owcdn.net/img/657b2f3fcd199.png",
-  "Aurora Gaming": "https://owcdn.net/img/6af4cc31af5f5.png",
   "WIP Esports": "https://owcdn.net/img/695c9c861fe80.png",
   "Mandatory": "https://owcdn.net/img/695c961fbab82.png",
   "SÓ TEM VELHO": "",
@@ -5006,7 +4864,6 @@
   "Joblife": "",
   "Kryon Esports": "#f73034",
   "GIANTX": "",
-  "Aurora Gaming": "#0fc8bd",
   "WIP Esports": "#0722ad",
   "Mandatory": "#ea1d37",
   "Fluxo W7M": "#7e00c9",
@@ -5155,68 +5012,68 @@
  },
  "vct": "https://owcdn.net/img/640f5ae002674.png",
  "br": {
-  "u": "/event/3233/vct-2027-emea-kickoff-europe-qualifier-playoffs/swiss-stage",
-  "rg": "EMEA",
-  "ev": "VCT 2027: EMEA Kickoff - Europe Qualifier Playoffs",
-  "at": 1795864147761,
+  "u": "/event/3183/vct-2027-america-kickoff-brazil-qualifier-playoffs/playoffs",
+  "rg": "Americas",
+  "ev": "VCT 2027: America Kickoff - Brazil Qualifier Playoffs",
+  "at": 1795864248771,
   "r": [
    {
     "r": "Round 1 (0-0)",
     "m": [
      [
-      "UCAM Esports Club",
-      "CGN Esports",
-      2,
-      1,
-      "d"
-     ],
-     [
-      "Natus Vincere Junior",
-      "Aurora Gaming",
-      2,
-      1,
-      "d"
-     ],
-     [
-      "Mandatory",
-      "Barça eSports",
-      0,
-      2,
-      "d"
-     ],
-     [
-      "GIANTX",
-      "Pixel Lumina",
+      "Fluxo W7M",
+      "0 intelecto",
       2,
       0,
       "d"
      ],
      [
-      "Eintracht Frankfurt",
-      "F9 EICAR",
-      2,
-      1,
-      "d"
-     ],
-     [
-      "Enterprise Esports",
-      "xXxMasterProMegaTeamxXx",
+      "2Game Esports",
+      "Master Bank",
       2,
       0,
       "d"
      ],
      [
-      "MIR",
-      "La Masia",
+      "Team Solid",
+      "ARRANCA DREAMS",
+      2,
       1,
+      "d"
+     ],
+     [
+      "Next",
+      "SÓ TEM VELHO",
+      0,
       2,
       "d"
      ],
      [
-      "Joblife",
-      "WIP Esports",
+      "ELEVATE",
+      "Piranhas do Caribe",
       2,
       0,
+      "d"
+     ],
+     [
+      "Manticore",
+      "Arashi",
+      2,
+      0,
+      "d"
+     ],
+     [
+      "BRASIL2002",
+      "TIME DO B3M",
+      2,
+      1,
+      "d"
+     ],
+     [
+      "GANGUE",
+      "Mafiosos",
+      0,
+      2,
       "d"
      ]
     ]
@@ -5225,31 +5082,31 @@
     "r": "Round 2 (1-0)",
     "m": [
      [
-      "Enterprise Esports",
-      "UCAM Esports Club",
-      1,
-      2,
-      "d"
-     ],
-     [
-      "Natus Vincere Junior",
-      "Barça eSports",
+      "2Game Esports",
+      "BRASIL2002",
       2,
       1,
       "d"
      ],
      [
-      "Eintracht Frankfurt",
-      "GIANTX",
+      "ELEVATE",
+      "Team Solid",
+      1,
       2,
-      0,
       "d"
      ],
      [
-      "Joblife",
-      "La Masia",
-      2,
+      "Mafiosos",
+      "SÓ TEM VELHO",
       0,
+      2,
+      "d"
+     ],
+     [
+      "Fluxo W7M",
+      "Manticore",
+      2,
+      1,
       "d"
      ]
     ]
@@ -5258,31 +5115,31 @@
     "r": "Round 2 (0-1)",
     "m": [
      [
-      "CGN Esports",
-      "xXxMasterProMegaTeamxXx",
-      2,
-      0,
-      "d"
-     ],
-     [
-      "Pixel Lumina",
-      "F9 EICAR",
+      "TIME DO B3M",
+      "Master Bank",
       0,
       2,
       "d"
      ],
      [
-      "Aurora Gaming",
-      "WIP Esports",
+      "ARRANCA DREAMS",
+      "Piranhas do Caribe",
+      2,
       1,
-      2,
       "d"
      ],
      [
-      "Mandatory",
-      "MIR",
-      0,
+      "Arashi",
+      "0 intelecto",
       2,
+      0,
+      "d"
+     ],
+     [
+      "Next",
+      "GANGUE",
+      2,
+      1,
       "d"
      ]
     ]
@@ -5291,93 +5148,81 @@
     "r": "Round 3 (1-1)",
     "m": [
      [
-      "Enterprise Esports",
-      "CGN Esports",
+      "Manticore",
+      "Next",
       1,
       2,
       "d"
      ],
      [
-      "MIR",
-      "F9 EICAR",
-      1,
+      "ELEVATE",
+      "Arashi",
       2,
+      1,
       "d"
      ],
      [
-      "GIANTX",
-      "WIP Esports",
-      1,
-      2,
-      "d"
-     ],
-     [
-      "Barça eSports",
-      "La Masia",
-      2,
-      1,
-      "d"
-     ]
-    ]
-   },
-   {
-    "r": "Round 3 (0-2)",
-    "m": [
-     [
-      "Aurora Gaming",
-      "Mandatory",
-      1,
-      2,
-      "d"
-     ],
-     [
-      "xXxMasterProMegaTeamxXx",
-      "Pixel Lumina",
-      0,
-      2,
-      "d"
-     ]
-    ]
-   },
-   {
-    "r": "Round 3 (2-0)",
-    "m": [
-     [
-      "Eintracht Frankfurt",
-      "UCAM Esports Club",
+      "BRASIL2002",
+      "ARRANCA DREAMS",
       2,
       0,
       "d"
      ],
      [
-      "Joblife",
-      "Natus Vincere Junior",
-      1,
+      "Mafiosos",
+      "Master Bank",
       2,
+      0,
       "d"
      ]
     ]
    },
    {
-    "r": "Round 4 (2-1)",
+    "r": "Upper Quarterfinals",
     "m": [
      [
-      "CGN Esports",
-      "F9 EICAR",
+      "SÓ TEM VELHO",
+      "Next",
+      1,
+      2,
+      "d"
+     ],
+     [
+      "Fluxo W7M",
+      "ELEVATE",
+      0,
+      2,
+      "d"
+     ],
+     [
+      "Team Solid",
+      "BRASIL2002",
+      2,
+      1,
+      "d"
+     ],
+     [
+      "2Game Esports",
+      "Mafiosos",
+      2,
+      0,
+      "d"
+     ]
+    ]
+   },
+   {
+    "r": "Lower Round 1",
+    "m": [
+     [
+      "SÓ TEM VELHO",
+      "Fluxo W7M",
       0,
       0,
       "u"
      ],
      [
-      "Barça eSports",
-      "Joblife",
-      0,
-      0,
-      "u"
-     ],
-     [
-      "UCAM Esports Club",
-      "WIP Esports",
+      "BRASIL2002",
+      "Mafiosos",
       0,
       0,
       "u"
@@ -5385,25 +5230,85 @@
     ]
    },
    {
-    "r": "Round 4 (1-2)",
+    "r": "Upper Semifinals",
     "m": [
      [
-      "MIR",
-      "Pixel Lumina",
+      "Next",
+      "ELEVATE",
       0,
       0,
       "u"
      ],
      [
-      "Enterprise Esports",
-      "GIANTX",
+      "Team Solid",
+      "2Game Esports",
+      0,
+      0,
+      "u"
+     ]
+    ]
+   },
+   {
+    "r": "Lower Round 2",
+    "m": [
+     [
+      "TBD",
+      "TBD",
       0,
       0,
       "u"
      ],
      [
-      "Mandatory",
-      "La Masia",
+      "TBD",
+      "TBD",
+      0,
+      0,
+      "u"
+     ]
+    ]
+   },
+   {
+    "r": "Upper Final",
+    "m": [
+     [
+      "TBD",
+      "TBD",
+      0,
+      0,
+      "u"
+     ]
+    ]
+   },
+   {
+    "r": "Lower Round 3",
+    "m": [
+     [
+      "TBD",
+      "TBD",
+      0,
+      0,
+      "u"
+     ]
+    ]
+   },
+   {
+    "r": "Lower Final",
+    "m": [
+     [
+      "TBD",
+      "TBD",
+      0,
+      0,
+      "u"
+     ]
+    ]
+   },
+   {
+    "r": "Grand Final",
+    "m": [
+     [
+      "TBD",
+      "TBD",
       0,
       0,
       "u"
@@ -5411,7 +5316,10 @@
     ]
    }
   ],
-  "x": []
+  "x": [
+   "BRASIL2002",
+   "Mafiosos"
+  ]
  },
  "fu": [
   {
@@ -5485,6 +5393,13 @@
    "ts": 1795914000000
   },
   {
+   "id": "790435",
+   "a": "Bonkers",
+   "b": "MeatZn",
+   "ev": "VCT 2027: Pacific Kickoff - Oceania Qualifier",
+   "ts": 1795932000000
+  },
+  {
    "id": "793636",
    "a": "Misa Esports",
    "b": "Fire Flux Esports",
@@ -5556,6 +5471,15 @@
   }
  ],
  "fr": [
+  {
+   "id": "790437",
+   "a": "MeatZn",
+   "b": "Finishers",
+   "sa": "2",
+   "sb": "1",
+   "ev": "VCT 2027: Pacific Kickoff - Oceania Qualifier",
+   "ts": 1795852800000
+  },
   {
    "id": "792045",
    "a": "2Game Esports",
@@ -5996,15 +5920,6 @@
    "sb": "1",
    "ev": "VCT 2027: Pacific Kickoff - South Asia Qualifier",
    "ts": 1795525800000
-  },
-  {
-   "id": "793797",
-   "a": "Revenant XSpark",
-   "b": "GOC Esports",
-   "sa": "2",
-   "sb": "1",
-   "ev": "VCT 2027: Pacific Kickoff - South Asia Qualifier",
-   "ts": 1795515000000
   }
  ],
  "rd": [],
